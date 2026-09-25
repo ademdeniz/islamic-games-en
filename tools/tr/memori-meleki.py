@@ -3,7 +3,7 @@ T = [
     ('<title>Memori – Zaduženja meleka</title>', '<title>Memory – Duties of the Angels</title>'),
     ('<h1>MEMORI – ZADUŽENJA MELEKA</h1>', '<h1>MEMORY – DUTIES OF THE ANGELS</h1>'),
     ('Spoji ime meleka sa njegovim zaduženjem', 'Match each angel (melek / malak) with their duty'),
-    ('Pripremio: <b>', 'Prepared by: <b>'),
+    ('<p class="by">Pripremio: <b>Abdo ef. Rekić</b></p>\n', ''),
     ('Parovi:', 'Pairs:'), ('Pokušaji:', 'Attempts:'), ('Bodovi:', 'Points:'),
     ('🔄 Nova igra', '🔄 New game'),
     ('["DŽIBRIL (DŽEBRAIL)","Dostavljao je Božije objave svim Božijim poslanicima."]',

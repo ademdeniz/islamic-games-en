@@ -5,7 +5,7 @@ T = [
     ('Pokušaji:', 'Attempts:'), ('Parovi:', 'Pairs:'),
     ('Mašallah! 🎉 Pronašao/la si svih 6 parova!', 'MashaAllah! 🎉 You found all 6 pairs!'),
     ('🔄 Nova igra', '🔄 New game'),
-    ('Pripremio: Abdo ef. Rekić', 'Prepared by: Abdo ef. Rekić'),
+    ('<div class="footer">Pripremio: Abdo ef. Rekić</div>\n', ''),
     ('["Amentu billahi","Vjerujem u Allaha, dž.š."]', '["Amantu billahi","I believe in Allah (SWT)."]'),
     ('["Ve melaiketihi","Vjerujem u Allahove meleke."]', '["Wa mala\'ikatihi","I believe in Allah\'s angels (mala\'ika)."]'),
     ('["Ve kutubihi","Vjerujem u Allahove knjige."]', '["Wa kutubihi","I believe in Allah\'s books."]'),

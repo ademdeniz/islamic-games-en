@@ -70,14 +70,14 @@ def build(game):
     check(html)
 
 
-BS_WORDS = re.compile(r'\b(\w*[čćžšđČĆŽŠĐ]\w*|je|su|se|na|za|od|da|sa|ili|ako|koji|koja|kako|nije|sve|svih|igra|igru|'
+BS_WORDS = re.compile(r'\b(Rekić|Pripremio|Prepared by|\w*[čćžšđČĆŽŠĐ]\w*|je|su|se|na|za|od|da|sa|ili|ako|koji|koja|kako|nije|sve|svih|igra|igru|'
                       r'nova|pokusaj|pritisni|dodirni|pitanje|odgovor|bodovi|bodova|bod|zadatak|tacno|netacno|'
                       r'dalje|ponovo|pomoc|kraj|nivo|vrijeme|rezultat|meleki|kviz|znanja|pitanja|tacan|zivotinja|igrica)\b', re.I)
 
 
 def check(html):
     """Report likely untranslated Bosnian words (ignores media, the author's name and Arabic transliteration fields)."""
-    text = re.sub(r'data:[^"\')]+', '', html).replace('Rekić', '')
+    text = re.sub(r'data:[^"\')]+', '', html)
     hits = {}
     for m in BS_WORDS.finditer(text):
         ctx = text[max(0, m.start() - 30):m.end() + 30].replace('\n', ' ')

@@ -5,7 +5,7 @@ T = [
     ('Zadatak: <b', 'Task: <b'), ('Bodovi: <b', 'Points: <b'),
     ('Dodirni prvo slovo, pa posljednje slovo riječi.', 'Tap the first letter, then the last letter of the word.'),
     ('💡 Pomoć −2', '💡 Hint −2'), ('↻ Nova igra', '↻ New game'),
-    ('Pripremio Abdo ef. Rekić', 'Prepared by Abdo ef. Rekić'),
+    ('<div class="ft">Pripremio Abdo ef. Rekić</div>', ''),
     ('["KURAN","Allahova knjiga objavljena Muhammedu, a.s."]', '["QURAN","Allah\'s book revealed to Muhammad (SAW)."]'),
     ('["TEVRAT","Allahova knjiga objavljena Musau, a.s."]', '["TAWRAT","Allah\'s book revealed to Musa (AS) – the Torah."]'),
     ('["ZEBUR","Allahova knjiga objavljena Davudu, a.s."]', '["ZABUR","Allah\'s book revealed to Dawud (AS) – the Psalms."]'),
