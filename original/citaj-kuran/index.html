@@ -1,0 +1,37 @@
+<!doctype html><html lang="bs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Čitaj za učačem – El-Bekare 17–24</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff8e7;color:#17130d;font-family:Arial,sans-serif}
+main{max-width:900px;margin:auto;padding:16px}h1{text-align:center;color:#795718;margin:8px 0}.sub{text-align:center;font-weight:700;margin-bottom:14px}
+.card{background:white;border:3px solid #c99b3e;border-radius:22px;padding:18px;box-shadow:0 7px 22px #0002}
+#arabic{direction:rtl;text-align:center;font-family:"Noto Naskh Arabic","Traditional Arabic",serif;font-size:clamp(38px,9vw,66px);line-height:1.9;min-height:230px;display:flex;align-items:center;justify-content:center}
+#info{text-align:center;font-weight:800;color:#725722}.status{text-align:center;margin:12px;font-size:18px;font-weight:800;color:#176b45;min-height:24px}
+button{width:100%;padding:17px;margin-top:10px;border:0;border-radius:15px;font-size:19px;font-weight:800;cursor:pointer}
+.start{background:#176b45;color:#fff}.again{background:#d8ae53}.next{background:#19140d;color:#fff}.stop{background:#eee1c3}
+.note{text-align:center;margin-top:12px;color:#665a48}.bar{height:13px;background:#eee3cb;border-radius:10px;overflow:hidden;margin-bottom:15px}.bar div{height:100%;background:#c99b3e;width:0}
+</style></head><body><main>
+<h1>📖 Čitaj za učačem</h1><div class="sub">El-Bekare • ajeti 17–24</div>
+<div class="card"><div class="bar"><div id="bar"></div></div><div id="info"></div><div id="arabic"></div>
+<div class="status" id="status">Pritisni „Učač čita“, zatim pročitaj isti dio.</div>
+<button class="start" onclick="playVerse()">🔊 UČAČ ČITA</button>
+<button class="again" onclick="playVerse()">🔁 POSLUŠAJ PONOVO</button>
+<button class="stop" onclick="stopAudio()">⏸ ZAUSTAVI</button>
+<button class="next" onclick="next()">PROČITAO/LA SAM — SLJEDEĆI ➜</button>
+</div><div class="note">Dijete prati tekst očima dok učač uči, zatim isti dio čita naglas.</div>
+<script>
+const x=[
+[17,"مَثَلُهُمْ كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا فَلَمَّا أَضَاءَتْ مَا حَوْلَهُ ذَهَبَ اللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِي ظُلُمَاتٍ لَا يُبْصِرُونَ"],
+[18,"صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَرْجِعُونَ"],
+[19,"أَوْ كَصَيِّبٍ مِنَ السَّمَاءِ فِيهِ ظُلُمَاتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَابِعَهُمْ فِي آذَانِهِمْ مِنَ الصَّوَاعِقِ حَذَرَ الْمَوْتِ وَاللَّهُ مُحِيطٌ بِالْكَافِرِينَ"],
+[20,"يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ كُلَّمَا أَضَاءَ لَهُمْ مَشَوْا فِيهِ وَإِذَا أَظْلَمَ عَلَيْهِمْ قَامُوا وَلَوْ شَاءَ اللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَارِهِمْ إِنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ"],
+[21,"يَا أَيُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ الَّذِي خَلَقَكُمْ وَالَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ"],
+[22,"الَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا وَالسَّمَاءَ بِنَاءً وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَكُمْ فَلَا تَجْعَلُوا لِلَّهِ أَنْدَادًا وَأَنْتُمْ تَعْلَمُونَ"],
+[23,"وَإِنْ كُنْتُمْ فِي رَيْبٍ مِمَّا نَزَّلْنَا عَلَى عَبْدِنَا فَأْتُوا بِسُورَةٍ مِنْ مِثْلِهِ وَادْعُوا شُهَدَاءَكُمْ مِنْ دُونِ اللَّهِ إِنْ كُنْتُمْ صَادِقِينَ"],
+[24,"فَإِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا فَاتَّقُوا النَّارَ الَّتِي وَقُودُهَا النَّاسُ وَالْحِجَارَةُ أُعِدَّتْ لِلْكَافِرِينَ"]];
+let i=0,a=null;
+function render(){document.getElementById("arabic").textContent=x[i][1];document.getElementById("info").textContent="Ajet "+x[i][0]+" • "+(i+1)+" od "+x.length;document.getElementById("bar").style.width=((i+1)/x.length*100)+"%";document.getElementById("status").textContent='Pritisni „Učač čita“, prati tekst, pa ga pročitaj naglas.'}
+function playVerse(){stopAudio();let n=String(x[i][0]).padStart(3,"0");a=new Audio("https://everyayah.com/data/Alafasy_128kbps/002"+n+".mp3");document.getElementById("status").textContent="👂 Slušaj i prati tekst očima…";a.onended=()=>document.getElementById("status").textContent="🗣️ Sada ti pročitaj isti ajet naglas.";a.play().catch(()=>document.getElementById("status").textContent="Zvuk nije pokrenut. Provjeri internet vezu.")}
+function stopAudio(){if(a){a.pause();a.currentTime=0}}
+function next(){stopAudio();if(i<x.length-1){i++;render()}else{document.getElementById("status").textContent="🌟 Bravo! Pročitao/la si ajete 17–24.";document.querySelector(".next").disabled=true}}
+render();
+</script></main></body></html>

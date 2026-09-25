@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Memori – Imanski šarti</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#063b2b,#0b6847);color:white;min-height:100vh}
+.wrap{max-width:900px;margin:auto;padding:18px}
+h1{text-align:center;margin:5px 0 4px;font-size:clamp(26px,5vw,42px);color:#ffd86b}
+.sub{text-align:center;margin:0 0 14px;font-size:16px}
+.info{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:10px 0 16px;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{height:145px;perspective:900px;cursor:pointer}
+.inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.card.flip .inner,.card.matched .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;border-radius:16px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;backface-visibility:hidden;border:3px solid #e7bd54;box-shadow:0 5px 14px #0005}
+.front{background:linear-gradient(145deg,#132b24,#071813);font-size:42px;color:#e7bd54}
+.back{background:#fff;color:#173b2e;transform:rotateY(180deg);font-weight:bold;font-size:clamp(14px,2.5vw,19px)}
+.matched .back{background:#dff7df}
+button{display:block;margin:20px auto 8px;border:0;border-radius:12px;padding:12px 24px;font-size:17px;font-weight:bold;background:#ffd86b;color:#173b2e;cursor:pointer}
+.footer{text-align:center;font-size:14px;margin-top:12px;opacity:.9}
+#win{display:none;text-align:center;background:#fff;color:#174a35;border-radius:15px;padding:15px;margin:15px auto;font-size:21px;font-weight:bold}
+@media(max-width:600px){.grid{grid-template-columns:repeat(3,1fr);gap:8px}.card{height:125px}.back{font-size:13px;padding:7px}.front{font-size:32px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>MEMORI – IMANSKI ŠARTI</h1>
+<p class="sub">Pronađi 6 odgovarajućih parova</p>
+<div class="info"><span>Pokušaji: <b id="moves">0</b></span><span>Parovi: <b id="pairs">0</b>/6</span></div>
+<div id="win">Mašallah! 🎉 Pronašao/la si svih 6 parova!</div>
+<div class="grid" id="grid"></div>
+<button onclick="start()">🔄 Nova igra</button>
+<div class="footer">Pripremio: Abdo ef. Rekić</div>
+</div>
+<script>
+const pairs=[
+["Amentu billahi","Vjerujem u Allaha, dž.š."],
+["Ve melaiketihi","Vjerujem u Allahove meleke."],
+["Ve kutubihi","Vjerujem u Allahove knjige."],
+["Ve rusulihi","Vjerujem u Allahove poslanike."],
+["Vel-jevmil-ahiri","Vjerujem u Sudnji dan."],
+["Ve bil-kaderi hajrihi ve šerrihi minallahi te'ala","Vjerujem da sve što se događa biva Allahovom odredbom."]
+];
+let first=null,second=null,lock=false,moves=0,found=0;
+function shuffle(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function start(){
+ first=second=null;lock=false;moves=0;found=0;
+ document.getElementById("moves").textContent=0;document.getElementById("pairs").textContent=0;
+ document.getElementById("win").style.display="none";
+ let cards=[]; pairs.forEach((p,i)=>{cards.push({id:i,t:p[0]});cards.push({id:i,t:p[1]})}); shuffle(cards);
+ const g=document.getElementById("grid");g.innerHTML="";
+ cards.forEach((c,n)=>{
+   let el=document.createElement("div");el.className="card";el.dataset.id=c.id;
+   el.innerHTML=`<div class="inner"><div class="face front">☪</div><div class="face back">${c.t}</div></div>`;
+   el.onclick=()=>flip(el);g.appendChild(el);
+ });
+}
+function flip(el){
+ if(lock||el===first||el.classList.contains("matched"))return;
+ el.classList.add("flip");
+ if(!first){first=el;return}
+ second=el;lock=true;moves++;document.getElementById("moves").textContent=moves;
+ if(first.dataset.id===second.dataset.id){
+   first.classList.add("matched");second.classList.add("matched");found++;
+   document.getElementById("pairs").textContent=found;
+   first=second=null;lock=false;
+   if(found===6)document.getElementById("win").style.display="block";
+ }else{
+   setTimeout(()=>{first.classList.remove("flip");second.classList.remove("flip");first=second=null;lock=false},900)
+ }
+}
+start();
+</script>
+</body>
+</html>

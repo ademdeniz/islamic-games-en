@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Pronađi riječ – Svojstva Allahovih poslanika</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:linear-gradient(155deg,#123f45,#17685f,#243f55);font-family:Arial,sans-serif;color:white;min-height:100vh}
+.app{max-width:560px;min-height:100vh;min-height:100dvh;margin:auto;padding:calc(8px + env(safe-area-inset-top)) calc(8px + env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) calc(8px + env(safe-area-inset-left));text-align:center}
+.top{background:linear-gradient(135deg,#0b4d48,#173d52);border:2px solid #e9c45e;border-radius:15px;padding:8px;box-shadow:0 4px 15px #0006}
+h1{font-size:20px;color:#ffe58c;margin:0}.sub{font-size:13px;margin-top:3px}
+.stats{display:flex;justify-content:space-between;margin-top:6px;font-weight:bold}.gold{color:#ffe17a}
+.clue{margin:7px 0;background:#e9fff7;color:#123c3c;border:3px solid #e1ba51;border-radius:14px;padding:9px;font-weight:bold;min-height:64px;display:flex;align-items:center;justify-content:center}
+.board{width:min(94vw,500px);height:min(94vw,500px);margin:auto;display:grid;gap:3px;background:#b9ded6;border:4px solid #e5bc52;border-radius:13px;padding:5px;touch-action:none}
+.cell{background:#fff;color:#123d43;cursor:pointer;-webkit-touch-callout:none;display:flex;align-items:center;justify-content:center;font-weight:900;border-radius:4px;font-size:clamp(17px,5.5vw,29px);user-select:none;border:1px solid #a8cbc5}
+.sel{background:#ffd95e;color:#183737}.found{background:#62d2a5;color:#073a2b}
+.msg{min-height:30px;padding:6px;color:#ffe78d;font-weight:bold}
+.buttons{display:flex;gap:7px}.cell,.buttons button{touch-action:manipulation}.buttons button{flex:1;border:0;border-radius:11px;padding:10px;font-weight:bold;font-size:14px}
+.help{background:#d8f5ed;color:#174840}.new{background:#e4bc53;color:#2a301e}.foot{font-size:12px;margin-top:8px;color:#d7f1ec}
+@media(max-height:720px){.board{width:min(68vh,92vw);height:min(68vh,92vw)}.clue{min-height:48px;padding:5px}h1{font-size:17px}}
+</style>
+</head>
+<body>
+<div class="app">
+<div class="top">
+<h1>PRONAĐI RIJEČ – POSLANICI</h1>
+<div class="sub">Svojstva Allahovih poslanika</div>
+<div class="stats"><span>Zadatak: <b id="num" class="gold">1</b>/<b class="gold">5</b></span><span>Bodovi: <b id="score" class="gold">0</b></span></div>
+</div>
+<div class="clue" id="clue"></div>
+<div class="board" id="board"></div>
+<div class="msg" id="msg">Dodirni prvo slovo, pa posljednje slovo riječi.</div>
+<div class="buttons"><button class="help" id="hint">💡 Pomoć −2</button><button class="new" id="restart">↻ Nova igra</button></div>
+<div class="foot">Pripremio Abdo ef. Rekić</div>
+</div>
+<script>
+var items=[
+["SIDK","Allahovi poslanici uvijek su govorili istinu."],
+["EMANET","Allahovi poslanici bili su povjerljivi i pouzdani."],
+["TEBLIG","Allahovi poslanici vjerno su prenosili Allahovu objavu ljudima."],
+["FETANET","Allahovi poslanici bili su veoma pametni i razboriti."],
+["ISMET","Allahovi poslanici bili su sačuvani od grijeha."]
+];
+var order=[],pos=0,score=0,N=10,grid=[],answer="",first=null;
+function E(x){return document.getElementById(x)}
+function shuffle(a){var b=a.slice(),i,j,t;for(i=b.length-1;i>0;i--){j=Math.floor(Math.random()*(i+1));t=b[i];b[i]=b[j];b[j]=t}return b}
+function start(){order=shuffle(items);pos=0;score=0;E("score").innerHTML=0;load()}
+function load(){
+ if(pos>=order.length){E("clue").innerHTML="Bravo! Pronašao/la si svih 5 svojstava Allahovih poslanika.";E("msg").innerHTML="Ukupno bodova: "+score;E("board").innerHTML="";return}
+ answer=order[pos][0];grid=[];var y,x;for(y=0;y<N;y++){grid[y]=[];for(x=0;x<N;x++)grid[y][x]=""}
+ // SAMO VODORAVNO I USPRAVNO
+ var dirs=[[1,0],[-1,0],[0,1],[0,-1]],d,sx,sy,ex,ey,k,ok=false;
+ for(var t=0;t<1000&&!ok;t++){d=dirs[Math.floor(Math.random()*dirs.length)];sx=Math.floor(Math.random()*N);sy=Math.floor(Math.random()*N);ex=sx+d[0]*(answer.length-1);ey=sy+d[1]*(answer.length-1);if(ex>=0&&ex<N&&ey>=0&&ey<N)ok=true}
+ for(k=0;k<answer.length;k++){x=sx+d[0]*k;y=sy+d[1]*k;grid[y][x]=answer.charAt(k)}
+ var L="ABCDEFGHIJKLMNOPQRSTUVWXYZ";for(y=0;y<N;y++)for(x=0;x<N;x++)if(grid[y][x]=="")grid[y][x]=L.charAt(Math.floor(Math.random()*L.length));
+ E("num").innerHTML=pos+1;E("clue").innerHTML=order[pos][1];E("msg").innerHTML="Dodirni prvo slovo, pa posljednje slovo riječi.";first=null;render()
+}
+function render(){var b=E("board");b.innerHTML="";b.style.gridTemplateColumns="repeat("+N+",1fr)";var y,x,c;for(y=0;y<N;y++)for(x=0;x<N;x++){c=document.createElement("div");c.className="cell";c.innerHTML=grid[y][x];c.setAttribute("data-x",x);c.setAttribute("data-y",y);c.onclick=pick;b.appendChild(c)}}
+function pick(){var x=parseInt(this.getAttribute("data-x")),y=parseInt(this.getAttribute("data-y"));if(first==null){first=[x,y];this.className="cell sel";E("msg").innerHTML="Sada dodirni posljednje slovo riječi.";return}
+ var dx=x-first[0],dy=y-first[1],steps=Math.max(Math.abs(dx),Math.abs(dy));
+ if(steps==0){clearSel();return}
+ if(!(dx==0||dy==0)){wrong();return}
+ var stepx=dx==0?0:dx/Math.abs(dx),stepy=dy==0?0:dy/Math.abs(dy),word="",cells=[],cx=first[0],cy=first[1];
+ for(var k=0;k<=steps;k++){word+=grid[cy][cx];cells.push([cx,cy]);cx+=stepx;cy+=stepy}
+ var rev=answer.split("").reverse().join("");
+ if(word==answer||word==rev){score+=10;E("score").innerHTML=score;E("msg").innerHTML="✓ Tačno! +10 bodova";paint(cells,"found");tone(700);setTimeout(function(){pos++;load()},850)}
+ else wrong()
+}
+function wrong(){score=Math.max(0,score-3);E("score").innerHTML=score;E("msg").innerHTML="Pokušaj ponovo. −3 boda";tone(180);clearSel()}
+function clearSel(){var a=document.querySelectorAll(".sel");for(var i=0;i<a.length;i++)a[i].className="cell";first=null}
+function paint(cells,cl){for(var i=0;i<cells.length;i++){var q=document.querySelector('[data-x="'+cells[i][0]+'"][data-y="'+cells[i][1]+'"]');if(q)q.className="cell "+cl}}
+function tone(f){try{var C=window.AudioContext||window.webkitAudioContext,a=new C(),o=a.createOscillator(),g=a.createGain();o.frequency.value=f;g.gain.value=.04;o.connect(g);g.connect(a.destination);o.start();o.stop(a.currentTime+.11)}catch(e){}}
+E("hint").onclick=function(){score=Math.max(0,score-2);E("score").innerHTML=score;E("msg").innerHTML="Riječ ima "+answer.length+" slova i počinje slovom „"+answer.charAt(0)+"“."};
+E("restart").onclick=start;start();
+</script>
+</body></html>

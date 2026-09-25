@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Pronađi riječ – Meleki</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(160deg,#071b16,#12372d);color:#fff;min-height:100vh;display:flex;justify-content:center}
+.app{width:min(100%,560px);min-height:100vh;padding:10px;display:flex;flex-direction:column;gap:8px}
+.top{background:#0b241e;border:2px solid #caa64b;border-radius:16px;padding:8px 12px;text-align:center;box-shadow:0 4px 18px #0008}
+h1{font-size:22px;margin:0;color:#f5d77b}.sub{font-size:12px;color:#ddd;margin-top:3px}
+.stats{display:flex;justify-content:space-between;margin-top:6px;font-weight:bold}.gold{color:#f5d77b}
+.clue{background:#f6e6b6;color:#17251f;border-radius:15px;padding:10px;text-align:center;border:3px solid #b78d2d}
+.clue small{display:block;font-weight:bold;color:#72550d}.clue b{font-size:18px;line-height:1.2}
+.board{width:min(94vw,470px);aspect-ratio:1;margin:auto;background:#f8f1d8;border:4px solid #c59a36;border-radius:14px;padding:5px;display:grid;gap:3px;touch-action:none;user-select:none}
+.cell{display:flex;align-items:center;justify-content:center;background:#fff9e9;color:#10251e;border:1px solid #d5c69a;border-radius:6px;font-weight:900;font-size:clamp(16px,5.2vw,27px)}
+.cell.sel{background:#f4d45f}.cell.found{background:#63bd78;color:#082315}
+.msg{text-align:center;min-height:24px;font-weight:bold;color:#f7df86}
+.controls{display:flex;gap:8px}.controls button{flex:1;border:0;border-radius:12px;padding:10px;font-weight:bold;font-size:15px}
+button{cursor:pointer}.new{background:#d3ad48;color:#172019}.help{background:#e9e0c5;color:#172019}
+.footer{text-align:center;font-size:12px;color:#d7c88e;margin-top:auto}
+@media(max-height:700px){.app{padding:5px;gap:4px}.top{padding:5px}.clue{padding:6px}.clue b{font-size:15px}.board{width:min(75vh,92vw);max-width:430px}.controls button{padding:7px}h1{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="app">
+ <div class="top">
+  <h1>PRONAĐI RIJEČ – MELEKI</h1>
+  <div class="sub">Pročitaj opis i pronađi odgovor među slovima.</div>
+  <div class="stats"><span>Zadatak: <span id="num" class="gold">1</span>/<span id="total"></span></span><span>Bodovi: <span id="score" class="gold">0</span></span></div>
+ </div>
+ <div class="clue"><small>KO JE / ŠTA JE TO?</small><b id="clue"></b></div>
+ <div id="board" class="board"></div>
+ <div id="msg" class="msg">Povuci prstom preko slova.</div>
+ <div class="controls"><button class="help" id="hint">💡 Pomoć</button><button class="new" id="restart">↻ Nova igra</button></div>
+ <div class="footer">Pripremio Abdo ef. Rekić</div>
+</div>
+<script>
+const ITEMS=[
+ ["DZIBRIL","Prenosio je Allahove objave poslanicima."],
+ ["MIKAIL","Melek zadužen za kišu i opskrbu, Allahovom naredbom."],
+ ["ISRAFIL","Melek koji će puhnuti u Sur."],
+ ["MELEKULMEVT","Melek smrti, zadužen za uzimanje duša po Allahovoj naredbi."],
+ ["MUNKIR","Jedan od meleka koji ispituju čovjeka u kaburu."],
+ ["NEKIR","Jedan od meleka koji ispituju čovjeka u kaburu."],
+ ["MALIK","Čuvar Džehennema koji se imenom spominje u Kur'anu."],
+ ["KIRAMENKATIBIN","Meleki koji zapisuju čovjekova djela."],
+ ["MELEKI","Allahova stvorenja koja Mu se ne protive i izvršavaju ono što im naredi."],
+ ["NUR","Prema hadisu, meleki su stvoreni od ovoga."],
+ ["SUR","U njega će Israfil puhnuti po Allahovoj naredbi."],
+ ["OBJAVA","Džibril ju je donosio Allahovim poslanicima."],
+ ["DJELA","Kiramen-katibin ih zapisuju čovjeku."],
+ ["KABUR","Mjesto u kojem Munkir i Nekir ispituju umrlog."],
+ ["ALLAH","Meleki su Njegovi pokorni robovi i izvršavaju Njegove naredbe."]
+];
+const SIZE=13, dirs=[[1,0],[-1,0],[0,1],[0,-1],[1,1],[-1,-1],[1,-1],[-1,1]];
+let order=[],idx=0,score=0,grid=[],answer="",answerCells=[],selected=[],drag=false;
+const $=x=>document.getElementById(x);
+$("total").textContent=ITEMS.length;
+function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function norm(s){return s.replace(/Ž/g,"Z").replace(/Š/g,"S").replace(/Č|Ć/g,"C").replace(/Đ/g,"D").replace(/\s/g,"")}
+function start(){order=shuffle(ITEMS);idx=0;score=0;$("score").textContent=score;load()}
+function place(word){
+ for(let t=0;t<800;t++){
+  let [dx,dy]=dirs[Math.floor(Math.random()*dirs.length)];
+  let x=Math.floor(Math.random()*SIZE),y=Math.floor(Math.random()*SIZE);
+  let ex=x+dx*(word.length-1),ey=y+dy*(word.length-1);
+  if(ex<0||ex>=SIZE||ey<0||ey>=SIZE)continue;
+  let cells=[];for(let i=0;i<word.length;i++)cells.push([x+dx*i,y+dy*i]);
+  return cells;
+ } return null;
+}
+function load(){
+ if(idx>=order.length){$("clue").textContent="Bravo! Završio/la si igru.";$("msg").textContent="Ukupno bodova: "+score;return}
+ answer=norm(order[idx][0]); grid=Array.from({length:SIZE},()=>Array(SIZE).fill(""));
+ answerCells=place(answer);
+ answerCells.forEach(([x,y],i)=>grid[y][x]=answer[i]);
+ const letters="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ for(let y=0;y<SIZE;y++)for(let x=0;x<SIZE;x++)if(!grid[y][x])grid[y][x]=letters[Math.floor(Math.random()*letters.length)];
+ $("num").textContent=idx+1;$("clue").textContent=order[idx][1];$("msg").textContent="Povuci prstom preko slova.";
+ render();
+}
+function render(){
+ let b=$("board");b.innerHTML="";b.style.gridTemplateColumns=`repeat(${SIZE},1fr)`;
+ for(let y=0;y<SIZE;y++)for(let x=0;x<SIZE;x++){
+  let d=document.createElement("div");d.className="cell";d.textContent=grid[y][x];d.dataset.x=x;d.dataset.y=y;b.appendChild(d)
+ }
+}
+function cellAtPoint(x,y){let e=document.elementFromPoint(x,y);return e&&e.classList.contains("cell")?e:null}
+function begin(e){drag=true;selected=[];mark(e)}
+function mark(e){
+ if(!drag)return;let p=e.touches?e.touches[0]:e;let c=cellAtPoint(p.clientX,p.clientY);if(!c)return;
+ let x=+c.dataset.x,y=+c.dataset.y;
+ if(selected.some(q=>q[0]==x&&q[1]==y))return;
+ if(selected.length){
+  let [px,py]=selected[selected.length-1],dx=x-px,dy=y-py;
+  if(Math.abs(dx)>1||Math.abs(dy)>1||(dx==0&&dy==0))return;
+  if(selected.length>=2){let [ax,ay]=selected[1], [bx,by]=selected[0]; if(dx!==ax-bx||dy!==ay-by)return}
+ }
+ selected.push([x,y]);c.classList.add("sel");
+}
+function end(){
+ if(!drag)return;drag=false;
+ let word=selected.map(([x,y])=>grid[y][x]).join("");
+ let rev=[...answer].reverse().join("");
+ if(word===answer||word===rev){
+  score+=10;$("score").textContent=score;$("msg").textContent="✓ Tačno! +10";
+  selected.forEach(([x,y])=>document.querySelector(`.cell[data-x="${x}"][data-y="${y}"]`).classList.add("found"));
+  beep(700);setTimeout(()=>{idx++;load()},850)
+ } else if(selected.length>1){
+  score=Math.max(0,score-3);$("score").textContent=score;$("msg").textContent="Pokušaj ponovo. −3";beep(180);
+  document.querySelectorAll(".sel").forEach(c=>c.classList.remove("sel"));
+ } else document.querySelectorAll(".sel").forEach(c=>c.classList.remove("sel"));
+}
+function beep(f){try{let a=new (AudioContext||webkitAudioContext)(),o=a.createOscillator(),g=a.createGain();o.frequency.value=f;o.connect(g);g.connect(a.destination);g.gain.value=.05;o.start();o.stop(a.currentTime+.12)}catch(e){}}
+let b=$("board");b.addEventListener("touchstart",begin,{passive:false});b.addEventListener("touchmove",e=>{e.preventDefault();mark(e)},{passive:false});b.addEventListener("touchend",end);
+b.addEventListener("mousedown",begin);b.addEventListener("mousemove",mark);window.addEventListener("mouseup",end);
+$("hint").onclick=()=>{$("msg").textContent=`Pomoć: riječ ima ${answer.length} slova. Prvo slovo je „${answer[0]}“.`;score=Math.max(0,score-2);$("score").textContent=score};
+$("restart").onclick=start;start();
+</script>
+</body></html>
