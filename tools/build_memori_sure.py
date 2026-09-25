@@ -13,7 +13,7 @@ import urllib.request
 OUT = 'games/memori-sure/index.html'
 src = subprocess.run(['git', 'show', 'f2614cc:' + OUT], capture_output=True, text=True, check=True).stdout
 data = json.load(open('data/surahs.json', encoding='utf-8'))
-logo = base64.b64encode(open('assets/logo-bz-erie.png', 'rb').read()).decode()
+logo = base64.b64encode(open('assets/logo-bz-erie-web.jpg', 'rb').read()).decode()
 
 # Global ayah number of the first ayah of each surah (used by the audio CDN).
 surahs = json.load(urllib.request.urlopen('https://api.alquran.cloud/v1/surah'))['data']
@@ -67,7 +67,7 @@ function setLink(){document.getElementById('qlink').href='https://quran.com/'+ME
 
 R = [
     ('</style>', CSS + '</style>'),
-    ('<header>', '<div class="brand"><img alt="Islamic Community of Bosniaks – Erie" src="data:image/png;base64,' + logo + '"></div>\n<header>'),
+    ('<header>', '<div class="brand"><img alt="Islamic Community of Bosniaks – Erie" src="data:image/jpeg;base64,' + logo + '"></div>\n<header>'),
     ('<select id="surah"></select></div>',
      '<select id="surah"></select>'
      '<div class="listen"><button id="play" class="act">▶ Listen</button>'

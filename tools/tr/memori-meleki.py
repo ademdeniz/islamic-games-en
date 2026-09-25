@@ -1,0 +1,23 @@
+T = [
+    ('content="Memori meleki"', 'content="Memory: Angels"'),
+    ('<title>Memori – Zaduženja meleka</title>', '<title>Memory – Duties of the Angels</title>'),
+    ('<h1>MEMORI – ZADUŽENJA MELEKA</h1>', '<h1>MEMORY – DUTIES OF THE ANGELS</h1>'),
+    ('Spoji ime meleka sa njegovim zaduženjem', 'Match each angel (melek / malak) with their duty'),
+    ('Pripremio: <b>', 'Prepared by: <b>'),
+    ('Parovi:', 'Pairs:'), ('Pokušaji:', 'Attempts:'), ('Bodovi:', 'Points:'),
+    ('🔄 Nova igra', '🔄 New game'),
+    ('["DŽIBRIL (DŽEBRAIL)","Dostavljao je Božije objave svim Božijim poslanicima."]',
+     '["JIBRIL (JIBRA\'IL)","He delivered Allah\'s revelation (wahy) to all of Allah\'s messengers."]'),
+    ('["MIKAIL","Zadužen je za prirodne pojave."]', '["MIKA\'IL","He is in charge of natural events (rain, wind, weather)."]'),
+    ('["ISRAFIL","Zadužen je da puhanjem u Sur najavi Kijametski i Sudnji dan."]',
+     '["ISRAFIL","He will blow the Trumpet (Sur) to announce the Day of Qiyamah and the Day of Judgement."]'),
+    ('["MUNKIR I NEKIR","Zaduženi su za ispitivanje osoba u kaburu."]', '["MUNKAR AND NAKIR","They question each person in the grave (qabr)."]'),
+    ('["KIRAMUN-KATIBUN","Prate osobe i pišu njihova dobra i loša djela."]',
+     '["KIRAMAN KATIBIN","They stay with each person and write down their good and bad deeds."]'),
+    ('["MELEKUL-MEVT (AZRAIL)","Rastavlja dušu od tijela u času smrti."]',
+     '["MALAK AL-MAWT (AZRA\'IL)","He takes the soul from the body at the moment of death."]'),
+    ('["RIDVAN","Zadužen je za Džennet, čuvar Dženneta."]', '["RIDWAN","He is in charge of Jannah (Paradise) – the guardian of Jannah."]'),
+    ('["MALIK","Zadužen za Džehennem, čuvar Džehennema."]', '["MALIK","He is in charge of Jahannam (Hellfire) – the guardian of Jahannam."]'),
+    ('🎉 Mašallah! Pronašao/la si svih 8 parova!', '🎉 MashaAllah! You found all 8 pairs!'),
+]
+T.append(('content:"MELEKI"', 'content:"ANGELS"'))

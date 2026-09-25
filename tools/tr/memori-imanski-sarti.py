@@ -1,0 +1,16 @@
+T = [
+    ('<title>Memori – Imanski šarti</title>', '<title>Memory – Pillars of Iman</title>'),
+    ('<h1>MEMORI – IMANSKI ŠARTI</h1>', '<h1>MEMORY – PILLARS OF IMAN</h1>'),
+    ('Pronađi 6 odgovarajućih parova', 'Find the 6 matching pairs (Imanski šarti – the 6 pillars of faith)'),
+    ('Pokušaji:', 'Attempts:'), ('Parovi:', 'Pairs:'),
+    ('Mašallah! 🎉 Pronašao/la si svih 6 parova!', 'MashaAllah! 🎉 You found all 6 pairs!'),
+    ('🔄 Nova igra', '🔄 New game'),
+    ('Pripremio: Abdo ef. Rekić', 'Prepared by: Abdo ef. Rekić'),
+    ('["Amentu billahi","Vjerujem u Allaha, dž.š."]', '["Amantu billahi","I believe in Allah (SWT)."]'),
+    ('["Ve melaiketihi","Vjerujem u Allahove meleke."]', '["Wa mala\'ikatihi","I believe in Allah\'s angels (mala\'ika)."]'),
+    ('["Ve kutubihi","Vjerujem u Allahove knjige."]', '["Wa kutubihi","I believe in Allah\'s books."]'),
+    ('["Ve rusulihi","Vjerujem u Allahove poslanike."]', '["Wa rusulihi","I believe in Allah\'s messengers."]'),
+    ('["Vel-jevmil-ahiri","Vjerujem u Sudnji dan."]', '["Wal-yawmil-akhiri","I believe in the Last Day (Day of Judgement)."]'),
+    ('["Ve bil-kaderi hajrihi ve šerrihi minallahi te\'ala","Vjerujem da sve što se događa biva Allahovom odredbom."]',
+     '["Wal-qadari khayrihi wa sharrihi minallahi ta\'ala","I believe that everything that happens is by Allah\'s decree (qadar)."]'),
+]
