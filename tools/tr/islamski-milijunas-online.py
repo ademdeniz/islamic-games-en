@@ -60,3 +60,44 @@ T += [
     ("SUPABASE_URL='https://jaxcricubwcvqudhknjj.supabase.co'", f"SUPABASE_URL='{_cfg['url']}'"),
     ("SUPABASE_KEY='sb_publishable_2gMnx-y-cNpBlCTW6V-pkg_SlYpda8R'", f"SUPABASE_KEY='{_cfg['publishable_key']}'"),
 ]
+
+# ---- "Forgot password?" (added feature, not in the original) -------------------------------------------------
+STRUCTURAL = ('adds a "Forgot password?" flow: reset e-mail via Supabase resetPasswordForEmail, and a '
+              '"Choose a new password" box shown on the PASSWORD_RECOVERY event (tested in tests/test_online_auth.py)')
+
+_FORGOT = [
+    ('<button id="signupBtn">Sign up</button></div></div>',
+     '<button id="signupBtn">Sign up</button></div>'
+     '<button type="button" id="forgotBtn" class="linkBtn">Forgot password?</button></div>\n'
+     '<div id="authRecover" class="onlineBox hide"><h3>Choose a new password</h3>'
+     '<input id="newPassword" type="password" placeholder="New password (at least 6 characters)">'
+     '<div class="menu"><button class="primary" id="savePwBtn">Save new password</button></div></div>'),
+    ('.onlineBox{', '.linkBtn{background:none!important;border:0!important;box-shadow:none!important;color:#9cc3ff!important;'
+                    'text-decoration:underline;padding:6px 0!important;margin-top:4px;cursor:pointer;font-size:14px}.onlineBox{'),
+    ('function onlineMsg(x){', 'let recovering=false; function onlineMsg(x){'),
+    ('me=user;$(\'authLoggedOut\')', 'me=user;if(recovering){$(\'authLoggedOut\').classList.add(\'hide\');$(\'authLoggedIn\').classList.add(\'hide\');return}$(\'authLoggedOut\')'),
+    ('sb.auth.onAuthStateChange(()=>setTimeout(refreshOnline,0));',
+     "$('forgotBtn').onclick=async()=>{let e=$('email').value.trim();"
+     "if(!e)return onlineMsg('Type your e-mail above, then tap “Forgot password?” again.');"
+     "let {error}=await sb.auth.resetPasswordForEmail(e,{redirectTo:location.origin+location.pathname});"
+     "onlineMsg(error?error.message:'If there is an account for '+e+', we sent it an e-mail with a link to choose a new password.')};\n"
+     "$('savePwBtn').onclick=async()=>{let p=$('newPassword').value;"
+     "if(p.length<6)return onlineMsg('The new password needs at least 6 characters.');"
+     "let {error}=await sb.auth.updateUser({password:p});if(error)return onlineMsg(error.message);"
+     "recovering=false;$('authRecover').classList.add('hide');$('newPassword').value='';"
+     "onlineMsg('Your new password is saved. You are logged in.');await refreshOnline()};\n"
+     "sb.auth.onAuthStateChange(ev=>{if(ev==='PASSWORD_RECOVERY'){recovering=true;show('online');"
+     "$('authLoggedOut').classList.add('hide');$('authLoggedIn').classList.add('hide');$('authRecover').classList.remove('hide');"
+     "onlineMsg('Choose a new password for your account.')}});\n"
+     "sb.auth.onAuthStateChange(()=>setTimeout(refreshOnline,0));"),
+]
+
+_base_transform = transform
+
+
+def transform(src):
+    src = _base_transform(src)
+    for a, b in _FORGOT:
+        assert src.count(a) == 1, 'forgot-password patch target not found: ' + a[:60]
+        src = src.replace(a, b)
+    return src
