@@ -49,10 +49,18 @@ def extract(game):
     print(f'{game}: {len(skel) // 1024}KB text, {len(blobs)} media blobs')
 
 
+def fixed_image(game, n):
+    path = os.path.join(ROOT, 'assets', 'fixed', f'{game}-bg-{n}.jpg')
+    return path if os.path.exists(path) else None
+
+
 def build(game):
     html = open(os.path.join(ROOT, 'work', game + '.en.html'), encoding='utf-8').read()
     blobs = json.load(open(os.path.join(ROOT, 'work', game + '.blobs.json')))
     for i, b in enumerate(blobs):
+        fixed = fixed_image(game, i)
+        if fixed:  # English version of a picture that had Bosnian text painted in (tools/fix_images.py)
+            b = 'data:image/jpeg;base64,' + base64.b64encode(open(fixed, 'rb').read()).decode()
         tok = '@@BLOB_%d@@' % i
         assert html.count(tok) >= 1, f'missing {tok}'
         html = html.replace(tok, b)

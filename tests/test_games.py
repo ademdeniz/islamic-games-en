@@ -1,6 +1,7 @@
 """Tests for translated games.  Run:  .venv/bin/pytest tests            (all built games)
                                      .venv/bin/pytest tests --game kviz-namaz
 """
+import base64
 import hashlib
 import os
 import re
@@ -52,8 +53,15 @@ def test_no_arabic_script(game):
 def test_media_preserved(game):
     def blobs(h):
         return {hashlib.md5(b.encode()).hexdigest() for b in gc.BLOB.findall(h)}
-    missing = blobs(gc.original_html(game)) - blobs(gc.translated_html(game))
+    orig = gc.BLOB.findall(gc.original_html(game))
+    replaced = {i for i in range(len(orig)) if gc.skel.fixed_image(game, i)}
+    expected = {hashlib.md5(b.encode()).hexdigest() for i, b in enumerate(orig) if i not in replaced}
+    missing = expected - blobs(gc.translated_html(game))
     assert not missing, f'{len(missing)} embedded images/sounds from the original are missing or altered'
+    html = gc.translated_html(game)
+    for i in replaced:  # pictures we deliberately replaced with an English version must really be in the game
+        fixed = base64.b64encode(open(gc.skel.fixed_image(game, i), 'rb').read()).decode()
+        assert fixed in html, f'English version of picture {i} is not in the game'
 
 
 def test_code_unchanged(game):
