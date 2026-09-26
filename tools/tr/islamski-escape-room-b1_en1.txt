@@ -267,9 +267,9 @@
 266	Which angel is in charge of Jannah?
 267	Which angel is the guardian of Jahannam?
 268	Are angels the only invisible beings?
-269	Yes, they are
+269	Yes
 270	We don’t know
-271	No, they are not
+271	No
 272	Maybe
 273	Which other invisible beings did Allah (SWT) create?
 274	Jinn and shaytans (devils)

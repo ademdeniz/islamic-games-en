@@ -1,0 +1,68 @@
+STRUCTURAL = ("Arabic script replaced by English transliteration (content rule 2): the right-to-left Arabic CSS "
+              "(.arabic/.buildText direction:rtl + Arabic fonts/sizes) is switched to left-to-right Latin text, "
+              ".latin (which shows the Sahih International translation via textContent) gets font-style:italic, "
+              "and the 'BUILD AYAH n' label shows buildAyah+1 so the number matches standard Hafs/Sahih ayah "
+              "numbering (the game counts Alhamdu as ayah 1; in Hafs it is ayah 2). No other code changed.")
+
+T = [
+    ('<html lang="bs">', '<html lang="en">'),
+    ('content="El-Fatiha"', 'content="Al-Fatihah"'),
+    ('<title>El-Fatiha — pametno učenje</title>', '<title>Al-Fatihah — Smart Learning</title>'),
+    # --- CSS: Latin transliteration instead of right-to-left Arabic (STRUCTURAL) ---
+    ('.arabic{direction:rtl;text-align:center;line-height:2.25;margin:10px 0;font-family:"Noto Naskh Arabic","Traditional Arabic",serif}',
+     '.arabic{text-align:center;line-height:1.7;margin:10px 0}'),
+    ('.phrase{display:inline-block;font-size:clamp(28px,7.5vw,48px);',
+     '.phrase{display:inline-block;font-size:clamp(20px,5vw,30px);font-weight:700;'),
+    ('.latin{text-align:center;color:#e0e9e2;font-size:18px;min-height:28px}',
+     '.latin{text-align:center;color:#e0e9e2;font-size:18px;min-height:28px;font-style:italic}'),
+    ('.buildText{direction:rtl;font-family:"Noto Naskh Arabic","Traditional Arabic",serif;font-size:clamp(29px,7vw,44px);line-height:2.2;margin:8px 0}',
+     '.buildText{font-size:clamp(22px,5.5vw,32px);font-weight:700;line-height:1.6;margin:8px 0}'),
+    # --- UI text ---
+    ('<h1>NAUČI EL-FATIHU NAPAMET</h1><div class="sub">Pokazivač • Gradi ajet • Pametno ponavljanje</div>',
+     '<h1>LEARN AL-FATIHAH BY HEART</h1><div class="sub">Pointer • Build the ayah • Smart review</div>'),
+    ('👆 Prati</button>', '👆 Follow</button>'),
+    ('🧱 Gradi ajet</button>', '🧱 Build the ayah</button>'),
+    ('🧠 Pametno ponavljanje</button>', '🧠 Smart review</button>'),
+    ('▶ Slušaj dio</button>', '▶ Listen to part</button>'),
+    ('🔁 Ponovi 3×</button>', '🔁 Repeat 3×</button>'),
+    ('◀ Prethodni</button>', '◀ Previous</button>'),
+    ('Sljedeći ▶</button><button onclick="aud.playbackRate=.78">', 'Next ▶</button><button onclick="aud.playbackRate=.78">'),
+    ('🐢 Sporije</button>', '🐢 Slower</button>'),
+    ('🎵 Normalno</button>', '🎵 Normal</button>'),
+    ('▶ Cijela Fatiha</button>', '▶ Whole Fatihah</button>'),
+    ('↺ Početak</button>', '↺ Start over</button>'),
+    ('<footer>Pripremio Abdo ef. Rekić</footer>',
+     '<footer>Transliteration &amp; English translation (Sahih International) via AlQuran.cloud</footer>'),
+    # --- Al-Fatihah phrases: transliteration + Sahih International (AlQuran.cloud, surah 1, ayahs 2–7) ---
+    ('"a": "الْحَمْدُ لِلَّهِ", "t": "El-hamdu lillāhi"', '"a": "Alhamdu lillaahi", "t": "[All] praise is [due] to Allah,"'),
+    ('"a": "رَبِّ الْعَالَمِينَ", "t": "Rabbil-\'ālemīn"', '"a": "Rabbil \'aalameen", "t": "Lord of the worlds –"'),
+    ('"a": "الرَّحْمَٰنِ الرَّحِيمِ", "t": "Er-Rahmānir-Rahīm"', '"a": "Ar-Rahmaanir-Raheem", "t": "The Entirely Merciful, the Especially Merciful,"'),
+    ('"a": "مَالِكِ يَوْمِ الدِّينِ", "t": "Māliki jevmid-dīn"', '"a": "Maaliki Yawmid-Deen", "t": "Sovereign of the Day of Recompense."'),
+    ('"a": "إِيَّاكَ نَعْبُدُ", "t": "Ijjāke na\'budu"', '"a": "Iyyaaka na\'budu", "t": "It is You we worship"'),
+    ('"a": "وَإِيَّاكَ نَسْتَعِينُ", "t": "ve ijjāke neste\'īn"', '"a": "wa iyyaaka nasta\'een", "t": "and You we ask for help."'),
+    ('"a": "اهْدِنَا الصِّرَاطَ", "t": "Ihdinas-sirāta"', '"a": "Ihdinas-Siraata", "t": "Guide us to the …"'),
+    ('"a": "الْمُسْتَقِيمَ", "t": "el-mustekīm"', '"a": "al-Mustaqeem", "t": "… straight path –"'),
+    ('"a": "صِرَاطَ الَّذِينَ", "t": "Sirātallezīne"', '"a": "Siraatal-lazeena", "t": "The path of those"'),
+    ('"a": "أَنْعَمْتَ عَلَيْهِمْ", "t": "en\'amte \'alejhim"', '"a": "an\'amta \'alaihim", "t": "upon whom You have bestowed favor,"'),
+    ('"a": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ", "t": "gajril-magdūbi \'alejhim"', '"a": "ghayril-maghdoobi \'alaihim", "t": "not of those who have evoked [Your] anger"'),
+    ('"a": "وَلَا الضَّالِّينَ", "t": "ve led-dāllīn"', '"a": "wa lad-daaalleen", "t": "or of those who are astray."'),
+    # --- JS strings ---
+    ('"DIO "+(idx+1)+" OD "+P.length', '"PART "+(idx+1)+" OF "+P.length'),
+    ('"▼ SADA OVDJE ▼"', '"▼ WE ARE HERE ▼"'),
+    ('"<b>Uči uz pokazivač.</b><div class=\'small\'>Slušaj 3×, zatim pokušaj proučiti isti dio bez gledanja.</div>"',
+     '"<b>Learn with the pointer.</b><div class=\'small\'>Listen 3 times, then try to recite the same part without looking.</div>"'),
+    ('"GRADI AJET "+buildAyah', '"BUILD AYAH "+(buildAyah+1)'),
+    ('"1 dio → 1+2 → cijeli ajet"', '"part 1 → 1+2 → the whole ayah"'),
+    ('<b>Korak ${buildCount} od ${arr.length}</b><div class="small">Prouči sve što vidiš 3×. Kad možeš bez greške, dodaj sljedeći dio.</div>',
+     '<b>Step ${buildCount} of ${arr.length}</b><div class="small">Recite everything you see 3 times. When you can do it with no mistakes, add the next part.</div>'),
+    ('▶ Slušaj izgrađeno</button>', '▶ Listen to what you built</button>'),
+    ('+ Dodaj dio</button>', '+ Add a part</button>'),
+    ('Sljedeći ajet ▶</button>', 'Next ayah ▶</button>'),
+    ('"PAMETNO PONAVLJANJE"', '"SMART REVIEW"'),
+    ('"Teži dijelovi vraćaju se češće"', '"Harder parts come back more often"'),
+    ('<b>Kako ti je išlo?</b><div class="small">Ocijeni tek nakon što pokušaš proučiti bez pomoći.</div>',
+     '<b>How did it go?</b><div class="small">Rate yourself only after you try to recite it without help.</div>'),
+    ('😕 Teško</button>', '😕 Hard</button>'),
+    ('🙂 Skoro</button>', '🙂 Almost</button>'),
+    ('⭐ Znam</button>', '⭐ I know it</button>'),
+]

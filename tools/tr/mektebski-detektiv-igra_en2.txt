@@ -281,13 +281,13 @@
 680	Laylat al-Mi’raj
 681	It is a blessed night in Muslim tradition.
 682	It is connected with the Isra and Mi’raj.
-683	In the report about this event, the command of Salah is especially stressed.
+683	In the report about this event, Salah being made obligatory is especially stressed.
 684	It is known as the night of the Mi’raj.
 685	Laylat al-Bara’ah
 686	It is connected with the month of Sha’ban.
 687	It comes before Ramadan.
 688	Believers spend it in worship and duas.
-689	It is known as the night of wishes
+689	It is known as the night of wishes.
 690	Laylat ar-Ragha’ib
 691	It is connected with the month of Rajab.
 692	Believers spend it in worship.
@@ -301,7 +301,7 @@
 700	It is connected with the event of the Isra.
 701	It happened after the night journey.
 702	It is connected with rising up through the heavens.
-703	In the report about it, the command of the five daily prayers is especially stressed.
+703	In the report about it, the five daily prayers being made obligatory is especially stressed.
 704	Masjid al-Haram
 705	It is a mosque.
 706	It is in a holy city.

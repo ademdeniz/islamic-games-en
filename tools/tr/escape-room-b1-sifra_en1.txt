@@ -267,9 +267,9 @@
 266	Which angel is in charge of Jannah?
 267	Which angel is the guardian of Jahannam?
 268	Are angels the only invisible beings?
-269	Yes, they are
+269	Yes
 270	We do not know
-271	No, they are not
+271	No
 272	Maybe
 273	What other invisible beings did Allah (SWT) create?
 274	Jinn and shaytans (devils)
@@ -547,8 +547,8 @@
 546	Who took care of Muhammad (SAW) after his grandfather died?
 547	Abbas
 548	How old was Muhammad (SAW) when he married Khadijah?
-549	25 years old
-550	40 years old
+549	25 years
+550	40 years
 551	What was the name of the wife whom Muhammad (SAW) married at age 25?
 552	Sawdah
 553	Aishah

@@ -21,7 +21,7 @@ MAIN_FILE = {
 }
 
 BRAND_CSS = (
-    '<style>.bz-brand{background:#fff;border:3px solid #c99b3b;border-radius:18px;padding:8px 12px;'
+    '<style>body{flex-wrap:wrap;align-content:flex-start}.bz-brand{flex:0 0 calc(100% - 20px);background:#fff;border:3px solid #c99b3b;border-radius:18px;padding:8px 12px;'
     'margin:10px auto;max-width:880px;width:calc(100% - 20px);box-sizing:border-box;text-align:center}'
     '.bz-brand img{display:block;width:100%;max-width:760px;height:auto;margin:auto}</style>'
 )

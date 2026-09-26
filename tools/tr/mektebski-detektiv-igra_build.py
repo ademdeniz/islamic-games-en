@@ -31,12 +31,20 @@ assert not missing and not extra, (missing[:20], extra)
 m = {bs: tr[k] for k, bs in enumerate(seen)}
 for en in m.values():
     assert "'" not in en and '"' not in en and '`' not in en and '<' not in en, en
+# Shared Bosnian clues whose English pronoun must differ for a person answer
+# (Bosnian 'Povezan je' works for both; English needs He vs It). Listed in ALLOW_INCONSISTENT.
+OVERRIDE = {
+    (145, 'Povezan je s ezanom.'): 'He is connected with the Adhan.',
+    (164, "Povezan je s Kur'anom."): 'He is connected with the Qur’an.',
+}
 out = []
 for x in data:
     y = dict(x)
     y['name'] = m[x['name']]
-    y['clues'] = [m[c] for c in x['clues']]
+    y['clues'] = [OVERRIDE.get((x['n'], c), m[c]) for c in x['clues']]
     out.append(y)
+used = {(x['n'], c) for x in data for c in x['clues']}
+assert set(OVERRIDE) <= used, set(OVERRIDE) - used
 names = [y['name'] for y in out]
 assert len(set(names)) == len(names), 'duplicate answer names'
 src = src[:i] + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + src[j:]

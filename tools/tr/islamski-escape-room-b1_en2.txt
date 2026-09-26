@@ -97,8 +97,8 @@
 546	Who took care of Muhammad (SAW) after his grandfather died?
 547	Abbas
 548	How old was Muhammad (SAW) when he married Khadijah?
-549	25 years old
-550	40 years old
+549	25 years
+550	40 years
 551	What was the name of the wife Muhammad (SAW) married at the age of 25?
 552	Sawdah
 553	Aishah
