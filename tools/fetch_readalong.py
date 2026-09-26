@@ -14,10 +14,21 @@ RECITERS = {  # Quran.com recitation id -> how we show it
     'alafasy': {'id': 7, 'name': 'Mishary Alafasy', 'base': 'https://verses.quran.com/'},
     'husary': {'id': 12, 'name': 'Husary – teaching (slow)', 'base': ''},
 }
+# Pages of the standard 604-page Madani mushaf. The ayahs on each page come from Quran.com (verses/by_page), so they
+# can't be mistyped; `surah` keeps only that surah's ayahs (page 440 also holds the last ayah of Fatir).
+# A Bismillah line is added when the page starts a surah (except Al-Fatiha, where it is ayah 1).
 PAGES = [
-    {'id': 'baqarah-17-24', 'title': 'Al-Baqarah 17–24', 'mushaf_page': 4, 'surah': 2, 'ayahs': range(17, 25)},
-    {'id': 'yasin-1-12', 'title': 'Ya-Sin 1–12', 'mushaf_page': 440, 'surah': 36, 'ayahs': range(1, 13), 'bismillah': True},
+    {'id': 'baqarah-p2', 'title': 'Al-Baqarah – page 2', 'mushaf_page': 2, 'surah': 2},
+    {'id': 'baqarah-p3', 'title': 'Al-Baqarah – page 3', 'mushaf_page': 3, 'surah': 2},
+    {'id': 'baqarah-17-24', 'title': 'Al-Baqarah – page 4', 'mushaf_page': 4, 'surah': 2},
+    {'id': 'baqarah-p5', 'title': 'Al-Baqarah – page 5', 'mushaf_page': 5, 'surah': 2},
+    {'id': 'yasin-1-12', 'title': 'Ya-Sin – page 440', 'mushaf_page': 440, 'surah': 36},
 ]
+
+
+def page_keys(p):
+    vs = get(f'{QURAN_COM}/verses/by_page/{p["mushaf_page"]}?per_page=50')['verses']
+    return [v['verse_key'] for v in vs if int(v['verse_key'].split(':')[0]) == p['surah']]
 
 
 def get(url):
@@ -51,15 +62,16 @@ def ayah(key):
 def main():
     data = {'reciters': {k: v['name'] for k, v in RECITERS.items()}, 'pages': []}
     for p in PAGES:
-        page = {k: v for k, v in p.items() if k not in ('ayahs', 'bismillah')}
-        page['lines'] = []
-        if p.get('bismillah'):
+        keys = page_keys(p)
+        first, last = keys[0].split(':')[1], keys[-1].split(':')[1]
+        page = dict(p, ayahs=f'{first}–{last}' if first != last else first, lines=[])
+        if keys[0].endswith(':1') and p['surah'] != 1:
             b = ayah('1:1')
             b.update(n=0, en='In the name of Allah, the Entirely Merciful, the Especially Merciful.', end='')
             page['lines'].append(b)
-        for n in p['ayahs']:
-            page['lines'].append(ayah(f"{p['surah']}:{n}"))
-            print(page['title'], n, len(page['lines'][-1]['words']), 'words')
+        for key in keys:
+            page['lines'].append(ayah(key))
+        print(f"{page['title']}: ayahs {page['ayahs']}, {len(page['lines'])} lines")
         data['pages'].append(page)
     path = os.path.join(ROOT, 'data', 'readalong.json')
     json.dump(data, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
