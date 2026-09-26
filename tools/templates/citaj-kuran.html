@@ -1,0 +1,125 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Read Along with the Reciter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff8e7;color:#17130d;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+main{max-width:900px;margin:auto;padding:12px 16px 30px}h1{text-align:center;color:#795718;margin:10px 0 4px;font-size:clamp(24px,5vw,34px)}
+.sub{text-align:center;color:#665a48;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 12px}
+.chip{font:inherit;font-weight:800;font-size:15px;padding:9px 14px;border-radius:999px;border:2px solid #c99b3e;background:#fff;color:#5b4212;cursor:pointer}
+.chip[aria-pressed="true"]{background:#176b45;border-color:#176b45;color:#fff}
+.card{background:#fff;border:3px solid #c99b3e;border-radius:22px;padding:18px;box-shadow:0 7px 22px #0002}
+.bar{height:12px;background:#eee3cb;border-radius:10px;overflow:hidden;margin-bottom:12px}.bar div{height:100%;background:#c99b3e;width:0;transition:width .3s}
+#info{text-align:center;font-weight:800;color:#725722}
+#arabic{direction:rtl;text-align:center;font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro","Traditional Arabic",serif;
+  font-size:clamp(30px,7.5vw,50px);line-height:2.25;min-height:190px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+  gap:0 .28em;padding:10px 4px}
+.w{border-radius:10px;padding:0 .08em;cursor:pointer;transition:background .12s,color .12s}
+.w.done{color:#8a7b62}.w.on{background:#ffe08a;color:#0f5132;box-shadow:0 0 0 3px #ffe08a}
+.end{color:#b0852b;font-size:.8em}
+.help{display:none;text-align:center;margin:4px 0 0}.help.show{display:block}
+#tr{font-weight:700;font-size:clamp(16px,3.6vw,20px);line-height:1.5}#en{font-style:italic;color:#5a4d38;font-size:clamp(15px,3.3vw,18px);line-height:1.5;margin-top:4px}
+.status{text-align:center;margin:12px 0 4px;font-size:18px;font-weight:800;color:#176b45;min-height:26px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+button.big{width:100%;padding:16px;border:0;border-radius:15px;font:inherit;font-size:18px;font-weight:800;cursor:pointer}
+.start{background:#176b45;color:#fff;grid-column:1/-1}.again{background:#d8ae53}.stop{background:#eee1c3}.page{background:#795718;color:#fff;grid-column:1/-1}
+.prev{background:#fff;border:2px solid #19140d!important}.next{background:#19140d;color:#fff}
+button:disabled{opacity:.45;cursor:default}
+.settings{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:center;margin-top:16px;padding-top:14px;border-top:1px dashed #e3d2a9}
+.settings label{font-weight:800;color:#5b4212}.seg{display:inline-flex;border:2px solid #c99b3e;border-radius:12px;overflow:hidden}
+.seg button{font:inherit;font-weight:700;border:0;background:#fff;padding:8px 12px;cursor:pointer;color:#5b4212}.seg button[aria-pressed="true"]{background:#c99b3e;color:#fff}
+select{font:inherit;font-weight:700;padding:8px 10px;border-radius:12px;border:2px solid #c99b3e;background:#fff;color:#5b4212}
+.toggles{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:10px;font-weight:700;color:#5b4212}
+.note{text-align:center;margin-top:12px;color:#665a48}.credit{text-align:center;font-size:12px;color:#8a7c64;margin-top:10px}
+@media(max-width:520px){.card{padding:12px}button.big{padding:14px;font-size:16px}}
+</style></head><body><main>
+<h1>📖 Read Along with the Reciter</h1><div class="sub">Listen, follow the highlighted words, then read the ayah yourself.</div>
+<div class="chips" id="pages" role="group" aria-label="Choose a page"></div>
+<div class="card">
+  <div class="bar"><div id="bar"></div></div><div id="info"></div>
+  <div id="arabic" lang="ar"></div>
+  <div class="help" id="trBox"><div id="tr"></div></div><div class="help" id="enBox"><div id="en"></div></div>
+  <div class="status" id="status"></div>
+  <div class="grid">
+    <button class="big start" id="play">🔊 RECITER READS</button>
+    <button class="big again" id="again">🔁 LISTEN AGAIN</button><button class="big stop" id="stop">⏸ STOP</button>
+    <button class="big prev" id="prev">◀ PREVIOUS</button><button class="big next" id="next">I READ IT — NEXT ➜</button>
+    <button class="big page" id="whole">▶ RECITE THE WHOLE PAGE</button>
+  </div>
+  <div class="settings">
+    <span><label>Speed </label><span class="seg" id="speed" role="group" aria-label="Speed">
+      <button data-rate="1" aria-pressed="true">Normal</button><button data-rate="0.75" aria-pressed="false">Slower</button><button data-rate="0.5" aria-pressed="false">Slowest</button></span></span>
+    <span><label for="reciter">Reciter </label><select id="reciter"></select></span>
+  </div>
+  <div class="toggles"><label><input type="checkbox" id="showTr"> Show transliteration</label><label><input type="checkbox" id="showEn"> Show meaning</label></div>
+</div>
+<div class="note">Tip: tap any word to hear just that word.</div>
+<div class="credit">Arabic text and word timings: Quran.com · Meaning: Sahih International · Recitation: Mishary Alafasy / Mahmoud Khalil Al-Husary (Mu’allim)</div>
+<script>
+const DATA=__DATA__;
+const $=id=>document.getElementById(id);
+const player=new Audio();player.preload='auto';player.preservesPitch=true;
+let pageIdx=0,i=0,rate=1,reciter='alafasy',wholePage=false,raf=0,stopAt=null,spans=[];
+function store(k,v){try{localStorage.setItem('ra-'+k,v)}catch(e){}}
+function load(k){try{return localStorage.getItem('ra-'+k)}catch(e){return null}}
+function page(){return DATA.pages[pageIdx]}
+function line(){return page().lines[i]}
+function status(t){$('status').textContent=t}
+function label(l){return l.n===0?'Bismillah':'Ayah '+l.n}
+function render(){
+  const l=line(),p=page(),count=p.lines.length;
+  $('arabic').innerHTML='';spans=l.words.map((w,k)=>{const s=document.createElement('span');s.className='w';s.textContent=w;s.dataset.k=k;
+    s.addEventListener('click',()=>playWord(k));$('arabic').appendChild(s);return s});
+  if(l.end){const e=document.createElement('span');e.className='end';e.textContent='۝'+l.end;$('arabic').appendChild(e)}
+  $('tr').textContent=l.tr;$('en').textContent=l.en;
+  $('info').textContent=p.title+' • '+label(l)+' • '+(i+1)+' of '+count;
+  $('bar').style.width=((i+1)/count*100)+'%';
+  $('prev').disabled=i===0;
+  status('Press “Reciter reads”, follow the words, then read the ayah out loud.');
+}
+function highlightAt(ms){
+  const segs=line().audio[reciter].segments;let cur=-1;
+  for(const [k,a,b] of segs){if(ms>=a&&ms<b){cur=k;break}}
+  spans.forEach((s,k)=>{const seg=segs.find(x=>x[0]===k);s.classList.toggle('on',k===cur);s.classList.toggle('done',!!seg&&ms>=seg[2]&&k!==cur)});
+  return cur;
+}
+function clearMarks(){spans.forEach(s=>s.classList.remove('on','done'))}
+function tick(){highlightAt(player.currentTime*1000);if(stopAt!==null&&player.currentTime*1000>=stopAt){player.pause();stopAt=null;clearMarks();return}
+  if(!player.paused)raf=requestAnimationFrame(tick)}
+function startAudio(from){
+  const a=line().audio[reciter];
+  cancelAnimationFrame(raf);player.pause();
+  if(player.dataset.src!==a.url){player.src=a.url;player.dataset.src=a.url}
+  player.defaultPlaybackRate=rate;player.playbackRate=rate;
+  try{player.currentTime=(from||0)/1000}catch(e){}
+  return player.play().then(()=>{raf=requestAnimationFrame(tick)}).catch(()=>{wholePage=false;status('The audio did not start. Check your internet connection.')});
+}
+function playVerse(){stopAt=null;clearMarks();status('👂 Listen and follow the highlighted words…');startAudio(0)}
+function playWord(k){const seg=line().audio[reciter].segments.find(x=>x[0]===k);if(!seg)return;wholePage=false;stopAt=seg[2];status('👂 Listen to this word…');startAudio(seg[1])}
+function stopAudio(){wholePage=false;stopAt=null;player.pause();cancelAnimationFrame(raf);clearMarks()}
+player.addEventListener('ended',()=>{cancelAnimationFrame(raf);clearMarks();
+  if(wholePage){if(i<page().lines.length-1){i++;render();status('👂 Keep following…');setTimeout(()=>{if(wholePage)playVerse()},500)}
+    else{wholePage=false;status('🌟 The whole page is done. Now try reading it yourself!')}}
+  else status('🗣️ Now you read the same ayah out loud.')});
+function go(d){stopAudio();i=Math.max(0,Math.min(page().lines.length-1,i+d));render()}
+function next(){if(i<page().lines.length-1){go(1)}else{stopAudio();status('🌟 Well done! You read the whole page, '+page().title+'.')}}
+function choosePage(k){stopAudio();pageIdx=k;i=0;store('page',k);
+  document.querySelectorAll('#pages .chip').forEach((c,n)=>c.setAttribute('aria-pressed',n===k));render()}
+function setRate(r){rate=r;player.defaultPlaybackRate=r;player.playbackRate=r;store('rate',r);
+  document.querySelectorAll('#speed button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.rate===r))}
+$('pages').innerHTML=DATA.pages.map((p,k)=>`<button class="chip" aria-pressed="${k===0}">${p.title}</button>`).join('');
+document.querySelectorAll('#pages .chip').forEach((c,k)=>c.addEventListener('click',()=>choosePage(k)));
+$('reciter').innerHTML=Object.entries(DATA.reciters).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+$('reciter').addEventListener('change',e=>{stopAudio();reciter=e.target.value;player.dataset.src='';store('reciter',reciter);render()});
+document.querySelectorAll('#speed button').forEach(b=>b.addEventListener('click',()=>setRate(+b.dataset.rate)));
+$('play').onclick=()=>{wholePage=false;playVerse()};$('again').onclick=()=>{wholePage=false;playVerse()};$('stop').onclick=stopAudio;
+$('prev').onclick=()=>go(-1);$('next').onclick=next;$('whole').onclick=()=>{stopAudio();wholePage=true;i=0;render();playVerse()};
+function toggle(id,box){const f=()=>{$(box).classList.toggle('show',$(id).checked);store(id,$(id).checked?'1':'')};$(id).addEventListener('change',f);$(id).checked=load(id)==='1';f()}
+toggle('showTr','trBox');toggle('showEn','enBox');
+const sp=+load('page'),sr=+load('rate'),rc=load('reciter');
+if(rc&&DATA.reciters[rc]){reciter=rc;$('reciter').value=rc}
+if(sr)setRate(sr);
+choosePage(sp>=0&&sp<DATA.pages.length?sp:0);
+window.RA={DATA,highlightAt,state:()=>({pageIdx,i,rate,reciter,wholePage}),player};
+</script></main></body></html>

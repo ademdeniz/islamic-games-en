@@ -1,0 +1,2891 @@
+{
+ "reciters": {
+  "alafasy": "Mishary Alafasy",
+  "husary": "Husary – teaching (slow)"
+ },
+ "pages": [
+  {
+   "id": "baqarah-17-24",
+   "title": "Al-Baqarah 17–24",
+   "mushaf_page": 4,
+   "surah": 2,
+   "lines": [
+    {
+     "key": "2:17",
+     "n": 17,
+     "words": [
+      "مَثَلُهُمْ",
+      "كَمَثَلِ",
+      "ٱلَّذِى",
+      "ٱسْتَوْقَدَ",
+      "نَارًۭا",
+      "فَلَمَّآ",
+      "أَضَآءَتْ",
+      "مَا",
+      "حَوْلَهُۥ",
+      "ذَهَبَ",
+      "ٱللَّهُ",
+      "بِنُورِهِمْ",
+      "وَتَرَكَهُمْ",
+      "فِى",
+      "ظُلُمَـٰتٍۢ",
+      "لَّا",
+      "يُبْصِرُونَ"
+     ],
+     "end": "١٧",
+     "tr": "Masaluhum kamasalillazis tawqada naaran falammaaa adaaa'at maa hawlahoo zahabal laahu binoorihim wa tarakahum fee zulumaatil laa yubsiroon",
+     "en": "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allah took away their light and left them in darkness [so] they could not see.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002017.mp3",
+       "segments": [
+        [
+         0,
+         100,
+         980
+        ],
+        [
+         1,
+         990,
+         1760
+        ],
+        [
+         2,
+         1770,
+         2240
+        ],
+        [
+         3,
+         2250,
+         3270
+        ],
+        [
+         4,
+         3280,
+         4450
+        ],
+        [
+         5,
+         4460,
+         7350
+        ],
+        [
+         6,
+         7360,
+         9570
+        ],
+        [
+         7,
+         9580,
+         9890
+        ],
+        [
+         8,
+         9900,
+         10880
+        ],
+        [
+         9,
+         10890,
+         11420
+        ],
+        [
+         10,
+         11430,
+         12180
+        ],
+        [
+         11,
+         12190,
+         16140
+        ],
+        [
+         12,
+         16150,
+         17210
+        ],
+        [
+         13,
+         17220,
+         17650
+        ],
+        [
+         14,
+         17660,
+         18780
+        ],
+        [
+         15,
+         18790,
+         19080
+        ],
+        [
+         16,
+         19090,
+         21460
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002017.mp3",
+       "segments": [
+        [
+         0,
+         300,
+         1490
+        ],
+        [
+         1,
+         1500,
+         2570
+        ],
+        [
+         2,
+         2580,
+         3220
+        ],
+        [
+         3,
+         3230,
+         4680
+        ],
+        [
+         4,
+         4690,
+         6210
+        ],
+        [
+         5,
+         6220,
+         9430
+        ],
+        [
+         6,
+         9440,
+         11800
+        ],
+        [
+         7,
+         21700,
+         22230
+        ],
+        [
+         8,
+         22240,
+         23640
+        ],
+        [
+         9,
+         23650,
+         24420
+        ],
+        [
+         10,
+         24430,
+         25540
+        ],
+        [
+         11,
+         25550,
+         27100
+        ],
+        [
+         12,
+         34470,
+         36110
+        ],
+        [
+         13,
+         36120,
+         36680
+        ],
+        [
+         14,
+         36690,
+         38160
+        ],
+        [
+         15,
+         38170,
+         38910
+        ],
+        [
+         16,
+         38920,
+         40830
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:18",
+     "n": 18,
+     "words": [
+      "صُمٌّۢ",
+      "بُكْمٌ",
+      "عُمْىٌۭ",
+      "فَهُمْ",
+      "لَا",
+      "يَرْجِعُونَ"
+     ],
+     "end": "١٨",
+     "tr": "Summum bukmun 'umyun fahum laa yarji'oon",
+     "en": "Deaf, dumb and blind - so they will not return [to the right path].",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002018.mp3",
+       "segments": [
+        [
+         0,
+         80,
+         2380
+        ],
+        [
+         1,
+         2390,
+         3080
+        ],
+        [
+         2,
+         3090,
+         4290
+        ],
+        [
+         3,
+         4300,
+         4880
+        ],
+        [
+         4,
+         4890,
+         5240
+        ],
+        [
+         5,
+         5250,
+         7410
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002018.mp3",
+       "segments": [
+        [
+         0,
+         0,
+         2550
+        ],
+        [
+         1,
+         2560,
+         3500
+        ],
+        [
+         2,
+         3510,
+         5090
+        ],
+        [
+         3,
+         5100,
+         5930
+        ],
+        [
+         4,
+         5940,
+         6470
+        ],
+        [
+         5,
+         6480,
+         8410
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:19",
+     "n": 19,
+     "words": [
+      "أَوْ",
+      "كَصَيِّبٍۢ",
+      "مِّنَ",
+      "ٱلسَّمَآءِ",
+      "فِيهِ",
+      "ظُلُمَـٰتٌۭ",
+      "وَرَعْدٌۭ",
+      "وَبَرْقٌۭ",
+      "يَجْعَلُونَ",
+      "أَصَـٰبِعَهُمْ",
+      "فِىٓ",
+      "ءَاذَانِهِم",
+      "مِّنَ",
+      "ٱلصَّوَٰعِقِ",
+      "حَذَرَ",
+      "ٱلْمَوْتِ ۚ",
+      "وَٱللَّهُ",
+      "مُحِيطٌۢ",
+      "بِٱلْكَـٰفِرِينَ"
+     ],
+     "end": "١٩",
+     "tr": "Aw kasaiyibim minas samaaa'i feehi zulumaatunw wa ra'dunw wa barq, yaj'aloona asaabi'ahum feee aazaanihim minas sawaa'iqi hazaral mawt' wallaahu muheetum bilkaafireen",
+     "en": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002019.mp3",
+       "segments": [
+        [
+         0,
+         70,
+         330
+        ],
+        [
+         1,
+         340,
+         2260
+        ],
+        [
+         2,
+         2270,
+         2510
+        ],
+        [
+         3,
+         2520,
+         4600
+        ],
+        [
+         4,
+         4610,
+         5180
+        ],
+        [
+         5,
+         5190,
+         6390
+        ],
+        [
+         6,
+         6400,
+         8100
+        ],
+        [
+         7,
+         8110,
+         9460
+        ],
+        [
+         8,
+         9470,
+         10560
+        ],
+        [
+         9,
+         10570,
+         11810
+        ],
+        [
+         10,
+         11820,
+         13530
+        ],
+        [
+         11,
+         13540,
+         15410
+        ],
+        [
+         12,
+         15420,
+         15630
+        ],
+        [
+         13,
+         15640,
+         16820
+        ],
+        [
+         14,
+         16830,
+         17400
+        ],
+        [
+         15,
+         17410,
+         19840
+        ],
+        [
+         16,
+         19850,
+         20760
+        ],
+        [
+         17,
+         20770,
+         22510
+        ],
+        [
+         18,
+         22520,
+         25120
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002019.mp3",
+       "segments": [
+        [
+         0,
+         300,
+         640
+        ],
+        [
+         1,
+         650,
+         2670
+        ],
+        [
+         2,
+         2680,
+         3030
+        ],
+        [
+         3,
+         3040,
+         5570
+        ],
+        [
+         4,
+         5580,
+         6390
+        ],
+        [
+         5,
+         6400,
+         8320
+        ],
+        [
+         6,
+         8330,
+         9880
+        ],
+        [
+         7,
+         9890,
+         11050
+        ],
+        [
+         8,
+         17600,
+         18890
+        ],
+        [
+         9,
+         18900,
+         20910
+        ],
+        [
+         10,
+         20920,
+         22690
+        ],
+        [
+         11,
+         22700,
+         24410
+        ],
+        [
+         12,
+         24420,
+         25300
+        ],
+        [
+         13,
+         25310,
+         26970
+        ],
+        [
+         14,
+         26980,
+         27800
+        ],
+        [
+         15,
+         27810,
+         29150
+        ],
+        [
+         16,
+         33700,
+         34930
+        ],
+        [
+         17,
+         34940,
+         36610
+        ],
+        [
+         18,
+         36620,
+         39120
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:20",
+     "n": 20,
+     "words": [
+      "يَكَادُ",
+      "ٱلْبَرْقُ",
+      "يَخْطَفُ",
+      "أَبْصَـٰرَهُمْ ۖ",
+      "كُلَّمَآ",
+      "أَضَآءَ",
+      "لَهُم",
+      "مَّشَوْا۟",
+      "فِيهِ",
+      "وَإِذَآ",
+      "أَظْلَمَ",
+      "عَلَيْهِمْ",
+      "قَامُوا۟ ۚ",
+      "وَلَوْ",
+      "شَآءَ",
+      "ٱللَّهُ",
+      "لَذَهَبَ",
+      "بِسَمْعِهِمْ",
+      "وَأَبْصَـٰرِهِمْ ۚ",
+      "إِنَّ",
+      "ٱللَّهَ",
+      "عَلَىٰ",
+      "كُلِّ",
+      "شَىْءٍۢ",
+      "قَدِيرٌۭ"
+     ],
+     "end": "٢٠",
+     "tr": "Yakaadul barqu yakhtafu absaarahum kullamaaa adaaa'a lahum mashaw feehi wa izaaa azlama 'alaihim qaamoo; wa law shaaa'al laahu lazahaba bisam'ihim wa absaarihim; innal laaha 'alaa kulli shai'in Qadeer",
+     "en": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002020.mp3",
+       "segments": [
+        [
+         0,
+         150,
+         880
+        ],
+        [
+         1,
+         890,
+         1620
+        ],
+        [
+         2,
+         1630,
+         2400
+        ],
+        [
+         3,
+         2410,
+         4090
+        ],
+        [
+         4,
+         4100,
+         6280
+        ],
+        [
+         6,
+         6290,
+         9760
+        ],
+        [
+         7,
+         9770,
+         10240
+        ],
+        [
+         8,
+         10250,
+         10890
+        ],
+        [
+         9,
+         10900,
+         12980
+        ],
+        [
+         10,
+         12990,
+         13680
+        ],
+        [
+         11,
+         13690,
+         14690
+        ],
+        [
+         12,
+         14700,
+         15960
+        ],
+        [
+         13,
+         15970,
+         16440
+        ],
+        [
+         14,
+         16450,
+         18390
+        ],
+        [
+         15,
+         18400,
+         19170
+        ],
+        [
+         16,
+         19180,
+         19920
+        ],
+        [
+         17,
+         19930,
+         21030
+        ],
+        [
+         18,
+         21040,
+         22930
+        ],
+        [
+         19,
+         22940,
+         24100
+        ],
+        [
+         20,
+         24110,
+         24870
+        ],
+        [
+         21,
+         24880,
+         25540
+        ],
+        [
+         22,
+         25550,
+         26160
+        ],
+        [
+         23,
+         26170,
+         27900
+        ],
+        [
+         24,
+         27910,
+         30120
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002020.mp3",
+       "segments": [
+        [
+         0,
+         400,
+         1420
+        ],
+        [
+         1,
+         1430,
+         2490
+        ],
+        [
+         2,
+         2500,
+         3500
+        ],
+        [
+         3,
+         3510,
+         5450
+        ],
+        [
+         4,
+         5460,
+         8280
+        ],
+        [
+         5,
+         8290,
+         10480
+        ],
+        [
+         6,
+         10490,
+         22050
+        ],
+        [
+         7,
+         22060,
+         22780
+        ],
+        [
+         8,
+         22790,
+         23770
+        ],
+        [
+         9,
+         23780,
+         26100
+        ],
+        [
+         10,
+         26110,
+         27090
+        ],
+        [
+         11,
+         27100,
+         28580
+        ],
+        [
+         12,
+         28590,
+         30050
+        ],
+        [
+         13,
+         34100,
+         34660
+        ],
+        [
+         14,
+         34670,
+         36950
+        ],
+        [
+         15,
+         36960,
+         37950
+        ],
+        [
+         16,
+         37960,
+         39010
+        ],
+        [
+         17,
+         39020,
+         40610
+        ],
+        [
+         18,
+         40620,
+         42900
+        ],
+        [
+         19,
+         46700,
+         47810
+        ],
+        [
+         20,
+         47820,
+         48890
+        ],
+        [
+         21,
+         48900,
+         49820
+        ],
+        [
+         22,
+         49830,
+         50720
+        ],
+        [
+         23,
+         50730,
+         52430
+        ],
+        [
+         24,
+         52440,
+         53920
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:21",
+     "n": 21,
+     "words": [
+      "يَـٰٓأَيُّهَا",
+      "ٱلنَّاسُ",
+      "ٱعْبُدُوا۟",
+      "رَبَّكُمُ",
+      "ٱلَّذِى",
+      "خَلَقَكُمْ",
+      "وَٱلَّذِينَ",
+      "مِن",
+      "قَبْلِكُمْ",
+      "لَعَلَّكُمْ",
+      "تَتَّقُونَ"
+     ],
+     "end": "٢١",
+     "tr": "Yaaa aiyuhan naasu'budoo Rabbakumul lazee khalaqakum wallazeena min qablikum la'allakum tattaqoon",
+     "en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002021.mp3",
+       "segments": [
+        [
+         0,
+         200,
+         2790
+        ],
+        [
+         1,
+         2800,
+         3910
+        ],
+        [
+         2,
+         3920,
+         4620
+        ],
+        [
+         3,
+         4630,
+         5500
+        ],
+        [
+         4,
+         5510,
+         6140
+        ],
+        [
+         5,
+         6150,
+         7110
+        ],
+        [
+         6,
+         7120,
+         8130
+        ],
+        [
+         7,
+         8140,
+         8980
+        ],
+        [
+         8,
+         8990,
+         9910
+        ],
+        [
+         9,
+         9920,
+         10930
+        ],
+        [
+         10,
+         10940,
+         13130
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002021.mp3",
+       "segments": [
+        [
+         0,
+         850,
+         4160
+        ],
+        [
+         1,
+         4170,
+         5530
+        ],
+        [
+         2,
+         5540,
+         6740
+        ],
+        [
+         3,
+         6750,
+         8170
+        ],
+        [
+         4,
+         8180,
+         9140
+        ],
+        [
+         5,
+         9150,
+         10610
+        ],
+        [
+         6,
+         10620,
+         12230
+        ],
+        [
+         7,
+         12240,
+         13300
+        ],
+        [
+         8,
+         13310,
+         14700
+        ],
+        [
+         9,
+         25440,
+         27110
+        ],
+        [
+         10,
+         27120,
+         29120
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:22",
+     "n": 22,
+     "words": [
+      "ٱلَّذِى",
+      "جَعَلَ",
+      "لَكُمُ",
+      "ٱلْأَرْضَ",
+      "فِرَٰشًۭا",
+      "وَٱلسَّمَآءَ",
+      "بِنَآءًۭ",
+      "وَأَنزَلَ",
+      "مِنَ",
+      "ٱلسَّمَآءِ",
+      "مَآءًۭ",
+      "فَأَخْرَجَ",
+      "بِهِۦ",
+      "مِنَ",
+      "ٱلثَّمَرَٰتِ",
+      "رِزْقًۭا",
+      "لَّكُمْ ۖ",
+      "فَلَا",
+      "تَجْعَلُوا۟",
+      "لِلَّهِ",
+      "أَندَادًۭا",
+      "وَأَنتُمْ",
+      "تَعْلَمُونَ"
+     ],
+     "end": "٢٢",
+     "tr": "Allazee ja'ala lakumul arda firaashanw wassamaaa'a binaaa 'anw wa anzala minassamaaa'i maaa'an fa akhraja bihee minas samaraati rizqal lakum falaa taj'aloo lillaahi andaadanw wa antum ta'lamoon",
+     "en": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him].",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002022.mp3",
+       "segments": [
+        [
+         0,
+         70,
+         900
+        ],
+        [
+         1,
+         910,
+         1470
+        ],
+        [
+         2,
+         1480,
+         1980
+        ],
+        [
+         3,
+         1990,
+         2640
+        ],
+        [
+         4,
+         2650,
+         3560
+        ],
+        [
+         5,
+         3570,
+         6350
+        ],
+        [
+         6,
+         6360,
+         8380
+        ],
+        [
+         7,
+         8390,
+         13320
+        ],
+        [
+         8,
+         13330,
+         13620
+        ],
+        [
+         9,
+         13630,
+         15660
+        ],
+        [
+         10,
+         15670,
+         18100
+        ],
+        [
+         11,
+         18110,
+         19020
+        ],
+        [
+         12,
+         19030,
+         19560
+        ],
+        [
+         13,
+         19570,
+         19890
+        ],
+        [
+         14,
+         19900,
+         21030
+        ],
+        [
+         15,
+         21040,
+         21650
+        ],
+        [
+         16,
+         21660,
+         22700
+        ],
+        [
+         17,
+         22710,
+         23200
+        ],
+        [
+         18,
+         23210,
+         24150
+        ],
+        [
+         19,
+         24160,
+         25010
+        ],
+        [
+         20,
+         25020,
+         26550
+        ],
+        [
+         21,
+         26560,
+         28540
+        ],
+        [
+         22,
+         28550,
+         30710
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002022.mp3",
+       "segments": [
+        [
+         0,
+         150,
+         1380
+        ],
+        [
+         1,
+         1390,
+         2210
+        ],
+        [
+         2,
+         2220,
+         3030
+        ],
+        [
+         3,
+         3040,
+         4110
+        ],
+        [
+         4,
+         4120,
+         6010
+        ],
+        [
+         5,
+         6020,
+         8870
+        ],
+        [
+         6,
+         8880,
+         11970
+        ],
+        [
+         7,
+         11980,
+         14000
+        ],
+        [
+         8,
+         19920,
+         20350
+        ],
+        [
+         9,
+         20360,
+         23140
+        ],
+        [
+         10,
+         23150,
+         25850
+        ],
+        [
+         11,
+         25860,
+         27270
+        ],
+        [
+         12,
+         27280,
+         28200
+        ],
+        [
+         13,
+         28210,
+         28640
+        ],
+        [
+         14,
+         28650,
+         30460
+        ],
+        [
+         15,
+         30470,
+         31340
+        ],
+        [
+         16,
+         31350,
+         32450
+        ],
+        [
+         17,
+         37750,
+         38430
+        ],
+        [
+         18,
+         38440,
+         39830
+        ],
+        [
+         19,
+         39840,
+         41160
+        ],
+        [
+         20,
+         41170,
+         43730
+        ],
+        [
+         21,
+         43740,
+         45650
+        ],
+        [
+         22,
+         45660,
+         47430
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:23",
+     "n": 23,
+     "words": [
+      "وَإِن",
+      "كُنتُمْ",
+      "فِى",
+      "رَيْبٍۢ",
+      "مِّمَّا",
+      "نَزَّلْنَا",
+      "عَلَىٰ",
+      "عَبْدِنَا",
+      "فَأْتُوا۟",
+      "بِسُورَةٍۢ",
+      "مِّن",
+      "مِّثْلِهِۦ",
+      "وَٱدْعُوا۟",
+      "شُهَدَآءَكُم",
+      "مِّن",
+      "دُونِ",
+      "ٱللَّهِ",
+      "إِن",
+      "كُنتُمْ",
+      "صَـٰدِقِينَ"
+     ],
+     "end": "٢٣",
+     "tr": "Wa in kuntum fee raibim mimmaa nazzalnaa 'alaa 'abdinaa fatoo bi Sooratim mim mislihee wad'oo shuhadaaa'akum min doonil laahi in kuntum saadiqeen",
+     "en": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002023.mp3",
+       "segments": [
+        [
+         0,
+         70,
+         1070
+        ],
+        [
+         1,
+         1080,
+         2350
+        ],
+        [
+         2,
+         2360,
+         2680
+        ],
+        [
+         3,
+         2690,
+         3940
+        ],
+        [
+         4,
+         3950,
+         5060
+        ],
+        [
+         5,
+         5070,
+         6100
+        ],
+        [
+         6,
+         6110,
+         6560
+        ],
+        [
+         7,
+         6570,
+         7500
+        ],
+        [
+         8,
+         7510,
+         8270
+        ],
+        [
+         9,
+         8280,
+         11900
+        ],
+        [
+         10,
+         11910,
+         12680
+        ],
+        [
+         11,
+         12690,
+         13480
+        ],
+        [
+         12,
+         13490,
+         14150
+        ],
+        [
+         13,
+         14160,
+         17280
+        ],
+        [
+         14,
+         17290,
+         17990
+        ],
+        [
+         15,
+         18000,
+         18560
+        ],
+        [
+         16,
+         18570,
+         19280
+        ],
+        [
+         17,
+         19290,
+         20080
+        ],
+        [
+         18,
+         20090,
+         21240
+        ],
+        [
+         19,
+         21250,
+         23480
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002023.mp3",
+       "segments": [
+        [
+         0,
+         300,
+         1500
+        ],
+        [
+         1,
+         1510,
+         3340
+        ],
+        [
+         2,
+         3350,
+         3970
+        ],
+        [
+         3,
+         3980,
+         6760
+        ],
+        [
+         4,
+         6770,
+         7330
+        ],
+        [
+         5,
+         7340,
+         8840
+        ],
+        [
+         6,
+         8850,
+         9720
+        ],
+        [
+         7,
+         9730,
+         11190
+        ],
+        [
+         8,
+         11200,
+         12420
+        ],
+        [
+         9,
+         12430,
+         14830
+        ],
+        [
+         10,
+         14840,
+         15870
+        ],
+        [
+         11,
+         15880,
+         16850
+        ],
+        [
+         12,
+         26550,
+         27620
+        ],
+        [
+         13,
+         27630,
+         31590
+        ],
+        [
+         14,
+         31600,
+         32520
+        ],
+        [
+         15,
+         32530,
+         33370
+        ],
+        [
+         16,
+         33380,
+         34440
+        ],
+        [
+         17,
+         34450,
+         35520
+        ],
+        [
+         18,
+         35530,
+         37250
+        ],
+        [
+         19,
+         37260,
+         39400
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "2:24",
+     "n": 24,
+     "words": [
+      "فَإِن",
+      "لَّمْ",
+      "تَفْعَلُوا۟",
+      "وَلَن",
+      "تَفْعَلُوا۟",
+      "فَٱتَّقُوا۟",
+      "ٱلنَّارَ",
+      "ٱلَّتِى",
+      "وَقُودُهَا",
+      "ٱلنَّاسُ",
+      "وَٱلْحِجَارَةُ ۖ",
+      "أُعِدَّتْ",
+      "لِلْكَـٰفِرِينَ"
+     ],
+     "end": "٢٤",
+     "tr": "Fail lam taf'aloo wa lan taf'aloo fattaqun Naaral latee waqooduhan naasu walhijaaratu u'iddat lilkaafireen",
+     "en": "But if you do not - and you will never be able to - then fear the Fire, whose fuel is men and stones, prepared for the disbelievers.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/002024.mp3",
+       "segments": [
+        [
+         0,
+         200,
+         440
+        ],
+        [
+         1,
+         450,
+         920
+        ],
+        [
+         2,
+         930,
+         1910
+        ],
+        [
+         3,
+         1920,
+         3210
+        ],
+        [
+         4,
+         3220,
+         4180
+        ],
+        [
+         5,
+         4190,
+         4990
+        ],
+        [
+         6,
+         5000,
+         6220
+        ],
+        [
+         7,
+         6230,
+         6970
+        ],
+        [
+         8,
+         6980,
+         7950
+        ],
+        [
+         9,
+         7960,
+         9330
+        ],
+        [
+         10,
+         9340,
+         10970
+        ],
+        [
+         11,
+         10980,
+         11860
+        ],
+        [
+         12,
+         11870,
+         14570
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/002024.mp3",
+       "segments": [
+        [
+         0,
+         250,
+         870
+        ],
+        [
+         1,
+         880,
+         1520
+        ],
+        [
+         2,
+         1530,
+         3020
+        ],
+        [
+         3,
+         3030,
+         4180
+        ],
+        [
+         4,
+         4190,
+         5690
+        ],
+        [
+         5,
+         5700,
+         7060
+        ],
+        [
+         6,
+         7070,
+         8950
+        ],
+        [
+         7,
+         15940,
+         17120
+        ],
+        [
+         8,
+         17130,
+         18790
+        ],
+        [
+         9,
+         18800,
+         20230
+        ],
+        [
+         10,
+         20240,
+         22250
+        ],
+        [
+         11,
+         26300,
+         27560
+        ],
+        [
+         12,
+         27570,
+         30210
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "yasin-1-12",
+   "title": "Ya-Sin 1–12",
+   "mushaf_page": 440,
+   "surah": 36,
+   "lines": [
+    {
+     "key": "1:1",
+     "n": 0,
+     "words": [
+      "بِسْمِ",
+      "ٱللَّهِ",
+      "ٱلرَّحْمَـٰنِ",
+      "ٱلرَّحِيمِ"
+     ],
+     "end": "",
+     "tr": "Bismillaahir Rahmaanir Raheem",
+     "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/001001.mp3",
+       "segments": [
+        [
+         0,
+         60,
+         610
+        ],
+        [
+         1,
+         620,
+         1310
+        ],
+        [
+         2,
+         1320,
+         2450
+        ],
+        [
+         3,
+         2460,
+         5970
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/001001.mp3",
+       "segments": [
+        [
+         0,
+         0,
+         820
+        ],
+        [
+         1,
+         830,
+         1520
+        ],
+        [
+         2,
+         1530,
+         2790
+        ],
+        [
+         3,
+         2800,
+         4240
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:1",
+     "n": 1,
+     "words": [
+      "يسٓ"
+     ],
+     "end": "١",
+     "tr": "Yaa-Seeen",
+     "en": "Ya, Seen.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036001.mp3",
+       "segments": [
+        [
+         0,
+         120,
+         4598
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036001.mp3",
+       "segments": [
+        [
+         0,
+         0,
+         7000
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:2",
+     "n": 2,
+     "words": [
+      "وَٱلْقُرْءَانِ",
+      "ٱلْحَكِيمِ"
+     ],
+     "end": "٢",
+     "tr": "Wal-Qur-aanil-Hakeem",
+     "en": "By the wise Qur'an.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036002.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1340
+        ],
+        [
+         1,
+         1350,
+         4260
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036002.mp3",
+       "segments": [
+        [
+         0,
+         350,
+         2480
+        ],
+        [
+         1,
+         2490,
+         4400
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:3",
+     "n": 3,
+     "words": [
+      "إِنَّكَ",
+      "لَمِنَ",
+      "ٱلْمُرْسَلِينَ"
+     ],
+     "end": "٣",
+     "tr": "Innaka laminal mursaleen",
+     "en": "Indeed you, [O Muhammad], are from among the messengers,",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036003.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1570
+        ],
+        [
+         1,
+         1580,
+         2100
+        ],
+        [
+         2,
+         2110,
+         5390
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036003.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1590
+        ],
+        [
+         1,
+         1600,
+         2370
+        ],
+        [
+         2,
+         2380,
+         4570
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:4",
+     "n": 4,
+     "words": [
+      "عَلَىٰ",
+      "صِرَٰطٍۢ",
+      "مُّسْتَقِيمٍۢ"
+     ],
+     "end": "٤",
+     "tr": "'Alaa Siraatim Mustaqeem",
+     "en": "On a straight path.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036004.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         570
+        ],
+        [
+         1,
+         580,
+         2650
+        ],
+        [
+         2,
+         2660,
+         5710
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036004.mp3",
+       "segments": [
+        [
+         0,
+         200,
+         970
+        ],
+        [
+         1,
+         980,
+         3090
+        ],
+        [
+         2,
+         3100,
+         4220
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:5",
+     "n": 5,
+     "words": [
+      "تَنزِيلَ",
+      "ٱلْعَزِيزِ",
+      "ٱلرَّحِيمِ"
+     ],
+     "end": "٥",
+     "tr": "Tanzeelal 'Azeezir Raheem",
+     "en": "[This is] a revelation of the Exalted in Might, the Merciful,",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036005.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1910
+        ],
+        [
+         1,
+         1920,
+         2930
+        ],
+        [
+         2,
+         2940,
+         5990
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036005.mp3",
+       "segments": [
+        [
+         0,
+         300,
+         2110
+        ],
+        [
+         1,
+         2120,
+         3600
+        ],
+        [
+         2,
+         3610,
+         5510
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:6",
+     "n": 6,
+     "words": [
+      "لِتُنذِرَ",
+      "قَوْمًۭا",
+      "مَّآ",
+      "أُنذِرَ",
+      "ءَابَآؤُهُمْ",
+      "فَهُمْ",
+      "غَـٰفِلُونَ"
+     ],
+     "end": "٦",
+     "tr": "Litunzira qawmam maaa unzira aabaaa'uhum fahum ghaafiloon",
+     "en": "That you may warn a people whose forefathers were not warned, so they are unaware.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036006.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1720
+        ],
+        [
+         1,
+         1730,
+         2250
+        ],
+        [
+         2,
+         2260,
+         5010
+        ],
+        [
+         3,
+         5020,
+         6560
+        ],
+        [
+         4,
+         6570,
+         9410
+        ],
+        [
+         5,
+         9420,
+         9990
+        ],
+        [
+         6,
+         10000,
+         13260
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036006.mp3",
+       "segments": [
+        [
+         0,
+         250,
+         1880
+        ],
+        [
+         1,
+         1890,
+         2930
+        ],
+        [
+         2,
+         2940,
+         5330
+        ],
+        [
+         3,
+         5340,
+         6860
+        ],
+        [
+         4,
+         6870,
+         9960
+        ],
+        [
+         5,
+         9970,
+         10970
+        ],
+        [
+         6,
+         10980,
+         12870
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:7",
+     "n": 7,
+     "words": [
+      "لَقَدْ",
+      "حَقَّ",
+      "ٱلْقَوْلُ",
+      "عَلَىٰٓ",
+      "أَكْثَرِهِمْ",
+      "فَهُمْ",
+      "لَا",
+      "يُؤْمِنُونَ"
+     ],
+     "end": "٧",
+     "tr": "Laqad haqqal qawlu 'alaaa aksarihim fahum laa yu'minoon",
+     "en": "Already the word has come into effect upon most of them, so they do not believe.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036007.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         490
+        ],
+        [
+         1,
+         500,
+         1140
+        ],
+        [
+         2,
+         1150,
+         1910
+        ],
+        [
+         3,
+         1920,
+         3730
+        ],
+        [
+         4,
+         3740,
+         4840
+        ],
+        [
+         5,
+         4850,
+         5530
+        ],
+        [
+         6,
+         5540,
+         5890
+        ],
+        [
+         7,
+         5900,
+         8590
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036007.mp3",
+       "segments": [
+        [
+         0,
+         150,
+         750
+        ],
+        [
+         1,
+         760,
+         1720
+        ],
+        [
+         2,
+         1730,
+         2870
+        ],
+        [
+         3,
+         2880,
+         4700
+        ],
+        [
+         4,
+         4710,
+         6370
+        ],
+        [
+         5,
+         6380,
+         7390
+        ],
+        [
+         6,
+         7400,
+         8000
+        ],
+        [
+         7,
+         8010,
+         9860
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:8",
+     "n": 8,
+     "words": [
+      "إِنَّا",
+      "جَعَلْنَا",
+      "فِىٓ",
+      "أَعْنَـٰقِهِمْ",
+      "أَغْلَـٰلًۭا",
+      "فَهِىَ",
+      "إِلَى",
+      "ٱلْأَذْقَانِ",
+      "فَهُم",
+      "مُّقْمَحُونَ"
+     ],
+     "end": "٨",
+     "tr": "Innaa ja'alnaa feee a'naaqihim aghlaalan fahiya ilal azqaani fahum muqmahoon",
+     "en": "Indeed, We have put shackles on their necks, and they are to their chins, so they are with heads [kept] aloft.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036008.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1320
+        ],
+        [
+         1,
+         1330,
+         2340
+        ],
+        [
+         2,
+         2350,
+         4520
+        ],
+        [
+         3,
+         4530,
+         5940
+        ],
+        [
+         4,
+         5950,
+         7850
+        ],
+        [
+         5,
+         7860,
+         8570
+        ],
+        [
+         6,
+         8580,
+         8920
+        ],
+        [
+         7,
+         8930,
+         10150
+        ],
+        [
+         8,
+         10160,
+         11890
+        ],
+        [
+         9,
+         11900,
+         14580
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036008.mp3",
+       "segments": [
+        [
+         0,
+         150,
+         1610
+        ],
+        [
+         1,
+         1620,
+         3190
+        ],
+        [
+         2,
+         3200,
+         4820
+        ],
+        [
+         3,
+         4830,
+         6960
+        ],
+        [
+         4,
+         6970,
+         9200
+        ],
+        [
+         5,
+         9210,
+         10030
+        ],
+        [
+         6,
+         10040,
+         10610
+        ],
+        [
+         7,
+         10620,
+         12420
+        ],
+        [
+         8,
+         12430,
+         13800
+        ],
+        [
+         9,
+         13810,
+         15600
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:9",
+     "n": 9,
+     "words": [
+      "وَجَعَلْنَا",
+      "مِنۢ",
+      "بَيْنِ",
+      "أَيْدِيهِمْ",
+      "سَدًّۭا",
+      "وَمِنْ",
+      "خَلْفِهِمْ",
+      "سَدًّۭا",
+      "فَأَغْشَيْنَـٰهُمْ",
+      "فَهُمْ",
+      "لَا",
+      "يُبْصِرُونَ"
+     ],
+     "end": "٩",
+     "tr": "Wa ja'alnaa mim baini aydeehim saddanw-wa min khalfihim saddan fa aghshai naahum fahum laa yubsiroon",
+     "en": "And We have put before them a barrier and behind them a barrier and covered them, so they do not see.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036009.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1260
+        ],
+        [
+         1,
+         1270,
+         2320
+        ],
+        [
+         2,
+         2330,
+         2980
+        ],
+        [
+         3,
+         2990,
+         4110
+        ],
+        [
+         4,
+         4120,
+         4780
+        ],
+        [
+         5,
+         4790,
+         6350
+        ],
+        [
+         6,
+         6360,
+         7400
+        ],
+        [
+         7,
+         7410,
+         9140
+        ],
+        [
+         8,
+         9150,
+         10980
+        ],
+        [
+         9,
+         10990,
+         11670
+        ],
+        [
+         10,
+         11680,
+         11990
+        ],
+        [
+         11,
+         12000,
+         14860
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036009.mp3",
+       "segments": [
+        [
+         0,
+         150,
+         1910
+        ],
+        [
+         1,
+         1920,
+         2920
+        ],
+        [
+         2,
+         2930,
+         3810
+        ],
+        [
+         3,
+         3820,
+         5590
+        ],
+        [
+         4,
+         5600,
+         6550
+        ],
+        [
+         5,
+         6560,
+         8010
+        ],
+        [
+         6,
+         8020,
+         9510
+        ],
+        [
+         7,
+         9520,
+         11090
+        ],
+        [
+         8,
+         11100,
+         13880
+        ],
+        [
+         9,
+         13890,
+         14930
+        ],
+        [
+         10,
+         14940,
+         15570
+        ],
+        [
+         11,
+         15580,
+         17440
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:10",
+     "n": 10,
+     "words": [
+      "وَسَوَآءٌ",
+      "عَلَيْهِمْ",
+      "ءَأَنذَرْتَهُمْ",
+      "أَمْ",
+      "لَمْ",
+      "تُنذِرْهُمْ",
+      "لَا",
+      "يُؤْمِنُونَ"
+     ],
+     "end": "١٠",
+     "tr": "Wa sawaaa'un 'alaihim 'a-anzartahum am lam tunzirhum laa yu'minoon",
+     "en": "And it is all the same for them whether you warn them or do not warn them - they will not believe.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036010.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         2830
+        ],
+        [
+         1,
+         2840,
+         3970
+        ],
+        [
+         2,
+         3980,
+         6190
+        ],
+        [
+         3,
+         6200,
+         6540
+        ],
+        [
+         4,
+         6550,
+         6950
+        ],
+        [
+         5,
+         6960,
+         8890
+        ],
+        [
+         6,
+         8900,
+         9280
+        ],
+        [
+         7,
+         9290,
+         12370
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036010.mp3",
+       "segments": [
+        [
+         0,
+         150,
+         2800
+        ],
+        [
+         1,
+         2810,
+         4370
+        ],
+        [
+         2,
+         4380,
+         7160
+        ],
+        [
+         3,
+         7170,
+         7770
+        ],
+        [
+         4,
+         7780,
+         8370
+        ],
+        [
+         5,
+         8380,
+         10670
+        ],
+        [
+         6,
+         10680,
+         11280
+        ],
+        [
+         7,
+         11290,
+         12390
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:11",
+     "n": 11,
+     "words": [
+      "إِنَّمَا",
+      "تُنذِرُ",
+      "مَنِ",
+      "ٱتَّبَعَ",
+      "ٱلذِّكْرَ",
+      "وَخَشِىَ",
+      "ٱلرَّحْمَـٰنَ",
+      "بِٱلْغَيْبِ ۖ",
+      "فَبَشِّرْهُ",
+      "بِمَغْفِرَةٍۢ",
+      "وَأَجْرٍۢ",
+      "كَرِيمٍ"
+     ],
+     "end": "١١",
+     "tr": "Innamaa tunziru manit taba 'az-Zikra wa khashiyar Rahmaana bilghaib, fabashshirhu bimaghfiratinw-wa ajrin kareem",
+     "en": "You can only warn one who follows the message and fears the Most Merciful unseen. So give him good tidings of forgiveness and noble reward.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036011.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1710
+        ],
+        [
+         1,
+         1720,
+         3370
+        ],
+        [
+         2,
+         3380,
+         3690
+        ],
+        [
+         3,
+         3700,
+         4570
+        ],
+        [
+         4,
+         4580,
+         5440
+        ],
+        [
+         5,
+         5450,
+         6200
+        ],
+        [
+         6,
+         6210,
+         7480
+        ],
+        [
+         7,
+         7490,
+         10830
+        ],
+        [
+         8,
+         10840,
+         12030
+        ],
+        [
+         9,
+         12040,
+         13480
+        ],
+        [
+         10,
+         13490,
+         16020
+        ],
+        [
+         11,
+         16030,
+         19080
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036011.mp3",
+       "segments": [
+        [
+         0,
+         200,
+         2010
+        ],
+        [
+         1,
+         2020,
+         3600
+        ],
+        [
+         2,
+         3610,
+         4140
+        ],
+        [
+         3,
+         4150,
+         5320
+        ],
+        [
+         4,
+         5330,
+         6510
+        ],
+        [
+         5,
+         6520,
+         7620
+        ],
+        [
+         6,
+         7630,
+         9610
+        ],
+        [
+         7,
+         9620,
+         11350
+        ],
+        [
+         8,
+         14400,
+         15880
+        ],
+        [
+         9,
+         15890,
+         18290
+        ],
+        [
+         10,
+         18300,
+         20030
+        ],
+        [
+         11,
+         20040,
+         21400
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "key": "36:12",
+     "n": 12,
+     "words": [
+      "إِنَّا",
+      "نَحْنُ",
+      "نُحْىِ",
+      "ٱلْمَوْتَىٰ",
+      "وَنَكْتُبُ",
+      "مَا",
+      "قَدَّمُوا۟",
+      "وَءَاثَـٰرَهُمْ ۚ",
+      "وَكُلَّ",
+      "شَىْءٍ",
+      "أَحْصَيْنَـٰهُ",
+      "فِىٓ",
+      "إِمَامٍۢ",
+      "مُّبِينٍۢ"
+     ],
+     "end": "١٢",
+     "tr": "Innaa Nahnu nuhyil mawtaa wa naktubu maa qaddamoo wa aasaarahum; wa kulla shai'in ahsainaahu feee Imaamim Mubeen",
+     "en": "Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind, and all things We have enumerated in a clear register.",
+     "audio": {
+      "alafasy": {
+       "url": "https://verses.quran.com/Alafasy/mp3/036012.mp3",
+       "segments": [
+        [
+         0,
+         30,
+         1440
+        ],
+        [
+         1,
+         1450,
+         2090
+        ],
+        [
+         2,
+         2100,
+         2610
+        ],
+        [
+         3,
+         2620,
+         3660
+        ],
+        [
+         4,
+         3670,
+         4700
+        ],
+        [
+         5,
+         4710,
+         5030
+        ],
+        [
+         6,
+         5040,
+         6110
+        ],
+        [
+         7,
+         6120,
+         8200
+        ],
+        [
+         8,
+         8210,
+         8980
+        ],
+        [
+         9,
+         8990,
+         9850
+        ],
+        [
+         10,
+         9860,
+         11250
+        ],
+        [
+         11,
+         11260,
+         12830
+        ],
+        [
+         12,
+         12840,
+         14670
+        ],
+        [
+         13,
+         14680,
+         16750
+        ]
+       ]
+      },
+      "husary": {
+       "url": "https://mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/036012.mp3",
+       "segments": [
+        [
+         0,
+         350,
+         2030
+        ],
+        [
+         1,
+         2040,
+         2820
+        ],
+        [
+         2,
+         2830,
+         3690
+        ],
+        [
+         3,
+         3700,
+         5190
+        ],
+        [
+         4,
+         5200,
+         6600
+        ],
+        [
+         5,
+         6610,
+         7190
+        ],
+        [
+         6,
+         7200,
+         8900
+        ],
+        [
+         7,
+         16170,
+         18850
+        ],
+        [
+         8,
+         23600,
+         24570
+        ],
+        [
+         9,
+         24580,
+         25900
+        ],
+        [
+         10,
+         25910,
+         28140
+        ],
+        [
+         11,
+         28150,
+         29780
+        ],
+        [
+         12,
+         29790,
+         31790
+        ],
+        [
+         13,
+         31800,
+         33050
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

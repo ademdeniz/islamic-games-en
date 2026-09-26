@@ -22,7 +22,8 @@ REGEX_BEFORE = set('(,=:[!&|?{};+-*%<>~^')
 REGEX_WORDS = {'return', 'typeof', 'case', 'do', 'else', 'in', 'of', 'new', 'delete', 'void', 'throw', 'yield', 'await'}
 
 # Games built by a dedicated script instead of a translation table, with deliberate structural changes.
-BUILT_SPECIALLY = {'memori-sure': 'adds translation, reader panel and recitation audio (tools/build_memori_sure.py)'}
+BUILT_SPECIALLY = {'memori-sure': 'adds translation, reader panel and recitation audio (tools/build_memori_sure.py)',
+                   'citaj-kuran': 'rebuilt Read Along with Arabic word highlighting (tools/build_citaj_kuran.py)'}
 
 
 # ---------------------------------------------------------------- JS lexer

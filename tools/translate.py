@@ -16,6 +16,12 @@ import skel  # noqa: E402
 ROOT = skel.ROOT
 
 for game in sys.argv[1:]:
+    spec0 = importlib.util.spec_from_file_location(game + '_cfg', os.path.join(ROOT, 'tools', 'tr', game + '.py'))
+    cfg = importlib.util.module_from_spec(spec0)
+    spec0.loader.exec_module(cfg)
+    if hasattr(cfg, 'BUILD'):
+        print(f'{game}: built by {cfg.BUILD}, not a translation table – run that instead')
+        continue
     skel.extract(game)
     spec = importlib.util.spec_from_file_location(game, os.path.join(ROOT, 'tools', 'tr', game + '.py'))
     mod = importlib.util.module_from_spec(spec)
