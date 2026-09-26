@@ -101,3 +101,41 @@ def transform(src):
         assert src.count(a) == 1, 'forgot-password patch target not found: ' + a[:60]
         src = src.replace(a, b)
     return src
+
+# ---- Login required to play (homework mode): students must be logged in and accepted into a mu'allim's class ------
+STRUCTURAL += ('; requires login to play: students must be in a mu’allim’s class before START GAME works '
+               '(tested in tests/test_online_auth.py)')
+
+_LOGIN = [
+    ('<div class="footer">Online student tracking • the quiz also works without logging in</div>',
+     '<div class="footer">Log in and join your mu’allim’s class to play • your results are sent to your teacher</div>'),
+    ('<button id="dbBtn">📚 QUESTION BANK</button></div>',
+     '<button id="dbBtn">📚 QUESTION BANK</button></div><div id="whoBar" class="sub" style="margin-top:10px"></div>'),
+    ('function startGame(){run=', 'async function startGame(){if(!(await canPlay()))return;run='),
+    ("$('onlineBack').onclick=()=>show('start');", "$('onlineBack').onclick=()=>{show('start');showStatus()};"),
+    ('sb.auth.onAuthStateChange(()=>setTimeout(refreshOnline,0));',
+     "function blockPlay(t){show('online');onlineMsg(t);showStatus();return false}\n"
+     "async function canPlay(){"
+     "if(!me)return blockPlay('Please log in (or sign up) and join your mu’allim’s class to play – your results are sent to your teacher.');"
+     "if(!myProfile)await refreshOnline();"
+     "if(myProfile&&myProfile.role!=='ucenik')return true;"
+     "if(!myTeacher){let {data:l}=await sb.from('teacher_students').select('teacher_id').eq('student_id',me.id).maybeSingle();myTeacher=l?.teacher_id||null}"
+     "if(myTeacher)return true;"
+     "return blockPlay('Type your mu’allim’s code below and send a request. You can play as soon as your mu’allim accepts it.')}\n"
+     "function showStatus(){let w=$('whoBar');if(!w)return;"
+     "w.textContent=!me||!myProfile?'🔒 Log in to play – tap 🌐 ONLINE / LOG IN':"
+     "myProfile.role!=='ucenik'?'Logged in as '+myProfile.full_name+' (results are not saved for teachers)':"
+     "myTeacher?'✅ Logged in as '+myProfile.full_name+' – your results go to your mu’allim':"
+     "'Logged in as '+myProfile.full_name+' – join your mu’allim’s class to play'}\n"
+     "sb.auth.onAuthStateChange(()=>setTimeout(async()=>{await refreshOnline();showStatus()},0));"),
+]
+
+_forgot_transform = transform
+
+
+def transform(src):
+    src = _forgot_transform(src)
+    for a, b in _LOGIN:
+        assert src.count(a) == 1, 'login-required patch target not found: ' + a[:60]
+        src = src.replace(a, b)
+    return src
