@@ -1,0 +1,49 @@
+{
+  "number": 1,
+  "title": "Prophet Adam (AS)",
+  "pages": "8–9",
+  "intro": "The story of the first human being and the first prophet.",
+  "learn": [
+    {"type": "quran", "ref": "As-Sajdah 32:6–7",
+     "text": "That is the Knower of the unseen and the witnessed, the Exalted in Might, the Merciful, Who perfected everything which He created and began the creation of man from clay."},
+    {"type": "text", "html": "The human being is Allah’s most beautiful creation. The first human had no parents, and he did not develop from apes, as the theory of evolution claims. Allah, the Most High, created <b>Adam (AS)</b> in Jannah, from earth."},
+    {"type": "text", "html": "Then Allah (SWT) commanded the angels to prostrate (make sajdah) to him, and they did. <b>Iblis</b> was with them, but he refused. He became arrogant and disobedient."},
+    {"type": "quran", "ref": "Al-A‘raf 7:12",
+     "text": "[Allah] said, \"What prevented you from prostrating when I commanded you?\" [Satan] said, \"I am better than him. You created me from fire and created him from clay.\""},
+    {"type": "text", "html": "The first home of Adam and <b>Hawwa</b> was Jannah. There they had everything they needed. They were only forbidden to go near <b>one tree</b>, so that they would not become sinners and would not be among those whom Shaytan leads astray. But Shaytan did not leave them in peace – he tried to persuade them to go near the forbidden tree."},
+    {"type": "text", "html": "He told them the tree was forbidden only so that they would not become angels, would not live forever and would not get a kingdom that never ends. Shaytan promised them eternal life, becoming angels and a kingdom that never ends – if only they went near that tree."},
+    {"type": "text", "html": "When they went near the forbidden tree and ate its fruit, Adam and Hawwa did not become angels, they did not live forever, and they did not get a kingdom that never ends. Instead they committed a sin and lost the blessings they had – because they had broken Allah’s command and crossed the limits He had set."},
+    {"type": "text", "html": "The Qur’an tells us that Shaytan misled both of them into sin, but they <b>repented straight away</b>:"},
+    {"type": "quran", "ref": "Al-A‘raf 7:23",
+     "text": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\""},
+    {"type": "text", "html": "Because of the sin they had committed, Adam and Hawwa were sent out of Jannah."},
+    {"type": "text", "html": "When they came to Earth, Allah separated Adam and Hawwa. For a long time they searched for each other and made du‘a to Allah to find each other again. The sign that Allah had forgiven them was that they met again – at <b>Arafat</b>, near Makkah."},
+    {"type": "text", "html": "From Adam, the first human and the first prophet, and his wife Hawwa came the whole human race. From the Qur’anic story of Adam (AS) we learn that <b>Shaytan will always try to lead us into sin</b>. That is why Muslims – besides believing firmly in Allah and doing good deeds – should always say <b>A‘udhu billah</b>, to be protected from the accursed Shaytan."}
+  ],
+  "practice": [
+    {"type": "order", "title": "What happened first?",
+     "prompt": "Tap the events of the story in the right order.",
+     "items": ["Allah created Adam (AS)", "Allah created Adam’s wife, Hawwa", "Adam and Hawwa lived in Jannah",
+               "They disobeyed Allah’s command about the tree", "Adam and Hawwa committed a sin", "They repented for their sin",
+               "They came down to Earth", "Their life in this world (dunya)"]},
+    {"type": "quiz", "title": "Review and answer", "questions": [
+      {"q": "How did humankind begin?",
+       "options": ["From Adam and Hawwa, whom Allah created", "From the angels", "It has no beginning", "From Iblis"],
+       "answer": 0},
+      {"q": "Who was the first human on Earth?", "options": ["Adam (AS)", "Nuh (AS)", "Ibrahim (AS)", "Musa (AS)"], "answer": 0},
+      {"q": "Who was his wife?", "options": ["Hawwa", "Maryam", "Khadijah", "Asiyah"], "answer": 0},
+      {"q": "Who refused to prostrate to Adam (AS)?", "options": ["Iblis", "The angel Jibril", "The angels", "Hawwa"], "answer": 0},
+      {"q": "What were Adam and Hawwa told not to do in Jannah?",
+       "options": ["Go near one tree", "Talk to the angels", "Eat any fruit at all", "Leave their home"], "answer": 0},
+      {"q": "What did Adam and Hawwa do after their mistake?",
+       "options": ["They repented and asked Allah for forgiveness", "They blamed the angels", "They hid from Allah", "They did nothing"],
+       "answer": 0},
+      {"q": "Where did Adam and Hawwa meet again?", "options": ["At Arafat", "In Jannah", "In Madinah", "At the sea"], "answer": 0},
+      {"q": "What should we say to be protected from Shaytan?", "options": ["A‘udhu billah", "Alhamdulillah", "Amin", "MashaAllah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Choose a task", "prompts": [
+      "✏️ Think and write in your notebook: what harm does Shaytan cause, and what happens because of it?",
+      "✏️ Think and write in your notebook: what should you do when Shaytan tempts you to do something bad – and what if he succeeds?"
+    ]}
+  ]
+}

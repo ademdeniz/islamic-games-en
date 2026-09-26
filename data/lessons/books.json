@@ -1,0 +1,8 @@
+{
+  "ilmihal-1": {"title": "Ilmihal 1", "level": "Level 1 – first year of maktab", "icon": "🌱",
+                "source": "Ilmihal 1 for the first level of maktab, Ibrahim Softić (El-Kalem, Sarajevo, 2020)"},
+  "ilmihal-2": {"title": "Ilmihal 2", "level": "Level 2 – second year of maktab", "icon": "🌿",
+                "source": "Ilmihal 2 for the second level of maktab, J. Salkica, R. Ibreljić, I. Jusufović, S. Hibović, M. Bilčević (El-Kalem, Sarajevo, 2020)"},
+  "ilmihal-3": {"title": "Ilmihal 3", "level": "Level 3 – third year of maktab", "icon": "🌳",
+                "source": "Ilmihal 3 for the third level of maktab, J. Salkica, R. Ibreljić, I. Jusufović, S. Hibović, M. Bilčević (El-Kalem, Sarajevo, 2020)"}
+}
