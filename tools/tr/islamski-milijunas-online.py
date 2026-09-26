@@ -115,18 +115,20 @@ _LOGIN = [
     ("$('onlineBack').onclick=()=>show('start');", "$('onlineBack').onclick=()=>{show('start');showStatus()};"),
     ('sb.auth.onAuthStateChange(()=>setTimeout(refreshOnline,0));',
      "function blockPlay(t){show('online');onlineMsg(t);showStatus();return false}\n"
-     "async function canPlay(){"
+     "async function canPlay(){try{"
      "if(!me)return blockPlay('Please log in (or sign up) and join your mu’allim’s class to play – your results are sent to your teacher.');"
      "if(!myProfile)await refreshOnline();"
      "if(myProfile&&myProfile.role!=='ucenik')return true;"
      "if(!myTeacher){let {data:l}=await sb.from('teacher_students').select('teacher_id').eq('student_id',me.id).maybeSingle();myTeacher=l?.teacher_id||null}"
      "if(myTeacher)return true;"
-     "return blockPlay('Type your mu’allim’s code below and send a request. You can play as soon as your mu’allim accepts it.')}\n"
-     "function showStatus(){let w=$('whoBar');if(!w)return;"
+     "return blockPlay('Type your mu’allim’s code below and send a request. You can play as soon as your mu’allim accepts it.')"
+     "}catch(e){show('online');onlineMsg('Could not connect to the class server. Check your internet connection and try again.');return false}}\n"
+     "function showStatus(){let w=$('whoBar');if(!w)return;try{"
      "w.textContent=!me||!myProfile?'🔒 Log in to play – tap 🌐 ONLINE / LOG IN':"
      "myProfile.role!=='ucenik'?'Logged in as '+myProfile.full_name+' (results are not saved for teachers)':"
      "myTeacher?'✅ Logged in as '+myProfile.full_name+' – your results go to your mu’allim':"
-     "'Logged in as '+myProfile.full_name+' – join your mu’allim’s class to play'}\n"
+     "'Logged in as '+myProfile.full_name+' – join your mu’allim’s class to play'"
+     "}catch(e){w.textContent='⚠️ Not connected – check your internet connection'}}\n"
      "sb.auth.onAuthStateChange(()=>setTimeout(async()=>{await refreshOnline();showStatus()},0));"),
 ]
 

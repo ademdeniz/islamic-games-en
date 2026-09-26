@@ -126,7 +126,11 @@ def _run_in_browser(browser, path):
         page.goto('file://' + path, timeout=20000)
         page.wait_for_timeout(500)
         for _ in range(12):
-            buttons = [b for b in page.query_selector_all('button, [onclick]') if b.is_visible() and b.is_enabled()]
+            try:  # the game may replace its buttons while we look at them; just look again
+                buttons = [b for b in page.query_selector_all('button, [onclick]') if b.is_visible() and b.is_enabled()]
+            except Exception:
+                page.wait_for_timeout(250)
+                continue
             if not buttons:
                 break
             try:

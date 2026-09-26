@@ -5,6 +5,7 @@ import functools
 import http.server
 import json
 import os
+import re
 import threading
 import time
 
@@ -179,3 +180,16 @@ def test_teacher_can_try_the_quiz(page, server):
     assert 'results are not saved for teachers' in page.inner_text('#whoBar')
     page.click('#startBtn')
     page.wait_for_function("document.querySelector('.screen.active').id === 'game'")
+
+
+def test_offline_shows_a_clear_message_instead_of_failing_silently(browser, server):
+    page = browser.new_page()
+    errors = []
+    page.on('pageerror', lambda e: errors.append(str(e)))
+    page.route(re.compile(r'^https://'), lambda route: route.abort())   # no internet: Supabase library can't load
+    page.goto(server)
+    page.click('#startBtn')
+    page.wait_for_function("document.querySelector('.screen.active').id === 'online'")
+    assert 'Check your internet connection' in page.inner_text('#onlineMsg')
+    assert not [e for e in errors if 'before initialization' in e], errors
+    page.close()
