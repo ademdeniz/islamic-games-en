@@ -68,7 +68,7 @@ function setLink(){document.getElementById('qlink').href='https://quran.com/'+ME
 R = [
     ('</style>', CSS + '</style>'),
     ('<b>Prepared by: Abdo ef. Rekić</b>', ''),
-    ('<header>', '<div class="brand"><img alt="Islamic Community of Bosniaks – Erie" src="data:image/jpeg;base64,' + logo + '"></div>\n<header>'),
+    ('<header>', '<div class="brand"><img alt="Bosnian Islamic Community of Erie" src="data:image/jpeg;base64,' + logo + '"></div>\n<header>'),
     ('<select id="surah"></select></div>',
      '<select id="surah"></select>'
      '<div class="listen"><button id="play" class="act">▶ Listen</button>'

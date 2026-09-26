@@ -1,6 +1,6 @@
 # Islamic Learning Games (English)
 
-English versions of 42 maktab learning games (Qur’an, Salah, Iman, Ilmihal) for the Bosniak Islamic Community of Erie,
+English versions of 42 maktab learning games (Qur’an, Salah, Iman, Ilmihal) for the Bosnian Islamic Community of Erie,
 translated from the Bosnian originals at github.com/rekicabdo-bihac.
 
 - `index.html` – home page listing the games (level filter, search, “Copy link” for homework)

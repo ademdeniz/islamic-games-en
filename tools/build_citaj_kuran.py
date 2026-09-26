@@ -26,7 +26,7 @@ def build(game, data_file):
     html = html.replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/'), 1)
     logo = base64.b64encode(open(os.path.join(ROOT, 'assets', 'logo-bz-erie-web.jpg'), 'rb').read()).decode()
     html = html.replace('</head>', skel.BRAND_CSS + '</head>', 1)
-    html = re.sub(r'(<body[^>]*>)', r'\1<div class="bz-brand"><img alt="Islamic Community of Bosniaks – Erie" '
+    html = re.sub(r'(<body[^>]*>)', r'\1<div class="bz-brand"><img alt="Bosnian Islamic Community of Erie" '
                   r'src="data:image/jpeg;base64,' + logo + '"></div>', html, count=1)
     out = os.path.join(ROOT, 'games', game, 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
