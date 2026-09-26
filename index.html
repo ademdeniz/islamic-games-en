@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Islamic Learning Games</title>
+<meta name="description" content="Islamic learning games for kids – Qur'an, Salah, Iman and Ilmihal quizzes. Bosniak Islamic Community of Erie.">
+<style>
+:root{--green:#075943;--green-2:#0b6b50;--gold:#c99b3b;--gold-soft:#f3e6c4;--cream:#f7f1e1;--card:#fffdf7;--ink:#17372d;--muted:#5d6b64;--line:#e6d8b3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+.wrap{max-width:1080px;margin:auto;padding:14px 16px 40px}
+.brand{background:#fff;border:3px solid var(--gold);border-radius:18px;padding:10px 14px}
+.brand img{display:block;width:100%;max-width:760px;height:auto;margin:auto}
+.hero{background:var(--green);color:#fff;border:3px solid var(--gold);border-radius:18px;padding:18px 20px;margin-top:10px;text-align:center}
+.hero h1{margin:0;font-size:clamp(24px,5vw,36px);letter-spacing:.3px}
+.hero p{margin:6px auto 0;max-width:640px;opacity:.92}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0 4px}
+.search{flex:1 1 220px;font:inherit;padding:10px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
+.search:focus{outline:none;border-color:var(--green-2)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:14px;font-weight:700;padding:8px 12px;border-radius:999px;border:2px solid var(--line);background:#fff;color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.hint{font-size:13px;color:var(--muted);margin:2px 0 0}
+section{margin-top:26px}
+section h2{display:flex;align-items:center;gap:10px;font-size:20px;margin:0 0 10px}
+section h2 small{font-size:13px;font-weight:600;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.card{display:flex;flex-direction:column;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:14px;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.top{display:flex;gap:10px;align-items:flex-start}
+.emoji{font-size:28px;line-height:1;flex:none;width:44px;height:44px;display:grid;place-items:center;background:var(--gold-soft);border-radius:12px}
+.card h3{margin:0;font-size:16.5px;line-height:1.25}
+.card h3 a{color:inherit;text-decoration:none}
+.card h3 a::after{content:"";position:absolute;inset:0}
+.card{position:relative}
+.desc{margin:8px 0 10px;font-size:14px;color:var(--muted);flex:1}
+.meta{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.tag{font-size:12px;font-weight:700;padding:3px 8px;border-radius:999px;background:#eef3ef;color:var(--green)}
+.tag.level{background:var(--green);color:#fff}
+.tag.big{background:#fdf0dc;color:#8a5a12}
+.share{position:relative;z-index:1;margin-left:auto;font:inherit;font-size:12.5px;font-weight:700;padding:5px 10px;border-radius:9px;border:2px solid var(--green-2);background:#fff;color:var(--green);cursor:pointer}
+.share:hover{background:var(--green);color:#fff}
+.empty{display:none;text-align:center;color:var(--muted);padding:30px 0}
+footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);text-align:center}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:#fff;padding:10px 16px;border-radius:12px;font-weight:700;font-size:14px;transition:.2s;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (max-width:520px){.grid{grid-template-columns:1fr}.hero{padding:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><img src="assets/logo-bz-erie-web.jpg" alt="Islamic Community of Bosniaks – Erie"></div>
+  <header class="hero">
+    <h1>🕌 Islamic Learning Games</h1>
+    <p>Qur’an, Salah, Iman and Ilmihal – games and quizzes for our maktab students. They work on any phone, tablet or computer with no app or login.</p>
+  </header>
+
+  <div class="tools">
+    <input class="search" id="q" type="search" placeholder="Search games… (e.g. wudu, angels, quiz)" aria-label="Search games">
+    <div class="chips" id="levels" role="group" aria-label="Filter by level"></div>
+  </div>
+  <p class="hint">Tip: use <b>🔗 Copy link</b> on a game to send it as homework.</p>
+
+  <main id="list"></main>
+  <p class="empty" id="empty">No games match. Try another word or level.</p>
+
+  <footer>Bosniak Islamic Community of Erie · English translations of maktab learning games<br>
+  Qur’an translation: Sahih International · Recitation: Mishary Rashid Alafasy</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const SECTIONS = [
+  {title: "Qur’an & Surahs", icon: "📖", games: [
+    ["memori-sure", "📖", "Memory – Let’s Learn the Surahs", "Match the ayahs, put each surah in order, read the meaning and listen to the recitation. Al-Qari’ah to An-Nas, Al-Fatiha and Alif-Lam-Mim.", "Memory", ""],
+    ["el-fatiha", "🌟", "Learn Al-Fatihah by Heart", "Follow along with the recitation, build each ayah piece by piece and review what you’ve learned.", "Memorise", ""],
+    ["citaj-kuran", "🔊", "Read Along with the Reciter", "Listen to Al-Baqarah 17–24 one ayah at a time, then read it out loud yourself.", "Read along", ""],
+  ]},
+  {title: "Salah & Wudu", icon: "🕌", games: [
+    ["pomozimo-maci-abdest", "🐱", "Help the Kitty Make Wudu", "Guide the kitty through every step of Wudu (ablution) in the right order.", "Adventure", "", "1 MB"],
+    ["kviz-maca-namaz", "🐾", "Preparing for Salah – Help the Kitty", "Find the pairs about the conditions of Salah and help the kitty get home.", "Memory", "", "4.5 MB"],
+    ["sastavi-namaz", "🧩", "Build the Salah", "Tap the steps of each prayer in the correct order, level by level.", "Puzzle", ""],
+    ["akademija-namaza-igre", "🧩", "Salah Academy – Puzzles", "Put the steps of the Sunnah and Fard prayers in the right order, level by level.", "Puzzle", "", "2 MB"],
+    ["akademija-namaza", "🎓", "Salah Academy", "8 levels about Salah. Score at least 70% to move up to the next level.", "Quiz", ""],
+    ["5-dnevnih-namaza", "⏰", "The 5 Daily Prayers", "30 random questions about the five daily prayers, 30 seconds each.", "Quiz", ""],
+    ["kviz-namaz", "🕌", "Salah Quiz", "30 questions from a bank of 472 about everything to do with Salah.", "Quiz", ""],
+  ]},
+  {title: "Iman – What We Believe", icon: "✨", games: [
+    ["memori-imanski-sarti", "💚", "Memory – Pillars of Iman", "Match each pillar of Iman with its meaning: Amantu billahi…", "Memory", "A1"],
+    ["kviz-imanski-sarti", "❓", "Pillars of Iman Quiz", "213 questions about the pillars of Iman and the attributes of Allah.", "Quiz", ""],
+    ["memori-meleki", "🕊️", "Memory – Duties of the Angels", "Match each angel with their duty: Jibril, Mika’il, Israfil and more.", "Memory", ""],
+    ["meleki-trazenje-rijeci", "🔤", "Word Search – Angels", "Read the clue and find the angel’s name in the letter grid.", "Word search", ""],
+    ["boziji-kitabi", "📚", "Word Search – Allah’s Books", "Find the Qur’an, Tawrat, Zabur, Injil and the messengers they were revealed to.", "Word search", ""],
+    ["svojstva-allahovih-poslanika", "🔤", "Word Search – Qualities of the Messengers", "Sidq, Amanah, Tabligh, Fatanah and Ismah – find them in the grid.", "Word search", ""],
+    ["sifati-trazenje-rijeci", "🔤", "Word Search – Attributes of Allah", "Find the sifat of Allah (SWT) from their meanings.", "Word search", ""],
+    ["memori-kviz-sifati", "🃏", "Memory Quiz – Attributes of Allah", "Match each attribute (sifah) of Allah (SWT) with its meaning.", "Memory", ""],
+  ]},
+  {title: "Ramadan & Blessed Nights", icon: "🌙", games: [
+    ["ramazanski-put", "🌙", "The Ramadan Path", "20 questions about Ramadan – fasting, suhur, iftar and more.", "Quiz", ""],
+    ["oslobodi-papagaja", "🦜", "Free the Parrot!", "Solve the memory obstacles about the blessed nights and set the parrot free.", "Memory", ""],
+  ]},
+  {title: "Ilmihal Quizzes & Adventures", icon: "🏆", games: [
+    ["kviz-nivo-a1", "🎯", "Quiz – Level A1", "30 questions with 50:50, audience and teacher lifelines.", "Quiz", "A1"],
+    ["lov-na-blago-a1", "🗺️", "Treasure Hunt – Level A1", "Answer 20 questions correctly to find the treasure.", "Adventure", "A1"],
+    ["nahrani-ptica-a1", "🐦", "Feed the Baby Birds", "Every correct answer feeds a baby bird. 30 questions per game.", "Quiz", "A1"],
+    ["otkljucaj-vrata-dzamije", "🔑", "Unlock the Mosque Doors", "15 questions – each correct answer opens one padlock.", "Adventure", "A1–A2", "4.4 MB"],
+    ["islamski-milijunas-nivo-a2", "💰", "Islamic Millionaire – Level A2", "30 questions: 10 from Level A1 and 20 from Level A2.", "Quiz", "A2"],
+    ["islamski-milijunas", "💰", "Islamic Millionaire", "30 questions from a bank of 717, getting harder from A1 to A3.", "Quiz", "A1–A3"],
+    ["ilmihal-memori", "🃏", "Big Memory Game – Ilmihal", "Choose a lesson – Ghusl, Tayammum, Salah, surahs – and find all the pairs.", "Memory", "A1–A3"],
+    ["kviz-ilmihal-1-a3", "📝", "Ilmihal Quiz 1 – Level A3", "30 questions from Levels A1, A2 and A3. +10 for correct, −3 for wrong.", "Quiz", "A3"],
+    ["pcelica-skuplja-med", "🐝", "The Little Bee Collects Honey", "Help the bee collect honey with every correct answer.", "Quiz", "A3"],
+    ["tajna-zivotinja", "🐾", "Secret Animal", "Answer questions to uncover the hidden picture, then guess the animal.", "Mystery", "A3"],
+    ["zagonetna-zivotinja-a3", "🦁", "Mystery Animal", "Uncover 30 tiles by answering questions and guess which animal it is.", "Mystery", "A3", "11 MB"],
+    ["zagonetna-zivotinja-80", "🦁", "Mystery Animal – Long Version", "The same game with 80 tiles per picture for a longer challenge.", "Mystery", "A3", "11 MB"],
+    ["sta-radi-masa", "🎀", "What Is Masha Doing?", "Open the picture piece by piece with 503 questions and guess what’s happening.", "Mystery", "", "17 MB"],
+    ["mektebski-detektiv", "🕵️", "Maktab Detective", "Reveal clues one by one and guess the secret word – fewer clues, more points.", "Mystery", ""],
+    ["mektebski-detektiv-igra", "🔎", "Maktab Detective – Cases", "Solve 20 cases from the clues and choose the right answer.", "Mystery", ""],
+    ["ilmihal-2-nivo-b1", "📝", "Ilmihal Quiz 2 – Level B1", "30 questions from Levels A3 and B1.", "Quiz", "B1"],
+    ["potraga-za-blagom-b1", "🗺️", "Treasure Hunt – Level B1", "Travel through 10 locations, from the mosque to the treasure.", "Adventure", "B1", "1.5 MB"],
+    ["islamski-escape-room-b1", "🔐", "Islamic Escape Room – B1", "Find the objects in the room, answer the questions and crack the door code.", "Escape room", "B1"],
+    ["escape-room-b1-sifra", "🔐", "Maktab Escape Room – B1", "Find 10 hidden objects – each one gives a digit of the secret code.", "Escape room", "B1"],
+    ["ilmihal-2-nivo-b2", "📝", "Ilmihal Quiz 2 – Level B2", "30 questions from Levels B1 and B2.", "Quiz", "B2"],
+  ]},
+];
+const LEVELS = ["All", "A1", "A2", "A3", "B1", "B2"];
+let level = "All";
+
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const inLevel = (lv, want) => {
+  if (want === "All") return true;
+  if (!lv) return false;
+  const order = ["A1", "A2", "A3", "B1", "B2"], [a, b = a] = lv.split("–");
+  return order.indexOf(want) >= order.indexOf(a) && order.indexOf(want) <= order.indexOf(b);
+};
+
+function render() {
+  const q = $("#q").value.trim().toLowerCase();
+  let shown = 0;
+  $("#list").innerHTML = SECTIONS.map(sec => {
+    const cards = sec.games.filter(([slug, , title, desc, type, lv]) =>
+      inLevel(lv, level) && (!q || (title + " " + desc + " " + type).toLowerCase().includes(q)));
+    shown += cards.length;
+    if (!cards.length) return "";
+    return `<section><h2>${sec.icon} ${esc(sec.title)} <small>${cards.length} game${cards.length > 1 ? "s" : ""}</small></h2><div class="grid">` +
+      cards.map(([slug, emoji, title, desc, type, lv, size]) => `
+        <article class="card">
+          <div class="top"><div class="emoji" aria-hidden="true">${emoji}</div><h3><a href="games/${slug}/">${esc(title)}</a></h3></div>
+          <p class="desc">${esc(desc)}</p>
+          <div class="meta">
+            ${lv ? `<span class="tag level">${lv}</span>` : ""}<span class="tag">${type}</span>
+            ${size ? `<span class="tag big" title="Larger download – best on Wi-Fi">${size}</span>` : ""}
+            <button class="share" data-slug="${slug}" data-title="${esc(title)}">🔗 Copy link</button>
+          </div>
+        </article>`).join("") + "</div></section>";
+  }).join("");
+  $("#empty").style.display = shown ? "none" : "block";
+}
+
+function toast(msg) {
+  const t = $("#toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("show"), 1800);
+}
+
+$("#levels").innerHTML = LEVELS.map(l => `<button class="chip" aria-pressed="${l === level}" data-l="${l}">${l === "All" ? "All levels" : l}</button>`).join("");
+$("#levels").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  level = b.dataset.l;
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === b));
+  render();
+});
+$("#q").addEventListener("input", render);
+$("#list").addEventListener("click", async e => {
+  const b = e.target.closest(".share"); if (!b) return;
+  const url = new URL(`games/${b.dataset.slug}/`, location.href).href;
+  try { await navigator.clipboard.writeText(url); toast("Link copied – paste it into WhatsApp, Viber or email"); }
+  catch { prompt("Copy this link:", url); }
+});
+render();
+</script>
+</body>
+</html>
