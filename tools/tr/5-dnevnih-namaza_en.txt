@@ -1,0 +1,510 @@
+0	What is the second duty (pillar) of Islam?
+1	Praying Salah (prayer)
+2	Fasting in Ramadan
+3	Giving Zakah
+4	Performing Hajj
+5	What is Salah (prayer)?
+6	Just a physical exercise
+7	The highest way of showing obedience and thankfulness to Allah, the Most High
+8	A custom done only on Fridays
+9	A kind of fasting
+10	What do we want to achieve by praying Salah?
+11	Only to rest the body
+12	To learn how to tell the time
+13	To come closer to our Lord and earn His pleasure
+14	To gain wealth
+15	How many daily prayers do we pray?
+16	Three
+17	Four
+18	Six
+19	Five
+20	What are the names of the five daily prayers?
+21	Fajr, Dhuhr, Asr, Maghrib and Isha
+22	Fajr, Jumu’ah, Tarawih, Maghrib and Witr
+23	Fajr, Dhuhr, Jumu’ah, Eid and Isha
+24	Dhuhr, Asr, Tarawih, Witr and Janazah
+25	When does the time for the Fajr prayer begin?
+26	From sunrise
+27	From dawn
+28	From midday
+29	From sunset
+30	Until when does the time for the Fajr prayer last?
+31	Until midday
+32	Until dawn
+33	Until just before sunrise
+34	Until sunset
+35	When does the time for the Dhuhr prayer begin?
+36	After sunset
+37	When it gets completely dark
+38	When the sun moves a little past the middle of the sky
+39	Until when does the time for the Dhuhr prayer last?
+40	Until late afternoon
+41	Until sunrise
+42	Until it is completely dark
+43	When does the time for the Asr prayer begin?
+44	When the sun rises
+45	When the sun leans toward the west
+46	When dawn comes
+47	Until when does the time for the Asr prayer last?
+48	Until just before sunset
+49	When does the time for the Maghrib prayer begin?
+50	From complete darkness
+51	When does the time for the Isha prayer begin?
+52	When the sunlight has completely disappeared
+53	At midday
+54	Until when does the time for the Isha prayer last?
+55	Until midnight
+56	Until just before dawn
+57	Besides the five daily prayers, which other prayers do we pray?
+58	Only the Jumu’ah prayer
+59	Only the Tarawih prayer
+60	The Jumu’ah prayer, the Tarawih prayer, the two Eid prayers and sometimes the Janazah (funeral) prayer
+61	Only the Eid prayer
+62	When do we pray the Fajr prayer?
+63	From midday until Asr
+64	From dawn until sunrise
+65	From sunset until dark
+66	After Isha
+67	How many rak’ahs does the Fajr prayer have?
+68	Three rak’ahs
+69	Six rak’ahs
+70	Four rak’ahs
+71	Eight rak’ahs
+72	What do we recite after getting ready for the Fajr prayer, before the niyyah (intention)?
+73	Only Al-Fatiha
+74	At-Tahiyyat
+75	Salawat
+76	A’udhu billah and Bismillah
+77	How many rak’ahs does the Fajr Sunnah have?
+78	Two rak’ahs
+79	One rak’ah
+80	How many rak’ahs does the Fajr fard have?
+81	Which prayer is the morning prayer?
+82	The Dhuhr prayer
+83	The Asr prayer
+84	The Fajr prayer
+85	The Maghrib prayer
+86	What do we pray first in the Fajr prayer?
+87	Two rak’ahs of Sunnah
+88	Two rak’ahs of fard
+89	Four rak’ahs of fard
+90	Three rak’ahs of Witr prayer
+91	What do we pray after the Fajr Sunnah?
+92	The Maghrib fard
+93	Two rak’ahs of the Fajr fard
+94	The Dhuhr Sunnah
+95	The Witr prayer
+96	Which way do we turn when making the niyyah for the Fajr prayer?
+97	Toward the sunrise
+98	Toward the mosque door
+99	Toward the teacher
+100	Toward the Qiblah
+101	With which words does the niyyah end?
+102	Subhana Rabbiyal-A’la
+103	Alhamdulillah
+104	Allahu akbar
+105	As-salamu alaykum
+106	What do we say at the start of the prayer, after the niyyah?
+107	Rabbana lakal-hamd
+108	What do we recite in qiyam (standing) in the first rak’ah of the Fajr prayer?
+109	At-Tahiyyat and salawat
+110	Subhanaka, A’udhu billah, Bismillah, Al-Fatiha and a surah
+111	Only Bismillah and a surah
+112	What do we recite in qiyam (standing) in the second rak’ah of the Fajr prayer?
+113	Bismillah, Al-Fatiha and a surah
+114	Subhanaka and At-Tahiyyat
+115	Only a surah
+116	Salawat and dua
+117	What do we say when we go down into ruku’ (bowing)?
+118	Sami’allahu liman hamidah
+119	What do we recite three times in ruku’?
+120	Subhana Rabbiyal-Azim
+121	Astaghfirullah
+122	What do we say when we come back up from ruku’ to standing?
+123	Subhanaka
+124	What do we say while standing after coming up from ruku’?
+125	Bismillah
+126	What do we recite three times in sajdah (prostration)?
+127	How many sajdahs (prostrations) do we make in one rak’ah?
+128	Two
+129	One
+130	What comes between the first and the second sajdah?
+131	Ruku’
+132	Sitting between the two sajdahs
+133	Giving the salam
+134	Qiyam
+135	What is the last sitting in the prayer called?
+136	Qira’ah
+137	Qa’dah al-akhirah
+138	Takbir al-iftitah
+139	What do we recite in the last sitting of the prayer?
+140	Only Subhanaka
+141	Only one surah
+142	At-Tahiyyat, salawat and duas
+143	To which side do we give the salam first?
+144	To the right side
+145	To the left side
+146	It does not matter
+147	Whichever we like
+148	What do we say when giving the salam in the prayer?
+149	As-salamu alaykum wa rahmatullah
+150	In what order do we give the salam at the end of the prayer?
+151	Only to the right side
+152	First to the left, then to the right
+153	First to the right, then to the left side
+154	Only to the left side
+155	Which daily prayer in order is the Dhuhr prayer?
+156	First
+157	Third
+158	Second
+159	Fourth
+160	When does the time for the Dhuhr prayer come?
+161	When the sun rises up
+162	When the sun sets
+163	When night comes
+164	When the sun passes the middle of the sky
+165	How many rak’ahs does the Dhuhr prayer have in total?
+166	10
+167	8
+168	6
+169	12
+170	How are the ten rak’ahs of the Dhuhr prayer divided?
+171	2 Sunnah, 4 fard and 4 Sunnah after the fard
+172	4 Sunnah, 4 fard and 2 Sunnah after the fard
+173	4 fard and 6 Sunnah after the fard
+174	2 Sunnah, 2 fard and 6 Sunnah after the fard
+175	What is prayed first in the Dhuhr prayer?
+176	Fard
+177	The Sunnah after the fard
+178	Four rak’ahs of Sunnah
+179	Witr
+180	What is recited in the first rak’ah of the Dhuhr Sunnah?
+181	Only Al-Fatiha
+182	Bismillah and Al-Fatiha
+183	Subhanaka, A’udhu billah, Bismillah, Al-Fatiha and a surah
+184	What is recited in the second rak’ah of the Dhuhr Sunnah?
+185	Bismillah, Al-Fatiha and a surah
+186	Only a surah
+187	What is recited in the third and fourth rak’ahs of the Dhuhr fard?
+188	Subhanaka and A’udhu billah
+189	Al-Fatiha and a surah
+190	How many rak’ahs does the Dhuhr Sunnah that is prayed after the fard have?
+191	Two
+192	One
+193	What is recited in the last sitting of the Dhuhr prayer?
+194	Only one surah
+195	At-Tahiyyat, salawat and duas, and then the salam is given
+196	Which daily prayer in order is the Asr prayer?
+197	When does the time for the Asr prayer come?
+198	Halfway between midday and sunset
+199	When night has fully fallen
+200	How many rak’ahs does the Asr prayer have in total?
+201	Ten
+202	Eight
+203	How are the eight rak’ahs of the Asr prayer divided?
+204	Two Sunnah and six fard
+205	Four Sunnah and four fard
+206	Four fard and four Sunnah after the fard
+207	Six Sunnah and two fard
+208	What is prayed first in the Asr prayer?
+209	What is prayed after the Asr Sunnah?
+210	Two rak’ahs of nafl (voluntary prayer)
+211	What is recited in the first rak’ah of the Asr Sunnah?
+212	At-Tahiyyat and salawat
+213	What is recited in the second rak’ah of the Asr Sunnah?
+214	What is recited in the first sitting of the Asr Sunnah?
+215	Only At-Tahiyyat
+216	What is recited in the third rak’ah of the Asr Sunnah?
+217	Subhanaka, Bismillah, Al-Fatiha and a surah
+218	What is recited in the fourth rak’ah of the Asr Sunnah?
+219	What is recited in the first sitting of the Asr fard?
+220	What is recited in the third and fourth rak’ahs of the Asr fard?
+221	Subhanaka, Al-Fatiha and a surah
+222	What is recited in the last sitting of the Asr prayer?
+223	At-Tahiyyat, salawat and duas
+224	How does the Asr prayer end after the last sitting?
+225	With a new niyyah
+226	By calling the Adhan
+227	By standing up for one more rak’ah
+228	By giving the salam
+229	Which prayer is the evening prayer?
+230	When do we pray the Maghrib prayer?
+231	From sunset until it gets completely dark
+232	From midnight until dawn
+233	According to the lesson, how many rak’ahs does the Maghrib prayer have in total?
+234	How many rak’ahs does the fard of the Maghrib prayer have?
+235	How many rak’ahs does the Sunnah of the Maghrib prayer have?
+236	What do we pray first in the Maghrib prayer?
+237	Sunnah
+238	Nafl
+239	What do we pray after the Maghrib fard?
+240	Three rak’ahs of fard
+241	The Janazah (funeral) prayer
+242	What do we recite in the first rak’ah of the Maghrib fard?
+243	What do we recite in the second rak’ah of the Maghrib fard?
+244	Subhanaka and salawat
+245	What do we recite in the first sitting of the Maghrib fard?
+246	The dua after the prayer
+247	According to the lesson, what do we recite in the third rak’ah of the Maghrib fard?
+248	Subhanaka, Al-Fatiha and a surah
+249	Bismillah and Al-Fatiha
+250	What do we recite in the last sitting of the Maghrib fard?
+251	Subhanaka and A’udhu billah
+252	At-Tahiyyat, salawat and duas, and then we give the salam
+253	How is the Maghrib Sunnah prayed?
+254	The same way as the Fajr Sunnah
+255	Like a three-rak’ah fard
+256	Like the Witr prayer
+257	Like the Janazah prayer
+258	What is fard?
+259	Something we can do only if we want to
+260	Everything Allah, the Most High, has commanded us to do
+261	Only what we do on Fridays
+262	Something done only on Eid
+263	What is Sunnah?
+264	Everything that is forbidden
+265	Only what we recite from the Qur’an
+266	Everything that Muhammad (SAW) recommended us to do
+267	Only the required part of the prayer
+268	Which daily prayer in order is the Isha prayer?
+269	Fifth
+270	When does the time for the Isha prayer come?
+271	When night has fully come
+272	Before sunset
+273	How many rak’ahs does the Isha prayer have in total?
+274	11
+275	13
+276	How are the 13 rak’ahs of the Isha prayer divided?
+277	2 Sunnah, 4 fard, 4 Sunnah after the fard and 3 Witr
+278	4 Sunnah, 4 fard, 2 Sunnah after the fard and 3 Witr
+279	4 Sunnah, 2 fard, 4 Sunnah after the fard and 3 Witr
+280	4 Sunnah, 4 fard and 5 Witr
+281	What do we pray first in the Isha prayer?
+282	In what order is the Isha prayer prayed?
+283	Fard, Sunnah, Witr, Sunnah after the fard
+284	Witr, fard, Sunnah, Sunnah after the fard
+285	Sunnah, fard, Sunnah after the fard, Witr
+286	Sunnah after the fard, Sunnah, fard, Witr
+287	How many rak’ahs does the first Sunnah of the Isha prayer have?
+288	What is recited in the first rak’ah of the Sunnah of the Isha prayer?
+289	What is recited in the first sitting of the four-rak’ah Isha Sunnah?
+290	Only salawat
+291	Qunut dua
+292	What is recited in the third rak’ah of the Sunnah of the Isha prayer?
+293	Only Bismillah
+294	How many rak’ahs does the fard of the Isha prayer have?
+295	What is recited in the first sitting of the fard of the Isha prayer?
+296	According to the chart, what is recited in the third and fourth rak’ahs of the Isha fard?
+297	Subhanaka and Al-Fatiha
+298	How many rak’ahs does the Sunnah after the fard of the Isha prayer have?
+299	What is recited in the first rak’ah of the Sunnah after the fard of the Isha prayer?
+300	How many rak’ahs does the Witr prayer have?
+301	What is recited in the first sitting of the Witr prayer?
+302	Salawat
+303	What is recited in the third rak’ah of the Witr prayer?
+304	Bismillah, Al-Fatiha and a surah, takbir and Qunut dua
+305	What do we do after the surah in the third rak’ah of the Witr prayer?
+306	We give the salam straight away
+307	We sit and recite At-Tahiyyat
+308	We go straight into sajdah
+309	We say the takbir and recite the Qunut dua
+310	What is recited in the last sitting of the Witr prayer?
+311	Only the Qunut dua
+312	When do we do the dhikr after the prayer?
+313	Before the opening takbir
+314	After giving the last salam
+315	In ruku’
+316	Before the prayer
+317	What is the dhikr after the prayer made up of?
+318	Only Al-Fatiha
+319	Only dua
+320	Salawat, Ayat al-Kursi and tasbih
+321	Only takbir
+322	What do we begin the dhikr after the prayer with?
+323	Al-Fatiha
+324	Tasbih
+325	Dua
+326	Salawat
+327	What do we recite after Ayat al-Kursi?
+328	Tasbih
+329	Adhan
+330	Iqamah
+331	In which hand do we hold the prayer beads (tasbih)?
+332	The left
+333	The right
+334	In both hands
+335	It does not matter
+336	How many times do we say “Subhanallah”?
+337	10 times
+338	25 times
+339	33 times
+340	40 times
+341	What does “Subhanallah” mean?
+342	Allah is the Greatest
+343	Praise be to Allah
+344	There is no god but Allah
+345	Glory be to Allah
+346	How many times do we say “Al-hamdu lillah” on the tasbih?
+347	34 times
+348	100 times
+349	What does “Al-hamdu lillah” mean?
+350	Allah is One
+351	How many times do we say “Allahu akbar” on the tasbih?
+352	30 times
+353	32 times
+354	What does “Allahu akbar” mean?
+355	Allah knows everything
+356	How many times in total do we say Subhanallah, Al-hamdu lillah and Allahu akbar on the prayer beads?
+357	99 times
+358	66 times
+359	Besides prayer beads, what can we use to count the words of the tasbih?
+360	A pencil
+361	A digital counter or the fingers of the right hand
+362	A clock
+363	A book
+364	What do we do after we finish the tasbih?
+365	We get up straight away
+366	We pray the prayer again
+367	We continue reciting the set words of dhikr
+368	We call the Adhan
+369	What does “La ilaha illallah” mean?
+370	There is no other god but Allah
+371	How do we complete the prayer after the tasbih?
+372	With the dua after the prayer and Al-Fatiha
+373	With the Adhan and Iqamah
+374	With a new prayer
+375	Only with salawat
+376	Who narrated the hadith about saying Subhanallah, Al-hamdu lillah and Allahu akbar 33 times?
+377	Tirmidhi
+378	Bukhari
+379	Abu Dawud
+380	Nasa’i
+381	According to the hadith, which words did Muhammad (SAW) recommend saying after every prayer?
+382	Only Bismillah
+383	Subhanallah, Al-hamdu lillah and Allahu akbar
+384	Only salawat
+385	In the ayah mentioned in the lesson, what does Allah, the Most High, command us to do after finishing the prayer?
+386	To leave the mosque straight away
+387	To repeat the prayer
+388	To stay silent
+389	To remember Allah
+390	What is recited in the first rak’ah of the fard of the daily prayers?
+391	Subhanaka, A’udhu billah, Bismillah, Al-Fatiha and one surah
+392	At-Tahiyyat and Salawat
+393	What is recited in the second rak’ah of the fard?
+394	Bismillah, Al-Fatiha and one surah
+395	What is recited in the first sitting of the fard?
+396	Only Salawat
+397	Al-Fatiha
+398	At-Tahiyyat, up to the Salawat
+399	What is recited in the third rak’ah of the fard?
+400	What is recited in the fourth rak’ah of the fard?
+401	What is recited in the last sitting of the fard?
+402	At-Tahiyyat, Salawat, duas and giving the salam
+403	After which rak’ah of the Fajr prayer does the last sitting come?
+404	After the first
+405	After the third
+406	After the second
+407	After the fourth
+408	After which rak’ah of the Maghrib fard does the last sitting come?
+409	What is recited in the first rak’ah of the Dhuhr Sunnah?
+410	How far is At-Tahiyyat recited in the first sitting of the Dhuhr Sunnah?
+411	Up to Al-Fatiha
+412	Up to the dua
+413	Up to the Salawat
+414	Up to the Qunut dua
+415	What is recited in the third rak’ah of the Dhuhr Sunnah?
+416	Subhanaka, A’udhu billah, Bismillah and Al-Fatiha
+417	What is recited in the fourth rak’ah of the Dhuhr Sunnah?
+418	What is recited in the last sitting of the Dhuhr Sunnah?
+419	The first sitting of the Dhuhr Sunnah is different from the first sitting of which Sunnah?
+420	The Fajr Sunnah
+421	The Maghrib Sunnah
+422	The Asr and Isha Sunnah
+423	The Eid Sunnah
+424	Which Sunnah prayers are shown together in the chart because they are prayed the same way?
+425	Fajr and Dhuhr
+426	Maghrib and Witr
+427	Dhuhr and Fajr
+428	Isha and Asr
+429	What is recited in the first rak’ah of the Isha and Asr Sunnah?
+430	What is recited in the second rak’ah of the Isha and Asr Sunnah?
+431	What is recited in the first sitting of the Isha and Asr Sunnah?
+432	What does the third rak’ah of the Isha and Asr Sunnah begin with?
+433	Bismillah
+434	At-Tahiyyat
+435	What is recited in the third rak’ah of the Isha and Asr Sunnah?
+436	What is recited in the fourth rak’ah of the Isha and Asr Sunnah?
+437	What is recited in the last sitting of the Isha and Asr Sunnah?
+438	In which prayer does the last sitting come after the second rak’ah?
+439	The Dhuhr fard
+440	The Asr fard
+441	The Isha fard
+442	The Fajr prayer
+443	When is the Witr prayer prayed?
+444	After Fajr
+445	After the Isha prayer
+446	After the Dhuhr prayer
+447	Before Maghrib
+448	According to the chart, what are the first and second rak’ahs of the Witr prayer like?
+449	Completely different from the other prayers
+450	Like the Eid prayer
+451	Like the first and second rak’ahs of the other prayers
+452	Without Al-Fatiha
+453	According to the chart, what is recited in the first sitting of the Witr prayer?
+454	What is recited in the third rak’ah of the Witr prayer before the takbir?
+455	What do we say after the surah in the third rak’ah of the Witr prayer?
+456	Salam
+457	The takbir “Allahu akbar”
+458	Which dua is recited in the third rak’ah of the Witr prayer?
+459	Rabbi yassir
+460	The dua after eating
+461	According to the chart, in which rak’ahs of the fard of a four-rak’ah prayer do we recite a surah after Al-Fatiha?
+462	In the third and fourth
+463	Only in the fourth
+464	In all four
+465	In the first and second
+466	According to the chart, what is not recited after Al-Fatiha in the third rak’ah of a four-rak’ah fard?
+467	An extra surah
+468	Bismillah
+469	None of these
+470	According to the chart, what is not recited after Al-Fatiha in the fourth rak’ah of a four-rak’ah fard?
+471	Takbir
+472	In which rak’ah of the Dhuhr Sunnah do we not recite Subhanaka again?
+473	The first
+474	The second
+475	The third
+476	It is not recited in any of them
+477	In which rak’ah of the Asr and Isha Sunnah do we recite Subhanaka again?
+478	The fourth
+479	What is recited after Subhanaka in the first rak’ah?
+480	A’udhu billah
+481	What is recited after A’udhu billah in the first rak’ah?
+482	What is recited after Bismillah in the first rak’ah?
+483	According to the chart, what is recited after Al-Fatiha in the first rak’ah?
+484	One surah
+485	According to the chart, what recitation does the second rak’ah begin with?
+486	A’udhu billah
+487	What comes after Bismillah in the second rak’ah?
+488	What is recited after Al-Fatiha in the second rak’ah?
+489	What is recited after At-Tahiyyat in the last sitting?
+490	What is recited after the Salawat in the last sitting?
+491	Duas
+492	How does the last sitting end?
+493	With the Qunut dua
+494	With the Adhan
+495	With the Iqamah
+496	Which two Sunnah prayers have At-Tahiyyat and Salawat in the first sitting?
+497	Fajr and Maghrib
+498	What is special about the third rak’ah of the Asr and Isha Sunnah?
+499	Only Al-Fatiha is recited
+500	You go straight to the sitting
+501	The Qunut dua is recited
+502	Subhanaka and A’udhu billah are recited again
+503	According to the chart, in which prayer is the Qunut dua specially recited?
+504	The Witr prayer
+505	The Dhuhr fard
+506	The Fajr fard
+507	The Maghrib fard
+508	In which rak’ah of the Witr prayer is the Qunut dua recited?
+509	In every rak’ah

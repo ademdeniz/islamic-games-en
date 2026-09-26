@@ -1,0 +1,320 @@
+0	What are the arkan (essential parts) of Salah?
+1	The essential parts of Salah
+2	The Sunnah acts of Salah
+3	The conditions for Wudu
+4	The types of Salah
+5	How many arkan (essential parts) does Salah have?
+6	Four
+7	Five
+8	Six
+9	Seven
+10	How should we perform the arkan of Salah?
+11	Only some of them
+12	All of them, correctly and carefully
+13	Only in the fard prayers
+14	Only when we pray in congregation (jama’ah)
+15	What should we do if we leave out one of the arkan of Salah?
+16	Carry on without it
+17	Stop every prayer
+18	Just make a dua
+19	Correct it and repeat the prayer
+20	What is the first rukn (essential part) of Salah?
+21	Iftitah takbir
+22	Ruku’
+23	Sajdah
+24	Qira’ah
+25	What does iftitah takbir mean?
+26	The final salam
+27	The opening takbir
+28	Reciting the Qur’an
+29	Bowing in Salah
+30	What do we say for the iftitah takbir?
+31	Subhanallah
+32	Alhamdulillah
+33	Allahu akbar
+34	Astaghfirullah
+35	Where do boys raise their hands for the opening takbir?
+36	They do not raise their hands
+37	Up to the chest
+38	Above the head
+39	Up to the ears
+40	Where do girls raise their hands for the opening takbir?
+41	Up to chest height
+42	Above the ears
+43	Which way should our feet point when we stand in Salah?
+44	Towards the door
+45	Towards the Qiblah
+46	Towards the imam
+47	To the right side
+48	What is the second rukn of Salah?
+49	Qiyam
+50	Qa’dah akhirah
+51	What does qiyam mean?
+52	Sitting
+53	Bowing
+54	Standing in Salah
+55	How do we stand in qiyam?
+56	Upright
+57	Bent over
+58	Sitting
+59	Kneeling
+60	Where do boys put their hands in qiyam?
+61	On the knees
+62	At the waist
+63	Behind the back
+64	On the shoulders
+65	Where do girls hold their hands in qiyam?
+66	On the knees
+67	On the chest
+68	By their sides
+69	What is the third rukn of Salah?
+70	What does qira’ah mean?
+71	Reciting the Qur’an in Salah
+72	Sitting at the end of Salah
+73	Going down into sajdah
+74	What do we recite in the first standing of the prayer?
+75	Only Al-Fatiha
+76	Subhanaka, A’udhu billah, Bismillah, Al-Fatiha and one surah
+77	Only one surah
+78	At-Tahiyyat
+79	What do we recite in every second standing?
+80	Only Subhanaka
+81	Bismillah, Al-Fatiha and one surah
+82	Only the salawat
+83	What is the fourth rukn of Salah?
+84	What is ruku’?
+85	Sitting in Salah
+86	How should our back be in ruku’?
+87	Bent to the side
+88	Straight and flat
+89	Completely upright
+90	Turned to the right side
+91	Where do we put our hands in ruku’?
+92	On the chest
+93	On the face
+94	What do we say three times in ruku’?
+95	Subhana Rabbiyal-A’la
+96	Subhana Rabbiyal-’Adhim
+97	What is the fifth rukn of Salah?
+98	What is sajdah?
+99	Putting the face down on the ground
+100	Bowing down to the knees
+101	Finishing the prayer
+102	How many sajdahs do we make in one rak’ah?
+103	One
+104	Three
+105	Two
+106	What do we say three times in sajdah?
+107	Subhana Rabbiyal-A’la
+108	What is the sixth rukn of Salah?
+109	What do we recite in the last sitting of every prayer?
+110	Only Al-Fatiha
+111	At-Tahiyyat, the salawat and duas
+112	Only At-Tahiyyat
+113	With which foot do we enter the house, the mosque, school and the maktab?
+114	With the left foot
+115	With the right foot
+116	With both feet
+117	It does not matter
+118	With which foot do we leave the house, the mosque, school and the maktab?
+119	With which foot do we enter the bathroom?
+120	It is not specified
+121	With which foot do we leave the bathroom?
+122	What do we say after leaving the bathroom?
+123	Bismillah
+124	Ghufranaka
+125	What does the word “Al-Falaq” mean?
+126	Daybreak
+127	Night
+128	The Sun
+129	The Moon
+130	With whom do we seek refuge by reciting Surah Al-Falaq?
+131	With people
+132	With the angels
+133	With Allah, the Lord of daybreak
+134	With the messengers
+135	Whose evil do we also seek protection from in Surah Al-Falaq?
+136	The one who backbites
+137	Those who blow on knots (to do magic)
+138	A liar
+139	A cheater
+140	When do we seek protection from the envier?
+141	When he sleeps
+142	When he is quiet
+143	When he leaves
+144	When he envies
+145	With which words does the first ayah of Surah Al-Falaq begin?
+146	“Qul a’udhu bi Rabbil-falaq”
+147	“Qul huwallahu ahad”
+148	“Alhamdu lillahi”
+149	“Qul a’udhu bi Rabbin-nas”
+150	What does “Qul” mean?
+151	Recite
+152	Say
+153	Write
+154	Listen
+155	Which two surahs are called the surahs of protection?
+156	Al-Fatiha and Al-Baqarah
+157	Al-Ikhlas and Al-Kawthar
+158	Al-Falaq and An-Nas
+159	Al-’Asr and Al-Kafirun
+160	What do Surah Al-Falaq and Surah An-Nas protect us from?
+161	Only from illness
+162	Only from sadness
+163	Only from fear
+164	From evil people and Shaytan
+165	How many times did Muhammad (SAW) advise us to recite “Qul huwallahu ahad” and the two surahs of protection in the evening and in the morning?
+166	Three times
+167	Once
+168	Five times
+169	Seven times
+170	When are Al-Ikhlas, Al-Falaq and An-Nas recited three times?
+171	Only before Salah
+172	In the evening and in the morning
+173	Only on Fridays
+174	Only before going to sleep
+175	According to the hadith, what is the benefit of reciting “Qul huwallahu ahad” and the two surahs of protection three times?
+176	The person will not get tired
+177	He will learn the Qur’an by heart
+178	They will be enough to protect him from everything
+179	He will not need to recite other surahs
+180	What is Ghusl?
+181	The obligatory religious bath
+182	Washing only the hands
+183	Cleaning with earth
+184	Washing only the face
+185	How many fard (obligatory) acts does Ghusl have?
+186	Two
+187	What is the first fard act of Ghusl?
+188	Washing the whole body
+189	Rinsing the mouth and throat three times – gargling
+190	Rinsing the nose
+191	Washing the hands
+192	What is the second fard act of Ghusl?
+193	Washing the head
+194	Washing the feet
+195	Rinsing the mouth
+196	Rinsing the nose three times – istinshaq
+197	What is the third fard act of Ghusl?
+198	Washing the whole body so that no part stays dry
+199	Washing only the head
+200	Making Wudu
+201	Washing only the hands and feet
+202	What is Sunnah to recite before Ghusl?
+203	A’udhu billah and Bismillah, and making the intention (niyyah)
+204	Only one surah
+205	Iqamah
+206	How many times is it Sunnah to pour water over the body in Ghusl?
+207	Twice
+208	In what order is it Sunnah to wash the body after washing the head?
+209	First the left side, then the right side
+210	Only the front
+211	The order does not matter
+212	First the right side, then the left side
+213	What is disliked (makruh) during Ghusl?
+214	Wasting too much water
+215	Using warm water
+216	What else is disliked during Ghusl if it is not necessary?
+217	Talking and asking someone else for help
+218	Washing the right side of the body
+219	Washing off visible dirt
+220	What is ghaslul-wujud?
+221	Rinsing the nose
+222	Washing the whole body
+223	What is istinshaq?
+224	What is gargling (gharghara)?
+225	Rinsing the mouth and throat
+226	What is Tayammum?
+227	Washing the hands with water
+228	Symbolic purification (with clean earth)
+229	Bathing the whole body
+230	Washing the face and feet
+231	When can we make Tayammum?
+232	When we have no water for Wudu or Ghusl
+233	When we have enough water
+234	What can we do if we have only a little water that we need more for drinking and cooking?
+235	Not pray Salah
+236	Make Ghusl
+237	Make Tayammum
+238	Only wash our hands
+239	Can we make Tayammum if we cannot use water because of illness or great cold?
+240	Only in summer
+241	Only in the mosque
+242	No, we cannot
+243	Yes, we can
+244	How many fard (obligatory) acts does Tayammum have?
+245	What is the first fard act of Tayammum?
+246	Wiping the face
+247	Making the intention in the heart and reciting A’udhu billah and Bismillah
+248	Wiping the feet
+249	Saying Bismillah
+250	What do we do after we touch dry earth, or something made of earth, with our palms for the first time?
+251	We wipe our feet
+252	We wipe our hair
+253	We wipe our face once
+254	We wipe our neck
+255	What do we do after we touch dry earth, or something made of earth, again?
+256	We wipe only the face
+257	We wipe the head
+258	We wipe the right and left arm up to above the elbows
+259	What breaks Tayammum?
+260	Everything that breaks Wudu
+261	Walking
+262	Talking
+263	Apart from what breaks Wudu, what else can break Tayammum?
+264	The prayer time ending
+265	Being able to use water for Wudu or Ghusl
+266	Going for a walk
+267	What is At-Tahiyyat?
+268	Showing our thankfulness and obedience to Allah the Exalted
+269	The call to prayer
+270	A surah of the Qur’an
+271	The dua after Wudu
+272	When do we recite At-Tahiyyat in Salah?
+273	In ruku’
+274	In every sitting of Salah
+275	Only in sajdah
+276	Before the opening takbir
+277	To whom do greetings, blessings and good words belong?
+278	To Allah
+279	To whom are these words said: “Peace be upon you, and Allah’s mercy and His blessings”?
+280	To everyone who prays
+281	To our parents
+282	To the Prophet
+283	Apart from ourselves, upon whom do we ask for peace (salam) in At-Tahiyyat?
+284	Upon all the righteous servants of Allah
+285	Only upon learned people
+286	Only upon imams
+287	Only upon our parents
+288	What do we bear witness to in the first part of the shahadah in At-Tahiyyat?
+289	That angels exist
+290	That there is no god but Allah
+291	That Salah is obligatory
+292	That the Qur’an is Allah’s Book
+293	What do we bear witness to about Muhammad (SAW) in At-Tahiyyat?
+294	That he is an angel
+295	That he is only a teacher
+296	That he is Allah’s servant and messenger
+297	That he is the first human
+298	Between whom was the conversation of At-Tahiyyat on the Mi’raj?
+299	Between angels
+300	Between the Companions (Sahabah)
+301	Between people and angels
+302	Between Allah the Exalted and the Prophet Muhammad (SAW)
+303	What should a sincerely performed Salah remind us of?
+304	Of our own mi’raj – our closeness to our Lord
+305	Of rest
+306	Of a journey
+307	Of talking with people
+308	With which words does At-Tahiyyat begin?
+309	At-tahiyyatu lillahi was-salawatu wat-tayyibatu
+310	Qul huwallahu ahad
+311	Alhamdu lillahi Rabbil-’alamin
+312	What do we express by reciting At-Tahiyyat?
+313	Thankfulness and obedience to Allah the Exalted
+314	Fear of people
+315	The wish to travel
+316	With which words do we send salam to the Prophet?
+317	As-salamu ’alayna
+318	As-salamu ’alayka ayyuhan-nabiyyu
+319	What does “As-salamu ’alayka ayyuhan-nabiyyu” mean in English?

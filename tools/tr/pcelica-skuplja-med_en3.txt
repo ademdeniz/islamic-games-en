@@ -1,0 +1,546 @@
+700	It must be white
+701	Healthy and without any defects
+702	How is the Qurbani meat shared out?
+703	We keep one third for ourselves, give one third to the poor, and one third to relatives, neighbours and friends
+704	We must keep all the meat for ourselves
+705	We must sell all the meat
+706	The meat must not be shared
+707	On the first day of Muharram
+708	On the first day of Ramadan
+709	On the first day of Shawwal
+710	On the first day of Rajab
+711	Which event do we remember at the new Hijri year?
+712	The birth of Muhammad (SAW)
+713	The Hijrah
+714	The start of the revelation of the Qur’an
+715	The Battle of Badr
+716	The Muslims going on Hajj
+717	The migration of Muhammad (SAW) and the Muslims from Makkah to Madinah
+718	The Muslims returning from Madinah to Makkah
+719	How many months does the Hijri calendar have?
+720	Twelve
+721	Ten
+722	Eleven
+723	Thirteen
+724	What is the first month of the Hijri calendar?
+725	Safar
+726	Muharram
+727	Ramadan
+728	Rajab
+729	What is the second month of the Hijri calendar?
+730	Rabi’ al-Awwal
+731	Sha’ban
+732	What is the third month of the Hijri calendar?
+733	Rabi’ al-Akhir
+734	What is the fourth month of the Hijri calendar?
+735	Jumada al-Ula
+736	Shawwal
+737	What is the fifth month of the Hijri calendar?
+738	Jumada al-Akhirah
+739	Dhul-Qa’dah
+740	What is the sixth month of the Hijri calendar?
+741	What is the seventh month of the Hijri calendar?
+742	What is the eighth month of the Hijri calendar?
+743	Dhul-Hijjah
+744	What is the ninth month of the Hijri calendar?
+745	What is the tenth month of the Hijri calendar?
+746	What is the eleventh month of the Hijri calendar?
+747	What is the twelfth and last month of the Hijri calendar?
+748	What kind of year is the Hijri year?
+749	A solar (Sun) year
+750	A lunar (Moon) year
+751	It always has 365 days
+752	It starts in January
+753	According to the lesson, how many days does the Hijri year have?
+754	365 days
+755	360 days
+756	355 days
+757	366 days
+758	When does a day begin and end in the Hijri calendar?
+759	It begins at midnight and ends at noon
+760	It begins at sunrise and ends at midnight
+761	It begins at dawn and ends at noon
+762	It begins at sunset and lasts until the next sunset
+763	What is the first day of the week in the Hijri calendar?
+764	Monday
+765	Sunday
+766	Friday
+767	Saturday
+768	What is the Mawlid?
+769	The day when we rejoice at the birth of Muhammad (SAW)
+770	The day Ramadan begins
+771	The day of the Hijrah
+772	The day of Eid al-Adha
+773	When was Muhammad (SAW) born?
+774	1 Muharram, in the year 622
+775	12 Rabi’ al-Awwal, in the year 571
+776	1 Ramadan, in the year 610
+777	10 Dhul-Hijjah, in the year 570
+778	Where was Muhammad (SAW) born?
+779	In Madinah
+780	In Jerusalem
+781	In Makkah
+782	In Ta’if
+783	What were the names of the parents of Muhammad (SAW)?
+784	Ibrahim and Hajar
+785	Abdullah and Khadijah
+786	Abu Talib and Aminah
+787	Abdullah and Aminah
+788	Which family did Muhammad (SAW) belong to?
+789	The most respected Arab tribe, Quraysh
+790	Banu Hashim
+791	It is not known
+792	It did not belong to any tribe
+793	How do we mark the day and month of the birth of Muhammad (SAW)?
+794	By reciting the mawlid
+795	Who wrote the mawlid poem “Dobro nam doš’o” (“Welcome to us”)?
+796	Safvet-beg Bašagić
+797	Musa Ćazim Ćatić
+798	Rešad Kadić
+799	Mehmed Handžić
+800	What is Muhammad (SAW) called in the poem “Dobro nam doš’o”?
+801	Only a poet
+802	The one who brings light, the intercessor and the saviour
+803	The ruler of the world
+804	A trader and a traveller
+805	Which tribe did Muhammad (SAW) belong to?
+806	Aws
+807	Khazraj
+808	Quraysh
+809	Thaqif
+810	According to the hadith, who will be closest to Muhammad (SAW) on the Day of Judgement?
+811	The one who travels the most
+812	The one who has the most wealth
+813	The one who sleeps the longest
+814	The one who recites the most salawat upon him
+815	Who narrated the hadith about reciting the salawat?
+816	At-Tirmidhi
+817	Al-Bukhari
+818	Muslim
+819	Abu Dawud
+820	What is the second pillar of Islam?
+821	Praying Salah
+822	Fasting in Ramadan
+823	Giving Zakah
+824	Performing Hajj
+825	What is Salah?
+826	Only a physical exercise
+827	The most exalted way of showing obedience and thankfulness to Allah the Exalted
+828	A custom done only on Fridays
+829	A kind of fasting
+830	What do we want to achieve by praying Salah?
+831	Only to rest the body
+832	To learn how to tell the time
+833	To come closer to our Lord and earn His favour
+834	To gain wealth
+835	How many daily prayers do we pray?
+836	What are the names of the five daily prayers?
+837	Fajr, Dhuhr, Asr, Maghrib and Isha
+838	Fajr, Jumu’ah, Tarawih, Maghrib and Witr
+839	Fajr, Dhuhr, Jumu’ah, Eid and Isha
+840	Dhuhr, Asr, Tarawih, Witr and Janazah
+841	When does the time for Fajr prayer begin?
+842	At sunrise
+843	At dawn
+844	At noon
+845	At sunset
+846	Until when does the time for Fajr prayer last?
+847	Until noon
+848	Until dawn
+849	Until just before sunrise
+850	Until sunset
+851	When does the time for Dhuhr prayer begin?
+852	After sunset
+853	When it is completely dark
+854	When the Sun has moved a little past the middle of the sky
+855	Until when does the time for Dhuhr prayer last?
+856	Until late afternoon
+857	Until sunrise
+858	Until it is completely dark
+859	When does the time for Asr prayer begin?
+860	When the Sun rises
+861	When the Sun leans towards the west
+862	When dawn comes
+863	Until when does the time for Asr prayer last?
+864	Until just before sunset
+865	When does the time for Maghrib prayer begin?
+866	When it is completely dark
+867	When does the time for Isha prayer begin?
+868	When the sunlight has completely gone
+869	At noon
+870	Until when does the time for Isha prayer last?
+871	Until midnight
+872	Until just before dawn
+873	Apart from the five daily prayers, which other prayers do we pray?
+874	Only the Jumu’ah prayer
+875	The Jumu’ah prayer, the Tarawih prayer, the two Eid prayers and sometimes the Janazah (funeral) prayer
+876	Only the Eid prayer
+877	When do we pray Fajr?
+878	From noon until Asr
+879	From dawn until sunrise
+880	From sunset until dark
+881	After Isha
+882	How many rak’ahs does Fajr prayer have?
+883	Three rak’ahs
+884	Six rak’ahs
+885	Four rak’ahs
+886	Eight rak’ahs
+887	What do we recite after getting ready for Fajr prayer and before the niyyah (intention)?
+888	How many rak’ahs does the Sunnah of Fajr have?
+889	Two rak’ahs
+890	One rak’ah
+891	How many rak’ahs does the fard of Fajr have?
+892	Which prayer is the morning prayer?
+893	Dhuhr prayer
+894	Asr prayer
+895	Fajr prayer
+896	Maghrib prayer
+897	What do we pray first for Fajr?
+898	Two rak’ahs of Sunnah
+899	Two rak’ahs of fard
+900	Four rak’ahs of fard
+901	Three rak’ahs of Witr prayer
+902	What do we pray after the Sunnah of Fajr?
+903	The fard of Maghrib
+904	Two rak’ahs of the fard of Fajr
+905	The Sunnah of Dhuhr
+906	Witr prayer
+907	Which way do we turn when making the niyyah for Fajr prayer?
+908	Towards the sunrise
+909	Towards the door of the mosque
+910	Towards the teacher
+911	With which words does the niyyah end?
+912	Subhana Rabbiyal-A’la
+913	As-salamu ’alaykum
+914	What do we say at the start of Salah, after the niyyah?
+915	Rabbana lakal-hamd
+916	What do we recite in the qiyam of the first rak’ah of Fajr?
+917	At-Tahiyyat and the salawat
+918	Subhanaka, A’udhu billah, Bismillah, Al-Fatiha and a surah
+919	Only Bismillah and a surah
+920	What do we recite in the qiyam of the second rak’ah of Fajr?
+921	Bismillah, Al-Fatiha and a surah
+922	Subhanaka and At-Tahiyyat
+923	Only a surah
+924	The salawat and a dua
+925	What do we say when we go down into ruku’?
+926	Sami’allahu liman hamidah
+927	What do we say three times in ruku’?
+928	What do we say while coming back up from ruku’ to the standing position?
+929	Subhanaka
+930	What do we say while standing, after coming back up from ruku’?
+931	What do we say three times in sajdah?
+932	How many sajdahs do we make in one rak’ah?
+933	What comes between the first and the second sajdah?
+934	Sitting between the two sajdahs
+935	Giving the salam
+936	What is the last sitting in Salah called?
+937	What do we recite in the last sitting of Salah?
+938	To which side do we give the salam first?
+939	To the right side
+940	To the left side
+941	It does not matter
+942	Whichever we like
+943	What do we say when giving the salam in Salah?
+944	As-salamu ’alaykum wa rahmatullah
+945	In what order do we give the salam at the end of Salah?
+946	Only to the right side
+947	First to the left, then to the right
+948	First to the right, then to the left side
+949	Only to the left side
+950	How does the first ayah of Surah Al-Masad (Al-Lahab) begin?
+951	Qul a’udhu bi Rabbil-falaq
+952	Tabbat yada Abi Lahabin wa tabb
+953	Inna a’taynakal-kawthar
+954	What does the first ayah say about Abu Lahab (in English)?
+955	That he will be rewarded
+956	That he will be saved
+957	That he will become rich
+958	That he is ruined and will be ruined
+959	What will not help Abu Lahab?
+960	His wealth and what he gained
+961	His house
+962	His clothes
+963	His journey
+964	According to the surah, where will Abu Lahab enter?
+965	A garden
+966	A Fire of blazing flame
+967	The shade
+968	A palace
+969	Apart from Abu Lahab, who is mentioned in the surah?
+970	His brother
+971	His son
+972	His wife
+973	His friend
+974	What will be around the neck of Abu Lahab’s wife?
+975	A rope of twisted fibre
+976	A golden chain
+977	A piece of cloth
+978	A silver necklace
+979	How many ayahs does Surah Al-Masad (Al-Lahab) have?
+980	What did Muhammad (SAW) call people to?
+981	To collect wealth
+982	To say: “There is no god but Allah”
+983	To leave their families
+984	To travel a lot
+985	According to the hadith, what was promised to those who say: “There is no god but Allah”?
+986	Great wealth
+987	A long life
+988	Success
+989	Many friends
+990	Which prayer is the evening prayer?
+991	When do we pray Maghrib?
+992	From sunset until it gets completely dark
+993	From midnight until dawn
+994	According to the lesson, how many rak’ahs does Maghrib prayer have in total?
+995	How many rak’ahs does the fard of Maghrib prayer have?
+996	How many rak’ahs does the Sunnah of Maghrib prayer have?
+997	One
+998	What do we pray first at Maghrib?
+999	The Sunnah
+1000	A nafl (extra) prayer
+1001	The fard
+1002	Witr
+1003	What do we pray after the fard of Maghrib?
+1004	Three rak’ahs of fard
+1005	Four rak’ahs of Sunnah
+1006	The Janazah prayer
+1007	What do we recite in the first rak’ah of the fard of Maghrib?
+1008	What do we recite in the second rak’ah of the fard of Maghrib?
+1009	Only At-Tahiyyat
+1010	Subhanaka and the salawat
+1011	What do we recite in the first sitting of the fard of Maghrib?
+1012	The dua after Salah
+1013	According to the lesson, what do we recite in the third rak’ah of the fard of Maghrib?
+1014	Subhanaka, Al-Fatiha and a surah
+1015	Bismillah and Al-Fatiha
+1016	What do we recite in the last sitting of the fard of Maghrib?
+1017	Subhanaka and A’udhu billah
+1018	At-Tahiyyat, the salawat and the duas, and then we give the salam
+1019	How is the Sunnah of Maghrib prayed?
+1020	In the same way as the Sunnah of Fajr
+1021	Like a three-rak’ah fard
+1022	Like the Witr prayer
+1023	Like the Janazah prayer
+1024	What is fard?
+1025	Something we can do only if we want to
+1026	Everything that Allah the Exalted has commanded us to do
+1027	Only what we do on Fridays
+1028	Something done only for Eid
+1029	What is Sunnah?
+1030	Everything that is forbidden
+1031	Only what we learn from the Qur’an
+1032	Everything that Muhammad (SAW) recommended us to do
+1033	Only the obligatory part of Salah
+1034	What is Ayat al-Kursi?
+1035	The greatest ayah in the Qur’an
+1036	The shortest surah in the Qur’an
+1037	The dua after eating
+1038	A salawat
+1039	What is Ayat al-Kursi about?
+1040	About fasting
+1041	About Allah’s Kursi (Throne) and His greatness
+1042	About Hajj
+1043	About Zakah
+1044	Why do we recite Ayat al-Kursi?
+1045	Only to practise nice pronunciation
+1046	For protection and to seek refuge with Allah the Exalted
+1047	With which words does Ayat al-Kursi begin, after Bismillah?
+1048	Alhamdu lillahi
+1049	Inna a’tayna
+1050	Allahu la ilaha illa Huw
+1051	What do the words “Allahu la ilaha illa Huw” mean?
+1052	Allah – there is no god except Him
+1053	Allah forgives everything
+1054	Allah created the angels
+1055	Allah loves the patient
+1056	How is Allah described by the words “Al-Hayyul-Qayyum”?
+1057	The Most Gracious, the Most Merciful
+1058	The Ever-Living, the Sustainer of all
+1059	The One who forgives
+1060	The Lord of people
+1061	To whom belongs everything in the heavens and on the earth?
+1062	Can anyone intercede with Allah without His permission?
+1063	No, no one can
+1064	Yes, anyone can
+1065	Yes, all people can
+1066	Yes, without any conditions
+1067	How much of Allah’s knowledge can people take in?
+1068	All of it, without limit
+1069	Half of it
+1070	As much as Allah wills
+1071	They cannot learn anything
+1072	According to the translation, what does Allah’s Kursi extend over?
+1073	Only the earth
+1074	Only the heavens
+1075	Only people
+1076	The heavens and the earth
+1077	With which descriptions does Ayat al-Kursi end?
+1078	The Most High, the Most Great
+1079	The First and the Last
+1080	The Creator and the Provider
+1081	According to the hadith, when is it recommended to recite Ayat al-Kursi?
+1082	Only in the morning
+1083	After every obligatory prayer
+1084	According to the hadith, what stands between Jannah and a person who recites Ayat al-Kursi after every obligatory prayer?
+1085	One prayer
+1086	Only death
+1087	One year
+1088	Who is named as the source of the hadith about reciting Ayat al-Kursi after the obligatory prayer?
+1089	At-Tabarani
+1090	What does “Allahu la ilaha illa Huw” mean?
+1091	Allah is the Greatest
+1092	Praise belongs to Allah
+1093	Allah pardons everything
+1094	What does “Al-Hayyul-Qayyum” mean?
+1095	The Lord of the worlds
+1096	What does “La ta’khudhuhu sinatun wa la nawm” mean?
+1097	To Him belongs everything in the heavens
+1098	He knows everything and sees everything
+1099	Neither drowsiness nor sleep overtakes Him
+1100	He is the Most High, the Most Great
+1101	What does “Lahu ma fis-samawati wa ma fil-ard” mean?
+1102	He knows what was before them
+1103	To Him belongs whatever is in the heavens and whatever is on the earth
+1104	His mercy covers everything
+1105	No one can live without Him
+1106	What does “Wasi’a Kursiyyuhus-samawati wal-ard” mean?
+1107	His Kursi (power) extends over the heavens and the earth
+1108	Allah forgives people
+1109	Allah created man
+1110	Allah knows the future
+1111	What does “Wa Huwal-’Aliyyul-’Adhim” mean?
+1112	He is the Most Gracious, the Most Merciful
+1113	He is the One who hears everything
+1114	He is the Lord of the Day of Judgement
+1115	What is dhikr?
+1116	Remembering Allah
+1117	Calling the Adhan
+1118	Praying the Sunnah
+1119	Saying the Iqamah
+1120	When do we do dhikr after Salah?
+1121	After giving the last salam
+1122	Before Salah
+1123	What does the dhikr after Salah consist of?
+1124	Only Al-Fatiha
+1125	Only a dua
+1126	The salawat, Ayat al-Kursi and the tasbih
+1127	Only takbirs
+1128	With what do we begin the dhikr after Salah?
+1129	With Al-Fatiha
+1130	With the tasbih
+1131	With a dua
+1132	With a salawat
+1133	What do we recite after Ayat al-Kursi?
+1134	The tasbih
+1135	The Adhan
+1136	In which hand do we hold the tasbih (prayer beads)?
+1137	The left
+1138	The right
+1139	In both hands
+1140	It does not matter
+1141	How many times do we say “Subhanallah”?
+1142	10 times
+1143	25 times
+1144	33 times
+1145	40 times
+1146	There is no god but Allah
+1147	Glory be to Allah
+1148	How many times do we say “Alhamdulillah” in the tasbih?
+1149	34 times
+1150	100 times
+1151	Allah is One
+1152	How many times do we say “Allahu akbar” in the tasbih?
+1153	30 times
+1154	32 times
+1155	What does “Allahu akbar” mean?
+1156	Allah knows everything
+1157	How many times in total do we say Subhanallah, Alhamdulillah and Allahu akbar on the tasbih?
+1158	99 times
+1159	66 times
+1160	Apart from tasbih beads, what else can we use to count the words of the tasbih?
+1161	A pencil
+1162	A digital counter, or the fingers of the right hand
+1163	A clock
+1164	A book
+1165	What do we do after we finish the tasbih?
+1166	Get up straight away
+1167	Pray the prayer again
+1168	Carry on reciting the set words of dhikr
+1169	Call the Adhan
+1170	What does “La ilaha illallah” mean?
+1171	There is no other god but Allah
+1172	With what do we complete the prayer after the tasbih?
+1173	With the dua after Salah and Al-Fatiha
+1174	With the Adhan and Iqamah
+1175	With a new prayer
+1176	Only with a salawat
+1177	Who narrated the hadith about saying Subhanallah, Alhamdulillah and Allahu akbar 33 times?
+1178	An-Nasa’i
+1179	According to the hadith, which words did Muhammad (SAW) advise us to say after every prayer?
+1180	Only Bismillah
+1181	Subhanallah, Alhamdulillah and Allahu akbar
+1182	Only the salawat
+1183	In the ayah from the lesson, what does Allah the Exalted command us to do after finishing Salah?
+1184	To leave the mosque straight away
+1185	To repeat the prayer
+1186	To stay silent
+1187	To remember Allah
+1188	What does the word “An-Nasr” mean?
+1189	Light
+1190	Patience
+1191	Help (victory)
+1192	Mercy
+1193	How many ayahs does Surah An-Nasr have?
+1194	3
+1195	4
+1196	5
+1197	6
+1198	With which words does the first ayah of Surah An-Nasr begin?
+1199	Qul huwallahu
+1200	Tabbat yada
+1201	Idha ja’a nasrullahi wal-fath
+1202	What does “Idha ja’a nasrullahi wal-fath” mean?
+1203	When the help (victory) of Allah and the conquest have come
+1204	When night comes
+1205	When people set off for Salah
+1206	When the Day of Judgement comes
+1207	According to Surah An-Nasr, what do people do in multitudes?
+1208	They leave their cities
+1209	They enter the religion of Allah
+1210	They go on a journey
+1211	They gather to trade
+1212	What does the part “Wa ra’aytan-nasa yadkhuluna fi dinillahi afwaja” mean?
+1213	And you will see people praying
+1214	And you will see people fasting
+1215	And you see the people entering the religion of Allah in multitudes
+1216	And you see people leaving the city
+1217	What does Allah command us after mentioning help and victory in Surah An-Nasr?
+1218	To sleep
+1219	To travel
+1220	To glorify and praise our Lord
+1221	What does “Fa sabbih bi hamdi Rabbika” mean?
+1222	Then exalt your Lord with praise
+1223	Ask people for help
+1224	Pray only at night
+1225	Give sadaqah (charity)
+1226	What does the word “wastaghfirh” mean in Surah An-Nasr?
+1227	Give thanks
+1228	Ask Him to forgive you
+1229	Fast
+1230	Pray
+1231	What does “Innahu kana tawwaba” mean?
+1232	He hears everything
+1233	He sees everything
+1234	He is ever accepting of repentance
+1235	He created the heavens
+1236	In Surah An-Nasr, what should we do when Allah gives us help and victory?
+1237	Thank Him, glorify Him and ask for forgiveness
+1238	Forget to be thankful
+1239	Praise only ourselves
+1240	Stop worshipping
+1241	What is the main lesson of Surah An-Nasr?
+1242	After success we should praise ourselves
+1243	Victory comes only through human strength
+1244	We thank Allah for His help and victory, and we ask Him for forgiveness
+1245	There is no need to ask for forgiveness

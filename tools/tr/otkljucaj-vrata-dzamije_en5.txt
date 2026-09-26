@@ -1,0 +1,250 @@
+1029	Rabbana atina
+1030	Allahumma Rabba hadhihid-da’watit-tammah
+1031	Subhanaka Allahumma
+1032	A’udhu billahi minash-shaytanir-rajim
+1033	In the dua after the Adhan, for whom do we ask for a special rank in Jannah?
+1034	For the muezzin
+1035	For all people
+1036	For Muhammad (SAW)
+1037	For the people praying behind the imam
+1038	After the Adhan, what do we ask Allah to give Muhammad (SAW)?
+1039	Only a long life
+1040	Great wealth
+1041	Many followers
+1042	A special rank in Jannah and every good
+1043	How does the translation of the dua after the Adhan end?
+1044	“You see everything and know everything!”
+1045	“You truly never break Your promise!”
+1046	“You are the Most Gracious and the Most Merciful!”
+1047	“You are the Lord of all people!”
+1048	What is the Adhan?
+1049	A dua after Salah
+1050	The announcement that a prayer time has begun
+1051	Reciting the Qur’an before Salah
+1052	A greeting after Salah
+1053	Who calls the Adhan?
+1054	The muezzin
+1055	The khatib
+1056	Everyone praying, all at once
+1057	Only the imam
+1058	How do we behave when we hear the Adhan being called?
+1059	We keep talking
+1060	We say some other dua
+1061	We stop all talking and work and follow along, repeating the words of the Adhan quietly
+1062	We start praying right away
+1063	With which words does the Adhan begin?
+1064	Hayya ’alas-salah
+1065	What does “Allahu akbar” mean?
+1066	Only Allah is God
+1067	Come to prayer
+1068	Come to success
+1069	What does “Ashhadu an la ilaha illallah” mean?
+1070	I bear witness that only Allah is God
+1071	What does “Ashhadu anna Muhammadan rasulullah” mean?
+1072	I bear witness that Muhammad is Allah’s Messenger
+1073	Prayer is better than sleep
+1074	What does “Hayya ’alas-salah” mean?
+1075	The prayer is starting now
+1076	What does “Hayya ’alal-falah” mean?
+1077	With which words does the Adhan end?
+1078	Hayya ’alal-falah
+1079	What is specially added in the Fajr Adhan?
+1080	Qad qamatis-salah
+1081	As-salatu khayrun minan-nawm
+1082	How many times is “As-salatu khayrun minan-nawm” added in the Fajr Adhan?
+1083	Once
+1084	Three times
+1085	Four times
+1086	Twice
+1087	What does “As-salatu khayrun minan-nawm” mean?
+1088	Who says the Iqamah before praying a fard prayer?
+1089	Men
+1090	Only the khatib
+1091	When is the Iqamah said?
+1092	Before the Adhan
+1093	Before praying a fard prayer
+1094	Only after Fajr
+1095	Who says the Iqamah when we pray in congregation (jama’ah)?
+1096	Everyone praying
+1097	The imam
+1098	How fast do we say the Iqamah compared to the Adhan?
+1099	A little faster than the Adhan
+1100	Much slower than the Adhan
+1101	At exactly the same speed
+1102	The Iqamah is not said out loud
+1103	Which words are added in the Iqamah that are not in the Adhan?
+1104	Sami’allahu liman hamidah
+1105	What does “Qad qamatis-salah” mean?
+1106	What is the main difference between the Adhan and the Iqamah?
+1107	The Adhan is called only for Fajr
+1108	The Iqamah is said after Salah
+1109	The Adhan is called before Salah
+1110	In the Iqamah the words “Qad qamatis-salah” are added
+1111	What is the third condition of Salah?
+1112	Dressing properly
+1113	What do we protect with our clothes?
+1114	Only our body from the cold
+1115	Only our health
+1116	Our body and our modesty
+1117	Only our body from dirt
+1118	What should our clothes always be like?
+1119	Expensive and new
+1120	Only white
+1121	Colourful and wide
+1122	Nice, clean and tidy
+1123	What kind of clothes should we not wear?
+1124	Clean and tidy
+1125	Short, tight and see-through
+1126	Nice and comfortable
+1127	Modest and clean
+1128	When must we especially dress properly?
+1129	When we pray Salah
+1130	When we sleep
+1131	When we travel
+1132	When we play
+1133	Who do we stand before when we pray Salah?
+1134	Before the imam
+1135	Before people
+1136	Before our Lord
+1137	Before our parents
+1138	What must women and girls cover in Salah?
+1139	Only the hair
+1140	Only the legs
+1141	Only the arms and legs
+1142	The whole body except the face, hands and feet
+1143	How should men be dressed?
+1144	Modestly
+1145	Only in white
+1146	Only in long clothes
+1147	Only in new clothes
+1148	What part of the body must men cover at the very least?
+1149	From the shoulders to the feet
+1150	From the waist to below the knees
+1151	Only the knees
+1152	From the neck to the ankles
+1153	What must clothes not be like in Salah?
+1154	Clean
+1155	Tidy
+1156	Comfortable
+1157	See-through
+1158	Which of these must clothes for Salah also not be?
+1159	Dirty
+1160	Nice
+1161	Which clothes are not suitable for Salah?
+1162	Tight
+1163	What should clothes for Salah not have?
+1164	Buttons
+1165	Sleeves
+1166	A picture
+1167	Pockets
+1168	What is the second condition of Salah?
+1169	Wudu
+1170	Niyyah
+1171	Clean clothes
+1172	What is Wudu?
+1173	Washing the whole body
+1174	The religious washing of certain parts of the body
+1175	Washing only the hands
+1176	Washing clothes
+1177	Why do we make Wudu?
+1178	Only to be clean
+1179	To pray Salah, recite the Qur’an and do other acts of worship
+1180	How do we begin making Wudu?
+1181	Only with the niyyah
+1182	Only with the Bismillah
+1183	By washing the hands
+1184	With the Ta’awwudh, the Bismillah and the niyyah
+1185	What kind of water do we use for Wudu?
+1186	Clean water
+1187	Only salty water
+1188	Juice
+1189	Scented water
+1190	What do we wash first when making Wudu?
+1191	The face
+1192	The hands up to above the wrists
+1193	The feet
+1194	The ears
+1195	How many times at the start do we wash our hands up to above the wrists?
+1196	Twice
+1197	Which hand do we use to rinse the mouth?
+1198	The left
+1199	Both at the same time
+1200	It does not matter
+1201	The right
+1202	How many times do we rinse the mouth?
+1203	Five times
+1204	What can we clean our teeth with when making Wudu?
+1205	Only with water
+1206	With a toothbrush or a miswak
+1207	With a towel
+1208	With soap
+1209	How many times do we rinse the nose?
+1210	How many times do we wash the face in the usual way of making Wudu?
+1211	Which arm do we wash first up to above the elbow?
+1212	The right one
+1213	The left one
+1214	Both together
+1215	It is not important
+1216	How many times do we wash the right arm up to above the elbow?
+1217	What do we wash after the right arm?
+1218	The left arm up to above the elbow
+1219	What does masah mean?
+1220	Washing the feet
+1221	Rinsing the nose
+1222	Washing the face
+1223	Wiping at least a quarter of the head with a wet hand
+1224	At the very least, how much of the head do we wipe with a wet hand?
+1225	At least a quarter of the head
+1226	Half of the head
+1227	The whole head, always
+1228	Only the forehead
+1229	What do we wipe after the masah of the head?
+1230	The neck
+1231	The ears, inside and outside
+1232	The feet
+1233	How is the neck wiped?
+1234	Three times with the palms
+1235	With a wet cloth
+1236	Once with the backs of the fingers
+1237	It is neither washed nor wiped
+1238	What is nice to say after making Wudu?
+1239	The Kalimah Shahadah
+1240	The Adhan
+1241	The Iqamah
+1242	Only Al-Fatihah
+1243	What are the compulsory actions of Wudu called?
+1244	The conditions (shurut) or fard parts of Wudu
+1245	How many conditions – fard parts – of Wudu are there?
+1246	What happens if we do not do the fard parts of Wudu?
+1247	The Wudu is still complete
+1248	Only the reward is smaller
+1249	We only need to say a dua
+1250	The Wudu is not valid
+1251	What is the first fard part of Wudu?
+1252	To wash the face once
+1253	To wash the feet
+1254	To wipe the head
+1255	To wash the hands
+1256	What is the second fard part of Wudu?
+1257	Rinsing the mouth
+1258	To wash the right and the left arm up to above the elbows, once each
+1259	Wiping the ears
+1260	What is the third fard part of Wudu?
+1261	To wash the face three times
+1262	To wipe at least a quarter of the head with a wet hand – masah
+1263	To wash the ears
+1264	What is the fourth fard part of Wudu?
+1265	To wash the hands up to the wrists
+1266	To rinse the nose
+1267	To wipe the neck
+1268	To wash the right and the left foot up to above the ankles, once each
+1269	Which of these breaks Wudu?
+1270	Sleeping, or losing consciousness even for a moment
+1271	Washing the hands
+1272	Does blood or another fluid flowing from the body break Wudu?
+1273	No, never
+1274	Yes
+1275	Only during Salah
+1276	Only at night
+1277	What happens to Wudu if a person vomits from the stomach?
+1278	We do not have to redo the Wudu

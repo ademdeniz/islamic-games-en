@@ -1,0 +1,600 @@
+0	What is the first pillar of Iman (faith)?
+1	Wa mala’ikatihi
+2	Amantu billahi
+3	Wa kutubihi
+4	Wa rusulihi
+5	What does “Amantu billahi” mean?
+6	I believe in the angels
+7	I believe in Allah’s books
+8	I believe in Allah (SWT)
+9	I believe in the Day of Judgement
+10	What is the duty of every Muslim man and woman?
+11	To believe in Allah (SWT)
+12	To be rich
+13	To travel a lot
+14	To know all languages
+15	What does believing in Allah (SWT) mean?
+16	Only saying His name
+17	Believing only when we are in trouble
+18	Believing only at certain times
+19	Believing with the heart and saying with the tongue that there is no god but Allah
+20	How many beautiful names does Allah (SWT) have?
+21	25
+22	50
+23	99
+24	100
+25	What is Allah’s own proper name?
+26	Allah
+27	Ar-Rahman
+28	Al-Malik
+29	Ar-Rahim
+30	How can we come to know Allah (SWT)?
+31	Only through dreams
+32	Only through people’s stories
+33	Only by looking
+34	Through the Revelation and by studying what He created
+35	In which book are the ayahs we should read and study?
+36	In the Tawrat
+37	In the Qur’an
+38	In the Zabur
+39	In the Injil
+40	What in nature is proof that Allah exists?
+41	Only people
+42	Only animals
+43	People, planet Earth, the sky, plants and animals and everything we see
+44	Only the Sun and the Moon
+45	Into which two groups are Allah’s Attributes (sifat) divided?
+46	As-sifat adh-dhatiyyah and As-sifat ath-thubutiyyah
+47	Fard and Sunnah
+48	Halal and haram
+49	Iman and Islam
+50	What are As-sifat adh-dhatiyyah?
+51	Attributes of Allah’s beautiful names
+52	Attributes of Allah’s perfection
+53	Attributes of the prophets
+54	Attributes of Allah’s Being (Essence)
+55	What are As-sifat ath-thubutiyyah?
+56	Names of the angels
+57	Names of Allah’s messengers
+58	What is the translation of Surah Al-Ikhlas?
+59	“Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born, nor is there to Him any equivalent.”
+60	“All praise is due to Allah, Lord of the worlds.”
+61	“Indeed, We have granted you al-Kawthar (much good).”
+62	“In the name of Allah, the Most Gracious, the Most Merciful.”
+63	Which ayah is given in the lesson as proof that there is no god but Allah?
+64	“We have granted you much good.”
+65	“Recite in the name of your Lord.”
+66	“So know that there is no deity except Allah.”
+67	According to the hadith in the lesson, what is promised to whoever learns Allah’s 99 names?
+68	They will enter Jannah
+69	They will never make a mistake
+70	They will be the richest person
+71	They will live forever on Earth
+72	What is Surah Al-Ikhlas about?
+73	Only about Salah
+74	About fasting
+75	About Allah’s existence and His Oneness
+76	About Zakah
+77	How many times is Allah’s name “Allah” (SWT) mentioned in the Qur’an?
+78	99 times
+79	1,000 times
+80	2,698 times
+81	6,666 times
+82	How many Attributes (sifat) are there?
+83	6
+84	10
+85	14
+86	What are the first six Attributes of Allah called?
+87	As-sifat ath-thubutiyyah
+88	As-sifat adh-dhatiyyah
+89	Pillars of Iman
+90	Conditions of Salah
+91	How many Attributes belong to As-sifat adh-dhatiyyah?
+92	Four
+93	Five
+94	Eight
+95	Six
+96	Which Attribute means “Allah exists”?
+97	Baqa
+98	Wujud
+99	Qidam
+100	Wahdaniyyah
+101	What does the Attribute WUJUD mean?
+102	Allah exists
+103	Allah is One
+104	Allah is forever (without end)
+105	Allah has always been (without beginning)
+106	Which Attribute means “Allah is One”?
+107	What does WAHDANIYYAH mean?
+108	Allah exists by Himself
+109	Which Attribute means “Allah has always been”?
+110	What does the Attribute QIDAM mean?
+111	Allah will always be (without end)
+112	Allah is not like anyone
+113	Which Attribute means “Allah is forever”?
+114	Which Attribute means that Allah (SWT) is not like anyone or anything?
+115	Qiyamun bi nafsihi
+116	Mukhalafatun lil-hawadith
+117	What does MUKHALAFATUN LIL-HAWADITH mean?
+118	Allah is not like anyone or anything
+119	Which Attribute means “Allah exists by Himself”?
+120	What does QIYAMUN BI NAFSIHI mean?
+121	Allah exists by Himself, needing no one
+122	Can the human mind fully understand Allah’s Attributes?
+123	Yes, all of them
+124	No, it cannot
+125	Only sometimes
+126	Only scholars can
+127	How are people allowed to describe Allah (SWT)?
+128	However they want
+129	Using human imagination
+130	By comparing Him to created things
+131	The way He described Himself
+132	How many Attributes are in As-sifat ath-thubutiyyah?
+133	Seven
+134	Nine
+135	Which Attribute means that Allah lives His eternal life?
+136	Hayat
+137	‘Ilm
+138	Sam‘
+139	Qudrah
+140	What does the Attribute HAYAT mean?
+141	Allah knows everything
+142	Allah hears everything
+143	Allah sees everything
+144	Allah lives His eternal life
+145	Which Attribute means “Allah knows everything”?
+146	Kalam
+147	Basar
+148	Iradah
+149	What does the Attribute SAM‘ mean?
+150	Allah creates everything
+151	Which Attribute means “Allah sees everything”?
+152	Takwin
+153	What does the Attribute IRADAH mean?
+154	Allah is All-Powerful
+155	Allah does everything by His Will
+156	Which Attribute means that Allah is All-Powerful?
+157	What does QUDRAH mean?
+158	Which Attribute means that Allah speaks with His divine speech?
+159	What does the Attribute TAKWIN mean?
+160	Allah creates, sustains and ends everything
+161	How are human qualities compared to Allah’s Attributes?
+162	More perfect
+163	Exactly the same
+164	Unlimited
+165	Limited
+166	How is it allowed to describe Allah (SWT)?
+167	The way people imagine Him
+168	By comparing Him to a human
+169	However anyone wants
+170	With which words do we thank Allah (SWT) for His blessings?
+171	Subhanallah
+172	Alhamdulillah
+173	Allahu akbar
+174	Astaghfirullah
+175	What does “Alhamdulillah” mean?
+176	Allah is the Greatest
+177	There is no god but Allah
+178	All praise and thanks to Allah
+179	I ask Allah for forgiveness
+180	What is the second pillar of Iman?
+181	Wal-yawmil-akhiri
+182	What does “Wa mala’ikatihi” mean?
+183	I believe in Allah’s angels
+184	I believe in Allah’s books
+185	I believe in Allah’s messengers
+186	I believe in the Day of Judgement
+187	What are angels (mala’ika)?
+188	Visible human beings
+189	Invisible spiritual beings
+190	Messengers
+191	Jinn
+192	What are angels created from?
+193	From earth
+194	From water
+195	From fire
+196	From light
+197	Whom do the angels always serve and obey?
+198	Allah (SWT)
+199	People
+200	The messengers
+201	The jinn
+202	Do angels eat and drink?
+203	They only eat
+204	They only drink
+205	They neither eat nor drink
+206	They eat and drink like people
+207	Do angels sleep?
+208	They sleep at night
+209	They do not sleep
+210	They sleep during the day
+211	They sleep only sometimes
+212	What gender are angels?
+213	Only male
+214	Only female
+215	Both male and female
+216	They are neither male nor female
+217	How did Allah (SWT) create the angels?
+218	As sinless beings
+219	As sinful beings
+220	As mortal humans
+221	As disobedient beings
+222	What do angels do for Allah (SWT)?
+223	They oppose Him
+224	They sin against Him
+225	They worship Him and do ‘ibadah for Him
+226	They forget His commands
+227	How do angels carry out their duties?
+228	Only when they want to
+229	Without objection
+230	Only sometimes
+231	After resting
+232	Which angel delivered Allah’s revelations to Allah’s messengers?
+233	Mika’il
+234	Israfil
+235	Azra’il
+236	Jibril (Jibra’il)
+237	What is the angel Mika’il in charge of?
+238	Natural events
+239	Guarding Jannah
+240	Questioning in the grave (qabr)
+241	Writing down people’s deeds
+242	Which angel is in charge of blowing the Trumpet (Sur) to announce the Day of Qiyamah and the Day of Judgement?
+243	Jibril
+244	Ridwan
+245	What are Munkar and Nakir in charge of?
+246	Questioning a person in the grave
+247	Delivering the Revelation
+248	Who are the Kiraman Katibin?
+249	Angels who guard Jannah
+250	Angels who question in the grave
+251	Angels who control natural events
+252	Angels who stay with people and write down their good and bad deeds
+253	What do the Kiraman Katibin record?
+254	People’s good and bad deeds
+255	Only good deeds
+256	Only bad deeds
+257	Only words
+258	What is the Angel of Death called?
+259	Malik
+260	Malak al-Mawt (Azra’il)
+261	What is the duty of Malak al-Mawt (Azra’il)?
+262	He guards Jannah
+263	He takes the soul from the body at the moment of death
+264	He delivers the Revelation
+265	He blows the Trumpet (Sur)
+266	Which angel is in charge of Jannah?
+267	Which angel is the guardian of Jahannam?
+268	Are angels the only invisible beings?
+269	Yes, they are
+270	We do not know
+271	No, they are not
+272	Maybe
+273	What other invisible beings did Allah (SWT) create?
+274	Jinn and shaytans (devils)
+275	Only plants
+276	Only people
+277	What can jinn be like?
+278	Only good
+279	Only bad
+280	Only believers
+281	Good and bad, believers and disbelievers
+282	Who are jinn similar to in their needs and qualities?
+283	Angels
+284	Plants
+285	What are disobedient jinn called?
+286	Angels
+287	Shaytans (devils)
+288	Kiraman Katibin
+289	Who is the leader of the shaytans?
+290	Iblis
+291	What do shaytans bring to people?
+292	Only good advice
+293	Revelation
+294	Knowledge about the future
+295	Bad thoughts, and they lead them to do bad deeds
+296	With which words do we ask Allah for protection from the accursed Shaytan?
+297	A‘udhu billahi minash-shaytanir-rajim
+298	Alhamdu lillahi rabbil-‘alamin
+299	Subhana rabbiyal-‘azim
+300	What does “A‘udhu billahi minash-shaytanir-rajim” mean?
+301	All praise is due to Allah, Lord of the worlds
+302	I seek Allah’s protection from the accursed Shaytan
+303	What is the third pillar of Iman?
+304	What does “Wa kutubihi” mean?
+305	I believe in Allah’s books (kutub)
+306	I believe in the angels
+307	I believe in the messengers
+308	What are Allah’s books?
+309	Books written by scholars
+310	History books
+311	Revelations that Allah the Exalted sent to His messengers
+312	Books written by angels
+313	Through which angel did Allah send revelations to His messengers?
+314	Mika’il
+315	Israfil
+316	Azra’il
+317	Jibril
+318	What is contained in Allah’s books?
+319	Guidance, advice and rules about people’s life and work
+320	Only stories about the past
+321	Only du‘as
+322	Only facts about the messengers
+323	How are Allah’s books divided?
+324	Into surahs and ayahs
+325	Into big ones – kutub, and small ones – suhuf
+326	Into fard and Sunnah
+327	Into Makkan and Madinan
+328	How many big books of Allah are there?
+329	Two
+330	Three
+331	What are the four big books of Allah?
+332	Qur’an, hadith, Sunnah and suhuf
+333	Tawrat, Qur’an, hadith and Sunnah
+334	Zabur, Injil, Qur’an and suhuf
+335	Tawrat, Zabur, Injil and Qur’an
+336	To whom was the Tawrat revealed?
+337	To Musa (AS)
+338	To Dawud (AS)
+339	To Isa (AS)
+340	To Muhammad (SAW)
+341	To whom was the Zabur revealed?
+342	To Ibrahim (AS)
+343	To whom was the Injil revealed?
+344	To whom was the Qur’an revealed?
+345	What are the suhuf?
+346	Small revelations from Allah (scrolls)
+347	Big books of Allah
+348	Surahs of the Qur’an
+349	Hadith collections
+350	How many suhuf were revealed to Shith (AS)?
+351	30
+352	40
+353	How many suhuf were revealed to Idris (AS)?
+354	20
+355	How many suhuf were revealed to Ibrahim (AS)?
+356	How many suhuf were revealed to Musa (AS) before the Tawrat?
+357	What is Allah’s final revelation?
+358	Tawrat
+359	Qur’an
+360	Zabur
+361	Injil
+362	To whom was Allah’s final revelation revealed?
+363	When did the revelation of the Qur’an begin?
+364	In the month of Muharram
+365	On the day of Eid
+366	In the month of Shawwal
+367	On Laylat al-Qadr in the month of Ramadan
+368	In which year did the revelation of the Qur’an begin?
+369	In the year 610
+370	In the year 622
+371	In the year 632
+372	In the year 570
+373	Where did the revelation of the Qur’an begin?
+374	In Madinah
+375	In the cave of Hira on the mountain of Nur
+376	At Arafat
+377	In Jerusalem
+378	How many years did the revelation of the Qur’an last?
+379	10 years
+380	13 years
+381	23 years
+382	30 years
+383	For how many years was the Qur’an revealed in Makkah?
+384	15 years
+385	For how many years was the Qur’an revealed in Madinah?
+386	20 years
+387	How many surahs does the Qur’an have?
+388	114
+389	120
+390	How many ayahs does the Qur’an have?
+391	6,236
+392	6,666
+393	6,236 ayahs
+394	114 ayahs
+395	Into how many juz’ (parts) is the Qur’an divided?
+396	What does the word “ayah” mean?
+397	Chapter
+398	Sentence (verse)
+399	A part of 20 pages
+400	Book
+401	What does the word “juz’” mean?
+402	One ayah
+403	One surah
+404	A part of the Qur’an of about 20 pages
+405	The first page of the Qur’an
+406	What does the word “surah” mean?
+407	A chapter in the Qur’an
+408	One word in the Qur’an
+409	Half of the Qur’an
+410	A du‘a after Salah
+411	What does the word “harf” mean?
+412	Ayah
+413	Letter
+414	Juz’
+415	How many juz’ is the Qur’an divided into?
+416	About how many pages does one juz’ have?
+417	20 pages
+418	10 pages
+419	30 pages
+420	50 pages
+421	What is the fourth pillar of Iman?
+422	What does “Wa rusulihi” mean?
+423	I believe in Allah’s messengers
+424	Who are Allah’s messengers?
+425	All good people
+426	All scholars
+427	Chosen people to whom Allah (SWT) sent His revelations
+428	Angels who bring the Revelation
+429	Who was the first man on Earth?
+430	Nuh (AS)
+431	Adam (AS)
+432	Ibrahim (AS)
+433	Musa (AS)
+434	Who was Allah’s first prophet?
+435	Muhammad (SAW)
+436	What did Allah (SWT) teach other people through Adam (AS)?
+437	Only how to work
+438	Only how to build houses
+439	Only how to write
+440	How to live in this world
+441	What task did the messengers after Adam (AS) have?
+442	To pass on Allah’s revelations
+443	To found countries
+444	To build palaces
+445	To teach people crafts
+446	What did the messengers call people to?
+447	Only to work
+448	To good
+449	To wealth
+450	To travel
+451	What did the messengers turn people away from?
+452	From learning
+453	From work
+454	From evil
+455	From travel
+456	About how many prophets of Allah were there, according to the narrations?
+457	1,000
+458	Over 124 thousand
+459	How many prophets are mentioned by name in the Qur’an?
+460	Who are the most chosen prophets of Allah?
+461	Adam, Idris, Hud, Salih and Lut
+462	Nuh, Ibrahim, Musa, Isa and Muhammad (peace be upon them)
+463	Dawud, Sulayman, Yunus, Yahya and Zakariyya
+464	Ishaq, Isma‘il, Yaqub, Yusuf and Harun
+465	What are the most chosen prophets called?
+466	Ansar
+467	Muhajirun
+468	Ulul-‘azm
+469	Sahabah (Companions)
+470	What do we learn from the Qur’an about nations and prophets?
+471	Only some nations had prophets
+472	Prophets came only to the Arabs
+473	Prophets came only to big nations
+474	Every nation had its own prophet
+475	Besides being prophets, what else did Allah’s prophets do?
+476	They lived simply from their own work and effort
+477	They never worked
+478	They lived only from gifts
+479	They were all kings
+480	What did Muhammad (SAW) do as a boy?
+481	He was a tailor
+482	He was a shepherd, and later a merchant
+483	He was a carpenter
+484	He made armour
+485	Which prophet made armour?
+486	Sulayman (AS)
+487	Idris (AS)
+488	Dawud (AS)
+489	Isa (AS)
+490	What did Sulayman (AS) do?
+491	He was a shepherd
+492	He built many kinds of buildings
+493	Which prophet was a carpenter?
+494	Which prophet was a tailor?
+495	Isma‘il (AS)
+496	Zakariyya (AS)
+497	Who was the father of Isma‘il (AS) and Ishaq (AS)?
+498	Yaqub (AS)
+499	How were Ibrahim (AS) and Lut (AS) related?
+500	They were brothers
+501	They were father and son
+502	They were cousins
+503	Ibrahim (AS) was Lut’s (AS) uncle
+504	Who was the father of Yaqub (AS)?
+505	Ishaq (AS)
+506	Yusuf (AS)
+507	Who was the father of Yusuf (AS)?
+508	Who was the father of Yahya (AS)?
+509	Harun (AS)
+510	Who was the father of Sulayman (AS)?
+511	How were Musa (AS) and Harun (AS) related?
+512	They were uncle and nephew
+513	They were not related
+514	Which two prophets were cousins?
+515	Musa (AS) and Harun (AS)
+516	Yahya (AS) and Isa (AS)
+517	Dawud (AS) and Sulayman (AS)
+518	Isma‘il (AS) and Ishaq (AS)
+519	Who is Allah’s last messenger?
+520	Who is Allah’s most chosen messenger?
+521	What was the name of the father of Muhammad (SAW)?
+522	Abu Talib
+523	Abdul-Muttalib
+524	Hamzah
+525	Abdullah
+526	What was the name of the mother of Muhammad (SAW)?
+527	Khadijah
+528	Aminah
+529	Halimah
+530	Fatimah
+531	When did the father of Muhammad (SAW) die?
+532	Two months before he was born
+533	When Muhammad (SAW) was two years old
+534	When he was six years old
+535	After the Revelation began
+536	How old was Muhammad (SAW) when his mother died?
+537	Four years old
+538	Five years old
+539	Six years old
+540	Eight years old
+541	Who took care of Muhammad (SAW) after his mother died?
+542	His uncle Hamzah
+543	His grandfather Abdul-Muttalib
+544	Abu Bakr
+545	Umar
+546	Who took care of Muhammad (SAW) after his grandfather died?
+547	Abbas
+548	How old was Muhammad (SAW) when he married Khadijah?
+549	25 years old
+550	40 years old
+551	What was the name of the wife whom Muhammad (SAW) married at age 25?
+552	Sawdah
+553	Aishah
+554	Hafsah
+555	How does the lesson describe Khadijah?
+556	As a poor merchant woman
+557	As a respected widow
+558	As a teacher
+559	As a queen
+560	In which year of his life did Muhammad (SAW) become a prophet?
+561	In his 25th
+562	In his 30th
+563	In his 35th
+564	In his 40th year
+565	What began when Muhammad (SAW) became a prophet?
+566	The revelation of the Qur’an
+567	The building of the Ka‘bah
+568	The Hijrah
+569	The conquest of Makkah
+570	For how many years did Muhammad (SAW) call people to Islam in secret?
+571	One year
+572	Two years
+573	Three years
+574	Ten years
+575	How did Muhammad (SAW) call people to Islam at the start of his mission?
+576	Only in public
+577	In secret
+578	Only outside Makkah
+579	Only in writing
+580	How did Muhammad (SAW) call people to Islam after the first period of secret calling?
+581	He stopped calling
+582	Only his family
+583	Only at night
+584	In public
+585	In which year after the start of the Revelation did Muhammad (SAW) make the Hijrah?
+586	In the thirteenth year
+587	In the third year
+588	In the tenth year
+589	In the twentieth year
+590	What is the Hijrah?
+591	The start of the Revelation
+592	The birth of Muhammad (SAW)
+593	The migration from Makkah to Madinah
+594	The return from Madinah to Makkah
+595	From where did Muhammad (SAW) make the Hijrah?
+596	From Madinah
+597	From Makkah
+598	From Jerusalem
+599	From Ta’if

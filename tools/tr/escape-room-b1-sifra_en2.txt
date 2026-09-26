@@ -1,0 +1,400 @@
+600	Where did Muhammad (SAW) move to in the Hijrah?
+601	To Makkah
+602	To Ta’if
+603	To Jerusalem
+604	To Madinah
+605	In which year did Muhammad (SAW) pass away to the Akhirah (the Hereafter)?
+606	In the year 571
+607	At what age did Muhammad (SAW) pass away to the Akhirah?
+608	At 40
+609	At 60
+610	At 63
+611	At 70
+612	Which years are given for the life of Muhammad (SAW)?
+613	570–630
+614	571–632
+615	610–632
+616	622–632
+617	Who was the grandfather of Muhammad (SAW)?
+618	How was Abu Talib related to Muhammad (SAW)?
+619	He was his father
+620	He was his grandfather
+621	He was his uncle
+622	He was his son
+623	Who took care of Muhammad (SAW) after Abdul-Muttalib died?
+624	About how many years passed from the start of the Revelation until Muhammad (SAW) passed away?
+625	About 23 years
+626	What is the correct order of events in the life of Muhammad (SAW)?
+627	Hijrah → marriage to Khadijah → start of the Revelation → passing away
+628	Start of the Revelation → marriage to Khadijah → Hijrah → passing away
+629	Marriage to Khadijah → start of the Revelation → Hijrah → passing away
+630	Marriage to Khadijah → Hijrah → start of the Revelation → passing away
+631	What is the fifth pillar of Iman?
+632	Wal-yawmil akhiri
+633	What does “Wal-yawmil akhiri” mean?
+634	What is a Muslim’s duty after believing in Allah, the angels, the books and the messengers?
+635	To believe only in this world
+636	To believe in the Day of Judgement
+637	To believe only in the angels
+638	To believe only in the messengers
+639	Which two pillars of Iman are most often mentioned together in the Qur’an?
+640	Belief in the angels and the books
+641	Belief in the books and the messengers
+642	Belief in the angels and the messengers
+643	Belief in Allah and the Day of Judgement
+644	What is this world we live in now called?
+645	Akhirah
+646	Barzakh
+647	Dunya
+648	Jannah
+649	What is the next world called?
+650	Qiyamah
+651	What is the dunya (this world) like?
+652	Eternal
+653	Endless
+654	Everlasting
+655	Temporary (it will pass away)
+656	What is the next world – the Akhirah – like?
+657	Short
+658	Temporary
+659	How does our life in this world end?
+660	With birth
+661	With resurrection
+662	With death
+663	With the Day of Judgement
+664	Is death the end of life?
+665	Yes, forever
+666	No, it is a change in the way of life
+667	Yes, for believers
+668	Yes, for all people except the prophets
+669	What will happen to people in the next world?
+670	They will live in the dunya again
+671	They will never be resurrected
+672	Only some will be resurrected
+673	They will be resurrected and after that live forever
+674	What comes before the Day of Judgement?
+675	Death and staying in the Barzakh
+676	Only birth
+677	Only life in the dunya
+678	Only the Hijrah
+679	What is the Barzakh?
+680	Jahannam
+681	Life in the grave (after death)
+682	This world
+683	Who will blow the Trumpet (Sur) the first time?
+684	What happens after Israfil blows the Trumpet the first time?
+685	The birth of all people
+686	Everyone enters Jannah
+687	The end (destruction) of this world
+688	What happens after Israfil blows the Trumpet the second time?
+689	Resurrection
+690	The death of all people
+691	The beginning of the dunya
+692	Where will people gather after the resurrection?
+693	In their homes
+694	In their graves
+695	At the place of the final judgement
+696	In Makkah
+697	What will be handed out to people on the Day of Judgement?
+698	Wealth
+699	Books in which their good and bad deeds are written
+700	Food and drink
+701	Clothes
+702	Who will judge people on the Day of Judgement?
+703	People will judge each other
+704	Allah (SWT)
+705	On what basis will Allah (SWT) judge people?
+706	On the basis of their good and bad deeds
+707	On the basis of their wealth
+708	On the basis of their looks
+709	On the basis of their family origin
+710	Who will give an account before Allah (SWT)?
+711	Only the prophets
+712	Only disbelievers
+713	Every single person
+714	Only rich people
+715	Where will a person’s deeds be placed?
+716	In a book, without weighing
+717	On the Scale (Mizan)
+718	In the grave
+719	On the Earth
+720	What will happen to someone whose good deeds are heavier?
+721	They will go back to the dunya
+722	They will not be judged
+723	They will stay in the Barzakh
+724	Allah will reward them, and by Allah’s mercy their place will be in Jannah
+725	What will happen to someone whose bad deeds are heavier?
+726	They will be punished, and their place will be in Jahannam
+727	They will go straight back to the dunya
+728	They will not give an account
+729	Their deeds will not be weighed
+730	According to the lesson, what will happen in the end to believers who are punished?
+731	They will stay in the dunya forever
+732	They will be resurrected again
+733	By Allah’s mercy they will be taken out of Jahannam
+734	They will not be taken out
+735	Who writes down our good and bad deeds during our life in the dunya?
+736	People
+737	What will a person see if they did an atom’s weight of good?
+738	Their deed will be forgotten
+739	They will see only part of it
+740	They will see nothing
+741	They will see it
+742	What will a person see if they did an atom’s weight of evil?
+743	Evil will always be erased with no accountability
+744	They will not see it
+745	They will see only good deeds
+746	What is the correct order of the events given in the lesson?
+747	Resurrection → death → Barzakh → first blowing of the Trumpet
+748	Judgement → death → resurrection → Barzakh
+749	Death and Barzakh → first blowing of the Trumpet and end of the world → second blowing and resurrection → gathering and final judgement
+750	Gathering → dunya → death → resurrection
+751	What is the sixth pillar of Iman?
+752	Wa bil-qadari khayrihi wa sharrihi minallahi ta‘ala
+753	What does the sixth pillar of Iman mean?
+754	I believe that everything that happens is by Allah’s Will and Decree (qadar)
+755	I believe only in the Day of Judgement
+756	I believe only in Allah’s books
+757	I believe only in the angels
+758	Who is the Creator of everything?
+759	Man
+760	How should we understand Allah’s Decree (qadar)?
+761	People decide everything that will happen
+762	Nothing is decided
+763	Angels decide the future
+764	Allah decides how, when, where and what will happen
+765	Where was everything that will happen written long ago?
+766	In the Lawh al-Mahfuz (the Preserved Tablet)
+767	In books written by people
+768	In the hadiths
+769	In the calendar
+770	Does anything happen outside of Allah’s Decree?
+771	Yes, very often
+772	No
+773	Only what a person chooses
+774	What is the Lawh al-Mahfuz?
+775	A surah in the Qur’an
+776	A book written by people
+777	A place on Earth
+778	The carefully Preserved Tablet
+779	What is written in the Lawh al-Mahfuz?
+780	Everything that happens in the heavens and on Earth
+781	Only people’s good deeds
+782	Only events on Earth
+783	Only the names of the prophets
+784	What is decided for a person before they are born?
+785	Only their name
+786	Only their place of birth
+787	When and where they will be born, who their parents will be, whether they will be a boy or a girl, their destiny, their provision (rizq), and when and where they will die
+788	Only their job
+789	What is a person responsible for?
+790	For what they could not choose
+791	For the choice of the deeds they do
+792	For their place of birth
+793	For who their parents are
+794	Does a person have free choice?
+795	They have no freedom at all
+796	Only in childhood
+797	Only in some unimportant things
+798	Yes, they are free to choose how they act
+799	Why is a person responsible for their deeds?
+800	Because they have free will and the ability to choose
+801	Because they know the future
+802	Because they decide their own destiny
+803	Because they know what is written in the Lawh al-Mahfuz
+804	For which of their deeds will a person be answerable?
+805	Only for good deeds
+806	Only for bad deeds
+807	For all their deeds in this world
+808	For no deeds at all
+809	What is sajdah sahw?
+810	A prostration to correct an unintended mistake in Salah
+811	A prostration of thanks after eating
+812	A special prostration in Hajj
+813	Sitting before the salam
+814	What do we call making up a missed Salah?
+815	Qada’an
+816	Ada’an
+817	Iftaran
+818	Tashriq
+819	How many times more valuable is Salah in congregation (jama‘ah) than praying alone?
+820	27 times
+821	7 times
+822	17 times
+823	70 times
+824	What is the smallest number of people needed for a jama‘ah?
+825	Two people
+826	Three people
+827	Four people
+828	One person
+829	Who is the imam?
+830	The man who leads the jama‘ah in prayer
+831	The one who calls the Adhan
+832	The one who is late for Salah
+833	Every traveller
+834	What is a muqabalah?
+835	Reading the Qur’an together in the mosque
+836	A kind of sadaqah (charity)
+837	A kind of fasting
+838	A kind of Wudu
+839	According to the text, how many rak‘ahs does the Tarawih prayer have?
+840	8
+841	11
+842	23
+843	What is suhur?
+844	The time to get ready for fasting, until dawn appears
+845	The time after Asr
+846	A kind of Zakah
+847	A voluntary night prayer (nafl)
+848	What is imsak?
+849	The moment the fast begins
+850	The moment the fast ends
+851	The time of Zakah
+852	The start of Hajj
+853	What is iftar?
+854	The time when the fast ends
+855	The time when Wudu begins
+856	The night the Qur’an was revealed
+857	The time of suhur
+858	What is Zakah?
+859	Giving a set part of the wealth of a well-off person
+860	A voluntary fast
+861	The obligatory Hajj
+862	A kind of du‘a
+863	According to the text, where is Zakah given?
+864	To the Bayt al-Mal, the fund of the Islamic Community in Bosnia and Herzegovina
+865	Only to a poor person on the street
+866	Only in Makkah
+867	Only during Eid
+868	On which kinds of wealth is Zakah given?
+869	On gold, silver, money, trade goods and the other things listed
+870	Only on a house
+871	Only on a car
+872	Only on food
+873	What does Hajj involve?
+874	Visiting the Ka‘bah and other holy places at a set time
+875	Only fasting in Makkah
+876	Only reading the Qur’an
+877	Visiting Madinah at any time
+878	How many fard parts of Hajj are listed?
+879	3
+880	2
+881	4
+882	5
+883	What is ihram?
+884	Entering the rites of Hajj with the talbiyah and special clothing
+885	A name for tawaf
+886	Staying at Arafat
+887	Stoning the jamarat
+888	When do the pilgrims stay at Arafat?
+889	On the 9th of Dhul-Hijjah
+890	On the 1st of Muharram
+891	On the 27th of Rajab
+892	On the 12th of Rabi‘ al-Awwal
+893	How many of Allah’s Attributes from As-sifat ath-thubutiyyah are listed?
+894	7
+895	Who knows the unseen (ghayb) completely?
+896	Only Allah
+897	All the prophets
+898	Learned people
+899	According to the text, how many times is the name Allah mentioned in the Qur’an?
+900	2698 times
+901	114 times
+902	786 times
+903	124000 times
+904	Which angel brings the Revelation to the prophets?
+905	Who is the Angel of Death?
+906	Which angel blows the Trumpet (Sur)?
+907	Munkar
+908	What are the jinn created from?
+909	Where did the revelation of the Qur’an start?
+910	In the mosque in Madinah
+911	On Mount Sinai
+912	What were the first words of the revelation?
+913	Iqra
+914	Bismillah
+915	Amantu
+916	How many surahs does the Qur’an contain?
+917	124
+918	How many juz’ does the Qur’an contain?
+919	27
+920	33
+921	What is a person who knows the whole Qur’an by heart called?
+922	Hafiz
+923	Khatib
+924	Mu’adhdhin
+925	Mudarris
+926	How many prophets are mentioned by name in the Qur’an?
+927	12
+928	124000
+929	How many prophets are mentioned in the hadiths?
+930	313
+931	Who are the Ulul-‘azm prophets?
+932	Nuh, Ibrahim, Musa, Isa and Muhammad (peace be upon them all)
+933	Adam, Idris, Nuh, Hud and Salih
+934	Musa, Harun, Dawud, Sulayman and Isa
+935	Ibrahim, Isma‘il, Ishaq, Yaqub and Yusuf
+936	Where was Surah Al-Kafirun revealed?
+937	How many ayahs does Surah Al-Kafirun have?
+938	How does Surah Al-Kafirun begin?
+939	Qul huwallahu ahad
+940	Qul a‘udhu bi rabbil-falaq
+941	Qul a‘udhu bi rabbin-nas
+942	Qul ya ayyuhal-kafirun
+943	What does “Qul” mean?
+944	Say
+945	Learn
+946	Read
+947	Listen
+948	What does “Ya ayyuhal-kafirun” mean?
+949	O believers
+950	O disbelievers
+951	O people
+952	O angels
+953	What is the second ayah of Surah Al-Kafirun?
+954	Lakum dinukum wa liya din
+955	Wa la ana ‘abidum ma ‘abadtum
+956	La a‘budu ma ta‘budun
+957	What does “La a‘budu ma ta‘budun” mean?
+958	I do not worship what you worship
+959	Dominion belongs only to Allah
+960	Allah is One
+961	For you is your religion
+962	What is the third ayah of Surah Al-Kafirun?
+963	Wa la antum ‘abiduna ma a‘bud
+964	What does the third ayah of Surah Al-Kafirun mean?
+965	Nor are you worshippers of what I worship
+966	Nor will I be a worshipper of what you worship
+967	What is the fourth ayah of Surah Al-Kafirun?
+968	What does “Wa la ana ‘abidum ma ‘abadtum” mean?
+969	Say: O disbelievers
+970	Allah is the Most Merciful
+971	Which ayah is repeated in Surah Al-Kafirun?
+972	The first
+973	The second
+974	“Wa la antum ‘abiduna ma a‘bud”
+975	The last
+976	What is the last ayah of Surah Al-Kafirun?
+977	What does “Lakum dinukum wa liya din” mean?
+978	For me is my religion, and for you is yours
+979	For you is your religion, and for me is my religion
+980	We all have the same religion
+981	What is Surah Al-Kafirun about?
+982	About Salah while travelling
+983	About an offer the idol-worshippers made to Muhammad (SAW)
+984	About fasting in the month of Ramadan
+985	What did the idol-worshippers offer Muhammad (SAW), which was the reason Surah Al-Kafirun was revealed?
+986	That he leave Makkah
+987	That for one year he worship their gods, and the next year they would worship Allah
+988	That he stop praying
+989	That he go to Madinah
+990	What is the main message of Surah Al-Kafirun?
+991	“For you is your religion, and for me is my religion.”
+992	“Knowledge is the most important thing.”
+993	“Fasting is a shield.”
+994	“Salah is light.”
+995	Which ayah comes after “Qul ya ayyuhal-kafirun”?
+996	What comes after “La a‘budu ma ta‘budun”?
+997	What comes after “Wa la ana ‘abidum ma ‘abadtum”?
+998	Bismillah
+999	Which ayah ends Surah Al-Kafirun?

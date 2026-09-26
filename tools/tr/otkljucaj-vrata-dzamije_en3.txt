@@ -1,0 +1,259 @@
+519	It is recited only on Fridays
+520	It is the longest surah of the Qur’an
+521	It is recited only on Eid
+522	It is the best dua and we recite it in Salah
+523	How is Al-Fatihah described in the picture?
+524	As the best dua
+525	As the longest surah
+526	As the last surah
+527	As a dua that is not recited in Salah
+528	What is it recommended to say on every occasion?
+529	Al-hamdu lillah – thanks be to Allah
+530	Which sentence comes after “Al-hamdu lillahi Rabbil-’alamin”?
+531	Which sentence comes right after “Maliki yawmid-din”?
+532	Which sentence comes after “Iyyaka na’budu wa iyyaka nasta’in”?
+533	What do we say about Allah in Al-Fatihah?
+534	That He is the Lord of only one nation
+535	That He is the Lord of the worlds
+536	That He created only people
+537	That we ask others for help
+538	Which sentence does not belong to surah Al-Fatihah?
+539	Which part of Al-Fatihah talks about the Day of Judgement?
+540	What do the words “Iyyaka na’budu” teach us?
+541	That we worship only Allah
+542	That we worship people
+543	That we ask statues for help
+544	That Salah is not compulsory
+545	What is the main request in surah Al-Fatihah?
+546	A request for great wealth
+547	A request that Allah guides us to the Straight Path
+548	A request that we never have to work
+549	A request for a long life without any tests
+550	What does the word “din” mean?
+551	Religion
+552	Cleanliness
+553	Fasting
+554	What does the word “shart” mean?
+555	Condition
+556	Reward
+557	Duty
+558	What are the conditions of the din (shurut)?
+559	Only the conditions for Salah
+560	Rules of good manners
+561	Conditions and actions every adult must fulfil for complete faith
+562	Only the pillars of Iman
+563	How many conditions of the din are there in total?
+564	25
+565	30
+566	32
+567	33
+568	How many pillars of Iman (faith) are there?
+569	5
+570	6
+571	4
+572	3
+573	How many pillars of Islam are there?
+574	12
+575	How many conditions of Wudu (ablution) are there?
+576	How many conditions of Tayammum are there?
+577	How many conditions of Ghusl are there?
+578	How many conditions of Salah are there?
+579	10
+580	Which group of the conditions of the din has the most conditions?
+581	Pillars of Iman
+582	Pillars of Islam
+583	Conditions of Salah
+584	Conditions of Wudu
+585	Which of these groups has six conditions?
+586	Conditions of Ghusl
+587	Conditions of Tayammum
+588	Which group has five conditions?
+589	The pillars of Islam
+590	The pillars of Iman
+591	The conditions of Ghusl
+592	The conditions of Tayammum
+593	Which group has four conditions?
+594	Which two groups have three conditions each?
+595	Iman and Islam
+596	Wudu and Salah
+597	Tayammum and Ghusl
+598	Islam and Ghusl
+599	How many are the pillars of Iman and the pillars of Islam together?
+600	9
+601	11
+602	How many are the conditions of Wudu and of Ghusl together?
+603	7
+604	8
+605	How many are the conditions of Tayammum and of Ghusl together?
+606	How many are the conditions of Salah and the pillars of Islam together?
+607	15
+608	16
+609	17
+610	18
+611	How many more conditions of Salah are there than pillars of Iman?
+612	What is ihsan?
+613	The highest level of awareness of Allah, the Most High
+614	A kind of Salah
+615	A kind of fasting
+616	One of the conditions of Wudu
+617	How is ihsan explained?
+618	That we remember Allah only after Salah
+619	That we worship Allah, the Most High, as if we see Him, for even though we do not see Him, He sees us
+620	That we study only at night
+621	That we talk only about good deeds
+622	Who always sees us, even though we do not see Him?
+623	An angel
+624	Our parents
+625	What does believing in ihsan motivate us to do?
+626	Only to study
+627	Only to fast
+628	Only to help others
+629	To keep fulfilling the conditions of the din steadily
+630	Who has to fulfil the conditions of the din?
+631	Every adult
+632	Only children
+633	Only imams
+634	Only older people
+635	What is fulfilling the conditions of the din needed for?
+636	For travelling
+637	For complete faith
+638	For going to school
+639	For trade
+640	Which set of numbers matches the pillars of Iman, the pillars of Islam and the conditions of Wudu?
+641	6, 5, 4
+642	5, 6, 3
+643	6, 4, 5
+644	12, 6, 4
+645	Which set gives the numbers for all six groups of the conditions of the din from the lesson?
+646	5, 6, 4, 4, 3, 11
+647	6, 5, 4, 3, 3, 12
+648	6, 5, 5, 3, 4, 10
+649	6, 4, 4, 3, 3, 12
+650	What is the fourth condition of Salah?
+651	To dress properly
+652	To pray Salah on time
+653	To make Wudu
+654	To face the Qiblah
+655	What does the fourth condition of Salah mean?
+656	That we pray every Salah at its set time
+657	That we pray every Salah in the mosque
+658	That we pray only in the morning
+659	That we pray only in the evening
+660	How many prayer times, that is daily prayers, are there?
+661	Six
+662	Five
+663	What is the first daily prayer?
+664	Dhuhr
+665	Asr
+666	Fajr
+667	Maghrib
+668	How else is the Fajr prayer described?
+669	The morning prayer
+670	The daytime prayer
+671	The evening prayer
+672	The night prayer
+673	What is the second daily prayer?
+674	Isha
+675	How is the Dhuhr prayer described?
+676	What is the third daily prayer?
+677	Which prayer comes after Asr?
+678	How is the Maghrib prayer described?
+679	The noon prayer
+680	What is the fifth daily prayer?
+681	How is the Isha prayer described?
+682	What is the correct order of the five daily prayers?
+683	Fajr, Dhuhr, Asr, Maghrib, Isha
+684	Fajr, Asr, Dhuhr, Isha, Maghrib
+685	Dhuhr, Fajr, Asr, Maghrib, Isha
+686	Fajr, Dhuhr, Maghrib, Asr, Isha
+687	Who announces the start of a prayer time?
+688	The imam, by reciting the Qur’an
+689	The muezzin, by calling the Adhan
+690	The congregation, by saying a dua
+691	The khatib, by giving the khutbah (sermon)
+692	Where can we check the exact prayer times?
+693	Only on a clock
+694	In any book
+695	In the school calendar
+696	In the yearly Islamic calendar – the Takvim
+697	When can Salah not be prayed?
+698	When it is raining
+699	When it is cold
+700	When the Sun is rising
+701	When it is cloudy
+702	When else can Salah not be prayed?
+703	When the Sun is in the middle of the sky
+704	After the Dhuhr prayer
+705	After Maghrib
+706	Before Isha
+707	What is another time when Salah cannot be prayed?
+708	When the Sun has risen
+709	When the Sun is setting
+710	After Isha
+711	Before noon
+712	When is it disliked – makruh – to pray?
+713	Two hours after sunrise
+714	Only after Isha
+715	Only before Fajr
+716	About 45 minutes after sunrise
+717	How long before sunset is it disliked to pray, except for that day’s Asr?
+718	About 10 minutes
+719	About 20 minutes
+720	About 45 minutes
+721	About 90 minutes
+722	What is the fifth condition of Salah?
+723	To make the intention (niyyah)
+724	To face the Qiblah – the Ka’bah
+725	What is the Qiblah?
+726	The direction of the Ka’bah
+727	The place for making Wudu
+728	The mosque courtyard
+729	The call to prayer
+730	Where is the Ka’bah?
+731	In Damascus
+732	In which country is the Ka’bah?
+733	Egypt
+734	Turkey
+735	Jordan
+736	Saudi Arabia
+737	Which way do Muslims all over the world face when they pray Salah?
+738	Towards the Ka’bah
+739	Towards the nearest mosque
+740	Towards the sunrise
+741	Towards Madinah
+742	What is the Ka’bah?
+743	The tallest mosque minaret
+744	Allah’s most honoured House of worship
+745	A house in Madinah
+746	A mountain near Makkah
+747	What shape is the Ka’bah?
+748	Round
+749	Triangular
+750	A cube
+751	A pyramid
+752	What is in one corner of the Ka’bah?
+753	The minbar
+754	The mihrab
+755	The Zamzam spring
+756	The Black Stone – al-Hajar al-Aswad
+757	What is the Ka’bah covered with every year?
+758	A black cover with ayahs of the Qur’an written on it
+759	A white cloth with no writing
+760	A green cover
+761	A golden cloth
+762	What is the name of the sacred area around the Ka’bah?
+763	Masjid al-Aqsa
+764	Al-Haram ash-Sharif
+765	Rawdah
+766	Mina
+767	What do Muslims do around the Ka’bah during Hajj?
+768	Only call the Adhan
+769	Only sit and rest
+770	Pray, recite the Qur’an and do tawaf (walking around the Ka’bah)
+771	Only pray Fajr
+772	In which direction is the Qiblah from Bosnia and Herzegovina?
+773	East
+774	South
+775	Northwest
+776	Southeast
+777	What should we do if we do not know which direction the Qiblah is?

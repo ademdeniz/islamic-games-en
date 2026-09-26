@@ -1,0 +1,400 @@
+0	Muhammad (SAW)
+1	He was a messenger of Allah.
+2	He was born in Makkah.
+3	He called people to believe in one Allah.
+4	He made the Hijrah from Makkah to Madinah.
+5	The Qur’an was revealed to him.
+6	Ibrahim (AS)
+7	He stood against the worship of idols.
+8	Allah saved him from the fire.
+9	With Ismail (AS), he raised the foundations of the Ka’bah.
+10	Yusuf (AS)
+11	He was the son of a messenger of Allah.
+12	He had many brothers.
+13	His brothers threw him into a well.
+14	Allah gave him the ability to interpret dreams.
+15	Nuh (AS)
+16	He called his people to believe in one Allah.
+17	For a long time his people did not accept his call.
+18	By Allah’s command he built a big ship (the Ark).
+19	His story is connected with the great flood.
+20	Salih (AS)
+21	He was sent to the people of Thamud.
+22	His people carved houses into the rocks.
+23	His miracle (mu’jizah) was a she-camel.
+24	Musa (AS)
+25	He stood up against Pharaoh.
+26	Allah gave him a miracle (mu’jizah) with his staff.
+27	The Tawrat was revealed to him.
+28	Isa (AS)
+29	His mother was Maryam.
+30	He was born without a father.
+31	The Injil was revealed to him.
+32	Dawud (AS)
+33	He was also a king.
+34	Allah gave him wisdom and a beautiful voice.
+35	He was the father of Sulayman (AS).
+36	The Zabur was revealed to him.
+37	Sulayman (AS)
+38	His father was a messenger of Allah.
+39	He understood the speech of animals.
+40	His story is connected with the hoopoe (Hudhud) and the Queen of Sheba.
+41	Adam (AS)
+42	Allah created him in a special way.
+43	He had neither a father nor a mother.
+44	He was created from earth.
+45	He was the first human being.
+46	Yunus (AS)
+47	He called his people to believe in Allah.
+48	He faced a great trial.
+49	He made dua (prayer) to Allah in the darkness.
+50	A big fish swallowed him.
+51	Ismail (AS)
+52	His mother was Hajar.
+53	His story is connected with Zamzam.
+54	With his father Ibrahim (AS), he raised the foundations of the Ka’bah.
+55	Yaqub (AS)
+56	He was the father of many sons.
+57	One of his sons was a messenger of Allah.
+58	He grieved for a long time because his son went missing.
+59	He was the father of Yusuf (AS).
+60	Ayyub (AS)
+61	He went through great trials.
+62	He was tested with loss and illness.
+63	He stayed devoted to Allah.
+64	He is especially known for his sabr – patience.
+65	Harun (AS)
+66	He helped another messenger of Allah.
+67	Together they called Pharaoh to believe in Allah.
+68	He was a very good speaker.
+69	He was the brother of Musa (AS).
+70	Qur’an
+71	It is a book revealed by Allah.
+72	It was revealed in the Arabic language.
+73	It is made up of surahs and ayahs.
+74	It has 114 surahs.
+75	It was revealed to Muhammad (SAW).
+76	Tawrat
+77	It was revealed before the Qur’an.
+78	Muslims believe that Allah revealed it to a messenger.
+79	It was not revealed to Dawud or to Isa (AS).
+80	It was revealed to Musa (AS).
+81	Zabur
+82	The messenger it was revealed to was also a king.
+83	It was revealed to Dawud (AS).
+84	Injil
+85	The messenger it was revealed to was born without a father.
+86	It was revealed to Isa (AS).
+87	Suhuf (Scrolls)
+88	They are revelation from Allah.
+89	They were revealed before the Qur’an.
+90	They are not a big book like the Qur’an.
+91	The name means pages or small writings.
+92	In maktab lessons they are mentioned among Allah’s revelations.
+93	Salah (prayer)
+94	It is one of the main acts of worship (ibadah) in Islam.
+95	Ritual purity is important for it.
+96	It is done facing the Qiblah.
+97	It includes qiyam, ruku’ and sujud.
+98	The obligatory daily form is done five times a day.
+99	Fasting (sawm)
+100	It needs a niyyah (intention).
+101	It teaches a person patience and self-control.
+102	From dawn until sunset, food and drink are left.
+103	It is especially connected with the month of Ramadan.
+104	Zakah
+105	It has set conditions.
+106	It is connected with wealth.
+107	It is given to the people it is meant for.
+108	It purifies wealth and helps those in need.
+109	Hajj
+110	It is done at a set time.
+111	It is connected with Makkah.
+112	Tawaf and sa’y are done during it.
+113	Staying at Arafat is its key rite.
+114	The Shahadah (Kalimat ash-Shahadah)
+115	It is one of the foundations of Islam.
+116	It is made up of two testimonies.
+117	It confirms belief in one Allah.
+118	It confirms the prophethood of Muhammad (SAW).
+119	It is the first pillar of Islam.
+120	Wudu (ablution)
+121	It is a ritual cleansing.
+122	It is connected with getting ready for Salah.
+123	It is usually done with water.
+124	In it the face, arms and feet are washed and the head is wiped.
+125	It gives the minor ritual purity.
+126	Ghusl
+127	Water is used for it.
+128	It is required in certain situations.
+129	In the Hanafi madhhab it has three fard parts.
+130	The whole body is washed with it.
+131	Tayammum
+132	It is an ease given in special situations.
+133	It is not done with water.
+134	It is done with clean earth when there is a valid reason.
+135	Adhan
+136	It is connected with Salah.
+137	It is made up of set words.
+138	The Shahadah is said in it.
+139	The muezzin calls it out.
+140	It is the call to Salah.
+141	Iqamah
+142	It is similar to the Adhan.
+143	It is said right before the fard Salah begins.
+144	It announces that the Salah is starting.
+145	Mosque (masjid)
+146	It is a place connected with worship.
+147	Muslims gather in it.
+148	The Qur’an is learned and Salah is prayed in it.
+149	It has a mihrab and a minbar.
+150	It is the Muslim house of worship.
+151	Ka’bah
+152	It is in Makkah.
+153	It is connected with Salah and Hajj.
+154	Tawaf is done around it.
+155	Ibrahim and Ismail (AS) raised its foundations.
+156	Muslims turn towards it in Salah.
+157	Qiblah
+158	It is connected with Salah.
+159	It is important to Muslims all around the world.
+160	The mihrab shows its direction.
+161	It is connected with Makkah.
+162	It is the direction towards the Ka’bah.
+163	Mihrab
+164	It is in the mosque.
+165	It is at the front of the prayer area.
+166	It helps you know the direction of the Qiblah.
+167	It is the place in front of which the imam leads the Salah.
+168	Minbar
+169	It is connected with the imam.
+170	It has steps.
+171	It is especially used on Fridays.
+172	The khutbah (sermon) is given from it.
+173	Ramadan
+174	It is one of the Hijri months.
+175	It is especially important to Muslims.
+176	Muslims do more worship in it.
+177	The revelation of the Qur’an began in it.
+178	Muslims do the obligatory fast in it.
+179	Laylat al-Qadr
+180	It is a special night.
+181	It is in Ramadan.
+182	People do a lot of worship in it.
+183	The revelation of the Qur’an began in it.
+184	It is better than a thousand months.
+185	Eid al-Fitr
+186	It is a Muslim holiday.
+187	It comes after a special act of worship.
+188	It begins with a special Eid Salah.
+189	It comes after the end of Ramadan.
+190	It marks the end of the Ramadan fast.
+191	Eid al-Adha
+192	It is connected with Hajj.
+193	It is connected with Ibrahim and Ismail (AS).
+194	During its days the Qurbani is offered.
+195	Jannah (Paradise)
+196	It is mentioned in the Qur’an.
+197	It is connected with the Akhirah (the Hereafter).
+198	In it there is no death and no sadness.
+199	Allah prepared it as a reward for the believers.
+200	It is a place of everlasting blessings.
+201	Jahannam (Hellfire)
+202	It has gates.
+203	It is described as a place of fire.
+204	It is a place of punishment.
+205	Angels (mala’ika)
+206	They are creations of Allah.
+207	We do not see them in their true form.
+208	They are created from light (nur).
+209	They carry out Allah’s commands.
+210	Jibril, Mika’il and Israfil are among them.
+211	Jibril
+212	He is one of the angels.
+213	He has a special duty.
+214	He came to Allah’s messengers.
+215	He came to Muhammad (SAW) in the cave of Hira.
+216	He is known as the angel of Revelation.
+217	Mika’il
+218	He is not in charge of bringing the Revelation.
+219	In maktab lessons he is mentioned among the great angels.
+220	He is connected with rain and provision, by Allah’s command.
+221	Israfil
+222	His duty is connected with the Day of Judgement.
+223	He is waiting for Allah’s command.
+224	He will blow the Trumpet (Sur).
+225	Azra’il
+226	His duty is connected with a person’s life in this world (dunya).
+227	He is not in charge of Revelation or of blowing the Trumpet (Sur).
+228	In maktab lessons he is known as the angel of death.
+229	First pillar of Iman – belief in Allah
+230	It is one of the six foundations of Iman (faith).
+231	It is about belief.
+232	It is connected with the Creator of everything.
+233	It teaches that Allah is One and has no partner.
+234	It is said with the words “Amantu billahi”.
+235	Second pillar of Iman – belief in the angels
+236	It is connected with Allah’s creations made of light (nur).
+237	Jibril and Mika’il are connected with it.
+238	It is said as “wa mala’ikatihi”.
+239	Third pillar of Iman – belief in Allah’s books
+240	It is connected with Allah’s revelations.
+241	The Qur’an, Tawrat, Zabur and Injil are connected with it.
+242	It is said as “wa kutubihi”.
+243	Fourth pillar of Iman – belief in the messengers
+244	It is connected with the people Allah chose to be messengers.
+245	Musa, Isa and Muhammad (peace be upon them) are connected with it.
+246	It is said as “wa rusulihi”.
+247	Fifth pillar of Iman – belief in the Day of Judgement
+248	It is connected with the resurrection and the accounting of deeds.
+249	It is said as “wal-yawmil-akhiri”.
+250	Sixth pillar of Iman – belief in Allah’s decree
+251	It is the last of the pillars of Iman.
+252	It is also called belief in qadar (destiny).
+253	It is said as “wa bil-qadari khayrihi wa sharrihi minallahi ta’ala”.
+254	Major sins
+255	They are forbidden deeds.
+256	A believer should stay away from them.
+257	A person should sincerely repent for them.
+258	Not all sins are equally heavy.
+259	Shirk, kufr, riddah
+260	Shirk
+261	It is a major sin.
+262	It is connected with wrong belief.
+263	It is the opposite of pure tawhid.
+264	It means giving Allah a partner.
+265	It is the greatest sin.
+266	Tawbah
+267	It is connected with sin.
+268	A believer turns back to it after a mistake.
+269	It needs sincerity and regret.
+270	It means leaving the sin and deciding not to go back to it.
+271	It means repenting to Allah.
+272	Sujud (sajdah)
+273	It is a part of Salah.
+274	It is done in every rak’ah.
+275	It shows humility before Allah.
+276	The forehead is lowered to the ground.
+277	It is done twice in one rak’ah.
+278	Ruku’
+279	It comes after qiyam and recitation.
+280	The body bends and the hands are placed on the knees.
+281	It is done once in one rak’ah.
+282	Qiyam
+283	It is connected with reciting the Qur’an.
+284	It comes before ruku’.
+285	The person praying stands upright then.
+286	It means standing in Salah.
+287	Rak’ah
+288	Different Salahs have a different number of them.
+289	It contains qiyam, ruku’ and sujud.
+290	The fard of Fajr has two of them, and the fard of Dhuhr has four.
+291	It is the basic unit of Salah.
+292	Al-Fatihah
+293	It is a surah of the Qur’an.
+294	It is recited very often.
+295	It has seven ayahs.
+296	In it we ask for guidance to the Straight Path.
+297	It is the first surah in the Qur’an.
+298	Al-Ikhlas
+299	It is short and is near the end of the Qur’an.
+300	It talks about Allah.
+301	It begins with the words “Qul huwallahu ahad”.
+302	It has four ayahs.
+303	Al-Falaq
+304	In it we ask for Allah’s protection.
+305	It mentions the Lord of the daybreak.
+306	It comes right before Surah An-Nas.
+307	An-Nas
+308	It mentions the Lord, King and God of mankind.
+309	It is the last surah in the Qur’an.
+310	Al-Kafirun
+311	It is a short surah.
+312	It begins with the command “Say”.
+313	It talks about clearly separating belief from disbelief.
+314	It begins with the words “Qul ya ayyuhal-kafirun”.
+315	Al-Kawthar
+316	It is very short.
+317	It has three ayahs.
+318	Salah and sacrifice are mentioned in it.
+319	It begins with the words “Inna a’taynakal-kawthar”.
+320	Al-Asr
+321	It talks about time, faith, good deeds, truth and patience.
+322	It begins with an oath by time.
+323	Zamzam
+324	It is connected with Hajar and Ismail (AS).
+325	It is near the Ka’bah.
+326	Pilgrims and visitors drink it.
+327	It is a well-known blessed (mubarak) water.
+328	Safa and Marwah
+329	They are in Makkah.
+330	They are connected with Hajar and Ismail (AS).
+331	They are connected with Hajj and Umrah.
+332	Sa’y is done between them.
+333	Hajar went back and forth between them looking for water.
+334	Arafat
+335	It is near Makkah.
+336	Many duas are made there.
+337	Staying there is the key rite of Hajj.
+338	Pilgrims stay there on the 9th of Dhul-Hijjah.
+339	Tawaf
+340	It is connected with Hajj and Umrah.
+341	It is done in Makkah.
+342	It has seven rounds.
+343	It is done around one building.
+344	It is walking around the Ka’bah.
+345	Sa’y
+346	It has seven stretches.
+347	It reminds us of Hajar’s search for water.
+348	It is done between Safa and Marwah.
+349	Ihram
+350	It is a special ritual state.
+351	It has special rules and things that are not allowed.
+352	Men wear two unsewn pieces of cloth then.
+353	A person enters it with the intention for Hajj or Umrah.
+354	Fajr Salah
+355	It is one of the five daily prayers.
+356	It has a Sunnah and a fard part.
+357	Its fard has two rak’ahs.
+358	It is prayed before sunrise.
+359	It is the first daily prayer.
+360	Dhuhr Salah
+361	Its fard has four rak’ahs.
+362	It comes after Fajr.
+363	It comes before Asr.
+364	It is prayed after the sun passes its highest point.
+365	Asr Salah
+366	It comes after Dhuhr Salah.
+367	It comes before Maghrib.
+368	It is prayed in the later part of the day.
+369	Maghrib Salah
+370	It comes after Asr.
+371	It comes before Isha.
+372	Its fard has three rak’ahs.
+373	Its time begins at sunset.
+374	Isha Salah
+375	It comes after Maghrib.
+376	It is connected with the Witr prayer, which is prayed after it.
+377	It is the last of the five daily prayers.
+378	Witr Salah
+379	It is a prayer.
+380	It is prayed at night.
+381	It is connected with Isha.
+382	In the Hanafi madhhab it has three rak’ahs.
+383	In the third rak’ah the Qunut dua is recited.
+384	Jumu’ah Salah
+385	It is a special prayer.
+386	It is prayed in congregation (jama’ah).
+387	It is connected with the khutbah.
+388	It is prayed on Fridays.
+389	Tarawih Salah
+390	It is prayed in congregation or alone.
+391	It is connected with a special month.
+392	It is prayed during Ramadan.
+393	Dua
+394	It is an act of worship.
+395	It can be made on many different occasions.
+396	With it a servant speaks to Allah.
+397	In it you can ask for help, forgiveness and good.
+398	It is a request made to Allah.
+399	Dhikr

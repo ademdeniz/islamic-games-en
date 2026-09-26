@@ -1,0 +1,760 @@
+1000	Whom does a Muslim pray to and worship?
+1001	Only Allah the Exalted
+1002	Pictures
+1003	A tree
+1004	Good people
+1005	What lesson do we learn from Surah Al-Kafirun?
+1006	That in our belief in Allah we do not accept the worship of other gods
+1007	That Salah is prayed only on Fridays
+1008	That we fast every day
+1009	That the surah was revealed in Madinah
+1010	What are the pillars of Islam?
+1011	The main duties of Islam
+1012	Kinds of Salah
+1013	The pillars (arkan) of Salah
+1014	How many pillars of Islam are there?
+1015	What is the first pillar of Islam?
+1016	Fasting in Ramadan
+1017	Saying the Shahadah (Kalimat ash-Shahadah)
+1018	Praying Salah
+1019	Giving Zakah
+1020	How many parts does the Shahadah have?
+1021	One
+1022	Two
+1023	What do we declare with the first part of the Shahadah?
+1024	Belief in the angels
+1025	Belief in Allah (SWT) and His Oneness
+1026	That fasting is a duty
+1027	That Zakah is a duty
+1028	What do we declare with the second part of the Shahadah?
+1029	That Muhammad (SAW) is Allah’s servant and messenger
+1030	That there are six pillars of Iman
+1031	That Salah is fard
+1032	That fasting is obligatory
+1033	How does the Shahadah begin?
+1034	Bismillahir-Rahmanir-Rahim
+1035	Ashhadu an la ilaha illallah
+1036	Alhamdulillah
+1037	What is the second part of the Shahadah?
+1038	Wa ashhadu anna Muhammadan ‘abduhu wa rasuluhu
+1039	Subhana Rabbiyal-‘Azim
+1040	La hawla wa la quwwata illa billah
+1041	What does the first part of the Shahadah mean?
+1042	I bear witness that there is no god but Allah
+1043	I bear witness that Salah is obligatory
+1044	I bear witness that the Qur’an is Allah’s book
+1045	I bear witness that angels exist
+1046	What do we show with the second part of the Shahadah?
+1047	Obedience to the Prophet (SAW)
+1048	Obedience to friends
+1049	The duty of Hajj
+1050	The time of Salah
+1051	What do we promise when we say the Shahadah for the first time?
+1052	That we will do what Allah has commanded
+1053	That we will pray only on Fridays
+1054	That we will fast all year
+1055	That we will live only in Makkah
+1056	What should we stay away from after accepting the Shahadah?
+1057	What Allah has forbidden
+1058	Reciting the Qur’an
+1059	Salah
+1060	Good deeds
+1061	Whose Sunnah should we follow?
+1062	Muhammad (SAW)
+1063	Our friends’
+1064	Rulers’
+1065	Traders’
+1066	How do we strengthen our faith and obedience to Allah and the Prophet?
+1067	By often repeating the Shahadah
+1068	By sleeping
+1069	By travelling
+1070	By staying silent
+1071	What is the Sunnah?
+1072	Everything Muhammad (SAW) said, did, recommended or approved of by staying silent
+1073	Only what Muhammad (SAW) said
+1074	Only what is written in history books
+1075	Only voluntary prayer
+1076	Who is Allah’s last messenger?
+1077	The word “Ashhadu” means:
+1078	I bear witness
+1079	I pray
+1080	I fast
+1081	I learn
+1082	The words “La ilaha illallah” declare:
+1083	Allah’s Oneness
+1084	The number of prayers
+1085	The time of fasting
+1086	The number of prophets
+1087	What is the second pillar of Islam?
+1088	Zakah
+1089	Salah (prayer)
+1090	Fasting (sawm)
+1091	Hajj
+1092	What is the second main duty in Islam?
+1093	What is the most complete way of showing obedience and thanks to Allah?
+1094	Travelling
+1095	Sleeping
+1096	Trade
+1097	What commanded Salah?
+1098	The Qur’an
+1099	Custom
+1100	History
+1101	Poetry
+1102	Whose Sunnah showed in practice how Salah is performed?
+1103	Nuh (AS)
+1104	Adam (AS)
+1105	How many prayers should a Muslim pray in 24 hours?
+1106	What is the first of the five daily prayers?
+1107	Dhuhr
+1108	Fajr
+1109	Asr
+1110	Maghrib
+1111	Which prayer comes after Fajr?
+1112	Isha
+1113	Which prayer comes after the Dhuhr prayer?
+1114	Which prayer comes after Asr?
+1115	Which prayer comes after Maghrib?
+1116	In what order are the five daily prayers prayed?
+1117	Fajr, Dhuhr, Asr, Maghrib, Isha
+1118	Fajr, Asr, Dhuhr, Isha, Maghrib
+1119	Dhuhr, Fajr, Asr, Maghrib, Isha
+1120	Fajr, Dhuhr, Maghrib, Asr, Isha
+1121	When does the time for the Fajr prayer begin?
+1122	At dawn
+1123	At midday
+1124	At sunset
+1125	At midnight
+1126	Until when does the time for the Fajr prayer last?
+1127	Until sunrise
+1128	Until midday
+1129	Until sunset
+1130	Until midnight
+1131	When does the Dhuhr prayer begin?
+1132	When the Sun passes the middle of the sky
+1133	When the Sun rises
+1134	When the Sun sets
+1135	At dawn
+1136	When does Asr begin?
+1137	Halfway between Dhuhr and sunset
+1138	After Isha
+1139	At sunrise
+1140	When does Maghrib begin?
+1141	When the Sun has set
+1142	When the Sun has risen
+1143	At noon
+1144	When does Isha begin?
+1145	When night has fully fallen
+1146	Whom do we thank with our Salah?
+1147	Allah the Exalted
+1148	Friends
+1149	Relatives
+1150	Teachers
+1151	What do we thank Allah for with our Salah?
+1152	For the blessings He has given us
+1153	Only for food
+1154	Only for money
+1155	Only for health
+1156	What does Salah bring us in life?
+1157	Light in this world
+1158	Only rest
+1159	Only wealth
+1160	Only knowledge
+1161	What do we hope for in the next world by praying Salah?
+1162	Allah’s mercy and reward
+1163	Worldly fame
+1164	Wealth
+1165	A journey
+1166	What is every Salah for a Muslim?
+1167	A meeting with Allah (SWT)
+1168	A meeting with friends
+1169	Time to rest
+1170	A sports activity
+1171	What does Salah encourage us to do?
+1172	To help others
+1173	To quarrel
+1174	To be lazy
+1175	To be arrogant
+1176	What does Salah protect us from?
+1177	From sins
+1178	From knowledge
+1179	From friendship
+1180	How many times are there when we must not pray?
+1181	One
+1182	Can we pray while the Sun is rising?
+1183	Yes
+1184	Only fard
+1185	Only Sunnah
+1186	Can we pray while the Sun is setting?
+1187	Only two rak‘ahs
+1188	Can we pray when the Sun is in the middle of the sky?
+1189	Only Dhuhr
+1190	Only Maghrib
+1191	Which of these is a time when we must not pray?
+1192	During the night
+1193	Before dawn
+1194	For about how long after sunrise is it disliked (makruh) to pray?
+1195	5 minutes
+1196	15 minutes
+1197	45 minutes
+1198	2 hours
+1199	For about how long before sunset is it disliked to pray?
+1200	10 minutes
+1201	For how long is it disliked to pray while the Sun is at its highest point?
+1202	5–10 minutes
+1203	30 minutes
+1204	One hour
+1205	What kind of Islamic duty is Salah?
+1206	A strict Islamic duty – fard
+1207	Only a recommendation
+1208	A custom
+1209	A voluntary activity
+1210	How should Muslims perform Salah?
+1211	In the prescribed way
+1212	However they want
+1213	Only sitting down
+1214	Only in the mosque
+1215	When will Salah be valid?
+1216	When all the preparations are done and its rules are followed
+1217	Only if it lasts a long time
+1218	Only if it is prayed in the mosque
+1219	Only if it is prayed out loud
+1220	What should we do if our Salah becomes invalid?
+1221	Pray it again
+1222	Carry on as if nothing happened
+1223	Only make a du‘a
+1224	Not pray any more that day
+1225	Does losing Wudu during Salah make the Salah invalid?
+1226	Only at Fajr
+1227	Only at Isha
+1228	What happens to Salah if one of its conditions is left out?
+1229	The Salah becomes invalid
+1230	Nothing
+1231	The Salah becomes nafl (voluntary)
+1232	The Salah becomes shorter
+1233	What if one of the essential parts – a rukn – of Salah is left out?
+1234	The Salah is always valid
+1235	You get an extra reward
+1236	The Salah becomes Sunnah
+1237	Does turning your chest away from the Qiblah without need make Salah invalid?
+1238	Only in congregation
+1239	Only at Fajr
+1240	What kind of movements can make Salah invalid?
+1241	Movements that are not part of Salah and are not proper to do in Salah
+1242	Ruku‘ (bowing)
+1243	Sajdah (prostration)
+1244	Qiyam (standing)
+1245	Can saying words that are not part of Salah make Salah invalid?
+1246	Only on Fridays
+1247	Does greeting someone with salam during Salah make it invalid?
+1248	Only in fard prayers
+1249	Only in Sunnah prayers
+1250	Does answering someone’s question during Salah make it invalid?
+1251	Only if the answer is long
+1252	Only if the answer is loud
+1253	Does laughing out loud during Salah make it invalid?
+1254	Only in the Dhuhr prayer
+1255	Can sighing or groaning without a good reason make Salah invalid?
+1256	Does eating during Salah make it invalid?
+1257	Only if you eat a lot
+1258	Only if you eat something sweet
+1259	Does drinking during Salah make it invalid?
+1260	Only a cold drink
+1261	Only water
+1262	What happens if the Qur’an is recited so wrongly that its meaning changes?
+1263	Does crying in Salah out of devotion and awe of Allah make it invalid?
+1264	Yes, always
+1265	Should men and women pray in the same row (saff) without a barrier?
+1266	Only at Maghrib
+1267	Can a woman stand in front of a man during Salah?
+1268	Only in Tarawih
+1269	Only in nafl prayers
+1270	What is sajdah?
+1271	An essential part of Salah
+1272	A condition for Wudu
+1273	An Islamic holiday
+1274	What does sajdah (prostration) show?
+1275	The greatest sign of obedience and thanks to Allah
+1276	The end of the fast
+1277	The start of Wudu
+1278	The call to prayer
+1279	What is sajdah as-sahw (the prostration of forgetfulness)?
+1280	An extra prostration to make up for a mistake in Salah
+1281	The first prostration in Salah
+1282	A prostration only on Fridays
+1283	A prostration after the Adhan
+1284	For what kind of mistake do we make sajdah as-sahw?
+1285	A mistake we made in Salah without meaning to
+1286	Any mistake made on purpose
+1287	A mistake in Wudu before Salah
+1288	A mistake in reciting at home
+1289	Do we make sajdah as-sahw if we leave out one of the wajib parts of Salah without meaning to?
+1290	Which du‘a is listed among the wajib parts of Salah?
+1291	Du‘a al-Qunut
+1292	The du‘a after eating
+1293	The du‘a for travelling
+1294	The du‘a before sleeping
+1295	What is given as a wajib part of Salah that can be left out without meaning to?
+1296	At-Tahiyyat
+1297	Adhan
+1298	Iqamah
+1299	Wudu
+1300	Which sitting is mentioned among the wajib parts of Salah?
+1301	The first sitting in Salah
+1302	Sitting before Salah
+1303	Sitting after Salah
+1304	The last sitting in Salah
+1305	What should we do if we are late in doing a wajib part of Salah?
+1306	Sajdah as-sahw
+1307	Make Wudu again
+1308	Stop the Salah
+1309	Leave the mosque
+1310	What is given as an example of being late with a wajib part of Salah?
+1311	We forget to sit for the first sitting and stand up for the third rak‘ah
+1312	We forget to come to the mosque
+1313	We forget to say the du‘a after Salah
+1314	We forget to put on our shoes
+1315	What do we do if we stand up for the third rak‘ah and then remember the first sitting?
+1316	We go back to the first sitting
+1317	We stop the Salah
+1318	We make Wudu again
+1319	We give salam straight away
+1320	When can sajdah as-sahw be made for being late for ruku‘?
+1321	If in the third or fourth rak‘ah of a fard prayer we recite a surah after al-Fatihah and so are late for ruku‘
+1322	If we come to the mosque early
+1323	If we recite al-Fatihah
+1324	If we pray Fajr
+1325	What if we pray more than the set number of rak‘ahs?
+1326	We make sajdah as-sahw
+1327	We do nothing
+1328	We make a new Wudu
+1329	We call the Adhan
+1330	What do we do if we are unsure how many rak‘ahs we have prayed?
+1331	We count the smaller number
+1332	We always take the bigger number
+1333	We stop the Salah straight away
+1334	We make Wudu again
+1335	If we are unsure whether we prayed three or four rak‘ahs, how many do we count?
+1336	When is sajdah as-sahw made?
+1337	At the end of Salah
+1338	Before Salah begins
+1339	Before Wudu
+1340	After the Adhan
+1341	After what do we give salam to the right side before sajdah as-sahw?
+1342	The last sitting
+1343	The first rak‘ah
+1344	The opening takbir
+1345	Ruku‘
+1346	How many prostrations do we make in sajdah as-sahw?
+1347	One
+1348	How are the two prostrations of sajdah as-sahw made?
+1349	The same way as the normal prostrations of Salah
+1350	Standing up
+1351	Sitting, without going down into sajdah
+1352	Only by nodding the head
+1353	What do we recite after the two prostrations of sahw when we sit again?
+1354	At-Tahiyyat, the Salawat and the du‘a
+1355	Only al-Fatihah
+1356	Only Bismillah
+1357	Only one surah
+1358	How do we finish the Salah after sajdah as-sahw?
+1359	We give salam to the right and to the left
+1360	We pray two rak‘ahs again
+1361	We make Wudu
+1362	What can a person do who did not make sajdah as-sahw right after the salam to the right?
+1363	They can still make it as long as they are in the place where they prayed
+1364	They can never make it again
+1365	They must repeat all five prayers
+1366	They must make Wudu straight away
+1367	Does a person praying behind an imam make sajdah as-sahw on their own for their own mistake in the congregational prayer?
+1368	No, but they will make sajdah as-sahw together with the imam when the imam makes it
+1369	Yes, always on their own
+1370	What has Allah the Exalted strictly commanded Muslim men and women?
+1371	Praying only nafl prayers
+1372	Praying the fard prayers
+1373	Praying only the Jumu‘ah prayer
+1374	Praying only the Tarawih prayer
+1375	Where can the fard prayers be prayed alone and in congregation?
+1376	Only at home
+1377	They can be prayed alone and in congregation
+1378	Only outdoors
+1379	Who regularly prayed in congregation?
+1380	Only the Sahabah (Companions)
+1381	Only imams
+1382	Only muezzins
+1383	What did Muhammad (SAW) show his followers in practice?
+1384	That Salah should not be prayed in congregation
+1385	That praying Salah in congregation is his Sunnah
+1386	That only Tarawih is prayed in congregation
+1387	That we pray in congregation only on Fridays
+1388	How many times more rewarding is Salah in congregation than Salah prayed alone?
+1389	5 or 10 times
+1390	10 or 15 times
+1391	15 or 25 times
+1392	25 or 27 times
+1393	Which prayers can be prayed in congregation?
+1394	The fard parts of the five daily prayers
+1395	Only the Fajr prayer
+1396	Only the Maghrib prayer
+1397	Only the Isha prayer
+1398	Apart from the fard prayers, which prayer is prayed in congregation in the month of Ramadan?
+1399	Duha prayer
+1400	Istikharah prayer
+1401	Tarawih prayer
+1402	Tahiyyat al-Masjid
+1403	How are the Jumu‘ah prayer, the Eid prayer and the Janazah (funeral) prayer prayed?
+1404	Only alone
+1405	Only in congregation
+1406	As you like, without a congregation
+1407	Where does the imam stand in relation to the congregation?
+1408	Behind the congregation
+1409	To the side of the congregation
+1410	In the last row
+1411	In front of the congregation
+1412	Who is a muqtadi?
+1413	A person who prays behind the imam
+1414	A person who does not pray
+1415	Only the muezzin
+1416	The person who leads the prayer
+1417	Where does the muqtadi stand during Salah?
+1418	In front of the imam
+1419	Behind the imam
+1420	Far from the imam
+1421	Only next to the mihrab
+1422	What do the muqtadis recite while standing when they pray behind the imam?
+1423	Al-Fatihah and a surah in every rak‘ah
+1424	Subhanaka in the first rak‘ah, and nothing more is recited while standing
+1425	Only A‘udhu and Bismillah
+1426	What is added to the intention (niyyah) when we pray in congregation?
+1427	“Wa salam”
+1428	“Wa rahmatullah”
+1429	“Iqtadaytu bi hadhal-imam”
+1430	“Subhana Rabbiyal-‘Azim”
+1431	What does the addition “IQTADAYTU BI HADHAL-IMAM” in the intention mean?
+1432	“I pray alone”
+1433	“I follow this imam”
+1434	“I lead this prayer”
+1435	“I finish the prayer”
+1436	What is the third pillar of Islam?
+1437	Fasting in the month of Ramadan
+1438	In which month is fasting obligatory for Muslims?
+1439	Muharram
+1440	Ramadan
+1441	Rajab
+1442	Sha‘ban
+1443	What is fasting?
+1444	Only staying away from food
+1445	Knowingly holding back from food, drink and other bodily pleasures for a set time
+1446	Only staying away from drinks
+1447	Staying in the mosque
+1448	When does the daily Ramadan fast begin?
+1449	At sunrise
+1450	When dawn appears
+1451	After the Fajr prayer
+1452	When does the daily Ramadan fast end?
+1453	At sunset
+1454	What should the fast begin with?
+1455	With salam
+1456	With the intention (niyyah)
+1457	With takbir
+1458	With the Adhan
+1459	What does the intention for fasting mean?
+1460	A decision that we will fast
+1461	A decision that we will pray
+1462	A decision that we will call the Adhan
+1463	A decision that we will give Zakah
+1464	For whose sake do we fast the month of Ramadan?
+1465	For our family’s sake
+1466	For our friends’ sake
+1467	For the sake of Allah the Exalted
+1468	For the congregation’s sake
+1469	What should a fasting person stay away from during the day?
+1470	Only from food
+1471	Only from water
+1472	From everything that breaks the fast
+1473	From sleeping
+1474	What is breaking the fast after sunset called?
+1475	Suhur
+1476	Iftar
+1477	Imsak
+1478	Muqabala
+1479	What is the Tarawih prayer?
+1480	A prayer prayed only on Fridays
+1481	A special prayer prayed on the nights of Ramadan after the Isha prayer
+1482	The Sunnah of Fajr
+1483	The Eid prayer
+1484	When is the Tarawih prayer prayed?
+1485	Before Fajr
+1486	After the Dhuhr prayer
+1487	On the nights of Ramadan after the Isha prayer
+1488	Only on Eid
+1489	What is i‘tikaf?
+1490	Staying in the mosque for worship
+1491	Travelling to Makkah
+1492	Giving sadaqah
+1493	Calling the Adhan
+1494	When is i‘tikaf especially practised?
+1495	The first ten days of Ramadan
+1496	The last ten days of Ramadan
+1497	Only the first day of Ramadan
+1498	After Eid al-Fitr
+1499	Why do people stay in i‘tikaf?
+1500	To rest
+1501	To hang out with friends
+1502	Only for worship
+1503	For trade
+1504	What is the duty of a fasting person at the end of the month of Ramadan?
+1505	To give Sadaqat al-Fitr
+1506	To perform Hajj
+1507	To sacrifice a Qurbani animal
+1508	To pray the Janazah prayer
+1509	Who should give Sadaqat al-Fitr?
+1510	Every fasting person
+1511	Only the imam
+1512	Only children
+1513	Only travellers
+1514	What should a fasting person stay away from?
+1515	Bad speech
+1516	Sadaqah
+1517	How is it good to pray during Ramadan?
+1518	In congregation, if possible
+1519	What is it good to recite or read during Ramadan?
+1520	The Qur’an or a translation of the Qur’an
+1521	Only newspapers
+1522	Only school books
+1523	What is it good to give out in Ramadan?
+1524	Sadaqah (charity)
+1525	Only presents
+1526	Clothes for Eid
+1527	School books
+1528	What kind of prayer is it good to pray during Ramadan?
+1529	Only the Eid prayer
+1530	Night prayer
+1531	Only the Janazah prayer
+1532	Only Istikharah
+1533	With whom is it good to have family and shared iftars?
+1534	Only with travellers
+1535	With relatives, neighbours and friends
+1536	Only with imams
+1537	Only with children
+1538	On what is it good to spend as much time as possible in Ramadan?
+1539	On dhikrullah (remembering Allah), du‘as and salawat on the Prophet (SAW)
+1540	Only on sleeping
+1541	On useless talk
+1542	Only on shopping
+1543	According to the hadith mentioned, what should we break our fast with if we have it?
+1544	A date
+1545	Milk
+1546	Bread
+1547	Honey
+1548	According to the hadith, what can we break our fast with if we cannot find a date?
+1549	Juice
+1550	Water
+1551	Coffee
+1552	Which pillar of Islam is Zakah?
+1553	The third
+1554	The fourth
+1555	Who is commanded to give Zakah?
+1556	Only the poor
+1557	Only travellers
+1558	Wealthy Muslims
+1559	Only traders
+1560	Who must give Zakah?
+1561	Every sane, adult Muslim man and woman who owns the nisab or more
+1562	Every child
+1563	Only a trader
+1564	What is the nisab?
+1565	Voluntary sadaqah
+1566	A kind of Salah
+1567	The fund of the Islamic Community
+1568	A set amount of wealth
+1569	Among other things, on what kind of property is Zakah given?
+1570	Only on clothes
+1571	On gold, silver, money and securities
+1572	Is Zakah given on large and small livestock?
+1573	Only on small livestock
+1574	Only on large livestock
+1575	What is the fund Zakah is given to in the Islamic Community in Bosnia and Herzegovina called?
+1576	Waqf
+1577	Majlis
+1578	Baytul-Mal
+1579	Nisab
+1580	Who collects Zakah in an organised way in Bosnia and Herzegovina?
+1581	The Islamic Community in Bosnia and Herzegovina
+1582	Each family on its own
+1583	Traders
+1584	Schools
+1585	What does a person do when they give their Zakah?
+1586	A sin
+1587	A voluntary custom
+1588	Only a recommended deed
+1589	They fulfil a required Islamic duty
+1590	What is the fifth Islamic duty?
+1591	For whom is performing Hajj obligatory?
+1592	Only for imams
+1593	For Muslim men and women who are able to
+1594	Only for men
+1595	Only for older people
+1596	How many times in their life must a Muslim perform Hajj if they are able to?
+1597	Once
+1598	Twice
+1599	Three times
+1600	Every year
+1601	What does the fifth Islamic duty include?
+1602	Only visiting Madinah
+1603	Only praying in the mosque
+1604	Fasting while travelling
+1605	Visiting the Ka‘bah and other holy places at a set time
+1606	From which day to which day of Dhul-Hijjah are the rites of Hajj performed?
+1607	From the 1st to the 5th
+1608	From the 5th to the 8th
+1609	From the 9th to the 13th
+1610	From the 15th to the 20th
+1611	What is the first fard of Hajj?
+1612	Ihram
+1613	Tawaf
+1614	Visiting Madinah
+1615	What does ihram mean in the rites of Hajj?
+1616	Going around the Ka‘bah seven times
+1617	Praying the Eid prayer
+1618	Making the intention to enter the rites of Hajj
+1619	Where do the pilgrims stay on the 9th of Dhul-Hijjah?
+1620	On Mount Arafat
+1621	On Mount Uhud
+1622	How many times do pilgrims go around the Ka‘bah during tawaf?
+1623	Five times
+1624	Six times
+1625	Seven times
+1626	Eight times
+1627	How many fard parts does Hajj have?
+1628	What are the three fard parts of Hajj?
+1629	Salah, fasting and Zakah
+1630	Ihram, staying at Arafat and tawaf around the Ka‘bah
+1631	Talbiyah, Qurbani and visiting Madinah
+1632	Fajr, Dhuhr and Asr
+1633	What do the pilgrims offer as a sacrifice to Allah (SWT) at the time of Eid al-Adha?
+1634	Fidyah
+1635	Qurbani (sacrifice)
+1636	Which city do pilgrims visit during their Hajj journey to visit the mosque of Muhammad (SAW)?
+1637	Madinah
+1638	Baghdad
+1639	Damascus
+1640	Cairo
+1641	What do pilgrims recite during Hajj and its rites?
+1642	The talbiyah
+1643	The khutbah
+1644	Only the Adhan
+1645	According to the hadith in the lesson, what is the reward for an accepted Hajj?
+1646	Great wealth
+1647	A long life
+1648	Going on Hajj every year
+1649	What is the special clothing pilgrims wear while staying at Arafat called?
+1650	Jubbah
+1651	Ihram clothes
+1652	Ahmediyya (turban)
+1653	Mest (leather socks)
+1654	How many pieces does a man’s ihram have?
+1655	Who is the first human Allah (SWT) created?
+1656	What did Allah (SWT) create Adam (AS) from?
+1657	Who had no parents?
+1658	Whom did Allah (SWT) command to prostrate to Adam (AS)?
+1659	Who refused to prostrate to Adam (AS)?
+1660	Why did Iblis think he was better than Adam (AS)?
+1661	Because he was older
+1662	Because he had more knowledge
+1663	Because he was created from fire, and Adam from clay
+1664	Because he was stronger
+1665	What was the name of the wife of Adam (AS)?
+1666	Maryam
+1667	Hawwa (Eve)
+1668	Sarah
+1669	Asiyah
+1670	Where did Adam (AS) and Hawwa first live?
+1671	On Earth
+1672	In Jannah
+1673	What did Adam (AS) and Hawwa have in Jannah?
+1674	Everything they needed
+1675	Only water
+1676	Only fruit
+1677	Only one place to stay
+1678	What were Adam (AS) and Hawwa not allowed to go near?
+1679	A river
+1680	A mountain
+1681	The forbidden tree
+1682	The gates of Jannah
+1683	Who tempted Adam (AS) and Hawwa to go near the forbidden tree?
+1684	An angel
+1685	The Shaytan
+1686	A prophet
+1687	What did the Shaytan promise them if they went near the forbidden tree?
+1688	That they would become rich
+1689	That they would get lots of food
+1690	That they would go back to Earth
+1691	Living forever, becoming angels, and a kingdom that would never end
+1692	What did Adam (AS) and Hawwa do after the Shaytan tempted them?
+1693	They went near the forbidden tree and took its fruit
+1694	They left Jannah
+1695	They hid the tree
+1696	They called the angels
+1697	Did Adam (AS) and Hawwa become immortal after taking the fruit?
+1698	Only Adam did
+1699	Only Hawwa did
+1700	What did Adam (AS) and Hawwa do after their sin?
+1701	They kept on sinning
+1702	They repented to Allah
+1703	They blamed the angels
+1704	They did not admit their sin
+1705	What did Adam (AS) and Hawwa admit in their du‘a?
+1706	That they had done nothing wrong
+1707	That Iblis had tempted them
+1708	That they wanted to stay in Jannah
+1709	That they had wronged themselves
+1710	What did Adam (AS) and Hawwa ask Allah for after their sin?
+1711	To forgive them and have mercy on them
+1712	To give them wealth
+1713	To make them angels
+1714	To give them power
+1715	Where were Adam (AS) and Hawwa taken after their sin?
+1716	To another part of Jannah
+1717	To the Moon
+1718	Out of Jannah
+1719	Into a cave
+1720	What happened to Adam (AS) and Hawwa after they came to Earth?
+1721	They met straight away
+1722	Allah separated them
+1723	They never met again
+1724	They went back to Jannah
+1725	What did Adam (AS) and Hawwa do for a long time after they were separated?
+1726	Built a house
+1727	Travelled together
+1728	Looked for food
+1729	Looked for each other and made du‘a to Allah
+1730	What did Allah (SWT) do after they repented?
+1731	He forgave them
+1732	He turned them into angels
+1733	He gave them power over the world
+1734	He sent them straight back to Jannah
+1735	Which place is given as where Adam (AS) and Hawwa met?
+1736	Madinah
+1737	Arafat
+1738	Jerusalem
+1739	Sinai
+1740	From whom did the whole human race come?
+1741	From Nuh (AS) and his family
+1742	From monkeys
+1743	From Ibrahim (AS) and his wife Hajar
+1744	From Adam (AS) and his wife Hawwa
+1745	What should Muslims do to be saved from the accursed Shaytan?
+1746	Only talk about good deeds
+1747	Do good deeds and say the A‘udhu billah
+1748	Avoid all people
+1749	Ask the Shaytan for help
+1750	Which event comes after the creation of Adam (AS)?
+1751	Life in this world
+1752	Coming to Earth
+1753	Repentance
+1754	The creation of Adam’s wife
+1755	What is an important lesson from the story of Adam (AS) and Hawwa?
+1756	People never make mistakes
+1757	A sin can never be forgiven
+1758	We should guard against the Shaytan’s temptations, repent to Allah and do good deeds
+1759	The Shaytan wants good for people

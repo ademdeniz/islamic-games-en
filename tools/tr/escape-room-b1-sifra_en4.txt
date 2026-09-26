@@ -1,0 +1,360 @@
+1400	Istikharah prayer
+1401	Tarawih prayer
+1402	Tahiyyat al-masjid (greeting the mosque)
+1403	How are the Jumu‘ah prayer, the Eid prayer and the Janazah (funeral) prayer prayed?
+1404	Only alone
+1405	Only in congregation
+1406	As you like, without a congregation
+1407	Where does the imam stand compared to the congregation?
+1408	Behind the congregation
+1409	To the side of the congregation
+1410	In the last row
+1411	In front of the congregation
+1412	Who is a muqtadi?
+1413	A person who prays behind an imam
+1414	A person who does not pray
+1415	Only the mu’adhdhin
+1416	The person who leads the prayer
+1417	Where does the muqtadi stand during Salah?
+1418	In front of the imam
+1419	Behind the imam
+1420	Far from the imam
+1421	Only next to the mihrab
+1422	What do the muqtadis recite while standing when they pray behind an imam?
+1423	Al-Fatihah and a surah in every rak‘ah
+1424	Subhanaka in the first rak‘ah, and nothing more is recited while standing (qiyam)
+1425	Only A‘udhu and Bismillah
+1426	What is added to the intention (niyyah) when we pray in congregation?
+1427	“Wa salam”
+1428	“Wa rahmatullah”
+1429	“Iqtadaytu bi hadhal-imam”
+1430	“Subhana rabbiyal-‘azim”
+1431	What does the addition “IQTADAYTU BI HADHAL-IMAM” in the intention mean?
+1432	“I pray alone”
+1433	“I follow this imam”
+1434	“I lead this prayer”
+1435	“I end the prayer”
+1436	What is the third pillar of Islam?
+1437	Fasting in the month of Ramadan
+1438	In which month must Muslims fast?
+1439	Muharram
+1440	Ramadan
+1441	Rajab
+1442	Sha‘ban
+1443	What is fasting (sawm)?
+1444	Only avoiding food
+1445	Knowingly holding back from food, drink and other bodily pleasures for a set time
+1446	Only avoiding drinks
+1447	Staying in the mosque
+1448	When does the daily fast of Ramadan begin?
+1449	At sunrise
+1450	When dawn appears
+1451	After the Fajr prayer
+1452	When does the daily fast of Ramadan end?
+1453	At sunset
+1454	What should we begin the fast with?
+1455	With salam
+1456	With niyyah (intention)
+1457	With takbir
+1458	With the Adhan
+1459	What does the niyyah for fasting mean?
+1460	The decision that we will fast
+1461	The decision that we will pray
+1462	The decision that we will call the Adhan
+1463	The decision that we will give Zakah
+1464	For whose sake do we fast the month of Ramadan?
+1465	For our family’s sake
+1466	For our friends’ sake
+1467	For the sake of Allah the Exalted
+1468	For the congregation’s sake
+1469	What must a fasting person keep away from during the day?
+1470	Only from food
+1471	Only from water
+1472	From everything that breaks the fast
+1473	From sleeping
+1474	What is breaking the fast after sunset called?
+1475	Suhur
+1476	Iftar
+1477	Imsak
+1478	Muqabalah
+1479	What is the Tarawih prayer?
+1480	A prayer prayed only on Fridays
+1481	A special prayer prayed on the nights of Ramadan after the Isha prayer
+1482	The Sunnah of Fajr
+1483	The Eid prayer
+1484	When is the Tarawih prayer prayed?
+1485	Before Fajr
+1486	After the Dhuhr prayer
+1487	On the nights of Ramadan after the Isha prayer
+1488	Only on Eid
+1489	What is i‘tikaf?
+1490	Staying in the mosque for worship
+1491	Travelling to Makkah
+1492	Giving sadaqah
+1493	Calling the Adhan
+1494	When is i‘tikaf especially practised?
+1495	The first ten days of Ramadan
+1496	The last ten days of Ramadan
+1497	Only the first day of Ramadan
+1498	After Eid al-Fitr
+1499	What is the purpose of staying in i‘tikaf?
+1500	To rest
+1501	To hang out with others
+1502	Only for worship
+1503	For trade
+1504	What is the duty of a fasting person at the end of the month of Ramadan?
+1505	To give Sadaqat al-Fitr
+1506	To perform Hajj
+1507	To sacrifice a Qurbani animal
+1508	To pray the Janazah prayer
+1509	Who should give Sadaqat al-Fitr?
+1510	Every fasting person
+1511	Only the imam
+1512	Only children
+1513	Only travellers
+1514	What should a fasting person stay away from?
+1515	Bad speech
+1516	Sadaqah
+1517	What is a good way to pray during Ramadan?
+1518	In congregation when possible
+1519	What is good to recite or read during Ramadan?
+1520	The Qur’an or a translation of the Qur’an
+1521	Only newspapers
+1522	Only school books
+1523	What is good to give out in Ramadan?
+1524	Sadaqah (charity)
+1525	Only presents
+1526	Clothes for Eid
+1527	School books
+1528	What kind of prayer is good to pray during Ramadan?
+1529	Only the Eid prayer
+1530	Night prayer
+1531	Only the Janazah prayer
+1532	Only Istikharah
+1533	Who is it nice to have family and shared iftars with?
+1534	Only with travellers
+1535	With relatives, neighbours and friends
+1536	Only with imams
+1537	Only with children
+1538	What is it good to spend as much time as possible doing in Ramadan?
+1539	Dhikr of Allah, making du‘as and sending salawat on the Prophet (SAW)
+1540	Only sleeping
+1541	Useless talk
+1542	Only shopping
+1543	According to the hadith, what should we break our fast with if we have it?
+1544	A date
+1545	Milk
+1546	Bread
+1547	Honey
+1548	According to the hadith, what can we break our fast with if we cannot find a date?
+1549	Juice
+1550	Water
+1551	Coffee
+1552	Which pillar of Islam is Zakah, by number?
+1553	The third
+1554	The fourth
+1555	Who is commanded to give Zakah?
+1556	Only the poor
+1557	Only travellers
+1558	Well-off Muslims
+1559	Only merchants
+1560	Who must give Zakah?
+1561	Every sane, adult Muslim man and woman who owns the nisab or more
+1562	Every child
+1563	Only a merchant
+1564	What is nisab?
+1565	Voluntary sadaqah
+1566	A kind of Salah
+1567	A fund of the Islamic Community
+1568	A set amount of wealth
+1569	Among other things, on which wealth is Zakah given?
+1570	Only on clothes
+1571	On gold, silver, money and securities
+1572	Is Zakah given on large and small livestock?
+1573	Only on small livestock
+1574	Only on large livestock
+1575	What is the fund that Zakah is given to in the Islamic Community in Bosnia and Herzegovina called?
+1576	Waqf
+1577	Majlis
+1578	Bayt al-Mal
+1579	Nisab
+1580	Who collects Zakah in an organised way in Bosnia and Herzegovina?
+1581	The Islamic Community in Bosnia and Herzegovina
+1582	Each family on its own
+1583	Merchants
+1584	Schools
+1585	What does a person do when they fulfil the duty of Zakah?
+1586	A sin
+1587	A voluntary custom
+1588	Only a recommended deed
+1589	They fulfil a prescribed Islamic duty
+1590	What is the fifth duty in Islam?
+1591	For whom is performing Hajj obligatory?
+1592	Only for imams
+1593	For Muslim men and women who are able
+1594	Only for men
+1595	Only for older people
+1596	How many times in their life must a Muslim perform Hajj if they are able?
+1597	Once
+1598	Twice
+1599	Three times
+1600	Every year
+1601	What does the fifth duty in Islam involve?
+1602	Only visiting Madinah
+1603	Only praying in the mosque
+1604	Fasting while travelling
+1605	Visiting the Ka‘bah and other holy places at a set time
+1606	From which day to which day of Dhul-Hijjah are the rites of Hajj performed?
+1607	From the 1st to the 5th
+1608	From the 5th to the 8th
+1609	From the 9th to the 13th
+1610	From the 15th to the 20th
+1611	What is the first fard part of Hajj?
+1612	Ihram
+1613	Tawaf
+1614	Visiting Madinah
+1615	What does ihram mean in the rites of Hajj?
+1616	Going around the Ka‘bah seven times
+1617	Praying the Eid prayer
+1618	Making the intention to enter the rites of Hajj
+1619	Where do the pilgrims stay on the 9th of Dhul-Hijjah?
+1620	On the hill of Arafat
+1621	On the mountain of Uhud
+1622	How many times do we go around the Ka‘bah in tawaf?
+1623	Five times
+1624	Six times
+1625	Seven times
+1626	Eight times
+1627	How many fard parts does Hajj have?
+1628	What are the three fard parts of Hajj?
+1629	Salah, fasting and Zakah
+1630	Ihram, staying at Arafat and tawaf around the Ka‘bah
+1631	Talbiyah, Qurbani and visiting Madinah
+1632	Fajr, Dhuhr and Asr
+1633	What do the pilgrims offer as a sacrifice to Allah (SWT) at the time of Eid al-Adha?
+1634	Fidyah
+1635	Qurbani
+1636	Which city do the pilgrims visit on their Hajj journey to visit the mosque of Muhammad (SAW)?
+1637	Madinah
+1638	Baghdad
+1639	Damascus
+1640	Cairo
+1641	What do the pilgrims say during Hajj and its rites?
+1642	The Talbiyah
+1643	The Khutbah
+1644	Only the Adhan
+1645	According to the hadith in the lesson, what is the reward for an accepted Hajj?
+1646	Great wealth
+1647	A long life
+1648	Going on Hajj every year
+1649	What are the special clothes the pilgrims wear during their stay at Arafat called?
+1650	Jubbah
+1651	Ihram clothes
+1652	Ahmediya (turban cloth)
+1653	Mests (leather socks)
+1654	How many pieces does a man’s ihram have?
+1655	Who is the first human Allah (SWT) created?
+1656	What did Allah (SWT) create Adam (AS) from?
+1657	Who had no parents?
+1658	Whom did Allah (SWT) command to prostrate to Adam (AS)?
+1659	Who refused to prostrate to Adam (AS)?
+1660	Why did Iblis think he was better than Adam (AS)?
+1661	Because he was older
+1662	Because he had more knowledge
+1663	Because he was created from fire, and Adam from clay
+1664	Because he was stronger
+1665	What was the name of the wife of Adam (AS)?
+1666	Maryam
+1667	Hawwa
+1668	Sarah
+1669	Asiyah
+1670	Where did Adam (AS) and Hawwa live first?
+1671	On Earth
+1672	In Jannah
+1673	What did Adam (AS) and Hawwa have in Jannah?
+1674	Everything they needed
+1675	Only water
+1676	Only fruit
+1677	Only one place to stay
+1678	What were Adam (AS) and Hawwa not allowed to go near?
+1679	A river
+1680	A mountain
+1681	The forbidden tree
+1682	The gates of Jannah
+1683	Who tried to talk Adam (AS) and Hawwa into going near the forbidden tree?
+1684	An angel
+1685	Shaytan
+1686	A prophet
+1687	What did Shaytan promise them if they went near the forbidden tree?
+1688	That they would become rich
+1689	That they would get lots of food
+1690	That they would go back to Earth
+1691	Living forever, becoming angels, and a kingdom that would never end
+1692	What did Adam (AS) and Hawwa do after Shaytan’s whispering?
+1693	They went near the forbidden tree and took its fruit
+1694	They left Jannah
+1695	They hid the tree
+1696	They called the angels
+1697	Did Adam (AS) and Hawwa become immortal after taking the fruit?
+1698	Only Adam did
+1699	Only Hawwa did
+1700	What did Adam (AS) and Hawwa do after the sin?
+1701	They kept on sinning
+1702	They repented to Allah
+1703	They blamed the angels
+1704	They did not admit the sin
+1705	What did Adam (AS) and Hawwa admit in their du‘a?
+1706	That they had done nothing wrong
+1707	That Iblis had talked them into it
+1708	That they wanted to stay in Jannah
+1709	That they had wronged themselves
+1710	What did Adam (AS) and Hawwa ask Allah for after the sin?
+1711	To forgive them and have mercy on them
+1712	To give them wealth
+1713	To make them angels
+1714	To give them power
+1715	Where were Adam (AS) and Hawwa sent after they sinned?
+1716	To another part of Jannah
+1717	To the Moon
+1718	Out of Jannah
+1719	Into a cave
+1720	What happened to Adam (AS) and Hawwa after they came to Earth?
+1721	They met straight away
+1722	Allah separated them
+1723	They never met again
+1724	They went back to Jannah
+1725	What did Adam (AS) and Hawwa do for a long time after they were separated?
+1726	Built a house
+1727	Travelled together
+1728	Looked for food
+1729	Looked for each other and made du‘a to Allah
+1730	What did Allah (SWT) do after they repented?
+1731	He forgave them
+1732	He turned them into angels
+1733	He gave them power over the world
+1734	He sent them straight back to Jannah
+1735	Which place is given as the place where Adam (AS) and Hawwa met?
+1736	Madinah
+1737	Arafat
+1738	Jerusalem
+1739	Sinai
+1740	From whom did the whole human race come?
+1741	From Nuh (AS) and his family
+1742	From monkeys
+1743	From Ibrahim (AS) and his wife Hajar
+1744	From Adam (AS) and his wife Hawwa
+1745	What should Muslims do to be saved from the accursed Shaytan?
+1746	Only talk about good deeds
+1747	Do good deeds and say A‘udhu billah
+1748	Avoid all people
+1749	Ask Shaytan for help
+1750	Which event comes after the creation of Adam (AS)?
+1751	Life in the dunya
+1752	Coming to Earth
+1753	Repentance
+1754	The creation of Adam’s wife
+1755	What is an important lesson from the story of Adam (AS) and Hawwa?
+1756	People never make mistakes
+1757	A sin can never be forgiven
+1758	We must beware of Shaytan’s whispering, repent to Allah and do good deeds
+1759	Shaytan wants good for people

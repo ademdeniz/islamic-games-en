@@ -1,0 +1,400 @@
+820	Our own chores
+821	ADHAN AND IQAMAH\n204. What is the Adhan?
+822	A dua after Salah
+823	The announcement that the prayer time has begun
+824	Reciting the Qur’an before Salah
+825	A greeting after Salah
+826	Who calls the Adhan?
+827	The mu’adhdhin
+828	The khatib
+829	Everyone praying, at the same time
+830	Only the imam
+831	How do we behave when we hear the Adhan?
+832	We keep talking
+833	We recite some other dua
+834	We stop all talking and work and follow the Adhan, repeating its words quietly to ourselves
+835	We start praying straight away
+836	With which words does the Adhan begin?
+837	La ilaha illallah
+838	Hayya alas-salah
+839	Ash-hadu an la ilaha illallah
+840	Allahu akbar
+841	What does “Allahu akbar” mean?
+842	Allah is the Greatest
+843	Only Allah is God
+844	Come to prayer
+845	Come to success
+846	What does “Ash-hadu an la ilaha illallah” mean?
+847	Muhammad is the Messenger of Allah
+848	I bear witness that only Allah is God
+849	What does “Ash-hadu anna Muhammadar-rasulullah” mean?
+850	I bear witness that Muhammad is the Messenger of Allah
+851	Prayer is better than sleep
+852	What does “Hayya alas-salah” mean?
+853	The prayer is starting now
+854	What does “Hayya alal-falah” mean?
+855	With which words does the Adhan end?
+856	Hayya alal-falah
+857	What is specially added to the Adhan for Fajr?
+858	Qad qamatis-salah
+859	As-salatu khayrun minan-nawm
+860	Subhanallah
+861	How many times is “As-salatu khayrun minan-nawm” added to the Adhan for Fajr?
+862	What does “As-salatu khayrun minan-nawm” mean?
+863	Who recites the Iqamah before praying a fard prayer?
+864	Only children
+865	Men
+866	Only the khatib
+867	When is the Iqamah recited?
+868	After the Salah is finished
+869	Before the Adhan
+870	Before praying a fard prayer
+871	Only after Fajr
+872	Who recites the Iqamah when we pray in congregation (jama’ah)?
+873	Everyone praying
+874	The imam
+875	How fast do we recite the Iqamah compared to the Adhan?
+876	A little faster than the Adhan
+877	Much slower than the Adhan
+878	At exactly the same speed
+879	The Iqamah is not said out loud
+880	Which words are added in the Iqamah that are not in the Adhan?
+881	Subhana Rabbiyal-Azim
+882	Sami’allahu liman hamidah
+883	What does “Qad qamatis-salah” mean?
+884	What is the main difference between the Adhan and the Iqamah?
+885	The Adhan is called only for Fajr
+886	The Iqamah is recited after Salah
+887	The Adhan is called before Salah
+888	In the Iqamah the words “Qad qamatis-salah” are added
+889	PILLARS OF SALAH – THE ESSENTIAL PARTS OF PRAYER\n224. What is the first pillar (rukn) of Salah?
+890	Qiyam
+891	Ruku’
+892	Takbirat al-iftitah – the opening takbir
+893	What is Takbirat al-iftitah?
+894	The opening takbir
+895	Standing in Salah
+896	Bowing in Salah
+897	Sitting at the end of Salah
+898	What is the second pillar (rukn) of Salah?
+899	Qira’ah
+900	What does qiyam mean?
+901	Bowing
+902	What is the third pillar (rukn) of Salah?
+903	What is qira’ah?
+904	Reciting the Qur’an in Salah
+905	Putting the face down on the ground
+906	What is the fourth pillar (rukn) of Salah?
+907	What is ruku’?
+908	What is the fifth pillar (rukn) of Salah?
+909	What is sajdah?
+910	What is the sixth pillar (rukn) of Salah?
+911	Qa’dah akhirah
+912	What does qa’dah akhirah mean?
+913	What is the correct order of the first three pillars of Salah?
+914	Qiyam, ruku’, sajdah
+915	Qira’ah, qiyam, ruku’
+916	Sajdah, qiyam, qira’ah
+917	Takbirat al-iftitah, qiyam, qira’ah
+918	What is the correct order of the last three pillars of Salah?
+919	Ruku’, sajdah, qa’dah akhirah
+920	Sajdah, ruku’, qiyam
+921	Qira’ah, sajdah, ruku’
+922	When is Salah not valid?
+923	If it is prayed in the mosque
+924	Without fulfilling all the conditions (shurut) of Salah
+925	If the Qur’an is recited
+926	If it is prayed on time
+927	What are the pillars (arkan) of Salah?
+928	The essential parts of Salah
+929	The Sunnahs of Salah
+930	The conditions for wudu
+931	Seven
+932	How should we do the pillars of Salah?
+933	Only some of them
+934	All of them correctly and carefully
+935	Only in fard prayers
+936	Only when we pray in congregation
+937	What should we do if we leave out one of the pillars of Salah?
+938	Carry on without it
+939	Stop every Salah
+940	Only recite a dua
+941	Correct it and do it again
+942	Which is the first pillar (rukn) of Salah?
+943	Takbirat al-iftitah
+944	What does Takbirat al-iftitah mean?
+945	The final salam
+946	What is said during Takbirat al-iftitah?
+947	Alhamdulillah
+948	Astaghfirullah
+949	Where do boys raise their hands for the opening takbir?
+950	They don’t raise their hands
+951	To the chest
+952	Above the head
+953	To the height of the ears
+954	Where do girls raise their hands for the opening takbir?
+955	To the height of the chest
+956	Above the ears
+957	Which way should our feet point when we stand in Salah?
+958	Towards the Qiblah
+959	Towards the imam
+960	To the right
+961	How do we stand in qiyam?
+962	Upright
+963	Bent over
+964	Sitting
+965	Kneeling
+966	Where do boys put their hands in qiyam?
+967	On the knees
+968	At the waist (below the navel)
+969	Behind the back
+970	On the shoulders
+971	Where do girls hold their hands in qiyam?
+972	On their knees
+973	On the chest
+974	By their sides
+975	What does qira’ah mean?
+976	Going down into sajdah
+977	What is recited in every first standing?
+978	Only Al-Fatihah
+979	Subhanaka, A’udhu billah, Bismillah, Al-Fatihah and one surah
+980	Only one surah
+981	At-Tahiyyat
+982	What is recited in every second standing?
+983	Only Subhanaka
+984	Bismillah, Al-Fatihah and one surah
+985	Only the Salawat
+986	Sitting in Salah
+987	How should the back be in ruku’?
+988	Bent to the side
+989	Straight (flat)
+990	Completely upright
+991	Turned to the right
+992	Where do we put our hands in ruku’?
+993	On the chest
+994	On the face
+995	What is recited three times in ruku’?
+996	Subhana Rabbiyal-A’la
+997	Subhana Rabbiyal-Azim
+998	Bowing down to the knees
+999	Finishing the Salah
+1000	How many sajdahs do we make in one rak’ah?
+1001	One
+1002	Two
+1003	What is recited three times in sajdah?
+1004	Subhana Rabbiyal-A’la
+1005	What do we recite in the last sitting of every Salah?
+1006	At-Tahiyyat, the Salawat and duas
+1007	Only At-Tahiyyat
+1008	DHIKR AFTER SALAH\n269. When do we do dhikr after Salah?
+1009	Before the opening takbir
+1010	After giving the last salam
+1011	In ruku’
+1012	Before Salah
+1013	What does the dhikr after Salah consist of?
+1014	Only Al-Fatihah
+1015	Only a dua
+1016	The Salawat, Ayat al-Kursi and tasbih
+1017	Only takbirs
+1018	How do we begin the dhikr after Salah?
+1019	With Al-Fatihah
+1020	With tasbih
+1021	With a dua
+1022	With the Salawat
+1023	What do we recite after Ayat al-Kursi?
+1024	Tasbih
+1025	In which hand do we hold the tasbih (prayer beads)?
+1026	In both hands
+1027	It doesn’t matter
+1028	How many times do we say “Subhanallah”?
+1029	10 times
+1030	25 times
+1031	33 times
+1032	40 times
+1033	What does “Subhanallah” mean?
+1034	Thanks be to Allah
+1035	There is no god but Allah
+1036	Glory be to Allah
+1037	How many times do we say “Alhamdulillah” in the tasbih?
+1038	34 times
+1039	100 times
+1040	What does “Alhamdulillah” mean?
+1041	Allah is One
+1042	How many times do we say “Allahu akbar” in the tasbih?
+1043	30 times
+1044	32 times
+1045	Allah knows everything
+1046	How many times altogether do we say Subhanallah, Alhamdulillah and Allahu akbar in the tasbih?
+1047	99 times
+1048	66 times
+1049	Apart from prayer beads, what else can we use to count the words of the tasbih?
+1050	A pencil
+1051	A digital counter or the fingers of the right hand
+1052	A clock
+1053	A book
+1054	What do we do after we finish the tasbih?
+1055	We get up straight away
+1056	We pray the Salah again
+1057	We carry on reciting the set words of dhikr
+1058	What does “La ilaha illallah” mean?
+1059	There is no god except Allah
+1060	How do we complete the Salah after the tasbih?
+1061	With the dua after Salah and Al-Fatihah
+1062	With the Adhan and the Iqamah
+1063	With a new Salah
+1064	Only with the Salawat
+1065	Who narrated the hadith about saying Subhanallah, Alhamdulillah and Allahu akbar 33 times?
+1066	Al-Bukhari
+1067	According to this hadith, which words did Muhammad (SAW) recommend we say after every Salah?
+1068	Only Bismillah
+1069	Subhanallah, Alhamdulillah and Allahu akbar
+1070	Only the Salawat
+1071	In the ayah mentioned in the lesson, what does Allah, the Most High, command us to do after finishing Salah?
+1072	To leave the mosque straight away
+1073	To repeat the Salah
+1074	To stay silent
+1075	To remember Allah
+1076	FAJR PRAYER\n288. When do we pray Fajr?
+1077	From midday until Asr
+1078	From dawn until sunrise
+1079	From sunset until dark
+1080	How many rak’ahs does Fajr prayer have?
+1081	Three rak’ahs
+1082	Six rak’ahs
+1083	Four rak’ahs
+1084	Eight rak’ahs
+1085	After getting ready for Fajr prayer, what do we recite before the niyyah?
+1086	The Salawat
+1087	A’udhu billah and Bismillah
+1088	How many rak’ahs does the Sunnah of Fajr have?
+1089	Two rak’ahs
+1090	One rak’ah
+1091	How many rak’ahs does the fard of Fajr have?
+1092	Which prayer is the morning prayer?
+1093	Dhuhr prayer
+1094	Asr prayer
+1095	Fajr prayer
+1096	Maghrib prayer
+1097	What do we pray first in Fajr prayer?
+1098	Two rak’ahs of Sunnah
+1099	Two rak’ahs of fard
+1100	Four rak’ahs of fard
+1101	Three rak’ahs of Witr prayer
+1102	What do we pray after the Sunnah of Fajr?
+1103	The fard of Maghrib
+1104	Two rak’ahs of the fard of Fajr
+1105	The Sunnah of Dhuhr
+1106	Witr prayer
+1107	Which way do we face when making the niyyah for Fajr prayer?
+1108	Towards the mosque door
+1109	Towards the teacher
+1110	With which words does the niyyah end?
+1111	Subhana Rabbiyal-A’la
+1112	As-salamu alaykum
+1113	What do we say at the start of Salah after the niyyah?
+1114	Rabbana lakal-hamd
+1115	What do we recite in the qiyam of the first rak’ah of Fajr prayer?
+1116	At-Tahiyyat and the Salawat
+1117	Subhanaka, A’udhu billah, Bismillah, Al-Fatihah and a surah
+1118	Only Bismillah and a surah
+1119	What do we recite in the qiyam of the second rak’ah of Fajr prayer?
+1120	Bismillah, Al-Fatihah and a surah
+1121	Subhanaka and At-Tahiyyat
+1122	Only a surah
+1123	The Salawat and a dua
+1124	What do we say when we go down into ruku’?
+1125	What do we recite three times in ruku’?
+1126	What do we say when coming back up from ruku’ to standing?
+1127	Subhanaka
+1128	What do we say while standing after coming up from ruku’?
+1129	Bismillah
+1130	What do we recite three times in sajdah?
+1131	How many sajdahs do we make in one rak’ah?
+1132	What comes between the first and the second sajdah?
+1133	Sitting between the sajdahs
+1134	Giving the salam
+1135	What is the last sitting in Salah called?
+1136	What do we recite in the last sitting of Salah?
+1137	To which side do we give the salam first?
+1138	To the right side
+1139	To the left side
+1140	Whichever we like
+1141	What do we say when giving the salam in Salah?
+1142	As-salamu alaykum wa rahmatullah
+1143	In what order do we give the salam at the end of Salah?
+1144	Only to the right side
+1145	First to the left, then to the right
+1146	First to the right, then to the left side
+1147	Only to the left side
+1148	DHUHR PRAYER\n313. Which daily prayer in order is Dhuhr prayer?
+1149	The first
+1150	The third
+1151	The second
+1152	The fourth
+1153	When does the time for Dhuhr prayer begin?
+1154	When the Sun sets
+1155	When night comes
+1156	When the Sun passes the middle of the sky
+1157	How many rak’ahs does Dhuhr prayer have altogether?
+1158	How are the ten rak’ahs of Dhuhr prayer divided?
+1159	2 Sunnah, 4 fard and 4 final Sunnah
+1160	4 Sunnah, 4 fard and 2 final Sunnah
+1161	4 fard and 6 Sunnah after the fard
+1162	2 Sunnah, 2 fard and 6 final Sunnah
+1163	What is prayed first in Dhuhr prayer?
+1164	The fard
+1165	The final Sunnah
+1166	Four rak’ahs of Sunnah
+1167	Witr
+1168	What is recited in the first rak’ah of the Sunnah of Dhuhr?
+1169	Bismillah and Al-Fatihah
+1170	Subhanaka, A’udhu billah, Bismillah, Al-Fatihah and a surah
+1171	What is recited in the second rak’ah of the Sunnah of Dhuhr?
+1172	Bismillah, Al-Fatihah and a surah
+1173	Only a surah
+1174	What is recited in the third and fourth rak’ahs of the fard of Dhuhr?
+1175	Subhanaka and A’udhu billah
+1176	Al-Fatihah and a surah
+1177	How many rak’ahs does the final Sunnah of Dhuhr, prayed after the fard, have?
+1178	One
+1179	What is recited in the last sitting of Dhuhr prayer?
+1180	At-Tahiyyat, the Salawat and duas, and then the salam is given
+1181	ASR PRAYER\n323. Which daily prayer in order is Asr prayer?
+1182	When does the time for Asr prayer begin?
+1183	Halfway between midday and sunset
+1184	When night has completely fallen
+1185	How many rak’ahs does Asr prayer have altogether?
+1186	Ten
+1187	Eight
+1188	How are the eight rak’ahs of Asr prayer divided?
+1189	Two Sunnah and six fard
+1190	Four Sunnah and four fard
+1191	Four fard and four final Sunnah
+1192	Six Sunnah and two fard
+1193	What is prayed first in Asr prayer?
+1194	What is prayed after the Sunnah of Asr?
+1195	Two rak’ahs of nafl
+1196	What is recited in the first rak’ah of the Sunnah of Asr?
+1197	At-Tahiyyat and the Salawat
+1198	What is recited in the second rak’ah of the Sunnah of Asr?
+1199	What is recited in the first sitting of the Sunnah of Asr?
+1200	Only At-Tahiyyat
+1201	What is recited in the third rak’ah of the Sunnah of Asr?
+1202	Subhanaka, Bismillah, Al-Fatihah and a surah
+1203	What is recited in the fourth rak’ah of the Sunnah of Asr?
+1204	What is recited in the first sitting of the fard of Asr?
+1205	What is recited in the third and fourth rak’ahs of the fard of Asr?
+1206	Subhanaka, Al-Fatihah and a surah
+1207	What is recited in the last sitting of Asr prayer?
+1208	At-Tahiyyat, the Salawat and duas
+1209	How does Asr prayer end after the last sitting?
+1210	With a new niyyah
+1211	By standing up for one more rak’ah
+1212	By giving the salam
+1213	MAGHRIB PRAYER\n338. Which prayer is the evening prayer?
+1214	When do we pray Maghrib prayer?
+1215	From sunset until it is completely dark
+1216	From midnight until dawn
+1217	According to the lesson, how many rak’ahs does Maghrib prayer have altogether?
+1218	How many rak’ahs does the fard of Maghrib have?
+1219	How many rak’ahs does the Sunnah of Maghrib have?

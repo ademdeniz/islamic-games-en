@@ -1,0 +1,259 @@
+0	What does the phrase “Hasbi Rabbi” mean?
+1	My Lord is enough for me
+2	Muhammad is Allah’s Messenger
+3	There is light in my heart
+4	Allah is the Greatest
+5	Who is enough for a believer?
+6	A friend
+7	A teacher
+8	A parent
+9	Allah, the Most High
+10	According to the ilahi (Islamic song), who is in our heart?
+11	Only our family
+12	Only our friends
+13	Only Allah
+14	Only our teachers
+15	What is the second line of the ilahi Hasbi Rabbi?
+16	Nur Muhammad sallallah
+17	La ilaha illallah
+18	Hasbi Rabbi jallallah
+19	Ma fi qalbi ghayrullah
+20	What is the third line of the ilahi Hasbi Rabbi?
+21	What is the last line of the ilahi Hasbi Rabbi?
+22	What does “La ilaha illallah” mean?
+23	There is no god but Allah
+24	Allah is merciful
+25	Muhammad is light
+26	Allah is our Creator
+27	According to the words of the ilahi Hasbi Rabbi, who is our light?
+28	The Sun
+29	The Moon
+30	Muhammad (SAW)
+31	Who does a Muslim rely on?
+32	Only on himself
+33	On his friends
+34	On other people
+35	Only on Allah (SWT)
+36	What does a Muslim carry out?
+37	Allah’s commands
+38	All of his own wishes
+39	His friends’ orders
+40	Other people’s customs
+41	What does a Muslim stay away from?
+42	Learning
+43	Good deeds
+44	What Allah has forbidden
+45	Salah (prayer)
+46	Who is our role model in how we behave?
+47	Any famous person
+48	Children our own age
+49	Rich people
+50	In what is Muhammad (SAW) our role model?
+51	Only in how he dressed
+52	In how he behaved
+53	Only in how he spoke
+54	In gaining wealth
+55	What should a Muslim do with Allah’s commands?
+56	Carry them out
+57	Forget them
+58	Put them off
+59	Avoid them
+60	Which message matches what the ilahi “Hasbi Rabbi” is about?
+61	A person should rely only on his own strength
+62	The most important thing is to get rich
+63	A Muslim believes in Allah and follows His commands
+64	A person does not need a role model
+65	Who is Allah’s last Messenger?
+66	Musa (AS)
+67	Isa (AS)
+68	Ibrahim (AS)
+69	Where was Muhammad (SAW) born?
+70	In Makkah
+71	In Madinah
+72	In Jerusalem
+73	In Ta’if
+74	On which Hijri date was Muhammad (SAW) born?
+75	1st of Muharram
+76	27th of Rajab
+77	15th of Sha’ban
+78	12th of Rabi’ al-Awwal
+79	In which year was Muhammad (SAW) born?
+80	In the year 610
+81	In the year 571
+82	In the year 622
+83	In the year 632
+84	On which date of the Gregorian calendar was Muhammad (SAW) born?
+85	20th of April
+86	1st of January
+87	10th of May
+88	12th of June
+89	What was the name of the father of Muhammad (SAW)?
+90	Abu Talib
+91	Abdul-Muttalib
+92	Abdullah
+93	Hamza
+94	What was the name of the mother of Muhammad (SAW)?
+95	Khadijah
+96	Aminah
+97	Fatimah
+98	Halimah
+99	Who did Muhammad (SAW) stay with after his parents died?
+100	With his friends
+101	With his neighbours
+102	With his teacher
+103	With his grandfather and his uncle
+104	What was the name of the grandfather of Muhammad (SAW)?
+105	Abbas
+106	What was the name of the uncle of Muhammad (SAW) who raised him?
+107	Abu Bakr
+108	Umar
+109	Uthman
+110	At what age did Allah, the Most High, begin sending the Revelation to Muhammad (SAW)?
+111	At twenty
+112	At forty
+113	At thirty
+114	At fifty
+115	What do we say when we mention the name Muhammad?
+116	Alhamdulillah
+117	Alayhis-salam
+118	Salam
+119	Allahu akbar
+120	What does the phrase “alayhis-salam” mean?
+121	May Allah have mercy on him
+122	May Allah’s peace be upon him
+123	Thanks be to Allah
+124	Who should be our role model in how we behave?
+125	The richest person
+126	The most famous athlete
+127	The best singer
+128	How is Muhammad (SAW) related to Abdul-Muttalib?
+129	Abdul-Muttalib was his father
+130	Abdul-Muttalib was his grandfather
+131	Abdul-Muttalib was his uncle
+132	Abdul-Muttalib was his friend
+133	How is Muhammad (SAW) related to Abu Talib?
+134	Abu Talib was his grandfather
+135	Abu Talib was his brother
+136	Abu Talib was his uncle
+137	Abu Talib was his son
+138	How do we confirm that we belong to Islam?
+139	By calling the Adhan
+140	By saying the Kalimah Shahadah
+141	By saying salam
+142	By putting on clean clothes
+143	How many parts does the Kalimah Shahadah have?
+144	Three
+145	Four
+146	One
+147	Two
+148	What do we bear witness to in the first part of the Kalimah Shahadah?
+149	That Muhammad is the last Messenger
+150	That angels exist
+151	That there is no god but Allah
+152	That fasting is compulsory
+153	What do we bear witness to in the second part of the Kalimah Shahadah?
+154	That Muhammad is Allah’s servant and Messenger
+155	That Musa (AS) is the last Messenger
+156	That we believe in the holy books (kutub)
+157	That we believe in the angels
+158	How does the Kalimah Shahadah begin?
+159	Alhamdulillahi rabbil-alamin
+160	Ashhadu an la ilaha illallah
+161	Bismillahir-Rahmanir-Rahim
+162	Subhana rabbiyal-azim
+163	What is salam?
+164	A special dua after Salah
+165	The name of one of the prayers
+166	The call to prayer
+167	The greeting Muslims use to greet each other
+168	What is the Islamic greeting?
+169	As-salamu alaykum
+170	Wa alaykumus-salam
+171	How do we reply to salam?
+172	Alaykumus-salam
+173	MashaAllah
+174	SubhanAllah
+175	Which words are nice to add when we say salam?
+176	Allahu akbar kabira
+177	Wa rahmatullahi wa barakatuhu
+178	Astaghfirullah
+179	What does the Islamic greeting – salam – mean?
+180	May Allah’s peace and blessings be upon you
+181	Have a safe trip
+182	I wish you a nice day
+183	Welcome to my house
+184	Who do we say salam to?
+185	Only to our parents
+186	Only to our teachers
+187	Only to our friends
+188	To our parents, relatives, friends and Muslims we know
+189	When do we say salam when we come home?
+190	Only when we go out
+191	When we go into and out of the house
+192	Only in the morning
+193	Only in the evening
+194	When else do we say salam?
+195	When we join a group of people or leave it
+196	Only when we enter the mosque
+197	Only after eating
+198	Only before sleeping
+199	Which side does Islam give preference to?
+200	The left side
+201	Both sides equally
+202	The right side
+203	Neither side
+204	Which hand should we eat with?
+205	With the left hand
+206	With both hands
+207	It does not matter which hand
+208	With the right hand
+209	Which sleeve do we put on first?
+210	The right sleeve
+211	The left sleeve
+212	Both sleeves at the same time
+213	It is not set
+214	What is the right way to put on and take off shoes?
+215	We put on the left shoe first, and take off the right shoe first
+216	We put on the right shoe first, and take off the left shoe first
+217	We always put on and take off the left shoe first
+218	The order does not matter
+219	Which side is it recommended to sleep on?
+220	On the stomach
+221	On the left side
+222	On the right side
+223	On the back
+224	Which dua do we say before starting a task?
+225	The dua for travelling
+226	Rabbi yassir
+227	The dua after eating
+228	The dua for rain
+229	What do we ask Allah for with the words “Rabbi yassir”?
+230	To give us lots of wealth
+231	To give us a long life
+232	To make things easy for us
+233	To make us famous
+234	How does the dua for a blessed start begin?
+235	Rabbi zidni ilma
+236	Bismillahi
+237	Alhamdulillahi
+238	Rabbi yassir wa la tu’assir
+239	What does “wa la tu’assir” mean?
+240	And do not make it hard
+241	Increase me in knowledge
+242	Forgive my sins
+243	Keep me safe on the journey
+244	What does “Rabbi tammim bil-khayr” mean?
+245	My Lord, increase me in knowledge
+246	My Lord, complete my task with good
+247	My Lord, give me good health
+248	My Lord, forgive my parents
+249	What do we ask Allah for with the dua for a blessed start?
+250	Ease, blessing and success in good deeds
+251	Only material wealth
+252	To win every game
+253	To never have to work
+254	Who gives people knowledge?
+255	Only books
+256	Only school
+257	Allah
+258	Only parents

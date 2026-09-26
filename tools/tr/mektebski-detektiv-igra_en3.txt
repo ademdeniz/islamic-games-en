@@ -1,0 +1,234 @@
+800	Maktab
+801	It is a place of learning.
+802	It is connected with the mosque and the jama’ah (community).
+803	Children learn the religion in it.
+804	The Qur’an, Salah, duas and Islamic manners are learned there.
+805	It is Islamic religious teaching for children.
+806	Mu’allimah
+807	She is connected with teaching the religion.
+808	She teaches children or adults.
+809	She can lead maktab lessons.
+810	She teaches her students the Qur’an and Islamic rules.
+811	She is a teacher of the religion (a woman).
+812	Mushaf
+813	It is connected with the Qur’an.
+814	It is kept and held with respect.
+815	The surahs and ayahs are in it.
+816	The Qur’an is recited from it.
+817	It is the book in which the text of the Qur’an is written.
+818	Surah
+819	It is a part of the Qur’an.
+820	It has its own name.
+821	It is made up of ayahs.
+822	The Qur’an has 114 of them.
+823	Al-Fatihah and An-Nas are examples of this.
+824	Ayah
+825	It is inside a surah.
+826	It can be shorter or longer.
+827	The surahs of the Qur’an are made up of them.
+828	It is a verse of the Qur’an, a sign of the Revelation.
+829	Juz’
+830	It is used to divide the recitation more easily.
+831	The Qur’an has thirty of them.
+832	It can contain parts of several surahs.
+833	It is one thirtieth of the Mushaf.
+834	Hafiz
+835	He spends a lot of time learning and reviewing.
+836	He must take good care of what he has learned.
+837	He knows the whole Qur’an by heart.
+838	He is a person who has memorised the whole Qur’an.
+839	Qira’ah
+840	It is about recitation.
+841	It has rules of correct pronunciation.
+842	It can mean the accepted ways of reciting the Qur’an.
+843	It means reading or reciting the Qur’an.
+844	Tajwid
+845	It teaches the correct pronunciation of the letters.
+846	It has rules about lengthening, stopping and other features of recitation.
+847	It helps you recite the Qur’an correctly.
+848	It is the science of reciting the Qur’an correctly.
+849	Alif
+850	It is an Arabic letter.
+851	It is learned in the sufara (first reading book).
+852	It can carry different marks in writing.
+853	It is one of the first letters children get to know.
+854	It is the first letter of the Arabic alphabet.
+855	Surah Al-Baqarah
+856	It is at the beginning of the Mushaf.
+857	It comes after Al-Fatihah.
+858	Ayat al-Kursi is in it.
+859	It is the longest surah in the Qur’an.
+860	Ayat al-Kursi
+861	It is in one long surah.
+862	It talks about Allah’s greatness, knowledge and power.
+863	It is in Surah Al-Baqarah.
+864	It is the 255th ayah of Surah Al-Baqarah.
+865	Al-Alaq
+866	It is connected with the beginning of the Revelation.
+867	Its first ayahs were revealed in the cave of Hira.
+868	It begins with the command to read/recite.
+869	It begins with the word “Iqra’”.
+870	Al-Qadr
+871	It talks about a special night.
+872	It says that this night is better than a thousand months.
+873	It talks about Laylat al-Qadr.
+874	Al-Fil
+875	It talks about an event before the birth of Muhammad (SAW).
+876	It mentions birds that threw small stones.
+877	It talks about the companions of the elephant.
+878	Al-Ma’un
+879	It talks about how to treat the orphan and the poor.
+880	It warns about being careless in Salah and showing off to people.
+881	It ends by mentioning people who hold back help.
+882	Al-Masad
+883	It talks about an enemy of Muhammad (SAW).
+884	It mentions Abu Lahab and his wife.
+885	It begins with the words “Tabbat yada...”.
+886	Quraysh
+887	It is the name of a tribe and of a surah of the Qur’an.
+888	It is connected with Makkah.
+889	Muhammad (SAW) belonged to this tribe.
+890	The short surah talks about their journeys and safety.
+891	It is the tribe of Quraysh.
+892	Ka’bah – tawaf of seven rounds
+893	It is connected with the Ka’bah.
+894	A person moves in a circle.
+895	It starts in line with the Hajar al-Aswad.
+896	It is made up of seven circuits around the Ka’bah.
+897	Umrah
+898	It is an act of worship connected with Makkah.
+899	It is similar to some rites of Hajj.
+900	Ihram, tawaf and sa’y are done in it.
+901	It can be done during most of the year.
+902	It is known as the lesser Hajj.
+903	Qurbani – the sacrificial animal
+904	It is connected with worship.
+905	It must meet the set conditions.
+906	It is slaughtered on certain days.
+907	The meat is shared with family, relatives and those in need.
+908	It is sacrificed for Eid al-Adha for the sake of Allah.
+909	Sadaqat al-Fitr
+910	It is an obligatory giving according to the rules.
+911	It is connected with Ramadan.
+912	It is given to the Bayt al-Mal (community fund).
+913	It is given before the Eid Salah, at the set time.
+914	It is also known as fitra.
+915	Fidyah
+916	It is connected with fasting.
+917	It is a compensation in certain cases when there is a valid excuse.
+918	It is given to feed people in need.
+919	It does not apply to every duty missed without a reason.
+920	It is given by a person who can never fast, according to the set conditions.
+921	Kaffarah
+922	It is connected with certain violations of religious rules.
+923	It is an expiation according to the rules.
+924	It can include fasting or other forms of making up, depending on the case.
+925	It is not the same as ordinary sadaqah.
+926	It is the prescribed expiation for a certain violation.
+927	Sabr
+928	It is a beautiful quality of a believer.
+929	It is needed in times of trial.
+930	Ayyub (AS) is especially known for it.
+931	It does not mean doing nothing, but keeping on doing good.
+932	It means patience.
+933	Shukr
+934	It is connected with Allah’s blessings.
+935	It is shown with the heart, words and deeds.
+936	It is the opposite of ungratefulness.
+937	It means gratitude to Allah.
+938	Tawakkul
+939	It is connected with trusting in Allah.
+940	It does not mean giving up effort and duties.
+941	A person does what they can and leaves the result to Allah.
+942	It means relying on Allah.
+943	Truthfulness – sidq
+944	It is a beautiful quality.
+945	It is the opposite of lying.
+946	Muhammad (SAW) was known for it.
+947	It is important in speech and in actions.
+948	It means telling the truth and loving the truth.
+949	Amanah (trust)
+950	It is a beautiful quality and a duty.
+951	It is connected with trust.
+952	It must be looked after and given back to its owner.
+953	Muhammad (SAW) was known as Al-Amin.
+954	It means something or some responsibility given to you to look after.
+955	Parents
+956	They have a special place in Islam.
+957	We are asked to be good to them.
+958	Not even a word of disrespect may be said to them.
+959	Duas are made for them.
+960	A father and a mother are a person’s parents.
+961	Neighbour
+962	It is a person who lives close to you.
+963	Islam stresses good behaviour towards them.
+964	You should help them and never cause them harm.
+965	They can be Muslim or non-Muslim.
+966	It is a person who lives next door.
+967	Orphan
+968	They are especially mentioned in the Qur’an.
+969	Islam commands kind treatment of them.
+970	Their property must not be taken unjustly.
+971	Helping them is a great good deed.
+972	It is a child who lost their father before becoming an adult.
+973	Salam
+974	It is the Islamic greeting.
+975	It spreads peace and closeness among people.
+976	It is answered with an equal or better reply.
+977	It begins with the words “As-salamu alaykum”.
+978	It means a greeting of peace.
+979	As-salamu alaykum
+980	It is said when people meet.
+981	Muslims use it often.
+982	It is answered with “Wa alaykumus-salam”.
+983	In it you wish peace to another person.
+984	It is the Islamic greeting.
+985	Alhamdulillah
+986	It is a short dhikr.
+987	It is said on many occasions.
+988	With it we thank and praise Allah.
+989	Al-Fatihah begins with these words.
+990	It means “All praise is for Allah”.
+991	Subhanallah
+992	It is often said after Salah.
+993	With it Allah is glorified and praised.
+994	In the tasbih after Salah it is often repeated 33 times.
+995	It means that Allah is free from every imperfection.
+996	Allahu akbar
+997	It is often heard in Salah.
+998	It is also said on the days of Eid.
+999	It means “Allah is the Greatest”.
+1000	Astaghfirullah
+1001	It is a short dua and dhikr.
+1002	It is connected with tawbah.
+1003	It is said when a person asks for forgiveness.
+1004	A Muslim can repeat it often.
+1005	It means “I ask Allah for forgiveness”.
+1006	InshaAllah
+1007	It is a phrase Muslims use.
+1008	It is connected with future plans.
+1009	It reminds us that nothing happens without Allah’s will.
+1010	It is said when we talk about what we plan to do.
+1011	It means “If Allah wills”.
+1012	MashaAllah
+1013	It is said when you see something beautiful or valuable.
+1014	It reminds us that blessings come from Allah.
+1015	With it you show admiration without taking credit for yourself.
+1016	It means roughly “What Allah has willed”.
+1017	Al-Amin
+1018	It is a nickname connected with a beautiful quality.
+1019	It was known among the people of Makkah before the Revelation began.
+1020	It is about trust and reliability.
+1021	Muhammad (SAW) was known by this nickname.
+1022	It means “the trustworthy one”.
+1023	Rahmah
+1024	It is connected with Allah’s beautiful attributes.
+1025	A believer asks Allah to grant it to him.
+1026	It includes mercy, kindness and compassion.
+1027	It means mercy.
+1028	Akhirah (the Hereafter)
+1029	It is connected with Islamic belief.
+1030	It comes after life in this world (dunya).
+1031	It is connected with the Day of Judgement, Jannah and Jahannam.
+1032	Believing in it affects a person’s deeds in this world.
+1033	It means the coming, everlasting world after death.

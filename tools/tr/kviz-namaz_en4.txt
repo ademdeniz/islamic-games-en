@@ -1,0 +1,391 @@
+1220	What do we pray first in Maghrib prayer?
+1221	The Sunnah
+1222	Nafl
+1223	What do we pray after the fard of Maghrib?
+1224	Three rak’ahs of fard
+1225	Janazah (funeral) prayer
+1226	What do we recite in the first rak’ah of the fard of Maghrib?
+1227	What do we recite in the second rak’ah of the fard of Maghrib?
+1228	Subhanaka and the Salawat
+1229	What do we recite in the first sitting of the fard of Maghrib?
+1230	The dua after Salah
+1231	According to the lesson, what do we recite in the third rak’ah of the fard of Maghrib?
+1232	Subhanaka, Al-Fatihah and a surah
+1233	Bismillah and Al-Fatihah
+1234	What do we recite in the last sitting of the fard of Maghrib?
+1235	Subhanaka and A’udhu billah
+1236	At-Tahiyyat, the Salawat and duas, and then we give the salam
+1237	How is the Sunnah of Maghrib prayed?
+1238	The same way as the Sunnah of Fajr
+1239	Like a three-rak’ah fard
+1240	Like Witr prayer
+1241	Like Janazah prayer
+1242	FARD AND SUNNAH\n351. What is fard?
+1243	Something we can do only if we want to
+1244	Everything that Allah, the Most High, has commanded us to do
+1245	Only what we do on Fridays
+1246	Something done only for Eid
+1247	What is Sunnah?
+1248	Everything that is forbidden
+1249	Only what we learn from the Qur’an
+1250	Everything that Muhammad (SAW) recommended us to do
+1251	Only the required part of Salah
+1252	ISHA PRAYER AND WITR PRAYER\n353. Which daily prayer in order is Isha prayer?
+1253	The fifth
+1254	When does the time for Isha prayer begin?
+1255	When night has fully come
+1256	Before sunset
+1257	How many rak’ahs does Isha prayer have altogether?
+1258	11
+1259	13
+1260	How are the 13 rak’ahs of Isha prayer divided?
+1261	2 Sunnah, 4 fard, 4 final Sunnah and 3 Witr
+1262	4 Sunnah, 4 fard, 2 final Sunnah and 3 Witr
+1263	4 Sunnah, 2 fard, 4 final Sunnah and 3 Witr
+1264	4 Sunnah, 4 fard and 5 Witr
+1265	What do we pray first in Isha prayer?
+1266	In what order is Isha prayer prayed?
+1267	Fard, Sunnah, Witr, final Sunnah
+1268	Witr, fard, Sunnah, final Sunnah
+1269	Sunnah, fard, final Sunnah, Witr
+1270	Final Sunnah, Sunnah, fard, Witr
+1271	How many rak’ahs does the first Sunnah of Isha prayer have?
+1272	What is recited in the first rak’ah of the Sunnah of Isha prayer?
+1273	What is recited in the first sitting of the four-rak’ah Sunnah of Isha?
+1274	Du’a al-Qunut
+1275	What is recited in the third rak’ah of the Sunnah of Isha prayer?
+1276	Only Bismillah
+1277	How many rak’ahs does the fard of Isha prayer have?
+1278	What is recited in the first sitting of the fard of Isha prayer?
+1279	According to the chart, what is recited in the third and fourth rak’ahs of the fard of Isha?
+1280	Subhanaka and Al-Fatihah
+1281	How many rak’ahs does the final Sunnah of Isha prayer have?
+1282	What is recited in the first rak’ah of the final Sunnah of Isha prayer?
+1283	How many rak’ahs does Witr prayer have?
+1284	What is recited in the first sitting of Witr prayer?
+1285	The Salawat
+1286	What is recited in the third rak’ah of Witr prayer?
+1287	Bismillah, Al-Fatihah and a surah, a takbir and Du’a al-Qunut
+1288	What do we do after the surah in the third rak’ah of Witr prayer?
+1289	We give the salam straight away
+1290	We sit down and recite At-Tahiyyat
+1291	We go straight into sajdah
+1292	We say the takbir and recite Du’a al-Qunut
+1293	What is recited in the last sitting of Witr prayer?
+1294	Only Du’a al-Qunut
+1295	WHAT WE RECITE IN EACH RAK’AH, IN ORDER\n373. What is recited in the first rak’ah of the fard of the daily prayers?
+1296	At-Tahiyyat and the Salawat
+1297	What is recited in the second rak’ah of the fard?
+1298	What is recited in the first sitting of the fard?
+1299	Only the Salawat
+1300	Al-Fatihah
+1301	At-Tahiyyat, up to the Salawat
+1302	What is recited in the third rak’ah of the fard?
+1303	What is recited in the fourth rak’ah of the fard?
+1304	What is recited in the last sitting of the fard?
+1305	At-Tahiyyat, the Salawat, duas and giving the salam
+1306	After which rak’ah of Fajr prayer does the last sitting come?
+1307	The first
+1308	The third
+1309	The second
+1310	The fourth
+1311	After which rak’ah of the fard of Maghrib does the last sitting come?
+1312	What is recited in the first rak’ah of the Sunnah of Dhuhr?
+1313	How far is At-Tahiyyat recited in the first sitting of the Sunnah of Dhuhr?
+1314	Up to Al-Fatihah
+1315	Up to the dua
+1316	Up to the Salawat
+1317	Up to Du’a al-Qunut
+1318	What is recited in the third rak’ah of the Sunnah of Dhuhr?
+1319	Subhanaka, A’udhu billah, Bismillah and Al-Fatihah
+1320	What is recited in the fourth rak’ah of the Sunnah of Dhuhr?
+1321	What is recited in the last sitting of the Sunnah of Dhuhr?
+1322	The first sitting of the Sunnah of Dhuhr is different from the first sitting of which Sunnah?
+1323	The Sunnah of Fajr
+1324	The Sunnah of Maghrib
+1325	The Sunnah of Asr and of Isha
+1326	The Eid Sunnah
+1327	Which Sunnahs are shown together in the chart because they are prayed the same way?
+1328	Fajr and Dhuhr
+1329	Maghrib and Witr
+1330	Dhuhr and Fajr
+1331	Isha and Asr
+1332	What is recited in the first rak’ah of the Sunnah of Isha and Asr?
+1333	What is recited in the second rak’ah of the Sunnah of Isha and Asr?
+1334	What is recited in the first sitting of the Sunnah of Isha and Asr?
+1335	How does the third rak’ah of the Sunnah of Isha and Asr begin?
+1336	With Bismillah
+1337	With At-Tahiyyat
+1338	What is recited in the third rak’ah of the Sunnah of Isha and Asr?
+1339	What is recited in the fourth rak’ah of the Sunnah of Isha and Asr?
+1340	What is recited in the last sitting of the Sunnah of Isha and Asr?
+1341	In which prayer is the last sitting after the second rak’ah?
+1342	The fard of Dhuhr
+1343	The fard of Asr
+1344	The fard of Isha
+1345	Fajr prayer
+1346	When is Witr prayer prayed?
+1347	After Fajr
+1348	After Isha prayer
+1349	Before Maghrib
+1350	According to the chart, what are the first and second rak’ahs of Witr prayer like?
+1351	Completely different from other prayers
+1352	Like Eid prayer
+1353	Like the first and second rak’ahs of other prayers
+1354	Without Al-Fatihah
+1355	According to the chart, what is recited in the first sitting of Witr prayer?
+1356	What is recited in the third rak’ah of Witr prayer before the takbir?
+1357	What do we say after the surah in the third rak’ah of Witr prayer?
+1358	The salam
+1359	The takbir “Allahu akbar”
+1360	Which dua is recited in the third rak’ah of Witr prayer?
+1361	Rabbi yassir
+1362	The dua after eating
+1363	According to the chart, in which rak’ahs of a four-rak’ah fard do we recite a surah after Al-Fatihah?
+1364	In the third and fourth
+1365	Only in the fourth
+1366	In all four
+1367	In the first and second
+1368	According to the chart, what is not recited after Al-Fatihah in the third rak’ah of a four-rak’ah fard?
+1369	An extra surah
+1370	Bismillah
+1371	None of these
+1372	According to the chart, what is not recited after Al-Fatihah in the fourth rak’ah of a four-rak’ah fard?
+1373	The takbir
+1374	In which rak’ah of the Sunnah of Dhuhr do we not recite Subhanaka again?
+1375	The first
+1376	The second
+1377	The third
+1378	It is not recited in any of them
+1379	In which rak’ah of the Sunnah of Asr and Isha do we recite Subhanaka again?
+1380	The fourth
+1381	What is recited after Subhanaka in the first rak’ah?
+1382	A’udhu billah
+1383	What is recited after A’udhu billah in the first rak’ah?
+1384	What is recited after Bismillah in the first rak’ah?
+1385	According to the chart, what is recited after Al-Fatihah in the first rak’ah?
+1386	One surah
+1387	According to the chart, what does the second rak’ah begin with?
+1388	With A’udhu billah
+1389	What comes after Bismillah in the second rak’ah?
+1390	What is recited after Al-Fatihah in the second rak’ah?
+1391	What is recited after At-Tahiyyat in the last sitting?
+1392	What is recited after the Salawat in the last sitting?
+1393	How does the last sitting end?
+1394	With Du’a al-Qunut
+1395	With the Adhan
+1396	With the Iqamah
+1397	Which two Sunnahs have At-Tahiyyat and the Salawat in the first sitting?
+1398	Fajr and Maghrib
+1399	What is special about the third rak’ah of the Sunnah of Asr and Isha?
+1400	Only Al-Fatihah is recited
+1401	We go straight to sitting
+1402	Du’a al-Qunut is recited
+1403	Subhanaka and A’udhu billah are recited again
+1404	According to the chart, in which prayer is Du’a al-Qunut specially recited?
+1405	Witr prayer
+1406	The fard of Dhuhr
+1407	The fard of Fajr
+1408	The fard of Maghrib
+1409	In which rak’ah of Witr prayer is Du’a al-Qunut recited?
+1410	In every rak’ah
+1411	EID AL-FITR AND EID AL-ADHA\n422. On which days of the month of Shawwal is Eid al-Fitr (Ramadan Eid) celebrated?
+1412	The 10th, 11th and 12th of Shawwal
+1413	The 5th, 6th and 7th of Shawwal
+1414	The 1st, 2nd and 3rd of Shawwal
+1415	Only the 1st of Shawwal
+1416	After which month does Eid al-Fitr come?
+1417	Muharram
+1418	Rabi’ al-Awwal
+1419	Dhul-Hijjah
+1420	Ramadan
+1421	What do Muslims celebrate on Eid al-Fitr?
+1422	The joy of fulfilling the duty of fasting and other duties in Ramadan
+1423	The start of the new Hijri year
+1424	The birth of Muhammad (SAW)
+1425	The Hijrah from Makkah to Madinah
+1426	On which days of Dhul-Hijjah is Eid al-Adha (Qurbani Eid) celebrated?
+1427	The 1st, 2nd and 3rd of Dhul-Hijjah
+1428	The 10th, 11th, 12th and 13th of Dhul-Hijjah
+1429	The 20th, 21st and 22nd of Dhul-Hijjah
+1430	Only the 10th of Dhul-Hijjah
+1431	Which acts of worship is Eid al-Adha, also called the Hajj Eid, especially connected with?
+1432	Only with fasting
+1433	Only with reciting the Mawlid
+1434	With Hajj, Qurbani and the Takbir at-Tashriq
+1435	Only with Zakah
+1436	How many days does Eid al-Fitr last?
+1437	One day
+1438	Two days
+1439	Three days
+1440	Four days
+1441	What do Muslims do in the morning of the first day of Eid al-Fitr?
+1442	They go to the mosque to pray the Eid prayer
+1443	They go to the graveyard
+1444	They fast all day
+1445	They stay at home
+1446	How do we spend the days of Eid?
+1447	We only rest
+1448	We do good deeds that Allah loves, we are happy, we visit family, neighbours and friends and exchange gifts
+1449	We don’t visit anyone
+1450	We fast all three days
+1451	What is marked in Bosnia and Herzegovina on the second day of Eid al-Fitr?
+1452	The new Hijri year
+1453	The Mawlid
+1454	Waqf Day (Day of the Endowers)
+1455	Day of the Shuhada (Martyrs)
+1456	With which words do we give Eid greetings?
+1457	Eid Mubarak!
+1458	MashaAllah!
+1459	InshaAllah!
+1460	Subhanallah!
+1461	How many days does Eid al-Adha last?
+1462	Seven days
+1463	On which days of the month of Dhul-Hijjah is Eid al-Adha?
+1464	The 1st, 2nd, 3rd and 4th
+1465	The 10th, 11th, 12th and 13th
+1466	The 5th, 6th, 7th and 8th
+1467	The 20th, 21st, 22nd and 23rd
+1468	Which acts of worship do Muslims do in the days of Eid al-Adha?
+1469	Only fasting
+1470	Only Zakah
+1471	Hajj, Qurbani and the Takbir at-Tashriq
+1472	Why is Eid al-Adha also called the Hajj Eid?
+1473	Because Ramadan starts then
+1474	Because the Hijrah is remembered then
+1475	Because the Mawlid is recited then
+1476	Because Muslims from all over the world perform Hajj in Makkah
+1477	What do we recite on the day before and on all four days of Eid al-Adha?
+1478	The Takbir at-Tashriq
+1479	Only the Adhan
+1480	Only the Iqamah
+1481	Where do we go in the morning of the first day of Eid al-Adha?
+1482	To the market
+1483	To school
+1484	To the mosque to pray the Eid prayer
+1485	On a trip
+1486	What do those who are able offer after the Eid prayer?
+1487	Sadaqah, only in money
+1488	Zakah
+1489	Food for themselves
+1490	Qurbani (the sacrifice)
+1491	Into how many parts can we divide the Qurbani meat?
+1492	Into three parts
+1493	Into two parts
+1494	Into four parts
+1495	Into five parts
+1496	What is good to do with our home, the mosque and our surroundings before Eid?
+1497	Leave them as they are
+1498	Only decorate the house
+1499	Clean them and make them beautiful
+1500	Clean only the mosque
+1501	What is good to wear for Eid?
+1502	Work clothes
+1503	Any old clothes
+1504	Only white clothes
+1505	Our nicest festive clothes
+1506	What is a nice way to give Eid greetings to our parents?
+1507	Kiss their right hand and give them a gift
+1508	Only send a message
+1509	Not greet them specially
+1510	Greet them only by phone
+1511	Whom is it good to visit for Eid?
+1512	Only friends
+1513	Our closest family, neighbours, relatives and friends
+1514	Only neighbours
+1515	Only relatives
+1516	Which animals can be offered as Qurbani?
+1517	A sheep, a goat, a cow and a camel
+1518	A chicken, a duck and a goose
+1519	A horse and a donkey
+1520	All farm animals
+1521	For how many people can a sheep or a goat be a Qurbani?
+1522	For two people
+1523	For one person
+1524	For five people
+1525	For seven people
+1526	For at most how many people can a cow be a Qurbani?
+1527	For three people
+1528	For ten people
+1529	What should an animal offered as Qurbani be like?
+1530	Any kind
+1531	The biggest in the herd, always
+1532	Only white
+1533	Healthy and without defects
+1534	How is the Qurbani meat shared?
+1535	We keep one third for ourselves, one third for the poor, and one third for relatives, neighbours and friends
+1536	We must keep all the meat for ourselves
+1537	We must sell all the meat
+1538	The meat must not be shared
+1539	Who is considered a sahib al-udhr (a person with an ongoing excuse)?
+1540	A person who often forgets wudu
+1541	A person who constantly has blood, urine or another fluid flowing or dripping from their body
+1542	A person who cannot pray standing
+1543	A person who is travelling
+1544	When does a person have the status of sahib al-udhr?
+1545	If the problem happens only once in their life
+1546	If the problem lasts for at least one whole prayer time
+1547	If the problem lasts five minutes
+1548	Only during the night
+1549	How often does a sahib al-udhr need to make wudu?
+1550	Once a day
+1551	Separately for each Salah
+1552	For each prayer time
+1553	What can a sahib al-udhr do with a wudu made in one prayer time?
+1554	Only one fard prayer
+1555	Fard prayer, missed prayers, certain nafl prayers and reading the Qur’an
+1556	Only reading the Qur’an
+1557	Only nafl prayers
+1558	When does a person stop being a sahib al-udhr?
+1559	When the next prayer time comes
+1560	When they make a new wudu
+1561	When the problem does not happen for one whole prayer time
+1562	After seven days
+1563	Which group of prayers do the five daily prayers belong to?
+1564	Sunnah prayers
+1565	Nafl prayers
+1566	Fard prayers
+1567	Wajib prayers
+1568	Which of these prayers is fard?
+1569	The Eid al-Fitr prayer
+1570	Tahiyyat al-Masjid
+1571	The Eid al-Adha prayer
+1572	Nafl prayer
+1573	Istikharah prayer
+1574	Isha prayer
+1575	Which of these prayers is one of the fard prayers?
+1576	Eid prayer
+1577	Jumu’ah prayer
+1578	Which group of prayers does Witr prayer belong to?
+1579	Fard prayers
+1580	Wajib prayers
+1581	Nafl prayers
+1582	Janazah prayers
+1583	Which of these prayers is wajib?
+1584	Which group contains only wajib prayers?
+1585	Fajr, Dhuhr and Asr
+1586	Witr, Eid al-Fitr and Eid al-Adha
+1587	Jumu’ah, Janazah and Fajr
+1588	Maghrib, Isha and Witr
+1589	How are Sunnah prayers divided?
+1590	Into fard and wajib
+1591	Into day and night prayers
+1592	Into emphasised and non-emphasised
+1593	Into required and forbidden
+1594	What are the emphasised Sunnahs called?
+1595	Sunnah mu’akkadah
+1596	Sunnah ghayr mu’akkadah
+1597	Fard
+1598	Wajib
+1599	What are the non-emphasised Sunnahs called?
+1600	Fard kifayah
+1601	Which of these Sunnahs is an emphasised Sunnah?
+1602	The two rak’ahs of the Sunnah of Fajr
+1603	The four rak’ahs of the Sunnah of Asr
+1604	How many rak’ahs of emphasised Sunnah does Dhuhr prayer have?
+1605	2
+1606	How many rak’ahs of emphasised Sunnah does Maghrib prayer have?
+1607	3
+1608	Which of these Sunnahs is a non-emphasised Sunnah?
+1609	The two rak’ahs of the Sunnah of Maghrib
+1610	The two rak’ahs of the emphasised Sunnah of Isha

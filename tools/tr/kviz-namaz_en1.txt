@@ -1,0 +1,420 @@
+0	CLEANLINESS OF THE BODY, CLOTHES AND PLACE OF PRAYER\n1. What is the first condition (shart) of Salah (prayer)?
+1	Making wudu (ablution)
+2	Facing the Qiblah
+3	Cleanliness of the body, clothes and place of prayer
+4	Niyyah (intention)
+5	When do we need to be especially careful about cleanliness?
+6	When we travel
+7	When we sleep
+8	When we eat
+9	When we pray
+10	What did Muhammad (SAW) say about cleanliness?
+11	“Cleanliness is part of Salah.”
+12	“Cleanliness is half of iman (faith).”
+13	“Cleanliness is only a recommendation.”
+14	“Cleanliness is only for Salah.”
+15	Who recorded the hadith “Cleanliness is half of iman”?
+16	Muslim
+17	At-Tirmidhi
+18	Abu Dawud
+19	An-Nasa’i
+20	How do we keep our body clean?
+21	Only by bathing
+22	Only by washing our hands
+23	With personal hygiene
+24	Only by making wudu
+25	Which of these helps keep the body clean?
+26	Bathing regularly
+27	Wearing the same clothes
+28	Not washing our hands
+29	Rarely brushing our teeth
+30	How should we try to keep our clothes?
+31	Only new
+32	Expensive
+33	Colourful
+34	Neat and clean
+35	What must we especially keep our clothes away from?
+36	From rain and snow
+37	From alcohol, blood, urine, dog saliva and similar impurities
+38	From dust on the street
+39	From moths
+40	What has Allah, the Most Merciful, made a place for prayer?
+41	Only mosques
+42	Only the home
+43	The whole Earth
+44	Only masjids
+45	What should the place of prayer be like?
+46	Big and spacious
+47	Decorated
+48	Brightly lit
+49	Clean and tidy
+50	How do we make the place where we pray clean?
+51	Only by laying down a prayer mat
+52	By removing all visible and invisible impurities
+53	Only by washing the floor
+54	By burning incense
+55	What can we use to be more sure that the place where we pray is clean?
+56	A prayer mat (sajjadah)
+57	A pillow
+58	A chair
+59	A hand towel
+60	What is a sajjadah (prayer mat)?
+61	Clothing for prayer
+62	A prayer cap
+63	A special mat made for prayer
+64	A container for wudu
+65	What must not be in the place where we pray?
+66	A prayer mat
+67	Clean clothes
+68	A clean floor
+69	Pictures, figures of living beings or anything that distracts the person praying
+70	WUDU (ABLUTION)\n15. What is the second condition (shart) of Salah?
+71	Wudu
+72	Facing towards the Qiblah
+73	Clean clothes (cleanliness of clothing)
+74	What is wudu?
+75	Bathing the whole body
+76	Religious washing of certain parts of the body
+77	Washing only the hands
+78	Washing clothes
+79	Why do we make wudu?
+80	Only to be clean
+81	Only before sleeping
+82	To pray Salah, read the Qur’an and do other acts of worship
+83	Only before eating
+84	How do we begin making wudu?
+85	Only with the niyyah
+86	Only with Bismillah
+87	By washing the hands
+88	With A’udhu billah, Bismillah and the niyyah
+89	What kind of water do we use for wudu?
+90	Clean water
+91	Only salt water
+92	Juice
+93	Scented water
+94	What do we wash first when making wudu?
+95	The face
+96	The hands up to the wrists
+97	The feet
+98	The ears
+99	How many times do we wash our hands up to the wrists at the start?
+100	Once
+101	Twice
+102	Three times
+103	Four times
+104	Which hand do we use to rinse the mouth?
+105	The left
+106	Both at the same time
+107	It doesn’t matter
+108	The right
+109	How many times do we rinse the mouth?
+110	Five times
+111	What can we use to clean our teeth during wudu?
+112	Only water
+113	A toothbrush or a miswak
+114	A towel
+115	Soap
+116	How many times do we rinse the nose?
+117	How many times do we wash the face in the usual way of making wudu?
+118	Which arm do we wash first up to and including the elbow?
+119	The right
+120	The left
+121	Both together
+122	It is not important
+123	How many times do we wash the right arm up to and including the elbow?
+124	What do we wash after the right arm?
+125	The left arm up to and including the elbow
+126	What does masah mean?
+127	Washing the feet
+128	Rinsing the nose
+129	Washing the face
+130	Wiping at least a quarter of the head with a wet hand
+131	What is the smallest part of the head we wipe with a wet hand?
+132	At least a quarter of the head
+133	Half of the head
+134	The whole head, always
+135	Only the forehead
+136	What do we wipe after the masah of the head?
+137	The neck
+138	The ears, inside and outside
+139	The feet
+140	How is the neck wiped?
+141	Three times with the palms
+142	With a wet cloth
+143	Once with the backs of the fingers
+144	It is neither washed nor wiped
+145	What is good to recite after making wudu?
+146	The Kalimat ash-Shahadah
+147	The Adhan
+148	The Iqamah
+149	Only Al-Fatihah
+150	What are the required actions of wudu called?
+151	The pillars (arkan) of Salah
+152	The conditions (shurut) or fard parts of wudu
+153	The pillars of Islam
+154	The pillars of Iman
+155	How many fard parts (conditions) of wudu are there?
+156	Three
+157	Five
+158	Four
+159	Six
+160	What happens if we do not do the fard parts of wudu?
+161	The wudu is still complete
+162	Only the reward becomes smaller
+163	We only need to recite a dua
+164	The wudu is not valid
+165	What is the first fard part of wudu?
+166	Washing the face once
+167	Washing the feet
+168	Wiping the head
+169	Washing the hands
+170	What is the second fard part of wudu?
+171	Rinsing the mouth
+172	Washing the right and left arm up to and including the elbows, once each
+173	Wiping the ears
+174	What is the third fard part of wudu?
+175	Washing the face three times
+176	Wiping at least a quarter of the head with a wet hand – masah
+177	Washing the ears
+178	What is the fourth fard part of wudu?
+179	Washing the hands up to the wrists
+180	Rinsing the nose
+181	Wiping the neck
+182	Washing the right and left foot up to and including the ankles, once each
+183	Which of these breaks wudu?
+184	Sleeping or losing consciousness, even for a moment
+185	Reading the Qur’an
+186	Washing the hands
+187	Sitting
+188	Does blood or another fluid flowing out of the body break wudu?
+189	No, never
+190	Yes
+191	Only during Salah
+192	Only at night
+193	What happens to wudu if a person vomits from the stomach?
+194	We don’t need to repeat wudu
+195	Nothing changes
+196	The wudu is broken
+197	Only the Salah is broken
+198	Which one of these breaks wudu?
+199	Talking quietly
+200	Walking
+201	Drinking water
+202	Going to the toilet (any call of nature)
+203	Which of these breaks wudu during Salah?
+204	Laughing out loud during Salah
+205	Standing
+206	Sajdah (prostration)
+207	How many prayers can we pray with one wudu?
+208	Only one
+209	Several prayers, as long as nothing happens that breaks our wudu
+210	Two at most
+211	Only the fard of one prayer
+212	Which ayah of the Qur’an talks about the fard parts of wudu?
+213	Al-Fatihah, 1
+214	Al-Ikhlas, 1
+215	Al-Baqarah, 255
+216	Al-Ma’idah, 6
+217	Who were Hasan and Husayn (RA)?
+218	The sons of Ali and Fatimah (RA) and grandsons of Muhammad (SAW)
+219	Messengers of Allah
+220	Mu’adhdhins (callers to prayer)
+221	Teachers in a madrasah
+222	What did Hasan and Husayn notice about a man who was making wudu?
+223	That he had not called the Adhan
+224	That he was not making it correctly
+225	That he had not prayed Salah
+226	That he had no water
+227	How did Hasan and Husayn teach the man to make wudu correctly?
+228	They told him off in front of everyone
+229	They said nothing to him
+230	They asked him to judge which of the two of them made wudu more beautifully, more correctly and faster
+231	They sent him to another man
+232	What did the man say to Hasan and Husayn after watching them make wudu?
+233	That they needed to repeat their wudu
+234	That only one of them had made wudu correctly
+235	That he did not understand them
+236	“Dear children, may Allah reward you, you have taught me how to make wudu.”
+237	GHUSL\n53. What is ghusl?
+238	The required religious bath
+239	Cleaning with earth
+240	Washing only the face
+241	How many fard parts (conditions) of ghusl are there?
+242	Two
+243	What is the first fard part of ghusl?
+244	Washing the whole body
+245	Rinsing the mouth and throat three times – gargling (gharghara)
+246	Rinsing the nose
+247	What is the second fard part of ghusl?
+248	Washing the head
+249	Rinsing the mouth
+250	Rinsing the nose three times – istinshaq
+251	What is the third fard part of ghusl?
+252	Washing the whole body so that no part stays dry
+253	Washing only the head
+254	Washing only the hands and feet
+255	What is Sunnah to recite before ghusl?
+256	A’udhu billah and Bismillah, and then making the niyyah
+257	Only one surah
+258	How many times is it Sunnah to rinse the body during ghusl?
+259	Two times
+260	Seven times
+261	In what order is it Sunnah to wash the body after washing the head?
+262	First the left side, then the right
+263	Only the front
+264	The order does not matter
+265	First the right side, and then the left
+266	What is disliked (makruh) during ghusl?
+267	Wasting too much water
+268	Using warm water
+269	What else is disliked during ghusl if it is not necessary?
+270	Talking and asking someone else for help
+271	Washing the right side of the body
+272	Washing off visible dirt
+273	What is ghasl al-wujud?
+274	Washing the whole body
+275	What is istinshaq?
+276	What is gharghara?
+277	Washing (rinsing) the mouth and throat
+278	TAYAMMUM\n66. What is tayammum?
+279	A special prayer
+280	A symbolic cleansing so we can pray Salah and read the Qur’an
+281	A kind of dua
+282	Bathing after Salah
+283	When can we make tayammum instead of wudu?
+284	When, for a valid reason, we are not able to make wudu
+285	Whenever we want
+286	Only on Fridays
+287	Only after Salah
+288	What is one of the most common reasons for making tayammum?
+289	Cold weather
+290	Not having enough time
+291	When there is no water
+292	Being tired
+293	Can we make tayammum if we have a little water, but we need it for drinking?
+294	Only when travelling
+295	When else can we make tayammum even though we have water?
+296	When for a valid reason we cannot use it for wudu or ghusl
+297	Only when we are at home
+298	When we don’t feel like making wudu
+299	When we want to pray faster
+300	What do we do first when making tayammum?
+301	We wash our feet
+302	We make the niyyah in our heart and recite A’udhu billah and Bismillah
+303	We call the Adhan
+304	We wipe our face
+305	What do we use to touch clean dry earth, or something made of earth, for tayammum?
+306	Our feet
+307	Our elbows
+308	Our palms
+309	Our forehead
+310	What do we wipe after touching clean dry earth the first time in tayammum?
+311	The hair
+312	What do we wipe after touching the earth the second time in tayammum?
+313	Only the face
+314	The arms up to and past the elbows
+315	Only the hands
+316	Which arm do we wipe first in tayammum?
+317	Both at the same time
+318	We don’t need to wipe the arms
+319	In what order do we wipe the arms in tayammum?
+320	Only the right
+321	Only the left
+322	First the left, then the right
+323	First the right, then the left
+324	According to the meaning of the niyyah, why is tayammum made?
+325	For Salah, to remove the state of impurity and to come closer to Allah, the Most High
+326	To rest
+327	For travelling
+328	For eating
+329	What does the Qur’an tell us to do if we cannot find water?
+330	Not to pray
+331	To wipe our face and hands with clean earth
+332	To wait for the next day
+333	To pray without any cleansing
+334	What breaks tayammum?
+335	Only sleeping
+336	Only eating
+337	Everything that also breaks wudu
+338	Apart from what breaks wudu, what else ends tayammum?
+339	Entering a mosque
+340	Reciting Bismillah
+341	Praying in congregation (jama’ah)
+342	Being able to use water for wudu or ghusl
+343	Can we make tayammum if the water is far away or hard to reach?
+344	No
+345	Only for Fajr
+346	Only for Isha
+347	Can we make tayammum if the water is not clean?
+348	No, we must use it
+349	Only in the mosque
+350	Apart from clean dry earth, what else can tayammum be done with?
+351	Wet clothes
+352	Something made of earth
+353	Food
+354	What must we have before praying Salah and reading the Qur’an in normal circumstances?
+355	Only ghusl
+356	Tayammum in every situation
+357	Nothing
+358	What is tayammum?
+359	Washing the hands with water
+360	A symbolic cleansing
+361	Washing the face and feet
+362	When can we make tayammum?
+363	When we have no water for wudu or ghusl
+364	When we have enough water
+365	What can we do if we have only a very little water that we need more for drinking and cooking?
+366	Not pray Salah
+367	Make ghusl
+368	Make tayammum
+369	Only wash our hands
+370	Can we make tayammum if we cannot use water because of illness or great cold?
+371	Only in summer
+372	We cannot
+373	We can
+374	How many fard parts (conditions) of tayammum are there?
+375	What is the first fard part of tayammum?
+376	Wiping the face
+377	Making the niyyah in the heart and reciting A’udhu billah and Bismillah
+378	Wiping the feet
+379	Reciting Bismillah
+380	What do we do after we touch dry earth, or something made of earth, with our palms for the first time?
+381	We wipe our feet
+382	We wipe our hair
+383	We wipe our face once
+384	We wipe our neck
+385	What do we do after we touch dry earth, or something made of earth, again?
+386	We wipe only our face
+387	We wipe our head
+388	We wipe the right and left arm up to and including the elbows
+389	What will break tayammum?
+390	Everything that breaks wudu
+391	Talking
+392	Apart from what breaks wudu, what else can break tayammum?
+393	Time running out
+394	Going for a walk
+395	MASAH OVER KHUFFS AND BANDAGES\n95. What does masah mean?
+396	Wiping a part of the body, or something else, with a wet hand
+397	Making tayammum
+398	Washing the feet three times
+399	Over what part of the head do we do masah when making wudu?
+400	Over one quarter of the head
+401	Over the whole head, always
+402	Only over the forehead
+403	Over half of the head
+404	Apart from the head, what else can masah be done over?
+405	Only over the hands
+406	Only over shoes
+407	Over khuffs (leather socks) and bandages
+408	Only over clothes
+409	What are khuffs?
+410	A kind of cap
+411	Special gloves
+412	A kind of bandage
+413	Light indoor footwear, usually made of leather
+414	For what reasons can the ease (rukhsah) of masah over khuffs be used?
+415	Only because of tiredness
+416	Because of illness, cold weather and while travelling
+417	Only because of hot weather
+418	Only because of lack of time
+419	When should a person put on khuffs so they can later do masah over them?

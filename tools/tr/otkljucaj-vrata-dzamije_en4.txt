@@ -1,0 +1,251 @@
+778	Look for it, then face the direction we think is the Qiblah
+779	Not pray Salah
+780	Always face east
+781	Face the nearest window
+782	What is it not allowed to face on purpose while praying?
+783	A wall
+784	Figures, or a picture or photo of a person or an animal
+785	A door
+786	A window
+787	Which device can we use to find the direction of the Qiblah?
+788	A thermometer
+789	A calculator
+790	A compass or a GPS device
+791	Scales
+792	What on a mobile phone can show us the exact direction of the Qiblah?
+793	The camera
+794	The photo gallery
+795	The calculator
+796	A Qiblah-finder app
+797	What shows the direction of the Qiblah on a Qiblah clock?
+798	The direction opposite the shadow of the object we are looking at
+799	The direction of the shadow itself
+800	Always the direction of sunrise
+801	Always the direction of north
+802	On which side of a tree are the branches and leaves fuller?
+803	On the north side
+804	On the south side
+805	On the east side
+806	On the west side
+807	On which side of a tree is the bark rougher and covered with moss?
+808	On which side of a stump, stone or bush can we find an anthill?
+809	Which surah is the last surah in the Qur’an?
+810	Al-Falaq
+811	How does surah An-Nas begin?
+812	Allahus-Samad
+813	Qul a’udhu birabbin-nas
+814	Qul huwallahu ahad
+815	Min sharri ma khalaq
+816	What does “Qul a’udhu birabbin-nas” mean?
+817	Say: Allah is One
+818	Say: Thanks be to Allah
+819	Say: I seek refuge with the Lord of the daybreak
+820	Say: I seek refuge with the Lord of mankind
+821	What is the second ayah of surah An-Nas?
+822	Malikin-nas
+823	Ilahin-nas
+824	Minal-jinnati wan-nas
+825	Min sharril-waswasil-khannas
+826	What does “Malikin-nas” mean?
+827	Lord of mankind
+828	King of mankind
+829	Protector of mankind
+830	Creator of the heavens
+831	What is the third ayah of surah An-Nas?
+832	Fi sudurin-nas
+833	What does “Ilahin-nas” mean?
+834	God of mankind
+835	In surah An-Nas, from whose evil do we seek Allah’s protection?
+836	From the evil of Shaytan – the whisperer
+837	From the cold
+838	From animals
+839	From travelling
+840	Where does Shaytan put evil thoughts?
+841	Into people’s houses
+842	Into people’s hearts
+843	Into their clothes
+844	Into their books
+845	How does surah An-Nas end?
+846	Wa min sharri hasidin idha hasad
+847	Lam yalid wa lam yulad
+848	Who can the evil thoughts mentioned at the end of surah An-Nas come from?
+849	Only from people
+850	Only from jinn
+851	Only from Shaytan
+852	From jinn and from people
+853	What does “A’udhu billahi minash-shaytanir-rajim” mean?
+854	Allah is One
+855	What are the conditions of Salah?
+856	Conditions we must fulfil so that our Salah is valid
+857	Voluntary parts of Salah
+858	Duas after Salah
+859	Kinds of Salah
+860	How many conditions of Salah are there in total?
+861	14
+862	How are the conditions of Salah divided?
+863	Into four preconditions and eight pillars (arkan)
+864	Into six preconditions of Salah and six pillars (arkan) of Salah
+865	Into five preconditions and seven pillars
+866	Into three preconditions and nine pillars
+867	What do we call the six conditions that come before praying Salah?
+868	Pillars of Salah
+869	Fard parts of Wudu
+870	Sunnahs of Salah
+871	Preconditions of Salah, or preparations for Salah
+872	How many preconditions of Salah – preparations for Salah – are there?
+873	How many pillars (arkan) of Salah are there?
+874	What is the first precondition of Salah?
+875	That the body, clothes and place of prayer are clean
+876	To pray on time
+877	What is the second precondition of Salah?
+878	To be properly dressed
+879	To make Wudu or, if needed, to take a Ghusl (full bath) or make Tayammum
+880	What is the third precondition of Salah?
+881	What is the fourth precondition of Salah?
+882	To face towards the Qiblah
+883	What is the fifth precondition of Salah?
+884	What is the sixth precondition of Salah?
+885	To make the intention (niyyah) – to decide to pray Salah
+886	What does it mean to make the niyyah for Salah?
+887	To decide to pray Salah
+888	To call the Adhan
+889	What can we do if, when needed, we cannot make Wudu?
+890	Skip the Salah
+891	Make Tayammum
+892	Only wash our hands
+893	Pray without any preparation
+894	What do we call the six conditions of Salah during the prayer?
+895	Preconditions of Salah
+896	Sunnahs
+897	Pillars (arkan) of Salah, or the parts that make up Salah
+898	Duas
+899	What is the first pillar of Salah?
+900	Qiyam
+901	Ruku’
+902	Sajdah
+903	Iftitah takbir – the opening takbir
+904	What is the iftitah takbir?
+905	The opening takbir
+906	Standing in Salah
+907	Bowing in Salah
+908	Sitting at the end of Salah
+909	What is the second pillar of Salah?
+910	Qira’ah
+911	What does qiyam mean?
+912	Reciting the Qur’an
+913	Bowing
+914	Sitting
+915	What is the third pillar of Salah?
+916	What is qira’ah?
+917	Reciting the Qur’an in Salah
+918	Putting the face down on the ground
+919	What is the fourth pillar of Salah?
+920	What is ruku’?
+921	What is the fifth pillar of Salah?
+922	What is sajdah?
+923	What is the sixth pillar of Salah?
+924	Qa’dah akhirah
+925	What does qa’dah akhirah mean?
+926	What is the correct order of the first three pillars of Salah?
+927	Qiyam, ruku’, sajdah
+928	Qira’ah, qiyam, ruku’
+929	Sajdah, qiyam, qira’ah
+930	Iftitah takbir, qiyam, qira’ah
+931	What is the correct order of the last three pillars of Salah?
+932	Ruku’, sajdah, qa’dah akhirah
+933	Sajdah, ruku’, qiyam
+934	Qira’ah, sajdah, ruku’
+935	When is Salah not valid?
+936	If it is prayed in the mosque
+937	Without fulfilling all the conditions of Salah
+938	If the Qur’an is recited
+939	If it is prayed on time
+940	What is the sixth condition of Salah?
+941	What is niyyah?
+942	A conscious decision in the heart about why and for what we do something
+943	Calling the Adhan
+944	Facing the Qiblah
+945	Making Wudu
+946	What should we be aware of before Salah?
+947	How long the Salah lasts
+948	Who is next to us
+949	Which Salah we want to pray
+950	Who called the Adhan
+951	What did Muhammad (SAW) say about deeds and intentions?
+952	Deeds are judged by wealth
+953	Deeds are judged by knowledge
+954	Deeds are judged by time
+955	Deeds are judged by intentions, and every person gets what he intended
+956	How can we strengthen the niyyah and confirm it by saying it?
+957	We can strengthen the decision in our heart by saying the words of the niyyah
+958	By saying the Iqamah
+959	By facing the Qiblah
+960	Does every Salah have its own niyyah?
+961	Only Fajr has its own niyyah
+962	Yes, every Salah has its own niyyah
+963	Only the fard prayers have a niyyah
+964	No, all prayers have the same niyyah
+965	Who should we think of when we say the niyyah?
+966	The other people praying
+967	The muezzin
+968	Allah, the Most High
+969	Our own duties
+970	Which Companion of the Prophet dreamed of a man in green clothes?
+971	Bilal
+972	In the dream, what did Abdullah want to buy from the man?
+973	A green suit
+974	A book
+975	A bell
+976	A sword
+977	What did Abdullah want to use the bell for?
+978	To announce the prayer time and call people to Salah in the mosque
+979	To call people to lunch
+980	To start the lesson
+981	To wake the children up
+982	What did the man in the dream suggest to Abdullah instead of the bell?
+983	To light a lamp
+984	To beat a drum
+985	To raise a flag
+986	To teach him something more beautiful – the Adhan
+987	Who did Abdullah tell about his dream?
+988	Muhammad (SAW)
+989	Only his family
+990	Abu Bakr
+991	His friend
+992	What did Muhammad (SAW) say about Abdullah’s dream?
+993	To forget it
+994	That the dream was true
+995	Not to tell anyone about it
+996	To go back to sleep
+997	Who was Abdullah supposed to go to and teach the words of the Adhan?
+998	Umar
+999	Ali
+1000	Bilal
+1001	Uthman
+1002	Why was Bilal chosen to call the Adhan?
+1003	Because he was the oldest
+1004	Because he lived near the mosque
+1005	Because he heard about the dream first
+1006	Because he had a beautiful voice
+1007	When does Allah, the Most High, give special mercy?
+1008	When the muezzin calls the Adhan
+1009	When people travel
+1010	When children study
+1011	What should we do when we hear the Adhan?
+1012	Talk loudly
+1013	Stop what we are doing and get ready for Salah
+1014	Keep working without stopping
+1015	Leave the mosque
+1016	What do we repeat after the muezzin while he calls the Adhan?
+1017	Only the takbir
+1018	Only the shahadah
+1019	The words of the Adhan
+1020	Only the last sentence
+1021	What do we say when the muezzin calls “Hayya ’alas-salah” and “Hayya ’alal-falah”?
+1022	La hawla wa la quwwata illa billahil-’aliyyil-’azim
+1023	When do we say the dua after the Adhan?
+1024	When the muezzin has finished calling the Adhan
+1025	Before the Adhan starts
+1026	In the middle of the Adhan
+1027	After the Salah is finished
+1028	With which words does the dua after the Adhan begin?

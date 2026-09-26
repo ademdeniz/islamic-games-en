@@ -1,0 +1,231 @@
+1279	Nothing changes
+1280	The Wudu is broken
+1281	Only the Salah is broken
+1282	Which of these breaks Wudu?
+1283	Talking quietly
+1284	Walking
+1285	Drinking water
+1286	Going to the toilet in any way
+1287	Which of these breaks Wudu during Salah?
+1288	Laughing out loud in Salah
+1289	Standing
+1290	How many prayers can we pray with one Wudu?
+1291	Only one
+1292	Several prayers, as long as nothing happens that breaks the Wudu
+1293	Two at most
+1294	Only the fard of one prayer
+1295	Which ayah of the Qur’an talks about the fard parts of Wudu?
+1296	Al-Fatihah, 1
+1297	Al-Ikhlas, 1
+1298	Al-Baqarah, 255
+1299	Al-Ma’idah, 6
+1300	Who were Hasan and Husayn (RA)?
+1301	The sons of Ali and Fatimah (RA) and the grandsons of Muhammad (SAW)
+1302	Messengers of Allah
+1303	Muezzins
+1304	Teachers in a madrasah
+1305	What did Hasan and Husayn notice about a man who was making Wudu?
+1306	That he had not called the Adhan
+1307	That he was not doing it correctly
+1308	That he had not prayed Salah
+1309	That he had no water
+1310	How did Hasan and Husayn teach the man the correct way to make Wudu?
+1311	They told him off in front of everyone
+1312	They did not say anything to him
+1313	They asked him to judge which of the two of them made Wudu more nicely, more correctly and faster
+1314	They sent him to another man
+1315	What did the man say to Hasan and Husayn after watching them make Wudu?
+1316	That they should redo their Wudu
+1317	That only one of them had made Wudu correctly
+1318	That he had not understood them
+1319	“Dear children, may Allah reward you, you have taught me how to make Wudu.”
+1320	What is the first condition of Salah?
+1321	Cleanliness of the body, clothes and place of prayer
+1322	When should we take special care to be clean?
+1323	When we eat
+1324	When we pray
+1325	What did Muhammad (SAW) say about cleanliness?
+1326	“Cleanliness is part of Salah.”
+1327	“Cleanliness is half of faith (iman).”
+1328	“Cleanliness is only a recommendation.”
+1329	“Cleanliness is only for Salah.”
+1330	Who recorded the hadith “Cleanliness is half of faith”?
+1331	Muslim
+1332	Tirmidhi
+1333	Abu Dawud
+1334	Nasa’i
+1335	How do we keep our body clean?
+1336	Only by bathing
+1337	Only by washing our hands
+1338	With personal hygiene
+1339	Only by making Wudu
+1340	Which of these helps to keep the body clean?
+1341	Bathing regularly
+1342	Wearing the same clothes
+1343	Avoiding washing our hands
+1344	Rarely brushing our teeth
+1345	How should we try to keep our clothes?
+1346	Only new
+1347	Expensive
+1348	Colourful
+1349	Tidy and clean
+1350	What should we especially keep our clothes away from?
+1351	From rain and snow
+1352	From alcohol, blood, urine, a dog’s saliva and similar impurities
+1353	From dust on the street
+1354	From moths
+1355	What has Allah, the Most Merciful, made a place for prayer?
+1356	Only mosques
+1357	Only the house
+1358	The whole Earth
+1359	Only masjids
+1360	What should a place for Salah be like?
+1361	Big and spacious
+1362	Decorated
+1363	Well lit
+1364	Clean and tidy
+1365	How do we make sure the place where we pray is clean?
+1366	Only by spreading out a prayer mat
+1367	By removing all visible and invisible impurities
+1368	Only by washing the floor
+1369	By lighting incense
+1370	What can we use to be more sure that the place where we pray is clean?
+1371	A prayer mat (sajjadah)
+1372	A pillow
+1373	A chair
+1374	A hand towel
+1375	What is a sajjadah?
+1376	Clothes for Salah
+1377	A prayer cap
+1378	A special mat for praying on
+1379	A container for Wudu
+1380	What must not be in the place where we pray?
+1381	A prayer mat
+1382	Clean clothes
+1383	A clean floor
+1384	Pictures, figures of living beings, or anything that distracts the person praying
+1385	Which three kinds of cleanliness does the first condition of Salah include?
+1386	Clean hands, face and feet
+1387	Clean body, clothes and place of prayer
+1388	Clean house, mosque and yard
+1389	Clean water, food and dishes
+1390	What are the pillars of Iman?
+1391	Six basic truths of the faith
+1392	The five daily prayers
+1393	The rules of Wudu
+1394	The Islamic holidays
+1395	Seven
+1396	What does iman mean?
+1397	Islamic belief
+1398	What do we often say to show we firmly believe?
+1399	The pillars of Iman
+1400	What are the words of the first pillar of Iman?
+1401	Amantu billahi
+1402	Wa mala’ikatihi
+1403	Wa kutubihi
+1404	Wa rusulihi
+1405	What does “Amantu billahi” mean?
+1406	I believe in the angels
+1407	I believe in Allah
+1408	I believe in the Day of Judgement
+1409	I believe in Allah’s books
+1410	Which basis of belief is given as the first one?
+1411	Belief in the angels
+1412	Belief in the messengers
+1413	Belief in Allah
+1414	Belief in the Day of Judgement
+1415	What are the words of the second pillar of Iman?
+1416	Wal-yawmil-akhiri
+1417	What does “Wa mala’ikatihi” mean?
+1418	And in Allah’s angels
+1419	And in Allah’s books
+1420	And in Allah’s messengers
+1421	And in the Day of Judgement
+1422	With the second pillar of Iman, who do we believe in?
+1423	In the messengers
+1424	In Allah’s angels
+1425	In the books
+1426	In the Day of Judgement
+1427	What are the words of the third pillar of Iman?
+1428	What does “Wa kutubihi” mean?
+1429	Belief in Allah’s books – revelations
+1430	Which pillar of Iman is about Allah’s books – revelations?
+1431	The third
+1432	The first
+1433	The fifth
+1434	The sixth
+1435	What are the words of the fourth pillar of Iman?
+1436	What does “Wa rusulihi” mean?
+1437	Which pillar of Iman in order is about Allah’s messengers?
+1438	The second
+1439	The fourth
+1440	What are the words of the fifth pillar of Iman?
+1441	What does “Wal-yawmil-akhiri” mean?
+1442	I believe in the books
+1443	I believe in the messengers
+1444	Which pillar of Iman is about the Day of Judgement?
+1445	With the fifth pillar of Iman, what do we believe in?
+1446	In Allah’s books
+1447	In the angels
+1448	What is the last pillar of Iman?
+1449	Belief that everything happens by Allah’s will and decree
+1450	Belief in Allah’s books
+1451	How does the sixth pillar of Iman begin?
+1452	Wa bil-qadari
+1453	What does the sixth pillar of Iman teach us?
+1454	To believe only in the angels
+1455	To believe only in the revelations
+1456	That everything happens by Allah’s will and decree
+1457	To believe only in the messengers
+1458	Which pillar is “Wa bil-qadari khayrihi wa sharrihi minallahi ta’ala”?
+1459	What comes after belief in Allah’s books?
+1460	Belief in Allah’s messengers
+1461	Belief in qadar (divine decree)
+1462	What comes right before belief in the Day of Judgement?
+1463	What comes after belief in the Day of Judgement?
+1464	Belief in the books
+1465	Which list correctly gives all six pillars of Iman?
+1466	Allah, angels, books, messengers, the Day of Judgement, Allah’s will and decree
+1467	Allah, books, angels, the Day of Judgement, messengers, Salah
+1468	Angels, Allah, messengers, books, fasting, qadar
+1469	Allah, angels, Salah, fasting, Zakah, Hajj
+1470	Which statement best describes the pillars of Iman?
+1471	They are rules only for praying Salah
+1472	They are the six basic truths of Islamic belief
+1473	They are conditions only for Wudu
+1474	They are the five Islamic duties
+1475	How does surah Al-Ikhlas begin?
+1476	Alhamdu lillahi
+1477	Inna a’tayna
+1478	Qul a’udhu bi rabbin-nas
+1479	What does “Qul huwallahu ahad” mean?
+1480	Allah knows everything
+1481	Allah sees everything
+1482	Say: “He is Allah – the One!”
+1483	Allah forgives sins
+1484	Which ayah comes after “Qul huwallahu ahad”?
+1485	Wa lam yakun lahu kufuwan ahad
+1486	How is “Allahus-Samad” translated?
+1487	Allah is the refuge of everyone
+1488	Allah is the Most Gracious
+1489	Allah is the Creator
+1490	Allah hears everything
+1491	What comes after “Allahus-Samad”?
+1492	What does “Lam yalid wa lam yulad” mean?
+1493	He is Allah – the One
+1494	He neither begets nor is born
+1495	And there is none equal to Him
+1496	What is the last ayah of surah Al-Ikhlas?
+1497	What does “Wa lam yakun lahu kufuwan ahad” mean?
+1498	How many ayahs does surah Al-Ikhlas have?
+1499	What does “Bismillahir-Rahmanir-Rahim” mean?
+1500	According to the hadith mentioned, what is surah Al-Ikhlas worth?
+1501	As much as a third of the Qur’an
+1502	As much as half of the Qur’an
+1503	As much as the whole Qur’an
+1504	As much as a quarter of the Qur’an
+1505	Who narrates the hadith in the lesson about the value of surah Al-Ikhlas?
+1506	Only Tirmidhi
+1507	Bukhari and Muslim
+1508	Only Abu Dawud
+1509	Only Nasa’i

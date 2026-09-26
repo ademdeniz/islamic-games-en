@@ -1,0 +1,400 @@
+420	Before making wudu
+421	Without wudu
+422	After making wudu
+423	Only after Salah
+424	What does a person not have to wash when making wudu again, if they meet the conditions for masah over khuffs?
+425	The hands (arms)
+426	The head
+427	What are khuffs wiped with?
+428	With a wet hand
+429	With a dry cloth
+430	With earth
+431	How many fingers of the right hand do we use to wipe the right khuff?
+432	In which direction do we wipe the khuff?
+433	From the ankle towards the toes
+434	In circles
+435	From the toes towards the ankles
+436	Only over the heel
+437	Which hand do we use to wipe the khuff on the left foot?
+438	With both hands
+439	For how long can a person who is at home use masah over khuffs?
+440	24 hours
+441	12 hours
+442	48 hours
+443	72 hours
+444	For how long can a traveller use masah over khuffs?
+445	96 hours
+446	When will masah over khuffs not be valid?
+447	If the khuffs are new
+448	If they are made of leather
+449	If the khuffs are torn
+450	If they are comfortable
+451	What other reason makes masah over khuffs invalid?
+452	If the khuffs are black
+453	If they are new
+454	If they are leather
+455	If the khuffs are dirty
+456	How far up must khuffs come in relation to the ankles?
+457	They must cover the ankles
+458	They must not cover the ankles
+459	They must be below the ankles
+460	It doesn’t matter how far up they go
+461	When is masah over khuffs not valid because of when they were put on?
+462	If they were put on after Salah
+463	If they were put on before making wudu
+464	If they were put on at home
+465	If they were put on while travelling
+466	Apart from everything that breaks wudu, what breaks masah over khuffs?
+467	Taking off the khuffs, or the end of the time they may be used for
+468	How does a person do masah over a bandage if the bandage must not be taken off?
+469	They must take off the bandage no matter what happens
+470	They wash only another part of the body
+471	They do not make wudu
+472	They wipe over the bandage, cast or splint with a wet hand
+473	CONDITIONS OF SALAH – REQUIREMENTS AND PREPARATION FOR PRAYER\n114. What are the conditions (shurut) of Salah?
+474	Requirements we must fulfil for our Salah to be valid
+475	Voluntary parts of Salah
+476	Duas after Salah
+477	Types of prayer
+478	How many conditions (shurut) of Salah are there altogether?
+479	6
+480	10
+481	12
+482	14
+483	How are the conditions (shurut) of Salah divided?
+484	Into four requirements and eight pillars (arkan)
+485	Into six requirements of Salah and six pillars (arkan) of Salah
+486	Into five requirements and seven pillars
+487	Into three requirements and nine pillars
+488	What do we call the six conditions before we start praying Salah?
+489	The fard parts of wudu
+490	The Sunnahs of Salah
+491	The requirements of Salah, or preparations for Salah
+492	How many requirements (preparations) of Salah are there?
+493	5
+494	7
+495	How many pillars (arkan) of Salah are there?
+496	4
+497	8
+498	What is the first requirement of Salah?
+499	Making the niyyah
+500	That the body, clothes and place of prayer are clean
+501	Praying on time
+502	What is the second requirement of Salah?
+503	Being properly dressed
+504	Making wudu or, if needed, having a bath (ghusl) or making tayammum
+505	What is the third requirement of Salah?
+506	What is the fourth requirement of Salah?
+507	Turning to face the Qiblah
+508	What is the fifth requirement of Salah?
+509	What is the sixth requirement of Salah?
+510	Making the niyyah – deciding to pray Salah
+511	What does making the niyyah for Salah mean?
+512	Deciding to pray Salah
+513	Calling the Adhan
+514	What can we do if we need wudu but cannot make it?
+515	Skip the Salah
+516	Make tayammum
+517	Pray without any preparation
+518	What do we call the six conditions (shurut) during Salah?
+519	The requirements of Salah
+520	Sunnahs
+521	The pillars (arkan) of Salah, or the essential parts of Salah
+522	Duas
+523	DRESSING PROPERLY FOR SALAH\n129. What is the third condition (shart) of Salah?
+524	Dressing properly
+525	What do we protect with our clothes?
+526	Only our body from the cold
+527	Only our health
+528	Our body and our modesty
+529	Only our body from dirt
+530	What should our clothes always be like?
+531	Expensive and new
+532	Only white
+533	Colourful and loose
+534	Nice, clean and neat
+535	What kind of clothes should we not wear?
+536	Clean and neat
+537	Short, tight and see-through
+538	Nice and comfortable
+539	Modest and clean
+540	When must we especially be properly dressed?
+541	When we pray Salah
+542	When we play
+543	In front of whom do we stand when we pray Salah?
+544	In front of the imam
+545	In front of people
+546	In front of our Lord
+547	In front of our parents
+548	What must girls and women cover in Salah?
+549	Only the hair
+550	Only the legs
+551	Only the arms and legs
+552	The whole body except the face, hands and feet
+553	How should men be dressed?
+554	Modestly
+555	Only in white
+556	Only in long clothes
+557	Only in new clothes
+558	What part of the body must men cover at the very least?
+559	From the shoulders to the feet
+560	From the navel to below the knees
+561	Only the knees
+562	From the neck to the ankles
+563	What kind of clothes must not be worn in Salah?
+564	Clean
+565	Neat
+566	Comfortable
+567	See-through
+568	Which of these must also not be clothing for Salah?
+569	Dirty (impure)
+570	Nice
+571	Which clothes are not suitable for Salah?
+572	Tight
+573	What should clothes for Salah not have on them?
+574	Buttons
+575	Sleeves
+576	A picture
+577	Pockets
+578	PRAYER TIMES AND THE DAILY PRAYERS\n142. What is the fourth condition (shart) of Salah?
+579	Dressing properly
+580	Praying Salah on time
+581	What does the fourth condition of Salah mean?
+582	That we pray each Salah at its set time
+583	That we pray each Salah in the mosque
+584	That we pray only in the morning
+585	That we pray only in the evening
+586	How many prayer times, or daily prayers, are there?
+587	What is the first daily prayer?
+588	Dhuhr
+589	Asr
+590	Fajr
+591	Maghrib
+592	How else is Fajr prayer described?
+593	The morning prayer
+594	The daytime prayer
+595	The evening prayer
+596	The night prayer
+597	What is the second daily prayer?
+598	Isha
+599	How is Dhuhr prayer described?
+600	What is the third daily prayer?
+601	Which prayer comes after Asr?
+602	How is Maghrib prayer described?
+603	The midday prayer
+604	What is the fifth daily prayer?
+605	How is Isha prayer described?
+606	What is the correct order of the five daily prayers?
+607	Fajr, Dhuhr, Asr, Maghrib, Isha
+608	Fajr, Asr, Dhuhr, Isha, Maghrib
+609	Dhuhr, Fajr, Asr, Maghrib, Isha
+610	Fajr, Dhuhr, Maghrib, Asr, Isha
+611	Who announces the start of the prayer time?
+612	The imam, by reciting the Qur’an
+613	The mu’adhdhin, by calling the Adhan
+614	The congregation, by making dua
+615	The khatib, by giving the khutbah
+616	Where can we check the exact prayer times?
+617	Only on a clock
+618	In any book
+619	In the school calendar
+620	In the yearly Islamic calendar – the Takvim
+621	When can Salah not be prayed?
+622	When it is raining
+623	When it is cold
+624	When the Sun is rising
+625	When it is cloudy
+626	When else can Salah not be prayed?
+627	When the Sun is in the middle of the sky
+628	After Dhuhr prayer
+629	After Maghrib
+630	Before Isha
+631	What is another time when Salah cannot be prayed?
+632	When the Sun has risen
+633	When the Sun is setting
+634	After Isha
+635	Before noon
+636	When is it disliked (makruh) to pray?
+637	Two hours after sunrise
+638	Only after Isha
+639	Only before Fajr
+640	About 45 minutes after sunrise
+641	How long before sunset is it disliked to pray, except for that day’s Asr?
+642	About 10 minutes
+643	About 20 minutes
+644	About 45 minutes
+645	About 90 minutes
+646	What is the second pillar (shart) of Islam?
+647	Praying Salah
+648	Fasting in Ramadan
+649	Giving Zakah
+650	Performing Hajj
+651	What is Salah?
+652	Only a physical exercise
+653	The highest way of showing obedience and gratitude to Allah, the Most High
+654	A custom done only on Fridays
+655	A kind of fasting
+656	What do we want to achieve by praying Salah?
+657	Only to rest our body
+658	To learn to tell the time
+659	To come closer to our Lord and earn His pleasure
+660	To gain wealth
+661	How many daily prayers do we pray?
+662	What are the names of the five daily prayers?
+663	Fajr, Dhuhr, Asr, Maghrib and Isha
+664	Fajr, Jumu’ah, Tarawih, Maghrib and Witr
+665	Fajr, Dhuhr, Jumu’ah, Eid and Isha
+666	Dhuhr, Asr, Tarawih, Witr and Janazah
+667	When does the time for Fajr prayer begin?
+668	From sunrise
+669	From dawn
+670	From midday
+671	From sunset
+672	Until when does the time for Fajr prayer last?
+673	Until midday
+674	Until dawn
+675	Until just before sunrise
+676	Until sunset
+677	When does the time for Dhuhr prayer begin?
+678	After sunset
+679	When it becomes completely dark
+680	When the Sun moves a little past the middle of the sky
+681	Until when does the time for Dhuhr prayer last?
+682	Until late afternoon
+683	Until sunrise
+684	Until it is completely dark
+685	When does the time for Asr prayer begin?
+686	When the Sun leans towards the west
+687	When dawn comes
+688	Until when does the time for Asr prayer last?
+689	Until just before sunset
+690	When does the time for Maghrib prayer begin?
+691	From complete darkness
+692	When does the time for Isha prayer begin?
+693	When the sunlight has completely disappeared
+694	At midday
+695	Until when does the time for Isha prayer last?
+696	Until midnight
+697	Until just before dawn
+698	Apart from the five daily prayers, which other prayers do we pray?
+699	Only Jumu’ah (Friday) prayer
+700	Only Tarawih prayer
+701	Jumu’ah prayer, Tarawih prayer, the two Eid prayers and sometimes Janazah (funeral) prayer
+702	Only Eid prayer
+703	THE QIBLAH AND THE KA’BAH\n177. What is the fifth condition (shart) of Salah?
+704	Facing the Qiblah – the Ka’bah
+705	What is the Qiblah?
+706	The direction of the Ka’bah
+707	The place for making wudu
+708	The mosque courtyard
+709	The call to prayer
+710	Where is the Ka’bah?
+711	In Madinah
+712	In Jerusalem
+713	In Makkah
+714	In Damascus
+715	In which country is the Ka’bah?
+716	Egypt
+717	Turkey
+718	Jordan
+719	Saudi Arabia
+720	What do Muslims all over the world face when they pray Salah?
+721	The Ka’bah
+722	The nearest mosque
+723	The sunrise
+724	Madinah
+725	What is the Ka’bah?
+726	The tallest mosque minaret
+727	Allah’s most honoured house of worship
+728	A house in Madinah
+729	A mountain near Makkah
+730	What shape is the Ka’bah?
+731	Round
+732	Triangular
+733	Cube-shaped
+734	Pyramid-shaped
+735	What is in one corner of the Ka’bah?
+736	The minbar
+737	The mihrab
+738	The Zamzam spring
+739	The Black Stone – al-Hajar al-Aswad
+740	What is the Ka’bah covered with every year?
+741	A black cover with ayahs of the Qur’an written on it
+742	A white cloth with no writing
+743	A green cover
+744	A golden cloth
+745	What is the sacred area around the Ka’bah called?
+746	Al-Masjid al-Aqsa
+747	Al-Haram ash-Sharif (the Sacred Mosque)
+748	Ar-Rawdah
+749	Mina
+750	What do Muslims do around the Ka’bah during Hajj?
+751	They only call the Adhan
+752	They only sit and rest
+753	They pray, read the Qur’an and do tawaf
+754	They only pray Fajr
+755	In which direction is the Qiblah from Bosnia and Herzegovina?
+756	East
+757	South
+758	Northwest
+759	Southeast
+760	What should we do if we don’t know which direction the Qiblah is?
+761	Try to find out, and then face the direction we think is the Qiblah
+762	Always face east
+763	Face the nearest window
+764	What are we not allowed to face on purpose when we pray?
+765	A wall
+766	Figures, pictures or photos of a person or an animal
+767	A door
+768	A window
+769	What device can we use to find the direction of the Qiblah?
+770	A thermometer
+771	A calculator
+772	A compass or a GPS device
+773	A weighing scale
+774	What on a mobile phone can show us the exact direction of the Qiblah?
+775	The camera
+776	The photo gallery
+777	The calculator
+778	A Qiblah finder app
+779	On a Qiblah clock (sundial), what shows the direction of the Qiblah?
+780	The direction opposite the shadow of the object
+781	The direction of the shadow itself
+782	Always the direction of sunrise
+783	Always north
+784	On which side of a tree are the branches and leaves thicker?
+785	On the north side
+786	On the south side
+787	On the east side
+788	On the west side
+789	On which side of a tree is the bark rougher and covered with moss?
+790	On which side of a tree stump, rock or bush can we find an anthill?
+791	NIYYAH (INTENTION)\n197. What is the sixth condition (shart) of Salah?
+792	What is niyyah?
+793	A conscious decision in the heart about why we are doing something
+794	Calling the Adhan
+795	Making wudu
+796	What should we be aware of before Salah?
+797	How long the Salah lasts
+798	Who is next to us
+799	Which Salah we want to pray
+800	Who called the Adhan
+801	What did Muhammad (SAW) say about deeds and intentions?
+802	Deeds are judged by wealth
+803	Deeds are judged by knowledge
+804	Deeds are judged by time
+805	Deeds are judged by intentions, and every person gets what they intended
+806	How can we strengthen the niyyah and confirm it by saying it?
+807	We can strengthen the decision in our heart by saying the words of the niyyah
+808	By calling the Adhan
+809	By reciting the Iqamah
+810	By turning towards the Qiblah
+811	Does every Salah have its own niyyah?
+812	Only Fajr has its own niyyah
+813	Yes, every Salah has its own niyyah
+814	Only the fard prayers have a niyyah
+815	No, all prayers have the same niyyah
+816	Whom should we think of when we say the niyyah?
+817	The other people praying
+818	The mu’adhdhin
+819	Allah, the Most High

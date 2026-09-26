@@ -1,0 +1,400 @@
+400	It can be done with the tongue and the heart.
+401	It is connected with remembering Allah.
+402	Tasbih, tahmid and takbir are part of it.
+403	It means remembering Allah.
+404	Tasbih
+405	It is connected with dhikr.
+406	It is said after Salah and at other times.
+407	With it Allah is glorified.
+408	It is often repeated 33 times after the fard.
+409	It is said as “Subhanallah”.
+410	Sadaqah (charity)
+411	It is a good deed.
+412	It is connected with giving and helping.
+413	It can be voluntary.
+414	It is not the same as the obligatory Zakah.
+415	It can be given to the poor and needy to please Allah.
+416	Halal
+417	It is an Islamic term.
+418	It is about actions, food and other things.
+419	It is the opposite of haram.
+420	It means what the religion permits.
+421	It means allowed.
+422	Haram
+423	It is the opposite of halal.
+424	A believer should stay away from it.
+425	It means strictly forbidden.
+426	Sunnah
+427	It is connected with Muhammad (SAW).
+428	It includes his practice and guidance.
+429	Muslims follow it together with the Qur’an.
+430	It means the practice and way of the Prophet (SAW).
+431	Hadith
+432	The Companions and later narrators passed it on.
+433	It can tell about the words, actions or approvals of the Prophet (SAW).
+434	It is a report about the Prophet (SAW).
+435	Sahabah (Companions)
+436	They lived in the time of Muhammad (SAW).
+437	They believed in his prophethood.
+438	They learned the religion directly from him.
+439	They helped Islam spread.
+440	They are the Muslims who met the Prophet (SAW) as believers and died as Muslims.
+441	Hijrah
+442	It is an important event in the history of Islam.
+443	It is connected with Muhammad (SAW) and the Companions.
+444	It happened because Muslims were persecuted in Makkah.
+445	The Hijri calendar is counted from it.
+446	It is the move from Makkah to Madinah.
+447	Makkah
+448	It is a holy city.
+449	It is connected with Ibrahim and Ismail (AS).
+450	Zamzam is there.
+451	Masjid al-Haram is there.
+452	The Ka’bah is there.
+453	Madinah
+454	It is connected with Muhammad (SAW).
+455	The Muslims from Makkah moved to it.
+456	The Prophet’s Mosque is there.
+457	It is where Muhammad (SAW) went in the Hijrah.
+458	Cave of Hira
+459	He stayed in it before his prophethood.
+460	The angel Jibril came to him in it.
+461	Hajar al-Aswad
+462	It is connected with the Ka’bah.
+463	Pilgrims see it during tawaf.
+464	It is set in one corner of the Ka’bah.
+465	It is known as the Black Stone.
+466	Minaret
+467	It is part of many mosques.
+468	It is tall and easy to see.
+469	It is connected with the Adhan.
+470	Traditionally, the call to Salah was made from it.
+471	Another name for it is munara.
+472	Imam
+473	He is connected with the mosque and Salah.
+474	He can teach the religion and give the khutbah.
+475	He stands in front of the congregation.
+476	The people praying follow him in the group prayer.
+477	He leads the congregation in Salah.
+478	Muezzin
+479	Bilal (RA) is known as the first of them.
+480	His voice calls the believers to Salah.
+481	He calls out the Adhan.
+482	Khutbah (sermon)
+483	It is connected with the mosque.
+484	The believers listen to it.
+485	The imam or khatib gives it.
+486	It is especially connected with Friday.
+487	It is a talk given before the Jumu’ah Salah.
+488	Jama’ah (congregation)
+489	It is made up of Muslims gathered for worship together.
+490	In it one person leads the others in prayer.
+491	The people praying stand in rows (sufuf).
+492	It is the group of people praying behind the imam.
+493	Saff (row)
+494	It is connected with the congregation.
+495	Order and neatness are important for it.
+496	In it the people praying stand side by side.
+497	It is straightened before the prayer starts.
+498	It is a row of people praying.
+499	Allah’s Oneness – tawhid
+500	It is a basic idea of Islamic belief.
+501	It is connected with belief in Allah.
+502	It is the opposite of shirk.
+503	It confirms that Allah has no partner.
+504	It means believing that Allah is One.
+505	Iman
+506	It is connected with belief.
+507	It has its own foundations.
+508	It includes belief in Allah, the angels, the books and the messengers.
+509	It also includes belief in the Day of Judgement and qadar.
+510	It means believing with the heart in what Allah has revealed.
+511	Islam
+512	It is the religion of submission to Allah.
+513	It has five main pillars.
+514	It is connected with the Shahadah, Salah, fasting, Zakah and Hajj.
+515	Muhammad (SAW) is Allah’s last messenger in this religion.
+516	It is the religion of the Muslims.
+517	Ihsan
+518	It is connected with faith and good deeds.
+519	It asks for sincerity in worship.
+520	A person knows that Allah always sees him.
+521	It is doing good in the most beautiful way.
+522	It means worshipping Allah as if you see Him, knowing that He sees you.
+523	Niyyah (intention)
+524	It is connected with acts of worship.
+525	It is in the heart.
+526	It decides what a person wants to do.
+527	It is important for Salah, fasting and other acts of worship.
+528	It means a decision and intention for the sake of Allah.
+529	Fard
+530	It is an Islamic ruling.
+531	It is connected with obligation.
+532	Doing it brings reward.
+533	Leaving it on purpose without an excuse is a sin.
+534	It means a strictly commanded religious duty.
+535	Wajib
+536	It is very close to an obligation.
+537	In the Hanafi madhhab it differs from fard by the strength of its proof.
+538	In the Hanafi madhhab the Witr prayer is counted as this kind of ruling.
+539	It means an obligatory duty one level below fard in Hanafi fiqh.
+540	Makruh
+541	It is connected with things that should be avoided.
+542	It is not the same as halal.
+543	There are different kinds of this ruling.
+544	It means a disliked action.
+545	Mubah
+546	It is neither a command nor a ban.
+547	A person may choose to do it or leave it.
+548	Many everyday permitted actions belong to this group.
+549	It means a permitted, neutral action.
+550	Mustahab
+551	It is connected with good deeds.
+552	Doing it is rewarded, and leaving it is not punished.
+553	It is similar to the terms mandub and recommended.
+554	It means a praiseworthy and recommended action.
+555	Cleanliness – taharah
+556	It is important in Islam.
+557	It is connected with the body, clothes and place.
+558	It is important for Salah.
+559	Wudu and ghusl are connected with it.
+560	It means ritual and physical cleanliness.
+561	Impurity – najasah
+562	It is connected with the rules of cleanliness.
+563	It must be removed from the body, clothes or place of prayer.
+564	It is not the same as losing wudu.
+565	There are rules about removing it.
+566	It means physical dirt according to religious rules.
+567	Mash (wiping)
+568	It is connected with wudu.
+569	It does not mean washing completely.
+570	It is done with a wet hand.
+571	One form of it is done over the head.
+572	It means wiping in ritual cleansing.
+573	Miswak
+574	It is connected with cleanliness.
+575	It is used for the mouth and teeth.
+576	It is known from the Sunnah of Muhammad (SAW).
+577	It can be used before Salah and at other times.
+578	It is a natural tool for cleaning teeth.
+579	Sajdat as-Sahw
+580	It is done because of certain mistakes or things left out.
+581	It is made up of sajdahs.
+582	It is not done after every Salah.
+583	It is a sajdah that makes up for a certain mistake in Salah.
+584	Takbir
+585	It is connected with Salah and dhikr.
+586	It is said many times in Salah.
+587	Salah begins with it.
+588	It is also heard on the days of Eid.
+589	Its words are “Allahu akbar”.
+590	Opening takbir – iftitah
+591	It comes at the very beginning.
+592	After it, the person praying enters the Salah.
+593	It is said while raising the hands as prescribed.
+594	It is the first “Allahu akbar” that begins the Salah.
+595	At-Tahiyyat
+596	It is recited in Salah.
+597	It is connected with sitting.
+598	It is recited in the first and last sitting.
+599	It begins with the words “At-tahiyyatu lillahi...”.
+600	It is the well-known recitation of the sitting in Salah.
+601	Salawat
+602	They are recited in Salah and outside of Salah.
+603	They are connected with Muhammad (SAW).
+604	They are recited in the last sitting of Salah.
+605	In them we ask Allah to bless Muhammad and his family.
+606	A well-known form begins “Allahumma salli ala Muhammadin...”.
+607	Qunut dua
+608	It is a dua.
+609	It is connected with a special prayer.
+610	It is recited standing.
+611	In the Hanafi madhhab it is recited in the third rak’ah.
+612	It is recited in the Witr prayer after an extra takbir.
+613	Subhanaka
+614	It is a recitation in Salah.
+615	It is recited at the beginning of Salah.
+616	It comes after the opening takbir.
+617	It begins with the words “Subhanakallahumma wa bihamdika”.
+618	It is one of the first duas children learn for Salah.
+619	A’udhu (Ta’awwudh)
+620	It is a short phrase.
+621	It is said before reciting the Qur’an.
+622	It mentions the cursed Shaytan.
+623	It begins with the words “A’udhu billahi...”.
+624	Bismillah
+625	Muslims say it before many good actions.
+626	It is also said when reciting the Qur’an.
+627	It mentions Allah, the Most Gracious, the Most Merciful.
+628	It goes “Bismillahir-Rahmanir-Rahim”.
+629	Amin
+630	It is a short word.
+631	It is often said after a dua.
+632	In Salah it is said after Al-Fatihah.
+633	With it we ask Allah to accept the dua.
+634	It means roughly: “O Allah, answer our prayer”.
+635	Taslim – the salam in Salah
+636	It comes at the end.
+637	The person praying turns the head to the right, then to the left.
+638	It ends the Salah.
+639	It is said as “As-salamu alaykum wa rahmatullah”.
+640	Safar
+641	It comes after Muharram.
+642	It is not the month of the obligatory fast.
+643	It is the second month of the Hijri calendar.
+644	Its name is Safar.
+645	Muharram
+646	It is one of the sacred months.
+647	It comes before Safar.
+648	The day of Ashura is in it.
+649	It is the first month of the Hijri calendar.
+650	Rabi’ al-Awwal
+651	It comes after Safar.
+652	It is connected with the life story of Muhammad (SAW).
+653	In many places the Mawlid is traditionally marked in it.
+654	It is the third month of the Hijri calendar.
+655	Rajab
+656	It is one of the four sacred months.
+657	It comes before Sha’ban.
+658	In Muslim tradition it is connected with blessed nights.
+659	It is the seventh month of the Hijri calendar.
+660	Sha’ban
+661	It comes after Rajab.
+662	It comes right before Ramadan.
+663	In it Muslims get ready for Ramadan.
+664	It is the eighth month of the Hijri calendar.
+665	Shawwal
+666	It comes after Ramadan.
+667	Its first day is Eid al-Fitr.
+668	The voluntary fast of six days is well known in it.
+669	It is the tenth month of the Hijri calendar.
+670	Dhul-Hijjah
+671	Hajj is done in it.
+672	Eid al-Adha is in it.
+673	It is the twelfth month of the Hijri calendar.
+674	Ashura
+675	It is a special day.
+676	It is in the month of Muharram.
+677	It is connected with a voluntary fast.
+678	It falls on the tenth day of Muharram.
+679	It is the day of Ashura.
+680	Laylat al-Mi’raj
+681	It is a blessed night in Muslim tradition.
+682	It is connected with the Isra and Mi’raj.
+683	In the report about this event, the command of Salah is especially stressed.
+684	It is known as the night of the Mi’raj.
+685	Laylat al-Bara’ah
+686	It is connected with the month of Sha’ban.
+687	It comes before Ramadan.
+688	Believers spend it in worship and duas.
+689	It is known as the night of wishes
+690	Laylat ar-Ragha’ib
+691	It is connected with the month of Rajab.
+692	Believers spend it in worship.
+693	In our tradition it is known as one of the chosen nights.
+694	It is known as the night of the Prophet’s conception.
+695	Isra
+696	It happened at night.
+697	It connects Masjid al-Haram and Masjid al-Aqsa.
+698	It is the night journey of Muhammad (SAW) from Makkah to Jerusalem.
+699	Mi’raj
+700	It is connected with the event of the Isra.
+701	It happened after the night journey.
+702	It is connected with rising up through the heavens.
+703	In the report about it, the command of the five daily prayers is especially stressed.
+704	Masjid al-Haram
+705	It is a mosque.
+706	It is in a holy city.
+707	Pilgrims and people doing Umrah gather in it.
+708	The Ka’bah is in its centre.
+709	Masjid an-Nabawi
+710	It is one of the three especially precious mosques in Islam.
+711	It is in Madinah.
+712	Masjid al-Aqsa
+713	It is a mosque and a holy place.
+714	It is outside Makkah and Madinah.
+715	It is connected with the event of the Isra.
+716	It was the first Qiblah of the Muslims.
+717	It is in Jerusalem.
+718	Badr
+719	It is the place of a famous event from the Seerah.
+720	It is connected with Muhammad (SAW) and the Companions.
+721	It happened in Ramadan in the second year after the Hijrah.
+722	The Muslims were fewer in number.
+723	The first big battle of the Muslims happened there.
+724	Uhud
+725	It is near Madinah.
+726	The archers on the hill played an important part in the event.
+727	A battle that the Muslims lost happened there.
+728	Khandaq (the Trench)
+729	It is connected with an event from the Seerah.
+730	It happened around Madinah.
+731	The Muslims used a special defensive barrier.
+732	The idea for that barrier came from Salman al-Farisi (RA).
+733	It is known as the Battle of the Trench or Al-Ahzab.
+734	Bilal (RA)
+735	He was a Companion of Muhammad (SAW).
+736	He is known for his strong faith and patience.
+737	He was tortured because of Islam.
+738	He is known as the first muezzin.
+739	Abu Bakr (RA)
+740	He was one of the Prophet’s closest friends.
+741	He went with the Prophet during the Hijrah.
+742	He was the first rightly guided caliph.
+743	He is known by the title As-Siddiq.
+744	Umar (RA)
+745	He was known for being firm and just.
+746	He accepted Islam after earlier being an enemy of the Muslims.
+747	He was the second rightly guided caliph.
+748	He is known as Umar ibn al-Khattab.
+749	Uthman (RA)
+750	He was known for his modesty and generosity.
+751	He was the Prophet’s son-in-law.
+752	During his caliphate, copies of the Mushaf were made.
+753	He was the third rightly guided caliph.
+754	Ali (RA)
+755	He was among the Muslims from his youth.
+756	He is known for his knowledge and bravery.
+757	He was the fourth rightly guided caliph.
+758	Khadijah (RA)
+759	She was one of the people closest to Muhammad (SAW).
+760	She was known for her noble character and support.
+761	She supported him after the first Revelation.
+762	She was the first person to believe in his prophethood.
+763	She was the first wife of Muhammad (SAW).
+764	Aishah (RA)
+765	She was a wife of Muhammad (SAW).
+766	She was known for her knowledge.
+767	She passed on a large number of hadiths.
+768	The Companions and later generations learned from her.
+769	She was the daughter of Abu Bakr (RA).
+770	Fatimah (RA)
+771	She was from the family of Muhammad (SAW).
+772	She is known for her piety and modesty.
+773	She was the wife of Ali (RA).
+774	She is the mother of Hasan and Husayn (RA).
+775	She was the daughter of Muhammad (SAW).
+776	Hasan (RA)
+777	He was a member of the Prophet’s family.
+778	His father was Ali (RA).
+779	His mother was Fatimah (RA).
+780	He was a grandson of Muhammad (SAW).
+781	He was the older brother of Husayn (RA).
+782	Husayn (RA)
+783	His martyrdom is connected with Karbala.
+784	Ansar (Helpers)
+785	They were Muslims in the time of Muhammad (SAW).
+786	They are connected with the Hijrah.
+787	They helped another group of Muslims.
+788	They lived in Madinah.
+789	They are the helpers who welcomed the Muhajirun.
+790	Muhajirun (Emigrants)
+791	They left their homes for the sake of their faith.
+792	The Ansar welcomed them and helped them.
+793	They moved from Makkah to Madinah.
+794	Mu’allim
+795	He is connected with teaching the religion.
+796	He works with children and adults.
+797	He teaches the Qur’an, Salah and Islamic rules.
+798	He often leads maktab lessons.
+799	He is a teacher of the religion (a man).

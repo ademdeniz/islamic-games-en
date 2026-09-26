@@ -1,0 +1,380 @@
+320	May there be peace upon all people
+321	Good words belong to Allah
+322	Peace be upon you, O Prophet
+323	I bear witness that there is no other god
+324	Along with salam, what do we ask for the Prophet?
+325	Only good health
+326	Only forgiveness
+327	Only happiness
+328	Allah’s mercy and blessings
+329	With which words do we send salam to ourselves and to Allah’s righteous servants?
+330	As-salamu ’alayna wa ’ala ’ibadillahis-salihin
+331	As-salamu ’alaykum
+332	Rabbana atina
+333	Subhanakallahumma
+334	What does the word “shahadah” mean in this part of At-Tahiyyat?
+335	A greeting
+336	Bearing witness
+337	Thanks
+338	A request
+339	How does the shahadah that we recite in At-Tahiyyat begin?
+340	Allahumma salli
+341	Ashhadu an la ilaha illallah
+342	What are the salawat?
+343	Words showing our love for the Prophet Muhammad (SAW) and his family
+344	The dua before eating
+345	When do we recite the salawat in Salah?
+346	In the sitting, after At-Tahiyyat
+347	In the first sajdah
+348	Whom do we ask to bless Muhammad (SAW) and his family?
+349	The angels
+350	People
+351	Allah the Exalted
+352	The Companions (Sahabah)
+353	Apart from Muhammad (SAW), which prophet is mentioned in the salawat?
+354	Musa (AS)
+355	Nuh (AS)
+356	Isa (AS)
+357	Ibrahim (AS)
+358	How do the salawat begin?
+359	Allahumma salli ’ala Muhammadin
+360	Apart from Muhammad (SAW), for whom do we ask blessings in the salawat?
+361	Only for the Companions
+362	For his family
+363	Only for the angels
+364	For all people
+365	How does the first part of the salawat end?
+366	Innaka Hamidun Majid
+367	What do we ask for in the second part of the salawat (in English)?
+368	That Allah gives us wealth
+369	That Allah gives us food
+370	That Allah forgives our sins
+371	That Allah blesses Muhammad and his family
+372	According to the ayah, who sends blessings upon the Prophet?
+373	Allah and His angels
+374	Only people
+375	Only the Companions
+376	Only his family
+377	What does Allah the Exalted command the believers about the Prophet?
+378	Only to mention him
+379	To send blessings and greetings of peace upon him
+380	To talk about him only on Fridays
+381	To mention him only in Salah
+382	What are duas?
+383	Our requests to Allah, the All-Powerful
+384	Surahs of the Qur’an
+385	The conditions of Salah
+386	When do we recite duas in Salah?
+387	In the last sitting, after the salawat
+388	What do we ask for with the words “Rabbana atina fid-dunya hasanatan”?
+389	Only forgiveness of sins
+390	Good in this world
+391	Only wealth
+392	What do we ask for with the words “wa fil-akhirati hasanatan”?
+393	Good only for our parents
+394	Protection from illness
+395	Good in the Hereafter
+396	What do we ask protection from with the words “wa qina ’adhaban-nar”?
+397	From the punishment of the Fire (Jahannam)
+398	From the cold
+399	From poverty
+400	From travelling
+401	What does “Rabbanaghfir li” mean?
+402	Our Lord, give me good health
+403	Our Lord, forgive me
+404	Our Lord, give me wealth
+405	Our Lord, increase me in knowledge
+406	Apart from ourselves, for whom do we ask forgiveness in the second dua of the sitting in Salah?
+407	Only for friends
+408	Only for teachers
+409	For our parents
+410	Only for neighbours
+411	For whom else do we ask forgiveness in the dua “Rabbanaghfir li”?
+412	Only for children
+413	Only for relatives
+414	For all the believers
+415	When do we ask forgiveness for ourselves, our parents and all the believers in this dua?
+416	On the Day of Judgement
+417	Only in Ramadan
+418	Only before sleeping
+419	In what order do we recite these in the last sitting?
+420	Duas, salawat, At-Tahiyyat
+421	At-Tahiyyat, salawat, duas
+422	Salawat, duas, At-Tahiyyat
+423	Duas, At-Tahiyyat, salawat
+424	What do we say when we start doing something?
+425	InshaAllah
+426	MashaAllah
+427	Alhamdulillah
+428	What does “Bismillah” mean?
+429	Thanks to Allah
+430	In the name of Allah
+431	If Allah wills
+432	Glory be to Allah
+433	When do we say “InshaAllah”?
+434	When we are amazed
+435	When we sneeze
+436	When we hope for something
+437	When we make a mistake
+438	What does “InshaAllah” mean?
+439	When do we say “MashaAllah”?
+440	When we admire something
+441	When we are in pain
+442	When we repent
+443	What does “MashaAllah” mean?
+444	What Allah wills (has happened)
+445	Forgive me, O Allah
+446	When do we say “Subhanallah”?
+447	When we eat
+448	When we sleep
+449	When we are delighted and when we are amazed
+450	Only when we are sad
+451	What does “Subhanallah” mean?
+452	What does “Alhamdulillah” mean?
+453	O Allah
+454	When can we say “Alhamdulillah”?
+455	Only after Salah
+456	At every moment
+457	Only before eating
+458	Only when we are ill
+459	What do we say to a person who sneezes (and says Alhamdulillah)?
+460	Yarhamukallah
+461	What does “Yarhamukallah” mean?
+462	May Allah give you good health
+463	May Allah reward you
+464	May Allah forgive you
+465	May Allah have mercy on you
+466	When do we say “Ya Allah”?
+467	When we are in pain and trouble
+468	When we start eating
+469	What does the phrase “Ya Allah” mean?
+470	When do we say “Astaghfirullah”?
+471	When we repent for a bad deed
+472	What does “Astaghfirullah” mean?
+473	When do we say “Na’udhu billah”?
+474	When we point out something bad
+475	When we admire something
+476	When we drink
+477	What do we ask for with the words “Na’udhu billah”?
+478	Riches from Allah
+479	Protection from Allah
+480	Food from Allah
+481	Sleep from Allah
+482	What kind of food should a Muslim eat?
+483	Only sweet food
+484	Only cold food
+485	Healthy and halal (permitted) food
+486	Only cooked food
+487	What should we do before and after eating?
+488	Change our clothes
+489	Drink water
+490	What should we recite before eating?
+491	A’udhu billah and Bismillah
+492	Salawat
+493	With which hand should we eat?
+494	With the left
+495	With the right
+496	With both at the same time
+497	According to Islamic manners, what is a nice way to eat?
+498	All alone
+499	Standing up
+500	Together with the family
+501	While walking
+502	What should we not do with very hot food?
+503	Eat it with a spoon
+504	Put it on the table
+505	Wait for it to cool down
+506	Blow on it
+507	What kind of food should we not eat?
+508	Very hot food
+509	Healthy food
+510	Halal food
+511	Warm food
+512	What should we say after eating?
+513	Na’udhu billah
+514	Ya Allah
+515	What do we do with the words “Alhamdulillah” after eating?
+516	We ask for food
+517	We ask for forgiveness
+518	We thank Allah
+519	We greet people
+520	What is recommended to do with the eating table (sofra) after the meal?
+521	Leave it as it is
+522	Cover it and walk away
+523	Not touch it
+524	Clear the table
+525	What is recommended to do with our teeth after eating?
+526	Brush our teeth
+527	Not touch them
+528	Only rinse our hands
+529	Brush them before the next meal
+530	Which way of eating follows the Islamic manners?
+531	Eating with the left hand and blowing on hot food
+532	Washing our hands, reciting A’udhu billah and Bismillah, and eating with the right hand
+533	Not thanking Allah after eating
+534	Eating only when we are alone
+535	How many mubarak (blessed) days do Muslims have?
+536	Why are these days called mubarak days?
+537	Because they are days off work
+538	Because they are so important to Muslims
+539	Because they always fall on a Friday
+540	Because people rest on them
+541	How do we prepare for the mubarak days?
+542	We do not mark them
+543	We only rest
+544	We try to take part in family, community (jama’ah) and public events
+545	We do not visit anyone
+546	When does the new Hijri year begin?
+547	12 Rabi’ al-Awwal
+548	1 Shawwal
+549	10 Dhul-Hijjah
+550	1 Muharram
+551	What does the new Hijri year remind us of?
+552	The Hijrah
+553	The start of Ramadan
+554	The birth of Ibrahim (AS)
+555	The first Adhan
+556	What is the Hijrah?
+557	The journey for Hajj
+558	The migration of Muhammad (SAW) and the Muslims from Makkah to Madinah
+559	The start of fasting
+560	The birth of Muhammad (SAW)
+561	In which year did the Hijrah happen?
+562	In 610
+563	In 632
+564	In 622
+565	In 570
+566	What do Muslims count from the Hijrah?
+567	The number of prayers
+568	The number of Ramadan months
+569	The number of Hajj trips
+570	The years of the Hijri calendar
+571	What do we celebrate on 12 Rabi’ al-Awwal?
+572	The Mawlid – the birth of Muhammad (SAW)
+573	Eid al-Adha (Qurban Eid)
+574	Eid al-Fitr (Ramadan Eid)
+575	The new Hijri year
+576	How is the Mawlid celebrated?
+577	Only by fasting
+578	By reciting the mawlid poem and other special programmes
+579	By offering the Qurbani
+580	By performing Hajj
+581	On which days of the month of Shawwal is Eid al-Fitr celebrated?
+582	10, 11 and 12 Shawwal
+583	5, 6 and 7 Shawwal
+584	1, 2 and 3 Shawwal
+585	Only 1 Shawwal
+586	After which month does Eid al-Fitr come?
+587	Muharram
+588	Rabi’ al-Awwal
+589	Dhul-Hijjah
+590	Ramadan
+591	What do Muslims celebrate with Eid al-Fitr?
+592	The joy of having fulfilled the duty of fasting and the other duties of Ramadan
+593	The start of the new Hijri year
+594	The birth of Muhammad (SAW)
+595	The Hijrah from Makkah to Madinah
+596	On which days of Dhul-Hijjah is Eid al-Adha celebrated?
+597	1, 2 and 3 Dhul-Hijjah
+598	10, 11, 12 and 13 Dhul-Hijjah
+599	20, 21 and 22 Dhul-Hijjah
+600	Only 10 Dhul-Hijjah
+601	Which acts of worship are especially linked to Eid al-Adha, also called the Hajj Eid?
+602	Only fasting
+603	Only reciting the mawlid
+604	Hajj, Qurbani and the takbir at-tashriq
+605	Only Zakah
+606	How many days does Eid al-Fitr last?
+607	One day
+608	Two days
+609	Three days
+610	Four days
+611	What do Muslims do on the morning of the first day of Eid al-Fitr?
+612	They go to the mosque to pray the Eid prayer
+613	They go to the graveyard
+614	They fast all day
+615	They stay at home
+616	How do we spend the days of Eid?
+617	We do good deeds that Allah loves, we are happy, we visit relatives, neighbours and friends, and we give each other gifts
+618	We fast all three days
+619	What is marked in Bosnia and Herzegovina on the second day of Eid al-Fitr?
+620	The new Hijri year
+621	The Mawlid
+622	The Day of the Waqf givers (endowments)
+623	The Day of the Shuhada (martyrs)
+624	With which words do we wish each other a happy Eid?
+625	Bajram sherif mubarek olsun! (Eid Mubarak!)
+626	MashaAllah!
+627	InshaAllah!
+628	Subhanallah!
+629	How many days does Eid al-Adha last?
+630	Seven days
+631	On which days of the month of Dhul-Hijjah is Eid al-Adha?
+632	1, 2, 3 and 4
+633	10, 11, 12 and 13
+634	5, 6, 7 and 8
+635	20, 21, 22 and 23
+636	Which acts of worship do Muslims do during the days of Eid al-Adha?
+637	Only fasting
+638	Only Zakah
+639	Hajj, Qurbani and the takbir at-tashriq
+640	Only the Tarawih prayer
+641	Why is Eid al-Adha also called the Hajj Eid?
+642	Because Ramadan begins then
+643	Because the Hijrah is remembered then
+644	Because the mawlid is recited then
+645	Because Muslims from all over the world perform Hajj in Makkah
+646	What do we recite on the day before and on all four days of Eid al-Adha?
+647	The takbir at-tashriq
+648	Only the Adhan
+649	Only the Iqamah
+650	Where do we go on the morning of the first day of Eid al-Adha?
+651	To the market
+652	To school
+653	To the mosque to pray the Eid prayer
+654	What do those who are able offer after the Eid prayer?
+655	Sadaqah, only in money
+656	Zakah
+657	Food for themselves
+658	The Qurbani (sacrifice)
+659	Into how many parts can we divide the Qurbani meat?
+660	Into three parts
+661	Into two parts
+662	Into four parts
+663	Into five parts
+664	What is good to do with our house, the mosque and our surroundings before Eid?
+665	Leave them as they are
+666	Only decorate the house
+667	Clean them and make them beautiful
+668	Clean only the mosque
+669	What is good to wear for Eid?
+670	Work clothes
+671	Any old clothes
+672	Only white clothes
+673	Our nicest festive clothes
+674	What is a nice way to wish our parents a happy Eid?
+675	Kiss their right hand and give them a gift
+676	Only send them a message
+677	Not wish them anything special
+678	Only call them on the phone
+679	Whom is it good to visit for Eid?
+680	Only friends
+681	Our closest family, neighbours, relatives and friends
+682	Only neighbours
+683	Only relatives
+684	Which animals can be a Qurbani?
+685	A sheep, a goat, a cow and a camel
+686	A chicken, a duck and a goose
+687	A horse and a donkey
+688	All farm animals
+689	For how many people can a sheep or a goat be the Qurbani?
+690	For two people
+691	For one person
+692	For five people
+693	For seven people
+694	At most, for how many people can a cow be the Qurbani?
+695	For three people
+696	For ten people
+697	What should the animal offered as a Qurbani be like?
+698	Any kind at all
+699	It must be the biggest in the flock

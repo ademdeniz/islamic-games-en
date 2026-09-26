@@ -1,0 +1,115 @@
+231 | Which angel brings the Revelation to the prophets? | Jibril | Azra’il | Israfil | Mika’il
+232 | Who is the angel of death? | Azra’il | Mika’il | Ridwan | Malik
+233 | Which angel blows the Trumpet (Sur)? | Israfil | Jibril | Azra’il | Munkar
+234 | What are the jinn created from? | From fire | From light | From earth | From water
+235 | Where did the revelation of the Qur’an begin? | In the cave of Hira on the mountain of Nur | In a mosque in Madinah | At Sinai | At Arafat
+236 | What were the first words of the Revelation? | Iqra’ (Read!) | Bismillah | Amantu | Subhanallah
+237 | How many surahs does the Qur’an have? | 114 | 99 | 120 | 124
+238 | How many juz’ does the Qur’an have? | 30 | 27 | 33 | 40
+239 | What do we call a person who knows the Qur’an by heart? | Hafiz | Khatib | Muezzin | Mudarris (teacher)
+240 | How many prophets are mentioned by name in the Qur’an? | 25 | 12 | 40 | 124000
+241 | How many prophets are mentioned in the hadiths? | 124000 | 25 | 313 | 99
+242 | Who are the Ulul-‘Azm prophets? | Nuh, Ibrahim, Musa, Isa and Muhammad (peace be upon them) | Adam, Idris, Nuh, Hud and Salih | Musa, Harun, Dawud, Sulayman and Isa | Ibrahim, Isma‘il, Ishaq, Yaqub and Yusuf
+243 | Where was Surah Al-Kafirun revealed? | In Madinah | In Makkah | In Jerusalem | At Arafat
+244 | How many ayahs does Surah Al-Kafirun have? | 4 | 5 | 6 | 7
+245 | How does Surah Al-Kafirun begin? | Qul huwal laahu ahad | Qul a‘udhu bi Rabbil-falaq | Qul a‘udhu bi Rabbin-nas | Qul yaa-ai yuhal kaafiroon
+246 | What does “Qul” mean? | Say | Learn | Read | Listen
+247 | What does “Yaa-ai yuhal kaafiroon” mean? | O believers | O disbelievers | O people | O angels
+248 | What is the second ayah of Surah Al-Kafirun? | Lakum deenukum wa liya deen | Wa laa ana ‘abidum maa ‘abattum | Laa a‘budu ma t‘abudoon | Qul yaa-ai yuhal kaafiroon
+249 | What does “Laa a‘budu ma t‘abudoon” mean? | I do not worship what you worship | To Allah alone belongs the dominion | Allah is One | For you is your religion
+250 | What is the third ayah of Surah Al-Kafirun? | Lakum deenukum wa liya deen | Wa laa antum ‘aabidoona maa a‘bud | Laa a‘budu ma t‘abudoon | Wa laa ana ‘abidum maa ‘abattum
+251 | What does the third ayah of Surah Al-Kafirun mean? | Nor are you worshippers of what I worship | Nor will I be a worshipper of what you worship | For you is your religion | Allah knows everything
+252 | What is the fourth ayah of Surah Al-Kafirun? | Wa laa antum ‘aabidoona maa a‘bud | Lakum deenukum wa liya deen | Wa laa ana ‘abidum maa ‘abattum | Laa a‘budu ma t‘abudoon
+253 | What does “Wa laa ana ‘abidum maa ‘abattum” mean? | Nor will I be a worshipper of what you worship | For you is your religion | Say: O disbelievers | Allah is the Most Merciful
+254 | Which ayah is repeated in Surah Al-Kafirun? | The first | The second | “Wa laa antum ‘aabidoona maa a‘bud” | The last
+255 | What is the last ayah of Surah Al-Kafirun? | Qul yaa-ai yuhal kaafiroon | Lakum deenukum wa liya deen | Laa a‘budu ma t‘abudoon | Wa laa ana ‘abidum maa ‘abattum
+256 | What does “Lakum deenukum wa liya deen” mean? | Allah is One | For me is my religion, and for you is yours | For you is your religion, and for me is my religion | We all have the same religion
+257 | What is Surah Al-Kafirun about? | About Salah while travelling | About an offer the idol-worshippers made to Muhammad (SAW) | About fasting in the month of Ramadan | About Zakah
+258 | What did the idol-worshippers offer Muhammad (SAW), which was the reason Surah Al-Kafirun was revealed? | To leave Makkah | That one year he would worship their gods, and the next year they would worship Allah | To stop praying | To go to Madinah
+259 | What is the main message of Surah Al-Kafirun? | “For you is your religion, and for me is my religion.” | “Knowledge is the most important thing.” | “Fasting is a shield.” | “Salah is light.”
+260 | Which ayah comes after “Qul yaa-ai yuhal kaafiroon”? | Laa a‘budu ma t‘abudoon | Lakum deenukum wa liya deen | Wa laa ana ‘abidum maa ‘abattum | Wa laa antum ‘aabidoona maa a‘bud
+261 | What comes after “Laa a‘budu ma t‘abudoon”? | Lakum deenukum wa liya deen | Qul yaa-ai yuhal kaafiroon | Wa laa antum ‘aabidoona maa a‘bud | Wa laa ana ‘abidum maa ‘abattum
+262 | What comes after “Wa laa ana ‘abidum maa ‘abattum”? | Wa laa antum ‘aabidoona maa a‘bud | Qul yaa-ai yuhal kaafiroon | Bismillah | Laa a‘budu ma t‘abudoon
+263 | Which ayah ends Surah Al-Kafirun? | Laa a‘budu ma t‘abudoon | Wa laa ana ‘abidum maa ‘abattum | Wa laa antum ‘aabidoona maa a‘bud | Lakum deenukum wa liya deen
+264 | To whom does a Muslim pray, and whom does he worship? | Only Allah the Exalted | Pictures | Trees | Good people
+265 | What lesson do we learn from Surah Al-Kafirun? | That in our belief in Allah we do not accept the worship of other gods | That Salah is prayed only on Fridays | That we fast every day | That the surah was revealed in Madinah
+266 | What are the pillars of Islam? | The main duties of Islam | Kinds of Salah | Surahs of the Qur’an | The essential parts of Salah
+267 | How many pillars of Islam are there? | Three | Four | Five | Six
+268 | What is the first pillar of Islam? | Fasting in Ramadan | Saying the Kalimat ash-Shahadah | Praying Salah | Giving Zakah
+269 | How many parts does the Kalimat ash-Shahadah have? | One | Two | Three | Four
+270 | What do we confirm with the first part of the Shahadah? | Belief in the angels | Belief in Allah (SWT) and His Oneness | The duty of fasting | The duty of Zakah
+271 | What do we confirm with the second part of the Shahadah? | That Muhammad (SAW) is Allah’s servant and messenger | That there are six pillars of Iman | That Salah is fard | That fasting is compulsory
+272 | How does the Kalimat ash-Shahadah begin? | Bismillahir-Rahmanir-Rahim | Ash-hadu an la ilaha illallah | Allahu akbar | Alhamdulillah
+273 | What is the second part of the Kalimat ash-Shahadah? | Wa ash-hadu anna Muhammadan ‘abduhu wa rasuluh | Qul huwal laahu ahad | Subhana Rabbiyal-‘Azim | La hawla wa la quwwata illa billah
+274 | What does the first part of the Shahadah mean? | I bear witness that there is no god but Allah | I bear witness that Salah is compulsory | I bear witness that the Qur’an is Allah’s book | I bear witness that angels exist
+275 | What do we show with the second part of the Shahadah? | Obedience to the Prophet (SAW) | Obedience to our friends | The duty of Hajj | The times of Salah
+276 | What do we promise when we say the Shahadah for the first time? | That we will do what Allah has commanded | That we will pray only on Fridays | That we will fast the whole year | That we will live only in Makkah
+277 | What should we stay away from after accepting the Shahadah? | What Allah has forbidden | Reciting the Qur’an | Salah | Good deeds
+278 | Whose Sunnah should we follow? | Muhammad (SAW) | Our friends | Rulers | Merchants
+279 | How do we strengthen our faith and our obedience to Allah and the Prophet? | By often repeating the Shahadah | By sleeping | By travelling | By staying silent
+280 | What is the Sunnah? | Everything Muhammad (SAW) said, did, recommended, or approved by his silence | Only what Muhammad (SAW) said | Only what is written in history books | Only a voluntary prayer
+281 | Who is Allah’s last messenger? | Musa (AS) | Isa (AS) | Muhammad (SAW) | Ibrahim (AS)
+282 | The word “Ash-hadu” means: | I bear witness | I pray | I fast | I learn
+283 | The words “La ilaha illallah” confirm: | Allah’s Oneness | The number of prayers | The time of fasting | The number of prophets
+284 | What is the second pillar of Islam? | Zakah | Salah | Fasting | Hajj
+285 | What is the second main duty of Islam? | Salah | Hajj | Zakah | Fasting
+286 | What is the most complete way of showing obedience and thanks to Allah? | Salah | Travelling | Sleeping | Trading
+287 | What commands us to pray Salah? | The Qur’an | Custom | History | Poetry
+288 | Whose Sunnah showed in practice how Salah is performed? | Muhammad (SAW) | Musa (AS) | Nuh (AS) | Adam (AS)
+289 | How many prayers should a Muslim pray in 24 hours? | Three | Four | Five | Six
+290 | Which is the first of the five daily prayers? | Dhuhr | Fajr | Asr | Maghrib
+291 | Which prayer comes after Fajr? | Isha | Maghrib | Dhuhr | Asr
+292 | Which prayer comes after the Dhuhr prayer? | Fajr | Asr | Isha | Maghrib
+293 | Which prayer comes after Asr? | Fajr | Dhuhr | Maghrib | Isha
+294 | Which prayer comes after Maghrib? | Isha | Fajr | Dhuhr | Asr
+295 | In what order are the five daily prayers prayed? | Fajr, Dhuhr, Asr, Maghrib, Isha | Fajr, Asr, Dhuhr, Isha, Maghrib | Dhuhr, Fajr, Asr, Maghrib, Isha | Fajr, Dhuhr, Maghrib, Asr, Isha
+296 | When does the time of the Fajr prayer begin? | At dawn | At noon | At sunset | At midnight
+297 | Until when does the time of the Fajr prayer last? | Until sunrise | Until noon | Until sunset | Until midnight
+298 | When does the time of the Dhuhr prayer begin? | When the Sun passes the middle of the sky | When the Sun rises | When the Sun sets | At dawn
+299 | When does the time of Asr begin? | Halfway between Dhuhr and sunset | At dawn | After Isha | At sunrise
+300 | When does the time of Maghrib begin? | When the Sun sets | When the Sun rises | At noon | At dawn
+301 | When does the time of Isha begin? | When night has fully fallen | When the Sun rises | At noon | At dawn
+302 | Whom do we thank with Salah? | Allah the Exalted | Our friends | Our relatives | Our teachers
+303 | What do we thank Allah for with Salah? | For the blessings He has given us | Only for food | Only for money | Only for health
+304 | What does Salah bring us in life? | Light in this world | Only rest | Only wealth | Only knowledge
+305 | What do we hope for in the next world by praying Salah? | Allah’s mercy and reward | Fame on Earth | Wealth | A journey
+306 | What is every Salah for a Muslim? | A meeting with Allah (SWT) | A meeting with friends | Time to rest | A sports activity
+307 | What does Salah encourage us to do? | To help others | To argue | To be lazy | To be arrogant
+308 | What does Salah protect us from? | From sins | From knowledge | From friendship | From work
+309 | How many times are there when we must not pray? | One | Two | Three | Five
+310 | May we pray while the Sun is rising? | Yes | No | Only fard | Only Sunnah
+311 | May we pray while the Sun is setting? | No | Yes | Only two rak‘ahs | Only a voluntary prayer
+312 | May we pray when the Sun is in the middle of the sky? | No | Yes | Only Dhuhr | Only Maghrib
+313 | Which of these is a time when we must not pray? | When the Sun rises | After Isha | During the night | Before dawn
+314 | For about how long after sunrise is it disliked (makruh) to pray? | 5 minutes | 15 minutes | 45 minutes | 2 hours
+315 | For about how long before sunset is it disliked (makruh) to pray? | 45 minutes | 5 minutes | 2 hours | 10 minutes
+316 | For how long is it disliked (makruh) to pray while the Sun is at its highest point? | 5–10 minutes | 30 minutes | 45 minutes | One hour
+317 | What kind of Islamic duty is Salah? | A strict Islamic duty – fard | Only a recommendation | A custom | A voluntary activity
+318 | How should Muslims perform Salah? | In the prescribed way | However they want | Only sitting down | Only in the mosque
+319 | When will Salah be valid? | When all the preparations are done and its rules are followed | Only if it takes a long time | Only if it is prayed in the mosque | Only if it is prayed out loud
+320 | What should we do if our Salah becomes invalid? | Pray it again | Carry on as if nothing happened | Only make a dua | Not pray any more that day
+321 | Does losing Wudu (ablution) during Salah make the Salah invalid? | Yes | No | Only at Fajr | Only at Isha
+322 | What happens to Salah if one of its conditions is left out? | The Salah becomes invalid | Nothing | The Salah becomes nafl (voluntary) | The Salah is shortened
+323 | What if an essential part – a rukn – of Salah is left out? | The Salah becomes invalid | The Salah is always valid | You get an extra reward | The Salah becomes Sunnah
+324 | Does turning your chest away from the Qiblah without need make Salah invalid? | Yes | No | Only in congregation | Only at Fajr
+325 | What kind of movements can make Salah invalid? | Movements that are not part of Salah and are not proper to do in Salah | Ruku‘ (bowing) | Sajdah (prostration) | Qiyam (standing)
+326 | Can saying words that are not part of Salah make it invalid? | Yes | No | Only on Fridays | Only in the mosque
+327 | Does greeting someone with salam during Salah make it invalid? | Yes | No | Only in a fard prayer | Only in a Sunnah prayer
+328 | Does answering someone’s question during Salah make it invalid? | Yes | No | Only if the answer is long | Only if the answer is loud
+329 | Does laughing out loud in Salah make it invalid? | Yes | No | Only at Fajr | Only at the Dhuhr prayer
+330 | Can sighing or groaning without a good reason make Salah invalid? | Yes | No | Only at night | Only in the mosque
+331 | Does eating during Salah make it invalid? | Yes | No | Only if you eat a lot | Only if you eat something sweet
+332 | Does drinking during Salah make it invalid? | Yes | No | Only a cold drink | Only water
+333 | What happens if the Qur’an is recited wrongly so that its meaning changes? | The Salah becomes invalid | Nothing | The Salah becomes Sunnah | You get an extra reward
+334 | Does crying in Salah out of devotion and awe before Allah make it invalid? | No | Yes, always | Only in a fard prayer | Only in congregation
+335 | Should men and women pray in the same row (saff) without a barrier? | No | Yes | Only at Fajr | Only at Maghrib
+336 | Can a woman stand in front of a man in Salah? | No | Yes | Only in Tarawih | Only in a nafl prayer
+337 | What is sajdah? | An essential part of Salah | A condition of Wudu | A kind of fasting | An Islamic holiday
+338 | What does sajdah show? | The greatest sign of obedience and thanks to Allah | The end of the fast | The start of Wudu | The call to prayer
+339 | What is sajdat as-sahw? | An extra sajdah made to fix a mistake in Salah | The first sajdah in Salah | A sajdah only on Fridays | A sajdah after the Adhan
+340 | For what kind of mistake do we make sajdat as-sahw? | A mistake we made in Salah without meaning to | Any mistake made on purpose | A mistake in Wudu before Salah | A mistake while reciting at home
+341 | Do we make sajdat as-sahw if we leave out a wajib of the Salah without meaning to? | Yes | No | Only on Fridays | Only in congregation
+342 | Which dua is listed among the wajib parts of Salah? | Dua al-Qunut | The dua after eating | The dua for travelling | The dua before sleeping
+343 | What is listed as a wajib of Salah that can be left out by mistake? | At-Tahiyyat | Adhan | Iqamah | Wudu
+344 | Which sitting is mentioned among the wajib parts of Salah? | The first sitting in Salah | Sitting before Salah | Sitting after Salah | The last sitting in Salah
+345 | What should we do if we are late in doing a wajib of the Salah? | Sajdat as-sahw | Make Wudu again | Stop the Salah | Leave the mosque

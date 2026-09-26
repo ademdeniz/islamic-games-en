@@ -1,0 +1,260 @@
+259	What is the dua for gaining more knowledge?
+260	What does “Rabbi zidni ilma” mean?
+261	My Lord, increase me in knowledge
+262	My Lord, make my path easy
+263	My Lord, give me food
+264	My Lord, heal me
+265	In which surah of the Qur’an is the dua “Rabbi zidni ilma”?
+266	Al-Fatihah
+267	Ta-Ha
+268	Al-Ikhlas
+269	An-Nas
+270	Which ayah number is the dua “Rabbi zidni ilma”?
+271	Ayah 14
+272	Ayah 40
+273	Ayah 114
+274	Ayah 120
+275	When should we say the dua for knowledge?
+276	Only before eating
+277	Only before travelling
+278	Before we start studying and doing homework
+279	What is the name of our religion?
+280	Islam
+281	Christianity
+282	Judaism
+283	Buddhism
+284	What are we by religion?
+285	Only students
+286	Muslim boys and girls
+287	Travellers
+288	Poets
+289	Who do Muslims believe in?
+290	Only in people
+291	In the sun and the stars
+292	In Allah
+293	In statues
+294	What should Muslims say?
+295	The truth
+296	Lies
+297	Ugly words
+298	Things that will hurt others
+299	What kind of deeds should Muslims do?
+300	Bad deeds
+301	Good deeds
+302	Only easy deeds
+303	Useless deeds
+304	What does Islam ask of a believer?
+305	Laziness
+306	Injustice
+307	Sacrifice, learning and hard work
+308	Arrogance
+309	Where does Islam lead us?
+310	To sin
+311	To quarrelling
+312	To failure
+313	To happiness and success
+314	Who is our Prophet?
+315	Yunus (AS)
+316	Nuh (AS)
+317	Muhammad (AS)
+318	Jibril (AS)
+319	What is our holy book?
+320	Ilmihal (book of Islamic basics)
+321	A notebook
+322	A school textbook
+323	The Qur’an
+324	What is our religion?
+325	Dua
+326	Salah
+327	What do we say before the Bismillah?
+328	Takbir
+329	The Ta’awwudh (A’udhu billah)
+330	Salawat
+331	Al-Fatihah
+332	What do the words of the Ta’awwudh (A’udhu billah) mean?
+333	Thanks be to Allah, Lord of the worlds
+334	I ask Allah for forgiveness
+335	I seek Allah’s protection from the accursed Shaytan
+336	With which names of Allah does the Bismillah end?
+337	The Most Gracious and the Most Merciful
+338	The Mighty and the Wise
+339	The First and the Last
+340	The Creator and the Provider
+341	How do we begin good and blessed tasks?
+342	By saying the Takbir
+343	By saying the Ta’awwudh and the Bismillah
+344	What do we ask for when we say the Ta’awwudh and the Bismillah?
+345	That Allah gives us lots of wealth
+346	That Allah protects us and gives us His mercy
+347	That we always win the game
+348	That we are never tired
+349	When should we say the Ta’awwudh and the Bismillah?
+350	Only when we recite the Qur’an
+351	On many different occasions
+352	When, among other times, do we say the Ta’awwudh and the Bismillah?
+353	In the morning and in the evening
+354	Only on Fridays
+355	Only in the mosque
+356	Only during Ramadan
+357	What should we say when we start a drive?
+358	Only the dua after eating
+359	Only the salawat
+360	The Ta’awwudh and the Bismillah
+361	We do not need to say anything
+362	What is Allah’s most beautiful creation?
+363	A plant
+364	A human being
+365	A mountain
+366	A river
+367	How should we live on Earth?
+368	Without any rules
+369	Responsibly and in obedience to Allah, the Most High
+370	Thinking only about playing
+371	Far away from other people
+372	Why were jinn and people created?
+373	Only to play
+374	To collect wealth
+375	To travel the world
+376	To worship Allah
+377	About how many neurons are there in the human brain?
+378	About 100 billion
+379	About 100 thousand
+380	About 100 million
+381	About one million
+382	Who did Mirza come to the maktab with on the first day?
+383	With his friends
+384	Alone
+385	With his parents
+386	With his teacher
+387	Who did the students meet in the maktab?
+388	Their male and female maktab teachers (muallim and muallima)
+389	A doctor and a nurse
+390	A driver and a police officer
+391	A shopkeeper and a customer
+392	What do children learn about in the maktab?
+393	Only about sports
+394	About Islamic belief, duties and manners
+395	Only about maths
+396	Only about writing
+397	What made Mirza happy in the maktab?
+398	The end of the lesson
+399	Getting a toy
+400	Going back home
+401	Meeting his friends, boys and girls
+402	When do we say the Subhanaka?
+403	After every Salah
+404	Especially at the start of every Salah
+405	Only after the salam
+406	Only before Salah
+407	With which words does the Subhanaka begin?
+408	Al-hamdu lillahi
+409	Bismillahir-Rahmanir-Rahim
+410	Subhanakallahumma
+411	Iyyaka na’budu
+412	Which words come after “Subhanakallahumma”?
+413	Wa tabarakasmuka
+414	Wa la ilaha ghayruka
+415	Wa ta’ala jadduka
+416	Wa bihamdika
+417	What does the phrase “Subhanakallahumma” mean?
+418	Glory be to You, O Allah
+419	Guide us to the Straight Path
+420	You alone we worship
+421	From You alone we ask for help
+422	What does “wa bihamdika” mean?
+423	Great is Your name
+424	All praise is Yours
+425	There is no god but You
+426	You are the Master of the Day of Judgement
+427	Which part of the Subhanaka means “Blessed is Your name”?
+428	What does “wa ta’ala jadduka” mean?
+429	Blessed is Your name
+430	Your greatness is beyond reach
+431	With which words does the Subhanaka end?
+432	Amin
+433	Ihdinas-siratal-mustaqim
+434	Maliki yawmid-din
+435	What does “wa la ilaha ghayruka” mean?
+436	We praise You, O Allah
+437	What comes after the words “wa bihamdika”?
+438	Which part comes right before “wa la ilaha ghayruka”?
+439	When is it recommended to say the Subhanaka?
+440	At the start of every Salah
+441	Only once in a lifetime
+442	After every rak’ah
+443	Which sentence belongs to the Subhanaka?
+444	Which sentence does not belong to the Subhanaka?
+445	Ar-Rahmanir-Rahim
+446	Which meaning is found in the translation of the Subhanaka?
+447	Master of the Day of Judgement
+448	What does the Subhanaka say about Allah’s name?
+449	That it is blessed
+450	That it should be mentioned
+451	That only the angels know it
+452	That it is said only on Fridays
+453	What do we confirm at the end of the Subhanaka?
+454	That Al-Fatihah is the first surah
+455	That there is no god but Allah
+456	That the Salah is finished
+457	That we seek protection from Shaytan
+458	What is the correct order of the opening parts of the Subhanaka?
+459	Wa bihamdika – Subhanakallahumma
+460	Wa tabarakasmuka – Wa bihamdika
+461	Subhanakallahumma – Wa bihamdika
+462	Wa ta’ala jadduka – Wa tabarakasmuka
+463	What is the place of surah Al-Fatihah in the order of the Qur’an?
+464	First
+465	Second
+466	Seventh
+467	Last
+468	What is the name of the first surah in the Qur’an?
+469	Al-Kawthar
+470	With which words do we seek Allah’s protection from the accursed Shaytan?
+471	Al-hamdu lillahi Rabbil-’alamin
+472	A’udhu billahi minash-shaytanir-rajim
+473	Iyyaka na’budu wa iyyaka nasta’in
+474	What does “A’udhu billahi minash-shaytanir-rajim” mean?
+475	In the name of Allah, the Most Gracious, the Most Merciful
+476	What are the words of the Bismillah?
+477	What does the Bismillah mean?
+478	With which words does Al-Fatihah begin after the Bismillah?
+479	What does “Al-hamdu lillahi Rabbil-’alamin” mean?
+480	All praise is to You, O Allah, Lord of the worlds
+481	Which qualities of Allah do we mention with the words “Ar-Rahmanir-Rahim”?
+482	The Strong and the Mighty
+483	What does “Maliki yawmid-din” mean?
+484	Lord of the worlds
+485	Master of the Day of Judgement
+486	The One who guides to the Straight Path
+487	Which words mean “You alone we worship and from You alone we ask for help”?
+488	Siratal-ladhina an’amta ’alayhim
+489	Who do we ask for help in Al-Fatihah?
+490	From people
+491	From the angels
+492	From the prophets
+493	From Allah
+494	What do we ask for with the words “Ihdinas-siratal-mustaqim”?
+495	That Allah guides us to the Straight Path
+496	That He gives us wealth
+497	That we make
+498	What are the words of the part of Al-Fatihah that means “Guide us to the Straight Path”?
+499	Whose path do we ask Allah to guide us to?
+500	The path of the richest people
+501	The path of all the rulers
+502	The path of those whom Allah has blessed
+503	The path of those who went astray
+504	What does “Siratal-ladhina an’amta ’alayhim” mean?
+505	The path of those who went astray
+506	The path of those who earned (Allah’s) anger
+507	The path of those whom Allah has blessed with His mercy
+508	At the end of Al-Fatihah, whose path do we not want to follow?
+509	The path of those who earned (Allah’s) anger and of those who went astray
+510	The path of good people
+511	The path of Allah’s messengers
+512	The path of thankful believers
+513	With which word do we finish reciting Al-Fatihah?
+514	What does the word “Amin” mean?
+515	Glory be to Allah
+516	O Allah, answer our dua
+517	I seek protection from Shaytan
+518	Why is Al-Fatihah especially important?
