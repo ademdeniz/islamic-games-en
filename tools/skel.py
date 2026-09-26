@@ -66,7 +66,7 @@ def build(game):
         html = html.replace(tok, b)
     assert '@@BLOB_' not in html
     html = re.sub(r'<html([^>]*)lang="bs"', r'<html\1lang="en"', html, count=1)
-    if 'bz-brand' not in html:
+    if '<div class="bz-brand">' not in html:  # the element itself, not just CSS that mentions it
         logo = base64.b64encode(open(os.path.join(ROOT, 'assets', 'logo-bz-erie-web.jpg'), 'rb').read()).decode()
         html = html.replace('</head>', BRAND_CSS + '</head>', 1)
         html = re.sub(r'(<body[^>]*>)', r'\1<div class="bz-brand"><img alt="Islamic Community of Bosniaks – Erie" '

@@ -26,7 +26,7 @@ def test_every_game_is_translated(request):
 def test_is_english_and_branded(game):
     html = gc.translated_html(game)
     assert re.search(r'<html[^>]*lang="en"', html, re.I), 'missing <html lang="en">'
-    assert html.count('bz-brand') >= 1 or 'class="brand"' in html, 'community logo header missing'
+    assert re.search(r'<div class="(bz-)?brand"><img[^>]+src="data:image/', html), 'community logo header missing'
 
 
 def test_no_author_credit(game):
