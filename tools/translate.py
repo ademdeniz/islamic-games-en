@@ -21,7 +21,7 @@ for game in sys.argv[1:]:
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     src = open(os.path.join(ROOT, 'work', game + '.bs.html'), encoding='utf-8').read()
-    for bs, en in mod.T:
+    for bs, en in getattr(mod, 'T', []) + [(d, '') for d in getattr(mod, 'DELETE', [])]:
         assert bs in src, f'{game}: not found: {bs[:80]!r}'
         src = src.replace(bs, en)
     if hasattr(mod, 'transform'):  # for structural changes a plain replacement table can't express

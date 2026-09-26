@@ -6,7 +6,6 @@ import tempfile
 
 import gamecheck as gc
 import skel
-from test_games import browser  # noqa: F401  (shared Playwright fixture)
 
 GAME = 'boziji-kitabi'  # small, known-good translation with quiz-style data
 

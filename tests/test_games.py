@@ -15,7 +15,9 @@ from conftest import all_games, built_games
 CREDIT = re.compile(r'Rekić|Pripremio|Pripremila|Prepared by', re.I)
 
 
-def test_every_game_is_translated():
+def test_every_game_is_translated(request):
+    if request.config.getoption('game'):
+        pytest.skip('checking selected games only')
     missing = [g for g in all_games() if g not in built_games()]
     assert not missing, f'{len(missing)} games not translated yet: {missing}'
 
@@ -129,15 +131,6 @@ def _run_in_browser(browser, path):
     finally:
         page.close()
     return {re.sub(r'\d+', 'N', e) for e in errors}
-
-
-@pytest.fixture(scope='session')
-def browser():
-    from playwright.sync_api import sync_playwright
-    with sync_playwright() as p:
-        b = p.chromium.launch()
-        yield b
-        b.close()
 
 
 def test_runs_without_new_errors(game, browser):

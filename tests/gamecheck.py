@@ -196,9 +196,11 @@ def original_minus_deletions(game):
     """Original HTML with the table's deletions applied (entries translated to '' such as the author credit)."""
     src = original_html(game)
     mod = table(game)
-    for bs, en in (getattr(mod, 'T', []) if mod else []):
-        if en == '':
-            src = src.replace(bs, '')
+    deletions = [bs for bs, en in (getattr(mod, 'T', []) if mod else []) if en == '']
+    deletions += list(getattr(mod, 'DELETE', []) if mod else [])
+    for bs in deletions:
+        assert bs in src, f'{game}: deletion not found in original: {bs[:80]!r}'
+        src = src.replace(bs, '')
     return src
 
 

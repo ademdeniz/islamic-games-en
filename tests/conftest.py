@@ -21,3 +21,12 @@ def pytest_generate_tests(metafunc):
     if 'game' in metafunc.fixturenames:
         chosen = metafunc.config.getoption('game') or built_games()
         metafunc.parametrize('game', chosen)
+
+
+@pytest.fixture(scope='session')
+def browser():
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        yield b
+        b.close()
