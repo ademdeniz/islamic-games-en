@@ -14,3 +14,4 @@ T = [
     ('["Ve bil-kaderi hajrihi ve šerrihi minallahi te\'ala","Vjerujem da sve što se događa biva Allahovom odredbom."]',
      '["Wal-qadari khayrihi wa sharrihi minallahi ta\'ala","I believe that everything that happens is by Allah\'s decree (qadar)."]'),
 ]
+ALLOW = ['šarti']

@@ -31,3 +31,4 @@ T = [
 
 def transform(src):
     return re.sub(r'const x=\[.*?\]\];', lambda m: ARR, src, count=1, flags=re.S)
+STRUCTURAL = "Arabic ayahs replaced by transliteration + translation (new data array and render code)"

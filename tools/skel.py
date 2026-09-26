@@ -70,9 +70,9 @@ def build(game):
     check(html)
 
 
-BS_WORDS = re.compile(r'\b(Rekić|Pripremio|Prepared by|\w*[čćžšđČĆŽŠĐ]\w*|je|su|se|na|za|od|da|sa|ili|ako|koji|koja|kako|nije|sve|svih|igra|igru|'
+BS_WORDS = re.compile(r"(?<![\w'’-])(" r'Rekić|Pripremio|Prepared by|\w*[čćžšđČĆŽŠĐ]\w*|je|su|se|na|za|od|da|sa|ili|ako|koji|koja|kako|nije|sve|svih|igra|igru|'
                       r'nova|pokusaj|pritisni|dodirni|pitanje|odgovor|bodovi|bodova|bod|zadatak|tacno|netacno|'
-                      r'dalje|ponovo|pomoc|kraj|nivo|vrijeme|rezultat|meleki|kviz|znanja|pitanja|tacan|zivotinja|igrica)\b', re.I)
+                      r'dalje|ponovo|pomoc|kraj|nivo|vrijeme|rezultat|meleki|kviz|znanja|pitanja|tacan|zivotinja|igrica)' r"(?![\w'’-])", re.I)
 
 
 def check(html):
