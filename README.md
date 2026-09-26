@@ -13,6 +13,10 @@ Test: `.venv/bin/pytest tests`
 
 `islamski-milijunas-online` uses our own Supabase project (`supabase/config.json`, publishable key only).
 Database setup: run `supabase/schema.sql` in the Supabase SQL Editor; test it locally with `tests/run_supabase_test.sh`.
-Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`).
+Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`) and `el-fatiha`
+(replaced by `learn-surahs-by-heart`, which includes Al-Fatiha).
+
+New games (not translations): `games/learn-surahs-by-heart` (`tools/fetch_hifz.py` + `tools/build_hifz.py`) and the rebuilt
+`games/citaj-kuran` Read Along (`tools/fetch_readalong.py` + `tools/build_citaj_kuran.py`).
 
 Qur’an translation: Sahih International (via AlQuran.cloud) · Recitation: Mishary Rashid Alafasy

@@ -1,0 +1,158 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Learn the Surahs by Heart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
+<style>
+:root{--green:#0f5a3f;--green2:#176b45;--gold:#c99b3e;--gold2:#f3e2b3;--cream:#fff8e7;--ink:#17130d;--muted:#6a5c45}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+main{max-width:920px;margin:auto;padding:12px 16px 30px}h1{text-align:center;color:#795718;margin:10px 0 2px;font-size:clamp(24px,5vw,34px)}
+.sub{text-align:center;color:var(--muted);margin-bottom:12px}
+.pick{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;align-items:center;margin-bottom:12px}
+select{font:inherit;font-weight:800;font-size:16px;padding:10px 12px;border-radius:12px;border:2px solid var(--gold);background:#fff;color:#5b4212;max-width:100%}
+.card{background:#fff;border:3px solid var(--gold);border-radius:22px;padding:16px;box-shadow:0 7px 22px #0002}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.tabs button{font:inherit;font-weight:800;font-size:15px;padding:11px 6px;border-radius:13px;border:2px solid var(--gold);background:#fff;color:#5b4212;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--green2);border-color:var(--green2);color:#fff}
+#counter{text-align:center;font-weight:800;color:#725722;letter-spacing:.3px}#pointer{text-align:center;color:var(--green2);font-weight:800;margin:4px 0 6px;min-height:20px}
+#text{max-height:52vh;overflow:auto;padding:4px 6px;border-radius:14px}
+.line{padding:8px 4px;border-bottom:1px dashed #eadbb6}.line:last-child{border-bottom:0}
+.label{font-size:12px;font-weight:800;color:#a58a4e;text-transform:uppercase;letter-spacing:.5px}
+.ar{direction:rtl;text-align:center;font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;font-size:clamp(26px,6.4vw,42px);line-height:2.15;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .26em}
+.tr{text-align:center;font-weight:600;font-size:clamp(15px,3.4vw,18px);color:#3d3527;line-height:1.7;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .35em}
+.w{border-radius:8px;padding:0 .08em;transition:background .12s,color .12s,opacity .12s}
+.part{background:#fdf1cf}.past{opacity:.55}.on{background:#ffd966!important;color:#0f5132;box-shadow:0 0 0 3px #ffd966}
+.end{color:#b0852b;font-size:.8em}
+.hideAr .ar,.hideTr .tr{display:none!important}
+#meaning{display:none;text-align:center;font-style:italic;color:#5a4d38;margin:10px 4px 0;line-height:1.5}.showEn #meaning{display:block}
+.cue{text-align:center;color:var(--muted);font-weight:700;margin-bottom:4px}
+.veil{display:flex;align-items:center;justify-content:center;min-height:120px;border:3px dashed var(--gold);border-radius:16px;background:#fffaf0;margin:6px 0}
+.panel{margin-top:12px;text-align:center}.panel b{color:#5b4212}.small{color:var(--muted);font-size:14px;margin:4px 0 8px}
+.row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:8px}
+button.b{font:inherit;font-weight:800;font-size:15px;padding:11px 14px;border-radius:13px;border:0;background:var(--gold2);color:#3f2d09;cursor:pointer}
+button.g{background:var(--green2);color:#fff}button.k{background:#19140d;color:#fff}button.r{background:#f6d5cf;color:#7a1f10}button.o{background:#fff;border:2px solid #19140d}
+button:disabled{opacity:.45;cursor:default}
+.meter{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin:12px 0 2px}.cell{width:16px;height:10px;border-radius:4px;background:#eee3cb}.cell.ok{background:#e8c774}.cell.master{background:var(--green2)}
+.settings{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:center;margin-top:14px;padding-top:12px;border-top:1px dashed #e3d2a9}
+.settings label{font-weight:800;color:#5b4212}.seg{display:inline-flex;border:2px solid var(--gold);border-radius:12px;overflow:hidden}
+.seg button{font:inherit;font-weight:700;border:0;background:#fff;padding:8px 11px;cursor:pointer;color:#5b4212}.seg button[aria-pressed="true"]{background:var(--gold);color:#fff}
+.toggles{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:10px;font-weight:700;color:#5b4212}
+.credit{text-align:center;font-size:12px;color:#8a7c64;margin-top:12px}
+@media(max-width:520px){.card{padding:11px}.tabs button{font-size:13px;padding:10px 4px}button.b{font-size:14px;padding:10px 11px}}
+</style></head><body><main>
+<h1>🌟 Learn the Surahs by Heart</h1><div class="sub">Follow • Build the ayah • Smart review</div>
+<div class="pick"><label for="surah"><b>Surah:</b></label><select id="surah"></select></div>
+<div class="card" id="card">
+  <div class="tabs" role="group" aria-label="How to learn"><button id="tFollow" aria-pressed="true">👆 Follow</button><button id="tBuild" aria-pressed="false">🧱 Build the ayah</button><button id="tSmart" aria-pressed="false">🧠 Smart review</button></div>
+  <div id="counter"></div><div id="pointer"></div>
+  <div id="text"></div><div id="meaning"></div>
+  <div class="panel" id="panel"></div>
+  <div class="meter" id="meter" title="Your progress: green = you know it"></div>
+  <div class="row"><button class="b" id="playPart">▶ Listen to part</button><button class="b" id="repeat3">🔁 Repeat 3×</button>
+    <button class="b o" id="prev">◀ Previous</button><button class="b o" id="next">Next ▶</button>
+    <button class="b g" id="whole">▶ Whole surah</button><button class="b" id="stop">⏸ Stop</button></div>
+  <div class="settings">
+    <span><label>Speed </label><span class="seg" id="speed" role="group" aria-label="Speed"><button data-rate="1" aria-pressed="true">Normal</button><button data-rate="0.75" aria-pressed="false">Slower</button><button data-rate="0.5" aria-pressed="false">Slowest</button></span></span>
+    <span><label for="reciter">Reciter </label><select id="reciter"></select></span>
+  </div>
+  <div class="toggles"><label><input type="checkbox" id="showAr" checked> Arabic</label><label><input type="checkbox" id="showTr" checked> Transliteration</label><label><input type="checkbox" id="showEn"> Meaning</label></div>
+  <div class="row"><button class="b o" id="reset">↺ Start over</button></div>
+</div>
+<div class="credit">Arabic text and word timings: Quran.com · Meaning: Sahih International · Recitation: Mishary Alafasy / Mahmoud Khalil Al-Husary (Mu’allim)</div>
+<script>
+const DATA=__DATA__;
+const $=id=>document.getElementById(id);
+const player=new Audio();player.preload='auto';player.preservesPitch=true;
+let sIdx=0,pIdx=0,view='follow',rate=1,reciter='alafasy',score=[],buildLine=0,buildCount=1,revealed=false;
+let job=null,raf=0,spans=[];   // job = {items:[{li,from,to}], at, reps, done}
+function store(k,v){try{localStorage.setItem('hifz-'+k,v)}catch(e){}}
+function load(k){try{return localStorage.getItem('hifz-'+k)}catch(e){return null}}
+const S=()=>DATA.surahs[sIdx];
+let PARTS=[];
+function buildParts(){PARTS=S().lines.flatMap((l,li)=>l.parts.map(([a,b],pi)=>({li,a,b,pi,np:l.parts.length})))}
+function label(l){return l.n===0?'Bismillah':'Ayah '+l.n}
+function loadScore(){try{score=JSON.parse(load('score-'+S().id)||'null')}catch(e){score=null}if(!Array.isArray(score)||score.length!==PARTS.length)score=PARTS.map(()=>0)}
+function saveScore(){store('score-'+S().id,JSON.stringify(score));fillSurahs()}
+function progress(id){try{const s=JSON.parse(load('score-'+id)||'null');if(!Array.isArray(s)||!s.length)return 0;return Math.round(s.reduce((a,x)=>a+Math.min(x,3),0)/(s.length*3)*100)}catch(e){return 0}}
+function fillSurahs(){$('surah').innerHTML=DATA.surahs.map((s,k)=>{const p=progress(s.id);return `<option value="${k}">${s.title}${p?' ⭐ '+p+'%':''}</option>`}).join('');$('surah').value=sIdx}
+/* ---------- audio ---------- */
+function range(p){const l=S().lines[p.li],segs=l.audio[reciter].segments.filter(s=>s[0]>=p.a&&s[0]<p.b);
+  const from=p.pi===0?0:Math.min(...segs.map(s=>s[1])),to=p.pi===p.np-1?null:Math.max(...segs.map(s=>s[2]));return {li:p.li,from:isFinite(from)?from:0,to:isFinite(to)?to:null}}
+function play(items,reps,done){stop(false);job={items,at:0,reps:reps||1,left:reps||1,done};startItem()}
+function startItem(){const it=job.items[job.at],a=S().lines[it.li].audio[reciter];cancelAnimationFrame(raf);
+  if(player.dataset.src!==a.url){player.src=a.url;player.dataset.src=a.url}
+  player.defaultPlaybackRate=rate;player.playbackRate=rate;try{player.currentTime=it.from/1000}catch(e){}
+  player.play().then(()=>{raf=requestAnimationFrame(tick)}).catch(()=>{job=null;msg('The audio did not start. Check your internet connection.')})}
+function tick(){if(!job)return;const it=job.items[job.at],ms=player.currentTime*1000;highlight(it.li,ms);
+  if(it.to!==null&&ms>=it.to){itemDone();return}if(!player.paused)raf=requestAnimationFrame(tick)}
+function itemDone(){if(!job)return;player.pause();cancelAnimationFrame(raf);
+  if(job.at<job.items.length-1){job.at++;setTimeout(()=>job&&startItem(),350);return}
+  if(job.left>1){job.left--;job.at=0;setTimeout(()=>job&&startItem(),700);return}
+  const d=job.done;job=null;clearWord();if(d)d()}
+player.addEventListener('ended',itemDone);
+function stop(clear=true){job=null;player.pause();cancelAnimationFrame(raf);if(clear)clearWord()}
+/* ---------- highlighting ---------- */
+function wordAt(li,ms){for(const [k,a,b] of S().lines[li].audio[reciter].segments)if(ms>=a&&ms<b)return k;return -1}
+function highlight(li,ms){const k=wordAt(li,ms);clearWord();if(k<0||!spans[li])return k;
+  (spans[li][k]||[]).forEach(s=>s.classList.add('on'));
+  if(view==='follow'){const n=PARTS.findIndex(p=>p.li===li&&k>=p.a&&k<p.b);if(n>=0&&n!==pIdx){pIdx=n;markParts();status()}}
+  return k}
+function clearWord(){document.querySelectorAll('#text .on').forEach(s=>s.classList.remove('on'))}
+/* ---------- rendering ---------- */
+function lineHTML(l,li,from,to){from=from||0;to=to===undefined?l.words.length:to;
+  const ar=l.words.slice(from,to).map((w,j)=>`<span class="w" data-li="${li}" data-k="${from+j}">${w}</span>`).join('')+(to===l.words.length&&l.end?`<span class="end">۝${l.end}</span>`:'');
+  const tr=l.wtr.slice(from,to).map((w,j)=>`<span class="w" data-li="${li}" data-k="${from+j}">${w}</span>`).join('');
+  return `<div class="line" id="line${li}"><div class="label">${label(l)}</div><div class="ar" lang="ar">${ar}</div><div class="tr">${tr}</div></div>`}
+function collect(){spans=[];document.querySelectorAll('#text .w').forEach(s=>{const li=+s.dataset.li,k=+s.dataset.k;((spans[li]=spans[li]||[])[k]=spans[li][k]||[]).push(s)})}
+function markParts(){const cur=PARTS[pIdx];document.querySelectorAll('#text .w').forEach(s=>{const li=+s.dataset.li,k=+s.dataset.k;
+  const n=PARTS.findIndex(p=>p.li===li&&k>=p.a&&k<p.b);s.classList.toggle('part',view==='follow'&&n===pIdx);s.classList.toggle('past',view==='follow'&&n<pIdx)});
+  const el=$('line'+cur.li);if(el&&view==='follow')el.scrollIntoView({block:'nearest',behavior:'smooth'});$('meaning').textContent=S().lines[cur.li].en}
+function meter(){$('meter').innerHTML=score.map((x,n)=>`<span class="cell ${x>=3?'master':x>0?'ok':''}" title="Part ${n+1}"></span>`).join('')}
+function msg(t){$('pointer').textContent=t}
+function status(){const p=PARTS[pIdx];$('counter').textContent=S().title.toUpperCase()+' • PART '+(pIdx+1)+' OF '+PARTS.length+' • '+label(S().lines[p.li]).toUpperCase()}
+function tabs(){[['tFollow','follow'],['tBuild','build'],['tSmart','smart']].forEach(([id,v])=>$(id).setAttribute('aria-pressed',view===v))}
+function draw(){tabs();meter();if(view==='build')return drawBuild();if(view==='smart')return drawSmart();
+  $('text').innerHTML=S().lines.map((l,li)=>lineHTML(l,li)).join('');collect();markParts();status();msg('▼ WE ARE HERE ▼');
+  $('panel').innerHTML='<b>Learn with the pointer.</b><div class="small">Listen to each part 3 times, then try to recite it without looking.</div>';
+  $('prev').disabled=pIdx===0;$('next').disabled=pIdx===PARTS.length-1}
+function drawBuild(){const l=S().lines[buildLine],n=l.parts.length,shown=l.parts.slice(0,buildCount);
+  $('text').innerHTML=lineHTML(l,buildLine,0,shown[shown.length-1][1]);collect();pIdx=PARTS.findIndex(p=>p.li===buildLine);$('meaning').textContent=l.en;
+  $('counter').textContent=S().title.toUpperCase()+' • BUILD '+label(l).toUpperCase();msg(n>1?'part 1 → 1+2 → … → the whole ayah':'This ayah is one part – learn it whole');
+  $('panel').innerHTML=`<b>Step ${buildCount} of ${n}</b><div class="small">Recite everything you see 3 times. When you can do it without mistakes, add the next part.</div>
+   <div class="row"><button class="b" id="bPlay">▶ Listen to what you built</button><button class="b g" id="bAdd" ${buildCount>=n?'disabled':''}>+ Add a part</button><button class="b k" id="bNext">Next ayah ▶</button></div>`;
+  $('bPlay').onclick=()=>{const ps=PARTS.filter(p=>p.li===buildLine).slice(0,buildCount);play([{li:buildLine,from:range(ps[0]).from,to:range(ps[ps.length-1]).to}],1)};
+  $('bAdd').onclick=()=>{if(buildCount<n){buildCount++;stop();draw()}};
+  $('bNext').onclick=()=>{stop();buildLine=(buildLine+1)%S().lines.length;buildCount=1;draw()};
+  $('prev').disabled=true;$('next').disabled=true}
+function pickSmart(){const w=score.map(x=>Math.max(1,6-x));let r=Math.random()*w.reduce((a,b)=>a+b,0);for(let n=0;n<w.length;n++){r-=w[n];if(r<=0)return n}return 0}
+function drawSmart(){const p=PARTS[pIdx],l=S().lines[p.li],prev=PARTS[pIdx-1];
+  const cue=prev?`<div class="cue">What comes after…</div>`+lineHTML(S().lines[prev.li],prev.li,prev.a,prev.b):`<div class="cue">The beginning of ${S().title}</div>`;
+  $('text').innerHTML=cue+(revealed?lineHTML(l,p.li,p.a,p.b):`<div class="veil"><button class="b g" id="reveal">👀 Show</button></div>`);collect();
+  if(!revealed)$('reveal').onclick=()=>{revealed=true;draw()};
+  $('meaning').textContent=l.en;status();msg('Harder parts come back more often');
+  $('panel').innerHTML=`<b>Recite the next part from memory, then tap 👀 Show to check.</b><div class="small">Rate yourself honestly.</div>
+   <div class="row"><button class="b r" data-rate="0">😕 Hard</button><button class="b" data-rate="1">🙂 Almost</button><button class="b g" data-rate="2">⭐ I know it</button></div>`;
+  $('panel').querySelectorAll('[data-rate]').forEach(b=>b.onclick=()=>rateIt(+b.dataset.rate));$('prev').disabled=true;$('next').disabled=true}
+function rateIt(v){score[pIdx]=v===0?Math.max(0,score[pIdx]-1):v===1?Math.min(4,score[pIdx]+1):Math.min(5,score[pIdx]+2);saveScore();stop();revealed=false;pIdx=pickSmart();draw()}
+/* ---------- actions ---------- */
+function setView(v){stop();view=v;revealed=false;if(v==='smart')pIdx=pickSmart();if(v==='build'){buildLine=PARTS[pIdx].li;buildCount=1}draw()}
+function chooseSurah(k){stop();sIdx=k;store('surah',k);buildParts();loadScore();pIdx=0;buildLine=0;buildCount=1;revealed=false;fillSurahs();if(view==='smart')pIdx=pickSmart();draw()}
+function setRate(r){rate=r;player.defaultPlaybackRate=r;player.playbackRate=r;store('rate',r);document.querySelectorAll('#speed button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.rate===r))}
+$('tFollow').onclick=()=>setView('follow');$('tBuild').onclick=()=>setView('build');$('tSmart').onclick=()=>setView('smart');
+$('playPart').onclick=()=>play([range(PARTS[pIdx])],1,()=>msg('🗣️ Now recite this part yourself.'));
+$('repeat3').onclick=()=>play([range(PARTS[pIdx])],3,()=>msg('🗣️ Now recite it without looking.'));
+$('prev').onclick=()=>{stop();pIdx=Math.max(0,pIdx-1);draw()};$('next').onclick=()=>{stop();pIdx=Math.min(PARTS.length-1,pIdx+1);draw()};
+$('whole').onclick=()=>{setView('follow');pIdx=0;draw();play(S().lines.map((l,li)=>({li,from:0,to:null})),1,()=>msg('🌟 That was the whole surah. Now try it yourself!'))};
+$('stop').onclick=()=>stop();
+$('reset').onclick=()=>{stop();pIdx=0;buildLine=0;buildCount=1;revealed=false;setView('follow')};
+$('surah').onchange=e=>chooseSurah(+e.target.value);
+$('reciter').innerHTML=Object.entries(DATA.reciters).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+$('reciter').onchange=e=>{stop();reciter=e.target.value;player.dataset.src='';store('reciter',reciter)};
+document.querySelectorAll('#speed button').forEach(b=>b.onclick=()=>setRate(+b.dataset.rate));
+function toggle(id,cls,on){const f=()=>{$('card').classList.toggle(cls,on?$(id).checked:!$(id).checked);store(id,$(id).checked?'1':'0')};
+  const v=load(id);if(v!==null)$(id).checked=v==='1';$(id).addEventListener('change',f);f()}
+toggle('showAr','hideAr',false);toggle('showTr','hideTr',false);toggle('showEn','showEn',true);
+const rc=load('reciter');if(rc&&DATA.reciters[rc]){reciter=rc;$('reciter').value=rc}
+const sr=+load('rate');if(sr)setRate(sr);
+const ss=+load('surah');chooseSurah(ss>=0&&ss<DATA.surahs.length?ss:0);
+window.HZ={DATA,parts:()=>PARTS,range,wordAt,highlight,state:()=>({sIdx,pIdx,view,rate,reciter,score:[...score],buildLine,buildCount,revealed,playing:!!job}),player};
+</script></main></body></html>
