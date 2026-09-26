@@ -55,6 +55,8 @@ def test_transliteration_is_kid_friendly_and_recited_style():
     ikhlas = BY_ID['ikhlas']['lines']
     assert ikhlas[2]['wtr'] == ['Allahu', 's-samad'], 'sun letter + stop at the end of the ayah'
     assert BY_ID['fatiha']['lines'][0]['wtr'][-2:] == ['r-rahmaani', 'r-raheem']
+    assert BY_ID['fatiha']['lines'][2]['wtr'][0] == 'ar-rahmaani', 'word-initial al- before a sun letter'
+    assert not re.search(r'(?<![\w-])al-(th|dh|sh|t|d|r|z|s|n)', alltr, re.I), 'al- before a sun letter must assimilate'
 
 
 # ---------------------------------------------------------------- browser

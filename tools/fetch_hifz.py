@@ -79,6 +79,8 @@ def kid_tr(t):
     t = re.sub(r"(?<=[a-z])'(?=[a-z])", '', t)                  # Quran.com's syllable marks: bis'mi -> bismi
     t = re.sub(r'(^|-)l-(?=' + SUN + ')', lambda m: m.group(1) + '@', t)  # mark "l-" before a sun letter
     t = re.sub(r'@' + SUN, lambda m: m.group(1) + '-' + m.group(1), t)   # l-rahmaan -> r-rahmaan
+    t = re.sub(r'\b([Aa])l-(?=' + SUN + ')(?!l)', lambda m: m.group(1) + '@', t)   # word-initial al- before a sun letter
+    t = re.sub(r'@' + SUN, lambda m: m.group(1) + '-' + m.group(1), t)   # al-rahmaan -> ar-rahmaan
     return t.replace('al-laahu', 'Allaahu').replace('al-lahu', 'Allahu')
 
 
