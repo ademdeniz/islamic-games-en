@@ -20,3 +20,11 @@ New games (not translations): `games/learn-surahs-by-heart` (`tools/fetch_hifz.p
 `games/citaj-kuran` Read Along (`tools/fetch_readalong.py` + `tools/build_citaj_kuran.py`).
 
 Qur’an translation: Sahih International (via AlQuran.cloud) · Recitation: Mishary Rashid Alafasy
+
+## Rebuilding
+
+Every game can be rebuilt from this repository alone (`work/` is only a scratch folder):
+```
+python3 tools/rebuild_all.py            # rebuild all games and check they come out identical
+```
+Run it in a fresh clone after bigger changes to prove nothing depends on files that exist only on one computer.
