@@ -11,7 +11,8 @@ translated from the Bosnian originals at github.com/rekicabdo-bihac.
 Run locally: `python3 -m http.server 8765` then open http://localhost:8765
 Test: `.venv/bin/pytest tests`
 
-Not linked from the home page: `islamski-milijunas-online` (its login sends data to the original author’s database)
-and `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`).
+`islamski-milijunas-online` uses our own Supabase project (`supabase/config.json`, publishable key only).
+Database setup: run `supabase/schema.sql` in the Supabase SQL Editor; test it locally with `tests/run_supabase_test.sh`.
+Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`).
 
 Qur’an translation: Sahih International (via AlQuran.cloud) · Recitation: Mishary Rashid Alafasy

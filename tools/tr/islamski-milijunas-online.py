@@ -52,3 +52,11 @@ T = [p for p in _base['T'] if p[0] not in _ONLINE_ONLY] + [
     ('% • Bodovi: ${x.score}', '% • Points: ${x.score}'),
     ("'Još nema rezultata.'", "'No results yet.'"),
 ]
+
+# Use our own Supabase project (supabase/config.json) instead of the original author's database.
+import json as _json
+_cfg = _json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'supabase', 'config.json')))
+T += [
+    ("SUPABASE_URL='https://jaxcricubwcvqudhknjj.supabase.co'", f"SUPABASE_URL='{_cfg['url']}'"),
+    ("SUPABASE_KEY='sb_publishable_2gMnx-y-cNpBlCTW6V-pkg_SlYpda8R'", f"SUPABASE_KEY='{_cfg['publishable_key']}'"),
+]

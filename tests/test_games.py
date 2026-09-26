@@ -148,3 +148,14 @@ def test_runs_without_new_errors(game, browser):
         old = _run_in_browser(browser, gc.skel.main_file(game))
         new -= old
     assert not new, f'JavaScript errors in the translated game: {sorted(new)}'
+
+
+def test_online_quiz_uses_our_own_database(game):
+    if game != 'islamski-milijunas-online':
+        pytest.skip('only the online quiz talks to a database')
+    import json
+    cfg = json.load(open(os.path.join(gc.ROOT, 'supabase', 'config.json')))
+    html = gc.translated_html(game)
+    assert 'jaxcricubwcvqudhknjj' not in html and 'sb_publishable_2gMnx' not in html, "original author's database still referenced"
+    assert f"SUPABASE_URL='{cfg['url']}'" in html and f"SUPABASE_KEY='{cfg['publishable_key']}'" in html
+    assert 'sb_secret_' not in html, 'a SECRET key must never be in a web page'

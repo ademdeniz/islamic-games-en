@@ -93,8 +93,8 @@ $('search').oninput=renderDB;
 function renderDB(){let term=$('search').value.toLowerCase().trim();let arr=BANK.filter(x=>(filter==='ALL'||x.level===filter)&&(!term||x.q.toLowerCase().includes(term)||x.opts.some(o=>o.toLowerCase().includes(term))));$('dbCount').textContent='Showing: '+arr.length+' questions';$('dbList').innerHTML=arr.map((x,i)=>'<div class="card"><b>'+x.level+' • '+(i+1)+'. '+esc(x.q)+'</b><div>A) '+esc(x.opts[0])+'</div><div>B) '+esc(x.opts[1])+'</div><div>C) '+esc(x.opts[2])+'</div><div>D) '+esc(x.opts[3])+'</div><div class="ok">Correct answer: '+String.fromCharCode(65+x.ans)+') '+esc(x.opts[x.ans])+'</div></div>').join('')}
 
 // ONLINE SUPABASE
-const SUPABASE_URL='https://jaxcricubwcvqudhknjj.supabase.co';
-const SUPABASE_KEY='sb_publishable_2gMnx-y-cNpBlCTW6V-pkg_SlYpda8R';
+const SUPABASE_URL='https://wlyfczvepjcluqcpyxpo.supabase.co';
+const SUPABASE_KEY='sb_publishable_OFODrzQiSGAZzEKkYPd13g_P9lMJWNN';
 const sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
 let me=null,myProfile=null,myTeacher=null;
 $('onlineBtn').onclick=()=>{show('online');refreshOnline()}; $('onlineBack').onclick=()=>show('start'); $('onlinePlay').onclick=startGame;
