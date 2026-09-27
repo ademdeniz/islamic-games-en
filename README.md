@@ -5,6 +5,7 @@ translated from the Bosnian originals at github.com/rekicabdo-bihac.
 
 - `index.html` – home page listing the games (level filter, search, “Copy link” for homework)
 - `games/<game>/index.html` – the English games (each is one self-contained file)
+- `sufara/` – Arabic letters (28 letter pages + reviews): `data/sufara/`, `tools/fetch_sufara_words.py`, `tools/build_sufara.py`
 - `original/` – the Bosnian originals, unchanged
 - `TRANSLATING.md` – translation rules and glossary · `tools/` – translation toolkit · `tests/` – checks every game
 
