@@ -10,6 +10,8 @@ import gamecheck as gc
 DATA = json.load(open(os.path.join(gc.ROOT, 'data', 'sufara', 'letters.json'), encoding='utf-8'))
 LETTERS = DATA['letters']
 WORDS = json.load(open(os.path.join(gc.ROOT, 'data', 'sufara', 'words.json'), encoding='utf-8'))
+RULES = json.load(open(os.path.join(gc.ROOT, 'data', 'sufara', 'rules.json'), encoding='utf-8'))['rules']
+RULE_EX = json.load(open(os.path.join(gc.ROOT, 'data', 'sufara', 'rule_examples.json'), encoding='utf-8'))
 PAGES = sorted(d for d in os.listdir(os.path.join(gc.ROOT, 'sufara')) if os.path.isdir(os.path.join(gc.ROOT, 'sufara', d)))
 MARKS = re.compile('[ً-ٰٟۖ-ۭـ]')
 
@@ -44,7 +46,8 @@ def test_every_video_is_a_different_letter_video():
 
 
 def test_pages_exist():
-    assert PAGES == sorted([f'{n:02d}-{L["slug"]}' for n, L in enumerate(LETTERS, 1)] + [f'review-{k}' for k in range(1, 5)])
+    assert PAGES == sorted([f'{n:02d}-{L["slug"]}' for n, L in enumerate(LETTERS, 1)] + [f'review-{k}' for k in range(1, 5)]
+                           + [f'rule-{R["slug"]}' for R in RULES])
     idx = open(os.path.join(gc.ROOT, 'sufara', 'index.html'), encoding='utf-8').read()
     assert all(f'"{p}"' in idx for p in PAGES)
 
@@ -59,7 +62,7 @@ def test_pages_are_english_and_branded():
         visible = re.sub(r'"(bs|slug|id|audio|video|key|ch|target)": "[^"]*"', '', visible)
         hits = {m.group(0) for m in skel.BS_WORDS.finditer(re.sub(r'[؀-ۿ]+', ' ', visible))}
         readings = {t for L in LETTERS for _, t in L['harakat']}   # “da”, “na”… are how دَ, نَ are read
-        allowed = {x.lower() for x in readings | {L['bs'] for L in LETTERS} | {'Spahić', 'Memic'}}   # + Bosnian letter names, real names
+        allowed = {x.lower() for x in readings | {L['bs'] for L in LETTERS} | {w for R in RULES for w in R['bs'].split()} | {'Spahić', 'Memic'}}   # + Bosnian letter names, real names
         assert not {h for h in hits if h.lower() not in allowed}, f'{p}: {hits}'
 
 
@@ -137,7 +140,11 @@ def test_wrong_letter_in_find_game_is_not_counted(page):
 def test_sufara_index_links_every_page_in_order(page):
     page.goto('file://' + os.path.join(gc.ROOT, 'sufara', 'index.html'))
     hrefs = page.eval_on_selector_all('#grid a', 'as => as.map(a => a.getAttribute("href"))')
-    assert len(hrefs) == 32 and hrefs[0] == '01-alif/' and hrefs[7] == 'review-1/' and hrefs[-1] == 'review-4/'
+    assert len(hrefs) == 28 + 4 + len(RULES) and hrefs[0] == '01-alif/' and hrefs[-1] == 'review-4/'
+    for R in RULES:   # every rule comes right after its letter (or after the rules placed there before it)
+        slug = next(f'{n:02d}-{L["slug"]}/' for n, L in enumerate(LETTERS, 1) if L['slug'] == R['after'])
+        between = hrefs[hrefs.index(slug) + 1:hrefs.index(f'rule-{R["slug"]}/')]
+        assert all(h.startswith('rule-') for h in between), (R['slug'], between)
 
 
 def test_word_recitation_plays(browser):
@@ -153,3 +160,50 @@ def test_word_recitation_plays(browser):
     if ok is None:
         pytest.skip('audio could not be checked here (offline?)')
     assert ok, 'Quran.com word audio must load'
+
+
+@pytest.mark.parametrize('R', RULES, ids=[R['slug'] for R in RULES])
+def test_rule_data(R):
+    assert R['after'] in {L['slug'] for L in LETTERS}
+    assert re.fullmatch(r'[\w-]{11}', R['video']) and R['explain'] and R['quiz']
+    ex = RULE_EX[R['slug']]
+    assert len(ex) == len(R['examples']) >= 2
+    for e, spec in zip(ex, R['examples']):
+        assert len(e['ar'].split()) == len(spec['words'])
+        if len(spec['words']) > 1:
+            assert e['audio'].startswith('https://verses.quran.com/') and 0 <= e['clip'][0] < e['clip'][1], e
+        else:
+            assert e['audio'].startswith('https://audio.qurancdn.com/') and 'clip' not in e
+    for q in R['quiz']:
+        assert 0 <= q['answer'] < len(q['options'])
+
+
+def test_start_over_clears_stars_on_this_device(page):
+    page.on('dialog', lambda d: d.accept())
+    page.goto('file://' + os.path.join(gc.ROOT, 'sufara', 'index.html'))
+    page.evaluate("localStorage.setItem('lesson-sufara-06-ba', JSON.stringify({0: 1, 1: 1}))")
+    page.reload()
+    assert page.locator('a.t.done').count() == 1
+    page.click('#reset')
+    page.wait_for_load_state()
+    assert page.locator('a.t.done').count() == 0
+    assert page.evaluate("Object.keys(localStorage).filter(k => k.startsWith('lesson-sufara-')).length") == 0
+
+
+def test_two_word_example_plays_only_those_words(browser):
+    """Joining words: the clip starts at the first word and stops after the second (real recitation)."""
+    p = browser.new_page()
+    p.goto('file://' + os.path.join(gc.ROOT, 'sufara', 'rule-joining-words', 'index.html'))
+    clip = RULE_EX['joining-words'][0]['clip']
+    p.click('.word >> nth=0')
+    try:
+        p.wait_for_function('audio && audio.currentTime > 0.3', timeout=15000)
+    except Exception:
+        p.close()
+        pytest.skip('audio could not be played here (offline?)')
+    started = p.evaluate('audio.currentTime')
+    p.wait_for_timeout((clip[1] - clip[0]) + 1500)
+    state = p.evaluate('[audio.paused, audio.currentTime]')
+    p.close()
+    assert started >= clip[0] / 1000 - 0.1
+    assert state[0] and state[1] <= clip[1] / 1000 + 0.35, f'should stop at {clip[1]} ms, is at {state}'

@@ -31,7 +31,7 @@ def get(url):
 
 
 def bare(word):
-    return MARKS.sub('', word).translate(ALIFS)
+    return MARKS.sub('', word).translate(ALIFS).strip()   # (a pause mark leaves a space behind)
 
 
 def words():
@@ -50,6 +50,34 @@ def words():
             if not d['pagination'].get('next_page'):
                 break
             page += 1
+
+
+def rule_examples():
+    """Resolve the reading-rule examples (data/sufara/rules.json) to exact Qur'an text and audio. Two or more words are
+    played as one clip from the ayah's recitation (Mishary Alafasy), so kids hear how the words join."""
+    rules = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'rules.json'), encoding='utf-8'))['rules']
+    out = {}
+    for r in rules:
+        items = []
+        for ex in r['examples']:
+            v = get(f"{API}/verses/by_key/{ex['key']}?words=true&word_fields=text_uthmani,audio_url")['verse']
+            ws = [w for w in v['words'] if w['char_type_name'] == 'word']
+            want = [bare(x) for x in ex['words']]
+            start = next(i for i in range(len(ws)) if [bare(w['text_uthmani']) for w in ws[i:i + len(want)]] == want)
+            chosen = ws[start:start + len(want)]
+            item = {'ar': ' '.join(re.sub(r'\s*[\u06D6-\u06ED]+$', '', w['text_uthmani']).strip() for w in chosen),
+                    'tr': ex['read'], 'en': ' '.join(w['translation']['text'].strip() for w in chosen), 'key': ex['key']}
+            if len(chosen) == 1:
+                item['audio'] = 'https://audio.qurancdn.com/' + chosen[0]['audio_url']
+            else:
+                a = get(f"{API}/recitations/7/by_ayah/{ex['key']}?fields=segments")['audio_files'][0]
+                segs = {s[1] if len(s) == 4 else s[0]: s[-2:] for s in a['segments']}
+                first, last = chosen[0]['position'], chosen[-1]['position']
+                item.update(audio='https://verses.quran.com/' + a['url'], clip=[segs[first][0], segs[last][1]])
+            items.append(item)
+        out[r['slug']] = items
+        print(f"{r['name']:18}: " + ' · '.join(f"{i['ar']} ({i['tr']}){' [clip]' if 'clip' in i else ''}" for i in items))
+    json.dump(out, open(os.path.join(ROOT, 'data', 'sufara', 'rule_examples.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 def main():
@@ -74,3 +102,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    rule_examples()
