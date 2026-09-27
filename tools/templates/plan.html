@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{--bg:#fbf7ec;--card:#ffffff;--ink:#1d1a14;--muted:#6b604d;--line:#e7dcc2;--green:#0f5a3f;--green-soft:#e6f2ea;--gold:#b98a2e;--gold-soft:#f7ecd0;--warn:#9a5a00;--off:#efe9dc;--link:#0f6a47;--chip:#f3efe4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15130f;--card:#1f1c17;--ink:#f1ebdf;--muted:#b3a78f;--line:#3a342a;--green:#6fcf9c;--green-soft:#1f3328;--gold:#e0b45a;--gold-soft:#3a3020;--warn:#f0b35a;--off:#26221c;--link:#7fdcaa;--chip:#2a261f}}
+:root[data-theme="dark"]{--bg:#15130f;--card:#1f1c17;--ink:#f1ebdf;--muted:#b3a78f;--line:#3a342a;--green:#6fcf9c;--green-soft:#1f3328;--gold:#e0b45a;--gold-soft:#3a3020;--warn:#f0b35a;--off:#26221c;--link:#7fdcaa;--chip:#2a261f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+main{max-width:1100px;margin:auto;padding:16px 16px 60px}
+h1{margin:4px 0 2px;font-size:clamp(22px,4.5vw,30px);color:var(--green)}
+.sub{color:var(--muted);margin:0 0 12px}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:var(--card);color:var(--ink);padding:6px 12px;font:inherit;font-weight:600;cursor:pointer}
+.seg button.on{background:var(--green);color:var(--bg)}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-weight:600;cursor:pointer}
+.status{margin-left:auto;font-size:12px;color:var(--muted)}
+.prog{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:12px 0}
+.pg{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;font-size:13px}
+.pg b{display:block}.meter{height:6px;background:var(--off);border-radius:9px;margin-top:6px;overflow:hidden}.meter i{display:block;height:100%;background:var(--green)}
+.week{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:14px 0;overflow:hidden}
+.week.next{border:2px solid var(--gold);box-shadow:0 0 0 3px var(--gold-soft)}
+.week.past{opacity:.8}
+.wh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line)}
+.wh .d{font-weight:800;font-size:16px}.wh .n{color:var(--muted);font-size:13px}
+.tag{font-size:12px;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--gold-soft);color:var(--warn)}
+.tag.nx{background:var(--gold);color:var(--bg)}
+.wh label{margin-left:auto;font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center;cursor:pointer}
+.off .grid{display:none}.off .wh{background:var(--off)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.grid.one{grid-template-columns:1fr}
+.grp{padding:10px 14px}.grp+.grp{border-left:1px solid var(--line)}
+.grp h3{margin:0 0 6px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--green)}
+.trk{margin:0 0 8px}.trk .tn{font-size:12px;font-weight:700;color:var(--muted);margin-bottom:2px}
+.it{display:flex;gap:8px;align-items:flex-start;padding:3px 0}
+.it .dot{color:var(--gold);font-weight:800;width:17px;text-align:center;flex:none}.week{padding-bottom:4px}
+.it input{margin-top:3px;width:17px;height:17px;accent-color:var(--green);flex:none}
+.it .t{flex:1;min-width:0}
+.it.done .t .ti{text-decoration:line-through;color:var(--muted)}
+.it a{color:var(--link);font-weight:600}
+.meta{font-size:12px;color:var(--muted)}
+.tb{font-size:11px;font-weight:700;border:1px dashed var(--gold);color:var(--warn);border-radius:6px;padding:0 5px;margin-left:4px;white-space:nowrap}
+.cont{font-size:11px;color:var(--muted);margin-left:4px}
+.games{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.games a{font-size:12.5px;text-decoration:none;color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+.games a:hover{border-color:var(--gold)}
+.notes{padding:0 14px 12px}.pin{margin:0 14px 0;padding:8px 10px;border-radius:10px;background:var(--gold-soft);color:var(--ink);font-size:14px;font-weight:600}.pin+.pin{margin-top:6px}.pins{padding-top:10px}
+.notes textarea{width:100%;min-height:44px;resize:vertical;font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px}
+.foot{font-size:12px;color:var(--muted);margin-top:24px}
+@media (max-width:720px){.grid{grid-template-columns:1fr}.grp+.grp{border-left:0;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<main>
+<h1>__H1__</h1>
+<p class="sub">__SUB__</p>
+<div class="bar">
+  <div class="seg" id="grpSeg"><button data-g="all">Both groups</button><button data-g="g1">Group 1</button><button data-g="g2">Group 2</button></div>
+  <button class="btn" id="toNext">Next class ↓</button>
+  <button class="btn" id="pastBtn">Hide past</button>
+  <span class="status" id="status">Loading saved ticks…</span>
+</div>
+<div class="prog" id="prog"></div>
+<div id="weeks"></div>
+<p class="foot">__FOOT__</p>
+</main>
+<script>
+const D=__DATA__;
+const R=!!D.readonly;   // parents' copy: no ticks, notes or “No class” switches
+if(R){document.getElementById('status').remove();document.getElementById('prog').remove()}
+const G1=[['i2','Ilmihal 2'],['i3','Ilmihal 3'],['qr','Qur’an'],['rd','Sufara'],['tj','Tajwid (from November)']];
+const G2=[['i1','Ilmihal 1'],['sf','Sufara']];
+const state={done:{},weeks:{}};
+let db=null,view='all',hidePast=false;
+try{view=localStorage.getItem('plan-view')||'all';hidePast=localStorage.getItem('plan-hidepast')==='1'}catch(e){}
+const today=new Date().toISOString().slice(0,10);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
+
+function isOff(d){const w=state.weeks[d];return w&&typeof w.noClass==='boolean'?w.noClass:!!D.noClass[d]}
+function schedule(){
+  const cls=D.sundays.filter(d=>!isOff(d)),W=cls.length,plan={};
+  cls.forEach(d=>plan[d]={});
+  for(const [t,items] of Object.entries(D.tracks)){
+    const N=items.length,st=D.starts[t];
+    if(st){const cw=cls.filter(d=>d>=st),M=cw.length;cls.filter(d=>d<st).forEach(d=>plan[d][t]=[]);
+      if(N>=M)cw.forEach((d,w)=>plan[d][t]=items.slice(Math.floor(w*N/M),Math.floor((w+1)*N/M)).map(it=>({it})));
+      else{let prev=-1;cw.forEach((d,w)=>{const i=Math.floor(w*N/M);plan[d][t]=[{it:items[i],cont:i===prev}];prev=i})}
+      continue}
+    if(t==='qr'){cls.forEach((d,w)=>plan[d][t]=[{it:items[w]}]);continue}
+    if(N>=W){cls.forEach((d,w)=>plan[d][t]=items.slice(Math.floor(w*N/W),Math.floor((w+1)*N/W)).map(it=>({it})))}
+    else{let prev=-1;cls.forEach((d,w)=>{const i=Math.floor(w*N/W);plan[d][t]=[{it:items[i],cont:i===prev}];prev=i})}
+  }
+  return plan;
+}
+function gamesFor(tracks,d,w,books){
+  const topics=new Set(),score={};
+  tracks.forEach(t=>t.forEach(x=>x.it.topics.forEach(p=>topics.add(p))));
+  for(const [s,g] of Object.entries(D.games)){const n=g.topics.filter(p=>topics.has(p)).length;if(n)score[s]=n}
+  const ev=D.events[d]||'';
+  for(const [k,gs] of Object.entries(D.eventGames))if(ev.includes(k))gs.forEach(s=>score[s]=(score[s]||0)+5);
+  let list=Object.keys(score).sort((a,b)=>score[b]-score[a]||a.localeCompare(b)).slice(0,4);
+  if(list.length<2)for(const b of books){const f=D.fallback[b];const s=f[w%f.length];if(!list.includes(s))list.push(s);if(list.length>=3)break}
+  return list;
+}
+function itemHTML(x){
+  const it=x.it,done=!!state.done[it.k];
+  const title=it.url?`<a href="${it.url}" target="_blank" rel="noopener" class="ti">${esc(it.title)}</a>`:`<span class="ti">${esc(it.title)}</span>${R?'':'<span class="tb">to build</span>'}`;
+  const meta=[it.page&&it.kind.startsWith('Ilmihal')?'book p. '+it.page:'',R&&/build/.test(it.hint||'')?'':it.hint||'',it.sub&&it.sub!=='letter'?it.sub:''].filter(Boolean).join(' · ');
+  return `<div class="it ${done?'done':''}">${R?'<span class="dot">•</span>':`<input type="checkbox" data-k="${it.k}" ${done?'checked':''} ${db?'':'disabled'} aria-label="Done: ${esc(it.title)}">`}<div class="t">${title}${x.cont?'<span class="cont">continued</span>':''}${meta?`<div class="meta">${esc(meta)}</div>`:''}</div></div>`;
+}
+function groupHTML(name,defs,plan,d,w,books){
+  const p=plan[d];
+  const tr=defs.map(([t,n])=>`<div class="trk"><div class="tn">${n}</div>${(p[t]||[]).map(itemHTML).join('')||`<div class="meta">${D.starts[t]?'Starts '+fmt(D.starts[t]).replace(/^\w+, /,''):'—'}</div>`}</div>`).join('');
+  const gs=gamesFor(defs.map(([t])=>p[t]||[]),d,w,books);
+  return `<div class="grp"><h3>${name}</h3>${tr}<div class="tn meta">Matching games</div><div class="games">${gs.map(s=>`<a href="${D.site}games/${s}/" target="_blank" rel="noopener">🎮 ${esc(D.games[s].t)}</a>`).join('')}</div></div>`;
+}
+function render(){
+  const plan=schedule(),cls=D.sundays.filter(d=>!isOff(d));
+  const next=cls.find(d=>d>=today);
+  document.querySelectorAll('#grpSeg button').forEach(b=>b.classList.toggle('on',b.dataset.g===view));
+  document.getElementById('pastBtn').textContent=hidePast?'Show past':'Hide past';
+  if(!R)document.getElementById('prog').innerHTML=[...G1,...G2].filter(([t])=>view==='all'||(view==='g1'?G1:G2).some(g=>g[0]===t)).map(([t,n])=>{
+    const items=D.tracks[t].filter(it=>t!=='qr'||cls.length>=+it.page-1),done=items.filter(it=>state.done[it.k]).length;
+    return `<div class="pg"><b>${n}</b>${done} of ${items.length} done<div class="meter"><i style="width:${items.length?100*done/items.length:0}%"></i></div></div>`}).join('');
+  let n=0;
+  document.getElementById('weeks').innerHTML=D.sundays.map(d=>{
+    const off=isOff(d),w=off?-1:n++,past=d<today&&d!==next;
+    if(hidePast&&past)return '';
+    const ev=D.events[d],wk=state.weeks[d]||{};
+    const why=off?(wk.noClass===true?'No class':(D.noClass[d]||'No class')):'';
+    const groups=off?'':(view!=='g2'?groupHTML('Group 1 · Ilmihal 2 & 3, Qur’an, Sufara & Tajwid',G1,plan,d,w,[2,3]):'')+(view!=='g1'?groupHTML('Group 2 · Ilmihal 1 & Sufara',G2,plan,d,w,[1]):'');
+    return `<section class="week ${off?'off':''} ${d===next?'next':''} ${past?'past':''}" id="w-${d}">
+      <div class="wh"><span class="d">${fmt(d)}</span>${off?`<span class="tag">${esc(why)}</span>`:`<span class="n">Class ${w+1} of ${cls.length}</span>`}${d===next?'<span class="tag nx">Next class</span>':''}${ev?`<span class="tag">🌙 ${esc(ev)}</span>`:''}
+      ${R?'':`<label><input type="checkbox" data-off="${d}" ${off?'checked':''} ${db?'':'disabled'}> No class</label>`}</div>
+      ${off?'':(()=>{const ps=(D.standing||[]).filter(s=>d>=s.from&&(!s.to||d<=s.to));return ps.length?`<div class="pins">${ps.map(s=>`<div class="pin">📝 Note: ${esc(s.text)}</div>`).join('')}</div>`:''})()}
+      <div class="grid ${view==='all'?'':'one'}">${groups}</div>
+      ${R?'':`<div class="notes"><textarea data-notes="${d}" placeholder="Notes for this class…" ${db?'':'disabled'}>${esc(wk.notes||'')}</textarea></div>`}</section>`}).join('');
+}
+function setStatus(t){document.getElementById('status').textContent=t}
+document.addEventListener('change',async e=>{
+  const el=e.target;if(!db)return;
+  try{
+    if(el.dataset.k){const k=el.dataset.k;if(el.checked){state.done[k]=true;await db.doc('done/'+k).set({done:true,at:new Date().toISOString()})}else{delete state.done[k];await db.doc('done/'+k).delete()}render()}
+    else if(el.dataset.off){const d=el.dataset.off;state.weeks[d]={...(state.weeks[d]||{}),noClass:el.checked};render();await db.doc('weeks/'+d).set(state.weeks[d])}
+    else if(el.dataset.notes){const d=el.dataset.notes;state.weeks[d]={...(state.weeks[d]||{}),notes:el.value};await db.doc('weeks/'+d).set(state.weeks[d])}
+    setStatus('Saved ✓')
+  }catch(err){setStatus('Could not save: '+(err&&err.message||err))}
+});
+document.getElementById('grpSeg').onclick=e=>{const g=e.target.dataset.g;if(!g)return;view=g;try{localStorage.setItem('plan-view',g)}catch(x){}render()};
+document.getElementById('pastBtn').onclick=()=>{hidePast=!hidePast;try{localStorage.setItem('plan-hidepast',hidePast?'1':'0')}catch(x){}render()};
+document.getElementById('toNext').onclick=()=>{const el=document.querySelector('.week.next');if(el)el.scrollIntoView({behavior:'smooth',block:'start'})};
+render();
+if(!R)(async()=>{
+  try{db=window.claude&&await window.claude.use('db')}catch(e){db=null}
+  if(!db){setStatus('Read-only here – open on claude.ai to save ticks');render();return}
+  setStatus('Saved ticks sync on all your devices');
+  db.collection('done').onSnapshot(s=>{state.done={};s.docs.forEach(x=>{if(x.data()?.done)state.done[x.id]=true});if(!document.activeElement||!document.activeElement.dataset?.notes)render()},e=>setStatus('Sync problem: '+e.message));
+  db.collection('weeks').onSnapshot(s=>{state.weeks={};s.docs.forEach(x=>state.weeks[x.id]=x.data()||{});if(!document.activeElement||!document.activeElement.dataset?.notes)render()},e=>setStatus('Sync problem: '+e.message));
+  render();
+})();
+</script>
+</body>
+</html>
