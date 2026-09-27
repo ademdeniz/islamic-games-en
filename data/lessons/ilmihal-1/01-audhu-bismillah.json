@@ -4,63 +4,186 @@
   "pages": "8–9",
   "intro": "Two short sentences we say before every good thing we do.",
   "learn": [
-    {"type": "phrase", "label": "A‘udhu billah",
-     "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
-     "tr": "A‘oodhu billaahi minash-shaytaanir-rajeem",
-     "en": "I seek Allah’s protection from the accursed Shaytan.",
-     "audio": "https://everyayah.com/data/Alafasy_128kbps/audhubillah.mp3"},
-    {"type": "phrase", "label": "Bismillah",
-     "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-     "tr": "Bismillaahir-Rahmaanir-Raheem",
-     "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
-     "audio": "https://everyayah.com/data/Alafasy_128kbps/bismillah.mp3"},
-    {"type": "heading", "text": "How we start every good deed"},
-    {"type": "text", "html": "We begin all our good and blessed deeds by saying <b>A‘udhu billah</b> and <b>Bismillah</b>."},
-    {"type": "text", "html": "When we say them, we ask Allah, the Most Merciful, to protect us and to give us His mercy. That is why we say them at many different times, for example:"},
-    {"type": "cards", "items": [
-      {"icon": "🌅", "label": "In the morning and in the evening"},
-      {"icon": "📖", "label": "When we study"},
-      {"icon": "🚲", "label": "When we travel – in a car or on a bike"},
-      {"icon": "⚽", "label": "When we play and have fun"}
-    ]}
+    {
+      "type": "image",
+      "src": "img/reading.webp",
+      "alt": "Two children reading together",
+      "small": true
+    },
+    {
+      "type": "phrase",
+      "label": "A‘udhu billah",
+      "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "tr": "A‘oodhu billaahi minash-shaytaanir-rajeem",
+      "en": "I seek Allah’s protection from the accursed Shaytan.",
+      "audio": "https://everyayah.com/data/Alafasy_128kbps/audhubillah.mp3"
+    },
+    {
+      "type": "phrase",
+      "label": "Bismillah",
+      "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "tr": "Bismillaahir-Rahmaanir-Raheem",
+      "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+      "audio": "https://everyayah.com/data/Alafasy_128kbps/bismillah.mp3"
+    },
+    {
+      "type": "heading",
+      "text": "How we start every good deed"
+    },
+    {
+      "type": "text",
+      "html": "We begin all our good and blessed deeds by saying <b>A‘udhu billah</b> and <b>Bismillah</b>."
+    },
+    {
+      "type": "text",
+      "html": "When we say them, we ask Allah, the Most Merciful, to protect us and to give us His mercy. That is why we say them at many different times, for example:"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🌅",
+          "label": "In the morning and in the evening",
+          "imgs": [
+            "img/waking-up.webp",
+            "img/sleeping.webp"
+          ]
+        },
+        {
+          "icon": "📖",
+          "label": "When we study",
+          "imgs": [
+            "img/studying.webp"
+          ]
+        },
+        {
+          "icon": "🚲",
+          "label": "When we travel – in a car or on a bike",
+          "imgs": [
+            "img/car.webp",
+            "img/bike.webp"
+          ]
+        },
+        {
+          "icon": "⚽",
+          "label": "When we play and have fun",
+          "imgs": [
+            "img/playing.webp"
+          ]
+        }
+      ]
+    }
   ],
   "practice": [
-    {"type": "order", "title": "Build the Bismillah",
-     "prompt": "Tap the words in the right order.",
-     "items": ["Bismillaahir", "Rahmaanir", "Raheem"]},
-    {"type": "order", "title": "Build the A‘udhu billah",
-     "prompt": "Tap the words in the right order.",
-     "items": ["A‘oodhu", "billaahi", "minash-shaytaanir", "rajeem"]},
-    {"type": "choose_all", "title": "When do we say Bismillah?",
-     "prompt": "Tap every time when we say A‘udhu billah and Bismillah, then tap Check.",
-     "options": [
-       {"text": "🌅 When we wake up in the morning", "correct": true},
-       {"text": "🌙 When we go to sleep", "correct": true},
-       {"text": "📖 Before we study", "correct": true},
-       {"text": "🚗 When we get in the car", "correct": true},
-       {"text": "⚽ Before we play", "correct": true},
-       {"text": "😠 Before doing something bad", "correct": false,
-        "why": "We say Bismillah only before good deeds – never before something bad."}
-     ]},
-    {"type": "quiz", "title": "Quick quiz", "questions": [
-      {"q": "What does A‘udhu billah mean?",
-       "options": ["I seek Allah’s protection from the accursed Shaytan.", "In the name of Allah.", "Allah is the Greatest.", "All praise is for Allah."],
-       "answer": 0},
-      {"q": "What does Bismillah mean?",
-       "options": ["In the name of Allah, the Entirely Merciful, the Especially Merciful.", "Thank you, Allah.", "Peace be upon you.", "Allah is One."],
-       "answer": 0},
-      {"q": "Which deeds do we begin with A‘udhu billah and Bismillah?",
-       "options": ["All good and blessed deeds", "Only the prayer", "Only eating", "None"],
-       "answer": 0},
-      {"q": "Why do we say them?",
-       "options": ["To ask Allah to protect us and give us His mercy", "Because it is a nice song", "So others can hear us", "Only because the teacher says so"],
-       "answer": 0}
-    ]},
-    {"type": "reflect", "title": "At home and in the maktab", "prompts": [
-      "✏️ Write A‘udhu billah and Bismillah in your notebook.",
-      "🗣️ Practise saying them together in the maktab.",
-      "💬 Tell each other what they mean.",
-      "👨‍👩‍👧 Talk with your mu‘allim and your parents: when should you say A‘udhu billah and Bismillah?"
-    ]}
+    {
+      "type": "order",
+      "title": "Build the Bismillah",
+      "prompt": "Tap the words in the right order.",
+      "items": [
+        "Bismillaahir",
+        "Rahmaanir",
+        "Raheem"
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Build the A‘udhu billah",
+      "prompt": "Tap the words in the right order.",
+      "items": [
+        "A‘oodhu",
+        "billaahi",
+        "minash-shaytaanir",
+        "rajeem"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "When do we say Bismillah?",
+      "prompt": "Tap every time when we say A‘udhu billah and Bismillah, then tap Check.",
+      "options": [
+        {
+          "text": "🌅 When we wake up in the morning",
+          "correct": true
+        },
+        {
+          "text": "🌙 When we go to sleep",
+          "correct": true
+        },
+        {
+          "text": "📖 Before we study",
+          "correct": true
+        },
+        {
+          "text": "🚗 When we get in the car",
+          "correct": true
+        },
+        {
+          "text": "⚽ Before we play",
+          "correct": true
+        },
+        {
+          "text": "😠 Before doing something bad",
+          "correct": false,
+          "why": "We say Bismillah only before good deeds – never before something bad."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What does A‘udhu billah mean?",
+          "options": [
+            "I seek Allah’s protection from the accursed Shaytan.",
+            "In the name of Allah.",
+            "Allah is the Greatest.",
+            "All praise is for Allah."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Bismillah mean?",
+          "options": [
+            "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+            "Thank you, Allah.",
+            "Peace be upon you.",
+            "Allah is One."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which deeds do we begin with A‘udhu billah and Bismillah?",
+          "options": [
+            "All good and blessed deeds",
+            "Only the prayer",
+            "Only eating",
+            "None"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why do we say them?",
+          "options": [
+            "To ask Allah to protect us and give us His mercy",
+            "Because it is a nice song",
+            "So others can hear us",
+            "Only because the teacher says so"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "At home and in the maktab",
+      "prompts": [
+        "✏️ Write A‘udhu billah and Bismillah in your notebook.",
+        "🗣️ Practise saying them together in the maktab.",
+        "💬 Tell each other what they mean.",
+        "👨‍👩‍👧 Talk with your mu‘allim and your parents: when should you say A‘udhu billah and Bismillah?"
+      ],
+      "img": "img/muallim.webp"
+    }
   ]
 }

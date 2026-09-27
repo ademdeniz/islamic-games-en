@@ -21,6 +21,9 @@ h3{color:#795718;margin:18px 0 6px;font-size:18px}
 .quran{border-left:5px solid var(--green2);background:#f1f8f3;border-radius:0 12px 12px 0;padding:10px 14px;margin:12px 0;font-style:italic}
 .quran .ref{display:block;font-style:normal;font-weight:800;color:var(--green2);font-size:13px;margin-top:4px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:10px 0}
+.card .pics{display:flex;gap:4px;justify-content:center;margin-bottom:6px}.card .pics img{max-width:100%;min-width:0;flex:1;height:110px;object-fit:contain}
+figure{margin:12px 0;text-align:center}figure img{max-width:100%;max-height:360px;border-radius:14px}figure.small img{max-height:220px}
+figcaption{font-size:14px;color:var(--muted);font-weight:600;margin-top:4px}.reflect-pic{float:right;max-width:34%;margin:0 0 8px 10px;border-radius:12px}
 .card{background:#fffaf0;border:2px solid var(--line);border-radius:14px;padding:12px;text-align:center;font-weight:700}.card .i{font-size:34px;display:block}
 ul.list{padding-left:20px}ul.list li{margin:6px 0}
 .point{border:2px solid var(--line);border-radius:14px;padding:10px 14px;margin:10px 0}.point b.t{color:var(--green)}
@@ -68,7 +71,8 @@ function stars(){const n=scored.filter(i=>done[i]).length;$('stars').textContent
 function complete(i,box){if(!done[i]){done[i]=1;save()}box.classList.add('done');box.querySelector('.badge').textContent='✅ Done';stars()}
 let audio=null;function play(url,btn){try{if(audio)audio.pause();audio=new Audio(url);audio.play().catch(()=>{btn.textContent='⚠️ No sound – check your internet'})}catch(e){}}
 /* ---------- learn ---------- */
-function quran(q){return `<div class="quran">“${esc(q.text)}”<span class="ref">— Qur’an, ${esc(q.ref)}</span></div>`}
+const IMG=u=>'../'+u;   // pictures live in lessons/<book>/img/
+function quran(q){return `<div class="quran">${esc(q.text)}<span class="ref">— Qur’an, ${esc(q.ref)}</span></div>`}
 $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='phrase')return `<div class="phrase"><div class="lbl">${esc(b.label)}</div><div class="ar" lang="ar">${b.ar}</div><div class="tr">${esc(b.tr)}</div><div class="en">${esc(b.en)}</div>`+
     (b.audio?`<button class="btn g" data-audio="${b.audio}">🔊 Listen</button>`:'')+`</div>`;
@@ -76,7 +80,8 @@ $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='heading')return `<h3>${esc(b.text)}</h3>`;
   if(b.type==='quran')return quran(b);
   if(b.type==='list')return `<ul class="list">${b.items.map(x=>`<li>${x}</li>`).join('')}</ul>`;
-  if(b.type==='cards')return `<div class="cards">${b.items.map(c=>`<div class="card"><span class="i">${c.icon}</span>${esc(c.label)}</div>`).join('')}</div>`;
+  if(b.type==='cards')return `<div class="cards">${b.items.map(c=>`<div class="card">`+(c.imgs?`<div class="pics">${c.imgs.map(u=>`<img src="${IMG(u)}" alt="" loading="lazy">`).join('')}</div>`:`<span class="i">${c.icon}</span>`)+`${esc(c.label)}</div>`).join('')}</div>`;
+  if(b.type==='image')return `<figure class="${b.small?'small':''}"><img src="${IMG(b.src)}" alt="${esc(b.alt)}" loading="lazy">${b.caption?`<figcaption>${esc(b.caption)}</figcaption>`:''}</figure>`;
   if(b.type==='point')return `<div class="point"><b class="t">${esc(b.title)}</b><div>${b.html}</div>${b.quran?quran(b.quran):''}</div>`;
   return ''}).join('');
 document.querySelectorAll('[data-audio]').forEach(b=>b.onclick=()=>play(b.dataset.audio,b));
@@ -130,7 +135,7 @@ function sort(a,el,finish){let n=0,score=0,items=[];
     el.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{const ok=+b.dataset.b===items[n].bin;if(ok)score++;el.querySelectorAll('[data-b]').forEach(x=>x.disabled=true);
       const fb=el.querySelector('.fb');fb.className='fb '+(ok?'ok':'bad');fb.textContent=ok?'✓ Correct!':'✗ It is '+a.bins[items[n].bin]+'.';setTimeout(()=>{n++;show()},ok?800:1600)})}
   start()}
-function reflect(a,el){el.innerHTML=`<ul class="reflect">${a.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`}
+function reflect(a,el){el.innerHTML=(a.img?`<img class="reflect-pic" src="${IMG(a.img)}" alt="" loading="lazy">`:'')+`<ul class="reflect">${a.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`}
 /* ---------- header, nav ---------- */
 $('tag').textContent=L.book_title+' • Lesson '+L.number;$('title').textContent=L.title;$('intro').textContent=L.intro;
 $('source').textContent='Adapted into English from '+L.source+', pages '+L.pages+'. Qur’an translation: Sahih International.';

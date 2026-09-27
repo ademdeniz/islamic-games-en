@@ -16,7 +16,7 @@ import build_lessons  # noqa: E402
 BOOKS = build_lessons.load_all()
 LESSONS = [l for b in BOOKS.values() for l in b['lessons']]
 IDS = [f"{l['book']}/{l['id']}" for l in LESSONS]
-LEARN_TYPES = {'phrase', 'text', 'heading', 'quran', 'list', 'cards', 'point'}
+LEARN_TYPES = {'phrase', 'text', 'heading', 'quran', 'list', 'cards', 'point', 'image'}
 
 
 def page_path(l):
@@ -28,7 +28,7 @@ def strings(obj):
         yield re.sub(r'<[^>]+>', '', obj)
     elif isinstance(obj, dict):
         for k, v in obj.items():
-            if k not in ('ar', 'audio', 'type', 'icon', 'source'):   # source = the book credit with authors' names
+            if k not in ('ar', 'audio', 'type', 'icon', 'source', 'src', 'img', 'imgs'):   # source = the book credit with authors' names
                 yield from strings(v)
     elif isinstance(obj, list):
         for v in obj:
@@ -176,3 +176,31 @@ def test_lessons_page_links_to_every_lesson(page):
     page.goto('file://' + os.path.join(gc.ROOT, 'lessons', 'index.html'))
     hrefs = page.eval_on_selector_all('a.lesson', 'as => as.map(a => a.getAttribute("href"))')
     assert hrefs == [f"{l['book']}/{l['id']}/" for l in LESSONS]
+
+
+@pytest.mark.parametrize('lesson', LESSONS, ids=IDS)
+def test_every_picture_exists_and_has_a_description(lesson):
+    def pics(obj):
+        if isinstance(obj, dict):
+            for k in ('src', 'img'):
+                if isinstance(obj.get(k), str):
+                    yield obj[k], obj.get('alt', 'decorative')
+            for u in obj.get('imgs', []):
+                yield u, 'decorative'
+            for v in obj.values():
+                yield from pics(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                yield from pics(v)
+    for u, alt in pics(lesson):
+        assert os.path.exists(os.path.join(gc.ROOT, 'lessons', lesson['book'], u)), u
+        assert alt, f'{u} needs alt text'
+
+
+def test_pictures_load_in_the_page(page):
+    for l in LESSONS:
+        page.goto('file://' + page_path(l))
+        page.evaluate("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')")
+        page.wait_for_timeout(300)
+        broken = page.evaluate("[...document.querySelectorAll('main img')].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)")
+        assert not broken, broken
