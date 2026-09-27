@@ -21,7 +21,7 @@ SUF = json.loads(re.search(r'const D=(\{.*?\});\n', idx, re.S).group(1))['pages'
 
 START, END = dt.date(2026, 9, 27), dt.date(2027, 6, 6)
 SUNDAYS = [START + dt.timedelta(weeks=k) for k in range((END - START).days // 7 + 1)]
-NO_CLASS = {'2026-12-27': 'Winter break', '2027-05-16': 'Eid al-Adha (approx.)'}
+NO_CLASS = json.load(open(os.path.join(ROOT, 'data', 'plan', 'no_class.json'), encoding='utf-8'))   # Sundays without class
 EVENTS = {   # approximate Islamic dates 1448 AH, shown on the Sunday of that week
     '2026-12-06': 'Laylat al-Raghaib ~Thu Dec 10',
     '2027-01-03': 'Isra & Mi‘raj ~Tue Jan 5',
@@ -121,6 +121,64 @@ data = {
         'qr': quran_items(len(SUNDAYS)), 'rd': reading_items(0), 'tj': tajwid_items(),
     },
 }
+G1 = [('i2', 'Ilmihal 2'), ('i3', 'Ilmihal 3'), ('qr', 'Qur’an'), ('rd', 'Sufara'), ('tj', 'Tajwid')]
+G2 = [('i1', 'Ilmihal 1'), ('sf', 'Sufara')]
+BOOKS = {'g1': [2, 3], 'g2': [1]}
+
+
+def class_days(no_class=None):
+    off = NO_CLASS if no_class is None else no_class
+    return [d for d in data['sundays'] if d not in off]
+
+
+def schedule(no_class=None):
+    """Which items each class covers: {date: {track: [(item, continued)]}} – the same as schedule() in the page."""
+    cls, plan = class_days(no_class), {}
+    for d in cls:
+        plan[d] = {}
+    for t, items in data['tracks'].items():
+        n, st = len(items), data['starts'].get(t)
+        days = [d for d in cls if not st or d >= st]
+        for d in cls:
+            plan[d][t] = []
+        if t == 'qr':
+            for w, d in enumerate(days):
+                plan[d][t] = [(items[w], False)]
+            continue
+        m = len(days)
+        if n >= m:
+            for w, d in enumerate(days):
+                plan[d][t] = [(it, False) for it in items[w * n // m:(w + 1) * n // m]]
+        else:
+            prev = -1
+            for w, d in enumerate(days):
+                i = w * n // m
+                plan[d][t] = [(items[i], i == prev)]
+                prev = i
+    return plan
+
+
+def games_for(entries, d, w, books):
+    """Matching games for one group's class – the same as gamesFor() in the page."""
+    topics = {p for it, _ in entries for p in it['topics']}
+    score = {s: len(set(g['topics']) & topics) for s, g in data['games'].items() if set(g['topics']) & topics}
+    ev = data['events'].get(d, '')
+    for k, gs in data['eventGames'].items():
+        if k in ev:
+            for s in gs:
+                score[s] = score.get(s, 0) + 5
+    out = sorted(score, key=lambda s: (-score[s], s))[:4]
+    if len(out) < 2:
+        for b in books:
+            f = data['fallback'][b]
+            s = f[w % len(f)]
+            if s not in out:
+                out.append(s)
+            if len(out) >= 3:
+                break
+    return out
+
+
 TEXT = {
     False: {'__TITLE__': 'Maktab Year Plan', '__H1__': 'Maktab Year Plan 2026–27',
             '__SUB__': 'Bosnian Islamic Community of Erie · every Sunday from Sep 27 to early June. Tick lessons when you teach them. '
@@ -130,7 +188,7 @@ TEXT = {
                         'from the week before.'},
     True: {'__TITLE__': 'Maktab Class Plan', '__H1__': 'Maktab Class Plan 2026–27',
            '__SUB__': 'Bosnian Islamic Community of Erie · what each group learns every Sunday, from Sep 27 to early June. '
-                      'Tap a lesson or a game to practise together at home.',
+                      'Tap a lesson or a game to practise together at home. 📰 <a href="../updates/">Weekly updates</a>',
            '__FOOT__': 'Group 1: Ilmihal 2 & 3, Qur’an (Al-Baqarah), Sufara and Tajwid. Group 2: Ilmihal 1 and Sufara. '
                        'Dates of Islamic holidays are approximate, and the plan may change during the year. '
                        'Items marked “continued” carry on from the week before.'},

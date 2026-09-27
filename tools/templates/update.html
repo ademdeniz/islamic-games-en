@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{--bg:#fbf7ec;--card:#ffffff;--ink:#1d1a14;--muted:#6b604d;--line:#e7dcc2;--green:#0f5a3f;--gold:#b98a2e;--gold-soft:#f7ecd0;--link:#0f6a47;--chip:#f3efe4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15130f;--card:#1f1c17;--ink:#f1ebdf;--muted:#b3a78f;--line:#3a342a;--green:#6fcf9c;--gold:#e0b45a;--gold-soft:#3a3020;--link:#7fdcaa;--chip:#2a261f}}
+:root[data-theme="dark"]{--bg:#15130f;--card:#1f1c17;--ink:#f1ebdf;--muted:#b3a78f;--line:#3a342a;--green:#6fcf9c;--gold:#e0b45a;--gold-soft:#3a3020;--link:#7fdcaa;--chip:#2a261f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+main{max-width:900px;margin:auto;padding:12px 16px 48px}
+h1{margin:6px 0 0;color:var(--green);font-size:clamp(24px,5vw,32px)}
+.date{margin:2px 0 12px;color:var(--muted);font-weight:700}
+a{color:var(--link);font-weight:600}
+.att{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 12px}
+.note{background:var(--gold-soft);border-radius:12px;padding:8px 12px;font-weight:600}
+.groups{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+@media (max-width:720px){.groups{grid-template-columns:1fr}}
+.grp,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 16px}
+.card{margin:12px 0}
+h2{margin:0 0 6px;font-size:18px;color:var(--green)}
+h3{margin:0 0 4px;color:var(--green);font-size:18px}h3 small{display:block;color:var(--muted);font-size:13px;font-weight:600}
+h4{margin:8px 0 2px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.lbl{margin:12px 0 4px;font-weight:800}
+ul{margin:0;padding-left:20px}li{margin:3px 0}
+.m{display:block;font-size:13px;color:var(--muted)}
+.games{display:flex;flex-wrap:wrap;gap:6px}
+a.game{font-size:14px;text-decoration:none;color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
+.tools button{font:inherit;font-weight:700;border:0;background:var(--green);color:var(--bg);border-radius:999px;padding:8px 14px;cursor:pointer}
+.foot{font-size:13px;color:var(--muted);margin-top:18px}
+</style>
+</head>
+<body>
+__BODY__
+<script>
+(function(){const b=document.getElementById('share');if(!b)return;
+  const pub='https://ademdeniz.github.io/islamic-games-en/'+location.pathname.split('/').slice(-3).join('/');
+  const url=/^https?:\/\/(localhost|127\.)|^file:/.test(location.href)?pub:location.href.split('#')[0];
+  b.onclick=async()=>{try{if(navigator.share){await navigator.share({title:document.title,url});return}}catch(e){return}
+    try{await navigator.clipboard.writeText(url);b.textContent='✅ Link copied'}catch(e){prompt('Copy this link:',url)}}})();
+</script>
+</body>
+</html>

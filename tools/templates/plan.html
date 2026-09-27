@@ -48,7 +48,7 @@ h1{margin:4px 0 2px;font-size:clamp(22px,4.5vw,30px);color:var(--green)}
 .games{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
 .games a{font-size:12.5px;text-decoration:none;color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
 .games a:hover{border-color:var(--gold)}
-.notes{padding:0 14px 12px}.pin{margin:0 14px 0;padding:8px 10px;border-radius:10px;background:var(--gold-soft);color:var(--ink);font-size:14px;font-weight:600}.pin+.pin{margin-top:6px}.pins{padding-top:10px}
+.notes{padding:0 14px 12px}.kids{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;padding:0 14px 8px;font-size:14px;color:var(--muted)}.kids label{display:flex;gap:6px;align-items:center}.kids input{width:64px;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px 6px}.pin{margin:0 14px 0;padding:8px 10px;border-radius:10px;background:var(--gold-soft);color:var(--ink);font-size:14px;font-weight:600}.pin+.pin{margin-top:6px}.pins{padding-top:10px}
 .notes textarea{width:100%;min-height:44px;resize:vertical;font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px}
 .foot{font-size:12px;color:var(--muted);margin-top:24px}
 @media (max-width:720px){.grid{grid-template-columns:1fr}.grp+.grp{border-left:0;border-top:1px solid var(--line)}}
@@ -103,7 +103,7 @@ function gamesFor(tracks,d,w,books){
   for(const [s,g] of Object.entries(D.games)){const n=g.topics.filter(p=>topics.has(p)).length;if(n)score[s]=n}
   const ev=D.events[d]||'';
   for(const [k,gs] of Object.entries(D.eventGames))if(ev.includes(k))gs.forEach(s=>score[s]=(score[s]||0)+5);
-  let list=Object.keys(score).sort((a,b)=>score[b]-score[a]||a.localeCompare(b)).slice(0,4);
+  let list=Object.keys(score).sort((a,b)=>score[b]-score[a]||(a<b?-1:1)).slice(0,4);
   if(list.length<2)for(const b of books){const f=D.fallback[b];const s=f[w%f.length];if(!list.includes(s))list.push(s);if(list.length>=3)break}
   return list;
 }
@@ -139,6 +139,7 @@ function render(){
       ${R?'':`<label><input type="checkbox" data-off="${d}" ${off?'checked':''} ${db?'':'disabled'}> No class</label>`}</div>
       ${off?'':(()=>{const ps=(D.standing||[]).filter(s=>d>=s.from&&(!s.to||d<=s.to));return ps.length?`<div class="pins">${ps.map(s=>`<div class="pin">📝 Note: ${esc(s.text)}</div>`).join('')}</div>`:''})()}
       <div class="grid ${view==='all'?'':'one'}">${groups}</div>
+      ${R||off?'':`<div class="kids">👧👦 Kids today: <label>Group 1 <input type="number" min="0" max="99" inputmode="numeric" data-kids="${d}|g1" value="${wk.kids_g1??''}" ${db?'':'disabled'}></label><label>Group 2 <input type="number" min="0" max="99" inputmode="numeric" data-kids="${d}|g2" value="${wk.kids_g2??''}" ${db?'':'disabled'}></label></div>`}
       ${R?'':`<div class="notes"><textarea data-notes="${d}" placeholder="Notes for this class…" ${db?'':'disabled'}>${esc(wk.notes||'')}</textarea></div>`}</section>`}).join('');
 }
 function setStatus(t){document.getElementById('status').textContent=t}
@@ -147,6 +148,7 @@ document.addEventListener('change',async e=>{
   try{
     if(el.dataset.k){const k=el.dataset.k;if(el.checked){state.done[k]=true;await db.doc('done/'+k).set({done:true,at:new Date().toISOString()})}else{delete state.done[k];await db.doc('done/'+k).delete()}render()}
     else if(el.dataset.off){const d=el.dataset.off;state.weeks[d]={...(state.weeks[d]||{}),noClass:el.checked};render();await db.doc('weeks/'+d).set(state.weeks[d])}
+    else if(el.dataset.kids){const [d,g]=el.dataset.kids.split('|'),v=el.value===''?null:Math.max(0,Math.min(99,Math.round(+el.value)));state.weeks[d]={...(state.weeks[d]||{}),['kids_'+g]:v};await db.doc('weeks/'+d).set(state.weeks[d])}
     else if(el.dataset.notes){const d=el.dataset.notes;state.weeks[d]={...(state.weeks[d]||{}),notes:el.value};await db.doc('weeks/'+d).set(state.weeks[d])}
     setStatus('Saved ✓')
   }catch(err){setStatus('Could not save: '+(err&&err.message||err))}
@@ -159,8 +161,8 @@ if(!R)(async()=>{
   try{db=window.claude&&await window.claude.use('db')}catch(e){db=null}
   if(!db){setStatus('Read-only here – open on claude.ai to save ticks');render();return}
   setStatus('Saved ticks sync on all your devices');
-  db.collection('done').onSnapshot(s=>{state.done={};s.docs.forEach(x=>{if(x.data()?.done)state.done[x.id]=true});if(!document.activeElement||!document.activeElement.dataset?.notes)render()},e=>setStatus('Sync problem: '+e.message));
-  db.collection('weeks').onSnapshot(s=>{state.weeks={};s.docs.forEach(x=>state.weeks[x.id]=x.data()||{});if(!document.activeElement||!document.activeElement.dataset?.notes)render()},e=>setStatus('Sync problem: '+e.message));
+  db.collection('done').onSnapshot(s=>{state.done={};s.docs.forEach(x=>{if(x.data()?.done)state.done[x.id]=true});if(!document.activeElement||!(document.activeElement.dataset?.notes||document.activeElement.dataset?.kids))render()},e=>setStatus('Sync problem: '+e.message));
+  db.collection('weeks').onSnapshot(s=>{state.weeks={};s.docs.forEach(x=>state.weeks[x.id]=x.data()||{});if(!document.activeElement||!(document.activeElement.dataset?.notes||document.activeElement.dataset?.kids))render()},e=>setStatus('Sync problem: '+e.message));
   render();
 })();
 </script>

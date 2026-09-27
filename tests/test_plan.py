@@ -67,7 +67,7 @@ def test_parents_copy_is_read_only_and_branded(page):
     assert 'to build' not in text and 'Tick lessons' not in text
     assert page.locator('div.bz-brand img').count() == 1
     hrefs = page.eval_on_selector_all('a', 'as => as.map(a => a.getAttribute("href"))')
-    assert D['site'] not in hrefs and not any(h.startswith('../') for h in hrefs), 'no link to the whole site'
+    assert D['site'] not in hrefs and not any(h.startswith('../') and h != '../updates/' for h in hrefs), 'no link to the whole site'
     assert page.evaluate('document.documentElement.scrollWidth') <= 390, 'no sideways scrolling on a phone'
 
 
@@ -89,7 +89,8 @@ def test_no_class_days_and_tajwid_start(page):
     plan = page.evaluate('schedule()')
     assert all(not plan[d]['tj'] for d in plan if d < D['starts']['tj'])
     assert plan[min(d for d in plan if d >= D['starts']['tj'])]['tj'][0]['it']['k'] == 'tj-0'
-    assert page.locator('#w-2026-10-25 .pin').count() == 0 and 'competition' in page.inner_text('#w-2026-11-01 .pin')
+    first = min(d for d in plan if d >= '2026-11-01')
+    assert page.locator('#w-2026-10-25 .pin').count() == 0 and 'competition' in page.inner_text(f'#w-{first} .pin')
 
 
 def test_group_switch(page):
@@ -97,3 +98,63 @@ def test_group_switch(page):
     page.click('#grpSeg [data-g="g2"]')
     first = page.inner_text('#w-2026-09-27').lower()
     assert 'group 2' in first and 'group 1' not in first and 'alif' in first
+
+
+# ---------------------------------------------------------------- weekly updates for parents
+import json  # noqa: E402
+
+import build_update  # noqa: E402
+
+UPDATES = sorted(f[:-5] for f in os.listdir(os.path.join(gc.ROOT, 'data', 'updates')) if f.endswith('.json'))
+
+
+def test_python_and_page_schedules_agree(page):
+    """The updates are built in Python, the plan page schedules in JavaScript – they must never disagree."""
+    page.goto('file://' + PARENTS)
+    js = page.evaluate('schedule()')
+    py = build_plan.schedule()
+    assert sorted(js) == sorted(py)
+    for d in py:
+        for t in D['tracks']:
+            assert [x['it']['k'] for x in js[d][t]] == [it['k'] for it, _ in py[d][t]], (d, t)
+    cls = build_plan.class_days()
+    for w, d in enumerate(cls):
+        for g, books in build_plan.BOOKS.items():
+            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
+            want = page.evaluate(f'gamesFor({json.dumps([[{"it": {"topics": it["topics"]}} for it, _ in py[d][t]] for t in tracks])}, "{d}", {w}, {books})')
+            assert build_plan.games_for([e for t in tracks for e in py[d][t]], d, w, books) == want, (d, g)
+
+
+@pytest.mark.parametrize('day', UPDATES)
+def test_update_is_up_to_date_and_every_link_works(day):
+    path = os.path.join(gc.ROOT, 'updates', day, 'index.html')
+    html = open(path, encoding='utf-8').read()
+    import shutil, tempfile  # noqa: E401
+    tmp = tempfile.mkdtemp()
+    shutil.copy(path, tmp)
+    build_update.build(day)
+    assert open(path, encoding='utf-8').read() == open(os.path.join(tmp, 'index.html'), encoding='utf-8').read(), \
+        'run python3 tools/build_update.py'
+    for url in set(re.findall(r'href="([^"]+)"', html)):
+        target = local(url) if url.startswith('http') else os.path.join(os.path.dirname(path), url, 'index.html')
+        assert os.path.exists(target.split('#')[0]), url
+    assert '<div class="bz-brand"><img' in html
+    assert day in open(os.path.join(gc.ROOT, 'updates', 'index.html'), encoding='utf-8').read()
+
+
+def test_update_shows_kids_and_homework(tmp_path, monkeypatch):
+    day = UPDATES[0]
+    info = {'kids': {'g1': 9, 'g2': 1}, 'homework': {'g2': ['Say Bismillah before eating.']}, 'note': 'Bring your Ilmihal book.'}
+    real_open = open
+    def fake_open(p, *a, **k):  # noqa: E306
+        if p.endswith(os.path.join('updates', day + '.json')):
+            return real_open(tmp_path / 'u.json', *a, **k)
+        if p.endswith(os.path.join('updates', day, 'index.html')) and 'w' in (a[0] if a else k.get('mode', '')):
+            return real_open(tmp_path / 'out.html', *a, **k)
+        return real_open(p, *a, **k)
+    (tmp_path / 'u.json').write_text(json.dumps(info))
+    monkeypatch.setattr('builtins.open', fake_open)
+    build_update.build(day)
+    out = (tmp_path / 'out.html').read_text()
+    assert 'Group 1: <b>9</b> children' in out and 'Group 2: <b>1</b> child' in out
+    assert 'Say Bismillah before eating.' in out and 'Bring your Ilmihal book.' in out
