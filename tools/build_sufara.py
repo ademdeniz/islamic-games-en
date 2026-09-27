@@ -60,7 +60,7 @@ def letter_lesson(n, L):
     return {
         'book': 'sufara', 'id': page_id(n, L), 'number': n, 'title': f'{L["name"]}  {L["ch"]}',
         'tag': f'Sufara • Letter {n} of {len(LETTERS)}', 'intro': L['tip'],
-        'crumbs': [['🏠 Home', '../../'], ['🔤 Sufara', '../'], [L['name'], None]], 'footer': FOOTER, **SITE,
+        'crumbs': [['🔤 Sufara', '../'], [L['name'], None]], 'footer': FOOTER, **SITE,
         'learn': [
             {'type': 'letter', 'ch': L['ch'], 'name': L['name'], 'bs': L['bs'], 'forms': forms(L), 'joins': L['joins']},
             {'type': 'tip', 'html': html.escape(L['tip'])},
@@ -86,7 +86,7 @@ def rule_lesson(k, R):
     return {
         'book': 'sufara', 'id': f'rule-{R["slug"]}', 'number': k, 'title': R['name'], 'kind': 'rule', 'sign': R.get('tile', R['sign']),
         'tag': f'Sufara • Reading rule {k} of {len(RULES)}', 'intro': R['short'],
-        'crumbs': [['🏠 Home', '../../'], ['🔤 Sufara', '../'], [R['name'], None]], 'footer': FOOTER, **SITE,
+        'crumbs': [['🔤 Sufara', '../'], [R['name'], None]], 'footer': FOOTER, **SITE,
         'learn': [{'type': 'rule', 'sign': R['sign'], 'name': R['name'], 'bs': R['bs'], 'short': R['short']}]
                  + [{'type': 'text', 'html': h} for h in R['explain']]
                  + [{'type': 'heading', 'text': 'Qur’an examples – tap to listen'}, {'type': 'words', 'items': RULE_EX[R['slug']]},
@@ -117,7 +117,7 @@ def review_lesson(k, group, first):
     return {
         'book': 'sufara', 'id': f'review-{k}', 'number': k, 'title': f'Review {k}: letters {first}–{last}',
         'tag': f'Sufara • Review {k}', 'intro': '  '.join(L['ch'] for L in group),
-        'crumbs': [['🏠 Home', '../../'], ['🔤 Sufara', '../'], [f'Review {k}', None]], 'footer': FOOTER, **SITE,
+        'crumbs': [['🔤 Sufara', '../'], [f'Review {k}', None]], 'footer': FOOTER, **SITE,
         'learn': [{'type': 'text', 'html': 'Let’s practise the letters you have learned: ' +
                    ', '.join(f'<b>{L["name"]}</b> <span class="arq">{L["ch"]}</span>' for L in group) + '.'}],
         'practice': practice,
@@ -152,7 +152,6 @@ def build():
                 'name': LETTERS[p['number'] - 1]['name'] if kind(p) == 'letter' else p['title'],
                 'activities': sum(a['type'] != 'reflect' for a in p['practice'])} for p in pages]
     index = open(os.path.join(ROOT, 'tools', 'templates', 'sufara-index.html'), encoding='utf-8').read()
-    index = index.replace('__LESSONS__', '<a href="../lessons/">📚 Lessons</a>' if HAS_LESSONS else '')
     index = index.replace('__DATA__', json.dumps({'pages': summary, 'playlist': DATA['playlist']}, ensure_ascii=False))
     open(os.path.join(ROOT, 'sufara', 'index.html'), 'w', encoding='utf-8').write(brand(index))
     print(f'built {sum(s["kind"] == "letter" for s in summary)} letters, {sum(s["kind"] == "rule" for s in summary)} rules, '

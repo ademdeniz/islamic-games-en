@@ -180,7 +180,8 @@ $("#levels").addEventListener("click", e => {
 $("#q").addEventListener("input", render);
 $("#list").addEventListener("click", async e => {
   const b = e.target.closest(".share"); if (!b) return;
-  const url = new URL(`games/${b.dataset.slug}/`, location.href).href;
+  const local = !/^https?:$/.test(location.protocol) || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  const url = local ? `https://ademdeniz.github.io/islamic-games-en/games/${b.dataset.slug}/` : new URL(`games/${b.dataset.slug}/`, location.href).href;   // kids can’t open localhost links
   try { await navigator.clipboard.writeText(url); toast("Link copied – paste it into WhatsApp, Viber or email"); }
   catch { prompt("Copy this link:", url); }
 });

@@ -53,6 +53,7 @@ button{font:inherit;cursor:pointer}
 .done-msg{text-align:center;font-weight:800;color:var(--green2);font-size:18px}
 .nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:18px}.nav a{font-weight:800;color:var(--green2)}
 footer{font-size:12px;color:#8a7c64;text-align:center;margin-top:18px}
+.share{font:inherit;font-size:13px;font-weight:800;border:2px solid #176b45;background:#fff;color:#176b45;border-radius:10px;padding:6px 10px;cursor:pointer}.share:hover{background:#176b45;color:#fff}
 .topnav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px auto 4px;max-width:880px}.topnav a{text-decoration:none;font-weight:800;font-size:15px;color:#0f5a3f;background:#fff;border:2px solid #eadbb6;border-radius:999px;padding:7px 14px}.topnav a.on{background:#0f5a3f;color:#fff;border-color:#0f5a3f}.topnav a:hover{border-color:#c99b3e}
 .arq{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;direction:rtl;font-size:1.5em;line-height:1.7}
 p .arq{font-size:1.35em;line-height:1;unicode-bidi:isolate}p:has(.arq){line-height:2.4}
@@ -76,13 +77,17 @@ p .arq{font-size:1.35em;line-height:1;unicode-bidi:isolate}p:has(.arq){line-heig
 </style></head><body><main>
 <nav class="topnav" id="topnav" aria-label="Sections"></nav>
 <div class="crumbs" id="crumbs"></div>
-<div class="hero"><span class="tag" id="tag"></span><h1 id="title"></h1><p id="intro"></p><div class="stars" id="stars"></div></div>
+<div class="hero"><span class="tag" id="tag"></span><h1 id="title"></h1><p id="intro"></p><div class="stars" id="stars"></div><button class="share" id="share" style="margin-top:10px">🔗 Copy link to this page</button></div>
 <section><h2>📖 Learn</h2><div id="learn"></div></section>
 <section><h2>🎯 Practice</h2><div id="practice"></div></section>
 <div class="nav" id="nav"></div>
 <footer id="source"></footer>
 <script>
 const L=__DATA__;
+const PUBLIC='https://ademdeniz.github.io/islamic-games-en/';
+function shareUrl(path){const local=!/^https?:$/.test(location.protocol)||/^(localhost|127\.0\.0\.1)$/.test(location.hostname);return local?PUBLIC+path:new URL(path,PUBLIC).href}   // always the public address kids can open
+async function copyLink(path,btn){const url=shareUrl(path);try{await navigator.clipboard.writeText(url);const t=btn.textContent;btn.textContent='✅ Link copied';setTimeout(()=>btn.textContent=t,1800)}catch(e){prompt('Copy this link:',url)}}
+
 const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const KEY='lesson-'+L.book+'-'+L.id;let done={};try{done=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){}
@@ -177,11 +182,13 @@ function find(a,el,finish){const need=a.cells.filter(c=>c===a.target).length;let
 function reflect(a,el){el.innerHTML=(a.img?`<img class="reflect-pic" src="${IMG(a.img)}" alt="" loading="lazy">`:'')+`<ul class="reflect">${a.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`}
 /* ---------- header, nav ---------- */
 const ROOT=L.root||'../../../';
-$('topnav').innerHTML=[['🏠 Home','',''],['🔤 Sufara','sufara/','sufara']].concat(L.lessons_link?[['📚 Lessons','lessons/','lessons']]:[]).map(([t,h,sec])=>`<a href="${ROOT+h}" class="${sec&&sec===L.section?'on':''}">${t}</a>`).join('');
-$('crumbs').innerHTML=(L.crumbs||[['🏠 Home',ROOT],['📚 Lessons',ROOT+'lessons/'],[L.book_title,null]]).map(([t,h])=>h?`<a href="${h}">${esc(t)}</a>`:esc(t)).join(' › ');
+// Shared pages show only their own section (no link to Home), so a shared link doesn't open the whole curriculum.
+$('topnav').innerHTML=[['🔤 Sufara','sufara/','sufara'],['📚 Lessons','lessons/','lessons']].filter(x=>x[2]===L.section).map(([t,h,sec])=>`<a href="${ROOT+h}" class="${sec&&sec===L.section?'on':''}">${t}</a>`).join('');
+$('crumbs').innerHTML=(L.crumbs||[['📚 Lessons',ROOT+'lessons/'],[L.book_title,null]]).map(([t,h])=>h?`<a href="${h}">${esc(t)}</a>`:esc(t)).join(' › ');
 $('tag').textContent=L.tag||(L.book_title+' • Lesson '+L.number);$('title').textContent=L.title;$('intro').textContent=L.intro;
 $('source').textContent=L.footer||('Adapted into English from '+L.source+', pages '+L.pages+'. Qur’an translation: Sahih International.');
 $('nav').innerHTML=(L.prev?`<a href="../${L.prev.id}/">◀ ${esc(L.prev.title)}</a>`:'<span></span>')+(L.next?`<a href="../${L.next.id}/">${esc(L.next.title)} ▶</a>`:'<span></span>');
+document.getElementById('share').onclick=e=>copyLink(L.book==='sufara'?`sufara/${L.id}/`:`lessons/${L.book}/${L.id}/`,e.currentTarget);
 stars();
 window.LESSON={L,done:()=>({...done})};
 </script></main></body></html>

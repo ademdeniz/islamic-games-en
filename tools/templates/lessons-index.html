@@ -16,18 +16,24 @@ a.lesson:hover{border-color:var(--gold);transform:translateY(-2px)}
 .lesson b{display:block;margin:6px 0 2px;font-size:17px}.lesson span.i{color:var(--muted);font-size:14px}
 .prog{display:block;margin-top:6px;font-size:14px;font-weight:700;color:var(--green2)}
 .src{font-size:12px;color:#8a7c64;margin-top:10px}
+.card{display:flex;flex-direction:column;gap:6px}.card .share{align-self:flex-start}
+.share{font:inherit;font-size:13px;font-weight:800;border:2px solid #176b45;background:#fff;color:#176b45;border-radius:10px;padding:6px 10px;cursor:pointer}.share:hover{background:#176b45;color:#fff}
 .topnav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px auto 4px;max-width:880px}.topnav a{text-decoration:none;font-weight:800;font-size:15px;color:#0f5a3f;background:#fff;border:2px solid #eadbb6;border-radius:999px;padding:7px 14px}.topnav a.on{background:#0f5a3f;color:#fff;border-color:#0f5a3f}.topnav a:hover{border-color:#c99b3e}
 </style></head><body><main>
-<nav class="topnav" aria-label="Sections"><a href="../">🏠 Home</a><a href="../sufara/">🔤 Sufara</a><a href="./" class="on">📚 Lessons</a></nav>
-<div class="crumbs"><a href="../">🏠 Home</a> › 📚 Lessons</div>
+<nav class="topnav" aria-label="Sections"><a href="./" class="on">📚 Lessons</a></nav>
 <div class="hero"><h1>📚 Ilmihal Lessons</h1><p>Read each lesson, listen, then practise with short games. Your stars are saved on this device.</p></div>
 <div id="books"></div>
 <script>
 const B=__DATA__;
+const PUBLIC='https://ademdeniz.github.io/islamic-games-en/';
+function shareUrl(path){const local=!/^https?:$/.test(location.protocol)||/^(localhost|127\.0\.0\.1)$/.test(location.hostname);return local?PUBLIC+path:new URL(path,PUBLIC).href}   // always the public address kids can open
+async function copyLink(path,btn){const url=shareUrl(path);try{await navigator.clipboard.writeText(url);const t=btn.textContent;btn.textContent='✅ Link copied';setTimeout(()=>btn.textContent=t,1800)}catch(e){prompt('Copy this link:',url)}}
+
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function stars(bid,l){try{const d=JSON.parse(localStorage.getItem('lesson-'+bid+'-'+l.id)||'{}');const n=Object.keys(d).length;
   return n?'⭐'.repeat(Math.min(n,l.activities))+(n>=l.activities?' complete':''):''}catch(e){return ''}}
 document.getElementById('books').innerHTML=Object.entries(B).map(([bid,b])=>`<div class="book"><h2>${b.icon} ${esc(b.title)}</h2><div class="lvl">${esc(b.level)}</div>
-  <div class="grid">${b.lessons.map(l=>`<a class="lesson" href="${bid}/${l.id}/"><span class="num">Lesson ${l.number}</span><b>${esc(l.title)}</b><span class="i">${esc(l.intro)}</span><span class="prog">${stars(bid,l)}</span></a>`).join('')}</div>
+  <div class="grid">${b.lessons.map(l=>`<div class="card"><a class="lesson" href="${bid}/${l.id}/"><span class="num">Lesson ${l.number}</span><b>${esc(l.title)}</b><span class="i">${esc(l.intro)}</span><span class="prog">${stars(bid,l)}</span></a><button class="share" data-path="lessons/${bid}/${l.id}/">🔗 Copy link</button></div>`).join('')}</div>
   <div class="src">Adapted into English from ${esc(b.source)}.</div></div>`).join('');
+document.querySelectorAll('.share[data-path]').forEach(b=>b.onclick=()=>copyLink(b.dataset.path,b));
 </script></main></body></html>
