@@ -6,25 +6,17 @@ plus lessons/index.html (all books and their lessons).
 A lesson file has: number, title, pages, intro, learn[...] (phrase, text, heading, quran, list, cards, point) and
 practice[...] (order, choose_all, quiz, memory, sort, reflect) – see tools/templates/lesson.html.
 """
-import base64
 import glob
 import html
 import json
 import os
-import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 import skel  # noqa: E402
 
-LOGO = base64.b64encode(open(os.path.join(ROOT, 'assets', 'logo-bz-erie-web.jpg'), 'rb').read()).decode()
-
-
-def brand(page):
-    page = page.replace('</head>', skel.BRAND_CSS + '</head>', 1)
-    return re.sub(r'(<body[^>]*>)', r'\1<div class="bz-brand"><img alt="Bosnian Islamic Community of Erie" '
-                  r'src="data:image/jpeg;base64,' + LOGO + '"></div>', page, count=1)
+from build_lessons_core import brand  # noqa: E402  (same logo header as every page)
 
 
 def load_all():
@@ -33,7 +25,8 @@ def load_all():
         book['lessons'] = []
         for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'lessons', bid, '*.json'))):
             lesson = json.load(open(f, encoding='utf-8'))
-            lesson.update(id=os.path.basename(f)[:-5], book=bid, book_title=book['title'], source=book['source'])
+            lesson.update(id=os.path.basename(f)[:-5], book=bid, book_title=book['title'], source=book['source'],
+                          root='../../../', section='lessons', lessons_link=True)
             book['lessons'].append(lesson)
     return books
 

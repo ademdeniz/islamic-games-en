@@ -53,8 +53,28 @@ button{font:inherit;cursor:pointer}
 .done-msg{text-align:center;font-weight:800;color:var(--green2);font-size:18px}
 .nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:18px}.nav a{font-weight:800;color:var(--green2)}
 footer{font-size:12px;color:#8a7c64;text-align:center;margin-top:18px}
+.topnav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px auto 4px;max-width:880px}.topnav a{text-decoration:none;font-weight:800;font-size:15px;color:#0f5a3f;background:#fff;border:2px solid #eadbb6;border-radius:999px;padding:7px 14px}.topnav a.on{background:#0f5a3f;color:#fff;border-color:#0f5a3f}.topnav a:hover{border-color:#c99b3e}
+.arq{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;direction:rtl;font-size:1.5em;line-height:1.7}
+.letter{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;border:3px solid var(--gold);border-radius:18px;padding:12px 16px;background:#fffdf6}
+.letter .big{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:clamp(90px,24vw,140px);line-height:1.1;color:var(--green);text-align:center;min-width:1.2em}
+.letter .nm{font-size:26px;font-weight:900}.letter .bs{color:var(--muted);font-weight:600}
+.forms{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}.forms div{border:2px solid var(--line);border-radius:10px;text-align:center;padding:2px 4px;background:#fff}
+.forms .f{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:34px;line-height:1.6;display:block}.forms small{font-size:11px;font-weight:700;color:var(--muted)}
+.forms div.na{opacity:.35}.note{font-size:13px;color:var(--muted);margin-top:4px}
+.tipbox{border-left:5px solid var(--gold);background:#fff6dd;border-radius:0 12px 12px 0;padding:10px 14px;margin:12px 0;font-weight:600}
+.hk{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}.hk div{border:2px solid var(--gold);border-radius:14px;text-align:center;background:#fff;padding:4px}
+.hk .ar{font-size:44px;line-height:1.7}.hk b{display:block;font-size:18px}
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:8px 0}
+.word{border:2px solid var(--line);border-radius:14px;background:#fff;padding:8px;text-align:center;cursor:pointer}.word:hover{border-color:var(--gold)}
+.word .ar{display:block;font-size:34px;line-height:1.9;margin-bottom:2px}.word b{display:block}.word i{color:var(--muted);font-size:14px}.word .ref{font-size:11px;color:#a58a4e;font-weight:700}
+.word.playing{border-color:var(--green2);background:var(--ok)}
+.video{display:flex;gap:12px;align-items:center;border:2px solid var(--line);border-radius:14px;padding:10px;text-decoration:none;color:inherit;background:#fff;margin:10px 0}
+.video img{width:150px;max-width:40%;border-radius:10px}.video b{display:block;color:#b3261e}.video:hover{border-color:#b3261e}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}.cell{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:36px;line-height:1.5;border:2px solid var(--gold);background:#fff;border-radius:12px}
+.cell.ok{background:var(--ok);border-color:var(--green2)}.cell.bad{background:var(--bad);border-color:#c0492f}
 </style></head><body><main>
-<div class="crumbs"><a href="../../../">🏠 Games</a> › <a href="../../">📚 Lessons</a> › __BOOK__</div>
+<nav class="topnav" id="topnav" aria-label="Sections"></nav>
+<div class="crumbs" id="crumbs"></div>
 <div class="hero"><span class="tag" id="tag"></span><h1 id="title"></h1><p id="intro"></p><div class="stars" id="stars"></div></div>
 <section><h2>📖 Learn</h2><div id="learn"></div></section>
 <section><h2>🎯 Practice</h2><div id="practice"></div></section>
@@ -71,7 +91,8 @@ function stars(){const n=scored.filter(i=>done[i]).length;$('stars').textContent
 function complete(i,box){if(!done[i]){done[i]=1;save()}box.classList.add('done');box.querySelector('.badge').textContent='✅ Done';stars()}
 let audio=null;function play(url,btn){try{if(audio)audio.pause();audio=new Audio(url);audio.play().catch(()=>{btn.textContent='⚠️ No sound – check your internet'})}catch(e){}}
 /* ---------- learn ---------- */
-const IMG=u=>'../'+u;   // pictures live in lessons/<book>/img/
+const IMG=u=>(L.img_base||'../')+u;   // pictures live in lessons/<book>/img/ (or L.img_base)
+const AR=/[\u0600-\u06FF]/,tx=t=>AR.test(t)?`<span class="arq" lang="ar">${esc(t)}</span>`:esc(t);
 function quran(q){return `<div class="quran">${esc(q.text)}<span class="ref">— Qur’an, ${esc(q.ref)}</span></div>`}
 $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='phrase')return `<div class="phrase"><div class="lbl">${esc(b.label)}</div><div class="ar" lang="ar">${b.ar}</div><div class="tr">${esc(b.tr)}</div><div class="en">${esc(b.en)}</div>`+
@@ -82,20 +103,27 @@ $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='list')return `<ul class="list">${b.items.map(x=>`<li>${x}</li>`).join('')}</ul>`;
   if(b.type==='cards')return `<div class="cards">${b.items.map(c=>`<div class="card">`+(c.imgs?`<div class="pics">${c.imgs.map(u=>`<img src="${IMG(u)}" alt="" loading="lazy">`).join('')}</div>`:`<span class="i">${c.icon}</span>`)+`${esc(c.label)}</div>`).join('')}</div>`;
   if(b.type==='image')return `<figure class="${b.small?'small':''}"><img src="${IMG(b.src)}" alt="${esc(b.alt)}" loading="lazy">${b.caption?`<figcaption>${esc(b.caption)}</figcaption>`:''}</figure>`;
+  if(b.type==='letter')return `<div class="letter"><div class="big" lang="ar">${b.ch}</div><div><div class="nm">${esc(b.name)}</div><div class="bs">Bosnian name: ${esc(b.bs)}</div>`+
+    `<div class="forms">${b.forms.map(([lab,f])=>`<div class="${f?'':'na'}"><span class="f" lang="ar">${f||'–'}</span><small>${lab}</small></div>`).join('')}</div>`+
+    (b.joins?'':`<div class="note">${esc(b.name)} never joins to the letter after it.</div>`)+`</div></div>`;
+  if(b.type==='tip')return `<div class="tipbox">👂 ${b.html}</div>`;
+  if(b.type==='harakat')return `<div class="hk">${b.items.map(([a,t],k)=>`<div><span class="ar" lang="ar">${a}</span><b>${esc(t)}</b><small>${['fatha','kasra','damma'][k]}</small></div>`).join('')}</div>`;
+  if(b.type==='words')return `<div class="words">${b.items.map(w=>`<button class="word" data-audio="${w.audio}"><span class="ar" lang="ar">${w.ar}</span><b>${esc(w.tr)}</b><i>“${esc(w.en)}”</i><div class="ref">🔊 Qur’an ${esc(w.key)}</div></button>`).join('')}</div>`;
+  if(b.type==='video')return `<a class="video" href="https://www.youtube.com/watch?v=${b.id}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/${b.id}/mqdefault.jpg" alt="" loading="lazy"><span><b>▶ ${esc(b.title)}</b>${esc(b.note)}</span></a>`;
   if(b.type==='point')return `<div class="point"><b class="t">${esc(b.title)}</b><div>${b.html}</div>${b.quran?quran(b.quran):''}</div>`;
   return ''}).join('');
-document.querySelectorAll('[data-audio]').forEach(b=>b.onclick=()=>play(b.dataset.audio,b));
+document.querySelectorAll('[data-audio]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.word.playing').forEach(x=>x.classList.remove('playing'));if(b.classList.contains('word'))b.classList.add('playing');play(b.dataset.audio,b)});
 /* ---------- practice ---------- */
 const P=$('practice');
 L.practice.forEach((a,i)=>{const box=document.createElement('div');box.className='act';box.dataset.type=a.type;box.id='act'+i;
   box.innerHTML=`<h3><span>${esc(a.title)}</span><span class="badge">${a.type==='reflect'?'':'⭐ to earn'}</span></h3>`+(a.prompt?`<p class="prompt">${esc(a.prompt)}</p>`:'')+'<div class="body"></div>';
-  P.appendChild(box);({order,choose_all,quiz,memory,sort,reflect})[a.type](a,box.querySelector('.body'),()=>complete(i,box));
+  P.appendChild(box);({order,choose_all,quiz,memory,sort,reflect,find})[a.type](a,box.querySelector('.body'),()=>complete(i,box));
   if(done[i]&&a.type!=='reflect'){box.classList.add('done');box.querySelector('.badge').textContent='✅ Done'}});
 function order(a,el,finish){let next=0;const long=a.items.some(x=>x.length>22);
   el.innerHTML=`<div class="built ${long?'col':''}"></div><div class="pool ${long?'col':''}"></div><div class="fb"></div><button class="btn" hidden>🔁 Again</button>`;
   const built=el.querySelector('.built'),pool=el.querySelector('.pool'),fb=el.querySelector('.fb'),again=el.querySelector('button');
   function start(){next=0;built.innerHTML='';fb.textContent='';fb.className='fb';again.hidden=true;
-    pool.innerHTML=shuffle(a.items.map((t,k)=>({t,k}))).map(x=>`<button class="chip" data-k="${x.k}">${esc(x.t)}</button>`).join('');
+    pool.innerHTML=shuffle(a.items.map((t,k)=>({t,k}))).map(x=>`<button class="chip" data-k="${x.k}">${tx(x.t)}</button>`).join('');
     pool.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{if(+c.dataset.k===next){c.classList.add('placed');built.appendChild(c);c.onclick=null;next++;
       fb.className='fb ok';fb.textContent=next===a.items.length?'🌟 Well done – all in the right order!':'✓ Correct!';if(next===a.items.length){again.hidden=false;finish()}}
       else{c.classList.remove('shake');void c.offsetWidth;c.classList.add('shake');fb.className='fb bad';fb.textContent='Not yet – which one comes next?'}})}
@@ -113,7 +141,7 @@ function quiz(a,el,finish){let n=0,score=0,qs=[];
   function show(){if(n>=qs.length){el.innerHTML=`<div class="done-msg">You got ${score} of ${qs.length} right ${score===qs.length?'🌟':'👍'}</div><p style="text-align:center"><button class="btn">🔁 Try again</button></p>`;
       el.querySelector('.btn').onclick=start;if(score>=Math.ceil(qs.length*0.75))finish();return}
     const q=qs[n],opts=shuffle(q.options.map((t,k)=>({t,k})));
-    el.innerHTML=`<div class="qn">${n+1}/${qs.length}. ${esc(q.q)}</div><div class="opts">${opts.map(o=>`<button class="opt" data-k="${o.k}">${esc(o.t)}</button>`).join('')}</div><div class="fb"></div>`;
+    el.innerHTML=`<div class="qn">${n+1}/${qs.length}. ${esc(q.q)}</div><div class="opts">${opts.map(o=>`<button class="opt" data-k="${o.k}">${tx(o.t)}</button>`).join('')}</div><div class="fb"></div>`;
     el.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===q.answer;el.querySelectorAll('.opt').forEach(x=>{x.disabled=true;if(+x.dataset.k===q.answer)x.classList.add('ok')});
       if(!ok)b.classList.add('bad');if(ok)score++;const fb=el.querySelector('.fb');fb.className='fb '+(ok?'ok':'bad');fb.textContent=ok?'✓ Correct!':'✗ The right answer is marked green.';
       setTimeout(()=>{n++;show()},ok?900:1800)})}
@@ -122,7 +150,7 @@ function memory(a,el,finish){let first=null,lock=false,found=0;
   const cards=shuffle(a.pairs.flatMap((p,k)=>[{k,t:p[0]},{k,t:p[1]}]));
   el.innerHTML=`<div class="mem">${cards.map((c,j)=>`<button class="mc" data-k="${c.k}" data-j="${j}">❓</button>`).join('')}</div><div class="fb"></div>`;
   const fb=el.querySelector('.fb');
-  el.querySelectorAll('.mc').forEach(b=>b.onclick=()=>{if(lock||b===first||b.classList.contains('got'))return;b.classList.add('open');b.textContent=cards[+b.dataset.j].t;
+  el.querySelectorAll('.mc').forEach(b=>b.onclick=()=>{if(lock||b===first||b.classList.contains('got'))return;b.classList.add('open');b.innerHTML=tx(cards[+b.dataset.j].t);
     if(!first){first=b;return}
     if(first.dataset.k===b.dataset.k){first.classList.add('got');b.classList.add('got');first=null;found++;fb.className='fb ok';fb.textContent='✓ A pair!';
       if(found===a.pairs.length){fb.textContent='🌟 All pairs found!';finish()}}
@@ -131,14 +159,21 @@ function sort(a,el,finish){let n=0,score=0,items=[];
   function start(){items=shuffle(a.items);n=0;score=0;show()}
   function show(){if(n>=items.length){el.innerHTML=`<div class="done-msg">${score} of ${items.length} right ${score===items.length?'🌟':'👍'}</div><p style="text-align:center"><button class="btn">🔁 Try again</button></p>`;
       el.querySelector('.btn').onclick=start;if(score===items.length)finish();return}
-    el.innerHTML=`<div class="sortq">${esc(items[n].text)}</div><div class="bins">${a.bins.map((b,k)=>`<button class="btn g" data-b="${k}">${esc(b)}</button>`).join('')}</div><div class="fb"></div>`;
+    el.innerHTML=`<div class="sortq">${tx(items[n].text)}</div><div class="bins">${a.bins.map((b,k)=>`<button class="btn g" data-b="${k}">${esc(b)}</button>`).join('')}</div><div class="fb"></div>`;
     el.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{const ok=+b.dataset.b===items[n].bin;if(ok)score++;el.querySelectorAll('[data-b]').forEach(x=>x.disabled=true);
       const fb=el.querySelector('.fb');fb.className='fb '+(ok?'ok':'bad');fb.textContent=ok?'✓ Correct!':'✗ It is '+a.bins[items[n].bin]+'.';setTimeout(()=>{n++;show()},ok?800:1600)})}
   start()}
+function find(a,el,finish){const need=a.cells.filter(c=>c===a.target).length;let got=0;
+  el.innerHTML=`<div class="grid">${a.cells.map((c,k)=>`<button class="cell" data-k="${k}" lang="ar">${c}</button>`).join('')}</div><div class="fb"></div>`;const fb=el.querySelector('.fb');
+  el.querySelectorAll('.cell').forEach(b=>b.onclick=()=>{if(b.classList.contains('ok'))return;if(a.cells[+b.dataset.k]===a.target){b.classList.add('ok');got++;fb.className='fb ok';
+    fb.textContent=got===need?'🌟 You found all of them!':'✓ Found '+got+' of '+need;if(got===need)finish()}else{b.classList.remove('bad');void b.offsetWidth;b.classList.add('bad');fb.className='fb bad';fb.textContent='That is a different letter – look again!'}})}
 function reflect(a,el){el.innerHTML=(a.img?`<img class="reflect-pic" src="${IMG(a.img)}" alt="" loading="lazy">`:'')+`<ul class="reflect">${a.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`}
 /* ---------- header, nav ---------- */
-$('tag').textContent=L.book_title+' • Lesson '+L.number;$('title').textContent=L.title;$('intro').textContent=L.intro;
-$('source').textContent='Adapted into English from '+L.source+', pages '+L.pages+'. Qur’an translation: Sahih International.';
+const ROOT=L.root||'../../../';
+$('topnav').innerHTML=[['🏠 Home','',''],['🔤 Sufara','sufara/','sufara']].concat(L.lessons_link?[['📚 Lessons','lessons/','lessons']]:[]).map(([t,h,sec])=>`<a href="${ROOT+h}" class="${sec&&sec===L.section?'on':''}">${t}</a>`).join('');
+$('crumbs').innerHTML=(L.crumbs||[['🏠 Home',ROOT],['📚 Lessons',ROOT+'lessons/'],[L.book_title,null]]).map(([t,h])=>h?`<a href="${h}">${esc(t)}</a>`:esc(t)).join(' › ');
+$('tag').textContent=L.tag||(L.book_title+' • Lesson '+L.number);$('title').textContent=L.title;$('intro').textContent=L.intro;
+$('source').textContent=L.footer||('Adapted into English from '+L.source+', pages '+L.pages+'. Qur’an translation: Sahih International.');
 $('nav').innerHTML=(L.prev?`<a href="../${L.prev.id}/">◀ ${esc(L.prev.title)}</a>`:'<span></span>')+(L.next?`<a href="../${L.next.id}/">${esc(L.next.title)} ▶</a>`:'<span></span>');
 stars();
 window.LESSON={L,done:()=>({...done})};
