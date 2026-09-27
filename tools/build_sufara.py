@@ -17,6 +17,8 @@ from build_lessons_core import brand  # noqa: E402
 DATA = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'letters.json'), encoding='utf-8'))
 LETTERS = DATA['letters']
 WORDS = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'words.json'), encoding='utf-8'))
+RULES = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'rules.json'), encoding='utf-8'))['rules']
+RULE_EX = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'rule_examples.json'), encoding='utf-8'))
 HEAVY = set('خصضغطقظ')   # the "full mouth" (isti‘la) letters
 FOOTER = ('Letter names and sounds explained for English-speaking children. Qur’an words, their recitation and '
           'meanings: Quran.com. Videos: the “Sufara” playlist by Amsal Memic, with hfz. Nermin Spahić (YouTube).')
@@ -76,6 +78,24 @@ def letter_lesson(n, L):
     }
 
 
+def rule_lesson(k, R):
+    practice = []
+    if R.get('sort'):
+        practice.append(dict(R['sort'], type='sort'))
+    practice.append({'type': 'quiz', 'title': 'Quick quiz', 'questions': R['quiz']})
+    return {
+        'book': 'sufara', 'id': f'rule-{R["slug"]}', 'number': k, 'title': R['name'], 'kind': 'rule', 'sign': R.get('tile', R['sign']),
+        'tag': f'Sufara • Reading rule {k} of {len(RULES)}', 'intro': R['short'],
+        'crumbs': [['🏠 Home', '../../'], ['🔤 Sufara', '../'], [R['name'], None]], 'footer': FOOTER, **SITE,
+        'learn': [{'type': 'rule', 'sign': R['sign'], 'name': R['name'], 'bs': R['bs'], 'short': R['short']}]
+                 + [{'type': 'text', 'html': h} for h in R['explain']]
+                 + [{'type': 'heading', 'text': 'Qur’an examples – tap to listen'}, {'type': 'words', 'items': RULE_EX[R['slug']]},
+                    {'type': 'video', 'id': R['video'], 'title': f'Watch the video: {R["bs"]}',
+                     'note': ' – from the Sufara playlist by Amsal Memic, with hfz. Nermin Spahić (opens YouTube)'}],
+        'practice': practice,
+    }
+
+
 def review_lesson(k, group, first):
     rnd = random.Random(100 + k)
     qs = []
@@ -118,19 +138,25 @@ def build():
     pages = []
     for n, L in enumerate(LETTERS, 1):
         pages.append(letter_lesson(n, L))
+        for R in RULES:
+            if R['after'] == L['slug']:
+                pages.append(rule_lesson(RULES.index(R) + 1, R))
         if n % 7 == 0:
             pages.append(review_lesson(n // 7, LETTERS[n - 7:n], n - 6))
     for k, p in enumerate(pages):
         write(p, pages[k - 1] if k else None, pages[k + 1] if k + 1 < len(pages) else None)
-    summary = [{'id': p['id'], 'kind': 'review' if p['id'].startswith('review') else 'letter', 'title': p['title'],
-                'ch': LETTERS[p['number'] - 1]['ch'] if not p['id'].startswith('review') else '',
-                'name': LETTERS[p['number'] - 1]['name'] if not p['id'].startswith('review') else p['title'],
+    def kind(p):
+        return 'review' if p['id'].startswith('review') else 'rule' if p['id'].startswith('rule') else 'letter'
+    summary = [{'id': p['id'], 'kind': kind(p), 'title': p['title'],
+                'ch': LETTERS[p['number'] - 1]['ch'] if kind(p) == 'letter' else p.get('sign', ''),
+                'name': LETTERS[p['number'] - 1]['name'] if kind(p) == 'letter' else p['title'],
                 'activities': sum(a['type'] != 'reflect' for a in p['practice'])} for p in pages]
     index = open(os.path.join(ROOT, 'tools', 'templates', 'sufara-index.html'), encoding='utf-8').read()
     index = index.replace('__LESSONS__', '<a href="../lessons/">📚 Lessons</a>' if HAS_LESSONS else '')
     index = index.replace('__DATA__', json.dumps({'pages': summary, 'playlist': DATA['playlist']}, ensure_ascii=False))
     open(os.path.join(ROOT, 'sufara', 'index.html'), 'w', encoding='utf-8').write(brand(index))
-    print(f'built {sum(s["kind"] == "letter" for s in summary)} letters, {sum(s["kind"] == "review" for s in summary)} reviews + sufara/index.html')
+    print(f'built {sum(s["kind"] == "letter" for s in summary)} letters, {sum(s["kind"] == "rule" for s in summary)} rules, '
+          f'{sum(s["kind"] == "review" for s in summary)} reviews + sufara/index.html')
 
 
 if __name__ == '__main__':

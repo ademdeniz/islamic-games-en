@@ -16,15 +16,18 @@ a.t:hover{border-color:var(--gold);transform:translateY(-2px)}a.t.done{border-co
 .nm{font-weight:800}.st{font-size:12px;min-height:16px}
 a.r{grid-column:1/-1;display:block;text-align:center;background:var(--gold2);border:2px solid var(--gold);border-radius:14px;padding:10px;font-weight:800;color:#3f2d09;text-decoration:none}
 a.r.done{background:#dff2e4;border-color:var(--green2)}
+a.t.rule{background:#f1f8f3;border-color:#bfe0c9}a.t.rule .ch{font-size:30px;line-height:2.4;white-space:nowrap}a.t.rule .nm{font-size:12px;text-align:center;line-height:1.2}
+.tools{text-align:center;margin-top:18px}.reset{font:inherit;font-weight:700;border:2px solid #d9c9a3;background:#fff;color:#6a5c45;border-radius:12px;padding:8px 14px;cursor:pointer}
 .src{font-size:12px;color:#8a7c64;margin-top:14px;text-align:center}
 .topnav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px auto 4px;max-width:880px}.topnav a{text-decoration:none;font-weight:800;font-size:15px;color:#0f5a3f;background:#fff;border:2px solid #eadbb6;border-radius:999px;padding:7px 14px}.topnav a.on{background:#0f5a3f;color:#fff;border-color:#0f5a3f}.topnav a:hover{border-color:#c99b3e}
 </style></head><body><main>
 <nav class="topnav" aria-label="Sections"><a href="../">🏠 Home</a><a href="./" class="on">🔤 Sufara</a>__LESSONS__</nav>
 <div class="crumbs"><a href="../">🏠 Home</a> › 🔤 Sufara</div>
 <div class="hero"><h1>🔤 Sufara – the Arabic letters</h1>
-<p>Learn each letter: how it looks, how it sounds, and Qur’an words that use it – with a short video and a game.
+<p>Learn each letter: how it looks, how it sounds, and Qur’an words that use it – with a short video and a game. Green tiles are reading rules (sukun, tanwin, long vowels…).
 After every 7 letters there is a review. Watch all videos in the <a id="pl" target="_blank" rel="noopener">Sufara playlist</a>.</p></div>
 <div class="grid" id="grid"></div>
+<p class="tools"><button class="reset" id="reset">↺ Start over (clear the stars on this device)</button></p>
 <p class="src">Letter sounds explained for English-speaking children. Qur’an words and recitation: Quran.com. Videos: “Sufara” by Amsal Memic, with hfz. Nermin Spahić.</p>
 <script>
 const D=__DATA__;
@@ -32,5 +35,7 @@ document.getElementById('pl').href=D.playlist;
 function stars(p){try{const n=Object.keys(JSON.parse(localStorage.getItem('lesson-sufara-'+p.id)||'{}')).length;return [n,n>=p.activities]}catch(e){return [0,false]}}
 document.getElementById('grid').innerHTML=D.pages.map(p=>{const [n,done]=stars(p);
   return p.kind==='review'?`<a class="r ${done?'done':''}" href="${p.id}/">⭐ ${p.title}${done?' ✅':''}</a>`
-   :`<a class="t ${done?'done':''}" href="${p.id}/"><span class="ch" lang="ar">${p.ch}</span><span class="nm">${p.name}</span><span class="st">${'⭐'.repeat(Math.min(n,p.activities))}</span></a>`}).join('');
+   :`<a class="t ${p.kind==='rule'?'rule':''} ${done?'done':''}" href="${p.id}/" title="${p.kind==='rule'?'Reading rule':'Letter'}"><span class="ch" lang="ar">${p.ch}</span><span class="nm">${p.name}</span><span class="st">${'⭐'.repeat(Math.min(n,p.activities))}</span></a>`}).join('');
+document.getElementById('reset').onclick=()=>{if(!confirm('Clear all Sufara stars on this device and start over?'))return;
+  try{Object.keys(localStorage).filter(k=>k.startsWith('lesson-sufara-')).forEach(k=>localStorage.removeItem(k))}catch(e){}location.reload()};
 </script></main></body></html>
