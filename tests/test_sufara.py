@@ -207,3 +207,20 @@ def test_two_word_example_plays_only_those_words(browser):
     p.close()
     assert started >= clip[0] / 1000 - 0.1
     assert state[0] and state[1] <= clip[1] / 1000 + 0.35, f'should stop at {clip[1]} ms, is at {state}'
+
+
+def test_play_again_restarts_a_finished_activity_and_keeps_the_stars(page):
+    page.goto('file://' + os.path.join(gc.ROOT, 'sufara', '06-ba', 'index.html'))
+    L = page.evaluate('LESSON.L')
+    a = L['practice'][0]                                    # the "find the letter" game
+    assert page.is_hidden('#act0 .again'), 'no Play again before the activity is done'
+    play(page, 0, a)
+    page.wait_for_function("document.getElementById('act0').classList.contains('done')")
+    assert page.locator('#act0 .cell.ok').count() == a['cells'].count(a['target'])
+    page.click('#act0 .again')
+    assert page.locator('#act0 .cell.ok').count() == 0, 'the game starts fresh'
+    assert 'done' in page.get_attribute('#act0', 'class') and '⭐' in page.inner_text('#stars'), 'stars are kept'
+    play(page, 0, a)                                        # and it can be played to the end again
+    assert page.locator('#act0 .cell.ok').count() == a['cells'].count(a['target'])
+    page.reload()
+    assert page.is_visible('#act0 .again'), 'Play again is offered for activities finished earlier'
