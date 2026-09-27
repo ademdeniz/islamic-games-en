@@ -153,6 +153,7 @@ function toggle(id,cls,on){const f=()=>{$('card').classList.toggle(cls,on?$(id).
 toggle('showAr','hideAr',false);toggle('showTr','hideTr',false);toggle('showEn','showEn',true);
 const rc=load('reciter');if(rc&&DATA.reciters[rc]){reciter=rc;$('reciter').value=rc}
 const sr=+load('rate');if(sr)setRate(sr);
-const ss=+load('surah');chooseSurah(ss>=0&&ss<DATA.surahs.length?ss:0);
+const hs=DATA.surahs.findIndex(s=>'#'+s.id===location.hash),ss=hs>=0?hs:+load('surah');   // #fil opens Surah Al-Fil (links from lessons and the class plan)
+chooseSurah(ss>=0&&ss<DATA.surahs.length?ss:0);
 window.HZ={DATA,parts:()=>PARTS,range,wordAt,highlight,state:()=>({sIdx,pIdx,view,rate,reciter,score:[...score],buildLine,buildCount,revealed,playing:!!job}),player};
 </script></main></body></html>

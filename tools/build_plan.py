@@ -6,6 +6,7 @@
   --no-class 2027-01-03,...   extra Sundays without class (the parents' copy has no switches, so bake them in here)
 """
 import datetime as dt
+import glob
 import json
 import os
 import re
@@ -56,13 +57,38 @@ TAJWID = [   # (rule, what the lesson covers)
 ]
 
 
+def built_lessons():
+    """(book, book page) -> lesson url, for every page a built lesson covers (data/lessons/ilmihal-N/*.json)."""
+    out = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'lessons', 'ilmihal-*', '*.json'))):
+        book, lid = int(f.split(os.sep)[-2].split('-')[1]), os.path.basename(f)[:-5]
+        first, _, last = json.load(open(f, encoding='utf-8'))['pages'].partition('–')
+        for pg in range(int(first), int(last or first) + 1):
+            out.setdefault((book, pg), f'{SITE}lessons/ilmihal-{book}/{lid}/')
+    return out
+
+
+HIFZ_IDS = {s['id'] for s in json.load(open(os.path.join(ROOT, 'data', 'hifz.json'), encoding='utf-8'))['surahs']}
+SURAH_WORDS = {'Fatiha': 'fatiha', 'An-Nasr': 'nasr', 'An-Nas': 'nas', 'Falaq': 'falaq', 'Ikhlas': 'ikhlas', 'Masad': 'masad',
+               'Kafirun': 'kafirun', 'Kawthar': 'kawthar', 'Ma‘un': 'maun', 'Quraysh': 'quraysh', 'Al-Fil': 'fil',
+               'Humazah': 'humazah', '‘Asr': 'asr', 'Takathur': 'takathur', 'Qari‘ah': 'qariah', 'Alif-Lam-Mim': 'alif-lam-mim',
+               'Ayat al-Kursi': 'kursi'}
+
+
+def surah_link(title):
+    """Surah lessons are learned in “Learn the Surahs by Heart” – link straight to that surah."""
+    for word, sid in SURAH_WORDS.items():
+        if word in title and sid in HIFZ_IDS:
+            return f'{SITE}games/learn-surahs-by-heart/#{sid}'
+
+
 def lesson_items(book):
-    out = []
+    built, out = built_lessons(), []
     for e in ILMIHAL[book]:
         page, title, topics = e[:3]
-        built = e[3] if len(e) > 3 else None
+        url = built.get((book, page)) or surah_link(title)
         out.append({'k': f'i{book}-{page}', 'kind': f'Ilmihal {book}', 'title': title, 'page': page, 'topics': sorted(topics),
-                    'url': SITE + 'lessons/' + built + '/' if built else None})
+                    'url': url, **({'hint': 'practise it in Learn the Surahs by Heart'} if url and '#' in url else {})})
     return out
 
 

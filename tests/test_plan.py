@@ -16,7 +16,7 @@ PARENTS = os.path.join(gc.ROOT, 'plan', 'index.html')
 
 def local(url):
     assert url.startswith(D['site']), url
-    return os.path.join(gc.ROOT, url[len(D['site']):], 'index.html')
+    return os.path.join(gc.ROOT, url[len(D['site']):].split('#')[0], 'index.html')
 
 
 def test_every_link_points_to_a_real_page():
@@ -24,6 +24,15 @@ def test_every_link_points_to_a_real_page():
     urls |= {D['site'] + 'games/' + s + '/' for s in D['games']}
     missing = [u for u in urls if not os.path.exists(local(u))]
     assert not missing, missing
+
+
+def test_built_lessons_and_surahs_are_linked():
+    items = {it['k']: it['url'] for items in D['tracks'].values() for it in items}
+    assert items['i1-9'].endswith('lessons/ilmihal-1/01-audhu-bismillah/'), 'lesson 1 covers book pages 8–9'
+    assert items['i2-10'].endswith('lessons/ilmihal-2/02-amantu-billahi/')
+    assert items['i3-11'].endswith('games/learn-surahs-by-heart/#fil')
+    assert items['i1-84'].endswith('#nasr') and items['i1-43'].endswith('#nas')
+    assert items['i3-12'].endswith('lessons/ilmihal-3/02-amantu-billahi/')
 
 
 def test_every_game_topic_is_used_and_fallbacks_exist():

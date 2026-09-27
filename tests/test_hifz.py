@@ -171,3 +171,11 @@ def test_real_recitation_highlights_words(browser):
 def test_branded_english_page_without_credit_line():
     html = open(os.path.join(gc.ROOT, 'games', 'learn-surahs-by-heart', 'index.html'), encoding='utf-8').read()
     assert 'lang="en"' in html and 'bz-brand' in html and 'Rekić' not in html
+
+
+def test_link_with_surah_id_opens_that_surah(browser):
+    p = browser.new_page()
+    p.goto('file://' + os.path.join(gc.ROOT, 'games', 'learn-surahs-by-heart', 'index.html') + '#fil')
+    k = p.evaluate("DATA.surahs.findIndex(s => s.id === 'fil')")
+    assert p.evaluate("sIdx") == k and p.input_value('#surah') == str(k)
+    p.close()
