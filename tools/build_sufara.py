@@ -20,6 +20,8 @@ WORDS = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'words.json'), encod
 HEAVY = set('خصضغطقظ')   # the "full mouth" (isti‘la) letters
 FOOTER = ('Letter names and sounds explained for English-speaking children. Qur’an words, their recitation and '
           'meanings: Quran.com. Videos: the “Sufara” playlist by Amsal Memic, with hfz. Nermin Spahić (YouTube).')
+HAS_LESSONS = os.path.isdir(os.path.join(ROOT, 'data', 'lessons'))   # the Lessons section exists on this branch
+SITE = {'root': '../../', 'section': 'sufara', 'lessons_link': HAS_LESSONS}
 TEMPLATE = open(os.path.join(ROOT, 'tools', 'templates', 'lesson.html'), encoding='utf-8').read()
 
 
@@ -56,7 +58,7 @@ def letter_lesson(n, L):
     return {
         'book': 'sufara', 'id': page_id(n, L), 'number': n, 'title': f'{L["name"]}  {L["ch"]}',
         'tag': f'Sufara • Letter {n} of {len(LETTERS)}', 'intro': L['tip'],
-        'crumbs': [['🏠 Games', '../../'], ['🔤 Sufara', '../'], [L['name'], None]], 'footer': FOOTER,
+        'crumbs': [['🏠 Home', '../../'], ['🔤 Sufara', '../'], [L['name'], None]], 'footer': FOOTER, **SITE,
         'learn': [
             {'type': 'letter', 'ch': L['ch'], 'name': L['name'], 'bs': L['bs'], 'forms': forms(L), 'joins': L['joins']},
             {'type': 'tip', 'html': html.escape(L['tip'])},
@@ -95,7 +97,7 @@ def review_lesson(k, group, first):
     return {
         'book': 'sufara', 'id': f'review-{k}', 'number': k, 'title': f'Review {k}: letters {first}–{last}',
         'tag': f'Sufara • Review {k}', 'intro': '  '.join(L['ch'] for L in group),
-        'crumbs': [['🏠 Games', '../../'], ['🔤 Sufara', '../'], [f'Review {k}', None]], 'footer': FOOTER,
+        'crumbs': [['🏠 Home', '../../'], ['🔤 Sufara', '../'], [f'Review {k}', None]], 'footer': FOOTER, **SITE,
         'learn': [{'type': 'text', 'html': 'Let’s practise the letters you have learned: ' +
                    ', '.join(f'<b>{L["name"]}</b> <span class="arq">{L["ch"]}</span>' for L in group) + '.'}],
         'practice': practice,
@@ -125,6 +127,7 @@ def build():
                 'name': LETTERS[p['number'] - 1]['name'] if not p['id'].startswith('review') else p['title'],
                 'activities': sum(a['type'] != 'reflect' for a in p['practice'])} for p in pages]
     index = open(os.path.join(ROOT, 'tools', 'templates', 'sufara-index.html'), encoding='utf-8').read()
+    index = index.replace('__LESSONS__', '<a href="../lessons/">📚 Lessons</a>' if HAS_LESSONS else '')
     index = index.replace('__DATA__', json.dumps({'pages': summary, 'playlist': DATA['playlist']}, ensure_ascii=False))
     open(os.path.join(ROOT, 'sufara', 'index.html'), 'w', encoding='utf-8').write(brand(index))
     print(f'built {sum(s["kind"] == "letter" for s in summary)} letters, {sum(s["kind"] == "review" for s in summary)} reviews + sufara/index.html')

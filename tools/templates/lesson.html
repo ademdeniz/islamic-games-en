@@ -53,6 +53,7 @@ button{font:inherit;cursor:pointer}
 .done-msg{text-align:center;font-weight:800;color:var(--green2);font-size:18px}
 .nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:18px}.nav a{font-weight:800;color:var(--green2)}
 footer{font-size:12px;color:#8a7c64;text-align:center;margin-top:18px}
+.topnav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px auto 4px;max-width:880px}.topnav a{text-decoration:none;font-weight:800;font-size:15px;color:#0f5a3f;background:#fff;border:2px solid #eadbb6;border-radius:999px;padding:7px 14px}.topnav a.on{background:#0f5a3f;color:#fff;border-color:#0f5a3f}.topnav a:hover{border-color:#c99b3e}
 .arq{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;direction:rtl;font-size:1.5em;line-height:1.7}
 .letter{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;border:3px solid var(--gold);border-radius:18px;padding:12px 16px;background:#fffdf6}
 .letter .big{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:clamp(90px,24vw,140px);line-height:1.1;color:var(--green);text-align:center;min-width:1.2em}
@@ -72,6 +73,7 @@ footer{font-size:12px;color:#8a7c64;text-align:center;margin-top:18px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}.cell{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:36px;line-height:1.5;border:2px solid var(--gold);background:#fff;border-radius:12px}
 .cell.ok{background:var(--ok);border-color:var(--green2)}.cell.bad{background:var(--bad);border-color:#c0492f}
 </style></head><body><main>
+<nav class="topnav" id="topnav" aria-label="Sections"></nav>
 <div class="crumbs" id="crumbs"></div>
 <div class="hero"><span class="tag" id="tag"></span><h1 id="title"></h1><p id="intro"></p><div class="stars" id="stars"></div></div>
 <section><h2>📖 Learn</h2><div id="learn"></div></section>
@@ -167,7 +169,9 @@ function find(a,el,finish){const need=a.cells.filter(c=>c===a.target).length;let
     fb.textContent=got===need?'🌟 You found all of them!':'✓ Found '+got+' of '+need;if(got===need)finish()}else{b.classList.remove('bad');void b.offsetWidth;b.classList.add('bad');fb.className='fb bad';fb.textContent='That is a different letter – look again!'}})}
 function reflect(a,el){el.innerHTML=(a.img?`<img class="reflect-pic" src="${IMG(a.img)}" alt="" loading="lazy">`:'')+`<ul class="reflect">${a.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`}
 /* ---------- header, nav ---------- */
-$('crumbs').innerHTML=(L.crumbs||[['🏠 Games','../../../'],['📚 Lessons','../../'],[L.book_title,null]]).map(([t,h])=>h?`<a href="${h}">${esc(t)}</a>`:esc(t)).join(' › ');
+const ROOT=L.root||'../../../';
+$('topnav').innerHTML=[['🏠 Home','',''],['🔤 Sufara','sufara/','sufara']].concat(L.lessons_link?[['📚 Lessons','lessons/','lessons']]:[]).map(([t,h,sec])=>`<a href="${ROOT+h}" class="${sec&&sec===L.section?'on':''}">${t}</a>`).join('');
+$('crumbs').innerHTML=(L.crumbs||[['🏠 Home',ROOT],['📚 Lessons',ROOT+'lessons/'],[L.book_title,null]]).map(([t,h])=>h?`<a href="${h}">${esc(t)}</a>`:esc(t)).join(' › ');
 $('tag').textContent=L.tag||(L.book_title+' • Lesson '+L.number);$('title').textContent=L.title;$('intro').textContent=L.intro;
 $('source').textContent=L.footer||('Adapted into English from '+L.source+', pages '+L.pages+'. Qur’an translation: Sahih International.');
 $('nav').innerHTML=(L.prev?`<a href="../${L.prev.id}/">◀ ${esc(L.prev.title)}</a>`:'<span></span>')+(L.next?`<a href="../${L.next.id}/">${esc(L.next.title)} ▶</a>`:'<span></span>');
