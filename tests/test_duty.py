@@ -33,6 +33,7 @@ def test_page_is_current_and_shares_nothing_private():
     assert not re.search(r'\d{3}\D{0,3}\d{3}\D{0,3}\d{4}', text), 'no phone numbers'
     assert not re.search(r'[\w.]+@[\w.]+', text), 'no email addresses'
     assert all(re.fullmatch(r'\w+ (\w\.|family)', p) for g in ('g1', 'g2') for p in build_duty.P[g]), 'first name + initial only'
+    assert '9:00 – 11:45 am' in html and '11:45 am – 12:15 pm' in html and 'from 12:15 pm' in html
     assert 'next round will be posted' in html and 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
 
 

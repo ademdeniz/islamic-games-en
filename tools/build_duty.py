@@ -46,16 +46,21 @@ def build():
 <h1>🍕 Sunday Pizza &amp; Parent Duty</h1>
 <p class=sub>Bosnian Islamic Community of Erie · Maktab 2026–27</p>
 <div class=card>
-<p>Every Sunday <b>two parents</b> – one from Group 1 and one from Group 2 – <b>stay at the maktab for the whole day of classes</b>, for our children’s safety, and <b>bring pizza</b> for lunch.</p>
+<p>Every Sunday <b>two parents</b> – one from Group 1 and one from Group 2 – <b>stay at the maktab during their group’s class</b>, for our children’s safety, and <b>bring pizza</b> for lunch.</p>
+<table class=times>
+<tr><td>🕘 <b>9:00 – 11:45 am</b></td><td>Group 1 class – the <b>Group 1 parent</b> stays</td></tr>
+<tr><td>🍕 <b>11:45 am – 12:15 pm</b></td><td>Pizza time – the pizza must be <b>at the mosque before 11:45</b></td></tr>
+<tr><td>🕛 <b>from 12:15 pm</b></td><td>Group 2 class – the <b>Group 2 parent</b> stays</td></tr>
+</table>
 <ul>
-<li>We need <b>{P['pizzas']['total']} pizzas</b> every Sunday: each parent brings <b>{each}</b> (half each).</li>
+<li>We need <b>{P['pizzas']['total']} pizzas</b> every Sunday: each parent brings <b>{each}</b> (half each), at the mosque <b>before 11:45 am</b>.</li>
 <li>📌 <b>The Imam will let you know if we need more or fewer.</b></li>
 <li>Can’t make your Sunday? Swap with another parent and let the Imam know.</li>
 </ul>
 </div>
 <p class=tools><button id=me>⬇️ Next Sunday</button></p>
 <div class=wrap><table>
-<thead><tr><th>Sunday</th><th>Group 1 parent<br><small>stays · brings {each} pizzas</small></th><th>Group 2 parent<br><small>stays · brings {each} pizzas</small></th></tr></thead>
+<thead><tr><th>Sunday</th><th>Group 1 parent<br><small>9:00–11:45 · {each} pizzas</small></th><th>Group 2 parent<br><small>from 12:15 · {each} pizzas</small></th></tr></thead>
 <tbody>{rows}</tbody></table></div>
 {f'<div class=card><b>No class (no duty):</b><ul>{off}</ul></div>' if off else ''}
 <div class=card><b>📅 What comes next</b><p>This is the <b>first round</b> – every family once{" (✓ = already done – thank you!)" if P.get("done") else ""}. More families may still join, so the <b>next round will be posted after {dt.date.fromisoformat(last).strftime("%B %-d")}</b>, with everyone included.</p></div>
