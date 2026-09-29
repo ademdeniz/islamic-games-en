@@ -17,9 +17,11 @@ def test_first_round_only_every_parent_once():
     r, P = build_duty.rota(), build_duty.P
     assert [d for d, _, _ in r] == [d for d in build_plan.class_days() if d >= P['start']][:max(len(P['g1']), len(P['g2']))]
     for g, i in (('g1', 1), ('g2', 2)):
+        done = {x[g] for x in P.get('done', []) if x.get(g)}
         names = [x[i] for x in r if x[i] != build_duty.TBA]
-        assert names == P[g], 'each parent once, in order – no second round'
-        assert all(x[i] == build_duty.TBA for x in r[len(P[g]):])
+        assert names == [p for p in P[g] if p not in done], 'each parent once, in order – no second round'
+        assert not done & set(names), 'parents who already had their turn are not asked again'
+        assert all(x[i] == build_duty.TBA for x in r[len(names):])
 
 
 def test_page_is_current_and_shares_nothing_private():
@@ -32,3 +34,8 @@ def test_page_is_current_and_shares_nothing_private():
     assert not re.search(r'[\w.]+@[\w.]+', text), 'no email addresses'
     assert all(re.fullmatch(r'\w+ (\w\.|family)', p) for g in ('g1', 'g2') for p in build_duty.P[g]), 'first name + initial only'
     assert 'next round will be posted' in html and 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
+
+
+def test_done_turns_are_shown_with_a_tick():
+    html = open(PAGE, encoding='utf-8').read()
+    assert '<tr data-d="2026-09-27" class=done><td class=d>Sep 27, 2026 ✓</td><td>—</td><td>Jakup N.</td></tr>' in html

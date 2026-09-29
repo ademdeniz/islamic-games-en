@@ -26,13 +26,17 @@ TBA = 'To be announced'
 def rota():
     """First round only: every parent once. When a group runs out first, its slots are “to be announced” –
     new families may join, and the next round is posted later."""
-    n = max(len(P['g1']), len(P['g2']))
+    done = {x[g] for x in P.get('done', []) for g in ('g1', 'g2') if x.get(g)}
+    g1, g2 = [p for p in P['g1'] if p not in done], [p for p in P['g2'] if p not in done]   # already had their turn
+    n = max(len(g1), len(g2))
     days = [d for d in bp.class_days() if d >= P['start']][:n]
-    return [(d, P['g1'][w] if w < len(P['g1']) else TBA, P['g2'][w] if w < len(P['g2']) else TBA) for w, d in enumerate(days)]
+    return [(d, g1[w] if w < len(g1) else TBA, g2[w] if w < len(g2) else TBA) for w, d in enumerate(days)]
 
 
 def build():
-    rows = ''.join(f'<tr data-d="{d}"><td class=d>{dt.date.fromisoformat(d).strftime("%b %-d, %Y")}</td>'
+    rows = ''.join(f'<tr data-d="{x["date"]}" class=done><td class=d>{dt.date.fromisoformat(x["date"]).strftime("%b %-d, %Y")} ✓</td>'
+                   f'<td>{E(x.get("g1") or "—")}</td><td>{E(x.get("g2") or "—")}</td></tr>' for x in P.get('done', []))
+    rows += ''.join(f'<tr data-d="{d}"><td class=d>{dt.date.fromisoformat(d).strftime("%b %-d, %Y")}</td>'
                    f'<td{" class=tba" if a == TBA else ""}>{E(a)}</td><td{" class=tba" if b == TBA else ""}>{E(b)}</td></tr>' for d, a, b in rota())
     last = rota()[-1][0]
     off = ''.join(f'<li><b>{dt.date.fromisoformat(d).strftime("%b %-d")}</b> – {E(why.removeprefix("No class – "))}</li>'
@@ -54,7 +58,7 @@ def build():
 <thead><tr><th>Sunday</th><th>Group 1 parent<br><small>stays · brings {each} pizzas</small></th><th>Group 2 parent<br><small>stays · brings {each} pizzas</small></th></tr></thead>
 <tbody>{rows}</tbody></table></div>
 {f'<div class=card><b>No class (no duty):</b><ul>{off}</ul></div>' if off else ''}
-<div class=card><b>📅 What comes next</b><p>This is the <b>first round</b> – every family once. More families may still join, so the <b>next round will be posted after {dt.date.fromisoformat(last).strftime("%B %-d")}</b>, with everyone included.</p></div>
+<div class=card><b>📅 What comes next</b><p>This is the <b>first round</b> – every family once{" (✓ = already done – thank you!)" if P.get("done") else ""}. More families may still join, so the <b>next round will be posted after {dt.date.fromisoformat(last).strftime("%B %-d")}</b>, with everyone included.</p></div>
 <p class=foot>Bosnian Islamic Community of Erie</p>
 </main>'''
     page = open(os.path.join(ROOT, 'tools', 'templates', 'duty.html'), encoding='utf-8').read().replace('__BODY__', body)
