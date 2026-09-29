@@ -27,8 +27,8 @@ def test_page_is_current_and_shares_nothing_private():
     build_duty.build()
     assert open(PAGE, encoding='utf-8').read() == html, 'run python3 tools/build_duty.py'
     text = re.sub(r'<[^>]+>|data:image[^"]+', ' ', html)
-    assert 'Alketa' not in text and 'Xhekiqi' not in text, 'no parent name yet for that family'
+    assert 'Alketa' not in text, 'a student’s name, not a parent’s – that family is listed by family name'
     assert not re.search(r'\d{3}\D{0,3}\d{3}\D{0,3}\d{4}', text), 'no phone numbers'
     assert not re.search(r'[\w.]+@[\w.]+', text), 'no email addresses'
-    assert all(re.fullmatch(r'\w+ \w\.', p) for g in ('g1', 'g2') for p in build_duty.P[g]), 'first name + initial only'
+    assert all(re.fullmatch(r'\w+ (\w\.|family)', p) for g in ('g1', 'g2') for p in build_duty.P[g]), 'first name + initial only'
     assert 'next round will be posted' in html and 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
