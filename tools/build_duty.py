@@ -20,16 +20,23 @@ P = json.load(open(os.path.join(ROOT, 'data', 'duty', 'parents.json'), encoding=
 E = html.escape
 
 
+TBA = 'To be announced'
+
+
 def rota():
-    days = [d for d in bp.class_days() if d >= P['start']]
-    return [(d, P['g1'][w % len(P['g1'])], P['g2'][w % len(P['g2'])]) for w, d in enumerate(days)]
+    """First round only: every parent once. When a group runs out first, its slots are “to be announced” –
+    new families may join, and the next round is posted later."""
+    n = max(len(P['g1']), len(P['g2']))
+    days = [d for d in bp.class_days() if d >= P['start']][:n]
+    return [(d, P['g1'][w] if w < len(P['g1']) else TBA, P['g2'][w] if w < len(P['g2']) else TBA) for w, d in enumerate(days)]
 
 
 def build():
     rows = ''.join(f'<tr data-d="{d}"><td class=d>{dt.date.fromisoformat(d).strftime("%b %-d, %Y")}</td>'
-                   f'<td>{E(a)}</td><td>{E(b)}</td></tr>' for d, a, b in rota())
+                   f'<td{" class=tba" if a == TBA else ""}>{E(a)}</td><td{" class=tba" if b == TBA else ""}>{E(b)}</td></tr>' for d, a, b in rota())
+    last = rota()[-1][0]
     off = ''.join(f'<li><b>{dt.date.fromisoformat(d).strftime("%b %-d")}</b> – {E(why.removeprefix("No class – "))}</li>'
-                  for d, why in sorted(bp.NO_CLASS.items()) if d >= P['start'])
+                  for d, why in sorted(bp.NO_CLASS.items()) if P['start'] <= d <= last)
     each = P['pizzas']['each']
     body = f'''<main>
 <h1>🍕 Sunday Pizza &amp; Parent Duty</h1>
@@ -47,7 +54,8 @@ def build():
 <thead><tr><th>Sunday</th><th>Group 1 parent<br><small>stays · brings {each} pizzas</small></th><th>Group 2 parent<br><small>stays · brings {each} pizzas</small></th></tr></thead>
 <tbody>{rows}</tbody></table></div>
 {f'<div class=card><b>No class (no duty):</b><ul>{off}</ul></div>' if off else ''}
-<p class=foot>Bosnian Islamic Community of Erie. If a new family joins, they are added at the end of the list.</p>
+<div class=card><b>📅 What comes next</b><p>This is the <b>first round</b> – every family once. More families may still join, so the <b>next round will be posted after {dt.date.fromisoformat(last).strftime("%B %-d")}</b>, with everyone included.</p></div>
+<p class=foot>Bosnian Islamic Community of Erie</p>
 </main>'''
     page = open(os.path.join(ROOT, 'tools', 'templates', 'duty.html'), encoding='utf-8').read().replace('__BODY__', body)
     os.makedirs(os.path.join(ROOT, 'duty'), exist_ok=True)

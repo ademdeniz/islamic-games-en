@@ -13,13 +13,13 @@ from build_lessons_core import brand  # noqa: E402,F401
 PAGE = os.path.join(gc.ROOT, 'duty', 'index.html')
 
 
-def test_every_class_sunday_has_one_parent_from_each_group():
-    r = build_duty.rota()
-    assert [d for d, _, _ in r] == [d for d in build_plan.class_days() if d >= build_duty.P['start']]
-    assert all(a in build_duty.P['g1'] and b in build_duty.P['g2'] for _, a, b in r)
-    for g, i in (('g1', 1), ('g2', 2)):    # everyone takes turns evenly
-        counts = [sum(x[i] == p for x in r) for p in build_duty.P[g]]
-        assert max(counts) - min(counts) <= 1, (g, counts)
+def test_first_round_only_every_parent_once():
+    r, P = build_duty.rota(), build_duty.P
+    assert [d for d, _, _ in r] == [d for d in build_plan.class_days() if d >= P['start']][:max(len(P['g1']), len(P['g2']))]
+    for g, i in (('g1', 1), ('g2', 2)):
+        names = [x[i] for x in r if x[i] != build_duty.TBA]
+        assert names == P[g], 'each parent once, in order – no second round'
+        assert all(x[i] == build_duty.TBA for x in r[len(P[g]):])
 
 
 def test_page_is_current_and_shares_nothing_private():
@@ -31,4 +31,4 @@ def test_page_is_current_and_shares_nothing_private():
     assert not re.search(r'\d{3}\D{0,3}\d{3}\D{0,3}\d{4}', text), 'no phone numbers'
     assert not re.search(r'[\w.]+@[\w.]+', text), 'no email addresses'
     assert all(re.fullmatch(r'\w+ \w\.', p) for g in ('g1', 'g2') for p in build_duty.P[g]), 'first name + initial only'
-    assert 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
+    assert 'next round will be posted' in html and 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
