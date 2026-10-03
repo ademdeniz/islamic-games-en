@@ -224,3 +224,45 @@ def test_play_again_restarts_a_finished_activity_and_keeps_the_stars(page):
     assert page.locator('#act0 .cell.ok').count() == a['cells'].count(a['target'])
     page.reload()
     assert page.is_visible('#act0 .again'), 'Play again is offered for activities finished earlier'
+
+
+def _ink(png):
+    import io
+    from PIL import Image
+    im = Image.open(io.BytesIO(png)).convert('L')
+    w, h = im.size
+    px = im.load()
+    bg = px[1, 1]
+    pts = [(x, y) for y in range(h) for x in range(w) if abs(px[x, y] - bg) > 90]
+    if not pts:
+        return None, w, h
+    xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+    return (min(xs), min(ys), max(xs), max(ys)), w, h
+
+
+@pytest.mark.parametrize('p', ['', '21-jim/', '15-mim/', '27-ayn/', '01-alif/', 'rule-tanwin/', 'rule-long-u/'])
+def test_arabic_letters_are_centred_in_their_boxes(page, p):
+    """Every big letter, tile, letter form, vowel card and find-the-letter cell: the drawn shape is centred in its box
+    and stays inside it (the font sits letters on a baseline, so tails like ج ع م used to spill out)."""
+    page.goto('file://' + os.path.join(gc.ROOT, 'sufara', p, 'index.html'))
+    page.evaluate('document.fonts.ready')
+    page.wait_for_timeout(200)
+    els = page.locator('.glyph')
+    checked = 0
+    for i in range(els.count()):
+        e = els.nth(i)
+        if not e.is_visible():
+            continue
+        e.scroll_into_view_if_needed()
+        box = e.bounding_box()
+        if e.evaluate("e => getComputedStyle(e).display === 'block' && !e.classList.contains('big') && getComputedStyle(e.parentElement).display !== 'grid'"):   # tiles, forms, vowel cards fill their card
+            parent = e.evaluate("e => {const r = e.parentElement.getBoundingClientRect(), s = getComputedStyle(e.parentElement);"
+                                "return r.width - parseFloat(s.paddingLeft) - parseFloat(s.paddingRight) - parseFloat(s.borderLeftWidth) - parseFloat(s.borderRightWidth)}")
+            assert box['width'] >= parent - 2, f'{p}: glyph {i} does not fill its card ({box["width"]} < {parent})'
+        ink, w, h = _ink(page.screenshot(clip={'x': box['x'] + 2, 'y': box['y'] + 2, 'width': box['width'] - 4, 'height': box['height'] - 4}))
+        assert ink, f'{p}: glyph {i} is empty'
+        dx, dy = (ink[0] + ink[2]) / 2 - w / 2, (ink[1] + ink[3]) / 2 - h / 2
+        assert abs(dx) <= 4 and abs(dy) <= 4, f'{p}: glyph {i} {e.inner_text()!r} is off centre by ({dx}, {dy})'
+        assert ink[0] > 0 and ink[1] > 0 and ink[2] < w - 1 and ink[3] < h - 1, f'{p}: glyph {i} {e.inner_text()!r} spills out of its box'
+        checked += 1
+    assert checked >= (1 if p.startswith('rule') else 6)

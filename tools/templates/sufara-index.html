@@ -12,12 +12,13 @@ main{max-width:980px;margin:auto;padding:10px 16px 40px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:8px}
 a.t{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;background:#fff;border:2px solid var(--line);border-radius:16px;padding:6px 4px 8px;transition:border-color .15s,transform .15s}
 a.t:hover{border-color:var(--gold);transform:translateY(-2px)}a.t.done{border-color:var(--green2);background:#f3faf5}
-.ch{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;font-size:46px;line-height:1.9;color:var(--green);margin-bottom:-4px}
+.ch{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;font-size:46px;line-height:1.9;color:var(--green);width:100%;height:70px}
 .nm{font-weight:800}.st{font-size:12px;min-height:16px}
 a.r{grid-column:1/-1;display:block;text-align:center;background:var(--gold2);border:2px solid var(--gold);border-radius:14px;padding:10px;font-weight:800;color:#3f2d09;text-decoration:none}
 a.r.done{background:#dff2e4;border-color:var(--green2)}
-a.t.rule{background:#f1f8f3;border-color:#bfe0c9}a.t.rule .ch{font-size:30px;line-height:2.4;white-space:nowrap}a.t.rule .nm{font-size:12px;text-align:center;line-height:1.2}
+a.t.rule{background:#f1f8f3;border-color:#bfe0c9}a.t.rule .ch{font-size:30px;line-height:2.4;white-space:nowrap;height:70px}a.t.rule .nm{font-size:12px;text-align:center;line-height:1.2}
 .tools{text-align:center;margin-top:18px}.reset{font:inherit;font-weight:700;border:2px solid #d9c9a3;background:#fff;color:#6a5c45;border-radius:12px;padding:8px 14px;cursor:pointer}
+.glyph{position:relative;display:block;overflow:visible}.glyph>.gi{position:absolute;line-height:1;white-space:nowrap}span.glyph{display:inline-block;vertical-align:middle;height:2.2em}
 .src{font-size:12px;color:#8a7c64;margin-top:14px;text-align:center}
 .topnav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px auto 4px;max-width:880px}.topnav a{text-decoration:none;font-weight:800;font-size:15px;color:#0f5a3f;background:#fff;border:2px solid #eadbb6;border-radius:999px;padding:7px 14px}.topnav a.on{background:#0f5a3f;color:#fff;border-color:#0f5a3f}.topnav a:hover{border-color:#c99b3e}
 </style></head><body><main>
@@ -34,7 +35,19 @@ document.getElementById('pl').href=D.playlist;
 function stars(p){try{const n=Object.keys(JSON.parse(localStorage.getItem('lesson-sufara-'+p.id)||'{}')).length;return [n,n>=p.activities]}catch(e){return [0,false]}}
 document.getElementById('grid').innerHTML=D.pages.map(p=>{const [n,done]=stars(p);
   return p.kind==='review'?`<a class="r ${done?'done':''}" href="${p.id}/">⭐ ${p.title}${done?' ✅':''}</a>`
-   :`<a class="t ${p.kind==='rule'?'rule':''} ${done?'done':''}" href="${p.id}/" title="${p.kind==='rule'?'Reading rule':'Letter'}"><span class="ch" lang="ar">${p.ch}</span><span class="nm">${p.name}</span><span class="st">${'⭐'.repeat(Math.min(n,p.activities))}</span></a>`}).join('');
+   :`<a class="t ${p.kind==='rule'?'rule':''} ${done?'done':''}" href="${p.id}/" title="${p.kind==='rule'?'Reading rule':'Letter'}"><span class="ch glyph" lang="ar">${p.ch}</span><span class="nm">${p.name}</span><span class="st">${'⭐'.repeat(Math.min(n,p.activities))}</span></a>`}).join('');
+/* ---------- Arabic letters: centre each glyph's drawn shape in its box (Amiri Quran sits letters on a baseline,
+   so tails like ج ع م hang far below and tall letters float high) ---------- */
+function glyphs(root){const c=glyphs.c||(glyphs.c=document.createElement('canvas').getContext('2d'));
+  (root||document).querySelectorAll('.glyph').forEach(el=>{let s=el.firstElementChild;
+    if(!s||!s.classList.contains('gi')){s=document.createElement('span');s.className='gi';s.textContent=el.textContent;el.textContent='';el.append(s)}
+    const cs=getComputedStyle(s),fs=parseFloat(cs.fontSize);c.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;c.direction='rtl';c.textAlign='left';
+    const m=c.measureText(s.textContent),base=(fs-(m.fontBoundingBoxAscent+m.fontBoundingBoxDescent))/2+m.fontBoundingBoxAscent;
+    s.style.left='calc(50% - '+(m.actualBoundingBoxRight-m.actualBoundingBoxLeft)/2+'px)';
+    s.style.top='calc(50% - '+(base-(m.actualBoundingBoxAscent-m.actualBoundingBoxDescent)/2)+'px)';
+    const iw=m.actualBoundingBoxRight+m.actualBoundingBoxLeft+16;if(getComputedStyle(el).display==='inline-block')el.style.width=iw+'px';else el.style.minWidth=iw+'px'})}
+glyphs();if(document.fonts){document.fonts.ready.then(()=>glyphs());document.fonts.addEventListener('loadingdone',()=>glyphs())}
+addEventListener('resize',()=>glyphs());
 document.getElementById('reset').onclick=()=>{if(!confirm('Clear all Sufara stars on this device and start over?'))return;
   try{Object.keys(localStorage).filter(k=>k.startsWith('lesson-sufara-')).forEach(k=>localStorage.removeItem(k))}catch(e){}location.reload()};
 </script></main></body></html>

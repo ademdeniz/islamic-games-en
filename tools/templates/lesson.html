@@ -59,21 +59,21 @@ footer{font-size:12px;color:#8a7c64;text-align:center;margin-top:18px}
 .arq{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Geeza Pro",serif;direction:rtl;font-size:1.5em;line-height:1.7}
 p .arq{font-size:1.35em;line-height:1;unicode-bidi:isolate}p:has(.arq){line-height:2.4}
 .letter{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;border:3px solid var(--gold);border-radius:18px;padding:12px 16px;background:#fffdf6}
-.letter .big{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:clamp(90px,24vw,140px);line-height:1.1;color:var(--green);text-align:center;min-width:1.2em}
-.letter .nm{font-size:26px;font-weight:900}.letter .big.sign{font-size:clamp(54px,14vw,84px);white-space:nowrap}.letter .bs{color:var(--muted);font-weight:600}
+.letter .big{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:clamp(90px,24vw,140px);line-height:1.1;color:var(--green);text-align:center;width:1.3em;height:1.45em}
+.letter .nm{font-size:26px;font-weight:900}.letter .big.sign{font-size:clamp(54px,14vw,84px);white-space:nowrap;width:2.8em;height:2.2em}.letter .bs{color:var(--muted);font-weight:600}
 .forms{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}.forms div{border:2px solid var(--line);border-radius:10px;text-align:center;padding:2px 4px;background:#fff}
-.forms .f{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:34px;line-height:1.6;display:block}.forms small{font-size:11px;font-weight:700;color:var(--muted)}
-.forms div.na{opacity:.35}.note{font-size:13px;color:var(--muted);margin-top:4px}
+.forms .f{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:34px;line-height:1.6;display:block;height:58px}.forms small{font-size:11px;font-weight:700;color:var(--muted)}
+.forms div.na{opacity:.35}.glyph{position:relative;display:block;overflow:visible}.glyph>.gi{position:absolute;line-height:1;white-space:nowrap}span.glyph{display:inline-block;vertical-align:middle;height:2.2em}.note{font-size:13px;color:var(--muted);margin-top:4px}
 .tipbox{border-left:5px solid var(--gold);background:#fff6dd;border-radius:0 12px 12px 0;padding:10px 14px;margin:12px 0;font-weight:600}
 .hk{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}.hk div{border:2px solid var(--gold);border-radius:14px;text-align:center;background:#fff;padding:4px}
-.hk .ar{font-size:44px;line-height:1.7}.hk b{display:block;font-size:18px}
+.hk .ar{font-size:44px;line-height:1.7;height:92px}.hk b{display:block;font-size:18px}
 .words{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:8px 0}
 .word{border:2px solid var(--line);border-radius:14px;background:#fff;padding:8px;text-align:center;cursor:pointer}.word:hover{border-color:var(--gold)}
 .word .ar{display:block;font-size:34px;line-height:1.9;margin-bottom:2px}.word b{display:block}.word i{color:var(--muted);font-size:14px}.word .ref{font-size:11px;color:#a58a4e;font-weight:700}
 .word.playing{border-color:var(--green2);background:var(--ok)}
 .video{display:flex;gap:12px;align-items:center;border:2px solid var(--line);border-radius:14px;padding:10px;text-decoration:none;color:inherit;background:#fff;margin:10px 0}
 .video img{width:150px;max-width:40%;border-radius:10px}.video b{display:block;color:#b3261e}.video:hover{border-color:#b3261e}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}.cell{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:36px;line-height:1.5;border:2px solid var(--gold);background:#fff;border-radius:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}.cell{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic",serif;font-size:36px;line-height:1.5;height:62px;border:2px solid var(--gold);background:#fff;border-radius:12px}
 .cell.ok{background:var(--ok);border-color:var(--green2)}.cell.bad{background:var(--bad);border-color:#c0492f}
 </style></head><body><main>
 <nav class="topnav" id="topnav" aria-label="Sections"></nav>
@@ -104,7 +104,7 @@ function play(url,btn,clip){try{if(audio)audio.pause();cancelAnimationFrame(clip
   audio.play().catch(()=>{btn.textContent='⚠️ No sound – check your internet'})}catch(e){}}
 /* ---------- learn ---------- */
 const IMG=u=>(L.img_base||'../')+u;   // pictures live in lessons/<book>/img/ (or L.img_base)
-const AR=/[\u0600-\u06FF]/,tx=t=>AR.test(t)?`<span class="arq" lang="ar">${esc(t)}</span>`:esc(t);
+const AR=/[\u0600-\u06FF]/,ONLY=/^[\u0600-\u06FF\s]{1,8}$/,tx=t=>AR.test(t)?`<span class="arq${ONLY.test(t)?' glyph':''}" lang="ar">${esc(t)}</span>`:esc(t);   // a letter or two on its own is centred like the big letters
 function quran(q){return `<div class="quran">${esc(q.text)}<span class="ref">— Qur’an, ${esc(q.ref)}</span></div>`}
 $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='phrase')return `<div class="phrase"><div class="lbl">${esc(b.label)}</div><div class="ar" lang="ar">${b.ar}</div><div class="tr">${esc(b.tr)}</div><div class="en">${esc(b.en)}</div>`+
@@ -115,12 +115,12 @@ $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='list')return `<ul class="list">${b.items.map(x=>`<li>${x}</li>`).join('')}</ul>`;
   if(b.type==='cards')return `<div class="cards">${b.items.map(c=>`<div class="card">`+(c.imgs?`<div class="pics">${c.imgs.map(u=>`<img src="${IMG(u)}" alt="" loading="lazy">`).join('')}</div>`:`<span class="i">${c.icon}</span>`)+`${esc(c.label)}</div>`).join('')}</div>`;
   if(b.type==='image')return `<figure class="${b.small?'small':''}"><img src="${IMG(b.src)}" alt="${esc(b.alt)}" loading="lazy">${b.caption?`<figcaption>${esc(b.caption)}</figcaption>`:''}</figure>`;
-  if(b.type==='letter')return `<div class="letter"><div class="big" lang="ar">${b.ch}</div><div><div class="nm">${esc(b.name)}</div><div class="bs">Bosnian name: ${esc(b.bs)}</div>`+
-    `<div class="forms">${b.forms.map(([lab,f])=>`<div class="${f?'':'na'}"><span class="f" lang="ar">${f||'–'}</span><small>${lab}</small></div>`).join('')}</div>`+
+  if(b.type==='letter')return `<div class="letter"><div class="big glyph" lang="ar">${b.ch}</div><div><div class="nm">${esc(b.name)}</div><div class="bs">Bosnian name: ${esc(b.bs)}</div>`+
+    `<div class="forms">${b.forms.map(([lab,f])=>`<div class="${f?'':'na'}"><span class="f${f?' glyph':''}" lang="ar">${f||'–'}</span><small>${lab}</small></div>`).join('')}</div>`+
     (b.joins?'':`<div class="note">${esc(b.name)} never joins to the letter after it.</div>`)+`</div></div>`;
-  if(b.type==='rule')return `<div class="letter"><div class="big sign" lang="ar">${b.sign}</div><div><div class="nm">${esc(b.name)}</div><div class="bs">Bosnian name: ${esc(b.bs)}</div><p>${esc(b.short)}</p></div></div>`;
+  if(b.type==='rule')return `<div class="letter"><div class="big sign glyph" lang="ar">${b.sign}</div><div><div class="nm">${esc(b.name)}</div><div class="bs">Bosnian name: ${esc(b.bs)}</div><p>${esc(b.short)}</p></div></div>`;
   if(b.type==='tip')return `<div class="tipbox">👂 ${b.html}</div>`;
-  if(b.type==='harakat')return `<div class="hk">${b.items.map(([a,t],k)=>`<div><span class="ar" lang="ar">${a}</span><b>${esc(t)}</b><small>${['fatha','kasra','damma'][k]}</small></div>`).join('')}</div>`;
+  if(b.type==='harakat')return `<div class="hk">${b.items.map(([a,t],k)=>`<div><span class="ar glyph" lang="ar">${a}</span><b>${esc(t)}</b><small>${['fatha','kasra','damma'][k]}</small></div>`).join('')}</div>`;
   if(b.type==='words')return `<div class="words">${b.items.map(w=>`<button class="word" data-audio="${w.audio}" data-clip="${w.clip?w.clip.join(','):''}"><span class="ar" lang="ar">${w.ar}</span><b>${esc(w.tr)}</b><i>“${esc(w.en)}”</i><div class="ref">🔊 Qur’an ${esc(w.key)}</div></button>`).join('')}</div>`;
   if(b.type==='video')return `<a class="video" href="https://www.youtube.com/watch?v=${b.id}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/${b.id}/mqdefault.jpg" alt="" loading="lazy"><span><b>▶ ${esc(b.title)}</b>${esc(b.note)}</span></a>`;
   if(b.type==='point')return `<div class="point"><b class="t">${esc(b.title)}</b><div>${b.html}</div>${b.quran?quran(b.quran):''}</div>`;
@@ -181,7 +181,7 @@ function sort(a,el,finish){let n=0,score=0,items=[];
       const fb=el.querySelector('.fb');fb.className='fb '+(ok?'ok':'bad');fb.textContent=ok?'✓ Correct!':'✗ It is '+a.bins[items[n].bin]+'.';setTimeout(()=>{n++;show()},ok?800:1600)})}
   start()}
 function find(a,el,finish){const need=a.cells.filter(c=>c===a.target).length;let got=0;
-  el.innerHTML=`<div class="grid">${a.cells.map((c,k)=>`<button class="cell" data-k="${k}" lang="ar">${c}</button>`).join('')}</div><div class="fb"></div>`;const fb=el.querySelector('.fb');
+  el.innerHTML=`<div class="grid">${a.cells.map((c,k)=>`<button class="cell glyph" data-k="${k}" lang="ar">${c}</button>`).join('')}</div><div class="fb"></div>`;const fb=el.querySelector('.fb');
   el.querySelectorAll('.cell').forEach(b=>b.onclick=()=>{if(b.classList.contains('ok'))return;if(a.cells[+b.dataset.k]===a.target){b.classList.add('ok');got++;fb.className='fb ok';
     fb.textContent=got===need?'🌟 You found all of them!':'✓ Found '+got+' of '+need;if(got===need)finish()}else{b.classList.remove('bad');void b.offsetWidth;b.classList.add('bad');fb.className='fb bad';fb.textContent='That is a different letter – look again!'}})}
 function reflect(a,el){el.innerHTML=(a.img?`<img class="reflect-pic" src="${IMG(a.img)}" alt="" loading="lazy">`:'')+`<ul class="reflect">${a.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`}
@@ -195,5 +195,18 @@ $('source').textContent=L.footer||('Adapted into English from '+L.source+', page
 $('nav').innerHTML=(L.prev?`<a href="../${L.prev.id}/">◀ ${esc(L.prev.title)}</a>`:'<span></span>')+(L.next?`<a href="../${L.next.id}/">${esc(L.next.title)} ▶</a>`:'<span></span>');
 document.getElementById('share').onclick=e=>copyLink(L.book==='sufara'?`sufara/${L.id}/`:`lessons/${L.book}/${L.id}/`,e.currentTarget);
 stars();
+/* ---------- Arabic letters: centre each glyph's drawn shape in its box (Amiri Quran sits letters on a baseline,
+   so tails like ج ع م hang far below and tall letters float high) ---------- */
+function glyphs(root){const c=glyphs.c||(glyphs.c=document.createElement('canvas').getContext('2d'));
+  (root||document).querySelectorAll('.glyph').forEach(el=>{let s=el.firstElementChild;
+    if(!s||!s.classList.contains('gi')){s=document.createElement('span');s.className='gi';s.textContent=el.textContent;el.textContent='';el.append(s)}
+    const cs=getComputedStyle(s),fs=parseFloat(cs.fontSize);c.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;c.direction='rtl';c.textAlign='left';
+    const m=c.measureText(s.textContent),base=(fs-(m.fontBoundingBoxAscent+m.fontBoundingBoxDescent))/2+m.fontBoundingBoxAscent;
+    s.style.left='calc(50% - '+(m.actualBoundingBoxRight-m.actualBoundingBoxLeft)/2+'px)';
+    s.style.top='calc(50% - '+(base-(m.actualBoundingBoxAscent-m.actualBoundingBoxDescent)/2)+'px)';
+    const iw=m.actualBoundingBoxRight+m.actualBoundingBoxLeft+16;if(getComputedStyle(el).display==='inline-block')el.style.width=iw+'px';else el.style.minWidth=iw+'px'})}
+glyphs();if(document.fonts){document.fonts.ready.then(()=>glyphs());document.fonts.addEventListener('loadingdone',()=>glyphs())}
+addEventListener('resize',()=>glyphs());
+new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes)if(n.nodeType===1&&!n.classList.contains('gi')&&(n.matches('.glyph')||n.querySelector('.glyph')))glyphs(n.parentNode||n)}).observe(document.body,{childList:true,subtree:true});
 window.LESSON={L,done:()=>({...done})};
 </script></main></body></html>
