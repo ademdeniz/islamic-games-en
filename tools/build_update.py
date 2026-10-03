@@ -8,8 +8,11 @@ data/updates/<date>.json:
    "homework": {"g1": ["..."], "g2": ["..."]},  # plain text, one line per task
    "note": ""}                                  # optional message at the top
 
-  python3 tools/build_update.py 2026-09-27      # one week
-  python3 tools/build_update.py                 # every week that has a data file
+  python3 tools/build_update.py 2026-09-27      # one week (also to rebuild one on purpose)
+  python3 tools/build_update.py                 # every week that has a data file but no page yet
+
+Updates already sent to parents are not rebuilt unless you name them: later changes to the plan (new games, new
+lessons) must not quietly change what an old update said.
 """
 import datetime as dt
 import glob
@@ -108,7 +111,8 @@ def build_index():
 TEMPLATE = open(os.path.join(ROOT, 'tools', 'templates', 'update.html'), encoding='utf-8').read()
 
 if __name__ == '__main__':
-    days = sys.argv[1:] or sorted(os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, 'data', 'updates', '*.json')))
+    days = sys.argv[1:] or [d for d in sorted(os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, 'data', 'updates', '*.json')))
+                            if not os.path.exists(os.path.join(ROOT, 'updates', d, 'index.html'))]
     for d in days:
         print('built', os.path.relpath(build(d), ROOT))
     build_index()

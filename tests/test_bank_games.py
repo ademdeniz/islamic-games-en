@@ -1,4 +1,4 @@
-"""The shared Ilmihal question bank and the games for two or more players built on it.
+"""The shared Ilmihal question bank and the games built on it (play-together and solo).
 
 Each game is played for real in a browser: start it, answer the question on screen correctly and check the score
 goes up – so the English questions, their answers and the right-answer index still line up."""
@@ -25,8 +25,9 @@ for _e in BANK:
 
 # ---------------------------------------------------------------- the bank
 def test_bank_is_complete_and_english():
-    assert len(BANK) == 1568
-    assert collections.Counter(e['l'] for e in BANK) == {'A1': 163, 'A2': 233, 'A3': 321, 'B1': 451, 'B2': 308, 'B3': 92}
+    main = [e for e in BANK if not e.get('extra')]
+    assert len(main) == 1568 and len(BANK) == 1568 + 89   # + the Aquarium's 89 older B1 questions
+    assert collections.Counter(e['l'] for e in main) == {'A1': 163, 'A2': 233, 'A3': 321, 'B1': 451, 'B2': 308, 'B3': 92}
     for e in BANK:
         assert 0 <= e['c'] < 4 and len(e['en']['a']) == len(set(e['en']['a'])) == 4, e['en']
         text = ' '.join([e['en']['q']] + e['en']['a'])
@@ -44,13 +45,26 @@ def test_same_bosnian_text_has_one_english_text():
 
 
 # ---------------------------------------------------------------- the games, played
-GAMES = {   # game: (start, question, answers, check after one right answer)
-    'mektebski-fudbal': ('#start', '#question', '#answers button', ('#s1', '1')),
-    'mektebsko-povlacenje-konopa': ('#begin', '#question', '#answers button', ('#s1', 'Player 1: 1')),
-    'mektebski-milioner': ('#start', '#question', '#answers button', ('#score0', '100')),
-    'mektebski-turnir': ('#start', '#question', '#answers button', ('#result', 'Correct')),
-    'mektebsko-kolo-srece': ('#spin', '#question', '#answers button', ('#score0', '10')),
-    'mektebski-covjece-ne-ljuti-se': ('#start', '#question', '#answers button', ('#notice', 'Correct')),
+GAMES = {   # game: (clicks to start, question, answers, (element, text it shows after one right answer))
+    'mektebski-fudbal': (['#start'], '#question', '#answers button', ('#s1', '1')),
+    'mektebsko-povlacenje-konopa': (['#begin'], '#question', '#answers button', ('#s1', 'Player 1: 1')),
+    'mektebski-milioner': (['#start'], '#question', '#answers button', ('#score0', '100')),
+    'mektebski-turnir': (['#start'], '#question', '#answers button', ('#result', 'Correct')),
+    'mektebsko-kolo-srece': (['#spin'], '#question', '#answers button', ('#score0', '10')),
+    'mektebski-covjece-ne-ljuti-se': (['#start', '#roll'], '#question', '#answers button', ('#notice', 'Correct')),
+    # solo
+    'balon-znanja': (['#start'], '#question', '#answers button', ('#score', '10 points')),
+    'dnevni-mektebski-izazov': (['#begin'], '#question', '#answers button', ('#feedback', 'Correct')),
+    'labirint-ilmihala': (['#start', '.tile.next:not([disabled])'], '#question', '#answers button', ('#feedback', 'Correct')),
+    'mektebski-safari': (['#start'], '#question', '#answers button', ('#feedback', 'Correct')),
+    'moj-mektebski-vrt': ([], '#question', '#answers button', ('#message', 'Correct')),
+    'mektebski-akvarij': (['#start'], '#question', '#answers button', ('#message', 'Well done')),
+    'tajna-sifra': ([], '#question', '#answers button', ('#msg', 'Correct')),
+    'pogodi-sliku': (['#start'], '#question', '#options button', ('#feedback', 'Correct')),
+    'mektebsko-putovanje': ([], '#question', '#answers button', ('#status', '✅')),
+    'mektebska-akademija': (['[data-m="0"]'], '#question', '#answers button', ('#feedback', 'Correct')),
+    'izgradi-svoju-dzamiju': ([], '#question', '#answers button', ('#message', 'Correct')),
+    'pcelinja-akademija': (['#startBtn'], '#question', '#answers button', ('#status', 'Correct')),
 }
 
 
@@ -67,16 +81,14 @@ def page(browser):
 
 @pytest.mark.parametrize('name', GAMES)
 def test_game_plays_in_english_and_counts_right_answers(page, name):
-    game = name
-    start, question, answers, (where, expect) = GAMES[game]
-    page.goto('file://' + os.path.join(gc.ROOT, 'games', game, 'index.html'))
-    page.click(start)
-    if game == 'mektebski-covjece-ne-ljuti-se':
-        page.click('#roll')
+    clicks, question, answers, (where, expect) = GAMES[name]
+    page.goto('file://' + os.path.join(gc.ROOT, 'games', name, 'index.html'))
+    for c in clicks:
+        page.locator(c).first.click()
     page.wait_for_function(f"document.querySelectorAll('{answers}').length === 4", timeout=8000)
-    q = page.inner_text(question).strip()
+    q = re.sub(r'^\[[AB][1-3]\] ', '', page.inner_text(question).strip())
     assert q in RIGHT, f'question on screen is not an English bank question: {q!r}'
-    texts = [re.sub(r'^[A-D]\) ', '', t.strip()) for t in page.eval_on_selector_all(answers, 'bs => bs.map(b => b.textContent)')]
+    texts = [re.sub(r'^[A-D][.)] ', '', t.strip()) for t in page.eval_on_selector_all(answers, 'bs => bs.map(b => b.textContent)')]
     right = [i for i, t in enumerate(texts) if t in RIGHT[q]]
     assert len(right) == 1, (q, texts)
     page.locator(answers).nth(right[0]).click()

@@ -1,6 +1,6 @@
 # Islamic Learning Games (English)
 
-English versions of 48 maktab learning games (Qur’an, Salah, Iman, Ilmihal) for the Bosnian Islamic Community of Erie,
+English versions of 60 maktab learning games (Qur’an, Salah, Iman, Ilmihal) for the Bosnian Islamic Community of Erie,
 translated from the Bosnian originals at github.com/rekicabdo-bihac.
 
 - `index.html` – home page listing the games (level filter, search, “Copy link” for homework)
@@ -20,7 +20,9 @@ Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz
 
 Shared Ilmihal question bank: `tools/tr/ilmihal-bank.json` – Abdo ef. Rekić’s 1,568 questions (A1–B3) with their English,
 used by the newer games through `tools/tr/_ilmihal_bank.py`. The play-together games (Football, Tug of War, Millionaire for Two,
-Wheel of Fortune, Board Game – Don’t Get Angry!, Tournament) all use it; `tests/test_multiplayer.py` plays each one.
+Wheel of Fortune, Board Game – Don’t Get Angry!, Tournament) and the twelve play-alone games (Maktab Academy, Daily Challenge,
+Journey, Maze, Balloon, Safari, Garden, Aquarium, Secret Code, Hidden Picture, Build Your Mosque, Bee Academy) all use it;
+`tests/test_bank_games.py` plays each one. (Local name `moj-mektebski-vrt` = repo `moj-mektebski-vrt1`.)
 Also: `plan/` (year plan for parents, `tools/build_plan.py`), `updates/` (weekly updates, `tools/build_update.py`),
 `duty/` (Sunday pizza & parent duty, `tools/build_duty.py`).
 

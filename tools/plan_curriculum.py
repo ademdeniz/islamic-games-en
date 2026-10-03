@@ -50,7 +50,20 @@ GAMES = {
     'mektebsko-kolo-srece': ('Maktab Wheel of Fortune (2 players)', {'together'}),
     'mektebski-covjece-ne-ljuti-se': ('Maktab Board Game – Don’t Get Angry! (2–4 players)', {'together'}),
     'mektebski-turnir': ('Maktab Tournament (4 players)', {'together'}),
+    'mektebska-akademija': ('Maktab Academy', {'solo'}), 'dnevni-mektebski-izazov': ('Daily Maktab Challenge', {'solo'}),
+    'mektebsko-putovanje': ('Maktab Journey', {'solo'}), 'labirint-ilmihala': ('Ilmihal Maze', {'solo'}),
+    'balon-znanja': ('Knowledge Balloon', {'solo'}), 'mektebski-safari': ('Maktab Safari', {'solo'}),
+    'moj-mektebski-vrt': ('My Maktab Garden', {'solo'}), 'mektebski-akvarij': ('Maktab Aquarium', {'solo'}),
+    'tajna-sifra': ('Secret Maktab Code', {'solo'}), 'pogodi-sliku': ('Reveal the Hidden Picture', {'solo'}),
+    'izgradi-svoju-dzamiju': ('Build Your Mosque (A1)', {'solo'}), 'pcelinja-akademija': ('Bee Academy (A1–A2)', {'solo'}),
 }
+# play alone at home (the shared Ilmihal bank) – one a week for each group, all year; the A-level ones only for Group 2
+SOLO = {1: ['izgradi-svoju-dzamiju', 'moj-mektebski-vrt', 'pcelinja-akademija', 'mektebski-safari', 'balon-znanja', 'mektebski-akvarij',
+            'tajna-sifra', 'pogodi-sliku', 'labirint-ilmihala', 'dnevni-mektebski-izazov', 'mektebsko-putovanje', 'mektebska-akademija'],
+        2: ['mektebska-akademija', 'dnevni-mektebski-izazov', 'mektebsko-putovanje', 'labirint-ilmihala', 'balon-znanja', 'mektebski-safari',
+            'moj-mektebski-vrt', 'mektebski-akvarij', 'tajna-sifra', 'pogodi-sliku']}
+SOLO[3] = SOLO[2]
+
 TOGETHER = ['mektebski-fudbal', 'mektebsko-povlacenje-konopa', 'mektebski-milioner', 'mektebsko-kolo-srece',
             'mektebski-covjece-ne-ljuti-se', 'mektebski-turnir']
 

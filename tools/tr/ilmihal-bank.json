@@ -34494,5 +34494,2052 @@
 "Travelling"
 ]
 }
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ukupno ima dinskih šarta?",
+"a": [
+"33",
+"11",
+"17",
+"25"
+]
+},
+"en": {
+"q": "How many conditions of the religion are there in total?",
+"a": [
+"33",
+"11",
+"17",
+"25"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ima imanskih šarta?",
+"a": [
+"6",
+"5",
+"7",
+"12"
+]
+},
+"en": {
+"q": "How many pillars of Iman (faith) are there?",
+"a": [
+"6",
+"5",
+"7",
+"12"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ima islamskih šarta?",
+"a": [
+"5",
+"4",
+"6",
+"10"
+]
+},
+"en": {
+"q": "How many pillars of Islam are there?",
+"a": [
+"5",
+"4",
+"6",
+"10"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ima namaskih šarta?",
+"a": [
+"12",
+"6",
+"7",
+"8"
+]
+},
+"en": {
+"q": "How many conditions of Salah are there?",
+"a": [
+"12",
+"6",
+"7",
+"8"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ima abdesnih farzova?",
+"a": [
+"4",
+"3",
+"5",
+"6"
+]
+},
+"en": {
+"q": "How many fard parts of Wudu are there?",
+"a": [
+"4",
+"3",
+"5",
+"6"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ima gusulskih šarta?",
+"a": [
+"3",
+"2",
+"4",
+"5"
+]
+},
+"en": {
+"q": "How many conditions (fards) of Ghusl are there?",
+"a": [
+"3",
+"2",
+"4",
+"5"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko ima tejemumskih šarta?",
+"a": [
+"3",
+"2",
+"4",
+"6"
+]
+},
+"en": {
+"q": "How many conditions (fards) of Tayammum are there?",
+"a": [
+"3",
+"2",
+"4",
+"6"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta znači riječ 'din'?",
+"a": [
+"Vjera",
+"Namaz",
+"Čistoća",
+"Dova"
+]
+},
+"en": {
+"q": "What does the word “din” mean?",
+"a": [
+"Religion (faith)",
+"Salah",
+"Cleanliness",
+"Dua"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta znači riječ 'šart'?",
+"a": [
+"Uvjet",
+"Nagrada",
+"Kazna",
+"Put"
+]
+},
+"en": {
+"q": "What does the word “shart” mean?",
+"a": [
+"A condition",
+"A reward",
+"A punishment",
+"A path"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koji je prvi imanski šart?",
+"a": [
+"Amentu billahi",
+"Ve kutubihi",
+"Ve rusulihi",
+"Vel jevmil ahiri"
+]
+},
+"en": {
+"q": "What is the first pillar of Iman?",
+"a": [
+"Amantu billahi",
+"Wa kutubihi",
+"Wa rusulihi",
+"Wal-yawmil akhiri"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "U koga vjerujemo riječima 'Ve melaiketihi'?",
+"a": [
+"U meleke",
+"U poslanike",
+"U knjige",
+"U Sudnji dan"
+]
+},
+"en": {
+"q": "Who do we believe in with the words “Wa mala’ikatihi”?",
+"a": [
+"In the angels",
+"In the messengers",
+"In the books",
+"In the Day of Judgement"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta znači 'Ve kutubihi'?",
+"a": [
+"Vjerujem u Allahove knjige",
+"Vjerujem u meleke",
+"Vjerujem u poslanike",
+"Vjerujem u kader"
+]
+},
+"en": {
+"q": "What does “Wa kutubihi” mean?",
+"a": [
+"I believe in Allah’s books (kutub)",
+"I believe in the angels",
+"I believe in the messengers",
+"I believe in qadar"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta znači 'Ve rusulihi'?",
+"a": [
+"Vjerujem u Allahove poslanike",
+"Vjerujem u meleke",
+"Vjerujem u knjige",
+"Vjerujem u Džennet"
+]
+},
+"en": {
+"q": "What does “Wa rusulihi” mean?",
+"a": [
+"I believe in Allah’s messengers",
+"I believe in the angels",
+"I believe in the books",
+"I believe in Jannah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta znači 'Vel jevmil ahiri'?",
+"a": [
+"Vjerujem u Sudnji dan",
+"Vjerujem u kader",
+"Vjerujem u knjige",
+"Vjerujem u namaz"
+]
+},
+"en": {
+"q": "What does “Wal-yawmil akhiri” mean?",
+"a": [
+"I believe in the Day of Judgement",
+"I believe in qadar",
+"I believe in the books",
+"I believe in Salah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko osnovnih islamskih šarta ima?",
+"a": [
+"5",
+"4",
+"6",
+"7"
+]
+},
+"en": {
+"q": "How many basic pillars of Islam are there?",
+"a": [
+"5",
+"4",
+"6",
+"7"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je druga osnovna dužnost muslimana?",
+"a": [
+"Namaz",
+"Zekat",
+"Hadž",
+"Post"
+]
+},
+"en": {
+"q": "What is the second basic duty of a Muslim?",
+"a": [
+"Salah",
+"Zakah",
+"Hajj",
+"Fasting"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Na nebu je naređen koji ibadet?",
+"a": [
+"Namaz",
+"Post",
+"Zekat",
+"Tejemum"
+]
+},
+"en": {
+"q": "Which act of worship was commanded in the heavens?",
+"a": [
+"Salah",
+"Fasting",
+"Zakah",
+"Tayammum"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Za šta će ljudi prvo biti pitani na Sudnjem danu?",
+"a": [
+"Za namaz",
+"Za zekat",
+"Za hadž",
+"Za post"
+]
+},
+"en": {
+"q": "What will people be asked about first on the Day of Judgement?",
+"a": [
+"About Salah",
+"About Zakah",
+"About Hajj",
+"About fasting"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko priprema za namaz je navedeno u tekstu?",
+"a": [
+"6",
+"4",
+"5",
+"7"
+]
+},
+"en": {
+"q": "How many preparations for Salah does the text mention?",
+"a": [
+"6",
+"4",
+"5",
+"7"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Prema čemu se okrećemo u namazu?",
+"a": [
+"Prema Kibli",
+"Prema Medini",
+"Prema Mimberu",
+"Prema Istoku"
+]
+},
+"en": {
+"q": "Which way do we face in Salah?",
+"a": [
+"Towards the Qiblah",
+"Madinah",
+"Towards the minbar",
+"Towards the east"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je iftitahi tekbir?",
+"a": [
+"Početni tekbir u namazu",
+"Posljednje sjedenje",
+"Pregibanje u namazu",
+"Potiranje glave"
+]
+},
+"en": {
+"q": "What is the opening takbir (iftitah)?",
+"a": [
+"The first takbir of Salah",
+"The last sitting",
+"Bowing in Salah",
+"Wiping the head"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je kijam?",
+"a": [
+"Stajanje u namazu",
+"Sjedenje u namazu",
+"Pregibanje u namazu",
+"Predaja selama"
+]
+},
+"en": {
+"q": "What is qiyam?",
+"a": [
+"Standing in Salah",
+"Sitting in Salah",
+"Bowing in Salah",
+"Giving salam"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je kiraet?",
+"a": [
+"Pravilno učenje Kur'ana",
+"Potiranje mestvi",
+"Učenje dove nakon jela",
+"Poziv na namaz"
+]
+},
+"en": {
+"q": "What is qira’ah?",
+"a": [
+"Reciting the Qur’an properly",
+"Wiping over socks",
+"Reciting the du‘a after eating",
+"The call to prayer"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je ruku'?",
+"a": [
+"Pregibanje u namazu",
+"Sedžda",
+"Kijam",
+"Selam"
+]
+},
+"en": {
+"q": "What is ruku‘?",
+"a": [
+"Bowing in Salah",
+"Sajdah",
+"Qiyam",
+"Salam"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je sedžda?",
+"a": [
+"Spuštanje čela i nosa na tlo",
+"Stajanje u namazu",
+"Sjedenje nakon selama",
+"Učenje ezana"
+]
+},
+"en": {
+"q": "What is sajdah?",
+"a": [
+"Putting the forehead and nose on the ground",
+"Standing in Salah",
+"Sitting after salam",
+"Calling the Adhan"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je kade-i-ehire?",
+"a": [
+"Posljednje sjedenje u namazu",
+"Prva sedžda",
+"Početni tekbir",
+"Mesh po mestvama"
+]
+},
+"en": {
+"q": "What is the last sitting (qa‘dah akhirah)?",
+"a": [
+"The final sitting in Salah",
+"The first sajdah",
+"The opening takbir",
+"Wiping over socks"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je abdest?",
+"a": [
+"Vjersko pranje određenih dijelova tijela",
+"Potpuno kupanje tijela",
+"Samo pranje ruku",
+"Učenje dove prije namaza"
+]
+},
+"en": {
+"q": "What is Wudu?",
+"a": [
+"The religious washing of certain parts of the body",
+"Washing the whole body",
+"Only washing the hands",
+"Reciting a du‘a before Salah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Zbog čega se uzima abdest?",
+"a": [
+"Zbog namaza, učenja Kur'ana i tavafa",
+"Samo zbog jela",
+"Samo zbog putovanja",
+"Samo zbog posta"
+]
+},
+"en": {
+"q": "Why do we make Wudu?",
+"a": [
+"For Salah, reciting the Qur’an and tawaf",
+"Only for eating",
+"Only for travelling",
+"Only for fasting"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko su abdesnih farzova navedena?",
+"a": [
+"4",
+"3",
+"5",
+"6"
+]
+},
+"en": {
+"q": "How many fard parts of Wudu are mentioned?",
+"a": [
+"4",
+"3",
+"5",
+"6"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je mesh?",
+"a": [
+"Potiranje mokrom rukom",
+"Pranje nogu toplom vodom",
+"Suho kupanje",
+"Učenje ezana"
+]
+},
+"en": {
+"q": "What is mash?",
+"a": [
+"Wiping with a wet hand",
+"Washing the feet with warm water",
+"A dry bath",
+"Calling the Adhan"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko traje mesh po mestvama kod kuće?",
+"a": [
+"24 sata",
+"12 sati",
+"48 sati",
+"72 sata"
+]
+},
+"en": {
+"q": "How long does wiping over socks last at home?",
+"a": [
+"24 hours",
+"12 hours",
+"48 hours",
+"72 hours"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko traje mesh po mestvama na putu?",
+"a": [
+"72 sata",
+"24 sata",
+"36 sati",
+"48 sati"
+]
+},
+"en": {
+"q": "How long does wiping over socks last when travelling?",
+"a": [
+"72 hours",
+"24 hours",
+"36 hours",
+"48 hours"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta kvari mesh po mestvama?",
+"a": [
+"Skidanje mestvi ili istek vremena",
+"Učenje dove",
+"Jedenje",
+"Tiho smijanje"
+]
+},
+"en": {
+"q": "What breaks mash over mests?",
+"a": [
+"Taking the socks off or the time running out",
+"Making du‘a",
+"Eating",
+"Laughing quietly"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kakva odjeća treba biti u namazu?",
+"a": [
+"Čista, uredna, komotna i lijepa",
+"Tijesna i providna",
+"Bilo kakva",
+"Prljava ali nova"
+]
+},
+"en": {
+"q": "What should our clothes be like in Salah?",
+"a": [
+"Clean, tidy, comfortable and nice",
+"Tight and see-through",
+"Any kind",
+"Dirty but new"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kada se ne može klanjati namaz?",
+"a": [
+"Kada Sunce izlazi, zalazi i na sredini neba",
+"Samo noću",
+"Samo petkom",
+"Samo po kiši"
+]
+},
+"en": {
+"q": "When may we not pray Salah?",
+"a": [
+"When the sun is rising, setting or at its highest",
+"Only at night",
+"Only on Fridays",
+"Only in the rain"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Ko oglašava početak namaskog vremena?",
+"a": [
+"Mujezin",
+"Imam",
+"Hatib",
+"Muktedija"
+]
+},
+"en": {
+"q": "Who announces the start of a prayer time?",
+"a": [
+"The muezzin",
+"The imam",
+"The khatib",
+"A follower"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je ikamet?",
+"a": [
+"Učenje prije farz-namaza",
+"Dova poslije jela",
+"Naziv za vitr",
+"Vrsta tejemuma"
+]
+},
+"en": {
+"q": "What is the iqamah?",
+"a": [
+"What is said just before a fard prayer",
+"A dua after eating",
+"Another name for Witr",
+"A kind of Tayammum"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je Kibla?",
+"a": [
+"Smjer prema kojem se okrećemo u namazu",
+"Prva sura u Kur'anu",
+"Naziv za abdest",
+"Mjesto u Medini"
+]
+},
+"en": {
+"q": "What is the Qiblah?",
+"a": [
+"The direction we face in Salah",
+"The first surah of the Qur’an",
+"Another name for Wudu",
+"A place in Madinah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Gdje se nalazi Kaba?",
+"a": [
+"U Mekki",
+"U Medini",
+"U Kudsu",
+"U Egiptu"
+]
+},
+"en": {
+"q": "Where is the Ka‘bah?",
+"a": [
+"In Makkah",
+"In Madinah",
+"In Jerusalem",
+"In Egypt"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Ko je izgradio Kabu prema tekstu?",
+"a": [
+"Ibrahim a.s. sa Ismailom a.s.",
+"Muhammed a.s. sa Alijom",
+"Musa a.s.",
+"Nuh a.s."
+]
+},
+"en": {
+"q": "According to the text, who built the Ka‘bah?",
+"a": [
+"Ibrahim (AS) with Isma‘il (AS)",
+"Muhammad (SAW) with ‘Ali",
+"Musa (AS)",
+"Nuh (AS)"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kojom nogom se ulazi u kupatilo?",
+"a": [
+"Lijevom",
+"Desnom",
+"Bilo kojom",
+"Obje zajedno"
+]
+},
+"en": {
+"q": "Which foot do we enter the bathroom with?",
+"a": [
+"The left",
+"The right",
+"Either one",
+"Both together"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kojom nogom se izlazi iz kupatila?",
+"a": [
+"Desnom",
+"Lijevom",
+"Obje zajedno",
+"Nije bitno"
+]
+},
+"en": {
+"q": "Which foot do we leave the bathroom with?",
+"a": [
+"The right",
+"The left",
+"Both together",
+"It doesn’t matter"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko gusulskih farzova je navedeno?",
+"a": [
+"3",
+"2",
+"4",
+"5"
+]
+},
+"en": {
+"q": "How many fard parts of Ghusl are mentioned?",
+"a": [
+"3",
+"2",
+"4",
+"5"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je jedan od gusulskih šarta?",
+"a": [
+"Oprati cijelo tijelo da nigdje ne ostane suho",
+"Samo oprati lice",
+"Samo oprati noge",
+"Samo potrati glavu"
+]
+},
+"en": {
+"q": "What is one of the conditions of Ghusl?",
+"a": [
+"Washing the whole body so that no part stays dry",
+"Only washing the face",
+"Only washing the feet",
+"Only wiping the head"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je prvi tejemumski šart?",
+"a": [
+"Nijet",
+"Ispiranje nosa",
+"Pranje nogu",
+"Učenje ikameta"
+]
+},
+"en": {
+"q": "What is the first fard part of Tayammum?",
+"a": [
+"Niyyah",
+"Rinsing the nose",
+"Washing the feet",
+"Calling the Iqamah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Na šta se uzima tejemum?",
+"a": [
+"Na suhu zemlju ili predmet od zemlje",
+"Na vodu",
+"Na odjeću",
+"Na drvo obavezno"
+]
+},
+"en": {
+"q": "What do we make Tayammum on?",
+"a": [
+"Dry earth or something made of earth",
+"Water",
+"Clothes",
+"Wood only"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koji je mubarek dan 12. rebiu-l-evvela?",
+"a": [
+"Mevlud",
+"Lejletul-kadr",
+"Arefat",
+"Ramazanski bajram"
+]
+},
+"en": {
+"q": "Which blessed day is the 12th of Rabi‘ al-Awwal?",
+"a": [
+"Mawlid",
+"Laylat al-Qadr",
+"Arafat",
+"Eid al-Fitr"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kada se uči tekbir-tešrik?",
+"a": [
+"Od sabaha na Arefatu do ikindije četvrtog dana Kurban-bajrama",
+"Samo petkom",
+"Samo pred akšam",
+"Tokom cijelog ramazana"
+]
+},
+"en": {
+"q": "When is the Takbir at-Tashriq said?",
+"a": [
+"From Fajr on the Day of Arafah until Asr on the fourth day of Eid al-Adha",
+"Only on Fridays",
+"Only before Maghrib",
+"All through Ramadan"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko hidžretskih mjeseci ima?",
+"a": [
+"12",
+"10",
+"11",
+"13"
+]
+},
+"en": {
+"q": "How many months does the Hijri year have?",
+"a": [
+"12",
+"10",
+"11",
+"13"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je mevlud?",
+"a": [
+"Dan radosti zbog rođenja Muhammeda a.s.",
+"Dan posta",
+"Mjesečna sadaka",
+"Vrsta namaza"
+]
+},
+"en": {
+"q": "What is Mawlid?",
+"a": [
+"A day of joy for the birth of Muhammad (SAW)",
+"A day of fasting",
+"A monthly sadaqah",
+"A kind of Salah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koji su dnevni namazi?",
+"a": [
+"Sabah, podne, ikindija, akšam i jacija",
+"Sabah, džuma, vitr, teravih i bajram",
+"Akšam, vitr i dženaza",
+"Podne, teravih, džuma i vitr"
+]
+},
+"en": {
+"q": "Which are the daily prayers?",
+"a": [
+"Fajr, Dhuhr, Asr, Maghrib and Isha",
+"Fajr, Jumu‘ah, Witr, Tarawih and Eid",
+"Maghrib, Witr and Janazah",
+"Dhuhr, Tarawih, Jumu‘ah and Witr"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta kvari namaz?",
+"a": [
+"Gubitak abdesta",
+"Tiho disanje",
+"Gledanje u mjesto sedžde",
+"Učenje Fatihe"
+]
+},
+"en": {
+"q": "What breaks Salah?",
+"a": [
+"Losing Wudu",
+"Breathing quietly",
+"Looking at the place of sajdah",
+"Reciting Al-Fatihah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je halal?",
+"a": [
+"Sve što je Allah dozvolio",
+"Sve što ljudi vole",
+"Samo meso",
+"Sve što je staro"
+]
+},
+"en": {
+"q": "What is halal?",
+"a": [
+"Everything Allah has allowed",
+"Everything people like",
+"Only meat",
+"Everything that is old"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je haram?",
+"a": [
+"Sve što je Allah strogo zabranio",
+"Samo ono što je teško",
+"Samo ono što je skupo",
+"Sve što je nepoznato"
+]
+},
+"en": {
+"q": "What is haram?",
+"a": [
+"Everything Allah has strictly forbidden",
+"Only what is difficult",
+"Only what is expensive",
+"Everything that is unknown"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja je zabranjena hrana navedena u tekstu?",
+"a": [
+"Svinjsko meso",
+"Riba",
+"Med",
+"Mlijeko"
+]
+},
+"en": {
+"q": "Which forbidden food does the text mention?",
+"a": [
+"Pork",
+"Fish",
+"Honey",
+"Milk"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kojom rukom je sunnet jesti?",
+"a": [
+"Desnom rukom",
+"Lijevom rukom",
+"Objema rukama",
+"Nije bitno"
+]
+},
+"en": {
+"q": "With which hand is it Sunnah to eat?",
+"a": [
+"With the right hand",
+"With the left hand",
+"Both hands",
+"It doesn’t matter"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta su mali grijesi?",
+"a": [
+"Grijesi za koje nije predviđena šerijatska kazna ni otvorena prijetnja Džehennemom",
+"Grijesi koji izvode iz vjere",
+"Samo grijesi djece",
+"Samo zaborav u namazu"
+]
+},
+"en": {
+"q": "What are minor sins?",
+"a": [
+"Sins with no set punishment and no open warning of Jahannam",
+"Sins that take a person out of the religion",
+"Only children’s sins",
+"Only forgetting in Salah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta su veliki grijesi?",
+"a": [
+"Grijesi koje je Allah strogo zabranio i za njih slijedi kazna",
+"Samo zaborav u jelu",
+"Samo greške u učenju",
+"Samo sitne svađe"
+]
+},
+"en": {
+"q": "What are major sins?",
+"a": [
+"Sins Allah has strictly forbidden, which bring a punishment",
+"Only forgetting while eating",
+"Only mistakes in reciting",
+"Only small arguments"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta su teški grijesi?",
+"a": [
+"Grijesi koji izvode počinioca iz vjere",
+"Mali grijesi u samoći",
+"Sve greške u namazu",
+"Samo zaboravljanje dove"
+]
+},
+"en": {
+"q": "What are grave sins?",
+"a": [
+"Sins that take a person out of the religion",
+"Small sins done alone",
+"All mistakes in Salah",
+"Only forgetting a du‘a"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je tevba?",
+"a": [
+"Pokajanje za učinjeni grijeh",
+"Vrsta abdesta",
+"Vrsta sadake",
+"Putovanje na hadž"
+]
+},
+"en": {
+"q": "What is tawbah?",
+"a": [
+"Repenting for a sin you have done",
+"A kind of Wudu",
+"A kind of sadaqah (charity)",
+"The journey for Hajj"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Ko je musafir?",
+"a": [
+"Putnik koji krene najmanje 80 km od mjesta stanovanja",
+"Svaki vozač",
+"Svako ko ide u džamiju",
+"Svaki učenik"
+]
+},
+"en": {
+"q": "Who is a musafir?",
+"a": [
+"A traveller who goes at least 80 km from home",
+"Every driver",
+"Anyone who goes to the mosque",
+"Every student"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kako musafir klanja četverorekatne farzove?",
+"a": [
+"Skraćuje ih na dva rekata",
+"Produžava na šest",
+"Klanja samo jedan",
+"Ne klanja ih"
+]
+},
+"en": {
+"q": "How does a musafir pray the four-rak‘ah fard prayers?",
+"a": [
+"Shortens them to two rak‘ahs",
+"He makes them six",
+"He prays only one",
+"Does not pray them"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koje namaze musafir ne skraćuje?",
+"a": [
+"Sabahski i akšamski farz, te vitr",
+"Samo podne",
+"Samo jaciju",
+"Sve skraćuje"
+]
+},
+"en": {
+"q": "Which prayers does a musafir not shorten?",
+"a": [
+"The Fajr and Maghrib fard, and Witr",
+"Only Dhuhr",
+"Only Isha",
+"He shortens them all"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kako bolesnik može klanjati ako ne može stojeći?",
+"a": [
+"Ležeći ili išaretom",
+"Nikako",
+"Samo sjedeći na podu bez namjere",
+"Samo u džamiji"
+]
+},
+"en": {
+"q": "How can a sick person pray if they cannot stand?",
+"a": [
+"Lying down or with signs of the head",
+"Not at all",
+"Only sitting on the floor without intention",
+"Only in the mosque"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja je noć 27. ramazana?",
+"a": [
+"Lejletu-l-kadr",
+"Lejletu-l-berat",
+"Lejletu-r-regaib",
+"Lejletu-l-mi'radž"
+]
+},
+"en": {
+"q": "Which night is the 27th of Ramadan?",
+"a": [
+"Laylat al-Qadr",
+"Laylat al-Bara’ah",
+"Laylat ar-Ragha’ib",
+"Laylat al-Mi‘raj"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja je noć 27. redžeba?",
+"a": [
+"Lejletu-l-mi'radž",
+"Lejletu-l-kadr",
+"Lejletu-l-berat",
+"Mevlud"
+]
+},
+"en": {
+"q": "Which night is the 27th of Rajab?",
+"a": [
+"Laylat al-Mi‘raj",
+"Laylat al-Qadr",
+"Laylat al-Bara’ah",
+"Mawlid"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je duha namaz?",
+"a": [
+"Nafila namaz koji se klanja do podne namaza",
+"Obavezni noćni namaz",
+"Bajram namaz",
+"Namaz za kišu"
+]
+},
+"en": {
+"q": "What is the Duha prayer?",
+"a": [
+"A nafl prayer prayed before Dhuhr",
+"A compulsory night prayer",
+"An Eid prayer",
+"The prayer for rain"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je istihara namaz?",
+"a": [
+"Namaz kada hoćemo donijeti važnu odluku",
+"Namaz za kišu",
+"Namaz pri ulasku u džamiju",
+"Dženaza namaz"
+]
+},
+"en": {
+"q": "What is the Istikharah prayer?",
+"a": [
+"The prayer when we must make an important decision",
+"The prayer for rain",
+"The prayer on entering the mosque",
+"The funeral prayer"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta znači sidk kod poslanika?",
+"a": [
+"Uvijek su govorili istinu",
+"Da su bili bogati",
+"Da su bili ratnici",
+"Da su bili bez djece"
+]
+},
+"en": {
+"q": "What does sidq mean for the prophets?",
+"a": [
+"They always spoke the truth",
+"That they were rich",
+"That they were warriors",
+"That they had no children"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je mudžiza?",
+"a": [
+"Natprirodna pojava kao dokaz poslanstva",
+"Obična navika",
+"Pravilo abdesta",
+"Vrsta zekata"
+]
+},
+"en": {
+"q": "What is a mu‘jizah?",
+"a": [
+"A miracle given as proof of prophethood",
+"An ordinary habit",
+"A rule of Wudu",
+"A kind of Zakah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kada se dogodio Isra i Mi'radž prema tekstu?",
+"a": [
+"27. redžeba 621. godine",
+"12. rebiu-l-evvela 571.",
+"1. muharrema 622.",
+"27. ramazana 610."
+]
+},
+"en": {
+"q": "According to the text, when did the Isra and Mi‘raj happen?",
+"a": [
+"27th of Rajab, 621",
+"12th of Rabi‘ al-Awwal, 571",
+"1st of Muharram, 622",
+"27th of Ramadan, 610"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je Isra?",
+"a": [
+"Putovanje iz Meke do Jerusalema",
+"Putovanje iz Medine do Meke",
+"Boravak na Arefatu",
+"Seoba u Abesiniju"
+]
+},
+"en": {
+"q": "What is the Isra?",
+"a": [
+"The journey from Makkah to Jerusalem",
+"The journey from Madinah to Makkah",
+"Staying at Arafat",
+"The migration to Abyssinia"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Šta je Mi'radž?",
+"a": [
+"Putovanje iz Jerusalema u nebeske sfere",
+"Putovanje u Medinu",
+"Boravak u pećini Hira",
+"Silazak Objave u pećini"
+]
+},
+"en": {
+"q": "What is the Mi‘raj?",
+"a": [
+"The journey from Jerusalem up through the heavens",
+"The journey to Madinah",
+"Staying in the cave of Hira",
+"The revelation coming down in the cave"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kada je rođen Muhammed a.s. prema tekstu?",
+"a": [
+"12. rebiu-l-evvela 571. godine",
+"27. redžeba 621.",
+"1. muharrema 622.",
+"10. zu-l-hidžeta 632."
+]
+},
+"en": {
+"q": "According to the text, when was Muhammad (SAW) born?",
+"a": [
+"12th of Rabi‘ al-Awwal, 571",
+"27th of Rajab, 621",
+"1st of Muharram, 622",
+"10th of Dhul-Hijjah, 632"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kako se zvao otac Muhammeda a.s.?",
+"a": [
+"Abdullah",
+"Ebu Talib",
+"Abdul-Muttalib",
+"Ibrahim"
+]
+},
+"en": {
+"q": "What was the name of Muhammad’s (SAW) father?",
+"a": [
+"Abdullah",
+"Abu Talib",
+"Abd al-Muttalib",
+"Ibrahim"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Kako se zvala majka Muhammeda a.s.?",
+"a": [
+"Amina",
+"Hatidža",
+"Aiša",
+"Halima"
+]
+},
+"en": {
+"q": "What was the name of Muhammad’s (SAW) mother?",
+"a": [
+"Aminah",
+"Khadijah",
+"Aishah",
+"Halimah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja je bila doilja Muhammeda a.s.?",
+"a": [
+"Halima",
+"Fatima",
+"Amina",
+"Aiša"
+]
+},
+"en": {
+"q": "Who was Muhammad’s (SAW) foster mother who nursed him?",
+"a": [
+"Halimah",
+"Fatimah",
+"Aminah",
+"Aishah"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koji je bio nadimak Muhammeda a.s. u mladosti?",
+"a": [
+"El-Emin",
+"El-Faruk",
+"Es-Sadik",
+"Zunnun"
+]
+},
+"en": {
+"q": "What was Muhammad’s (SAW) nickname when he was young?",
+"a": [
+"Al-Amin",
+"Al-Faruq",
+"As-Sadiq",
+"Dhun-Nun"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja je godina poznata kao godina slona?",
+"a": [
+"571. godina",
+"610. godina",
+"622. godina",
+"632. godina"
+]
+},
+"en": {
+"q": "Which year is known as the Year of the Elephant?",
+"a": [
+"571",
+"610",
+"622",
+"632"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja je sura prva u Kur'anu?",
+"a": [
+"Fatiha",
+"Ihlas",
+"Nas",
+"Kevser"
+]
+},
+"en": {
+"q": "Which is the first surah of the Qur’an?",
+"a": [
+"Al-Fatihah",
+"Al-Ikhlas",
+"An-Nas",
+"Al-Kawthar"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja sura počinje riječima 'Kul huvallahu ehad'?",
+"a": [
+"Ihlas",
+"Felek",
+"Nas",
+"Kafirun"
+]
+},
+"en": {
+"q": "Which surah begins with “Qul huwallahu ahad”?",
+"a": [
+"Al-Ikhlas",
+"Al-Falaq",
+"An-Nas",
+"Al-Kafirun"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja sura počinje riječima 'Kul euzu birabbin-nas'?",
+"a": [
+"Nas",
+"Felek",
+"Ihlas",
+"Fil"
+]
+},
+"en": {
+"q": "Which surah begins with “Qul a‘udhu bi-rabbin-nas”?",
+"a": [
+"An-Nas",
+"Al-Falaq",
+"Al-Ikhlas",
+"Al-Fil"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koja sura počinje riječima 'Kul euzu birabbil-felek'?",
+"a": [
+"Felek",
+"Nas",
+"Ihlas",
+"Maun"
+]
+},
+"en": {
+"q": "Which surah begins with “Qul a‘udhu bi-rabbil-falaq”?",
+"a": [
+"Al-Falaq",
+"An-Nas",
+"Al-Ikhlas",
+"Al-Ma‘un"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko rekata ima sabah namaz ukupno?",
+"a": [
+"4",
+"2",
+"5",
+"6"
+]
+},
+"en": {
+"q": "How many rak‘ahs does the Fajr prayer have in total?",
+"a": [
+"4",
+"2",
+"5",
+"6"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko rekata ima akšam namaz ukupno?",
+"a": [
+"5",
+"4",
+"6",
+"8"
+]
+},
+"en": {
+"q": "How many rak‘ahs does the Maghrib prayer have in total?",
+"a": [
+"5",
+"4",
+"6",
+"8"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko rekata ima podne namaz ukupno?",
+"a": [
+"10",
+"8",
+"12",
+"16"
+]
+},
+"en": {
+"q": "How many rak‘ahs does the Dhuhr prayer have in total?",
+"a": [
+"10",
+"8",
+"12",
+"16"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko rekata ima ikindija namaz ukupno?",
+"a": [
+"8",
+"6",
+"10",
+"12"
+]
+},
+"en": {
+"q": "How many rak‘ahs does the Asr prayer have in total?",
+"a": [
+"8",
+"6",
+"10",
+"12"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko rekata ima jacija namaz ukupno?",
+"a": [
+"13",
+"10",
+"11",
+"15"
+]
+},
+"en": {
+"q": "How many rak‘ahs does the Isha prayer have in total?",
+"a": [
+"13",
+"10",
+"11",
+"15"
+]
+},
+"extra": "mektebski-akvarij"
+},
+{
+"l": "B1",
+"c": 0,
+"bs": {
+"q": "Koliko rekata ima džuma namaz prema tekstu?",
+"a": [
+"16",
+"8",
+"10",
+"20"
+]
+},
+"en": {
+"q": "According to the text, how many rak‘ahs does the Jumu‘ah prayer have?",
+"a": [
+"16",
+"8",
+"10",
+"20"
+]
+},
+"extra": "mektebski-akvarij"
 }
 ]

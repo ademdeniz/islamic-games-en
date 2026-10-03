@@ -106,6 +106,7 @@ function gamesFor(tracks,d,w,books){
   D.always.forEach(s=>delete score[s]);   // every week, both groups: shown first
   let list=Object.keys(score).sort((a,b)=>score[b]-score[a]||(a<b?-1:1)).slice(0,4);
   if(list.length<2)for(const b of books){const f=D.fallback[b];const s=f[w%f.length];if(!list.includes(s)&&!D.always.includes(s))list.push(s);if(list.length>=3)break}
+  {const so=D.solo[books[0]];list.push(so[w%so.length])}   // practice at home
   const tg=D.together;
   if(d>=tg.from){const k=D.sundays.filter(x=>!isOff(x)&&x>=tg.from&&x<d).length;list.push(tg.games[(k*2+(books[0]===1?1:0))%tg.games.length])}   // competition prep
   return [...D.always,...list];

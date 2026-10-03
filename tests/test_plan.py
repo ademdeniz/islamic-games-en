@@ -47,7 +47,7 @@ def test_pillars_of_iman_quiz_and_surah_practice_every_week_for_both_groups():
 def test_every_game_topic_is_used_and_fallbacks_exist():
     assert all(s in D['games'] for f in D['fallback'].values() for s in f)
     used = {t for items in D['tracks'].values() for it in items for t in it['topics']} | {'ramadan', 'blessed-nights', 'eid'}
-    used |= {'together'}   # the play-together games come every week from November, not by topic
+    used |= {'together', 'solo'}   # the bank games come every week, not by topic
     assert all(set(g['topics']) & used for g in D['games'].values()), 'a game no lesson can ever pick'
 
 
@@ -136,15 +136,10 @@ def test_python_and_page_schedules_agree(page):
 
 
 @pytest.mark.parametrize('day', UPDATES)
-def test_update_is_up_to_date_and_every_link_works(day):
+def test_update_every_link_works(day):
+    """Sent updates are frozen (not rebuilt when the plan changes), so only their links and branding are checked."""
     path = os.path.join(gc.ROOT, 'updates', day, 'index.html')
     html = open(path, encoding='utf-8').read()
-    import shutil, tempfile  # noqa: E401
-    tmp = tempfile.mkdtemp()
-    shutil.copy(path, tmp)
-    build_update.build(day)
-    assert open(path, encoding='utf-8').read() == open(os.path.join(tmp, 'index.html'), encoding='utf-8').read(), \
-        'run python3 tools/build_update.py'
     for url in set(re.findall(r'href="([^"]+)"', html)):
         target = local(url) if url.startswith('http') else os.path.join(os.path.dirname(path), url, 'index.html')
         assert os.path.exists(target.split('#')[0]), url
@@ -179,3 +174,15 @@ def test_play_together_game_every_week_from_november():
             games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
             together = [x for x in games if x in tg['games']]
             assert len(together) == (1 if d >= tg['from'] else 0), (d, g, games)
+
+
+def test_one_play_alone_game_every_week_right_level():
+    plan = build_plan.schedule()
+    for w, d in enumerate(build_plan.class_days()):
+        for g, books in build_plan.BOOKS.items():
+            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
+            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
+            solo = [x for x in games if 'solo' in D['games'][x]['topics']]
+            assert len(solo) == 1, (d, g, games)
+            if g == 'g1':
+                assert solo[0] not in ('izgradi-svoju-dzamiju', 'pcelinja-akademija'), 'A-level games are for Group 2'
