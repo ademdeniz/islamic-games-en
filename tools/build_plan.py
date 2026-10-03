@@ -15,7 +15,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
-from plan_curriculum import FALLBACK, GAMES, ILMIHAL, SITE  # noqa: E402
+from plan_curriculum import FALLBACK, GAMES, ILMIHAL, SITE, TOGETHER  # noqa: E402
 idx = open(os.path.join(ROOT, 'sufara', 'index.html'), encoding='utf-8').read()
 SUF = json.loads(re.search(r'const D=(\{.*?\});\n', idx, re.S).group(1))['pages']
 
@@ -116,7 +116,8 @@ def tajwid_items():
 data = {
     'site': SITE, 'sundays': [d.isoformat() for d in SUNDAYS], 'noClass': NO_CLASS, 'starts': {'tj': '2026-11-01'}, 'standing': [{'from': '2026-11-01', 'text': 'Maktab competition preparation (schedule TBD)'}], 'events': EVENTS, 'eventGames': EVENT_GAMES,
     'games': {s: {'t': t, 'topics': sorted(tp)} for s, (t, tp) in GAMES.items()}, 'fallback': FALLBACK,
-    'always': ['kviz-imanski-sarti', 'learn-surahs-by-heart'],   # Pillars of Iman Quiz + surah practice, every week, both groups
+    'always': ['kviz-imanski-sarti', 'learn-surahs-by-heart'],
+    'together': {'from': '2026-11-01', 'games': TOGETHER},   # competition prep: one 2–4 player game a week   # Pillars of Iman Quiz + surah practice, every week, both groups
     'tracks': {
         'i1': lesson_items(1), 'sf': sufara_items(), 'i2': lesson_items(2), 'i3': lesson_items(3),
         'qr': quran_items(len(SUNDAYS)), 'rd': reading_items(0), 'tj': tajwid_items(),
@@ -179,6 +180,10 @@ def games_for(entries, d, w, books):
                 out.append(s)
             if len(out) >= 3:
                 break
+    tg = data['together']
+    if d >= tg['from']:   # competition prep: a different play-together game each week (the groups get different ones)
+        k = len([x for x in class_days() if tg['from'] <= x < d])
+        out.append(tg['games'][(k * 2 + (books[0] == 1)) % len(tg['games'])])
     return data['always'] + out
 
 

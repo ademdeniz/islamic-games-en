@@ -105,6 +105,14 @@ const SECTIONS = [
     ["ramazanski-put", "🌙", "The Ramadan Path", "20 questions about Ramadan – fasting, suhur, iftar and more.", "Quiz", ""],
     ["oslobodi-papagaja", "🦜", "Free the Parrot!", "Solve the memory obstacles about the blessed nights and set the parrot free.", "Memory", ""],
   ]},
+  {title: "Play Together – 2 to 4 Players", icon: "👥", games: [
+    ["mektebski-fudbal", "⚽", "Maktab Football", "Two players, one phone: take turns at penalties – a right answer scores a goal. 1,568 Ilmihal questions, A1 to B3.", "2 players", "A1–B3"],
+    ["mektebsko-povlacenje-konopa", "🪢", "Maktab Tug of War", "Two players pull the rope with right answers – first to pull the flag to their side wins.", "2 players", "A1–B3"],
+    ["mektebski-milioner", "🏆", "Maktab Millionaire for Two", "Two players answer the same number of questions: +100 gold coins for right, −30 for wrong.", "2 players", "A1–B3"],
+    ["mektebsko-kolo-srece", "🎡", "Maktab Wheel of Fortune", "Spin the wheel – it picks the level – and answer. 10 turns each for two players.", "2 players", "A1–B3"],
+    ["mektebski-covjece-ne-ljuti-se", "🎲", "Maktab Ludo", "2–4 players roll the die and answer – a right answer moves your piece. Land on someone and they go back to start!", "2–4 players", "A1–B3"],
+    ["mektebski-turnir", "🏅", "Maktab Tournament", "Four students: two semi-finals, a final and the winner’s trophy. Great for class competitions.", "4 players", "A1–B3"],
+  ]},
   {title: "Ilmihal Quizzes & Adventures", icon: "🏆", games: [
     ["kviz-nivo-a1", "🎯", "Quiz – Level A1", "30 questions with 50:50, audience and teacher lifelines.", "Quiz", "A1"],
     ["lov-na-blago-a1", "🗺️", "Treasure Hunt – Level A1", "Answer 20 questions correctly to find the treasure.", "Adventure", "A1"],
@@ -129,7 +137,7 @@ const SECTIONS = [
     ["ilmihal-2-nivo-b2", "📝", "Ilmihal Quiz 2 – Level B2", "30 questions from Levels B1 and B2.", "Quiz", "B2"],
   ]},
 ];
-const LEVELS = ["All", "A1", "A2", "A3", "B1", "B2"];
+const LEVELS = ["All", "A1", "A2", "A3", "B1", "B2", "B3"];
 let level = "All";
 
 const $ = s => document.querySelector(s);
@@ -137,7 +145,7 @@ const esc = s => s.replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&g
 const inLevel = (lv, want) => {
   if (want === "All") return true;
   if (!lv) return false;
-  const order = ["A1", "A2", "A3", "B1", "B2"], [a, b = a] = lv.split("–");
+  const order = ["A1", "A2", "A3", "B1", "B2", "B3"], [a, b = a] = lv.split("–");
   return order.indexOf(want) >= order.indexOf(a) && order.indexOf(want) <= order.indexOf(b);
 };
 

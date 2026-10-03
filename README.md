@@ -1,6 +1,6 @@
 # Islamic Learning Games (English)
 
-English versions of 42 maktab learning games (Qur’an, Salah, Iman, Ilmihal) for the Bosnian Islamic Community of Erie,
+English versions of 48 maktab learning games (Qur’an, Salah, Iman, Ilmihal) for the Bosnian Islamic Community of Erie,
 translated from the Bosnian originals at github.com/rekicabdo-bihac.
 
 - `index.html` – home page listing the games (level filter, search, “Copy link” for homework)
@@ -17,6 +17,12 @@ Test: `.venv/bin/pytest tests`
 Database setup: run `supabase/schema.sql` in the Supabase SQL Editor; test it locally with `tests/run_supabase_test.sh`.
 Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`) and `el-fatiha`
 (replaced by `learn-surahs-by-heart`, which includes Al-Fatiha).
+
+Shared Ilmihal question bank: `tools/tr/ilmihal-bank.json` – Abdo ef. Rekić’s 1,568 questions (A1–B3) with their English,
+used by the newer games through `tools/tr/_ilmihal_bank.py`. The play-together games (Football, Tug of War, Millionaire for Two,
+Wheel of Fortune, Ludo, Tournament) all use it; `tests/test_multiplayer.py` plays each one.
+Also: `plan/` (year plan for parents, `tools/build_plan.py`), `updates/` (weekly updates, `tools/build_update.py`),
+`duty/` (Sunday pizza & parent duty, `tools/build_duty.py`).
 
 New games (not translations): `games/learn-surahs-by-heart` (`tools/fetch_hifz.py` + `tools/build_hifz.py`) and the rebuilt
 `games/citaj-kuran` Read Along (`tools/fetch_readalong.py` + `tools/build_citaj_kuran.py`).

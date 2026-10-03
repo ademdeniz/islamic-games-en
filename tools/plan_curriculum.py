@@ -43,7 +43,17 @@ GAMES = {
     'tajna-zivotinja': ('Secret Animal', {'review-1', 'nature'}),
     'zagonetna-zivotinja-a3': ('Mystery Animal', {'review-1', 'nature'}),
     'sta-radi-masa': ('What Is Masha Doing?', {'review-1', 'akhlaq'}),
+    # play together (2–4 players, the shared Ilmihal bank) – one a week for each group from November
+    'mektebski-fudbal': ('Maktab Football (2 players)', {'together'}),
+    'mektebsko-povlacenje-konopa': ('Maktab Tug of War (2 players)', {'together'}),
+    'mektebski-milioner': ('Maktab Millionaire for Two', {'together'}),
+    'mektebsko-kolo-srece': ('Maktab Wheel of Fortune (2 players)', {'together'}),
+    'mektebski-covjece-ne-ljuti-se': ('Maktab Ludo (2–4 players)', {'together'}),
+    'mektebski-turnir': ('Maktab Tournament (4 players)', {'together'}),
 }
+TOGETHER = ['mektebski-fudbal', 'mektebsko-povlacenje-konopa', 'mektebski-milioner', 'mektebsko-kolo-srece',
+            'mektebski-covjece-ne-ljuti-se', 'mektebski-turnir']
+
 # rotating fallback games when a lesson has no topic match, per book
 FALLBACK = {1: ['kviz-nivo-a1', 'nahrani-ptica-a1', 'lov-na-blago-a1', 'otkljucaj-vrata-dzamije', 'pcelica-skuplja-med',
                 'tajna-zivotinja', 'sta-radi-masa', 'islamski-milijunas-nivo-a2', 'kviz-ilmihal-1-a3'],

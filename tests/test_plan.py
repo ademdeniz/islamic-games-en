@@ -47,6 +47,7 @@ def test_pillars_of_iman_quiz_and_surah_practice_every_week_for_both_groups():
 def test_every_game_topic_is_used_and_fallbacks_exist():
     assert all(s in D['games'] for f in D['fallback'].values() for s in f)
     used = {t for items in D['tracks'].values() for it in items for t in it['topics']} | {'ramadan', 'blessed-nights', 'eid'}
+    used |= {'together'}   # the play-together games come every week from November, not by topic
     assert all(set(g['topics']) & used for g in D['games'].values()), 'a game no lesson can ever pick'
 
 
@@ -167,3 +168,14 @@ def test_update_shows_kids_and_homework(tmp_path, monkeypatch):
     out = (tmp_path / 'out.html').read_text()
     assert 'Group 1: <b>9</b> children' in out and 'Group 2: <b>1</b> child' in out
     assert 'Say Bismillah before eating.' in out and 'Bring your Ilmihal book.' in out
+
+
+def test_play_together_game_every_week_from_november():
+    plan, cls = build_plan.schedule(), build_plan.class_days()
+    tg = D['together']
+    for w, d in enumerate(cls):
+        for g, books in build_plan.BOOKS.items():
+            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
+            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
+            together = [x for x in games if x in tg['games']]
+            assert len(together) == (1 if d >= tg['from'] else 0), (d, g, games)
