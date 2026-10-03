@@ -1,0 +1,155 @@
+{
+  "title": "The Shahadah",
+  "pages": "17",
+  "intro": "With the Shahadah we say that we belong to Islam.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "We say that we belong to Islam by saying the <b>Kalimat ash-Shahadah</b> – the words of witness."
+    },
+    {
+      "type": "phrase",
+      "label": "The Shahadah",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "Ash-hadu an laa ilaaha illallaah, wa ash-hadu anna Muhammadan ‘abduhu wa rasooluhu",
+      "en": "I believe and declare that only Allah is God, and I believe and declare that Muhammad is Allah’s servant and Messenger."
+    },
+    {
+      "type": "heading",
+      "text": "What the words mean"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Ash-hadu</b> – I believe and declare",
+        "<b>an laa ilaaha illallaah</b> – that there is no god except Allah",
+        "<b>wa ash-hadu anna Muhammadan</b> – and I believe and declare that Muhammad",
+        "<b>‘abduhu wa rasooluhu</b> – is His servant and His Messenger"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "🎵 The Shahadah"
+    },
+    {
+      "type": "text",
+      "html": "<i>The Shahadah is the witness of Islam:<br>there is no god but Allah,<br>to Him be praise for ever,<br>and Muhammad, the beloved,<br>is Allah’s Messenger.</i><br><small>(R. Kadić)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The first part of the Shahadah says that <b>only Allah is God</b>. The second part says that <b>Muhammad (SAW) is Allah’s servant and Messenger</b>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Build the Shahadah",
+      "prompt": "Tap the words in the right order.",
+      "items": [
+        "Ash-hadu",
+        "an laa ilaaha illallaah,",
+        "wa ash-hadu",
+        "anna Muhammadan",
+        "‘abduhu wa rasooluhu"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words and their meaning",
+      "pairs": [
+        [
+          "Ash-hadu",
+          "I believe and declare"
+        ],
+        [
+          "Laa ilaaha illallaah",
+          "There is no god except Allah"
+        ],
+        [
+          "‘Abduhu",
+          "His servant"
+        ],
+        [
+          "Rasooluhu",
+          "His Messenger"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How do we say that we belong to Islam?",
+          "options": [
+            "By saying the Shahadah",
+            "By saying salam",
+            "By singing Hasbi Rabbi",
+            "By saying Rabbi yassir"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How does the Shahadah begin?",
+          "options": [
+            "Ash-hadu an laa ilaaha illallaah",
+            "Wa ash-hadu anna Muhammadan",
+            "Wa ‘alaykumus-salaam",
+            "Hasbi Rabbi jallallaah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “laa ilaaha illallaah” mean?",
+          "options": [
+            "There is no god except Allah",
+            "Muhammad is my Prophet",
+            "The Qur’an is my religion",
+            "Salam is my greeting"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who is named in the second part of the Shahadah?",
+          "options": [
+            "Muhammad (SAW)",
+            "Adam (AS)",
+            "Ibrahim (AS)",
+            "Nuh (AS)"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “Ash-hadu” mean?",
+          "options": [
+            "I believe and declare",
+            "I greet and leave",
+            "I read and write",
+            "I ask and answer"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “‘abduhu” mean?",
+          "options": [
+            "His servant",
+            "His book",
+            "His angel",
+            "His mosque"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Answer the questions",
+      "prompts": [
+        "🗣️ Say the Shahadah out loud.",
+        "💬 What do the words of the Shahadah mean?",
+        "🎵 Recite the little poem “The Shahadah”."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "What is our religion called?",
+  "pages": "14",
+  "intro": "Our religion is Islam – and we are Muslims!",
+  "learn": [
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "👦",
+          "label": "I am a Muslim",
+          "imgs": [
+            "img/i-am-muslim.webp"
+          ]
+        },
+        {
+          "icon": "👧",
+          "label": "Islam is my religion",
+          "imgs": [
+            "img/islam-my-religion.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Our religion is <b>Islam</b>. We are <b>Muslims</b>! We believe in Allah and in the Prophet Muhammad (SAW), we <b>tell the truth</b> and we <b>do good deeds</b>."
+    },
+    {
+      "type": "heading",
+      "text": "🎵 Islam"
+    },
+    {
+      "type": "text",
+      "html": "<i>Islam is my religion,<br>Islam is my safety,<br>Islam teaches me<br>to love all of you.<br><br>Islam asks for effort,<br>for learning and for work,<br>Islam does not want lies –<br>believe while you are young.</i><br><small>(Suada Hastor)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Islam is the religion that Allah, the Most High, revealed through His prophets to all of humankind."
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "What does Islam teach us?",
+      "prompt": "Tap everything Islam teaches us, then tap Check.",
+      "options": [
+        {
+          "text": "🗣️ To tell the truth",
+          "correct": true
+        },
+        {
+          "text": "🤝 To do good deeds",
+          "correct": true
+        },
+        {
+          "text": "❤️ To love others",
+          "correct": true
+        },
+        {
+          "text": "📚 To learn and work hard",
+          "correct": true
+        },
+        {
+          "text": "🤥 To tell lies",
+          "correct": false,
+          "why": "Islam does not want lies – a Muslim tells the truth."
+        },
+        {
+          "text": "😠 To be unkind to others",
+          "correct": false,
+          "why": "Islam teaches us to love others and be kind."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Answer the questions",
+      "questions": [
+        {
+          "q": "What is our religion called?",
+          "options": [
+            "Islam",
+            "Iman",
+            "Ihsan",
+            "Shahadah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we call the people who follow Islam?",
+          "options": [
+            "Muslims",
+            "Students",
+            "Teachers",
+            "Neighbours"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we tell, according to the lesson?",
+          "options": [
+            "The truth",
+            "Lies",
+            "Unkind words",
+            "Rude words"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What kind of deeds do we do?",
+          "options": [
+            "Good deeds",
+            "Bad deeds",
+            "Harmful deeds",
+            "Unfair deeds"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Islam teach us about other people?",
+          "options": [
+            "To love them",
+            "To hurt them",
+            "To make fun of them",
+            "To ignore them"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who did Allah reveal Islam to?",
+          "options": [
+            "To all of humankind, through His prophets",
+            "Only to one country",
+            "Only to grown-ups",
+            "Only to teachers"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Answer and talk",
+      "prompts": [
+        "💬 What is our religion called? What are we, by religion?",
+        "🎵 Learn the little poem “Islam”.",
+        "👨‍👩‍👧 Tell your parents what Islam teaches us."
+      ]
+    }
+  ]
+}

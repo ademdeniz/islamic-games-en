@@ -18,7 +18,8 @@ MAX_SIDE = 900
 
 # Image numbers are as listed by `pdfimages -f <first> -l <last> -list` for each book's page range below.
 RANGES = {1: (8, 9), 2: (9, 9), 3: (9, 9)}
-# name: (book number, pdf page, [image numbers], layout[, (first, last)])
+# name: (book number, pdf page, [image numbers], layout[, (first, last)][, sign])
+#   sign = {'box': (x0, y0, x1, y1), 'lines': [...]}: Bosnian words painted on a sign are erased and English drawn in
 #   the optional range overrides RANGES for that picture (numbers are then counted from its first page)
 #   layout 'mask'  = colour image + soft mask;  'photo' = plain image;  '2x2' = four tiles
 IMAGES = {
@@ -36,6 +37,10 @@ IMAGES = {
         'to-maktab': (1, 11, [1, 2], 'mask', (11, 11)),
         'classroom': (1, 11, [3, 4], 'mask', (11, 11)),
         'muallim-boy': (1, 11, [7, 8], 'mask', (11, 11)),
+        'i-am-muslim': (1, 14, [0, 1], 'mask', (14, 14), {'box': (60, 252, 414, 486), 'lines': ['I AM', 'A', 'MUSLIM']}),
+        'islam-my-religion': (1, 14, [2, 3], 'mask', (14, 14), {'box': (48, 254, 315, 475), 'lines': ['ISLAM', 'IS MY', 'RELIGION']}),
+        'salam': (1, 18, [0, 1], 'mask', (18, 18)),
+        'madinah-mosque': (1, 26, [0, 1], 'mask', (26, 26)),
     },
     'ilmihal-2': {
         'arafat': (2, 9, [0], 'photo'),
@@ -83,17 +88,54 @@ def make(layout, paths):
     return img
 
 
+def resign(img, sign):
+    """Erase the coloured letters inside sign['box'] (inpainting from the pale sign around them) and write the English."""
+    import cv2
+    import numpy as np
+    from PIL import ImageDraw, ImageFont
+    x0, y0, x1, y1 = sign['box']
+    rgb = np.array(img.convert('RGB'))
+    region = rgb[y0:y1, x0:x1].astype(int)
+    ink = (region.sum(2) < 560) | (np.abs(region[:, :, 0] - region[:, :, 1]) > 60)   # darker or strongly coloured = letters
+    colour = tuple(int(c) for c in np.median(region[ink], axis=0)) if ink.any() else (40, 60, 160)
+    mask = np.zeros(rgb.shape[:2], np.uint8)
+    mask[y0:y1, x0:x1] = cv2.dilate(ink.astype(np.uint8) * 255, np.ones((5, 5), np.uint8))
+    clean = cv2.inpaint(rgb, mask, 7, cv2.INPAINT_TELEA)
+    out = Image.fromarray(clean)
+    if img.mode == 'RGBA':
+        out.putalpha(img.getchannel('A'))
+    d = ImageDraw.Draw(out)
+    font_path = '/System/Library/Fonts/Supplemental/Comic Sans MS Bold.ttf'
+    size = 120
+    while size > 10:
+        f = ImageFont.truetype(font_path, size)
+        boxes = [d.textbbox((0, 0), t, font=f) for t in sign['lines']]
+        h = sum(b[3] - b[1] for b in boxes) + (len(boxes) - 1) * size * 0.15
+        if max(b[2] - b[0] for b in boxes) <= (x1 - x0) * 0.9 and h <= (y1 - y0) * 0.85:
+            break
+        size -= 2
+    y = y0 + ((y1 - y0) - h) / 2
+    for t, b in zip(sign['lines'], boxes):
+        d.text((x0 + ((x1 - x0) - (b[2] - b[0])) / 2 - b[0], y - b[1]), t, font=f, fill=colour)
+        y += (b[3] - b[1]) + size * 0.15
+    return out
+
+
 def main():
     with tempfile.TemporaryDirectory() as tmp:
         cache = {}
         for book_id, items in IMAGES.items():
             out_dir = os.path.join(ROOT, 'lessons', book_id, 'img')
             os.makedirs(out_dir, exist_ok=True)
-            for name, (book, page, nums, layout, *rng) in items.items():
+            for name, (book, page, nums, layout, *more) in items.items():
+                rng = [m for m in more if isinstance(m, tuple)]
+                sign = next((m for m in more if isinstance(m, dict)), None)
                 key = (book, *(rng[0] if rng else RANGES[book]))
                 if key not in cache:
                     cache[key] = book_images(book, tmp, rng[0] if rng else None)
                 img = make(layout, [cache[key][n] for n in nums])
+                if sign:
+                    img = resign(img, sign)
                 img.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
                 path = os.path.join(out_dir, name + '.webp')
                 img.save(path, 'WEBP', quality=80, method=6)

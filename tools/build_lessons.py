@@ -28,6 +28,8 @@ def load_all():
             lesson.update(id=os.path.basename(f)[:-5], book=bid, book_title=book['title'], source=book['source'],
                           root='../../../', section='lessons', lessons_link=True)
             book['lessons'].append(lesson)
+        for k, lesson in enumerate(book['lessons'], 1):   # lessons are numbered in book order: files are named by
+            lesson['number'] = k                          # book page (14-…, 17-…), so a lesson added later slots in
     return books
 
 
