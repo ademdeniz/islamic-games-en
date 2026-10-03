@@ -20,7 +20,7 @@ Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz
 
 Shared Ilmihal question bank: `tools/tr/ilmihal-bank.json` – Abdo ef. Rekić’s 1,568 questions (A1–B3) with their English,
 used by the newer games through `tools/tr/_ilmihal_bank.py`. The play-together games (Football, Tug of War, Millionaire for Two,
-Wheel of Fortune, Ludo, Tournament) all use it; `tests/test_multiplayer.py` plays each one.
+Wheel of Fortune, Board Game – Don’t Get Angry!, Tournament) all use it; `tests/test_multiplayer.py` plays each one.
 Also: `plan/` (year plan for parents, `tools/build_plan.py`), `updates/` (weekly updates, `tools/build_update.py`),
 `duty/` (Sunday pizza & parent duty, `tools/build_duty.py`).
 

@@ -48,7 +48,7 @@ GAMES = {
     'mektebsko-povlacenje-konopa': ('Maktab Tug of War (2 players)', {'together'}),
     'mektebski-milioner': ('Maktab Millionaire for Two', {'together'}),
     'mektebsko-kolo-srece': ('Maktab Wheel of Fortune (2 players)', {'together'}),
-    'mektebski-covjece-ne-ljuti-se': ('Maktab Ludo (2–4 players)', {'together'}),
+    'mektebski-covjece-ne-ljuti-se': ('Maktab Board Game – Don’t Get Angry! (2–4 players)', {'together'}),
     'mektebski-turnir': ('Maktab Tournament (4 players)', {'together'}),
 }
 TOGETHER = ['mektebski-fudbal', 'mektebsko-povlacenje-konopa', 'mektebski-milioner', 'mektebsko-kolo-srece',

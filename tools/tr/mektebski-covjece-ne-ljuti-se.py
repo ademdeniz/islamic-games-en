@@ -1,4 +1,4 @@
-# Mektebski Čovječe, ne ljuti se! -> Maktab Ludo (2–4 players, one phone: roll the die, answer, move).
+# Mektebski Čovječe, ne ljuti se! -> Maktab Board Game – Don’t Get Angry! (2–4 players, one phone: roll the die, answer, move).
 # Shared Ilmihal question bank (_ilmihal_bank.translate); UI strings below.
 import os
 import sys
@@ -13,9 +13,9 @@ ALLOW_INCONSISTENT = ['.']
 
 T = [
     ('<html lang="bs">', '<html lang="en">'),
-    ('<title>Mektebski Čovječe, ne ljuti se!</title>', '<title>Maktab Ludo</title>'),
+    ('<title>Mektebski Čovječe, ne ljuti se!</title>', '<title>Maktab Board Game – Don’t Get Angry!</title>'),
     ('<h1>🎲 Mektebski Čovječe, ne ljuti se!</h1><small>Znanje • Igra • Druženje · A1–B3</small>',
-     '<h1>🎲 Maktab Ludo</h1><small>Knowledge • Play • Friendship · A1–B3</small>'),
+     '<h1>🎲 Maktab Board Game – Don’t Get Angry!</h1><small>Knowledge • Play • Friendship · A1–B3</small>'),
     ('⚙️ Postavke igre', '⚙️ Game settings'),
     ('<label>Broj igrača</label>', '<label>Number of players</label>'),
     ('>2 igrača<', '>2 players<'), ('>3 igrača<', '>3 players<'), ('>4 igrača<', '>4 players<'),
@@ -36,7 +36,7 @@ T = [
     ("+' Igrač '+(i+1)", "+' Player '+(i+1)"),
     ("'Ukupno '+Object.values(BANK)", "'In total '+Object.values(BANK)"),
     ("+' pitanja iz priloženih baza.'", "+' questions from the Ilmihal question banks.'"),
-    ("a.download='mektebski_covjece_ne_ljuti_se.html'", "a.download='maktab-ludo.html'"),
+    ("a.download='mektebski_covjece_ne_ljuti_se.html'", "a.download='maktab-board-game.html'"),
     ("<br><span class=\"score\">Polje '+p.pos+'/'+target+' · Tačno '+p.right+' · Netačno '+p.wrong+'</span>'",
      "<br><span class=\"score\">Square '+p.pos+'/'+target+' · Right '+p.right+' · Wrong '+p.wrong+'</span>'"),
     ("+' Na redu: '+players[turn].name", "+' Your turn: '+players[turn].name"),
