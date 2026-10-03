@@ -1,0 +1,148 @@
+{
+  "number": 3,
+  "title": "The essential attributes of Allah (as-sifat adh-dhatiyyah)",
+  "pages": "11",
+  "intro": "Allah has fourteen perfect attributes. The first six tell us about Allah Himself.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Part of the first pillar of Iman is believing that Allah (SWT) has <b>perfect attributes</b> (sifat) that only He has. Through them we know Allah and believe in Him."
+    },
+    {
+      "type": "text",
+      "html": "Allah has <b>fourteen</b> attributes. The first <b>six</b> are called <b>as-sifat adh-dhatiyyah</b> – the attributes of Allah’s being:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Wujud</b> – Allah exists. <i>His existence is lasting – it never passes and never ends.</i>",
+        "<b>Wahdaniyyah</b> – Allah is One. <i>There is no god except Allah.</i>",
+        "<b>Qidam</b> – Allah has always been. <i>Nobody made Him; He had no beginning.</i>",
+        "<b>Baqa</b> – Allah is forever. <i>He will never end.</i>",
+        "<b>Mukhalafatun lil-hawadith</b> – Allah is not like anyone or anything. <i>We do not compare Him with anyone or anything.</i>",
+        "<b>Qiyamun bi-nafsihi</b> – Allah exists by Himself. <i>He does not need anyone.</i>"
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img/sajdah.webp",
+      "alt": "A man in sajdah, praying on a mat in a green meadow",
+      "small": true
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The human mind cannot fully understand Allah’s attributes."
+    },
+    {
+      "type": "text",
+      "html": "The attributes of Allah’s being tell us about our Creator, Allah (SWT). Each of Allah’s attributes is mentioned in the Qur’an. People must not describe Him in any other way than the way He described Himself."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the attribute and its meaning",
+      "pairs": [
+        [
+          "Wujud",
+          "Allah exists"
+        ],
+        [
+          "Wahdaniyyah",
+          "Allah is One"
+        ],
+        [
+          "Qidam",
+          "Allah has always been"
+        ],
+        [
+          "Baqa",
+          "Allah is forever"
+        ],
+        [
+          "Mukhalafatun lil-hawadith",
+          "Allah is not like anything"
+        ],
+        [
+          "Qiyamun bi-nafsihi",
+          "Allah needs no one"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Review and answer",
+      "questions": [
+        {
+          "q": "How many attributes (sifat) of Allah do we learn?",
+          "options": [
+            "14",
+            "6",
+            "99",
+            "3"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What are the first six called?",
+          "options": [
+            "As-sifat adh-dhatiyyah – the attributes of Allah’s being",
+            "The pillars of Islam",
+            "The names of the angels",
+            "The prophets"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Wahdaniyyah mean?",
+          "options": [
+            "Allah is One",
+            "Allah is forever",
+            "Allah sees everything",
+            "Allah speaks"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Baqa mean?",
+          "options": [
+            "Allah is forever – He will never end",
+            "Allah has always been",
+            "Allah exists",
+            "Allah creates"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Can we compare Allah with someone or something?",
+          "options": [
+            "No – Allah is not like anything",
+            "Yes, with a king",
+            "Yes, with the sun",
+            "Yes, with a strong person"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How may we describe Allah?",
+          "options": [
+            "Only the way He described Himself in the Qur’an",
+            "Any way we like",
+            "The way a film shows Him",
+            "We can draw Him"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose a task",
+      "prompts": [
+        "✏️ Learn the six attributes of Allah’s being by heart.",
+        "✏️ Make a “cluster” in your notebook: write ALLAH (SWT) in the middle and the six attributes in circles around it."
+      ]
+    }
+  ]
+}

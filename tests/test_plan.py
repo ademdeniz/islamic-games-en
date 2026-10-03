@@ -35,6 +35,15 @@ def test_built_lessons_and_surahs_are_linked():
     assert items['i3-12'].endswith('lessons/ilmihal-3/02-amantu-billahi/')
 
 
+def test_pillars_of_iman_quiz_and_surah_practice_every_week_for_both_groups():
+    plan = build_plan.schedule()
+    for w, d in enumerate(build_plan.class_days()):
+        for g, books in build_plan.BOOKS.items():
+            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
+            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
+            assert games[:2] == ['kviz-imanski-sarti', 'learn-surahs-by-heart'] and len(set(games)) == len(games), (d, g, games)
+
+
 def test_every_game_topic_is_used_and_fallbacks_exist():
     assert all(s in D['games'] for f in D['fallback'].values() for s in f)
     used = {t for items in D['tracks'].values() for it in items for t in it['topics']} | {'ramadan', 'blessed-nights', 'eid'}

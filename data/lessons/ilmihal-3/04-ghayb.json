@@ -1,0 +1,220 @@
+{
+  "number": 4,
+  "title": "Belief in the unseen (ghayb)",
+  "pages": "15–16",
+  "intro": "Besides the world we see, there is a world we cannot see – and believing in it is the first sign of a believer.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "Al-Baqarah 2:2–3",
+      "text": "This is the Book about which there is no doubt, a guidance for those conscious of Allah - Who believe in the unseen, establish prayer, and spend out of what We have provided for them,"
+    },
+    {
+      "type": "text",
+      "html": "Allah (SWT), the Creator of all the worlds, told us in the Qur’an that besides this passing, <b>visible world</b> we live in, there is another, <b>unseen world</b>: the world of <b>ghayb</b>. We cannot understand it or reach it with our mind and our senses, so first of all we <b>believe</b> in it."
+    },
+    {
+      "type": "text",
+      "html": "Believing in the unseen is the <b>first quality of believers</b> mentioned in the Qur’an, and it is a key sign of a Muslim."
+    },
+    {
+      "type": "heading",
+      "text": "Belief in the unseen includes:"
+    },
+    {
+      "type": "point",
+      "title": "Allah, the Lord of all the worlds",
+      "html": "Many signs in the heavens and on Earth show us that He exists.",
+      "quran": {
+        "ref": "Adh-Dhariyat 51:20–21",
+        "text": "And on the earth are signs for the certain [in faith] And in yourselves. Then will you not see?"
+      }
+    },
+    {
+      "type": "point",
+      "title": "Allah’s angels",
+      "html": "Allah told us that His angels exist.",
+      "quran": {
+        "ref": "Al-Baqarah 2:285",
+        "text": "All of them have believed in Allah and His angels and His books and His messengers"
+      }
+    },
+    {
+      "type": "point",
+      "title": "The world of the jinn",
+      "html": "Some jinn obey Allah (SWT), and some disobey Him – those are called shayatin.",
+      "quran": {
+        "ref": "Ar-Rahman 55:15",
+        "text": "And He created the jinn from a smokeless flame of fire."
+      }
+    },
+    {
+      "type": "point",
+      "title": "The end of this world and the resurrection",
+      "html": "Before the Day of Judgement, this world will end, and everyone will be brought back to life.",
+      "quran": {
+        "ref": "Qaf 50:41–42",
+        "text": "And listen on the Day when the Caller will call out from a place that is near - The Day they will hear the blast [of the Horn] in truth. That is the Day of Emergence [from the graves]."
+      }
+    },
+    {
+      "type": "point",
+      "title": "The Day of Judgement",
+      "html": "After our death and resurrection, the Day of Judgement will come.",
+      "quran": {
+        "ref": "An-Nisa 4:87",
+        "text": "Allah - there is no deity except Him. He will surely assemble you for [account on] the Day of Resurrection, about which there is no doubt."
+      }
+    },
+    {
+      "type": "point",
+      "title": "Jannah",
+      "html": "The home in the next world that Allah (SWT) prepared as a reward for Muslim men and women.",
+      "quran": {
+        "ref": "Al ‘Imran 3:133",
+        "text": "And hasten to forgiveness from your Lord and a garden as wide as the heavens and earth, prepared for the righteous"
+      }
+    },
+    {
+      "type": "point",
+      "title": "Jahannam",
+      "html": "The home in the next world that Allah (SWT) prepared as a punishment for wrongdoers.",
+      "quran": {
+        "ref": "Ghafir 40:6",
+        "text": "And thus has the word of your Lord come into effect upon those who disbelieved that they are companions of the Fire."
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Who knows the unseen?"
+    },
+    {
+      "type": "text",
+      "html": "Only Allah, the Most High, knows the unseen – He alone holds the <b>keys of all secrets</b> (mafatih al-ghayb). He knows the seen and the unseen world, and nothing is hidden from Him."
+    },
+    {
+      "type": "quran",
+      "ref": "Luqman 31:34",
+      "text": "Indeed, Allah [alone] has knowledge of the Hour and sends down the rain and knows what is in the wombs. And no soul perceives what it will earn tomorrow, and no soul perceives in what land it will die. Indeed, Allah is Knowing and Acquainted."
+    },
+    {
+      "type": "text",
+      "html": "People – Allah’s most perfect creation – know about the unseen only as much as Allah (SWT) has told them. Even the best of Allah’s messengers, Muhammad (SAW), did not know the unseen. Allah commanded him to say:"
+    },
+    {
+      "type": "quran",
+      "ref": "Al-An‘am 6:50",
+      "text": "I do not tell you that I have the depositories [containing the provision] of Allah or that I know the unseen, nor do I tell you that I am an angel. I only follow what is revealed to me."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "It is a basic duty of every Muslim to believe firmly in the world of the unseen, and to reject every doubt about it."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Seen or unseen?",
+      "prompt": "Can we see it in this world, or is it part of the unseen (ghayb)?",
+      "bins": [
+        "We can see it",
+        "Unseen (ghayb)"
+      ],
+      "items": [
+        {
+          "text": "The angels",
+          "bin": 1
+        },
+        {
+          "text": "The jinn",
+          "bin": 1
+        },
+        {
+          "text": "Jannah",
+          "bin": 1
+        },
+        {
+          "text": "The Day of Judgement",
+          "bin": 1
+        },
+        {
+          "text": "The moon",
+          "bin": 0
+        },
+        {
+          "text": "Rain clouds",
+          "bin": 0
+        },
+        {
+          "text": "The mosque",
+          "bin": 0
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "What is ghayb?",
+          "options": [
+            "The unseen world that we cannot reach with our senses",
+            "A kind of food",
+            "A country",
+            "A game"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which is the first quality of believers mentioned in the Qur’an?",
+          "options": [
+            "Believing in the unseen",
+            "Being rich",
+            "Being strong",
+            "Being famous"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who knows all the secrets of the unseen?",
+          "options": [
+            "Only Allah",
+            "Fortune tellers",
+            "Scientists",
+            "Everyone"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How much do we know about the unseen?",
+          "options": [
+            "Only as much as Allah has told us",
+            "Everything",
+            "Nothing at all, ever",
+            "Whatever we dream"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Allah create the jinn from?",
+          "options": [
+            "A smokeless flame of fire",
+            "Clay",
+            "Light",
+            "Water"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose a task",
+      "prompts": [
+        "✏️ In a few sentences: how do you understand the world of the unseen? What do you think of first when you hear “ghayb”?",
+        "💬 Talk with an older friend or relative about what they know about the unseen world, and make notes for the next class."
+      ]
+    }
+  ]
+}

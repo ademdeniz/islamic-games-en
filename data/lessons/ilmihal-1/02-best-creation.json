@@ -1,0 +1,161 @@
+{
+  "number": 2,
+  "title": "The human being – Allah’s most beautiful creation",
+  "pages": "10",
+  "intro": "Allah created us in the most beautiful way and gave us a mind. How should we live on Earth?",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "At-Tin 95:4",
+      "text": "We have certainly created man in the best of stature;"
+    },
+    {
+      "type": "quran",
+      "ref": "Nuh 71:14",
+      "text": "While He has created you in stages?"
+    },
+    {
+      "type": "text",
+      "html": "The human being is Allah’s <b>most beautiful and most perfect</b> creation. That is why we praise Allah:"
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Mu’minun 23:14",
+      "text": "So blessed is Allah, the best of creators."
+    },
+    {
+      "type": "image",
+      "src": "img/baby.webp",
+      "alt": "A baby curled up before it is born",
+      "small": true
+    },
+    {
+      "type": "quran",
+      "ref": "Az-Zumar 39:6",
+      "text": "He creates you in the wombs of your mothers, creation after creation"
+    },
+    {
+      "type": "image",
+      "src": "img/thinking.webp",
+      "alt": "A man looking ahead and thinking",
+      "small": true
+    },
+    {
+      "type": "text",
+      "html": "Allah gave the human being something special, more than all other creatures: a <b>mind</b> (‘aql). And He made us His <b>caretakers on Earth</b> (khalifah)."
+    },
+    {
+      "type": "point",
+      "title": "🧠 Did you know?",
+      "html": "Your brain has about <b>100 billion</b> nerve cells – about as many as there are stars in our galaxy! Messages travel between them at more than <b>400 km/h</b> (250 mph), and about <b>70,000 thoughts</b> go through your brain every day."
+    },
+    {
+      "type": "text",
+      "html": "We should live on Earth <b>responsibly</b> and in <b>obedience to Allah</b>, the Most High. Allah says:"
+    },
+    {
+      "type": "quran",
+      "ref": "Adh-Dhariyat 51:56",
+      "text": "And I did not create the jinn and mankind except to worship Me."
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "Gifts from Allah",
+      "prompt": "Tap everything Allah gave us, then tap Check.",
+      "options": [
+        {
+          "text": "🧠 A mind to think",
+          "correct": true
+        },
+        {
+          "text": "👀 Eyes to see",
+          "correct": true
+        },
+        {
+          "text": "👂 Ears to hear",
+          "correct": true
+        },
+        {
+          "text": "🗣️ A tongue to speak",
+          "correct": true
+        },
+        {
+          "text": "🤲 Hands to help others",
+          "correct": true
+        },
+        {
+          "text": "📱 A phone we were born with",
+          "correct": false,
+          "why": "Nobody is born with a phone – people make phones. Our body and our mind are Allah’s gifts."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions to talk about",
+      "questions": [
+        {
+          "q": "How did Allah create the human being?",
+          "options": [
+            "In the best and most beautiful way",
+            "By chance",
+            "From a star",
+            "Like a stone"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who is Allah’s most beautiful creation?",
+          "options": [
+            "The human being",
+            "The lion",
+            "The moon",
+            "The ocean"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What special gift did Allah give the human being?",
+          "options": [
+            "A mind (‘aql)",
+            "Wings",
+            "A shell",
+            "Gills"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Allah make the human being on Earth?",
+          "options": [
+            "His caretaker (khalifah)",
+            "A king of the stars",
+            "An angel",
+            "Nothing special"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How should we live on Earth?",
+          "options": [
+            "Responsibly and obeying Allah",
+            "Doing whatever we want",
+            "Without caring for anything",
+            "Only playing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "At home and in the maktab",
+      "prompts": [
+        "💬 Say together: “So blessed is Allah, the best of creators.”",
+        "✏️ Draw something Allah created that you think is beautiful.",
+        "👨‍👩‍👧 Ask your parents: what can we do to look after Allah’s Earth?"
+      ]
+    }
+  ]
+}

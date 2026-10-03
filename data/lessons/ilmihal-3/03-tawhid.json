@@ -1,0 +1,198 @@
+{
+  "number": 3,
+  "title": "Tawhid – Allah is One",
+  "pages": "14",
+  "intro": "Believing in One God is the duty of every Muslim – and the message of every prophet.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "An-Nisa 4:136",
+      "text": "O you who have believed, believe in Allah"
+    },
+    {
+      "type": "text",
+      "html": "Believing in <b>One God</b> is the duty of every Muslim man and woman."
+    },
+    {
+      "type": "text",
+      "html": "One of the main tasks of all of Allah’s prophets was to call their people to believe in the One and Only God, Allah (SWT) – to follow <b>tawhid</b>. Many ayat of the Qur’an speak about tawhid, and the whole of <a href=\"../../../games/learn-surahs-by-heart/#ikhlas\">Surah Al-Ikhlas</a> is about Allah’s Oneness."
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Ikhlas 112:1–4",
+      "text": "Say, \"He is Allah, [who is] One, Allah, the Eternal Refuge. He neither begets nor is born, Nor is there to Him any equivalent.\""
+    },
+    {
+      "type": "heading",
+      "text": "Four important lessons of Surah Al-Ikhlas"
+    },
+    {
+      "type": "point",
+      "title": "1. “Say”",
+      "html": "Allah commands Muhammad (SAW) to spread the truth of Allah’s Oneness, in the words “He is Allah, One”."
+    },
+    {
+      "type": "point",
+      "title": "2. “Allah, the Eternal Refuge”",
+      "html": "We turn with our du‘a only to Him – not to anyone else besides Allah (SWT)."
+    },
+    {
+      "type": "point",
+      "title": "3. “He neither begets nor is born”",
+      "html": "This rejects the claim that He has a child or parents."
+    },
+    {
+      "type": "point",
+      "title": "4. “Nor is there to Him any equivalent”",
+      "html": "Nobody is equal to Him in His greatness or in His rule."
+    },
+    {
+      "type": "text",
+      "html": "The belief of every Muslim is built on tawhid – Allah’s Oneness. The attributes of Allah’s being (as-sifat adh-dhatiyyah) confirm this truth. In Islam, tawhid means being firmly sure that:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "there is only one God, Allah (SWT),",
+        "He is eternal, while everything else came into being and will end,",
+        "He is the Lord of everything that exists,",
+        "He alone creates,",
+        "only He deserves to be worshipped, and we pray only to Him."
+      ]
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Anbiya 21:22",
+      "text": "Had there been within the heavens and earth gods besides Allah, they both would have been ruined."
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Hadid 57:3",
+      "text": "He is the First and the Last, the Ascendant and the Intimate, and He is, of all things, Knowing."
+    },
+    {
+      "type": "text",
+      "html": "That there is One and Only God, Allah (SWT), is the <b>greatest truth</b>. Every prophet taught it, from Adam (AS) to Muhammad (SAW):"
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Anbiya 21:25",
+      "text": "And We sent not before you any messenger except that We revealed to him that, \"There is no deity except Me, so worship Me.\""
+    },
+    {
+      "type": "text",
+      "html": "Many ayat mention Allah’s existence (<b>Wujud</b>) and His Oneness (<b>Wahdaniyyah</b>)."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the words of Al-Ikhlas with their lesson",
+      "pairs": [
+        [
+          "Say",
+          "Spread the truth of Allah’s Oneness"
+        ],
+        [
+          "The Eternal Refuge",
+          "We make du‘a only to Him"
+        ],
+        [
+          "Neither begets nor is born",
+          "He has no child and no parents"
+        ],
+        [
+          "Nor is there any equivalent",
+          "Nobody is equal to Him"
+        ]
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "What does tawhid mean?",
+      "prompt": "Tap everything that is part of tawhid, then tap Check.",
+      "options": [
+        {
+          "text": "There is only one God, Allah",
+          "correct": true
+        },
+        {
+          "text": "Allah is eternal",
+          "correct": true
+        },
+        {
+          "text": "Allah alone creates",
+          "correct": true
+        },
+        {
+          "text": "Only Allah deserves to be worshipped",
+          "correct": true
+        },
+        {
+          "text": "We may also pray to an idol",
+          "correct": false,
+          "why": "Praying to anyone or anything besides Allah goes against tawhid – only Allah deserves worship."
+        },
+        {
+          "text": "Allah has a son",
+          "correct": false,
+          "why": "Surah Al-Ikhlas says: He neither begets nor is born."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "What was the shared mission of all the prophets?",
+          "options": [
+            "To call people to believe in the One God, Allah",
+            "To build big cities",
+            "To become kings",
+            "To write poems"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which surah is all about Allah’s Oneness?",
+          "options": [
+            "Al-Ikhlas",
+            "Al-Fil",
+            "Al-Kawthar",
+            "Al-Asr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What would happen if there were other gods besides Allah?",
+          "options": [
+            "The heavens and the earth would be ruined",
+            "Nothing would change",
+            "It would be better",
+            "There would be more rain"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which attribute means that Allah is One?",
+          "options": [
+            "Wahdaniyyah",
+            "Baqa",
+            "Qidam",
+            "Sam‘"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk and practise",
+      "prompts": [
+        "💬 Explain tawhid to a younger brother, sister or friend in your own words.",
+        "✏️ Practise Surah Al-Ikhlas in “Learn the Surahs by Heart”."
+      ]
+    }
+  ]
+}

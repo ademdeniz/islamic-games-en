@@ -116,6 +116,7 @@ def tajwid_items():
 data = {
     'site': SITE, 'sundays': [d.isoformat() for d in SUNDAYS], 'noClass': NO_CLASS, 'starts': {'tj': '2026-11-01'}, 'standing': [{'from': '2026-11-01', 'text': 'Maktab competition preparation (schedule TBD)'}], 'events': EVENTS, 'eventGames': EVENT_GAMES,
     'games': {s: {'t': t, 'topics': sorted(tp)} for s, (t, tp) in GAMES.items()}, 'fallback': FALLBACK,
+    'always': ['kviz-imanski-sarti', 'learn-surahs-by-heart'],   # Pillars of Iman Quiz + surah practice, every week, both groups
     'tracks': {
         'i1': lesson_items(1), 'sf': sufara_items(), 'i2': lesson_items(2), 'i3': lesson_items(3),
         'qr': quran_items(len(SUNDAYS)), 'rd': reading_items(0), 'tj': tajwid_items(),
@@ -167,16 +168,18 @@ def games_for(entries, d, w, books):
         if k in ev:
             for s in gs:
                 score[s] = score.get(s, 0) + 5
+    for s in data['always']:
+        score.pop(s, None)
     out = sorted(score, key=lambda s: (-score[s], s))[:4]
     if len(out) < 2:
         for b in books:
             f = data['fallback'][b]
             s = f[w % len(f)]
-            if s not in out:
+            if s not in out and s not in data['always']:
                 out.append(s)
             if len(out) >= 3:
                 break
-    return out
+    return data['always'] + out
 
 
 TEXT = {
