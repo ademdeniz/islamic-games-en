@@ -111,6 +111,14 @@ def main(dst):
     json.dump(duty, open(os.path.join(dst, 'data', 'duty', 'parents.json'), 'w'), ensure_ascii=False, indent=2)
     json.dump({'url': '', 'publishable_key': '', 'note': 'Fill in your own Supabase Project URL and publishable key '
                '(setup guide, Step 6). Never the secret key.'}, open(os.path.join(dst, 'supabase', 'config.json'), 'w'), indent=2)
+    for t in os.listdir(os.path.join(dst, 'supabase', 'email-templates')):   # sign-up / reset e-mails: neutral name and logo
+        p = os.path.join(dst, 'supabase', 'email-templates', t)
+        txt = open(p, encoding='utf-8').read()
+        for old in ('Bosnian Islamic Community of Erie', 'Bosnian Islamic Community Erie'):
+            txt = txt.replace(old, SITE['name'])
+        txt = txt.replace('https://ademdeniz.github.io/islamic-games-en/assets/logo-bz-erie-web.jpg', SITE['url'] + SITE['logo'])
+        txt = txt.replace('https://ademdeniz.github.io/islamic-games-en/', SITE['url'])
+        open(p, 'w', encoding='utf-8').write(txt)
     open(os.path.join(dst, 'README.md'), 'w').write(README)
     open(os.path.join(dst, 'CLAUDE.md'), 'w').write(CLAUDE_MD)
 

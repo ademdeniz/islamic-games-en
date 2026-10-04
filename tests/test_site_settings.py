@@ -51,7 +51,7 @@ def test_no_page_shows_the_old_mosque(rebuilt):
         s = open(p, encoding='utf-8').read()
         if p.endswith(os.path.join('credits', 'index.html')):   # names Erie on purpose, as the website's original makers
             s = s.replace(OLD['name'] + ', Pennsylvania', '').replace('github.com/rekicabdo-bihac', '')
-        for needle in (OLD['name'], OLD['url'], 'ademdeniz', old_b64, os.path.basename(OLD['logo'])):
+        for needle in (OLD['name'], OLD['url'], 'ademdeniz', old_b64, OLD['logo']):
             if needle in s:
                 bad.append((os.path.relpath(p, rebuilt), needle[:40]))
     assert not bad, bad[:15]

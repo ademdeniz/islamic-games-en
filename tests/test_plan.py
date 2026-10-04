@@ -99,8 +99,13 @@ def test_no_class_days_and_tajwid_start(page):
     plan = page.evaluate('schedule()')
     assert all(not plan[d]['tj'] for d in plan if d < D['starts']['tj'])
     assert plan[min(d for d in plan if d >= D['starts']['tj'])]['tj'][0]['it']['k'] == 'tj-0'
-    first = min(d for d in plan if d >= '2026-11-01')
-    assert page.locator('#w-2026-10-25 .pin').count() == 0 and 'competition' in page.inner_text(f'#w-{first} .pin')
+    for note in D['standing']:   # a note shows from its date on, not before
+        days = sorted(plan)
+        first = min(d for d in days if d >= note['from'])
+        before = [d for d in days if d < note['from']]
+        assert note['text'] in page.inner_text(f'#w-{first} .pin')
+        if before:
+            assert page.locator(f'#w-{before[-1]} .pin').count() == 0
 
 
 def test_group_switch(page):
