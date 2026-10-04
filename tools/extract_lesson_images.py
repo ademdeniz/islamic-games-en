@@ -37,6 +37,8 @@ IMAGES = {
         'to-maktab': (1, 11, [1, 2], 'mask', (11, 11)),
         'classroom': (1, 11, [3, 4], 'mask', (11, 11)),
         'muallim-boy': (1, 11, [7, 8], 'mask', (11, 11)),
+        'dua-girl': (1, 12, [0, 1], 'mask', (12, 12)),
+        'children-dua': (1, 13, [1, 2], 'mask', (13, 13)),
         'i-am-muslim': (1, 14, [0, 1], 'mask', (14, 14), {'box': (60, 252, 414, 486), 'lines': ['I AM', 'A', 'MUSLIM']}),
         'islam-my-religion': (1, 14, [2, 3], 'mask', (14, 14), {'box': (48, 254, 315, 475), 'lines': ['ISLAM', 'IS MY', 'RELIGION']}),
         'salam': (1, 18, [0, 1], 'mask', (18, 18)),

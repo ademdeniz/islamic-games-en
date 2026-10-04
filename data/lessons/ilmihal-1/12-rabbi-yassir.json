@@ -1,0 +1,143 @@
+{
+  "title": "Du‘a for a good start – Rabbi yassir",
+  "pages": "12",
+  "intro": "Before everything we do, we ask Allah to make it easy and blessed.",
+  "learn": [
+    {
+      "type": "image",
+      "src": "img/dua-girl.webp",
+      "alt": "A girl in a pink headscarf raising her hands in du‘a",
+      "small": true
+    },
+    {
+      "type": "text",
+      "html": "Success and help in everything we do come from <b>Allah, the All-Powerful</b>. That is why, before every task, we say <b>Rabbi yassir</b>. With this du‘a we ask Allah to make our work <b>easy</b>, <b>blessed</b> and <b>happy</b>."
+    },
+    {
+      "type": "phrase",
+      "label": "Rabbi yassir",
+      "ar": "رَبِّ يَسِّرْ وَلَا تُعَسِّرْ رَبِّ تَمِّمْ بِالْخَيْرِ",
+      "tr": "Rabbi yassir wa laa tu‘assir, Rabbi tammim bil-khayr. Aameen!",
+      "en": "My Lord, make it easy and do not make it hard. My Lord, complete it with good. Ameen – O Allah, answer us!"
+    },
+    {
+      "type": "heading",
+      "text": "🎵 The first du‘a"
+    },
+    {
+      "type": "text",
+      "html": "<i>Fatima said A‘udhu billah and Bismillah,<br>full of joy;<br>she learned Rabbi yassir<br>and started with her very first du‘a.</i>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "We say Rabbi yassir before we start something: our homework, a test, a trip, helping at home…"
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Build the du‘a",
+      "prompt": "Tap the words in the right order.",
+      "items": [
+        "Rabbi yassir",
+        "wa laa tu‘assir,",
+        "Rabbi tammim",
+        "bil-khayr.",
+        "Aameen!"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "When do we say Rabbi yassir?",
+      "prompt": "Tap every time it is good to say Rabbi yassir, then tap Check.",
+      "options": [
+        {
+          "text": "📝 Before a test",
+          "correct": true
+        },
+        {
+          "text": "📚 Before homework",
+          "correct": true
+        },
+        {
+          "text": "🚗 Before a trip",
+          "correct": true
+        },
+        {
+          "text": "🧹 Before helping at home",
+          "correct": true
+        },
+        {
+          "text": "😠 Before doing something bad",
+          "correct": false,
+          "why": "We ask Allah’s help only for good things – never for something bad."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions to talk about",
+      "questions": [
+        {
+          "q": "Who gives us success and help in what we do?",
+          "options": [
+            "Allah, the All-Powerful",
+            "Our friends",
+            "Luck",
+            "Nobody"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we ask Allah for when we say Rabbi yassir?",
+          "options": [
+            "To make our work easy and blessed",
+            "For more toys",
+            "For a holiday",
+            "For nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “Rabbi yassir wa laa tu‘assir” mean?",
+          "options": [
+            "My Lord, make it easy and do not make it hard",
+            "My Lord, increase me in knowledge",
+            "In the name of Allah",
+            "Peace be upon you"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “Rabbi tammim bil-khayr” mean?",
+          "options": [
+            "My Lord, complete it with good",
+            "My Lord, forgive me",
+            "My Lord is enough for me",
+            "There is no god except Allah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Fatima say before Rabbi yassir?",
+          "options": [
+            "A‘udhu billah and Bismillah",
+            "Salam",
+            "The Shahadah",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Your turn",
+      "prompts": [
+        "🗣️ Say Rabbi yassir out loud.",
+        "💬 When would you say Rabbi yassir?"
+      ]
+    }
+  ]
+}
