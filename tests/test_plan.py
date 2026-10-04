@@ -38,9 +38,9 @@ def test_built_lessons_and_surahs_are_linked():
 def test_pillars_of_iman_quiz_and_surah_practice_every_week_for_both_groups():
     plan = build_plan.schedule()
     for w, d in enumerate(build_plan.class_days()):
-        for g, books in build_plan.BOOKS.items():
-            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
-            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
+        for g in build_plan.GROUP:
+            tracks = [t for t, _ in build_plan.GROUP[g]['tracks']]
+            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, g)
             assert games[:2] == ['kviz-imanski-sarti', 'learn-surahs-by-heart'] and len(set(games)) == len(games), (d, g, games)
 
 
@@ -106,7 +106,7 @@ def test_no_class_days_and_tajwid_start(page):
 def test_group_switch(page):
     page.goto('file://' + PARENTS)
     page.click('#grpSeg [data-g="g2"]')
-    first = page.inner_text('#w-2026-09-27').lower()
+    first = page.inner_text('#w-' + D['sundays'][0]).lower()
     assert 'group 2' in first and 'group 1' not in first and 'alif' in first
 
 
@@ -129,10 +129,10 @@ def test_python_and_page_schedules_agree(page):
             assert [x['it']['k'] for x in js[d][t]] == [it['k'] for it, _ in py[d][t]], (d, t)
     cls = build_plan.class_days()
     for w, d in enumerate(cls):
-        for g, books in build_plan.BOOKS.items():
-            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
-            want = page.evaluate(f'gamesFor({json.dumps([[{"it": {"topics": it["topics"]}} for it, _ in py[d][t]] for t in tracks])}, "{d}", {w}, {books})')
-            assert build_plan.games_for([e for t in tracks for e in py[d][t]], d, w, books) == want, (d, g)
+        for g in build_plan.GROUP:
+            tracks = [t for t, _ in build_plan.GROUP[g]['tracks']]
+            want = page.evaluate(f'gamesFor({json.dumps([[{"it": {"topics": it["topics"]}} for it, _ in py[d][t]] for t in tracks])}, "{d}", {w}, "{g}")')
+            assert build_plan.games_for([e for t in tracks for e in py[d][t]], d, w, g) == want, (d, g)
 
 
 @pytest.mark.parametrize('day', UPDATES)
@@ -148,6 +148,8 @@ def test_update_every_link_works(day):
 
 
 def test_update_shows_kids_and_homework(tmp_path, monkeypatch):
+    if not UPDATES:
+        pytest.skip('no weekly updates yet')
     day = UPDATES[0]
     info = {'kids': {'g1': 9, 'g2': 1}, 'homework': {'g2': ['Say Bismillah before eating.']}, 'note': 'Bring your Ilmihal book.'}
     real_open = open
@@ -169,9 +171,9 @@ def test_play_together_game_every_week_from_november():
     plan, cls = build_plan.schedule(), build_plan.class_days()
     tg = D['together']
     for w, d in enumerate(cls):
-        for g, books in build_plan.BOOKS.items():
-            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
-            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
+        for g in build_plan.GROUP:
+            tracks = [t for t, _ in build_plan.GROUP[g]['tracks']]
+            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, g)
             together = [x for x in games if x in tg['games']]
             assert len(together) == (1 if d >= tg['from'] else 0), (d, g, games)
 
@@ -179,9 +181,9 @@ def test_play_together_game_every_week_from_november():
 def test_one_play_alone_game_every_week_right_level():
     plan = build_plan.schedule()
     for w, d in enumerate(build_plan.class_days()):
-        for g, books in build_plan.BOOKS.items():
-            tracks = [t for t, _ in (build_plan.G1 if g == 'g1' else build_plan.G2)]
-            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, books)
+        for g in build_plan.GROUP:
+            tracks = [t for t, _ in build_plan.GROUP[g]['tracks']]
+            games = build_plan.games_for([e for t in tracks for e in plan[d][t]], d, w, g)
             solo = [x for x in games if 'solo' in D['games'][x]['topics']]
             assert len(solo) == 1, (d, g, games)
             if g == 'g1':

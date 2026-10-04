@@ -23,11 +23,12 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
+import site_settings  # noqa: E402
 import build_plan as bp  # noqa: E402
 from build_lessons_core import brand  # noqa: E402
 
 SITE = bp.SITE
-GROUPS = {'g1': ('Group 1', 'Ilmihal 2 & 3, Qur’an, Sufara & Tajwid', bp.G1), 'g2': ('Group 2', 'Ilmihal 1 & Sufara', bp.G2)}
+GROUPS = {g['id']: (g['name'], g['about'], g['tracks']) for g in bp.GROUPS}
 E = html.escape
 
 
@@ -62,7 +63,7 @@ def build(day):
     groups = []
     for g, (_, _, tracks) in GROUPS.items():
         entries = {t: plan[day][t] for t, _ in tracks}
-        games = bp.games_for([e for t, _ in tracks for e in entries[t]], day, w, bp.BOOKS[g])
+        games = bp.games_for([e for t, _ in tracks for e in entries[t]], day, w, g)
         groups.append(group_html(g, entries, games, info.get('homework', {}).get(g, [])))
     kids = info.get('kids') or {}
     att = ' · '.join(f'{GROUPS[g][0]}: <b>{n}</b> {"child" if n == 1 else "children"}' for g, n in kids.items() if n is not None)
@@ -89,7 +90,7 @@ def build(day):
 {coming}
 {f'<section class=card><h2>Dates to remember</h2><ul>{dates}</ul></section>' if dates else ''}
 <p class=tools><button id=share>🔗 Share this update</button> <a href="../../plan/">📅 The whole year’s plan</a> <a href="../">📰 All updates</a></p>
-<p class=foot>Bosnian Islamic Community of Erie · Islamic dates are approximate.</p>
+<p class=foot>{site_settings.NAME} · Islamic dates are approximate.</p>
 </main>'''
     page = TEMPLATE.replace('__TITLE__', f'Maktab Update – {dt.date.fromisoformat(day).strftime("%b %-d, %Y")}').replace('__BODY__', body)
     out = os.path.join(ROOT, 'updates', day, 'index.html')
@@ -103,7 +104,7 @@ def build_index():
     li = ''.join(f'<li><a href="{d}/">{nice(d)}</a></li>' for d in days)
     body = (f'<main><h1>Maktab Weekly Updates</h1><p>What our children learned each Sunday, with links to the lessons and games.</p>'
             f'<section class=card><ul class=list>{li}</ul></section><p class=tools><a href="../plan/">📅 The whole year’s plan</a></p>'
-            f'<p class=foot>Bosnian Islamic Community of Erie</p></main>')
+            f'<p class=foot>{site_settings.NAME}</p></main>')
     open(os.path.join(ROOT, 'updates', 'index.html'), 'w', encoding='utf-8').write(
         brand(TEMPLATE.replace('__TITLE__', 'Maktab Weekly Updates').replace('__BODY__', body)))
 

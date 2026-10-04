@@ -25,7 +25,7 @@ a.lesson:hover{border-color:var(--gold);transform:translateY(-2px)}
 <div id="books"></div>
 <script>
 const B=__DATA__;
-const PUBLIC='https://ademdeniz.github.io/islamic-games-en/';
+const PUBLIC='__SITE_URL__';
 function shareUrl(path){const local=!/^https?:$/.test(location.protocol)||/^(localhost|127\.0\.0\.1)$/.test(location.hostname);return local?PUBLIC+path:new URL(path,PUBLIC).href}   // always the public address kids can open
 async function copyLink(path,btn){const url=shareUrl(path);try{await navigator.clipboard.writeText(url);const t=btn.textContent;btn.textContent='✅ Link copied';setTimeout(()=>btn.textContent=t,1800)}catch(e){prompt('Copy this link:',url)}}
 

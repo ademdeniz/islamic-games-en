@@ -6,6 +6,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _ilmihal_bank  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import site_settings  # noqa: E402
 
 DELETE = ['<div class="footer">Pripremio Abdo ef. Rekić · Džemat Turija–Vrsta</div>']
 
@@ -37,7 +39,7 @@ T = [
     ('"mektebski-akvarij.html"', '"maktab-aquarium.html"'),
     ('"🐠 MEKTEBSKI AKVARIJ"', '"🐠 MAKTAB AQUARIUM"'),
     ('"Tačno: "+correct+"/30    Bodovi: "+score', '"Correct: "+correct+"/30    Points: "+score'),
-    ('"Pripremio Abdo ef. Rekić"', '"Bosnian Islamic Community of Erie"'),
+    ('"Pripremio Abdo ef. Rekić"', '"' + site_settings.NAME + '"'),
     ('"moj-mektebski-akvarij.png"', '"my-maktab-aquarium.png"'),
     ('$("position").textContent="Pitanje 0/30"', '$("position").textContent="Question 0/30"'),
     ('soundOn?"🔊 Zvuk uključen":"🔇 Zvuk isključen"', 'soundOn?"🔊 Sound on":"🔇 Sound off"'),

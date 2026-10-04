@@ -3,7 +3,7 @@
   python3 tools/build_duty.py
 
 Parents come from data/duty/parents.json and rotate in order, one per group per class Sunday (from "start").
-Sundays without class (data/plan/no_class.json) are skipped.
+Days without class (no_class in data/plan/plan.json) are skipped.
 """
 import datetime as dt
 import html
@@ -13,6 +13,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
+import site_settings  # noqa: E402
 import build_plan as bp  # noqa: E402
 from build_lessons_core import brand  # noqa: E402
 
@@ -38,13 +39,15 @@ def build():
                    f'<td>{E(x.get("g1") or "—")}</td><td>{E(x.get("g2") or "—")}</td></tr>' for x in P.get('done', []))
     rows += ''.join(f'<tr data-d="{d}"><td class=d>{dt.date.fromisoformat(d).strftime("%b %-d, %Y")}</td>'
                    f'<td{" class=tba" if a == TBA else ""}>{E(a)}</td><td{" class=tba" if b == TBA else ""}>{E(b)}</td></tr>' for d, a, b in rota())
-    last = rota()[-1][0]
+    if not rows:   # no families entered yet (a new mosque's starter copy)
+        rows = '<tr><td colspan=3 class=tba>The schedule will be posted soon.</td></tr>'
+    last = rota()[-1][0] if rota() else P['start']
     off = ''.join(f'<li><b>{dt.date.fromisoformat(d).strftime("%b %-d")}</b> – {E(why.removeprefix("No class – "))}</li>'
                   for d, why in sorted(bp.NO_CLASS.items()) if P['start'] <= d <= last)
     each = P['pizzas']['each']
     body = f'''<main>
 <h1>🍕 Sunday Pizza &amp; Parent Duty</h1>
-<p class=sub>Bosnian Islamic Community of Erie · Maktab 2026–27</p>
+<p class=sub>{site_settings.NAME} · Maktab 2026–27</p>
 <div class=card>
 <p>Every Sunday <b>two parents</b> – one from Group 1 and one from Group 2 – <b>stay at the maktab during their group’s class</b>, for our children’s safety, and <b>bring pizza</b> for lunch.</p>
 <table class=times>
@@ -64,7 +67,7 @@ def build():
 <tbody>{rows}</tbody></table></div>
 {f'<div class=card><b>No class (no duty):</b><ul>{off}</ul></div>' if off else ''}
 <div class=card><b>📅 What comes next</b><p>This is the <b>first round</b> – every family once{" (✓ = already done – thank you!)" if P.get("done") else ""}. More families may still join, so the <b>next round will be posted after {dt.date.fromisoformat(last).strftime("%B %-d")}</b>, with everyone included.</p></div>
-<p class=foot>Bosnian Islamic Community of Erie</p>
+<p class=foot>{site_settings.NAME}</p>
 </main>'''
     page = open(os.path.join(ROOT, 'tools', 'templates', 'duty.html'), encoding='utf-8').read().replace('__BODY__', body)
     os.makedirs(os.path.join(ROOT, 'duty'), exist_ok=True)

@@ -6,6 +6,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _ilmihal_bank  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import site_settings  # noqa: E402
 
 T = [
     ('<html lang="bs">', '<html lang="en">'),
@@ -42,7 +44,7 @@ T = [
     ("+' prolazi dalje!</h2><p>Rezultat: '", "+' goes through!</h2><p>Result: '"),
     ("'🏆 Pokreni finale':'▶️ Sljedeće polufinale'", "'🏆 Start the final':'▶️ Next semi-final'"),
     ("a.download='mektebski_turnir_A1_B3.html'", "a.download='maktab-tournament.html'"),
-    ("'MEKTEBSKI TURNIR\\nPripremio Abdo ef. Rekić\\n\\n'", "'MAKTAB TOURNAMENT\\nBosnian Islamic Community of Erie\\n\\n'"),
+    ("'MEKTEBSKI TURNIR\\nPripremio Abdo ef. Rekić\\n\\n'", "'MAKTAB TOURNAMENT\\n" + site_settings.NAME + "\\n\\n'"),
     ("(i<2?'Polufinale '+(i+1):'Finale')", "(i<2?'Semi-final '+(i+1):'Final')"),
     ("'\\nPobjednik: '+names[results[2].winner]", "'\\nWinner: '+names[results[2].winner]"),
     ("a.download='mektebski-turnir-rezultati.txt'", "a.download='maktab-tournament-results.txt'"),

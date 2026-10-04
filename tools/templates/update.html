@@ -37,7 +37,7 @@ a.game{font-size:14px;text-decoration:none;color:var(--ink);background:var(--chi
 __BODY__
 <script>
 (function(){const b=document.getElementById('share');if(!b)return;
-  const pub='https://ademdeniz.github.io/islamic-games-en/'+location.pathname.split('/').slice(-3).join('/');
+  const pub='__SITE_URL__'+location.pathname.split('/').slice(-3).join('/');
   const url=/^https?:\/\/(localhost|127\.)|^file:/.test(location.href)?pub:location.href.split('#')[0];
   b.onclick=async()=>{try{if(navigator.share){await navigator.share({title:document.title,url});return}}catch(e){return}
     try{await navigator.clipboard.writeText(url);b.textContent='✅ Link copied'}catch(e){prompt('Copy this link:',url)}}})();

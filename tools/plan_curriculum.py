@@ -2,7 +2,8 @@
 games that match each topic. Used by tools/plan/build_plan.py."""
 
 # ---------------------------------------------------------------- games (slug, title, topics)
-SITE = 'https://ademdeniz.github.io/islamic-games-en/'
+import site_settings  # noqa: E402
+SITE = site_settings.URL
 GAMES = {
     'learn-surahs-by-heart': ('Learn the Surahs by Heart', {'surah', 'fatiha', 'kursi'}),
     'memori-sure': ('Memory – Let’s Learn the Surahs', {'surah', 'fatiha'}),

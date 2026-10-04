@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Islamic Learning Games</title>
-<meta name="description" content="Islamic learning games for kids – Qur'an, Salah, Iman and Ilmihal quizzes. Bosnian Islamic Community of Erie.">
+<meta name="description" content="Islamic learning games for kids – Qur'an, Salah, Iman and Ilmihal quizzes. __SITE_NAME__.">
 <style>
 :root{--green:#075943;--green-2:#0b6b50;--gold:#c99b3b;--gold-soft:#f3e6c4;--cream:#f7f1e1;--card:#fffdf7;--ink:#17372d;--muted:#5d6b64;--line:#e6d8b3}
 *{box-sizing:border-box}
@@ -52,7 +52,7 @@ footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);font-si
 </head>
 <body>
 <div class="wrap">
-  <div class="brand"><img src="assets/logo-bz-erie-web.jpg" alt="Bosnian Islamic Community of Erie"></div>
+  <div class="brand"><img src="__LOGO__" alt="__SITE_NAME__"></div>
   <nav class="topnav" aria-label="Sections"><a href="./" class="on">🏠 Home</a><a href="sufara/">🔤 Sufara</a><a href="lessons/">📚 Lessons</a></nav>
   <header class="hero">
     <h1>🕌 Islamic Learning Games</h1>
@@ -70,7 +70,7 @@ footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);font-si
   <main id="list"></main>
   <p class="empty" id="empty">No games match. Try another word or level.</p>
 
-  <footer>Bosnian Islamic Community of Erie · English translations of maktab learning games<br>
+  <footer>__SITE_NAME__ · English translations of maktab learning games<br>
   Qur’an translation: Sahih International · Recitation: Mishary Rashid Alafasy<br>
   Games by Abdo ef. Rekić, Ilmihal lessons from El-Kalem – with permission · <a href="credits/">Credits</a></footer>
 </div>
@@ -204,7 +204,7 @@ $("#q").addEventListener("input", render);
 $("#list").addEventListener("click", async e => {
   const b = e.target.closest(".share"); if (!b) return;
   const local = !/^https?:$/.test(location.protocol) || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  const url = local ? `https://ademdeniz.github.io/islamic-games-en/games/${b.dataset.slug}/` : new URL(`games/${b.dataset.slug}/`, location.href).href;   // kids can’t open localhost links
+  const url = local ? `__SITE_URL__games/${b.dataset.slug}/` : new URL(`games/${b.dataset.slug}/`, location.href).href;   // kids can’t open localhost links
   try { await navigator.clipboard.writeText(url); toast("Link copied – paste it into WhatsApp, Viber or email"); }
   catch { prompt("Copy this link:", url); }
 });

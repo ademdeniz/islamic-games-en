@@ -15,23 +15,17 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
+import site_settings  # noqa: E402
 from plan_curriculum import FALLBACK, GAMES, ILMIHAL, SITE, SOLO, TOGETHER  # noqa: E402
 idx = open(os.path.join(ROOT, 'sufara', 'index.html'), encoding='utf-8').read()
 SUF = json.loads(re.search(r'const D=(\{.*?\});\n', idx, re.S).group(1))['pages']
 
-START, END = dt.date(2026, 9, 27), dt.date(2027, 6, 6)
-SUNDAYS = [START + dt.timedelta(weeks=k) for k in range((END - START).days // 7 + 1)]
-NO_CLASS = json.load(open(os.path.join(ROOT, 'data', 'plan', 'no_class.json'), encoding='utf-8'))   # Sundays without class
-EVENTS = {   # approximate Islamic dates 1448 AH, shown on the Sunday of that week
-    '2026-12-06': 'Laylat al-Raghaib ~Thu Dec 10',
-    '2027-01-03': 'Isra & Mi‘raj ~Tue Jan 5',
-    '2027-01-24': 'Laylat al-Bara’ah ~Sun Jan 24',
-    '2027-02-07': 'Ramadan starts ~Mon Feb 8',
-    '2027-02-14': 'Ramadan', '2027-02-21': 'Ramadan', '2027-02-28': 'Ramadan',
-    '2027-03-07': 'Laylat al-Qadr ~Fri Mar 5 · Eid al-Fitr ~Wed Mar 10',
-    '2027-05-16': 'Eid al-Adha ~Sun May 16',
-    '2027-06-06': 'Islamic New Year 1449 ~Sat Jun 5',
-}
+PLAN = json.load(open(os.path.join(ROOT, 'data', 'plan', 'plan.json'), encoding='utf-8'))   # groups, books, dates
+START, END = dt.date.fromisoformat(PLAN['start']), dt.date.fromisoformat(PLAN['end'])
+SUNDAYS = [START + dt.timedelta(weeks=k) for k in range((END - START).days // 7 + 1)]   # every class day (weekly)
+DAY = START.strftime('%A')                       # "Sunday"
+NO_CLASS = PLAN['no_class']                      # class days without class
+EVENTS = PLAN.get('events', {})                  # approximate Islamic dates, shown on the class day of that week
 EVENT_GAMES = {'Ramadan': ['ramazanski-put'], 'Laylat': ['oslobodi-papagaja'], 'Isra': ['oslobodi-papagaja'], 'Eid': ['oslobodi-papagaja', 'ramazanski-put']}
 
 TAJWID = [   # (rule, what the lesson covers)
@@ -92,41 +86,53 @@ def lesson_items(book):
     return out
 
 
-def sufara_items():
-    return [{'k': 'sf-' + p['id'], 'kind': 'Sufara', 'title': (f"{p['name']} {p['ch']}" if p['kind'] == 'letter' else p['title']),
+def sufara_items(prefix=''):
+    return [{'k': prefix + 'sf-' + p['id'], 'kind': 'Sufara', 'title': (f"{p['name']} {p['ch']}" if p['kind'] == 'letter' else p['title']),
              'sub': p['kind'], 'url': SITE + 'sufara/' + p['id'] + '/', 'topics': []} for p in SUF]
 
 
-def quran_items(n):
-    built = {2, 3, 4, 5}
+def quran_items(n, first=2):
+    built = {2, 3, 4, 5}   # Al-Baqarah pages that Read Along has
     return [{'k': f'q-{pg}', 'kind': 'Qur’an', 'title': f'Al-Baqarah – mushaf page {pg}', 'page': pg, 'topics': ['quran'],
              'url': SITE + 'games/citaj-kuran/' if pg in built else None,
-             'hint': 'Read Along → pick this page' if pg in built else 'Read Along page to build'} for pg in range(2, 2 + n)]
-
-
-def reading_items(n):
-    out = [dict(it, k='g1' + it['k']) for it in sufara_items()]   # Group 1 also starts from Alif; own ticks
-    return out
+             'hint': 'Read Along → pick this page' if pg in built else 'Read Along page to build'} for pg in range(first, first + n)]
 
 
 def tajwid_items():
     return [{'k': f'tj-{i}', 'kind': 'Tajwid', 'title': t, 'hint': h, 'url': None, 'topics': ['tajwid']} for i, (t, h) in enumerate(TAJWID)]
 
 
+LABEL = {'ilmihal': lambda t: f"Ilmihal {t['book']}", 'quran': lambda t: 'Qur’an', 'sufara': lambda t: 'Sufara',
+         'tajwid': lambda t: 'Tajwid' + (f" (from {dt.date.fromisoformat(t['from']).strftime('%B')})" if t.get('from') else '')}
+
+
+def track_items(t):
+    return {'ilmihal': lambda: lesson_items(t['book']), 'sufara': lambda: sufara_items(t.get('key_prefix', '')),
+            'quran': lambda: quran_items(len(SUNDAYS), t.get('first_page', 2)), 'tajwid': tajwid_items}[t['type']]()
+
+
+def about(g):
+    """“Ilmihal 2 & 3, Qur’an, Sufara & Tajwid” – what a group does, in words."""
+    books = [str(t['book']) for t in g['tracks'] if t['type'] == 'ilmihal']
+    parts = (['Ilmihal ' + ' & '.join(books)] if books else []) + [LABEL[t['type']](t).split(' (')[0] for t in g['tracks'] if t['type'] != 'ilmihal']
+    return ', '.join(parts[:-1]) + (' & ' if len(parts) > 1 else '') + parts[-1] if parts else ''
+
+
+GROUPS = [{'id': g['id'], 'name': g['name'], 'about': about(g),
+           'tracks': [(t['id'], LABEL[t['type']](t)) for t in g['tracks']],
+           'books': [t['book'] for t in g['tracks'] if t['type'] == 'ilmihal'] or [1]} for g in PLAN['groups']]
+GROUP = {g['id']: g for g in GROUPS}
 data = {
-    'site': SITE, 'sundays': [d.isoformat() for d in SUNDAYS], 'noClass': NO_CLASS, 'starts': {'tj': '2026-11-01'}, 'standing': [{'from': '2026-11-01', 'text': 'Maktab competition preparation (schedule TBD)'}], 'events': EVENTS, 'eventGames': EVENT_GAMES,
+    'site': SITE, 'sundays': [d.isoformat() for d in SUNDAYS], 'noClass': NO_CLASS,
+    'starts': {t['id']: t['from'] for g in PLAN['groups'] for t in g['tracks'] if t.get('from')},
+    'standing': PLAN.get('notes', []), 'events': EVENTS, 'eventGames': EVENT_GAMES,
     'games': {s: {'t': t, 'topics': sorted(tp)} for s, (t, tp) in GAMES.items()}, 'fallback': FALLBACK,
-    'always': ['kviz-imanski-sarti', 'learn-surahs-by-heart'],
-    'together': {'from': '2026-11-01', 'games': TOGETHER},   # competition prep: one 2–4 player game a week
-    'solo': SOLO,   # practice at home: one play-alone game a week (by the group's first book)   # Pillars of Iman Quiz + surah practice, every week, both groups
-    'tracks': {
-        'i1': lesson_items(1), 'sf': sufara_items(), 'i2': lesson_items(2), 'i3': lesson_items(3),
-        'qr': quran_items(len(SUNDAYS)), 'rd': reading_items(0), 'tj': tajwid_items(),
-    },
+    'always': ['kviz-imanski-sarti', 'learn-surahs-by-heart'],   # Pillars of Iman Quiz + surah practice, every week, every group
+    'together': {'from': PLAN.get('together_from', '9999'), 'games': TOGETHER},   # competition prep: one 2–4 player game a week
+    'solo': SOLO,   # practice at home: one play-alone game a week (by the group's first book)
+    'groups': [{'id': g['id'], 'name': g['name'], 'about': g['about'], 'tracks': g['tracks'], 'books': g['books']} for g in GROUPS],
+    'tracks': {t['id']: track_items(t) for g in PLAN['groups'] for t in g['tracks']},
 }
-G1 = [('i2', 'Ilmihal 2'), ('i3', 'Ilmihal 3'), ('qr', 'Qur’an'), ('rd', 'Sufara'), ('tj', 'Tajwid')]
-G2 = [('i1', 'Ilmihal 1'), ('sf', 'Sufara')]
-BOOKS = {'g1': [2, 3], 'g2': [1]}
 
 
 def class_days(no_class=None):
@@ -161,8 +167,10 @@ def schedule(no_class=None):
     return plan
 
 
-def games_for(entries, d, w, books):
+def games_for(entries, d, w, gid):
     """Matching games for one group's class – the same as gamesFor() in the page."""
+    books = GROUP[gid]['books']
+    gi = [g['id'] for g in GROUPS].index(gid)
     topics = {p for it, _ in entries for p in it['topics']}
     score = {s: len(set(g['topics']) & topics) for s, g in data['games'].items() if set(g['topics']) & topics}
     ev = data['events'].get(d, '')
@@ -186,22 +194,24 @@ def games_for(entries, d, w, books):
     tg = data['together']
     if d >= tg['from']:   # competition prep: a different play-together game each week (the groups get different ones)
         k = len([x for x in class_days() if tg['from'] <= x < d])
-        out.append(tg['games'][(k * 2 + (books[0] == 1)) % len(tg['games'])])
+        out.append(tg['games'][(k * len(GROUPS) + gi) % len(tg['games'])])
     return data['always'] + out
 
 
+YEAR = f"{START.year}–{str(END.year)[2:]}"
+WHEN = f"every {DAY} from {START.strftime('%b %-d')} to {END.strftime('%b %-d')}"
 TEXT = {
-    False: {'__TITLE__': 'Maktab Year Plan', '__H1__': 'Maktab Year Plan 2026–27',
-            '__SUB__': 'Bosnian Islamic Community of Erie · every Sunday from Sep 27 to early June. Tick lessons when you teach them. '
-                       'Mark a Sunday “No class” and the plan moves everything forward.',
+    False: {'__TITLE__': 'Maktab Year Plan', '__H1__': f'Maktab Year Plan {YEAR}',
+            '__SUB__': f'{site_settings.NAME} · {WHEN}. Tick lessons when you teach them. '
+                       f'Mark a {DAY} “No class” and the plan moves everything forward.',
             '__FOOT__': 'Islamic dates are approximate (moon sighting). Qur’an: Read Along has Al-Baqarah pages 2–5; the pages marked '
                         '“to build” come next. Tajwid topics are placeholders until their lessons exist. Items marked “continued” carry on '
                         'from the week before.'},
-    True: {'__TITLE__': 'Maktab Class Plan', '__H1__': 'Maktab Class Plan 2026–27',
-           '__SUB__': 'Bosnian Islamic Community of Erie · what each group learns every Sunday, from Sep 27 to early June. '
+    True: {'__TITLE__': 'Maktab Class Plan', '__H1__': f'Maktab Class Plan {YEAR}',
+           '__SUB__': f'{site_settings.NAME} · what each group learns {WHEN}. '
                       'Tap a lesson or a game to practise together at home. 📰 <a href="../updates/">Weekly updates</a>',
-           '__FOOT__': 'Group 1: Ilmihal 2 & 3, Qur’an (Al-Baqarah), Sufara and Tajwid. Group 2: Ilmihal 1 and Sufara. '
-                       'Dates of Islamic holidays are approximate, and the plan may change during the year. '
+           '__FOOT__': ' '.join(f"{g['name']}: {g['about']}." for g in GROUPS) +
+                       ' Dates of Islamic holidays are approximate, and the plan may change during the year. '
                        'Items marked “continued” carry on from the week before.'},
 }
 

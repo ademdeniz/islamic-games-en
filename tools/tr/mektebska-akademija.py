@@ -6,6 +6,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _ilmihal_bank  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import site_settings  # noqa: E402
 
 DELETE = ['<footer class="footer">Pripremio Abdo ef. Rekić • Mektebska akademija</footer>']
 
@@ -30,7 +32,7 @@ T = [
     ('onclick="nextQuestion()">Dalje →</button>', 'onclick="nextQuestion()">Next →</button>'),
     ('← Misije', '← Missions'), ('Ponovi misiju ↻', 'Play the mission again ↻'),
     ('<h1>DIPLOMA ZNANJA</h1><p>Mektebska akademija</p>', '<h1>DIPLOMA OF KNOWLEDGE</h1><p>Maktab Academy</p>'),
-    ('<p style="font-weight:800">Pripremio Abdo ef. Rekić</p>', '<p style="font-weight:800">Bosnian Islamic Community of Erie</p>'),
+    ('<p style="font-weight:800">Pripremio Abdo ef. Rekić</p>', '<p style="font-weight:800">' + site_settings.NAME + '</p>'),
     ('🖨️ Štampaj diplomu', '🖨️ Print the diploma'), ('← Nazad', '← Back'),
     ("const NAMES=['Prvi koraci','Mali istraživač','Poznavalac namaza','Čuvar znanja','Majstor Ilmihala','Veliki poznavalac']",
      "const NAMES=['First steps','Little explorer','Salah expert','Keeper of knowledge','Ilmihal master','Great scholar']"),

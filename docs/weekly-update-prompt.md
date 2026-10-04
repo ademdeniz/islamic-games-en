@@ -12,7 +12,7 @@ Make this week's maktab update for parents for Sunday <YYYY-MM-DD>.
 1. Read my tracker (https://claude.ai/artifact/5E6BzFBCP4NA49mbT4P1KU) with ArtifactData:
    - weeks/<date>: kids_g1, kids_g2 (number of kids in each group), notes (homework and anything else for parents)
    - every weeks/* doc with noClass – Sundays I cancelled or re-opened
-2. If the "No class" Sundays changed, update data/plan/no_class.json (with a short reason parents can read)
+2. If the "No class" Sundays changed, update no_class in data/plan/plan.json (with a short reason parents can read)
    and rebuild the plan: python3 tools/build_plan.py --private <scratchpad>/plan.html
 3. Write data/updates/<date>.json: kids {g1, g2}, homework {g1: [...], g2: [...]} and an optional note.
    Homework in plain English, one task per line, and say which book page. Leave out private notes.

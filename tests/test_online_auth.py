@@ -15,6 +15,8 @@ import gamecheck as gc
 
 GAME = 'islamski-milijunas-online'
 SUPABASE = json.load(open(os.path.join(gc.ROOT, 'supabase', 'config.json')))['url']
+if not SUPABASE:
+    pytest.skip('no Supabase project set up yet (setup guide, Step 6)', allow_module_level=True)
 USER = {'id': '11111111-1111-1111-1111-111111111111', 'aud': 'authenticated', 'role': 'authenticated',
         'email': 'kid@example.com', 'user_metadata': {'full_name': 'Test Kid'}, 'app_metadata': {},
         'created_at': '2026-01-01T00:00:00Z'}

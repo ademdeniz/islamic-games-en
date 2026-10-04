@@ -59,7 +59,7 @@ h1{margin:4px 0 2px;font-size:clamp(22px,4.5vw,30px);color:var(--green)}
 <h1>__H1__</h1>
 <p class="sub">__SUB__</p>
 <div class="bar">
-  <div class="seg" id="grpSeg"><button data-g="all">Both groups</button><button data-g="g1">Group 1</button><button data-g="g2">Group 2</button></div>
+  <div class="seg" id="grpSeg"></div>
   <button class="btn" id="toNext">Next class ↓</button>
   <button class="btn" id="pastBtn">Hide past</button>
   <span class="status" id="status">Loading saved ticks…</span>
@@ -72,8 +72,7 @@ h1{margin:4px 0 2px;font-size:clamp(22px,4.5vw,30px);color:var(--green)}
 const D=__DATA__;
 const R=!!D.readonly;   // parents' copy: no ticks, notes or “No class” switches
 if(R){document.getElementById('status').remove();document.getElementById('prog').remove()}
-const G1=[['i2','Ilmihal 2'],['i3','Ilmihal 3'],['qr','Qur’an'],['rd','Sufara'],['tj','Tajwid (from November)']];
-const G2=[['i1','Ilmihal 1'],['sf','Sufara']];
+const GROUPS=D.groups;   // [{id, name, about, tracks:[[track id, label]], books}] – from data/plan/plan.json
 const state={done:{},weeks:{}};
 let db=null,view='all',hidePast=false;
 try{view=localStorage.getItem('plan-view')||'all';hidePast=localStorage.getItem('plan-hidepast')==='1'}catch(e){}
@@ -97,7 +96,8 @@ function schedule(){
   }
   return plan;
 }
-function gamesFor(tracks,d,w,books){
+function gamesFor(tracks,d,w,gid){
+  const books=GROUPS.find(g=>g.id===gid).books,gi=GROUPS.findIndex(g=>g.id===gid);
   const topics=new Set(),score={};
   tracks.forEach(t=>t.forEach(x=>x.it.topics.forEach(p=>topics.add(p))));
   for(const [s,g] of Object.entries(D.games)){const n=g.topics.filter(p=>topics.has(p)).length;if(n)score[s]=n}
@@ -108,7 +108,7 @@ function gamesFor(tracks,d,w,books){
   if(list.length<2)for(const b of books){const f=D.fallback[b];const s=f[w%f.length];if(!list.includes(s)&&!D.always.includes(s))list.push(s);if(list.length>=3)break}
   {const so=D.solo[books[0]];list.push(so[w%so.length])}   // practice at home
   const tg=D.together;
-  if(d>=tg.from){const k=D.sundays.filter(x=>!isOff(x)&&x>=tg.from&&x<d).length;list.push(tg.games[(k*2+(books[0]===1?1:0))%tg.games.length])}   // competition prep
+  if(d>=tg.from){const k=D.sundays.filter(x=>!isOff(x)&&x>=tg.from&&x<d).length;list.push(tg.games[(k*GROUPS.length+gi)%tg.games.length])}   // competition prep
   return [...D.always,...list];
 }
 function itemHTML(x){
@@ -117,18 +117,22 @@ function itemHTML(x){
   const meta=[it.page&&it.kind.startsWith('Ilmihal')?'book p. '+it.page:'',R&&/build/.test(it.hint||'')?'':it.hint||'',it.sub&&it.sub!=='letter'?it.sub:''].filter(Boolean).join(' · ');
   return `<div class="it ${done?'done':''}">${R?'<span class="dot">•</span>':`<input type="checkbox" data-k="${it.k}" ${done?'checked':''} ${db?'':'disabled'} aria-label="Done: ${esc(it.title)}">`}<div class="t">${title}${x.cont?'<span class="cont">continued</span>':''}${meta?`<div class="meta">${esc(meta)}</div>`:''}</div></div>`;
 }
-function groupHTML(name,defs,plan,d,w,books){
+function groupHTML(g,plan,d,w){
+  const defs=g.tracks,name=esc(g.name)+(g.about?' · '+esc(g.about):'');
   const p=plan[d];
   const tr=defs.map(([t,n])=>`<div class="trk"><div class="tn">${n}</div>${(p[t]||[]).map(itemHTML).join('')||`<div class="meta">${D.starts[t]?'Starts '+fmt(D.starts[t]).replace(/^\w+, /,''):'—'}</div>`}</div>`).join('');
-  const gs=gamesFor(defs.map(([t])=>p[t]||[]),d,w,books);
+  const gs=gamesFor(defs.map(([t])=>p[t]||[]),d,w,g.id);
   return `<div class="grp"><h3>${name}</h3>${tr}<div class="tn meta">Matching games</div><div class="games">${gs.map(s=>`<a href="${D.site}games/${s}/" target="_blank" rel="noopener">🎮 ${esc(D.games[s].t)}</a>`).join('')}</div></div>`;
 }
 function render(){
   const plan=schedule(),cls=D.sundays.filter(d=>!isOff(d));
   const next=cls.find(d=>d>=today);
+  const seg=document.getElementById('grpSeg');
+  if(!seg.children.length)seg.innerHTML=`<button data-g="all">${GROUPS.length===2?'Both groups':'All groups'}</button>`+GROUPS.map(g=>`<button data-g="${g.id}">${esc(g.name)}</button>`).join('');
+  if(view!=='all'&&!GROUPS.some(g=>g.id===view))view='all';
   document.querySelectorAll('#grpSeg button').forEach(b=>b.classList.toggle('on',b.dataset.g===view));
   document.getElementById('pastBtn').textContent=hidePast?'Show past':'Hide past';
-  if(!R)document.getElementById('prog').innerHTML=[...G1,...G2].filter(([t])=>view==='all'||(view==='g1'?G1:G2).some(g=>g[0]===t)).map(([t,n])=>{
+  if(!R)document.getElementById('prog').innerHTML=GROUPS.filter(g=>view==='all'||g.id===view).flatMap(g=>g.tracks).map(([t,n])=>{
     const items=D.tracks[t].filter(it=>t!=='qr'||cls.length>=+it.page-1),done=items.filter(it=>state.done[it.k]).length;
     return `<div class="pg"><b>${n}</b>${done} of ${items.length} done<div class="meter"><i style="width:${items.length?100*done/items.length:0}%"></i></div></div>`}).join('');
   let n=0;
@@ -137,13 +141,13 @@ function render(){
     if(hidePast&&past)return '';
     const ev=D.events[d],wk=state.weeks[d]||{};
     const why=off?(wk.noClass===true?'No class':(D.noClass[d]||'No class')):'';
-    const groups=off?'':(view!=='g2'?groupHTML('Group 1 · Ilmihal 2 & 3, Qur’an, Sufara & Tajwid',G1,plan,d,w,[2,3]):'')+(view!=='g1'?groupHTML('Group 2 · Ilmihal 1 & Sufara',G2,plan,d,w,[1]):'');
+    const groups=off?'':GROUPS.filter(g=>view==='all'||g.id===view).map(g=>groupHTML(g,plan,d,w)).join('');
     return `<section class="week ${off?'off':''} ${d===next?'next':''} ${past?'past':''}" id="w-${d}">
       <div class="wh"><span class="d">${fmt(d)}</span>${off?`<span class="tag">${esc(why)}</span>`:`<span class="n">Class ${w+1} of ${cls.length}</span>`}${d===next?'<span class="tag nx">Next class</span>':''}${ev?`<span class="tag">🌙 ${esc(ev)}</span>`:''}
       ${R?'':`<label><input type="checkbox" data-off="${d}" ${off?'checked':''} ${db?'':'disabled'}> No class</label>`}</div>
       ${off?'':(()=>{const ps=(D.standing||[]).filter(s=>d>=s.from&&(!s.to||d<=s.to));return ps.length?`<div class="pins">${ps.map(s=>`<div class="pin">📝 Note: ${esc(s.text)}</div>`).join('')}</div>`:''})()}
-      <div class="grid ${view==='all'?'':'one'}">${groups}</div>
-      ${R||off?'':`<div class="kids">👧👦 Kids today: <label>Group 1 <input type="number" min="0" max="99" inputmode="numeric" data-kids="${d}|g1" value="${wk.kids_g1??''}" ${db?'':'disabled'}></label><label>Group 2 <input type="number" min="0" max="99" inputmode="numeric" data-kids="${d}|g2" value="${wk.kids_g2??''}" ${db?'':'disabled'}></label></div>`}
+      <div class="grid ${view==='all'&&GROUPS.length>1?'':'one'}" style="${view==='all'&&GROUPS.length>2?'grid-template-columns:repeat('+GROUPS.length+',1fr)':''}">${groups}</div>
+      ${R||off?'':`<div class="kids">👧👦 Kids today: ${GROUPS.map(g=>`<label>${esc(g.name)} <input type="number" min="0" max="99" inputmode="numeric" data-kids="${d}|${g.id}" value="${wk['kids_'+g.id]??''}" ${db?'':'disabled'}></label>`).join('')}</div>`}
       ${R?'':`<div class="notes"><textarea data-notes="${d}" placeholder="Notes for this class…" ${db?'':'disabled'}>${esc(wk.notes||'')}</textarea></div>`}</section>`}).join('');
 }
 function setStatus(t){document.getElementById('status').textContent=t}

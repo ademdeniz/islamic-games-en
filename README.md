@@ -31,6 +31,17 @@ New games (not translations): `games/learn-surahs-by-heart` (`tools/fetch_hifz.p
 
 Qur’an translation: Sahih International (via AlQuran.cloud) · Recitation: Mishary Rashid Alafasy
 
+## Settings – one place for the mosque's details
+
+- `site.json` – name, short name, logo file, website address, contact. Every builder reads it (`tools/site_settings.py`).
+  After a change: `python3 tools/build_site.py` rebuilds all games, lessons, Sufara, the plan, duty, credits and home page.
+  `tests/test_site_settings.py` rebuilds a copy with another mosque's details and checks nothing of Erie is left.
+- `data/plan/plan.json` – the school year: dates, no-class days, groups and their tracks (Ilmihal books, Qur'an, Sufara,
+  Tajwid), notes. `python3 tools/build_plan.py` (parents' copy) and `--private <file>` (tracker).
+- The home page is built from `tools/templates/home.html` (`python3 tools/build_home.py`) – edit the game list there.
+- `python3 tools/make_starter.py <empty folder>` makes the clean starter for other mosques (template repository
+  `ademdeniz/maktab-starter`): no updates, duty names, Supabase project or Erie logo.
+
 ## Rebuilding
 
 Every game can be rebuilt from this repository alone (`work/` is only a scratch folder):
