@@ -47,6 +47,7 @@ IMAGES = {
     'ilmihal-2': {
         'arafat': (2, 9, [0], 'photo'),
         'sajdah': (2, 11, [0, 1], 'mask', (11, 11)),
+        'mushaf': (2, 16, [0], 'photo', (16, 16)),
     },
     'ilmihal-3': {
         'straight-path': (3, 9, [0, 1, 2, 3], '2x2'),

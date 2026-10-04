@@ -1,0 +1,168 @@
+{
+  "title": "Positive attributes: Hayat, ‘Ilm, Sam‘ and Basar",
+  "pages": "22",
+  "intro": "Allah lives forever, knows everything, hears everything and sees everything.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "Al-Baqarah 2:255",
+      "text": "He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills."
+    },
+    {
+      "type": "text",
+      "html": "<b>Hayat, ‘Ilm, Sam‘ and Basar</b> belong to <b>as-sifat ath-thubutiyyah</b> – the attributes of Allah’s perfection."
+    },
+    {
+      "type": "point",
+      "title": "Hayat – Allah lives His eternal life",
+      "html": "Allah is the Ever-Living. His life is perfect, without any lack or limit, and nobody can affect it. Unlike Allah’s eternal life, the life of people and other creations is limited and full of uncertainty – and it is in His hands."
+    },
+    {
+      "type": "point",
+      "title": "‘Ilm – Allah knows everything",
+      "html": "Allah’s knowledge is perfect: it covers everything that has happened, is happening and will happen. Nothing is hidden from Him and His knowledge is not limited by time or place. He knows what we do, what we say and what we think. He gives people only as much knowledge as He wills."
+    },
+    {
+      "type": "point",
+      "title": "Sam‘ – Allah hears everything",
+      "html": "Allah’s hearing is perfect. He does not hear with ears like ours, and walls or distance do not affect His hearing. Many ayat of the Qur’an tell us that Allah hears everything."
+    },
+    {
+      "type": "point",
+      "title": "Basar – Allah sees everything",
+      "html": "Allah’s sight is perfect too. Nothing blocks it – not walls and not the darkness of the night. A message we often find in His Book is that Allah sees everything."
+    },
+    {
+      "type": "text",
+      "html": "So we know and believe that Allah lives forever, without beginning or end; His knowledge covers everything and He never forgets; and His hearing and sight have no limits, however quiet, tiny or far away something is."
+    },
+    {
+      "type": "text",
+      "html": "The Prophet (SAW) said: “The highest level of faith is to obey Allah as if you see Him – for even if you do not see Him, He surely sees you.” (Muslim)"
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the attribute and its meaning",
+      "pairs": [
+        [
+          "Hayat",
+          "Allah lives forever"
+        ],
+        [
+          "‘Ilm",
+          "Allah knows everything"
+        ],
+        [
+          "Sam‘",
+          "Allah hears everything"
+        ],
+        [
+          "Basar",
+          "Allah sees everything"
+        ]
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Which attribute?",
+      "prompt": "Which of Allah’s attributes does this show?",
+      "bins": [
+        "‘Ilm – knows",
+        "Sam‘ – hears",
+        "Basar – sees"
+      ],
+      "items": [
+        {
+          "text": "Knows what we think",
+          "bin": 0
+        },
+        {
+          "text": "Knows what will happen tomorrow",
+          "bin": 0
+        },
+        {
+          "text": "Hears the quietest du‘a",
+          "bin": 1
+        },
+        {
+          "text": "Hears us from anywhere",
+          "bin": 1
+        },
+        {
+          "text": "Sees in the darkest night",
+          "bin": 2
+        },
+        {
+          "text": "Sees behind every wall",
+          "bin": 2
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "Which group do Hayat, ‘Ilm, Sam‘ and Basar belong to?",
+          "options": [
+            "As-sifat ath-thubutiyyah – the attributes of His perfection",
+            "As-sifat adh-dhatiyyah – the attributes of His being",
+            "The pillars of Islam",
+            "The names of the angels"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does ‘Ilm mean?",
+          "options": [
+            "Allah knows everything",
+            "Allah sees everything",
+            "Allah lives forever",
+            "Allah is One"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Can anything block Allah’s sight?",
+          "options": [
+            "No – not walls and not the dark",
+            "Yes, a wall",
+            "Yes, the night",
+            "Yes, distance"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How is Allah’s life different from ours?",
+          "options": [
+            "His is eternal and perfect; ours is limited",
+            "It is the same",
+            "Ours is longer",
+            "His has a beginning"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the highest level of faith, according to the hadith?",
+          "options": [
+            "To obey Allah as if you see Him, knowing He sees you",
+            "To be very rich",
+            "To be famous",
+            "To win every game"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your mu‘allim",
+      "prompts": [
+        "💬 How would you explain to a friend that Allah knows and hears everything? Which examples would you use?",
+        "💭 Allah sees us everywhere. How does knowing that change what we do?"
+      ]
+    }
+  ]
+}

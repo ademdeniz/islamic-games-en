@@ -1,0 +1,175 @@
+{
+  "title": "Third pillar of Iman – belief in the books",
+  "pages": "16",
+  "intro": "“Wa kutubihi” – and I believe in Allah’s Books.",
+  "learn": [
+    {
+      "type": "phrase",
+      "label": "The third pillar of Iman",
+      "ar": "وَكُتُبِهِ",
+      "tr": "Wa kutubihi",
+      "en": "And (I believe in) His Books."
+    },
+    {
+      "type": "text",
+      "html": "Allah’s Books are the revelations that Allah, the Most High, sent to His prophets through the angel <b>Jibril</b>. They contain guidance, advice and rules for how people should live. Every Muslim must believe in Allah’s Books. They are divided into the <b>big books (kutub)</b> and the <b>small scrolls (suhuf)</b>."
+    },
+    {
+      "type": "heading",
+      "text": "The four big Books"
+    },
+    {
+      "type": "list",
+      "items": [
+        "📜 <b>Tawrat</b> – revealed to Musa (AS)",
+        "📜 <b>Zabur</b> – revealed to Dawud (AS)",
+        "📜 <b>Injil</b> – revealed to Isa (AS)",
+        "📖 <b>Qur’an</b> – revealed to Muhammad (SAW)"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "The Qur’an mentions the scrolls (suhuf) of Ibrahim (AS) and Musa (AS). Ibn Hibban reports that <b>50 scrolls</b> were revealed to Shith (AS), <b>30</b> to Idris (AS), <b>10</b> to Ibrahim (AS) and <b>10</b> to Musa (AS) before the Tawrat."
+    },
+    {
+      "type": "image",
+      "src": "img/mushaf.webp",
+      "alt": "An open, decorated copy of the Qur’an on a stand",
+      "small": true
+    },
+    {
+      "type": "heading",
+      "text": "The Qur’an"
+    },
+    {
+      "type": "text",
+      "html": "The Qur’an is Allah’s <b>last revelation</b>, revealed to Allah’s last Prophet, Muhammad (SAW). Its revelation began on <b>Laylat al-Qadr</b>, in the month of Ramadan, in the year <b>610</b>, in the cave of <b>Hira</b> on the mountain of Nur. It was revealed over <b>23 years</b> – 13 in Makkah and 10 in Madinah. The Qur’an has <b>114 surahs</b> and <b>6,236 ayat</b>, and it is divided into <b>30 juz’</b>."
+    },
+    {
+      "type": "heading",
+      "text": "How the Qur’an is different from the earlier revelations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "it is kept in its original form,",
+        "it was revealed to all of humankind,",
+        "it confirms all of Allah’s earlier revelations,",
+        "it is Allah’s last revelation."
+      ]
+    },
+    {
+      "type": "point",
+      "title": "💡 Good to know",
+      "html": "<b>Harf</b> – a letter · <b>Ayah</b> – a verse · <b>Surah</b> – a chapter · <b>Juz’</b> – a part of about 20 pages"
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the Book and the prophet",
+      "pairs": [
+        [
+          "Tawrat",
+          "Musa (AS)"
+        ],
+        [
+          "Zabur",
+          "Dawud (AS)"
+        ],
+        [
+          "Injil",
+          "Isa (AS)"
+        ],
+        [
+          "Qur’an",
+          "Muhammad (SAW)"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Review and answer",
+      "questions": [
+        {
+          "q": "What is the third pillar of Iman?",
+          "options": [
+            "Wa kutubihi – belief in Allah’s Books",
+            "Wa malaa’ikatihi – belief in the angels",
+            "Wal-yawmil-aakhiri – belief in the Last Day",
+            "Wa rusulihi – belief in the messengers"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Through which angel did Allah send His Books?",
+          "options": [
+            "Jibril",
+            "Mika’il",
+            "Israfil",
+            "Ridwan"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which Book was revealed to Dawud (AS)?",
+          "options": [
+            "Zabur",
+            "Tawrat",
+            "Injil",
+            "Qur’an"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where did the revelation of the Qur’an begin?",
+          "options": [
+            "In the cave of Hira",
+            "In Madinah",
+            "In Jerusalem",
+            "In Ta’if"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many surahs does the Qur’an have?",
+          "options": [
+            "114",
+            "30",
+            "286",
+            "6,236"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many years did the revelation of the Qur’an take?",
+          "options": [
+            "23",
+            "10",
+            "40",
+            "63"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is a juz’?",
+          "options": [
+            "A part of the Qur’an of about 20 pages",
+            "A single letter",
+            "One verse",
+            "A prayer"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose a task",
+      "prompts": [
+        "✏️ Make a poster about Allah’s last revelation – the Qur’an!",
+        "✏️ Find and learn the names of the last 10 surahs of the Qur’an, in order."
+      ]
+    }
+  ]
+}
