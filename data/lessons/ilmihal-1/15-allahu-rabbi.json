@@ -1,0 +1,135 @@
+{
+  "title": "Allahu Rabbi",
+  "pages": "15",
+  "intro": "Four short sentences that every Muslim child knows by heart: who is my Lord, my Prophet, my book and my religion.",
+  "learn": [
+    {
+      "type": "image",
+      "src": "img/reading-together.webp",
+      "alt": "A boy and a girl sitting on a rug, reading their books",
+      "small": true
+    },
+    {
+      "type": "phrase",
+      "label": "Learn it by heart",
+      "ar": "اللَّهُ رَبِّي، وَمُحَمَّدٌ نَبِيِّي، وَالْقُرْآنُ كِتَابِي، وَالْإِسْلَامُ دِينِي",
+      "tr": "Allaahu Rabbee, wa Muhammadun Nabiyyee, wal-Qur’aanu kitaabee, wal-Islaamu deenee.",
+      "en": "Allah is my Lord, Muhammad is my Prophet, the Qur’an is my book, Islam is my religion."
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "☝️",
+          "label": "Allahu Rabbi – Allah is my Lord"
+        },
+        {
+          "icon": "🕌",
+          "label": "Muhammadun Nabiyyi – Muhammad (SAW) is my Prophet"
+        },
+        {
+          "icon": "📖",
+          "label": "Al-Qur’anu kitabi – the Qur’an is my book"
+        },
+        {
+          "icon": "🌙",
+          "label": "Al-Islamu dini – Islam is my religion"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "These are the <b>most important questions</b> a Muslim is asked – and now you know all four answers!"
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the Arabic and the English",
+      "pairs": [
+        [
+          "Allahu Rabbi",
+          "Allah is my Lord"
+        ],
+        [
+          "Muhammadun Nabiyyi",
+          "Muhammad is my Prophet"
+        ],
+        [
+          "Al-Qur’anu kitabi",
+          "The Qur’an is my book"
+        ],
+        [
+          "Al-Islamu dini",
+          "Islam is my religion"
+        ]
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Say it in the right order",
+      "prompt": "Tap the four parts in the right order.",
+      "items": [
+        "Allahu Rabbi",
+        "wa Muhammadun Nabiyyi",
+        "wal-Qur’anu kitabi",
+        "wal-Islamu dini"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Answer the most important questions",
+      "questions": [
+        {
+          "q": "Who is your Lord?",
+          "options": [
+            "Allah",
+            "Muhammad (SAW)",
+            "The Qur’an",
+            "Islam"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who is your Prophet?",
+          "options": [
+            "Muhammad (SAW)",
+            "Allah",
+            "The Qur’an",
+            "Islam"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is your book?",
+          "options": [
+            "The Qur’an",
+            "Islam",
+            "Muhammad (SAW)",
+            "Allah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is your religion?",
+          "options": [
+            "Islam",
+            "The Qur’an",
+            "Muhammad (SAW)",
+            "Allah"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Homework and talking",
+      "prompts": [
+        "🗣️ Say “Allahu Rabbi…” to your parents without looking at the book.",
+        "👨‍👩‍👧 Ask someone at home the four questions – can they answer them?"
+      ]
+    }
+  ]
+}

@@ -41,6 +41,8 @@ IMAGES = {
         'children-dua': (1, 13, [1, 2], 'mask', (13, 13)),
         'i-am-muslim': (1, 14, [0, 1], 'mask', (14, 14), {'box': (60, 252, 414, 486), 'lines': ['I AM', 'A', 'MUSLIM']}),
         'islam-my-religion': (1, 14, [2, 3], 'mask', (14, 14), {'box': (48, 254, 315, 475), 'lines': ['ISLAM', 'IS MY', 'RELIGION']}),
+        'reading-together': (1, 15, [0, 1], 'mask', (15, 15)),
+        'mirza-and-father': (1, 16, [0, 1], 'mask', (16, 16)),
         'salam': (1, 18, [0, 1], 'mask', (18, 18)),
         'madinah-mosque': (1, 26, [0, 1], 'mask', (26, 26)),
     },
@@ -48,6 +50,7 @@ IMAGES = {
         'arafat': (2, 9, [0], 'photo'),
         'sajdah': (2, 11, [0, 1], 'mask', (11, 11)),
         'mushaf': (2, 16, [0], 'photo', (16, 16)),
+        'scales': (2, 19, [0, 1], 'mask', (19, 19)),
     },
     'ilmihal-3': {
         'straight-path': (3, 9, [0, 1, 2, 3], '2x2'),

@@ -1,0 +1,174 @@
+{
+  "title": "Fifth pillar of Iman – belief in the Last Day",
+  "pages": "19",
+  "intro": "“Wal-yawmil-aakhir” – and I believe in the Last Day.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "Az-Zalzalah 99:7–8",
+      "text": "So whoever does an atom's weight of good will see it, And whoever does an atom's weight of evil will see it."
+    },
+    {
+      "type": "phrase",
+      "label": "The fifth pillar of Iman",
+      "ar": "وَالْيَوْمِ الْآخِرِ",
+      "tr": "Wal-yawmil-aakhir",
+      "en": "And (I believe in) the Last Day."
+    },
+    {
+      "type": "text",
+      "html": "After believing in Allah, His angels, His books and His messengers, we believe in the <b>Last Day</b>. Belief in Allah and in the Last Day are the two pillars of Iman mentioned <b>most often in the Qur’an</b> – one right after the other."
+    },
+    {
+      "type": "text",
+      "html": "Allah, the Most High, created two worlds: this world, called the <b>dunya</b>, and the world to come, the <b>akhirah</b>. This world <b>passes away</b>; the world to come lasts <b>forever</b>. In this world we live and work, and our life here ends with death. Death is not the end of life – only a change in the way we live. In the next world we will be brought back to life and live forever."
+    },
+    {
+      "type": "heading",
+      "text": "Before the Day of Judgement come:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "death and the time in the <b>barzakh</b> – the life in the grave,",
+        "Israfil’s <b>first blow</b> of the trumpet (sur) and the end of this world,",
+        "Israfil’s <b>second blow</b> of the trumpet and the bringing back to life,",
+        "the <b>gathering</b> at the place of the final judgement,",
+        "each person receiving their <b>book</b>, in which their good and bad deeds are written."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img/scales.webp",
+      "alt": "Golden scales",
+      "small": true
+    },
+    {
+      "type": "text",
+      "html": "On the Day of Judgement Allah (SWT) will judge people for their good and bad deeds. Each person will stand alone to give account before Allah. A person’s deeds will be put on the <b>scales</b>: whoever’s good deeds weigh more, Allah will reward, and by Allah’s mercy their place will be in <b>Jannah</b>. Whoever’s bad deeds weigh more will be punished, and their place will be in <b>Jahannam</b> – from which the believers, by Allah’s mercy, will later be brought out."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "What comes before the Day of Judgement?",
+      "prompt": "Tap the events in the right order.",
+      "items": [
+        "Death and the life in the grave (barzakh)",
+        "Israfil’s first blow – the end of this world",
+        "Israfil’s second blow – coming back to life",
+        "The gathering for the final judgement",
+        "Each person receives their book of deeds"
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Dunya or akhirah?",
+      "prompt": "Which world is it about?",
+      "bins": [
+        "Dunya – this world",
+        "Akhirah – the world to come"
+      ],
+      "items": [
+        {
+          "text": "Passes away",
+          "bin": 0
+        },
+        {
+          "text": "We live and work here",
+          "bin": 0
+        },
+        {
+          "text": "Ends with death",
+          "bin": 0
+        },
+        {
+          "text": "Lasts forever",
+          "bin": 1
+        },
+        {
+          "text": "Deeds are weighed on the scales",
+          "bin": 1
+        },
+        {
+          "text": "Jannah and Jahannam",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Review and answer",
+      "questions": [
+        {
+          "q": "What is the fifth pillar of Iman?",
+          "options": [
+            "Wal-yawmil-aakhir – belief in the Last Day",
+            "Wa rusulihi – belief in the messengers",
+            "Wa kutubihi – belief in the books",
+            "Wa malaa’ikatihi – belief in the angels"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which two pillars of Iman does the Qur’an mention most often?",
+          "options": [
+            "Belief in Allah and in the Last Day",
+            "Belief in the angels and the books",
+            "Belief in the books and the messengers",
+            "Belief in the messengers and the angels"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the life in the grave called?",
+          "options": [
+            "Barzakh",
+            "Dunya",
+            "Akhirah",
+            "Sur"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who will blow the trumpet (sur)?",
+          "options": [
+            "Israfil",
+            "Jibril",
+            "Mika’il",
+            "Ridwan"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Is death the end of life?",
+          "options": [
+            "No – it is only a change in the way we live",
+            "Yes – nothing comes after it",
+            "Only for some people",
+            "Nobody knows"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Whose place will be in Jannah?",
+          "options": [
+            "Those whose good deeds weigh more, by Allah’s mercy",
+            "Those who are rich",
+            "Those who are strong",
+            "Those whose bad deeds weigh more"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Homework and talking",
+      "prompts": [
+        "✏️ The angels write down the good and bad deeds we do. Write a list of the good deeds you do every day.",
+        "👳 Talk with your mu‘allim: why is it good to cover other people’s faults in this world instead of telling everyone?"
+      ]
+    }
+  ]
+}

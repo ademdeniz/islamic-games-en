@@ -1,0 +1,254 @@
+{
+  "title": "Belief in Allah’s angels",
+  "pages": "27–28",
+  "intro": "“Wa mala’ikatihi” – I believe in Allah’s angels, who are with us by night and by day.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "Ar-Ra‘d 13:11",
+      "text": "For each one are successive [angels] before and behind him who protect him by the decree of Allah."
+    },
+    {
+      "type": "phrase",
+      "label": "The second truth of faith",
+      "ar": "وَمَلَائِكَتِهِ",
+      "tr": "Wa malaa’ikatihi",
+      "en": "And (I believe in) His angels."
+    },
+    {
+      "type": "text",
+      "html": "The existence of Allah’s angels is confirmed by the Qur’an and the hadith. Allah created the angels in a beautiful form, able to appear in human shape – as the angel <b>Jibril</b> appeared to Muhammad (SAW) and to <b>Maryam</b>. Jibril brought the whole Qur’an from Allah to the Prophet (SAW) over the <b>23 years</b> of his mission."
+    },
+    {
+      "type": "text",
+      "html": "Angels are <b>unseen, spiritual beings</b> with understanding, created from <b>nur</b> (light). They do not eat, drink or sleep, they are neither male nor female, and they <b>never sin</b>. They always praise and serve Allah (SWT), and that makes them happy. There are very many angels – only Allah knows how many. We know about them only what is revealed in the Qur’an or said in the hadith."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: “Angels take turns with you by night and by day.” <small>(Bukhari and Muslim)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "The best-known angels and their duties"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Jibril</b> – brought Allah’s revelation to His messengers. The Qur’an also calls him <i>Ar-Ruh al-Amin</i> (the Trustworthy Spirit) and <i>Ruh al-Qudus</i> (the Holy Spirit).",
+        "<b>Azra’il</b> (Malak al-Mawt) – the angel of death, who takes the soul from the body at the moment of death.",
+        "<b>Mika’il</b> – in charge of nature: the moving of the clouds and the falling of rain, droughts, winds, tornadoes and typhoons, the growing of plants and fruit.",
+        "<b>Israfil</b> – will announce the end of the world by blowing the trumpet (sur). The first blow will be the end of this world; the second, the bringing back to life and the start of the Day of Judgement.",
+        "<b>Kiraman Katibin</b> – the honourable scribes, who stay with people, write down their deeds and bring them good thoughts.",
+        "<b>Munkar and Nakir</b> – question every person in the grave.",
+        "<b>Ridwan</b> – the guardian of Jannah.",
+        "<b>Malik</b> – the guardian of Jahannam."
+      ]
+    },
+    {
+      "type": "text",
+      "html": "The Qur’an also mentions the angels <b>Harut and Marut</b> and the <b>Zabaniyah</b>. Because of their duties, the bond between angels and people is strong: angels guard us in our mother’s womb, look after us in this world, write down our deeds, encourage us to do good, and take the soul at the moment of death."
+    },
+    {
+      "type": "heading",
+      "text": "Some benefits of believing in the angels"
+    },
+    {
+      "type": "list",
+      "items": [
+        "It protects us from sin, because the angels write down our good and bad deeds.",
+        "We love them, because they always worship Allah and always obey Him.",
+        "Believers feel safe and calm, because Allah has given angels the duty to make du‘a for the believers and ask Allah to forgive them – and angels guard every person, and even help believers in hard times."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Crossword clues: which angel?",
+      "questions": [
+        {
+          "q": "In charge of nature and its changes",
+          "options": [
+            "Mika’il",
+            "Israfil",
+            "Ridwan",
+            "Malik"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Will blow the trumpet (sur)",
+          "options": [
+            "Israfil",
+            "Jibril",
+            "Azra’il",
+            "Mika’il"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "The guardian of Jannah",
+          "options": [
+            "Ridwan",
+            "Malik",
+            "Jibril",
+            "Israfil"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Question people in the grave",
+          "options": [
+            "Munkar and Nakir",
+            "Kiraman Katibin",
+            "Harut and Marut",
+            "Jibril and Mika’il"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "The angel of death",
+          "options": [
+            "Azra’il",
+            "Israfil",
+            "Malik",
+            "Ridwan"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "The honourable scribes",
+          "options": [
+            "Kiraman Katibin",
+            "Munkar and Nakir",
+            "Zabaniyah",
+            "Harut and Marut"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Brought the revelation",
+          "options": [
+            "Jibril",
+            "Mika’il",
+            "Israfil",
+            "Azra’il"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "The guardian of Jahannam",
+          "options": [
+            "Malik",
+            "Ridwan",
+            "Israfil",
+            "Mika’il"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "True about the angels?",
+      "prompt": "Tap everything that is true about the angels, then tap Check.",
+      "options": [
+        {
+          "text": "✨ Created from light (nur)",
+          "correct": true
+        },
+        {
+          "text": "🙈 Unseen",
+          "correct": true
+        },
+        {
+          "text": "🤲 Always obey Allah",
+          "correct": true
+        },
+        {
+          "text": "🧍 Can appear in human form",
+          "correct": true
+        },
+        {
+          "text": "🍽️ Eat and drink",
+          "correct": false,
+          "why": "Angels do not eat, drink or sleep."
+        },
+        {
+          "text": "😈 Sometimes sin",
+          "correct": false,
+          "why": "Angels never sin – they always obey Allah."
+        },
+        {
+          "text": "🔢 We know exactly how many there are",
+          "correct": false,
+          "why": "Only Allah knows how many angels there are."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "Which pillar of Iman is belief in the angels?",
+          "options": [
+            "The second",
+            "The first",
+            "The fourth",
+            "The sixth"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What are angels?",
+          "options": [
+            "Unseen, spiritual beings created from light",
+            "People who lived long ago",
+            "Jinn made of fire",
+            "Stars in the sky"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many angels are there?",
+          "options": [
+            "Very many – only Allah knows",
+            "Exactly eight",
+            "25",
+            "99"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many years did Jibril bring the Qur’an to the Prophet (SAW)?",
+          "options": [
+            "23",
+            "40",
+            "13",
+            "63"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which is a benefit of believing in the angels?",
+          "options": [
+            "It protects us from sin, because our deeds are written",
+            "We can see them whenever we want",
+            "We no longer need to pray",
+            "We don’t need to do good deeds"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your mu‘allim",
+      "prompts": [
+        "👳 Remember the story we learned earlier: the Prophet (SAW) was sitting with his Companions when a man came and asked him questions, and the Prophet answered. Who was that man, and what did he ask?"
+      ]
+    }
+  ]
+}

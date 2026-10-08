@@ -1,0 +1,105 @@
+{
+  "title": "Mirza hurries to the maktab",
+  "pages": "16",
+  "intro": "A poem about a boy who can hardly wait to go to the maktab for the first time.",
+  "learn": [
+    {
+      "type": "image",
+      "src": "img/mirza-and-father.webp",
+      "alt": "A father in a prayer cap walking hand in hand with his little son",
+      "small": true
+    },
+    {
+      "type": "heading",
+      "text": "🎵 Mirza hurries to the maktab"
+    },
+    {
+      "type": "text",
+      "html": "<i>Early in the morning, before the dawn,<br>Mirza got up out of bed,<br>he washed himself and got dressed,<br>all dressed up as if for Eid.<br><br>He is excited, all a-tremble,<br>he doesn’t say a word, he’s quiet,<br>he keeps peeking out the window,<br>looking out, waiting for his father.<br><br>No wonder he is like this –<br>yesterday his father promised<br>to walk with him to the mosque,<br>to take Mirza to the maktab.<br><br>There he will learn about Islam,<br>about Allah and the Qur’an,<br>about Allah’s beloved one,<br>Muhammad, the Prophet.</i><br><small>(Rešad Kadić)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Going to the maktab is a <b>joy</b> – there we learn about Islam, about Allah, the Qur’an and the Prophet Muhammad (SAW)."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "What did Mirza do?",
+      "prompt": "Tap Mirza’s morning in the right order.",
+      "items": [
+        "Mirza got up before dawn",
+        "He washed himself",
+        "He got dressed, as if for Eid",
+        "He waited for his father",
+        "They walked to the mosque together"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Answer the questions",
+      "questions": [
+        {
+          "q": "Why did Mirza get up so early?",
+          "options": [
+            "He was going to the maktab for the first time",
+            "He was going to school",
+            "He was going on a trip",
+            "He couldn’t sleep because of the noise"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did his father promise him?",
+          "options": [
+            "To take him to the mosque, to the maktab",
+            "To buy him a bike",
+            "To take him to the park",
+            "To play football with him"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How did Mirza feel while he waited?",
+          "options": [
+            "Excited and happy",
+            "Sad",
+            "Angry",
+            "Bored"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "He got dressed up as if for…",
+          "options": [
+            "Eid",
+            "Bedtime",
+            "Swimming",
+            "The rain"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What will Mirza learn about in the mosque?",
+          "options": [
+            "Islam, Allah, the Qur’an and the Prophet Muhammad (SAW)",
+            "Football",
+            "Cooking",
+            "Cars"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Homework and talking",
+      "prompts": [
+        "🎵 Learn the poem about Mirza by heart.",
+        "🕌 Remember the first time you went to the mosque: who did you go with, and when?",
+        "😊 How did you feel in the mosque? Talk about it with your mu‘allim and your parents."
+      ]
+    }
+  ]
+}

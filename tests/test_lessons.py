@@ -62,7 +62,7 @@ def test_lesson_data_is_valid(lesson):
 def test_lesson_is_english(lesson):
     import skel
     hits = {m.group(0) for s in strings(lesson) for m in skel.BS_WORDS.finditer(s)}
-    assert not hits - {'Rekić', 'Kadić'}, f'Bosnian words: {hits}'   # real people’s names (author, poet)
+    assert not hits - {'Rekić', 'Kadić', 'Rešad'}, f'Bosnian words: {hits}'   # real people’s names (author, poet)
 
 
 def _quotes(obj):
