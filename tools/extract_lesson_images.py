@@ -21,7 +21,9 @@ RANGES = {1: (8, 9), 2: (9, 9), 3: (9, 9)}
 # name: (book number, pdf page, [image numbers], layout[, (first, last)][, sign])
 #   sign = {'box': (x0, y0, x1, y1), 'lines': [...]}: Bosnian words painted on a sign are erased and English drawn in
 #   the optional range overrides RANGES for that picture (numbers are then counted from its first page)
-#   layout 'mask'  = colour image + soft mask;  'photo' = plain image;  '2x2' = four tiles
+#   layout 'mask'  = colour image + soft mask;  'photo' = plain image;  '2x2' = four tiles;
+#   'crop' = cut out of the rendered page – for pictures stored as many tiles; [image numbers] is then the box
+#            (left, top, right, bottom) as fractions of the page
 IMAGES = {
     'ilmihal-1': {
         'reading': (1, 8, [25, 26], 'mask'),
@@ -56,6 +58,9 @@ IMAGES = {
     'ilmihal-3': {
         'straight-path': (3, 9, [0, 1, 2, 3], '2x2'),
         'two-faces': (3, 18, [0, 1], 'side', (18, 18)),
+        'whisper': (3, 30, [0.2, 0.6, 0.83, 0.915], 'crop'),
+        'boy-reading-quran': (3, 32, [0.58, 0.25, 0.95, 0.45], 'crop'),
+        'cave-hira': (3, 34, [0.53, 0.55, 0.92, 0.97], 'crop'),
     },
 }
 
@@ -93,6 +98,15 @@ def make(layout, paths):
     img.paste(tiles[2], (0, tiles[0].height))
     img.paste(tiles[3], (tiles[2].width, tiles[1].height))
     return img
+
+
+def crop(book, page, box, tmp):
+    pdf = os.path.join(PDFS, f'Ilmihal {book}, 2020.pdf')
+    out = os.path.join(tmp, f'page-{book}-{page}')
+    subprocess.run(['pdftoppm', '-r', '200', '-png', '-singlefile', '-f', str(page), '-l', str(page), pdf, out], check=True)
+    img = Image.open(out + '.png').convert('RGB')
+    w, h = img.size
+    return img.crop((round(box[0] * w), round(box[1] * h), round(box[2] * w), round(box[3] * h)))
 
 
 def resign(img, sign):
@@ -135,6 +149,13 @@ def main():
             out_dir = os.path.join(ROOT, 'lessons', book_id, 'img')
             os.makedirs(out_dir, exist_ok=True)
             for name, (book, page, nums, layout, *more) in items.items():
+                if layout == 'crop':
+                    img = crop(book, page, nums, tmp)
+                    img.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
+                    path = os.path.join(out_dir, name + '.webp')
+                    img.save(path, 'WEBP', quality=80, method=6)
+                    print(f'{book_id}/img/{name}.webp  {img.size[0]}x{img.size[1]}  {os.path.getsize(path) // 1024} KB')
+                    continue
                 rng = [m for m in more if isinstance(m, tuple)]
                 sign = next((m for m in more if isinstance(m, dict)), None)
                 key = (book, *(rng[0] if rng else RANGES[book]))

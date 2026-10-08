@@ -1,0 +1,221 @@
+{
+  "title": "Other unseen beings – jinn and shayatin",
+  "pages": "29–30",
+  "intro": "Besides the angels, Allah created other unseen beings – the jinn – and we learn how to protect ourselves from Shaytan.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "An-Nahl 16:99–100",
+      "text": "Indeed, there is for him no authority over those who have believed and rely upon their Lord. His authority is only over those who take him as an ally and those who through him associate others with Allah."
+    },
+    {
+      "type": "text",
+      "html": "Besides the angels, Allah, the Most High, created other <b>unseen spiritual beings</b>, which we call <b>jinn</b> and <b>shayatin</b>."
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Hijr 15:27",
+      "text": "And the jinn We created before from scorching fire."
+    },
+    {
+      "type": "text",
+      "html": "Because they are unseen, people have many beliefs about the jinn, and most of them are <b>superstitions</b>. Muslims know and believe only what the Qur’an and the hadith tell us about the jinn."
+    },
+    {
+      "type": "text",
+      "html": "According to Islam, the jinn were created <b>from fire</b>, <b>before people</b>, and they lived on Earth and on other planets too. The jinn have reason, understanding, great strength and abilities. Some are good and some are bad, some are believers and some are disbelievers. <b>They see us, but we do not see them.</b>"
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Jinn 72:14",
+      "text": "And among us are Muslims [in submission to Allah], and among us are the unjust. And whoever has become Muslim - those have sought out the right course."
+    },
+    {
+      "type": "heading",
+      "text": "Shayatin"
+    },
+    {
+      "type": "text",
+      "html": "We call the disbelieving jinn <b>shayatin</b>. Their leader is <b>Iblis</b>. The shayatin are people’s <b>open enemies</b>: they fill people’s thoughts and push them towards evil, making sin look beautiful and attractive. Shaytan talked Adam (AS) into doing the forbidden deed, and he was sent out of Jannah. Shaytan does everything to lead people astray and stop them from entering Jannah: he takes them away from the Straight Path and makes the road to the fire of Jahannam look beautiful. <b>Shaytan is the symbol of evil.</b>"
+    },
+    {
+      "type": "text",
+      "html": "Wicked people who attack other people’s minds and hearts in all sorts of ways, to turn them away from the right path and from Islamic behaviour, help the shayatin in their work."
+    },
+    {
+      "type": "image",
+      "src": "img/whisper.webp",
+      "alt": "A woman walks on looking at her phone after dropping her purse; a boy bends down to pick it up",
+      "caption": "When Shaytan tempts us to do something bad, let us remember that Allah sees us in every situation."
+    },
+    {
+      "type": "heading",
+      "text": "How we protect ourselves from Shaytan"
+    },
+    {
+      "type": "text",
+      "html": "First of all, we ask for <b>Allah’s protection</b> from the accursed Shaytan, because he cannot harm those who believe and rely on Allah. We ask for it with these words:"
+    },
+    {
+      "type": "phrase",
+      "label": "Ta‘awwudh",
+      "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "tr": "A‘oodhu billaahi minash-shaytaanir-rajeem",
+      "en": "I seek Allah’s protection from the accursed Shaytan."
+    },
+    {
+      "type": "text",
+      "html": "We also ask for Allah’s protection by reciting <a href=\"../../../games/learn-surahs-by-heart/#falaq\">Surah Al-Falaq</a> and <a href=\"../../../games/learn-surahs-by-heart/#nas\">Surah An-Nas</a>. A person can do good and useful deeds and stay far from Shaytan’s evil if they follow the guidance of the Qur’an and guard themselves against Shaytan’s whispering."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: “Shaytan lies in wait at a person’s heart (to lead him astray), but when the person remembers Allah, he draws back. When the person forgets Allah, Shaytan starts to attack.” <small>(Bukhari)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Angels or jinn?",
+      "prompt": "Is it true for the angels or for the jinn?",
+      "bins": [
+        "Angels",
+        "Jinn"
+      ],
+      "items": [
+        {
+          "text": "Created from light",
+          "bin": 0
+        },
+        {
+          "text": "Never sin",
+          "bin": 0
+        },
+        {
+          "text": "Always obey Allah",
+          "bin": 0
+        },
+        {
+          "text": "Created from fire",
+          "bin": 1
+        },
+        {
+          "text": "Some are believers, some are not",
+          "bin": 1
+        },
+        {
+          "text": "Their leader is Iblis (the shayatin)",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "How do we protect ourselves from Shaytan?",
+      "prompt": "Tap everything that protects us, then tap Check.",
+      "options": [
+        {
+          "text": "🤲 Saying “A‘oodhu billaahi minash-shaytaanir-rajeem”",
+          "correct": true
+        },
+        {
+          "text": "📖 Reciting Surah Al-Falaq and Surah An-Nas",
+          "correct": true
+        },
+        {
+          "text": "💭 Remembering Allah",
+          "correct": true
+        },
+        {
+          "text": "🧭 Following the guidance of the Qur’an",
+          "correct": true
+        },
+        {
+          "text": "🧿 Wearing a lucky charm",
+          "correct": false,
+          "why": "Charms and superstitions don’t protect us – only Allah protects."
+        },
+        {
+          "text": "😴 Forgetting about Allah",
+          "correct": false,
+          "why": "When a person forgets Allah, Shaytan starts to attack."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "Which other unseen beings did Allah create besides the angels?",
+          "options": [
+            "The jinn",
+            "The messengers",
+            "The animals",
+            "The stars"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What were the jinn created from?",
+          "options": [
+            "Fire",
+            "Light",
+            "Clay",
+            "Water"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we call the disbelieving jinn?",
+          "options": [
+            "Shayatin",
+            "Angels",
+            "Prophets",
+            "Companions"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who is the leader of the shayatin?",
+          "options": [
+            "Iblis",
+            "Jibril",
+            "Malik",
+            "Israfil"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Can the jinn see us?",
+          "options": [
+            "Yes – they see us, but we don’t see them",
+            "No – nobody sees anybody",
+            "Only at night",
+            "Only on Fridays"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happens when a person remembers Allah?",
+          "options": [
+            "Shaytan draws back",
+            "Shaytan attacks",
+            "Nothing changes",
+            "The jinn become visible"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose a task",
+      "prompts": [
+        "💬 Describe a time Shaytan tempted you to do something bad. Talk with your mu‘allim about it and how you could have avoided it.",
+        "✏️ Write what you recite to protect yourself from the accursed Shaytan, and when you recite it. Share it with your classmates.",
+        "⭐ Remember: when Shaytan tempts us to do bad deeds, Allah sees us in every situation."
+      ]
+    }
+  ]
+}

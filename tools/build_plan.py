@@ -92,7 +92,8 @@ def sufara_items(prefix=''):
 
 
 def quran_items(n, first=2):
-    built = {2, 3, 4, 5}   # Al-Baqarah pages that Read Along has
+    built = {p['mushaf_page'] for p in json.load(open(os.path.join(ROOT, 'data', 'readalong.json'), encoding='utf-8'))['pages']
+             if p.get('surah', 2) == 2}   # Al-Baqarah pages that Read Along has (data/readalong.json)
     return [{'k': f'q-{pg}', 'kind': 'Qur’an', 'title': f'Al-Baqarah – mushaf page {pg}', 'page': pg, 'topics': ['quran'],
              'url': SITE + 'games/citaj-kuran/' if pg in built else None,
              'hint': 'Read Along → pick this page' if pg in built else 'Read Along page to build'} for pg in range(first, first + n)]

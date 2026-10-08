@@ -1,0 +1,166 @@
+{
+  "title": "Sixth pillar of Iman – belief in qadar",
+  "pages": "20",
+  "intro": "Everything that happens – good and bad – happens by Allah’s will and decree.",
+  "learn": [
+    {
+      "type": "phrase",
+      "label": "The sixth pillar of Iman",
+      "ar": "وَبِالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللَّهِ تَعَالَى",
+      "tr": "Wa bil-qadari khayrihi wa sharrihi minallaahi ta‘aalaa",
+      "en": "And (I believe) that everything that happens, good and bad, happens by Allah’s will and decree."
+    },
+    {
+      "type": "text",
+      "html": "This is how we understand Allah’s will and decree: Allah (SWT) is the <b>Creator of everything</b>. He decides how, when, where and what will happen. What Allah wills, happens; what He does not will, cannot happen."
+    },
+    {
+      "type": "heading",
+      "text": "When we say we believe in qadar, we believe:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "that everything was written long ago in the <b>Lawh al-Mahfuz</b>,",
+        "that nothing happens without Allah’s <b>knowledge</b>, and",
+        "that nothing happens without Allah’s <b>decree</b>."
+      ]
+    },
+    {
+      "type": "text",
+      "html": "In the <b>Lawh al-Mahfuz</b> – the Preserved Tablet – everything that happens in the heavens and on Earth is written. The destiny of every person is written there too, and everything else that can affect it. Nothing can happen that is not written."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: “You will not taste the sweetness of Iman until you believe that whatever has reached you could not have missed you, and whatever has missed you could not have reached you.” <small>(Muslim)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "What is decided for us, and what we choose"
+    },
+    {
+      "type": "text",
+      "html": "Before a person is born, it is decided when and where they will be born, who their parents will be, whether they will be a boy or a girl, what their life will be like, what their provision (rizq) will be, and when and where they will die. A person is <b>not responsible</b> for these things."
+    },
+    {
+      "type": "text",
+      "html": "A person is responsible only for the <b>deeds they choose</b>. They are completely free to choose whether to live by Allah’s rules or not, whether to carry out their Islamic duties or not, and whether to do good or evil. Because of this <b>free will</b>, a person is responsible for their deeds – in this world and in the next."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "We know what we have been <b>commanded</b>, but we do not know what has been <b>decreed</b> – so we should act on what we have been commanded."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Decided for us, or our choice?",
+      "prompt": "Is it decided for us before we are born, or is it our own choice?",
+      "bins": [
+        "Decided for us",
+        "Our choice – we are responsible"
+      ],
+      "items": [
+        {
+          "text": "Where we are born",
+          "bin": 0
+        },
+        {
+          "text": "Who our parents are",
+          "bin": 0
+        },
+        {
+          "text": "Whether we are a boy or a girl",
+          "bin": 0
+        },
+        {
+          "text": "When we will die",
+          "bin": 0
+        },
+        {
+          "text": "Whether we pray",
+          "bin": 1
+        },
+        {
+          "text": "Whether we tell the truth",
+          "bin": 1
+        },
+        {
+          "text": "Whether we do good or bad",
+          "bin": 1
+        },
+        {
+          "text": "Whether we help others",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Review and answer",
+      "questions": [
+        {
+          "q": "What is the sixth pillar of Iman?",
+          "options": [
+            "Belief in qadar – Allah’s will and decree",
+            "Belief in the Last Day",
+            "Belief in the messengers",
+            "Belief in the books"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where is everything that happens written?",
+          "options": [
+            "In the Lawh al-Mahfuz",
+            "In the Qur’an only",
+            "In our notebooks",
+            "Nowhere"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Are we responsible for where we are born?",
+          "options": [
+            "No – that is decided for us",
+            "Yes",
+            "Only sometimes",
+            "Only adults are"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What are we responsible for?",
+          "options": [
+            "The deeds we choose to do",
+            "Who our parents are",
+            "When we will die",
+            "Whether we are a boy or a girl"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why are we responsible for our deeds?",
+          "options": [
+            "Because we have free will",
+            "Because we are strong",
+            "Because we are rich",
+            "We are not responsible"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "🤲 Which good deeds would you like to do that you haven’t had the chance to do yet?",
+        "🍇 In your maktab notebook draw two bunches of grapes and write the word FREEDOM in the middle. In one bunch write how people who are not aware of Allah use their freedom; in the other, how people who are aware of Allah use it.",
+        "👳 Talk with your mu‘allim: “We know what we have been commanded, but we do not know what has been decreed.”"
+      ]
+    }
+  ]
+}

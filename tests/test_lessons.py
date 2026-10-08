@@ -28,7 +28,7 @@ def strings(obj):
         yield re.sub(r'<[^>]+>', '', obj)
     elif isinstance(obj, dict):
         for k, v in obj.items():
-            if k not in ('ar', 'bs', 'audio', 'type', 'icon', 'source', 'src', 'img', 'imgs'):   # source = book credit; bs = original poem beside its English
+            if k not in ('ar', 'bs', 'names', 'audio', 'type', 'icon', 'source', 'src', 'img', 'imgs'):   # source = book credit; bs = original poem beside its English
                 yield from strings(v)
     elif isinstance(obj, list):
         for v in obj:
@@ -62,7 +62,8 @@ def test_lesson_data_is_valid(lesson):
 def test_lesson_is_english(lesson):
     import skel
     hits = {m.group(0) for s in strings(lesson) for m in skel.BS_WORDS.finditer(s)}
-    assert not hits - {'Rekić', 'Kadić', 'Rešad'}, f'Bosnian words: {hits}'   # real people’s names (author, poet)
+    allowed = {'Rekić', 'Kadić', 'Rešad'} | set(lesson.get('names', []))   # real people’s names (author, poet; a lesson’s own "names")
+    assert not hits - allowed, f'Bosnian words: {hits}'
 
 
 def _quotes(obj):
