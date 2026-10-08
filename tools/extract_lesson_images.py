@@ -50,6 +50,7 @@ IMAGES = {
         'arafat': (2, 9, [0], 'photo'),
         'sajdah': (2, 11, [0, 1], 'mask', (11, 11)),
         'mushaf': (2, 16, [0], 'photo', (16, 16)),
+        'prophets-tree': (2, 18, [0], 'photo', (18, 18)),
         'scales': (2, 19, [0, 1], 'mask', (19, 19)),
     },
     'ilmihal-3': {

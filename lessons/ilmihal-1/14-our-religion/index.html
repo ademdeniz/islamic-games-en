@@ -25,7 +25,9 @@ h3{color:#795718;margin:18px 0 6px;font-size:18px}
 figure{margin:12px 0;text-align:center}figure img{max-width:100%;max-height:360px;border-radius:14px}figure.small img{max-height:220px}
 figcaption{font-size:14px;color:var(--muted);font-weight:600;margin-top:4px}.reflect-pic{float:right;max-width:34%;margin:0 0 8px 10px;border-radius:12px}
 .card{background:#fffaf0;border:2px solid var(--line);border-radius:14px;padding:12px;text-align:center;font-weight:700}.card .i{font-size:34px;display:block}
-ul.list{padding-left:20px}ul.list li{margin:6px 0}
+ul.list{padding-left:20px}
+.poem{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:10px 0}.poem>div{background:var(--card,#fff);border:1px solid var(--line,#e7dcc2);border-radius:12px;padding:10px 12px}.poem .pl{display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;opacity:.7;margin-bottom:4px}@media (max-width:560px){.poem{grid-template-columns:1fr}}
+ul.list li{margin:6px 0}
 .point{border:2px solid var(--line);border-radius:14px;padding:10px 14px;margin:10px 0}.point b.t{color:var(--green)}
 button{font:inherit;cursor:pointer}
 .btn{font-weight:800;border:0;border-radius:12px;padding:10px 14px;background:var(--gold2);color:#3f2d09}.btn.g{background:var(--green2);color:#fff}
@@ -109,7 +111,7 @@ function quran(q){return `<div class="quran">${esc(q.text)}<span class="ref">—
 $('learn').innerHTML=L.learn.map(b=>{
   if(b.type==='phrase')return `<div class="phrase"><div class="lbl">${esc(b.label)}</div><div class="ar" lang="ar">${b.ar}</div><div class="tr">${esc(b.tr)}</div><div class="en">${esc(b.en)}</div>`+
     (b.audio?`<button class="btn g" data-audio="${b.audio}">🔊 Listen</button>`:'')+`</div>`;
-  if(b.type==='text')return `<p>${b.html}</p>`;
+  if(b.type==='text')return b.bs?`<div class="poem"><div lang="bs"><span class="pl">Original (Bosnian)</span>${b.bs}</div><div lang="en"><span class="pl">English</span>${b.html}</div></div>`:`<p>${b.html}</p>`;
   if(b.type==='heading')return `<h3>${esc(b.text)}</h3>`;
   if(b.type==='quran')return quran(b);
   if(b.type==='list')return `<ul class="list">${b.items.map(x=>`<li>${x}</li>`).join('')}</ul>`;

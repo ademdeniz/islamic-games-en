@@ -64,6 +64,12 @@
       ]
     },
     {
+      "type": "image",
+      "src": "img/prophets-tree.webp",
+      "alt": "A tree with the names of Allah’s messengers on its flowers, with Muhammad at the top",
+      "caption": "The tree of the messengers, from the book – the names are in Bosnian spelling (for example Jusuf = Yusuf, Jakub = Ya‘qub, Ejub = Ayyub)."
+    },
+    {
       "type": "heading",
       "text": "Muhammad (SAW) – the last and most chosen messenger (571–632)"
     },
