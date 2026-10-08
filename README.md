@@ -12,6 +12,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 | Sufara | [/sufara/](https://ademdeniz.github.io/islamic-games-en/sufara/) | `data/sufara/` → `tools/build_sufara.py` |
 | Year plan for parents | [/plan/](https://ademdeniz.github.io/islamic-games-en/plan/) | `data/plan/plan.json` → `tools/build_plan.py` |
 | Weekly updates | [/updates/](https://ademdeniz.github.io/islamic-games-en/updates/) | `data/updates/<date>.json` → `tools/build_update.py` |
+| QR code for the mosque wall (always opens the newest update) | [/qr/](https://ademdeniz.github.io/islamic-games-en/qr/) | `tools/build_update.py` |
 | Pizza & parent duty | [/duty/](https://ademdeniz.github.io/islamic-games-en/duty/) | `data/duty/parents.json` → `tools/build_duty.py` |
 | Credits | [/credits/](https://ademdeniz.github.io/islamic-games-en/credits/) | `tools/build_credits.py` |
 
@@ -29,6 +30,8 @@ Group 2: Ilmihal 1 and Sufara. New lessons are added through the year, one Sunda
 - **Before class:** build the lessons for the next Sunday (`data/lessons/ilmihal-N/<book page>-<name>.json`,
   pictures via `tools/extract_lesson_images.py`, then `python3 tools/build_lessons.py`).
 - **After class:** the parents’ update – follow `docs/weekly-update-prompt.md`. Sent updates are frozen and never rebuilt.
+  Each update has a “📱 QR code” button and `updates/<date>/qr.png` (for WhatsApp); `updates/latest/` always forwards to
+  the newest one, so the printed sheet at `qr/` never needs reprinting. QR codes are made by `segno` (`.venv/bin/pip install segno`).
 - **Publish:** run the tests, commit and push to `main`. GitHub Pages updates in 2–5 minutes (Cmd+Shift+R to see it).
 
 ## Settings – one place for the mosque's details

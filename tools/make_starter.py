@@ -59,6 +59,8 @@ The teacher is usually not technical: one question at a time, plain words, show 
 - Lessons: `data/lessons/ilmihal-N/<book page>-<name>.json` → `python3 tools/build_lessons.py` (see README of the
   Erie site for the lesson format; book PDFs are needed to build new lessons and pictures).
 - Weekly parent update: `data/updates/<date>.json` → `python3 tools/build_update.py <date>`. Sent updates are not rebuilt.
+  Each update gets a QR code (button + `qr.png`); `updates/latest/` forwards to the newest one and `qr/` is the
+  printable sheet whose QR code opens it (needs `segno` in the .venv).
 - Parent duty page: `data/duty/parents.json` → `python3 tools/build_duty.py`.
 - Publishing = commit + push to `main`; GitHub Pages updates in 2–5 minutes (Ctrl/Cmd+Shift+R to see it).
 """

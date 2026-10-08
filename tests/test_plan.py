@@ -146,10 +146,60 @@ def test_update_every_link_works(day):
     path = os.path.join(gc.ROOT, 'updates', day, 'index.html')
     html = open(path, encoding='utf-8').read()
     for url in set(re.findall(r'href="([^"]+)"', html)):
-        target = local(url) if url.startswith('http') else os.path.join(os.path.dirname(path), url, 'index.html')
+        target = (local(url) if url.startswith('http') else os.path.join(os.path.dirname(path), url) if '.' in url.rsplit('/', 1)[-1]
+                  else os.path.join(os.path.dirname(path), url, 'index.html'))
         assert os.path.exists(target.split('#')[0]), url
     assert '<div class="bz-brand"><img' in html
     assert day in open(os.path.join(gc.ROOT, 'updates', 'index.html'), encoding='utf-8').read()
+
+
+@pytest.mark.parametrize('day', UPDATES)
+def test_update_qr_code_opens_this_update(day):
+    """The "📱 QR code" button shows a code for this very update; qr.png is the same code for WhatsApp."""
+    d = os.path.join(gc.ROOT, 'updates', day)
+    html = open(os.path.join(d, 'index.html'), encoding='utf-8').read()
+    url = f'{build_plan.SITE}updates/{day}/'
+    assert 'id=qrbtn' in html and f'data-url="{url}"' in html
+    assert build_update.qr(url)[1] in html, 'QR code does not encode this update\'s address'
+    assert os.path.getsize(os.path.join(d, 'qr.png')) > 0
+
+
+def test_qr_dialog_opens(page):
+    if not UPDATES:
+        pytest.skip('no weekly updates yet')
+    page.goto('file://' + os.path.join(gc.ROOT, 'updates', UPDATES[-1], 'index.html'))
+    assert not page.is_visible('dialog#qr svg')
+    page.click('#qrbtn')
+    assert page.is_visible('dialog#qr svg')
+    page.click('#qrclose')
+    assert not page.is_visible('dialog#qr svg')
+
+
+def test_latest_forwards_to_newest_update(browser):
+    """updates/latest/ is behind the printed mosque-wall QR code – it must always open the newest update."""
+    import functools, http.server, threading  # noqa: E401
+    httpd = http.server.ThreadingHTTPServer(('127.0.0.1', 0), functools.partial(
+        type('Quiet', (http.server.SimpleHTTPRequestHandler,), {'log_message': lambda *a: None}), directory=gc.ROOT))
+    threading.Thread(target=httpd.serve_forever, daemon=True).start()
+    page = browser.new_page()
+    try:
+        page.goto(f'http://127.0.0.1:{httpd.server_address[1]}/updates/latest/')
+        if not UPDATES:
+            assert 'soon' in page.inner_text('body')
+            return
+        page.wait_for_url(f'**/updates/{UPDATES[-1]}/')
+        assert 'Maktab Weekly Update' in page.inner_text('h1')
+    finally:
+        page.close()
+        httpd.shutdown()
+
+
+def test_printable_qr_sheet():
+    html = open(os.path.join(gc.ROOT, 'qr', 'index.html'), encoding='utf-8').read()
+    url = f'{build_plan.SITE}updates/latest/'
+    assert build_update.qr(url)[1] in html and '<div class="bz-brand"><img' in html
+    assert os.path.getsize(os.path.join(gc.ROOT, 'qr', 'maktab-qr.png')) > 0
+    assert 'href="../qr/"' in open(os.path.join(gc.ROOT, 'updates', 'index.html'), encoding='utf-8').read()
 
 
 def test_update_shows_kids_and_homework(tmp_path, monkeypatch):

@@ -18,8 +18,8 @@ Make this week's maktab update for parents for Sunday <YYYY-MM-DD>.
    Homework in plain English, one task per line, and say which book page. Leave out private notes.
 4. python3 tools/build_update.py <date>, then run the tests (.venv/bin/python -m pytest tests/test_plan.py -q).
 5. Show me the update. When I say yes: commit, push, and republish the tracker from the new plan.html.
-6. Give me the link (https://ademdeniz.github.io/islamic-games-en/updates/<date>/) and a short message
-   I can paste into the parents' WhatsApp group.
+6. Give me the link (https://ademdeniz.github.io/islamic-games-en/updates/<date>/), a short message
+   I can paste into the parents' WhatsApp group, and send me updates/<date>/qr.png (the QR code picture).
 ```
 
 ---

@@ -11,6 +11,10 @@ data/updates/<date>.json:
   python3 tools/build_update.py 2026-09-27      # one week (also to rebuild one on purpose)
   python3 tools/build_update.py                 # every week that has a data file but no page yet
 
+QR codes (made here, no outside service): every update has a "📱 QR code" button and an updates/<date>/qr.png for
+WhatsApp; updates/latest/ always forwards to the newest update; qr/ is the printable sheet for the mosque wall, whose
+QR code opens updates/latest/ – print it once, it never needs to change.
+
 Updates already sent to parents are not rebuilt unless you name them: later changes to the plan (new games, new
 lessons) must not quietly change what an old update said.
 """
@@ -20,6 +24,8 @@ import html
 import json
 import os
 import sys
+
+import segno
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
@@ -34,6 +40,12 @@ E = html.escape
 
 def nice(d, year=True):
     return dt.date.fromisoformat(d).strftime('%A, %B %-d, %Y' if year else '%A, %B %-d')
+
+
+def qr(url):
+    """QR code for url: inline SVG (black on white so every phone camera reads it) and the code itself for PNGs."""
+    code = segno.make(url, error='m')
+    return code, code.svg_inline(scale=1, border=4, dark='#000', light='#fff', omitsize=True)
 
 
 def item(it, cont=False):
@@ -80,6 +92,8 @@ def build(day):
     soon = [(d, why) for d, why in sorted(bp.NO_CLASS.items()) if day < d <= (dt.date.fromisoformat(day) + dt.timedelta(weeks=8)).isoformat()]
     soon += [(d, '🌙 ' + ev) for d, ev in sorted(bp.data['events'].items()) if day < d <= (dt.date.fromisoformat(day) + dt.timedelta(weeks=8)).isoformat()]
     dates = ''.join(f'<li><b>{nice(d, False)}</b> – {E(why)}</li>' for d, why in sorted(soon))
+    url = f'{SITE}updates/{day}/'
+    code, svg = qr(url)
     body = f'''<main>
 <h1>Maktab Weekly Update</h1>
 <p class=date>{nice(day)} · Class {w + 1} of {len(cls)}</p>
@@ -89,13 +103,16 @@ def build(day):
 <div class=groups>{''.join(groups)}</div>
 {coming}
 {f'<section class=card><h2>Dates to remember</h2><ul>{dates}</ul></section>' if dates else ''}
-<p class=tools><button id=share>🔗 Share this update</button> <a href="../../plan/">📅 The whole year’s plan</a> <a href="../">📰 All updates</a></p>
+<p class=tools><button id=share>🔗 Share this update</button> <button id=qrbtn>📱 QR code</button> <a href="../../plan/">📅 The whole year’s plan</a> <a href="../">📰 All updates</a></p>
 <p class=foot>{site_settings.NAME} · Islamic dates are approximate.</p>
-</main>'''
+</main>
+<dialog id=qr><div class=qrbox data-url="{E(url)}">{svg}</div><p><b>Scan with a phone camera</b><br>to open this update</p>
+<p class=tools><a href="qr.png" download="maktab-update-{day}.png">⬇️ Save picture</a> <button id=qrclose>Close</button></p></dialog>'''
     page = TEMPLATE.replace('__TITLE__', f'Maktab Update – {dt.date.fromisoformat(day).strftime("%b %-d, %Y")}').replace('__BODY__', body)
     out = os.path.join(ROOT, 'updates', day, 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(brand(page))
+    code.save(os.path.join(os.path.dirname(out), 'qr.png'), scale=12, border=4)
     return out
 
 
@@ -103,13 +120,40 @@ def build_index():
     days = sorted((os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, 'data', 'updates', '*.json'))), reverse=True)
     li = ''.join(f'<li><a href="{d}/">{nice(d)}</a></li>' for d in days)
     body = (f'<main><h1>Maktab Weekly Updates</h1><p>What our children learned each Sunday, with links to the lessons and games.</p>'
-            f'<section class=card><ul class=list>{li}</ul></section><p class=tools><a href="../plan/">📅 The whole year’s plan</a></p>'
+            f'<section class=card><ul class=list>{li}</ul></section><p class=tools><a href="../plan/">📅 The whole year’s plan</a> <a href="../qr/">🖨️ QR code for the mosque wall</a></p>'
             f'<p class=foot>{site_settings.NAME}</p></main>')
     open(os.path.join(ROOT, 'updates', 'index.html'), 'w', encoding='utf-8').write(
         brand(TEMPLATE.replace('__TITLE__', 'Maktab Weekly Updates').replace('__BODY__', body)))
 
 
+def build_latest():
+    """updates/latest/ – always forwards to the newest update (the address behind the mosque-wall QR code)."""
+    days = sorted(os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, 'data', 'updates', '*.json')))
+    if days:
+        to = f'../{days[-1]}/'
+        head = f'<meta http-equiv="refresh" content="0; url={to}"><script>location.replace({json.dumps(to)}+location.hash)</script>'
+        body = f'<main><h1>This week in the maktab</h1><p><a href="{to}">Open the newest update ({nice(days[-1])})</a></p></main>'
+    else:
+        head, body = '', ('<main><h1>This week in the maktab</h1><p>The first weekly update will be here soon.</p>'
+                          '<p class=tools><a href="../../plan/">📅 The whole year’s plan</a></p></main>')
+    page = TEMPLATE.replace('<title>', head + '<title>', 1).replace('__TITLE__', 'Maktab – this week’s update').replace('__BODY__', body)
+    os.makedirs(os.path.join(ROOT, 'updates', 'latest'), exist_ok=True)
+    open(os.path.join(ROOT, 'updates', 'latest', 'index.html'), 'w', encoding='utf-8').write(brand(page))
+
+
+def build_qr_sheet():
+    """qr/ – one printable page for the mosque wall or the fridge: the logo and a big QR code to updates/latest/."""
+    url = f'{SITE}updates/latest/'
+    code, svg = qr(url)
+    page = QR_TEMPLATE.replace('__NAME__', E(site_settings.NAME)).replace('__QR__', svg).replace('__URL__', E(url))
+    os.makedirs(os.path.join(ROOT, 'qr'), exist_ok=True)
+    open(os.path.join(ROOT, 'qr', 'index.html'), 'w', encoding='utf-8').write(brand(page))
+    code.save(os.path.join(ROOT, 'qr', 'maktab-qr.png'), scale=16, border=4)
+
+
 TEMPLATE = open(os.path.join(ROOT, 'tools', 'templates', 'update.html'), encoding='utf-8').read()
+
+QR_TEMPLATE = open(os.path.join(ROOT, 'tools', 'templates', 'qr.html'), encoding='utf-8').read()
 
 if __name__ == '__main__':
     days = sys.argv[1:] or [d for d in sorted(os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, 'data', 'updates', '*.json')))
@@ -117,3 +161,5 @@ if __name__ == '__main__':
     for d in days:
         print('built', os.path.relpath(build(d), ROOT))
     build_index()
+    build_latest()
+    build_qr_sheet()
