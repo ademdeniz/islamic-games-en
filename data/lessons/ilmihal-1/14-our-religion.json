@@ -32,7 +32,8 @@
     },
     {
       "type": "text",
-      "html": "<i>Islam is my religion,<br>Islam is my safety,<br>Islam teaches me<br>to love all of you.<br><br>Islam asks for effort,<br>for learning and for work,<br>Islam does not want lies –<br>believe while you are young.</i><br><small>(Suada Hastor)</small>"
+      "html": "<i>Islam is my religion,<br>Islam is my safety,<br>Islam teaches me<br>to love all of you.<br><br>Islam asks for effort,<br>for learning and for work,<br>Islam does not want lies –<br>believe while you are young.</i><br><small>(English translation)</small>",
+      "bs": "<i>Islam mi je vjera,<br>islam mi je spas,<br>islam mene uči<br>da volim sve vas.<br><br>Islam žrtvu traži,<br>nauku i rad,<br>islam neće laži –<br>vjeruj dok si mlad.</i><br><small>(Suada Hastor)</small>"
     },
     {
       "type": "point",
