@@ -28,7 +28,7 @@ def strings(obj):
         yield re.sub(r'<[^>]+>', '', obj)
     elif isinstance(obj, dict):
         for k, v in obj.items():
-            if k not in ('ar', 'audio', 'type', 'icon', 'source', 'src', 'img', 'imgs'):   # source = the book credit with authors' names
+            if k not in ('ar', 'bs', 'audio', 'type', 'icon', 'source', 'src', 'img', 'imgs'):   # source = book credit; bs = original poem beside its English
                 yield from strings(v)
     elif isinstance(obj, list):
         for v in obj:
