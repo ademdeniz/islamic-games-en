@@ -21,6 +21,7 @@ lessons) must not quietly change what an old update said.
 import datetime as dt
 import glob
 import html
+import io
 import json
 import os
 import sys
@@ -46,6 +47,44 @@ def qr(url):
     """QR code for url: inline SVG (black on white so every phone camera reads it) and the code itself for PNGs."""
     code = segno.make(url, error='m')
     return code, code.svg_inline(scale=1, border=4, dark='#000', light='#fff', omitsize=True)
+
+
+def font(size, bold=True):
+    from PIL import ImageFont
+    for f in (['/System/Library/Fonts/Supplemental/Arial Bold.ttf', 'C:/Windows/Fonts/arialbd.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'] if bold else
+              ['/System/Library/Fonts/Supplemental/Arial.ttf', 'C:/Windows/Fonts/arial.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf']):
+        if os.path.exists(f):
+            return ImageFont.truetype(f, size)
+    return ImageFont.load_default(size)
+
+
+def qr_card(code, path, title, sub):
+    """A picture parents can forward instead of a link: logo, title, date, a big QR code and how to scan it."""
+    from PIL import Image, ImageDraw
+    W, H, green, gold = 1080, 1440, (15, 90, 63), (201, 155, 59)
+    img = Image.new('RGB', (W, H), 'white')
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((16, 16, W - 17, H - 17), 48, outline=gold, width=12)
+    logo = Image.open(os.path.join(ROOT, site_settings.LOGO)).convert('RGBA')
+    logo.thumbnail((W - 160, 210))
+    img.paste(logo, ((W - logo.width) // 2, 70), logo)
+    y = 70 + logo.height + 40
+    for text, f, colour in ((title, font(76), green), (sub, font(44, False), (60, 52, 40))):
+        w = d.textlength(text, font=f)
+        d.text(((W - w) / 2, y), text, font=f, fill=colour)
+        y += f.size + 26
+    buf = io.BytesIO()
+    code.save(buf, kind='png', scale=1, border=2)
+    q = Image.open(buf).convert('RGB')
+    side = min(W - 240, H - y - 230)
+    q = q.resize((side // q.width * q.width,) * 2, Image.NEAREST)
+    img.paste(q, ((W - q.width) // 2, y + 10))
+    y += q.width + 50
+    for text in ('Open the camera on a phone or tablet', 'and point it at the code.'):
+        w = d.textlength(text, font=font(44, False))
+        d.text(((W - w) / 2, y), text, font=font(44, False), fill=(60, 52, 40))
+        y += 58
+    img.save(path, optimize=True)
 
 
 def item(it, cont=False):
@@ -112,7 +151,7 @@ def build(day):
     out = os.path.join(ROOT, 'updates', day, 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(brand(page))
-    code.save(os.path.join(os.path.dirname(out), 'qr.png'), scale=12, border=4)
+    qr_card(code, os.path.join(os.path.dirname(out), 'qr.png'), 'Maktab Weekly Update', nice(day))
     return out
 
 
@@ -148,7 +187,7 @@ def build_qr_sheet():
     page = QR_TEMPLATE.replace('__NAME__', E(site_settings.NAME)).replace('__QR__', svg).replace('__URL__', E(url))
     os.makedirs(os.path.join(ROOT, 'qr'), exist_ok=True)
     open(os.path.join(ROOT, 'qr', 'index.html'), 'w', encoding='utf-8').write(brand(page))
-    code.save(os.path.join(ROOT, 'qr', 'maktab-qr.png'), scale=16, border=4)
+    qr_card(code, os.path.join(ROOT, 'qr', 'maktab-qr.png'), 'This week in the maktab', 'Lessons, Qur’an, Sufara & games')
 
 
 TEMPLATE = open(os.path.join(ROOT, 'tools', 'templates', 'update.html'), encoding='utf-8').read()
