@@ -207,7 +207,7 @@ async function refresh() {
   $('login').classList.toggle('hide', !!user); $('logoutBtn').classList.toggle('hide', !user);
   if (!user) { $('app').classList.add('hide'); return msg(''); }
   const { data: p } = await sb.from('profiles').select('role').eq('id', user.id).maybeSingle();
-  if (!p || p.role !== 'admin') { $('app').classList.add('hide'); return msg('This account is not the administrator, so it cannot see the waivers.', true); }
+  if (!p || p.role !== 'admin') { $('app').classList.add('hide'); return msg('You are logged in as ' + user.email + ', which is not the administrator account, so it cannot see the waivers. Log out and use the administrator account, or make this one the administrator in Supabase (see README).', true); }
   $('app').classList.remove('hide');
   await load();
 }
