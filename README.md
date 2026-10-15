@@ -13,6 +13,9 @@ Test: `.venv/bin/pytest tests`
 
 `islamski-milijunas-online` uses our own Supabase project (`supabase/config.json`, publishable key only).
 Database setup: run `supabase/schema.sql` in the Supabase SQL Editor; test it locally with `tests/run_supabase_test.sh`.
+Youth Gathering 2026 parent waiver (separate from the games, not linked from the home page):
+`waiver/index.html` – the form parents sign on their phone · `waiver/admin.html` – signed waivers, print, CSV (admin only).
+Database setup: run `supabase/waiver.sql` in the SQL Editor after `schema.sql`; it is tested by the same script.
 Not linked from the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`) and `el-fatiha`
 (replaced by `learn-surahs-by-heart`, which includes Al-Fatiha).
 
