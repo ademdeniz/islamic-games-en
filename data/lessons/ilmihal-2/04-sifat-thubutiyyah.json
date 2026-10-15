@@ -1,0 +1,182 @@
+{
+  "number": 4,
+  "title": "The positive attributes of Allah (as-sifat ath-thubutiyyah)",
+  "pages": "12–13",
+  "intro": "The eight attributes of Allah’s perfection – and the blessings He gave us.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>As-sifat ath-thubutiyyah</b> are the attributes of Allah’s <b>perfection</b>, with which He, the Most High, described Himself. There are <b>eight</b> of them:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Hayah</b> – Allah lives His eternal life. <i>It has no beginning and no end.</i>",
+        "<b>‘Ilm</b> – Allah knows everything. <i>His knowledge covers everything.</i>",
+        "<b>Sam‘</b> – Allah hears everything. <i>His hearing covers everything.</i>",
+        "<b>Basar</b> – Allah sees everything. <i>His sight covers everything.</i>",
+        "<b>Iradah</b> – Allah does everything by His will. <i>He does not depend on anyone.</i>",
+        "<b>Qudrah</b> – Allah is All-Powerful. <i>His power covers everything.</i>",
+        "<b>Kalam</b> – Allah speaks with His divine speech. <i>His speech is perfect.</i>",
+        "<b>Takwin</b> – Allah creates, keeps and ends everything. <i>His decisions are final.</i>"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Through these attributes we believe that Allah’s qualities are <b>perfect</b>. Allah (SWT) gave people qualities with the same names – but ours are <b>limited</b>. For example, ‘Ilm: Allah knows everything, but a person’s knowledge is limited."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Each of Allah’s attributes is mentioned in the Qur’an. People must not describe Him in any other way than the way He described Himself."
+    },
+    {
+      "type": "heading",
+      "text": "A list of blessings"
+    },
+    {
+      "type": "text",
+      "html": "Allah gave us many blessings: <b>life, knowledge, hearing, sight, will, strength, speech</b> and a <b>mind</b>. We thank Allah for them by saying:"
+    },
+    {
+      "type": "phrase",
+      "label": "We thank Allah",
+      "ar": "الْحَمْدُ لِلَّهِ",
+      "tr": "Al-hamdu lillaah",
+      "en": "All praise is for Allah."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the attribute and its meaning",
+      "pairs": [
+        [
+          "Hayah",
+          "Allah lives forever"
+        ],
+        [
+          "‘Ilm",
+          "Allah knows everything"
+        ],
+        [
+          "Sam‘",
+          "Allah hears everything"
+        ],
+        [
+          "Basar",
+          "Allah sees everything"
+        ],
+        [
+          "Qudrah",
+          "Allah is All-Powerful"
+        ],
+        [
+          "Kalam",
+          "Allah speaks"
+        ]
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Allah or people?",
+      "prompt": "Is this about Allah’s perfect attributes, or about people’s limited ones?",
+      "bins": [
+        "Allah – perfect",
+        "People – limited"
+      ],
+      "items": [
+        {
+          "text": "Knows everything",
+          "bin": 0
+        },
+        {
+          "text": "Hears every whisper, everywhere",
+          "bin": 0
+        },
+        {
+          "text": "Lives forever, with no beginning",
+          "bin": 0
+        },
+        {
+          "text": "Learns a little more each day",
+          "bin": 1
+        },
+        {
+          "text": "Needs glasses to see far away",
+          "bin": 1
+        },
+        {
+          "text": "Gets tired and needs to sleep",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Review and answer",
+      "questions": [
+        {
+          "q": "How many attributes of Allah’s perfection are there?",
+          "options": [
+            "8",
+            "6",
+            "14",
+            "99"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Basar mean?",
+          "options": [
+            "Allah sees everything",
+            "Allah hears everything",
+            "Allah speaks",
+            "Allah is One"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Takwin mean?",
+          "options": [
+            "Allah creates, keeps and ends everything",
+            "Allah sleeps",
+            "Allah is far away",
+            "Allah forgets"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How is our knowledge different from Allah’s knowledge?",
+          "options": [
+            "Ours is limited, His covers everything",
+            "It is the same",
+            "Ours is bigger",
+            "Allah has no knowledge"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How do we thank Allah for His blessings?",
+          "options": [
+            "By saying Al-hamdu lillah",
+            "By saying nothing",
+            "By being proud",
+            "By forgetting them"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Review and answer",
+      "prompts": [
+        "💭 Is this list of blessings that Allah gave us complete? What else would you add?",
+        "✏️ From the list of blessings, write down the ones you have. Then swap with the friend next to you.",
+        "🤲 Thank Allah for your blessings together: Al-hamdu lillah!",
+        "✏️ In your notebook, draw ALLAH (SWT) in a box with the 14 attributes – 6 + 8 – underneath."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "title": "Essential attributes: Wahdaniyyah, Mukhalafatun lil-hawadith, Qiyamun bi-nafsihi",
+  "pages": "21",
+  "intro": "Allah is One, nothing is like Him, and He needs no one.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "Al-Ikhlas 112:1–4",
+      "text": "Say, \"He is Allah, [who is] One, Allah, the Eternal Refuge. He neither begets nor is born, Nor is there to Him any equivalent.\""
+    },
+    {
+      "type": "text",
+      "html": "These three also belong to <b>as-sifat adh-dhatiyyah</b>, the attributes of Allah’s being:"
+    },
+    {
+      "type": "point",
+      "title": "Wahdaniyyah – Allah is One",
+      "html": "Allah is absolutely One in everything – in His being, in His attributes and in His beautiful names. He has no partner and no associate. Thinking about everything that exists leads people to Allah’s Oneness."
+    },
+    {
+      "type": "point",
+      "title": "Mukhalafatun lil-hawadith – Allah is not like anyone or anything",
+      "html": "Allah is completely different from everything He created, even though His creations are like each other in many ways. Comparing Him with anyone or anything puts our belief in danger."
+    },
+    {
+      "type": "point",
+      "title": "Qiyamun bi-nafsihi – Allah exists by Himself",
+      "html": "Allah exists without anyone’s help, and nothing can question His existence. He needs nothing in order to exist, because He is perfect in everything. He is not limited by time or place."
+    },
+    {
+      "type": "quran",
+      "ref": "Al-Anbiya 21:22",
+      "text": "Had there been within the heavens and earth gods besides Allah, they both would have been ruined."
+    },
+    {
+      "type": "text",
+      "html": "The Prophet (SAW) said: “Think about Allah’s creations, and do not think about Allah’s Being.” (Tabarani)"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The Prophet (SAW) told us that Allah, the Most High, says: “O My servants, it is all about your deeds, which I keep and count for you, and for which I will reward you. Whoever finds good, let him praise Allah; and whoever finds something else, let him blame no one but himself.” (Muslim)"
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the attribute and its meaning",
+      "pairs": [
+        [
+          "Wahdaniyyah",
+          "Allah is One"
+        ],
+        [
+          "Mukhalafatun lil-hawadith",
+          "Allah is not like anything"
+        ],
+        [
+          "Qiyamun bi-nafsihi",
+          "Allah needs no one"
+        ]
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "How do we depend on Allah?",
+      "prompt": "Allah depends on no one – but we depend on Him. Tap everything we need from Allah, then tap Check.",
+      "options": [
+        {
+          "text": "💨 The air we breathe",
+          "correct": true
+        },
+        {
+          "text": "💧 Water and rain",
+          "correct": true
+        },
+        {
+          "text": "🍎 Our food",
+          "correct": true
+        },
+        {
+          "text": "❤️ Our life and health",
+          "correct": true
+        },
+        {
+          "text": "🙅 Nothing – we need nothing",
+          "correct": false,
+          "why": "Everything we have comes from Allah – only He needs no one."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "What does Wahdaniyyah mean?",
+          "options": [
+            "Allah is One",
+            "Allah is forever",
+            "Allah sees everything",
+            "Allah speaks"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Mukhalafatun lil-hawadith mean?",
+          "options": [
+            "Allah is not like anyone or anything",
+            "Allah exists",
+            "Allah knows everything",
+            "Allah creates"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Qiyamun bi-nafsihi mean?",
+          "options": [
+            "Allah exists by Himself and needs no one",
+            "Allah has always been",
+            "Allah hears everything",
+            "Allah lives"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How does the Prophet (SAW) advise us to come to know Allah?",
+          "options": [
+            "Think about Allah’s creations, not about His Being",
+            "Try to imagine what Allah looks like",
+            "Compare Allah with people",
+            "Don’t think at all"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which surah says “Nor is there to Him any equivalent”?",
+          "options": [
+            "Al-Ikhlas",
+            "Al-Fatihah",
+            "Al-Kawthar",
+            "Al-Fil"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose a task",
+      "prompts": [
+        "✏️ Allah depends on no one – but how do we depend on Allah? Find some real examples and write them down.",
+        "🌱 Watch nature wake up in spring and go to rest in autumn. Write down your questions and talk about them with your mu‘allim."
+      ]
+    }
+  ]
+}

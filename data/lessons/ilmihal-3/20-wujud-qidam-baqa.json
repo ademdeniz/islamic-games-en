@@ -1,0 +1,163 @@
+{
+  "title": "Essential attributes: Wujud, Qidam and Baqa",
+  "pages": "20",
+  "intro": "Allah exists, has always been, and will be forever.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "Adh-Dhariyat 51:20–21",
+      "text": "And on the earth are signs for the certain [in faith] And in yourselves. Then will you not see?"
+    },
+    {
+      "type": "text",
+      "html": "In the Qur’an, Allah (SWT) revealed ayat about Himself so that people can know Him and believe in Him. His attributes belong only to Him and speak of His exalted Being and His perfection. People may describe Allah <b>only the way He described Himself</b> in His Book, and may never compare any creation with Him."
+    },
+    {
+      "type": "text",
+      "html": "Allah’s attributes are divided into <b>as-sifat adh-dhatiyyah</b> – the attributes of His being – and <b>as-sifat ath-thubutiyyah</b> – the attributes of His perfection. <b>Wujud, Qidam and Baqa</b> belong to the first group."
+    },
+    {
+      "type": "point",
+      "title": "Wujud – Allah exists",
+      "html": "Allah is unseen to us, but He has given us proofs of His existence. His existence is beyond doubt, because our creation and existence come from His. In this passing world nothing came about by itself – everything has a cause, and Allah (SWT) is the cause of all causes. We exist, so we believe that Allah exists."
+    },
+    {
+      "type": "point",
+      "title": "Qidam – Allah has always been",
+      "html": "Allah’s existence has no beginning and was never brought about. He is the First, because He never came into being."
+    },
+    {
+      "type": "point",
+      "title": "Baqa – Allah is forever",
+      "html": "Because Allah has no beginning, He has no end either. Eternity belongs to Him, without beginning and without end: what never came into being will never end."
+    },
+    {
+      "type": "text",
+      "html": "No human mind can fully understand “always” and “forever” – that is why it is our duty to believe in them firmly."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Talk with your mu‘allim",
+      "html": "Eternity belongs to Allah (SWT); everything He created passes away."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the attribute and its meaning",
+      "pairs": [
+        [
+          "Wujud",
+          "Allah exists"
+        ],
+        [
+          "Qidam",
+          "Allah has always been"
+        ],
+        [
+          "Baqa",
+          "Allah is forever"
+        ]
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Allah or His creation?",
+      "prompt": "Does this describe Allah, or the things He created?",
+      "bins": [
+        "Allah",
+        "Creation"
+      ],
+      "items": [
+        {
+          "text": "Has no beginning",
+          "bin": 0
+        },
+        {
+          "text": "Has no end",
+          "bin": 0
+        },
+        {
+          "text": "The cause of all causes",
+          "bin": 0
+        },
+        {
+          "text": "Came into being",
+          "bin": 1
+        },
+        {
+          "text": "Will pass away",
+          "bin": 1
+        },
+        {
+          "text": "Needs a cause",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Questions",
+      "questions": [
+        {
+          "q": "How are Allah’s attributes divided?",
+          "options": [
+            "Attributes of His being and attributes of His perfection",
+            "Big and small",
+            "Old and new",
+            "Seen and unseen"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Wujud mean?",
+          "options": [
+            "Allah exists",
+            "Allah is forever",
+            "Allah sees everything",
+            "Allah speaks"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Qidam mean?",
+          "options": [
+            "Allah has always been – He has no beginning",
+            "Allah is One",
+            "Allah hears everything",
+            "Allah creates"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Baqa mean?",
+          "options": [
+            "Allah is forever – He has no end",
+            "Allah exists",
+            "Allah knows everything",
+            "Allah is not like anything"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How may we describe Allah?",
+          "options": [
+            "Only the way He described Himself",
+            "Any way we like",
+            "By comparing Him with people",
+            "With pictures"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your mu‘allim",
+      "prompts": [
+        "💭 Name some signs on Earth and in yourself that show that Allah exists.",
+        "💬 Why can’t our mind fully understand “always” and “forever”?"
+      ]
+    }
+  ]
+}

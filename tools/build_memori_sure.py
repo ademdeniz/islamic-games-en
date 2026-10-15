@@ -8,12 +8,14 @@ Run from the project root:  python3 tools/build_memori_sure.py
 import base64
 import json
 import subprocess
+import sys
 import urllib.request
 
 OUT = 'games/memori-sure/index.html'
-src = subprocess.run(['git', 'show', 'f2614cc:' + OUT], capture_output=True, text=True, check=True).stdout
+src = open('tools/tr/memori-sure.base.html', encoding='utf-8').read()   # the page as first translated (commit f2614cc)
 data = json.load(open('data/surahs.json', encoding='utf-8'))
-logo = base64.b64encode(open('assets/logo-bz-erie-web.jpg', 'rb').read()).decode()
+sys.path.insert(0, 'tools')
+import site_settings  # noqa: E402
 
 # Global ayah number of the first ayah of each surah (used by the audio CDN).
 surahs = json.load(urllib.request.urlopen('https://api.alquran.cloud/v1/surah'))['data']
@@ -22,10 +24,31 @@ for s in surahs:
     start[s['number']] = total + 1
     total += s['numberOfAyahs']
 
+# Transliteration: use the verified, recitation-style text from data/hifz.json (Quran.com words, kid-friendly spelling,
+# see tools/fetch_hifz.py) instead of the hand-written lines of the first English version.
+HIFZ = {'1': 'fatiha', '2': 'alif-lam-mim', '101': 'qariah', '102': 'takathur', '103': 'asr', '104': 'humazah', '105': 'fil',
+        '106': 'quraysh', '107': 'maun', '108': 'kawthar', '109': 'kafirun', '110': 'nasr', '111': 'masad', '112': 'ikhlas',
+        '113': 'falaq', '114': 'nas'}
+hifz = {x['id']: x for x in json.load(open('data/hifz.json', encoding='utf-8'))['surahs']}
+
+
+def verified_lines(n):
+    lines = [l for l in hifz[HIFZ[str(n)]]['lines'] if l['n'] > 0]   # no separate Bismillah line (Al-Fatiha's is ayah 1)
+    return [(lambda t: t[:1].upper() + t[1:])(' '.join(l['wtr'])) for l in lines]
+
+
 # Game surah names (keys of S, in order) -> surah numbers.
 NUMS = [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 1, 2]
 names = json.loads(src[src.index('const S=') + 8:src.index('};', src.index('const S=')) + 1]).keys()
 EN, META = {}, {}
+s_start = src.index('const S=')
+s_end = src.index('};', s_start) + 2
+S = json.loads(src[s_start + 8:s_end - 1])
+for name, n in zip(names, NUMS):
+    new = verified_lines(n)
+    assert len(new) == len(S[name]), (name, len(new), len(S[name]))
+    S[name] = new
+src = src[:s_start] + 'const S=' + json.dumps(S, ensure_ascii=False) + ';' + src[s_end:]
 for name, n in zip(names, NUMS):
     EN[name] = [a['en'] for a in data[str(n)]['ayahs']]
     META[name] = {'g': start[n], 'q': '2/1-5' if n == 2 else str(n)}
@@ -68,7 +91,7 @@ function setLink(){document.getElementById('qlink').href='https://quran.com/'+ME
 R = [
     ('</style>', CSS + '</style>'),
     ('<b>Prepared by: Abdo ef. Rekić</b>', ''),
-    ('<header>', '<div class="brand"><img alt="Bosnian Islamic Community of Erie" src="data:image/jpeg;base64,' + logo + '"></div>\n<header>'),
+    ('<header>', '<div class="brand"><img alt="' + site_settings.NAME + '" src="' + site_settings.logo_data_uri() + '"></div>\n<header>'),
     ('<select id="surah"></select></div>',
      '<select id="surah"></select>'
      '<div class="listen"><button id="play" class="act">▶ Listen</button>'

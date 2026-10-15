@@ -6,7 +6,9 @@
 *{box-sizing:border-box}body{margin:0;background:#fff8e7;color:#17130d;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
 main{max-width:900px;margin:auto;padding:12px 16px 30px}h1{text-align:center;color:#795718;margin:10px 0 4px;font-size:clamp(24px,5vw,34px)}
 .sub{text-align:center;color:#665a48;margin-bottom:12px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 12px}
+.chips{display:flex;flex-direction:column;gap:8px;align-items:center;margin:0 0 12px}
+.grp{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center}.gname{font-weight:800;color:#5b4212;margin-right:4px}
+.chip small{font-weight:600;opacity:.75;margin-left:4px}
 .chip{font:inherit;font-weight:800;font-size:15px;padding:9px 14px;border-radius:999px;border:2px solid #c99b3e;background:#fff;color:#5b4212;cursor:pointer}
 .chip[aria-pressed="true"]{background:#176b45;border-color:#176b45;color:#fff}
 .card{background:#fff;border:3px solid #c99b3e;border-radius:22px;padding:18px;box-shadow:0 7px 22px #0002}
@@ -105,11 +107,13 @@ player.addEventListener('ended',()=>{cancelAnimationFrame(raf);clearMarks();
 function go(d){stopAudio();i=Math.max(0,Math.min(page().lines.length-1,i+d));render()}
 function next(){if(i<page().lines.length-1){go(1)}else{stopAudio();status('🌟 Well done! You read the whole page, '+page().title+'.')}}
 function choosePage(k){stopAudio();pageIdx=k;i=0;store('page',k);
-  document.querySelectorAll('#pages .chip').forEach((c,n)=>c.setAttribute('aria-pressed',n===k));render()}
+  document.querySelectorAll('#pages .chip').forEach(c=>c.setAttribute('aria-pressed',+c.dataset.k===k));render()}
 function setRate(r){rate=r;player.defaultPlaybackRate=r;player.playbackRate=r;store('rate',r);
   document.querySelectorAll('#speed button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.rate===r))}
-$('pages').innerHTML=DATA.pages.map((p,k)=>`<button class="chip" aria-pressed="${k===0}">${p.title}</button>`).join('');
-document.querySelectorAll('#pages .chip').forEach((c,k)=>c.addEventListener('click',()=>choosePage(k)));
+const groups=[];DATA.pages.forEach((p,k)=>{const name=p.title.split(' – ')[0];let g=groups.find(x=>x.name===name);if(!g)groups.push(g={name,items:[]});g.items.push(k)});
+$('pages').innerHTML=groups.map(g=>`<div class="grp"><span class="gname">${g.name}:</span>`+g.items.map(k=>{const p=DATA.pages[k];
+  return `<button class="chip" data-k="${k}" aria-pressed="false">Page ${p.mushaf_page}<small>${p.ayahs}</small></button>`}).join('')+'</div>').join('');
+document.querySelectorAll('#pages .chip').forEach(c=>c.addEventListener('click',()=>choosePage(+c.dataset.k)));
 $('reciter').innerHTML=Object.entries(DATA.reciters).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
 $('reciter').addEventListener('change',e=>{stopAudio();reciter=e.target.value;player.dataset.src='';store('reciter',reciter);render()});
 document.querySelectorAll('#speed button').forEach(b=>b.addEventListener('click',()=>setRate(+b.dataset.rate)));

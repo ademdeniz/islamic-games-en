@@ -55,6 +55,8 @@ def test_transliteration_is_kid_friendly_and_recited_style():
     ikhlas = BY_ID['ikhlas']['lines']
     assert ikhlas[2]['wtr'] == ['Allahu', 's-samad'], 'sun letter + stop at the end of the ayah'
     assert BY_ID['fatiha']['lines'][0]['wtr'][-2:] == ['r-rahmaani', 'r-raheem']
+    assert BY_ID['fatiha']['lines'][2]['wtr'][0] == 'ar-rahmaani', 'word-initial al- before a sun letter'
+    assert not re.search(r'(?<![\w-])al-(th|dh|sh|t|d|r|z|s|n)', alltr, re.I), 'al- before a sun letter must assimilate'
 
 
 # ---------------------------------------------------------------- browser
@@ -169,3 +171,11 @@ def test_real_recitation_highlights_words(browser):
 def test_branded_english_page_without_credit_line():
     html = open(os.path.join(gc.ROOT, 'games', 'learn-surahs-by-heart', 'index.html'), encoding='utf-8').read()
     assert 'lang="en"' in html and 'bz-brand' in html and 'Rekić' not in html
+
+
+def test_link_with_surah_id_opens_that_surah(browser):
+    p = browser.new_page()
+    p.goto('file://' + os.path.join(gc.ROOT, 'games', 'learn-surahs-by-heart', 'index.html') + '#fil')
+    k = p.evaluate("DATA.surahs.findIndex(s => s.id === 'fil')")
+    assert p.evaluate("sIdx") == k and p.input_value('#surah') == str(k)
+    p.close()

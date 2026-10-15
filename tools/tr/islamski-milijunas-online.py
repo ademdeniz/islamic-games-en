@@ -141,3 +141,14 @@ def transform(src):
         assert src.count(a) == 1, 'login-required patch target not found: ' + a[:60]
         src = src.replace(a, b)
     return src
+
+# ---- Pin the Supabase library to the exact version the tests passed with (a floating "@2" could change under us) --
+SUPABASE_JS = '2.117.2'
+_login_transform = transform
+
+
+def transform(src):
+    src = _login_transform(src)
+    a = '<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>'
+    assert src.count(a) == 1, 'supabase-js script tag not found'
+    return src.replace(a, f'<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@{SUPABASE_JS}/dist/umd/supabase.min.js"></script>')

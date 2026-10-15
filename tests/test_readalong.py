@@ -13,10 +13,13 @@ ARABIC = re.compile(r'[؀-ۿ]')
 
 
 # ---------------------------------------------------------------- data
-def test_pages_are_the_requested_ayahs():
-    keys = {p['id']: [l['key'] for l in p['lines']] for p in DATA['pages']}
-    assert keys['baqarah-17-24'] == [f'2:{n}' for n in range(17, 25)]
-    assert keys['yasin-1-12'] == ['1:1'] + [f'36:{n}' for n in range(1, 13)], 'Ya-Sin starts with the Bismillah'
+def test_pages_are_the_requested_mushaf_pages():
+    keys = {p['mushaf_page']: [l['key'] for l in p['lines']] for p in DATA['pages']}
+    assert keys[2] == ['1:1'] + [f'2:{n}' for n in range(1, 6)], 'page 2 = Bismillah + Al-Baqarah 1–5'
+    assert keys[3] == [f'2:{n}' for n in range(6, 17)]
+    assert keys[4] == [f'2:{n}' for n in range(17, 25)]
+    assert keys[5] == [f'2:{n}' for n in range(25, 30)]
+    assert keys[440] == ['1:1'] + [f'36:{n}' for n in range(1, 13)], 'Ya-Sin starts with the Bismillah'
 
 
 @pytest.mark.parametrize('page', DATA['pages'], ids=lambda p: p['id'])
@@ -48,19 +51,46 @@ def page(browser):
     p.close()
 
 
+def open_page(page, n):
+    page.click(f'#pages .chip:has-text("Page {n}")')
+
+
+def page_data(n):
+    return next(p for p in DATA['pages'] if p['mushaf_page'] == n)
+
+
 def words_on_screen(page):
     return page.eval_on_selector_all('#arabic .w', 'els => els.map(e => e.textContent)')
 
 
 def test_shows_original_arabic_not_transliteration(page):
-    first = DATA['pages'][0]['lines'][0]
+    open_page(page, 4)
+    first = page_data(4)['lines'][0]
     assert words_on_screen(page) == first['words']
     assert page.is_hidden('#trBox') and page.is_hidden('#enBox'), 'Arabic only by default'
-    assert 'Ayah 17 • 1 of 8' in page.inner_text('#info')
+    assert 'Al-Baqarah – page 4 • Ayah 17 • 1 of 8' in page.inner_text('#info')
+
+
+def test_page_buttons_are_grouped_by_surah(page):
+    groups = page.eval_on_selector_all('#pages .grp', 'gs => gs.map(g => g.innerText.replace(/\\s+/g, " "))')
+    assert groups[0].startswith('Al-Baqarah:') and all(f'Page {n}' in groups[0] for n in (2, 3, 4, 5))
+    assert groups[1].startswith('Ya-Sin:') and 'Page 440' in groups[1]
+
+
+@pytest.mark.parametrize('n', [2, 3, 4, 5, 440])
+def test_every_page_opens_and_shows_its_ayahs(page, n):
+    open_page(page, n)
+    data = page_data(n)
+    assert f'1 of {len(data["lines"])}' in page.inner_text('#info')
+    assert words_on_screen(page) == data['lines'][0]['words']
+    for _ in range(len(data['lines']) - 1):
+        page.click('#next')
+    assert words_on_screen(page) == data['lines'][-1]['words']
 
 
 def test_highlights_the_word_being_recited(page):
-    line = DATA['pages'][0]['lines'][0]
+    open_page(page, 4)
+    line = page_data(4)['lines'][0]
     for k, start, end in line['audio']['alafasy']['segments']:
         mid = (start + end) / 2
         assert page.evaluate(f'RA.highlightAt({mid})') == k
@@ -80,23 +110,25 @@ def test_speed_options_slow_the_recitation_and_are_remembered(page):
 
 
 def test_slow_teaching_reciter_uses_its_own_audio_and_timings(page):
+    open_page(page, 4)
     page.select_option('#reciter', 'husary')
     page.click('#play')
     page.wait_for_function("RA.player.src.includes('Husary_Muallim')")
-    husary = DATA['pages'][0]['lines'][0]['audio']['husary']['segments']
+    husary = page_data(4)['lines'][0]['audio']['husary']['segments']
     k, start, end = husary[-1]
     assert page.evaluate(f'RA.highlightAt({(start + end) / 2})') == k
 
 
 def test_yasin_page_starts_with_bismillah(page):
-    page.click('#pages .chip:text("Ya-Sin 1–12")')
+    open_page(page, 440)
     assert 'Bismillah • 1 of 13' in page.inner_text('#info')
     page.click('#next')
     assert 'Ayah 1 • 2 of 13' in page.inner_text('#info')
-    assert words_on_screen(page) == DATA['pages'][1]['lines'][1]['words']
+    assert words_on_screen(page) == page_data(440)['lines'][1]['words']
 
 
 def test_previous_next_and_end_of_page(page):
+    open_page(page, 4)
     assert page.is_disabled('#prev')
     for _ in range(7):
         page.click('#next')
@@ -108,6 +140,7 @@ def test_previous_next_and_end_of_page(page):
 
 
 def test_meaning_and_transliteration_can_be_shown(page):
+    open_page(page, 4)
     page.check('#showEn')
     assert page.is_visible('#enBox') and 'Their example' in page.inner_text('#en')
     page.check('#showTr')

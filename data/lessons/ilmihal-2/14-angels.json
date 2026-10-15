@@ -1,0 +1,200 @@
+{
+  "title": "Second pillar of Iman – belief in the angels",
+  "pages": "14–15",
+  "intro": "“Wa mala’ikatihi” – and I believe in Allah’s angels.",
+  "learn": [
+    {
+      "type": "quran",
+      "ref": "An-Nisa 4:136",
+      "text": "O you who have believed, believe in Allah and His Messenger and the Book that He sent down upon His Messenger and the Scripture which He sent down before. And whoever disbelieves in Allah, His angels, His books, His messengers, and the Last Day has certainly gone far astray."
+    },
+    {
+      "type": "phrase",
+      "label": "The second pillar of Iman",
+      "ar": "وَمَلَائِكَتِهِ",
+      "tr": "Wa malaa’ikatihi",
+      "en": "And (I believe in) His angels."
+    },
+    {
+      "type": "text",
+      "html": "Angels are <b>unseen beings made of light</b>. They always serve and obey Allah (SWT). They <b>do not eat, drink or sleep</b>, and they are neither male nor female."
+    },
+    {
+      "type": "text",
+      "html": "Allah (SWT) created the angels <b>without sin</b>, only to worship Him. There are very many angels. We know about them only what the Qur’an and the hadiths of Muhammad (SAW) tell us. Angels carry out their duties without ever arguing."
+    },
+    {
+      "type": "heading",
+      "text": "Some angels and their duties"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Jibril</b> – brought Allah’s revelation to all of Allah’s prophets.",
+        "<b>Mika’il</b> – is in charge of nature (rain, wind…).",
+        "<b>Israfil</b> – will blow the trumpet (sur) to announce the end of the world and the Day of Judgement.",
+        "<b>Munkar and Nakir</b> – question people in the grave.",
+        "<b>Kiraman Katibin</b> – stay with each person and write down their good and bad deeds.",
+        "<b>Malak al-Mawt</b> (the Angel of Death) – takes the soul from the body at the moment of death.",
+        "<b>Ridwan</b> – is in charge of Jannah, its guardian.",
+        "<b>Malik</b> – is in charge of Jahannam, its guardian."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Other unseen beings"
+    },
+    {
+      "type": "text",
+      "html": "Angels are not the only unseen beings: Allah also created the <b>jinn</b> and the <b>shayatin</b>. Jinn can be good or bad, believers or disbelievers. Disobedient jinn are called <b>shayatin</b>; their leader is <b>Iblis</b>, the first to refuse to obey Allah. Shayatin bring people bad thoughts and lead them to do bad deeds."
+    },
+    {
+      "type": "phrase",
+      "label": "⭐ Remember",
+      "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "tr": "A‘oodhu billaahi minash-shaytaanir-rajeem",
+      "en": "I seek Allah’s protection from the accursed Shaytan."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the angel and the duty",
+      "pairs": [
+        [
+          "Jibril",
+          "Brought the revelation"
+        ],
+        [
+          "Mika’il",
+          "In charge of nature"
+        ],
+        [
+          "Israfil",
+          "Will blow the trumpet"
+        ],
+        [
+          "Kiraman Katibin",
+          "Write our deeds"
+        ],
+        [
+          "Ridwan",
+          "Guardian of Jannah"
+        ],
+        [
+          "Malik",
+          "Guardian of Jahannam"
+        ]
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "True for angels?",
+      "prompt": "Is this true for the angels or not?",
+      "bins": [
+        "True",
+        "Not true"
+      ],
+      "items": [
+        {
+          "text": "Made of light",
+          "bin": 0
+        },
+        {
+          "text": "Always obey Allah",
+          "bin": 0
+        },
+        {
+          "text": "Unseen",
+          "bin": 0
+        },
+        {
+          "text": "Eat and drink",
+          "bin": 1
+        },
+        {
+          "text": "Need to sleep",
+          "bin": 1
+        },
+        {
+          "text": "Disobey Allah",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Review and answer",
+      "questions": [
+        {
+          "q": "What is the second pillar of Iman?",
+          "options": [
+            "Wa malaa’ikatihi – belief in the angels",
+            "Wa kutubihi – belief in the books",
+            "Wa rusulihi – belief in the messengers",
+            "Amantu billahi – belief in Allah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What are angels made of?",
+          "options": [
+            "Light",
+            "Fire",
+            "Clay",
+            "Water"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which angel brought the revelation to the prophets?",
+          "options": [
+            "Jibril",
+            "Mika’il",
+            "Israfil",
+            "Malik"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who writes down our good and bad deeds?",
+          "options": [
+            "Kiraman Katibin",
+            "Munkar and Nakir",
+            "Ridwan",
+            "Israfil"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What are disobedient jinn called?",
+          "options": [
+            "Shayatin",
+            "Angels",
+            "Prophets",
+            "Companions"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say to ask Allah’s protection from Shaytan?",
+          "options": [
+            "A‘oodhu billaahi minash-shaytaanir-rajeem",
+            "As-salaamu ‘alaykum",
+            "Rabbi zidnee ‘ilmaa",
+            "Alhamdulillah"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Homework and talking",
+      "prompts": [
+        "✏️ Write the names of the angels from this lesson in your notebook, with their duties.",
+        "👳 Talk with your mu‘allim: do people think about every deed being written down? Why is it important to remember it?"
+      ]
+    }
+  ]
+}

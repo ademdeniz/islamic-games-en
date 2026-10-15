@@ -1,0 +1,805 @@
+{
+ "alif": [
+  {
+   "ar": "إِيَّاكَ",
+   "en": "You Alone",
+   "tr": "iyyaaka",
+   "key": "1:5",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/001_005_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ٱهْدِنَا",
+   "en": "Guide us",
+   "tr": "ihdinaa",
+   "key": "1:6",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/001_006_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "أَنْعَمْتَ",
+   "en": "You have bestowed (Your) Favors",
+   "tr": "an‘amta",
+   "key": "1:7",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_003.mp3",
+   "how": "starts"
+  }
+ ],
+ "dal": [
+  {
+   "ar": "دِينِ",
+   "en": "(the) religion",
+   "tr": "deeni",
+   "key": "110:2",
+   "pos": 5,
+   "audio": "https://audio.qurancdn.com/wbw/110_002_005.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "دِينُكُمْ",
+   "en": "(is) your religion",
+   "tr": "deenukum",
+   "key": "109:6",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/109_006_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ٱلدِّينِ",
+   "en": "(of the) Judgment",
+   "tr": "d-deeni",
+   "key": "1:4",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/001_004_003.mp3",
+   "how": "al"
+  }
+ ],
+ "dhal": [
+  {
+   "ar": "ذَاتَ",
+   "en": "of",
+   "tr": "dhaata",
+   "key": "111:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/111_003_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ذَٰلِكَ",
+   "en": "That",
+   "tr": "dhaalika",
+   "key": "2:2",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/002_002_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ذَا",
+   "en": "(is) the one",
+   "tr": "dhaa",
+   "key": "2:255",
+   "pos": 21,
+   "audio": "https://audio.qurancdn.com/wbw/002_255_024.mp3",
+   "how": "starts"
+  }
+ ],
+ "ra": [
+  {
+   "ar": "رَبِّ",
+   "en": "the Lord",
+   "tr": "rabbi",
+   "key": "1:2",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/001_002_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "رَبِّكَ",
+   "en": "(of) your Lord",
+   "tr": "rabbika",
+   "key": "110:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/110_003_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "رِحْلَةَ",
+   "en": "(with the) journey",
+   "tr": "rihlata",
+   "key": "106:2",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/106_002_002.mp3",
+   "how": "starts"
+  }
+ ],
+ "zay": [
+  {
+   "ar": "زُرْتُمُ",
+   "en": "you visit",
+   "tr": "zurtumu",
+   "key": "102:2",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/102_002_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "هُمَزَةٍ",
+   "en": "slanderer",
+   "tr": "humazatin",
+   "key": "104:1",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/104_001_003.mp3",
+   "how": "contains"
+  },
+  {
+   "ar": "لُّمَزَةٍ",
+   "en": "backbiter",
+   "tr": "lumazatin",
+   "key": "104:1",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/104_001_004.mp3",
+   "how": "contains"
+  }
+ ],
+ "ba": [
+  {
+   "ar": "بِسْمِ",
+   "en": "In (the) name",
+   "tr": "bismi",
+   "key": "1:1",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/001_001_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "بِرَبِّ",
+   "en": "in (the) Lord",
+   "tr": "birabbi",
+   "key": "113:1",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/113_001_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "بِحَمْدِ",
+   "en": "with (the) praises",
+   "tr": "bihamdi",
+   "key": "110:3",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/110_003_002.mp3",
+   "how": "starts"
+  }
+ ],
+ "ta": [
+  {
+   "ar": "تَبَّتْ",
+   "en": "Perish",
+   "tr": "tabbat",
+   "key": "111:1",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/111_001_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "تَوَّابًۢا",
+   "en": "Oft-Returning",
+   "tr": "tawwaaban",
+   "key": "110:3",
+   "pos": 7,
+   "audio": "https://audio.qurancdn.com/wbw/110_003_008.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "تَعْبُدُونَ",
+   "en": "you worship",
+   "tr": "ta‘budoona",
+   "key": "109:2",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/109_002_004.mp3",
+   "how": "starts"
+  }
+ ],
+ "tha": [
+  {
+   "ar": "ثُمَّ",
+   "en": "Then",
+   "tr": "thumma",
+   "key": "102:4",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/102_004_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ثَقُلَتْ",
+   "en": "(are) heavy",
+   "tr": "thaqulat",
+   "key": "101:6",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/101_006_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ٱلنَّفَّـٰثَـٰتِ",
+   "en": "(of) the blowers",
+   "tr": "n-nafaathaati",
+   "key": "113:4",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/113_004_003.mp3",
+   "how": "contains"
+  }
+ ],
+ "nun": [
+  {
+   "ar": "نَعْبُدُ",
+   "en": "we worship",
+   "tr": "na‘budu",
+   "key": "1:5",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/001_005_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "نَسْتَعِينُ",
+   "en": "we ask for help",
+   "tr": "nasta‘eenu",
+   "key": "1:5",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/001_005_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "نَارًۭا",
+   "en": "(in) a Fire",
+   "tr": "naaran",
+   "key": "111:3",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/111_003_002.mp3",
+   "how": "starts"
+  }
+ ],
+ "waw": [
+  {
+   "ar": "وَإِيَّاكَ",
+   "en": "and You Alone",
+   "tr": "wa-iyyaaka",
+   "key": "1:5",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/001_005_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "وَلَا",
+   "en": "and not",
+   "tr": "walaa",
+   "key": "1:7",
+   "pos": 8,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_008.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "وَلَمْ",
+   "en": "and not",
+   "tr": "walam",
+   "key": "112:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/112_003_003.mp3",
+   "how": "starts"
+  }
+ ],
+ "ya": [
+  {
+   "ar": "يَوْمِ",
+   "en": "(of the) Day",
+   "tr": "yawmi",
+   "key": "1:4",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/001_004_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "يَلِدْ",
+   "en": "He begets",
+   "tr": "yalid",
+   "key": "112:3",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/112_003_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "يُولَدْ",
+   "en": "He is begotten",
+   "tr": "yoolad",
+   "key": "112:3",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/112_003_004.mp3",
+   "how": "starts"
+  }
+ ],
+ "lam": [
+  {
+   "ar": "لِلَّهِ",
+   "en": "(be) to Allah",
+   "tr": "lillahi",
+   "key": "1:2",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/001_002_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "لَمْ",
+   "en": "Not",
+   "tr": "lam",
+   "key": "112:3",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/112_003_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "لَّهُ",
+   "en": "for Him",
+   "tr": "lahu",
+   "key": "112:4",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/112_004_003.mp3",
+   "how": "starts"
+  }
+ ],
+ "fa": [
+  {
+   "ar": "فِى",
+   "en": "in",
+   "tr": "fee",
+   "key": "113:4",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/113_004_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "فَسَبِّحْ",
+   "en": "Then glorify",
+   "tr": "fasabbih",
+   "key": "110:3",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/110_003_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "فَصَلِّ",
+   "en": "So pray",
+   "tr": "fasalli",
+   "key": "108:2",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/108_002_001.mp3",
+   "how": "starts"
+  }
+ ],
+ "qaf": [
+  {
+   "ar": "قُلْ",
+   "en": "Say",
+   "tr": "qul",
+   "key": "112:1",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/112_001_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "قُرَيْشٍ",
+   "en": "(of the) Quraish",
+   "tr": "qurayshin",
+   "key": "106:1",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/106_001_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "قَبْلِكَ",
+   "en": "before you",
+   "tr": "qablika",
+   "key": "2:4",
+   "pos": 9,
+   "audio": "https://audio.qurancdn.com/wbw/002_004_009.mp3",
+   "how": "starts"
+  }
+ ],
+ "mim": [
+  {
+   "ar": "مَـٰلِكِ",
+   "en": "(The) Master",
+   "tr": "maaliki",
+   "key": "1:4",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/001_004_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "مِن",
+   "en": "From",
+   "tr": "min",
+   "key": "113:2",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/113_002_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "مَا",
+   "en": "(of) what",
+   "tr": "maa",
+   "key": "113:2",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/113_002_003.mp3",
+   "how": "starts"
+  }
+ ],
+ "kaf": [
+  {
+   "ar": "كُفُوًا",
+   "en": "equivalent",
+   "tr": "kufuwan",
+   "key": "112:4",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/112_004_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "كَسَبَ",
+   "en": "he earned",
+   "tr": "kasaba",
+   "key": "111:2",
+   "pos": 6,
+   "audio": "https://audio.qurancdn.com/wbw/111_002_006.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "كَانَ",
+   "en": "is",
+   "tr": "kaana",
+   "key": "110:3",
+   "pos": 6,
+   "audio": "https://audio.qurancdn.com/wbw/110_003_007.mp3",
+   "how": "starts"
+  }
+ ],
+ "ha": [
+  {
+   "ar": "هُوَ",
+   "en": "He",
+   "tr": "huwa",
+   "key": "112:1",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/112_001_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "هُمْ",
+   "en": "[they]",
+   "tr": "hum",
+   "key": "107:5",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/107_005_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "هَـٰذَا",
+   "en": "(of) this",
+   "tr": "haadhaa",
+   "key": "106:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/106_003_003.mp3",
+   "how": "starts"
+  }
+ ],
+ "haa": [
+  {
+   "ar": "حَاسِدٍ",
+   "en": "(of) an envier",
+   "tr": "haasidin",
+   "key": "113:5",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/113_005_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "حَسَدَ",
+   "en": "he envies",
+   "tr": "hasada",
+   "key": "113:5",
+   "pos": 5,
+   "audio": "https://audio.qurancdn.com/wbw/113_005_005.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "حَمَّالَةَ",
+   "en": "(the) carrier",
+   "tr": "hammaalata",
+   "key": "111:4",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/111_004_002.mp3",
+   "how": "starts"
+  }
+ ],
+ "kha": [
+  {
+   "ar": "خَلَقَ",
+   "en": "He created",
+   "tr": "khalaqa",
+   "key": "113:2",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/113_002_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "خَوْفٍ",
+   "en": "fear",
+   "tr": "khawfin",
+   "key": "106:4",
+   "pos": 7,
+   "audio": "https://audio.qurancdn.com/wbw/106_004_007.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "خُسْرٍ",
+   "en": "loss",
+   "tr": "khusrin",
+   "key": "103:2",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/103_002_004.mp3",
+   "how": "starts"
+  }
+ ],
+ "sin": [
+  {
+   "ar": "سَيَصْلَىٰ",
+   "en": "He will be burnt",
+   "tr": "sayaslaa",
+   "key": "111:3",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/111_003_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "سَاهُونَ",
+   "en": "(are) neglectful",
+   "tr": "saahoona",
+   "key": "107:5",
+   "pos": 5,
+   "audio": "https://audio.qurancdn.com/wbw/107_005_005.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "سِجِّيلٍ",
+   "en": "baked clay",
+   "tr": "sijjeelin",
+   "key": "105:4",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/105_004_004.mp3",
+   "how": "starts"
+  }
+ ],
+ "jim": [
+  {
+   "ar": "جِيدِهَا",
+   "en": "her neck",
+   "tr": "jeedihaa",
+   "key": "111:5",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/111_005_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "جَآءَ",
+   "en": "comes",
+   "tr": "jaaa",
+   "key": "110:1",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/110_001_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "جُوعٍ",
+   "en": "(against) hunger",
+   "tr": "joo‘in",
+   "key": "106:4",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/106_004_004.mp3",
+   "how": "starts"
+  }
+ ],
+ "shin": [
+  {
+   "ar": "شَرِّ",
+   "en": "(the) evil",
+   "tr": "sharri",
+   "key": "113:2",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/113_002_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "شَانِئَكَ",
+   "en": "your enemy ",
+   "tr": "shaani-aka",
+   "key": "108:3",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/108_003_002.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "شَآءَ",
+   "en": "He willed",
+   "tr": "shaaa",
+   "key": "2:255",
+   "pos": 40,
+   "audio": "https://audio.qurancdn.com/wbw/002_255_045.mp3",
+   "how": "starts"
+  }
+ ],
+ "sad": [
+  {
+   "ar": "صِرَٰطَ",
+   "en": "(The) path",
+   "tr": "siraata",
+   "key": "1:7",
+   "pos": 1,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_001.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "صُدُورِ",
+   "en": "(the) breasts",
+   "tr": "sudoori",
+   "key": "114:5",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/114_005_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "صَلَاتِهِمْ",
+   "en": "their prayers",
+   "tr": "salaatihim",
+   "key": "107:5",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/107_005_004.mp3",
+   "how": "starts"
+  }
+ ],
+ "dad": [
+  {
+   "ar": "ٱلضَّآلِّينَ",
+   "en": "(of) those who go astray",
+   "tr": "d-daaleena",
+   "key": "1:7",
+   "pos": 9,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_009.mp3",
+   "how": "al"
+  },
+  {
+   "ar": "ٱلْمَغْضُوبِ",
+   "en": "those who earned (Your) wrath",
+   "tr": "l-maghdoobi",
+   "key": "1:7",
+   "pos": 6,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_006.mp3",
+   "how": "contains"
+  },
+  {
+   "ar": "يَحُضُّ",
+   "en": "feel the urge",
+   "tr": "yahuddu",
+   "key": "107:3",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/107_003_002.mp3",
+   "how": "contains"
+  }
+ ],
+ "taa": [
+  {
+   "ar": "طَعَامِ",
+   "en": "feed",
+   "tr": "ta‘aami",
+   "key": "107:3",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/107_003_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "طَيْرًا",
+   "en": "birds",
+   "tr": "tayran",
+   "key": "105:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/105_003_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "ٱلصِّرَٰطَ",
+   "en": "(to) the path",
+   "tr": "s-siraata",
+   "key": "1:6",
+   "pos": 2,
+   "audio": "https://audio.qurancdn.com/wbw/001_006_002.mp3",
+   "how": "contains"
+  }
+ ],
+ "dhaa": [
+  {
+   "ar": "حِفْظُهُمَا",
+   "en": "(the) guarding of both of them",
+   "tr": "hifzuhumaa",
+   "key": "2:255",
+   "pos": 47,
+   "audio": "https://audio.qurancdn.com/wbw/002_255_054.mp3",
+   "how": "contains"
+  },
+  {
+   "ar": "ٱلْعَظِيمُ",
+   "en": "the Most Great",
+   "tr": "l-‘azeemu",
+   "key": "2:255",
+   "pos": 50,
+   "audio": "https://audio.qurancdn.com/wbw/002_255_058.mp3",
+   "how": "contains"
+  }
+ ],
+ "ayn": [
+  {
+   "ar": "عَلَيْهِمْ",
+   "en": "on them",
+   "tr": "‘alayhim",
+   "key": "1:7",
+   "pos": 4,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_004.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "عَنْهُ",
+   "en": "him",
+   "tr": "‘anhu",
+   "key": "111:2",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/111_002_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "عَـٰبِدُونَ",
+   "en": "(are) worshippers",
+   "tr": "‘aabidoona",
+   "key": "109:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/109_003_003.mp3",
+   "how": "starts"
+  }
+ ],
+ "ghayn": [
+  {
+   "ar": "غَيْرِ",
+   "en": "not (of)",
+   "tr": "ghayri",
+   "key": "1:7",
+   "pos": 5,
+   "audio": "https://audio.qurancdn.com/wbw/001_007_005.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "غَاسِقٍ",
+   "en": "(of) darkness",
+   "tr": "ghaasiqin",
+   "key": "113:3",
+   "pos": 3,
+   "audio": "https://audio.qurancdn.com/wbw/113_003_003.mp3",
+   "how": "starts"
+  },
+  {
+   "ar": "غَـٰفِلُونَ",
+   "en": "(are) heedless",
+   "tr": "ghaafiloona",
+   "key": "36:6",
+   "pos": 7,
+   "audio": "https://audio.qurancdn.com/wbw/036_006_007.mp3",
+   "how": "starts"
+  }
+ ]
+}

@@ -1,0 +1,723 @@
+{
+ "_about": "Reading rules of the Sufara, placed after the letter given in 'after' (same order as the 'Sufara by Amsal Memic' playlist). Examples name an ayah and the word(s) WITHOUT vowel marks; tools/fetch_sufara_words.py finds the exact Qur'an text, audio and timings. 'read' is how we say it.",
+ "rules": [
+  {
+   "slug": "sukun",
+   "after": "dhal",
+   "name": "Sukun",
+   "bs": "Sukun",
+   "sign": "بْ",
+   "video": "8N5R6VUVqG8",
+   "short": "A small circle on top: the letter has no vowel.",
+   "explain": [
+    "The <b>sukun</b> is a small circle (ـْ) on top of a letter. It means the letter has <b>no vowel</b>.",
+    "We read it together with the letter before it: <span class=\"arq\">أَبْ</span> = <b>ab</b>, <span class=\"arq\">قُلْ</span> = <b>qul</b>. Stop on the letter briefly – don’t add an extra “a”, “i” or “u”."
+   ],
+   "examples": [
+    {
+     "key": "112:1",
+     "words": [
+      "قل"
+     ],
+     "read": "qul"
+    },
+    {
+     "key": "112:3",
+     "words": [
+      "لم"
+     ],
+     "read": "lam"
+    },
+    {
+     "key": "1:2",
+     "words": [
+      "الحمد"
+     ],
+     "read": "al-hamdu"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does a sukun ( ْ ) mean?",
+     "options": [
+      "The letter has no vowel",
+      "Read the letter twice",
+      "Add an “n” sound",
+      "Make the vowel long"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read أَبْ ?",
+     "options": [
+      "ab",
+      "aba",
+      "abi",
+      "abu"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read قُلْ ?",
+     "options": [
+      "qul",
+      "qula",
+      "quli",
+      "qu"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "slug": "tanwin",
+   "after": "dhal",
+   "name": "Tanwin",
+   "bs": "Tenvin",
+   "sign": "بًا بٍ بٌ",
+   "video": "oF9uVp8fmzk",
+   "short": "Two vowel marks: add an “n” sound.",
+   "explain": [
+    "<b>Tanwin</b> is a vowel mark written <b>twice</b>. It adds an <b>“n”</b> sound at the end of a word:",
+    "<span class=\"arq\">بً</span> = <b>ban</b> &nbsp; <span class=\"arq\">بٍ</span> = <b>bin</b> &nbsp; <span class=\"arq\">بٌ</span> = <b>bun</b>. With two fathas, the word usually ends in an alif too: <span class=\"arq\">بًا</span> = ban.",
+    "When you <b>stop</b> at the end of an ayah, the “n” is dropped: <span class=\"arq\">أَحَدٌ</span> is read <b>ahad</b>, and <span class=\"arq\">نَارًا</span> becomes <b>naaraa</b>."
+   ],
+   "examples": [
+    {
+     "key": "112:1",
+     "words": [
+      "احد"
+     ],
+     "read": "ahadun"
+    },
+    {
+     "key": "111:3",
+     "words": [
+      "نارا"
+     ],
+     "read": "naaran"
+    },
+    {
+     "key": "113:5",
+     "words": [
+      "حاسد"
+     ],
+     "read": "haasidin"
+    }
+   ],
+   "sort": {
+    "title": "Which sound?",
+    "prompt": "What sound does the tanwin make?",
+    "bins": [
+     "an",
+     "in",
+     "un"
+    ],
+    "items": [
+     {
+      "text": "بً",
+      "bin": 0
+     },
+     {
+      "text": "تٍ",
+      "bin": 1
+     },
+     {
+      "text": "دٌ",
+      "bin": 2
+     },
+     {
+      "text": "رًا",
+      "bin": 0
+     },
+     {
+      "text": "زٍ",
+      "bin": 1
+     },
+     {
+      "text": "ذٌ",
+      "bin": 2
+     },
+     {
+      "text": "دًا",
+      "bin": 0
+     },
+     {
+      "text": "بٍ",
+      "bin": 1
+     },
+     {
+      "text": "تٌ",
+      "bin": 2
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What does tanwin add to the end of a word?",
+     "options": [
+      "An “n” sound",
+      "An “m” sound",
+      "Nothing",
+      "A long “aa”"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read بٌ ?",
+     "options": [
+      "bun",
+      "ban",
+      "bin",
+      "bu"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read أَحَدٌ when we stop at the end of the ayah?",
+     "options": [
+      "ahad",
+      "ahadun",
+      "ahadin",
+      "ahada"
+     ],
+     "answer": 0
+    }
+   ],
+   "tile": "بٌ"
+  },
+  {
+   "slug": "tashdid",
+   "after": "tha",
+   "name": "Tashdid (Shadda)",
+   "bs": "Tešdid",
+   "sign": "بّ",
+   "video": "Xlb7sqwyPnQ",
+   "short": "A small “w” on top: say the letter twice.",
+   "explain": [
+    "The <b>tashdid</b> (shadda) looks like a small “w” (ـّ) on top of a letter. It means the letter is said <b>twice</b>: first with a sukun, then with its vowel.",
+    "<span class=\"arq\">رَبِّ</span> = rab-bi, &nbsp; <span class=\"arq\">ثُمَّ</span> = thum-ma. Hold the letter a little longer."
+   ],
+   "examples": [
+    {
+     "key": "1:2",
+     "words": [
+      "رب"
+     ],
+     "read": "rabbi"
+    },
+    {
+     "key": "102:4",
+     "words": [
+      "ثم"
+     ],
+     "read": "thumma"
+    },
+    {
+     "key": "111:4",
+     "words": [
+      "حمالة"
+     ],
+     "read": "hammaalata"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does a tashdid ( ّ ) mean?",
+     "options": [
+      "Say the letter twice",
+      "The letter has no vowel",
+      "Add an “n” sound",
+      "Skip the letter"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read رَبِّ ?",
+     "options": [
+      "rabbi",
+      "rabi",
+      "raabi",
+      "rabbu"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read ثُمَّ ?",
+     "options": [
+      "thumma",
+      "thuma",
+      "tumma",
+      "thummi"
+     ],
+     "answer": 0
+    }
+   ],
+   "tile": "بّ"
+  },
+  {
+   "slug": "long-a",
+   "after": "lam",
+   "name": "Long A",
+   "bs": "Dugi samoglasnik A",
+   "sign": "بَا",
+   "video": "VmVXfPemzYg",
+   "short": "Fatha + alif: stretch the “a”.",
+   "explain": [
+    "When a letter with a <b>fatha</b> is followed by an <b>alif</b>, we stretch the “a” for two counts: <span class=\"arq\">بَا</span> = <b>baa</b>.",
+    "Sometimes the long “a” is shown with a small <b>standing alif</b> above the letter instead: <span class=\"arq\">مَـٰلِكِ</span> = maaliki."
+   ],
+   "examples": [
+    {
+     "key": "113:2",
+     "words": [
+      "ما"
+     ],
+     "read": "maa"
+    },
+    {
+     "key": "114:1",
+     "words": [
+      "الناس"
+     ],
+     "read": "an-naas"
+    },
+    {
+     "key": "102:1",
+     "words": [
+      "التكاثر"
+     ],
+     "read": "at-takaathur"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What makes the long “aa”?",
+     "options": [
+      "A fatha followed by alif",
+      "A kasra followed by ya",
+      "A damma followed by waw",
+      "A sukun"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read بَا ?",
+     "options": [
+      "baa",
+      "ba",
+      "bi",
+      "boo"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How long do we stretch a long vowel?",
+     "options": [
+      "Two counts",
+      "No time at all",
+      "Ten counts",
+      "Only at the end of a surah"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "slug": "joining-words",
+   "after": "fa",
+   "name": "Joining words",
+   "bs": "Spajanje riječi",
+   "sign": "ٱ",
+   "video": "YdvWxR2LGkM",
+   "short": "Alif with a small sign (ٱ) is silent when we join words.",
+   "explain": [
+    "Many words start with <b>ٱ</b> – an alif with a small sign on top (hamzat al-wasl). When we read on from the word before, this alif is <b>silent</b> and the two words flow together.",
+    "<span class=\"arq\">بِسْمِ ٱللَّهِ</span> is read <b>bismillaahi</b>, not “bismi allaahi”. <span class=\"arq\">رَبِّ ٱلْعَـٰلَمِينَ</span> is read <b>rabbil-‘aalameen</b>. Listen to how the reciter joins them."
+   ],
+   "examples": [
+    {
+     "key": "1:1",
+     "words": [
+      "بسم",
+      "الله"
+     ],
+     "read": "bismillaahi"
+    },
+    {
+     "key": "112:1",
+     "words": [
+      "هو",
+      "الله"
+     ],
+     "read": "huwallaahu"
+    },
+    {
+     "key": "1:2",
+     "words": [
+      "رب",
+      "العلمين"
+     ],
+     "read": "rabbil-‘aalameen"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What happens to ٱ when we read on from the word before?",
+     "options": [
+      "It is silent",
+      "We say it loudly",
+      "It becomes a long “aa”",
+      "We stop before it"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read بِسْمِ ٱللَّهِ ?",
+     "options": [
+      "bismillaahi",
+      "bismi allaahi",
+      "bisma laahi",
+      "bism allah"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read رَبِّ ٱلْعَـٰلَمِينَ ?",
+     "options": [
+      "rabbil-‘aalameen",
+      "rabbi al-‘aalameen",
+      "rab al ‘alameen",
+      "rabba l-‘aalamu"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "slug": "long-i",
+   "after": "fa",
+   "name": "Long I",
+   "bs": "Dugi samoglasnik I",
+   "sign": "بِي",
+   "video": "ObwcSLUPrhA",
+   "short": "Kasra + ya: stretch the “i” (ee).",
+   "explain": [
+    "When a letter with a <b>kasra</b> is followed by a <b>ya</b> with sukun (or no mark), we stretch the “i” for two counts: <span class=\"arq\">بِي</span> = <b>bee</b>."
+   ],
+   "examples": [
+    {
+     "key": "109:6",
+     "words": [
+      "دين"
+     ],
+     "read": "deen"
+    },
+    {
+     "key": "1:1",
+     "words": [
+      "الرحيم"
+     ],
+     "read": "ar-raheem"
+    },
+    {
+     "key": "1:6",
+     "words": [
+      "المستقيم"
+     ],
+     "read": "al-mustaqeem"
+    }
+   ],
+   "sort": {
+    "title": "Short or long?",
+    "prompt": "Is the vowel short or long?",
+    "bins": [
+     "Short",
+     "Long"
+    ],
+    "items": [
+     {
+      "text": "بِ",
+      "bin": 0
+     },
+     {
+      "text": "بِي",
+      "bin": 1
+     },
+     {
+      "text": "تِ",
+      "bin": 0
+     },
+     {
+      "text": "تِي",
+      "bin": 1
+     },
+     {
+      "text": "رِ",
+      "bin": 0
+     },
+     {
+      "text": "رِي",
+      "bin": 1
+     },
+     {
+      "text": "دَا",
+      "bin": 1
+     },
+     {
+      "text": "دَ",
+      "bin": 0
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What makes the long “ee”?",
+     "options": [
+      "A kasra followed by ya",
+      "A fatha followed by alif",
+      "A damma followed by waw",
+      "A tashdid"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read دِينِ (when we stop on it)?",
+     "options": [
+      "deen",
+      "din",
+      "dayn",
+      "doon"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "slug": "long-u",
+   "after": "qaf",
+   "name": "Long U",
+   "bs": "Dugi samoglasnik U",
+   "sign": "بُو",
+   "video": "-zJSIaX5p18",
+   "short": "Damma + waw: stretch the “u” (oo).",
+   "explain": [
+    "When a letter with a <b>damma</b> is followed by a <b>waw</b> with sukun (or no mark), we stretch the “u” for two counts: <span class=\"arq\">بُو</span> = <b>boo</b>.",
+    "Now you know all three long vowels: <span class=\"arq\">بَا</span> baa, <span class=\"arq\">بِي</span> bee, <span class=\"arq\">بُو</span> boo."
+   ],
+   "examples": [
+    {
+     "key": "112:3",
+     "words": [
+      "يولد"
+     ],
+     "read": "yoolad"
+    },
+    {
+     "key": "109:2",
+     "words": [
+      "تعبدون"
+     ],
+     "read": "ta‘budoon"
+    },
+    {
+     "key": "114:5",
+     "words": [
+      "صدور"
+     ],
+     "read": "sudoori"
+    }
+   ],
+   "sort": {
+    "title": "Which long vowel?",
+    "prompt": "Which long vowel do you hear?",
+    "bins": [
+     "aa",
+     "ee",
+     "oo"
+    ],
+    "items": [
+     {
+      "text": "بَا",
+      "bin": 0
+     },
+     {
+      "text": "بِي",
+      "bin": 1
+     },
+     {
+      "text": "بُو",
+      "bin": 2
+     },
+     {
+      "text": "نَا",
+      "bin": 0
+     },
+     {
+      "text": "نِي",
+      "bin": 1
+     },
+     {
+      "text": "نُو",
+      "bin": 2
+     },
+     {
+      "text": "قَا",
+      "bin": 0
+     },
+     {
+      "text": "لِي",
+      "bin": 1
+     },
+     {
+      "text": "فُو",
+      "bin": 2
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "q": "What makes the long “oo”?",
+     "options": [
+      "A damma followed by waw",
+      "A kasra followed by ya",
+      "A fatha followed by alif",
+      "A sukun"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do we read بُو ?",
+     "options": [
+      "boo",
+      "bu",
+      "baa",
+      "bee"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "slug": "losing-length",
+   "after": "mim",
+   "name": "Losing the length",
+   "bs": "Gubljenje dužine u izgovoru",
+   "sign": "فِى ٱلْ",
+   "video": "VPxVdQBOOvY",
+   "short": "A long vowel is not stretched before ٱ + sukun.",
+   "explain": [
+    "A long vowel is <b>not stretched</b> when the next word starts with a silent <b>ٱ</b> followed by a letter with sukun (or a tashdid). The long vowel becomes short and joins the next word.",
+    "<span class=\"arq\">فِى ٱلْأَرْضِ</span> is read <b>fil-ardi</b> (not “fee al-ardi”), and <span class=\"arq\">ذَا ٱلَّذِى</span> is read <b>dhal-ladhee</b>. Listen to the reciter."
+   ],
+   "examples": [
+    {
+     "key": "2:255",
+     "words": [
+      "فى",
+      "الارض"
+     ],
+     "read": "fil-ardi"
+    },
+    {
+     "key": "2:255",
+     "words": [
+      "فى",
+      "السموت"
+     ],
+     "read": "fis-samaawaati"
+    },
+    {
+     "key": "2:255",
+     "words": [
+      "ذا",
+      "الذى"
+     ],
+     "read": "dhal-ladhee"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How do we read فِى ٱلْأَرْضِ ?",
+     "options": [
+      "fil-ardi",
+      "fee al-ardi",
+      "fee l-ardi",
+      "fi al ard"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why is the “ee” in فِى not stretched here?",
+     "options": [
+      "The next word starts with ٱ and a sukun",
+      "Because it is at the end of the ayah",
+      "Because of the tanwin",
+      "It is always short"
+     ],
+     "answer": 0
+    }
+   ],
+   "tile": "فِى"
+  },
+  {
+   "slug": "hamza",
+   "after": "kaf",
+   "name": "Hamza",
+   "bs": "Hemze",
+   "sign": "ء أ ؤ ئ",
+   "video": "ikIyKNhQnAw",
+   "short": "A short stop in the throat.",
+   "explain": [
+    "The <b>hamza</b> (ء) is a short <b>stop in the throat</b> – like the break in “uh-oh”.",
+    "It can sit alone (ء) or on a “seat”: on an alif <span class=\"arq\">أ إ</span>, on a waw <span class=\"arq\">ؤ</span>, or on a ya without dots <span class=\"arq\">ئ</span>. The seat is not read – only the hamza with its vowel."
+   ],
+   "examples": [
+    {
+     "key": "112:1",
+     "words": [
+      "احد"
+     ],
+     "read": "ahadun"
+    },
+    {
+     "key": "108:3",
+     "words": [
+      "شانئك"
+     ],
+     "read": "shaani’aka"
+    },
+    {
+     "key": "2:3",
+     "words": [
+      "يؤمنون"
+     ],
+     "read": "yu’minoona"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the hamza (ء)?",
+     "options": [
+      "A short stop in the throat",
+      "A long “aa”",
+      "An “n” sound",
+      "A silent letter"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "In ؤ, which part do we read?",
+     "options": [
+      "Only the hamza with its vowel",
+      "The waw and the hamza",
+      "Only the waw",
+      "Nothing"
+     ],
+     "answer": 0
+    }
+   ],
+   "tile": "ء"
+  }
+ ]
+}

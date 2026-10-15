@@ -37,7 +37,8 @@ STEPS = {
 
 
 def _levels():
-    src = open(_os.path.join(_ROOT, 'work', 'sastavi-namaz.bs.html'), encoding='utf-8').read()
+    # the original game file (always in the repo; the game has no pictures, so it matches the work/ copy)
+    src = open(_os.path.join(_ROOT, 'original', 'sastavi-namaz', 'index.html'), encoding='utf-8').read()
     i = src.index('const L=') + len('const L=')
     j = src.index(',$=x=>', i)
     bs = src[i:j]

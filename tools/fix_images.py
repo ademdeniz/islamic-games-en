@@ -20,6 +20,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = '/System/Library/Fonts/Supplemental/'
 NARROW, ROUNDED, SERIF = FONTS + 'Arial Narrow Bold.ttf', FONTS + 'Arial Rounded Bold.ttf', FONTS + 'Georgia Bold.ttf'
 SANS, GEORGIA = FONTS + 'Trebuchet MS.ttf', FONTS + 'Georgia.ttf'
+ARIALB = FONTS + 'Arial Bold.ttf'
+MACA_INK, MACA_WHITE = (58, 30, 12), (255, 248, 235)
 GOLD, CREAM, WHITE, INK = (240, 196, 104), (236, 226, 206), (250, 250, 250), (42, 26, 10)
 
 # box = (x0, y0, x1, y1) in image pixels; dark=True -> text is darker than its background (else lighter)
@@ -82,13 +84,61 @@ JOBS = {
         dict(box=(312, 1316, 450, 1342), dark=False, threshold=110, lines=['Background music'], font=SANS, color=CREAM, size=16),
         dict(box=(1155, 1313, 1380, 1342), dark=False, threshold=110, lines=['Let knowledge be your path.'], font=SANS, color=CREAM, size=18),
     ]},
+    'kviz-maca-namaz': {'blob': 0, 'flatten': (20, 53, 28), 'boxes': [
+        dict(box=(100, 30, 345, 108), dark=True, threshold=120, lines=['Let’s help the kitty', 'get back home!'], font=ROUNDED, color=MACA_INK, size=30),
+        dict(box=(45, 110, 322, 200), dark=True, threshold=120, lines=['Match the pairs on each obstacle.', 'When all the pairs are gone,', 'the kitty can move on!'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(845, 24, 995, 58), dark=False, threshold=170, lines=['Points:'], font=ROUNDED, color=MACA_WHITE, size=24, draw=(850, 24, 928, 58), align='left'),
+        dict(box=(845, 82, 1000, 116), dark=False, threshold=170, lines=['Obstacle:'], font=ROUNDED, color=MACA_WHITE, size=22, draw=(850, 82, 935, 116), align='left'),
+        dict(box=(845, 139, 1000, 173), dark=False, threshold=170, lines=['Time: --:--'], font=ROUNDED, color=MACA_WHITE, size=22),
+        dict(box=(478, 188, 578, 246), dark=True, threshold=120, lines=['HOME IS', 'WAITING!'], font=ROUNDED, color=MACA_INK, size=22),
+        dict(box=(416, 293, 510, 337), dark=True, threshold=120, lines=['The Creator'], font=ARIALB, color=MACA_INK, size=17),
+        dict(box=(618, 283, 710, 320), dark=True, threshold=120, lines=['Qur’an'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(713, 325, 807, 374), dark=True, threshold=120, lines=['Allah’s', 'book'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(212, 365, 322, 412), dark=True, threshold=120, lines=['Muhammad', '(SAW)'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(355, 373, 462, 414), dark=True, threshold=120, lines=['Angels'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(543, 343, 628, 397), dark=True, threshold=120, lines=['Created', 'from light'], font=ARIALB, color=MACA_INK, size=15),
+        dict(box=(670, 388, 768, 434), dark=True, threshold=120, lines=['Allah’s', 'Messenger'], font=ARIALB, color=MACA_INK, size=15),
+        dict(box=(248, 523, 357, 562), dark=True, threshold=120, lines=['Wudu'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(383, 530, 497, 572), dark=True, threshold=120, lines=['Tayammum'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(523, 513, 632, 567), dark=True, threshold=120, lines=['Washing', 'with water'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(668, 521, 782, 572), dark=True, threshold=120, lines=['Symbolic', 'cleansing'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(238, 608, 347, 650), dark=True, threshold=120, lines=['Adhan'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(388, 613, 492, 657), dark=True, threshold=120, lines=['Qiblah'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(533, 603, 642, 657), dark=True, threshold=120, lines=['Call to', 'Salah'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(678, 603, 792, 657), dark=True, threshold=120, lines=['Direction of', 'the Ka’bah'], font=ARIALB, color=MACA_INK, size=15),
+        dict(box=(222, 746, 323, 784), dark=True, threshold=100, lines=['Al-Fatiha'], font=ARIALB, color=MACA_INK, size=17),
+        dict(box=(383, 763, 482, 802), dark=True, threshold=100, lines=['Ruku‘'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(543, 743, 652, 797), dark=True, threshold=100, lines=['Surah in', 'Salah'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(718, 760, 822, 799), dark=True, threshold=100, lines=['Salam'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(208, 843, 312, 882), dark=True, threshold=100, lines=['Sajdah'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(368, 848, 492, 887), dark=True, threshold=100, lines=['Bowing'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(538, 838, 662, 894), dark=True, threshold=100, lines=['Forehead to', 'the ground'], font=ARIALB, color=MACA_INK, size=15),
+        dict(box=(713, 838, 842, 894), dark=True, threshold=100, lines=['End of', 'Salah'], font=ARIALB, color=MACA_INK, size=16),
+        dict(box=(213, 998, 307, 1037), dark=True, threshold=120, lines=['Fajr'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(358, 978, 472, 1032), dark=True, threshold=120, lines=['2 sunnah', '+ 2 fard'], font=ARIALB, color=MACA_INK, size=15),
+        dict(box=(558, 1001, 662, 1040), dark=True, threshold=120, lines=['Dhuhr'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(698, 983, 842, 1032), dark=True, threshold=120, lines=['4 sunnah + 4 fard', '+ 2 sunnah'], font=ARIALB, color=MACA_INK, size=14),
+        dict(box=(230, 1073, 332, 1112), dark=True, threshold=120, lines=['Maghrib'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(378, 1056, 492, 1112), dark=True, threshold=120, lines=['3 fard', '+ 2 sunnah'], font=ARIALB, color=MACA_INK, size=15),
+        dict(box=(548, 1076, 652, 1114), dark=True, threshold=120, lines=['Isha'], font=ARIALB, color=MACA_INK, size=18),
+        dict(box=(703, 1066, 842, 1117), dark=True, threshold=120, lines=['4 fard + 2 sunnah', '+ witr'], font=ARIALB, color=MACA_INK, size=14),
+        dict(box=(18, 548, 140, 610), dark=True, threshold=110, lines=['You can', 'do it!'], font=ROUNDED, color=MACA_INK, size=21, angle=12),
+        dict(box=(890, 335, 1000, 398), dark=True, threshold=110, lines=['Almost', 'there!'], font=ROUNDED, color=MACA_INK, size=21, angle=-15),
+        dict(box=(40, 1062, 185, 1150), dark=True, threshold=110, lines=['Be brave,', 'keep going!'], font=ROUNDED, color=MACA_INK, size=21, angle=14),
+        dict(box=(862, 1118, 995, 1200), dark=True, threshold=110, lines=['Together to', 'the finish!'], font=ROUNDED, color=MACA_INK, size=19, angle=-16),
+        dict(box=(50, 1372, 215, 1400), dark=True, threshold=120, lines=['Every correct pair'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(50, 1401, 215, 1428), dark=True, threshold=120, lines=['brings us closer'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(50, 1430, 118, 1458), dark=True, threshold=120, lines=['home!'], font=ARIALB, color=MACA_INK, size=19),
+        dict(box=(722, 1402, 995, 1478), dark=True, threshold=120, lines=['Tap two cards that belong together.', 'Those two stones, blocks or logs', 'will disappear!'], font=ARIALB, color=MACA_INK, size=16),
+    ]},
 }
+JOBS['maca-pripreme-za-namaz'] = JOBS['kviz-maca-namaz']   # same picture
 
 
 def load_blob(game, n):
     blob = json.load(open(os.path.join(ROOT, 'work', game + '.blobs.json')))[n]
     m = re.match(r'data:(image/[a-z]+);base64,(.*)', blob, re.S)
-    return m.group(1), Image.open(io.BytesIO(base64.b64decode(re.sub(r'\s', '', m.group(2))))).convert('RGB')
+    return m.group(1), Image.open(io.BytesIO(base64.b64decode(re.sub(r'\s', '', m.group(2)))))
 
 
 def text_mask(img, spec):
@@ -112,20 +162,43 @@ def fit_font(path, lines, width, height, size):
     return ImageFont.truetype(path, size)
 
 
-def draw_lines(draw, spec):
+def draw_lines(draw, spec, img=None):
     if not spec['lines']:
         return
-    x0, y0, x1, y1 = spec['box']
+    if spec.get('angle') and img is not None:
+        return draw_rotated(img, spec)
+    x0, y0, x1, y1 = spec.get('draw', spec['box'])   # 'draw': where to write, if not the whole erased box
     f = fit_font(spec['font'], spec['lines'], x1 - x0, y1 - y0, spec['size'])
     lh = f.size * 1.08
     top = (y0 + y1) / 2 - lh * len(spec['lines']) / 2
+    left = spec.get('align') == 'left'
     for i, line in enumerate(spec['lines']):
-        draw.text(((x0 + x1) / 2, top + lh * (i + 0.5)), line, font=f, fill=spec['color'], anchor='mm')
+        draw.text((x0 if left else (x0 + x1) / 2, top + lh * (i + 0.5)), line, font=f, fill=spec['color'],
+                  anchor='lm' if left else 'mm')
+
+
+def draw_rotated(img, spec):
+    """Text on a tilted sign: draw it level on a transparent layer, rotate, and paste it centred on the box."""
+    x0, y0, x1, y1 = spec['box']
+    w, h = int((x1 - x0) * 0.92), int((y1 - y0) * 0.62)
+    f = fit_font(spec['font'], spec['lines'], w, h, spec['size'])
+    lh = f.size * 1.08
+    layer = Image.new('RGBA', (w + 40, int(lh * len(spec['lines'])) + 20), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    for i, line in enumerate(spec['lines']):
+        d.text((layer.width / 2, 10 + lh * (i + 0.5)), line, font=f, fill=spec['color'] + (255,), anchor='mm')
+    layer = layer.rotate(spec['angle'], resample=Image.BICUBIC, expand=True)
+    img.paste(layer, (int((x0 + x1) / 2 - layer.width / 2), int((y0 + y1) / 2 - layer.height / 2)), layer)
 
 
 def fix(game):
     job = JOBS[game]
     mime, img = load_blob(game, job['blob'])
+    if img.mode in ('RGBA', 'LA', 'P'):   # slightly see-through picture: flatten it onto the game's background colour
+        rgba = img.convert('RGBA')
+        base = Image.new('RGBA', rgba.size, job.get('flatten', (255, 255, 255)) + (255,))
+        img = Image.alpha_composite(base, rgba)
+    img = img.convert('RGB')
     before = img.copy()
     mask = np.zeros((img.height, img.width), np.uint8)
     for spec in job['boxes']:
@@ -134,7 +207,7 @@ def fix(game):
     out = Image.fromarray(cv2.cvtColor(clean, cv2.COLOR_BGR2RGB))
     draw = ImageDraw.Draw(out)
     for spec in job['boxes']:
-        draw_lines(draw, spec)
+        draw_lines(draw, spec, out)
     os.makedirs(os.path.join(ROOT, 'assets', 'fixed'), exist_ok=True)
     path = os.path.join(ROOT, 'assets', 'fixed', f'{game}-bg-{job["blob"]}.jpg')
     out.save(path, quality=86, optimize=True, progressive=True)

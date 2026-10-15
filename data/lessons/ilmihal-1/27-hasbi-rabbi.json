@@ -1,0 +1,131 @@
+{
+  "title": "Hasbi Rabbi",
+  "pages": "27",
+  "intro": "A well-loved ilahi: “My Lord is enough for me”.",
+  "learn": [
+    {
+      "type": "phrase",
+      "label": "Hasbi Rabbi",
+      "ar": "حَسْبِي رَبِّي جَلَّ اللَّه ۝ مَا فِي قَلْبِي غَيْرُ اللَّه ۝ نُورُ مُحَمَّدٍ صَلَّى اللَّه ۝ لَا إِلَٰهَ إِلَّا اللَّه",
+      "tr": "Hasbee Rabbee jallallaah · Maa fee qalbee ghayrullaah · Noori Muhammad sallallaah · Laa ilaaha illallaah",
+      "en": "My Lord, Allah the Majestic, is enough for me · In my heart there is only Allah · My light is Muhammad – may Allah bless him · There is no god except Allah"
+    },
+    {
+      "type": "heading",
+      "text": "What the words mean"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Hasbee Rabbee jallallaah</b> – Allah, the Most High, is enough for me",
+        "<b>Maa fee qalbee ghayrullaah</b> – in my heart there is only Allah",
+        "<b>Noori Muhammad sallallaah</b> – my light is Muhammad",
+        "<b>Laa ilaaha illallaah</b> – there is no god except Allah"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "A Muslim relies only on Allah (SWT), believes in Him, does what He commands and keeps away from what He forbids. Muhammad (SAW) is a <b>light in our hearts</b> because he is our example in how we behave."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Put the ilahi in order",
+      "prompt": "Tap the lines in the right order.",
+      "items": [
+        "Hasbee Rabbee jallallaah",
+        "Maa fee qalbee ghayrullaah",
+        "Noori Muhammad sallallaah",
+        "Laa ilaaha illallaah"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the line and its meaning",
+      "pairs": [
+        [
+          "Hasbee Rabbee",
+          "My Lord is enough for me"
+        ],
+        [
+          "Maa fee qalbee ghayrullaah",
+          "In my heart there is only Allah"
+        ],
+        [
+          "Noori Muhammad",
+          "My light is Muhammad"
+        ],
+        [
+          "Laa ilaaha illallaah",
+          "There is no god except Allah"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What does “Hasbee Rabbee” mean?",
+          "options": [
+            "My Lord is enough for me",
+            "My Lord is far away",
+            "I am hungry",
+            "I am tired"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who is in our heart, according to the ilahi?",
+          "options": [
+            "Only Allah",
+            "Only our friends",
+            "Only our toys",
+            "Nobody"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who does a Muslim rely on?",
+          "options": [
+            "Only on Allah",
+            "Only on money",
+            "Only on luck",
+            "Only on himself"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why is Muhammad (SAW) a light in our hearts?",
+          "options": [
+            "He is our example in how we behave",
+            "He was a king",
+            "He was very rich",
+            "He lived a long time ago"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which line ends the ilahi?",
+          "options": [
+            "Laa ilaaha illallaah",
+            "As-salaamu ‘alaykum",
+            "Rabbi yassir",
+            "Amin"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Answer and sing",
+      "prompts": [
+        "🎵 Sing the ilahi “Hasbi Rabbi” together.",
+        "💬 Which love is in our hearts? Who does a Muslim rely on?"
+      ]
+    }
+  ]
+}

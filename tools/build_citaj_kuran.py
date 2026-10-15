@@ -24,10 +24,9 @@ def build(game, data_file):
     html = open(os.path.join(ROOT, 'tools', 'templates', game + '.html'), encoding='utf-8').read()
     data = json.load(open(os.path.join(ROOT, 'data', data_file), encoding='utf-8'))
     html = html.replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/'), 1)
-    logo = base64.b64encode(open(os.path.join(ROOT, 'assets', 'logo-bz-erie-web.jpg'), 'rb').read()).decode()
+    import site_settings
     html = html.replace('</head>', skel.BRAND_CSS + '</head>', 1)
-    html = re.sub(r'(<body[^>]*>)', r'\1<div class="bz-brand"><img alt="Bosnian Islamic Community of Erie" '
-                  r'src="data:image/jpeg;base64,' + logo + '"></div>', html, count=1)
+    html = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + site_settings.brand_html(), html, count=1)
     out = os.path.join(ROOT, 'games', game, 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(html)

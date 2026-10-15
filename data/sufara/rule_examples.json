@@ -1,0 +1,233 @@
+{
+ "sukun": [
+  {
+   "ar": "قُلْ",
+   "tr": "qul",
+   "en": "Say",
+   "key": "112:1",
+   "audio": "https://audio.qurancdn.com/wbw/112_001_001.mp3"
+  },
+  {
+   "ar": "لَمْ",
+   "tr": "lam",
+   "en": "Not",
+   "key": "112:3",
+   "audio": "https://audio.qurancdn.com/wbw/112_003_001.mp3"
+  },
+  {
+   "ar": "ٱلْحَمْدُ",
+   "tr": "al-hamdu",
+   "en": "All praises and thanks",
+   "key": "1:2",
+   "audio": "https://audio.qurancdn.com/wbw/001_002_001.mp3"
+  }
+ ],
+ "tanwin": [
+  {
+   "ar": "أَحَدٌ",
+   "tr": "ahadun",
+   "en": "the One",
+   "key": "112:1",
+   "audio": "https://audio.qurancdn.com/wbw/112_001_004.mp3"
+  },
+  {
+   "ar": "نَارًۭا",
+   "tr": "naaran",
+   "en": "(in) a Fire",
+   "key": "111:3",
+   "audio": "https://audio.qurancdn.com/wbw/111_003_002.mp3"
+  },
+  {
+   "ar": "حَاسِدٍ",
+   "tr": "haasidin",
+   "en": "(of) an envier",
+   "key": "113:5",
+   "audio": "https://audio.qurancdn.com/wbw/113_005_003.mp3"
+  }
+ ],
+ "tashdid": [
+  {
+   "ar": "رَبِّ",
+   "tr": "rabbi",
+   "en": "the Lord",
+   "key": "1:2",
+   "audio": "https://audio.qurancdn.com/wbw/001_002_003.mp3"
+  },
+  {
+   "ar": "ثُمَّ",
+   "tr": "thumma",
+   "en": "Then",
+   "key": "102:4",
+   "audio": "https://audio.qurancdn.com/wbw/102_004_001.mp3"
+  },
+  {
+   "ar": "حَمَّالَةَ",
+   "tr": "hammaalata",
+   "en": "(the) carrier",
+   "key": "111:4",
+   "audio": "https://audio.qurancdn.com/wbw/111_004_002.mp3"
+  }
+ ],
+ "long-a": [
+  {
+   "ar": "مَا",
+   "tr": "maa",
+   "en": "(of) what",
+   "key": "113:2",
+   "audio": "https://audio.qurancdn.com/wbw/113_002_003.mp3"
+  },
+  {
+   "ar": "ٱلنَّاسِ",
+   "tr": "an-naas",
+   "en": "(of) mankind",
+   "key": "114:1",
+   "audio": "https://audio.qurancdn.com/wbw/114_001_004.mp3"
+  },
+  {
+   "ar": "ٱلتَّكَاثُرُ",
+   "tr": "at-takaathur",
+   "en": "the competition to increase",
+   "key": "102:1",
+   "audio": "https://audio.qurancdn.com/wbw/102_001_002.mp3"
+  }
+ ],
+ "joining-words": [
+  {
+   "ar": "بِسْمِ ٱللَّهِ",
+   "tr": "bismillaahi",
+   "en": "In (the) name (of) Allah",
+   "key": "1:1",
+   "audio": "https://verses.quran.com/Alafasy/mp3/001001.mp3",
+   "clip": [
+    60,
+    1310
+   ]
+  },
+  {
+   "ar": "هُوَ ٱللَّهُ",
+   "tr": "huwallaahu",
+   "en": "He (is) Allah",
+   "key": "112:1",
+   "audio": "https://verses.quran.com/Alafasy/mp3/112001.mp3",
+   "clip": [
+    400,
+    1640
+   ]
+  },
+  {
+   "ar": "رَبِّ ٱلْعَـٰلَمِينَ",
+   "tr": "rabbil-‘aalameen",
+   "en": "the Lord of the universe",
+   "key": "1:2",
+   "audio": "https://verses.quran.com/Alafasy/mp3/001002.mp3",
+   "clip": [
+    1810,
+    5140
+   ]
+  }
+ ],
+ "long-i": [
+  {
+   "ar": "دِينِ",
+   "tr": "deen",
+   "en": "(is) my religion",
+   "key": "109:6",
+   "audio": "https://audio.qurancdn.com/wbw/109_006_004.mp3"
+  },
+  {
+   "ar": "ٱلرَّحِيمِ",
+   "tr": "ar-raheem",
+   "en": "the Most Merciful",
+   "key": "1:1",
+   "audio": "https://audio.qurancdn.com/wbw/001_001_004.mp3"
+  },
+  {
+   "ar": "ٱلْمُسْتَقِيمَ",
+   "tr": "al-mustaqeem",
+   "en": "the straight",
+   "key": "1:6",
+   "audio": "https://audio.qurancdn.com/wbw/001_006_003.mp3"
+  }
+ ],
+ "long-u": [
+  {
+   "ar": "يُولَدْ",
+   "tr": "yoolad",
+   "en": "He is begotten",
+   "key": "112:3",
+   "audio": "https://audio.qurancdn.com/wbw/112_003_004.mp3"
+  },
+  {
+   "ar": "تَعْبُدُونَ",
+   "tr": "ta‘budoon",
+   "en": "you worship",
+   "key": "109:2",
+   "audio": "https://audio.qurancdn.com/wbw/109_002_004.mp3"
+  },
+  {
+   "ar": "صُدُورِ",
+   "tr": "sudoori",
+   "en": "(the) breasts",
+   "key": "114:5",
+   "audio": "https://audio.qurancdn.com/wbw/114_005_004.mp3"
+  }
+ ],
+ "losing-length": [
+  {
+   "ar": "فِى ٱلْأَرْضِ",
+   "tr": "fil-ardi",
+   "en": "(is) in the earth",
+   "key": "2:255",
+   "audio": "https://verses.quran.com/Alafasy/mp3/002255.mp3",
+   "clip": [
+    16830,
+    18300
+   ]
+  },
+  {
+   "ar": "فِى ٱلسَّمَـٰوَٰتِ",
+   "tr": "fis-samaawaati",
+   "en": "(is) in the heavens",
+   "key": "2:255",
+   "audio": "https://verses.quran.com/Alafasy/mp3/002255.mp3",
+   "clip": [
+    14750,
+    16320
+   ]
+  },
+  {
+   "ar": "ذَا ٱلَّذِى",
+   "tr": "dhal-ladhee",
+   "en": "(is) the one who",
+   "key": "2:255",
+   "audio": "https://verses.quran.com/Alafasy/mp3/002255.mp3",
+   "clip": [
+    19230,
+    20260
+   ]
+  }
+ ],
+ "hamza": [
+  {
+   "ar": "أَحَدٌ",
+   "tr": "ahadun",
+   "en": "the One",
+   "key": "112:1",
+   "audio": "https://audio.qurancdn.com/wbw/112_001_004.mp3"
+  },
+  {
+   "ar": "شَانِئَكَ",
+   "tr": "shaani’aka",
+   "en": "your enemy",
+   "key": "108:3",
+   "audio": "https://audio.qurancdn.com/wbw/108_003_002.mp3"
+  },
+  {
+   "ar": "يُؤْمِنُونَ",
+   "tr": "yu’minoona",
+   "en": "believe",
+   "key": "2:3",
+   "audio": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+  }
+ ]
+}

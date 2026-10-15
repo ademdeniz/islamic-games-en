@@ -1,0 +1,13 @@
+{
+  "kids": {"g1": 4, "g2": null},
+  "homework": {
+    "g1": ["Go through today’s Ilmihal lessons again (tap each lesson above) and do the practice at the end.",
+           "Qur’an: practise Al-Baqarah, mushaf page 3, in Read Along.",
+           "Sufara: practise the letter Dal د.",
+           "Play the games below – a few minutes every day."],
+    "g2": ["Go through today’s Ilmihal lessons again (tap each lesson above) and do the practice at the end.",
+           "Sufara: practise the letter Dal د.",
+           "Play the games below – a few minutes every day."]
+  },
+  "note": ""
+}

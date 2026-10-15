@@ -1,0 +1,186 @@
+{
+  "title": "The Islamic greeting – salam",
+  "pages": "18",
+  "intro": "Salam is the greeting of peace that Muslims give each other.",
+  "learn": [
+    {
+      "type": "image",
+      "src": "img/salam.webp",
+      "alt": "Two men shaking hands and greeting each other",
+      "small": true
+    },
+    {
+      "type": "text",
+      "html": "<b>Salam</b> is the greeting Muslims give each other."
+    },
+    {
+      "type": "phrase",
+      "label": "The salam",
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "tr": "As-salaamu ‘alaykum",
+      "en": "Peace be upon you."
+    },
+    {
+      "type": "phrase",
+      "label": "The answer",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ",
+      "tr": "Wa ‘alaykumus-salaam",
+      "en": "And upon you be peace."
+    },
+    {
+      "type": "text",
+      "html": "When we give salam, it is lovely to add:"
+    },
+    {
+      "type": "phrase",
+      "label": "Add",
+      "ar": "وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+      "tr": "Wa rahmatullaahi wa barakaatuhu",
+      "en": "…and Allah’s mercy and His blessings."
+    },
+    {
+      "type": "point",
+      "title": "☮️ Salam is a greeting of peace",
+      "html": "It means: <b>May Allah’s peace and blessing be upon you!</b>"
+    },
+    {
+      "type": "heading",
+      "text": "We give salam:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "👨‍👩‍👧 to our parents, relatives, friends and Muslims we know,",
+        "🏠 when we come into and leave the house,",
+        "👥 when we arrive and when we leave a group of people."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the greeting and the answer",
+      "pairs": [
+        [
+          "As-salaamu ‘alaykum",
+          "Peace be upon you"
+        ],
+        [
+          "Wa ‘alaykumus-salaam",
+          "And upon you be peace"
+        ],
+        [
+          "Wa rahmatullaahi",
+          "And Allah’s mercy"
+        ],
+        [
+          "Wa barakaatuhu",
+          "And His blessings"
+        ]
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "When do we give salam?",
+      "prompt": "Tap every time we give salam, then tap Check.",
+      "options": [
+        {
+          "text": "🏠 When we come into the house",
+          "correct": true
+        },
+        {
+          "text": "🚪 When we leave the house",
+          "correct": true
+        },
+        {
+          "text": "👥 When we arrive in a group",
+          "correct": true
+        },
+        {
+          "text": "👋 When we leave a group",
+          "correct": true
+        },
+        {
+          "text": "🙊 Never – we stay silent",
+          "correct": false,
+          "why": "A Muslim gives salam – it spreads peace between people."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the Islamic greeting?",
+          "options": [
+            "As-salaamu ‘alaykum",
+            "Wa ‘alaykumus-salaam",
+            "Rabbi zidnee ‘ilmaa",
+            "Hasbi Rabbi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How do we answer the salam?",
+          "options": [
+            "Wa ‘alaykumus-salaam",
+            "As-salaamu ‘alaykum",
+            "Rabbi yassir",
+            "Ash-hadu an laa ilaaha"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does salam mean?",
+          "options": [
+            "May Allah’s peace and blessing be upon you",
+            "Have a long day",
+            "Have a short trip",
+            "Have an easy job"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is it lovely to add to the salam?",
+          "options": [
+            "Wa rahmatullaahi wa barakaatuhu",
+            "Rabbi yassir wa laa tu‘assir",
+            "Hasbi Rabbi jallallaah",
+            "Laa ilaaha illallaah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we show with the salam?",
+          "options": [
+            "That we want peace",
+            "That we want to argue",
+            "That we want to be rude",
+            "That we are angry"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we do when someone gives us salam?",
+          "options": [
+            "We answer the salam",
+            "We stay silent on purpose",
+            "We sing a song",
+            "We walk away"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Practise together",
+      "prompts": [
+        "🎭 Act it out in the maktab: one gives salam, the other answers.",
+        "💬 What is salam, and what does it mean?",
+        "👨‍👩‍👧 Give salam to your family when you get home today!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Du‘a for knowledge",
+  "pages": "13",
+  "intro": "A short du‘a from the Qur’an to ask Allah for more knowledge.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Allah knows everything, and He gives knowledge to whoever He wills. We ask Him to <b>increase our knowledge</b> with this du‘a:"
+    },
+    {
+      "type": "phrase",
+      "label": "Rabbi zidni ‘ilma",
+      "ar": "رَبِّ زِدْنِي عِلْمًا",
+      "tr": "Rabbi zidnee ‘ilmaa!",
+      "en": "My Lord, increase me in knowledge!"
+    },
+    {
+      "type": "quran",
+      "ref": "Ta-Ha 20:114",
+      "text": "And say, \"My Lord, increase me in knowledge.\""
+    },
+    {
+      "type": "image",
+      "src": "img/children-dua.webp",
+      "alt": "A row of children with school bags, seen from behind",
+      "caption": "Rabbi zidnee ‘ilmaa!",
+      "small": true
+    },
+    {
+      "type": "point",
+      "title": "✏️ Task",
+      "html": "Write this du‘a on the cover of your notebook! Say it before you start learning and before your homework. Give this du‘a as a gift to your friends!"
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Build the du‘a",
+      "prompt": "Tap the words in the right order.",
+      "items": [
+        "Rabbi",
+        "zidnee",
+        "‘ilmaa!"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words",
+      "pairs": [
+        [
+          "Rabbi",
+          "My Lord"
+        ],
+        [
+          "Zidnee",
+          "Increase me"
+        ],
+        [
+          "‘Ilmaa",
+          "In knowledge"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Who knows everything?",
+          "options": [
+            "Allah",
+            "Our teacher",
+            "The internet",
+            "Our parents"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “Rabbi zidnee ‘ilmaa” mean?",
+          "options": [
+            "My Lord, increase me in knowledge",
+            "My Lord, make it easy",
+            "My Lord is enough for me",
+            "Peace be upon you"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where is this du‘a from?",
+          "options": [
+            "The Qur’an – Surah Ta-Ha",
+            "A song",
+            "A story book",
+            "A school poster"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When is it good to say this du‘a?",
+          "options": [
+            "Before learning and doing homework",
+            "Only on Eid",
+            "Only at night",
+            "Never"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Task",
+      "prompts": [
+        "✏️ Write Rabbi zidnee ‘ilmaa on the cover of your notebook.",
+        "🎁 Teach this du‘a to a friend!"
+      ]
+    }
+  ]
+}

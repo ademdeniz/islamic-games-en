@@ -1,0 +1,77 @@
+{
+ "_help": "The school year. start/end = first and last class day (the weekday of start is the class day). no_class = class days without class. groups = what each group learns: tracks of type ilmihal (book 1-3), quran (Al-Baqarah from mushaf page first_page), sufara, tajwid (from a date). notes = a line shown on every class from a date. together_from = first day with a play-together game each week. events = Islamic dates shown on that week (approximate).",
+ "start": "2026-09-27",
+ "end": "2027-06-06",
+ "no_class": {
+  "2026-11-01": "No class – annual youth gathering (Oct 30 – Nov 1)",
+  "2026-12-27": "Winter break",
+  "2027-05-16": "Eid al-Adha (approx.)"
+ },
+ "events": {
+  "2026-12-06": "Laylat al-Raghaib ~Thu Dec 10",
+  "2027-01-03": "Isra & Mi‘raj ~Tue Jan 5",
+  "2027-01-24": "Laylat al-Bara’ah ~Sun Jan 24",
+  "2027-02-07": "Ramadan starts ~Mon Feb 8",
+  "2027-02-14": "Ramadan",
+  "2027-02-21": "Ramadan",
+  "2027-02-28": "Ramadan",
+  "2027-03-07": "Laylat al-Qadr ~Fri Mar 5 · Eid al-Fitr ~Wed Mar 10",
+  "2027-05-16": "Eid al-Adha ~Sun May 16",
+  "2027-06-06": "Islamic New Year 1449 ~Sat Jun 5"
+ },
+ "notes": [
+  {
+   "from": "2026-11-01",
+   "text": "Maktab competition preparation (schedule TBD)"
+  }
+ ],
+ "together_from": "2026-11-01",
+ "groups": [
+  {
+   "id": "g1",
+   "name": "Group 1",
+   "tracks": [
+    {
+     "id": "i2",
+     "type": "ilmihal",
+     "book": 2
+    },
+    {
+     "id": "i3",
+     "type": "ilmihal",
+     "book": 3
+    },
+    {
+     "id": "qr",
+     "type": "quran",
+     "first_page": 2
+    },
+    {
+     "id": "rd",
+     "type": "sufara",
+     "key_prefix": "g1"
+    },
+    {
+     "id": "tj",
+     "type": "tajwid",
+     "from": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "name": "Group 2",
+   "tracks": [
+    {
+     "id": "i1",
+     "type": "ilmihal",
+     "book": 1
+    },
+    {
+     "id": "sf",
+     "type": "sufara"
+    }
+   ]
+  }
+ ]
+}
