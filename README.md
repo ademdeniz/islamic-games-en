@@ -64,9 +64,9 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
 - `islamski-milijunas-online` uses our Supabase project (`supabase/config.json`, publishable key only).
   Database: run `supabase/schema.sql` in the Supabase SQL Editor; local test `tests/run_supabase_test.sh`.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
-  Only the admin account can see signed waivers; `tests/run_supabase_test.sh` tests both files.
-  To make an account the administrator, run in the SQL Editor (with its e-mail):
-  `update public.profiles set role = 'admin' where id = (select id from auth.users where email = 'you@example.com');`
+  Only the admin and accounts in `waiver_viewers` can see signed waivers; `tests/run_supabase_test.sh` tests both files.
+  To let an account see the waivers (it keeps its role in the games), run in the SQL Editor (with its e-mail):
+  `insert into public.waiver_viewers (user_id) select id from auth.users where email = 'you@example.com' on conflict do nothing;`
 
 ## Run and test
 

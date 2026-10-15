@@ -65,7 +65,7 @@ code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:2px 
 
   <section class="card" id="login">
     <h2>Log in</h2>
-    <p class="muted" style="margin:0">Use the same account as the online Islamic Millionaire. Only the administrator can see the waivers.</p>
+    <p class="muted" style="margin:0">Use the same account as the online Islamic Millionaire. Only accounts allowed by the administrator can see the waivers.</p>
     <form id="loginForm">
       <label for="email">E-mail</label><input id="email" type="email" autocomplete="username">
       <label for="password">Password</label><input id="password" type="password" autocomplete="current-password">
@@ -206,8 +206,9 @@ async function refresh() {
   const { data: { user } } = await sb.auth.getUser();
   $('login').classList.toggle('hide', !!user); $('logoutBtn').classList.toggle('hide', !user);
   if (!user) { $('app').classList.add('hide'); return msg(''); }
-  const { data: p } = await sb.from('profiles').select('role').eq('id', user.id).maybeSingle();
-  if (!p || p.role !== 'admin') { $('app').classList.add('hide'); return msg('You are logged in as ' + user.email + ', which is not the administrator account, so it cannot see the waivers. Log out and use the administrator account, or make this one the administrator in Supabase (see README).', true); }
+  const { data: ok, error } = await sb.rpc('can_see_waivers');
+  if (error) { $('app').classList.add('hide'); return msg('Could not check access: ' + error.message + (/can_see_waivers/.test(error.message) ? ' – run the latest supabase/waiver.sql.' : ''), true); }
+  if (!ok) { $('app').classList.add('hide'); return msg('You are logged in as ' + user.email + ', which is not allowed to see the waivers. Log out and use an allowed account, or add this one in Supabase (see README).', true); }
   $('app').classList.remove('hide');
   await load();
 }

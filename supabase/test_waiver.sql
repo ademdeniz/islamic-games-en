@@ -37,10 +37,24 @@ select t.expect_error($$select public.submit_waiver(current_setting('my.ok')::js
 select t.expect_error($$select public.submit_waiver(current_setting('my.ok')::jsonb || '{"acknowledgements": []}')$$, 'no statements ticked');
 commit;
 
--- ---------------------------------------------------------- only the admin sees and deletes
+-- ---------------------------------------------------------- only the admin and listed viewers see and delete
 begin; set local role authenticated; select set_config('request.jwt.claim.sub', '00000000-0000-0000-0000-00000000000b', true);
 select t.check((select count(*) from public.trip_waivers) = 0, 'a teacher cannot see waivers');
+select t.check(not public.can_see_waivers(), 'a teacher is not a waiver viewer');
 delete from public.trip_waivers;
+select t.expect_error($$insert into public.waiver_viewers values (auth.uid())$$, 'teacher adds self as a waiver viewer');
+commit;
+begin; set local role anon;
+select t.expect_error($$select public.can_see_waivers()$$, 'anonymous visitor asks if they can see waivers');
+commit;
+insert into public.waiver_viewers (user_id) select id from auth.users where email = 'teacher@x';
+begin; set local role authenticated; select set_config('request.jwt.claim.sub', '00000000-0000-0000-0000-00000000000b', true);
+select t.check(public.can_see_waivers(), 'listed teacher is a waiver viewer');
+select t.check((select count(*) from public.trip_waivers) = 1, 'listed teacher sees the waiver');
+select t.check((select role from public.profiles where id = auth.uid()) = 'mualim', 'listed teacher stays a mu''allim in the games');
+commit;
+begin; set local role authenticated; select set_config('request.jwt.claim.sub', '00000000-0000-0000-0000-000000000001', true);
+select t.check((select count(*) from public.trip_waivers) = 0, 'a student cannot see waivers');
 commit;
 begin; set local role authenticated; select set_config('request.jwt.claim.sub', '00000000-0000-0000-0000-00000000000a', true);
 select t.check((select count(*) from public.trip_waivers) = 1, 'admin sees the signed waiver (teacher delete did nothing)');
