@@ -65,6 +65,8 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   Database: run `supabase/schema.sql` in the Supabase SQL Editor; local test `tests/run_supabase_test.sh`.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
   Only the admin account can see signed waivers; `tests/run_supabase_test.sh` tests both files.
+  To make an account the administrator, run in the SQL Editor (with its e-mail):
+  `update public.profiles set role = 'admin' where id = (select id from auth.users where email = 'you@example.com');`
 
 ## Run and test
 
