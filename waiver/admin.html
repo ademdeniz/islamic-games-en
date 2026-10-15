@@ -22,6 +22,7 @@ button,.btn{font:inherit;font-weight:700;border-radius:999px;cursor:pointer;back
 .btn.ghost,button.ghost{background:#fff;color:var(--green)}
 button.danger{background:#fff;color:var(--red);border-color:var(--red)}
 .top button{background:#fff;color:var(--green);border-color:#fff}
+button.link{background:none;border:0;color:var(--green);text-decoration:underline;padding:8px 6px;font-weight:600}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px}
 .stat{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 14px}
@@ -68,7 +69,17 @@ code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:2px 
     <form id="loginForm">
       <label for="email">E-mail</label><input id="email" type="email" autocomplete="username">
       <label for="password">Password</label><input id="password" type="password" autocomplete="current-password">
-      <div class="row" style="margin-top:12px"><button type="submit">Log in</button></div>
+      <div class="row" style="margin-top:12px"><button type="submit">Log in</button><button type="button" class="link" id="forgotBtn">Forgot password?</button></div>
+    </form>
+  </section>
+
+  <section class="card hide" id="recover">
+    <h2>Choose a new password</h2>
+    <p class="muted" style="margin:0">You opened the reset link from your e-mail. Pick a new password (at least 8 characters).</p>
+    <form id="recoverForm">
+      <label for="newPassword">New password</label><input id="newPassword" type="password" autocomplete="new-password">
+      <label for="newPassword2">Type it again</label><input id="newPassword2" type="password" autocomplete="new-password">
+      <div class="row" style="margin-top:12px"><button type="submit">Save new password</button></div>
     </form>
   </section>
 
@@ -158,7 +169,40 @@ $('loginForm').onsubmit = async e => {
 };
 $('logoutBtn').onclick = async () => { await sb.auth.signOut(); location.reload(); };
 
+// ---------------------------------------------------------------- forgot password
+let recovering = /type=recovery/.test(location.hash);
+const linkError = new URLSearchParams(location.hash.slice(1)).get('error_description');
+$('forgotBtn').onclick = async () => {
+  const email = $('email').value.trim();
+  if (!email) { $('email').focus(); return msg('Type your e-mail above, then tap “Forgot password?” again.', true); }
+  msg('Sending…');
+  const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: location.origin + location.pathname });
+  if (error) return msg(error.message, true);
+  msg('If there is an account for ' + email + ', we sent it an e-mail with a link to choose a new password. Open it on this device.');
+};
+function showRecover() {
+  recovering = true;
+  ['login', 'app'].forEach(id => $(id).classList.add('hide'));
+  $('recover').classList.remove('hide'); $('newPassword').focus(); msg('');
+}
+sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') showRecover(); });
+$('recoverForm').onsubmit = async e => {
+  e.preventDefault();
+  const p1 = $('newPassword').value, p2 = $('newPassword2').value;
+  if (p1.length < 8) return msg('The new password needs at least 8 characters.', true);
+  if (p1 !== p2) return msg('The two passwords are not the same.', true);
+  msg('Saving…');
+  const { error } = await sb.auth.updateUser({ password: p1 });
+  if (error) return msg(error.message, true);
+  recovering = false;
+  history.replaceState(null, '', location.pathname);
+  $('recover').classList.add('hide'); $('recoverForm').reset();
+  await refresh();
+  msg('Your new password is saved. You are logged in.');
+};
+
 async function refresh() {
+  if (recovering) return showRecover();
   const { data: { user } } = await sb.auth.getUser();
   $('login').classList.toggle('hide', !!user); $('logoutBtn').classList.toggle('hide', !user);
   if (!user) { $('app').classList.add('hide'); return msg(''); }
@@ -250,7 +294,10 @@ $('csv').onclick = () => {
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'youth-gathering-2026-waivers.csv'; a.click();
 };
 
-refresh();
+if (linkError) {
+  history.replaceState(null, '', location.pathname);
+  refresh().then(() => msg('That reset link did not work (' + linkError.replace(/\+/g, ' ') + '). Links work once and expire after an hour: type your e-mail and tap “Forgot password?” again.', true));
+} else refresh();
 </script>
 </body>
 </html>
