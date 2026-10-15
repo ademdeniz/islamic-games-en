@@ -15,6 +15,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 | QR code for the mosque wall (always opens the newest update) | [/qr/](https://ademdeniz.github.io/islamic-games-en/qr/) | `tools/build_update.py` |
 | Pizza & parent duty | [/duty/](https://ademdeniz.github.io/islamic-games-en/duty/) | `data/duty/parents.json` → `tools/build_duty.py` |
 | Credits | [/credits/](https://ademdeniz.github.io/islamic-games-en/credits/) | `tools/build_credits.py` |
+| Youth Gathering 2026 parent waiver (not linked; admin list at `waiver/admin.html`) | [/waiver/](https://ademdeniz.github.io/islamic-games-en/waiver/) | hand-written · database `supabase/waiver.sql` |
 
 Classes are every Sunday. Group 1: Ilmihal 2 & 3, Qur’an (Al-Baqarah), Sufara, Tajwid from November.
 Group 2: Ilmihal 1 and Sufara. New lessons are added through the year, one Sunday ahead.
@@ -62,6 +63,8 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   (replaced by `learn-surahs-by-heart`). Local name `moj-mektebski-vrt` = repo `moj-mektebski-vrt1`.
 - `islamski-milijunas-online` uses our Supabase project (`supabase/config.json`, publishable key only).
   Database: run `supabase/schema.sql` in the Supabase SQL Editor; local test `tests/run_supabase_test.sh`.
+- The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
+  Only the admin account can see signed waivers; `tests/run_supabase_test.sh` tests both files.
 
 ## Run and test
 

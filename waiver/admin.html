@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Youth Gathering 2026 – Signed Waivers</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--green:#075943;--green-2:#0b6b50;--gold:#c99b3b;--gold-soft:#f3e6c4;--cream:#f7f1e1;--card:#fffdf7;--ink:#17372d;--muted:#5d6b64;--line:#e6d8b3;--red:#a3271d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+.wrap{max-width:1080px;margin:auto;padding:14px 16px 48px}
+.top{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--green);color:#fff;border:3px solid var(--gold);border-radius:18px;padding:14px 18px}
+.top h1{margin:0;font-size:clamp(19px,4vw,26px)}
+.top small{opacity:.85}
+.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;margin-top:14px}
+.card h2{font-size:17px;margin:0 0 8px}
+label{display:block;font-weight:600;font-size:14px;margin:10px 0 4px}
+input{width:100%;font:inherit;padding:10px 12px;border:2px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input:focus{outline:none;border-color:var(--green-2)}
+button,.btn{font:inherit;font-weight:700;border-radius:999px;cursor:pointer;background:var(--green);color:#fff;border:2px solid var(--green);padding:8px 14px;font-size:14px;text-decoration:none;display:inline-block}
+.btn.ghost,button.ghost{background:#fff;color:var(--green)}
+button.danger{background:#fff;color:var(--red);border-color:var(--red)}
+.top button{background:#fff;color:var(--green);border-color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px}
+.stat{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 14px}
+.stat b{display:block;font-size:28px;line-height:1.1;color:var(--green)}
+.stat span{font-size:13px;color:var(--muted)}
+.msg{font-weight:700;margin:10px 0 0}
+.msg.err{color:var(--red)}
+.tablewrap{overflow-x:auto;margin-top:12px;border:2px solid var(--line);border-radius:14px;background:#fff}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:760px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--gold-soft);font-size:12px;text-transform:uppercase;letter-spacing:.05em;position:sticky;top:0}
+tr.rec{cursor:pointer}
+tr.rec:hover td{background:#fbf6e8}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:#eef3ef;color:var(--green);margin:1px 2px 1px 0}
+.tag.warn{background:#fde8e4;color:var(--red)}
+.muted{color:var(--muted);font-size:13px}
+.hide{display:none!important}
+dialog{border:3px solid var(--gold);border-radius:18px;padding:0;max-width:720px;width:calc(100% - 24px);background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(10,30,24,.55)}
+.dlg{padding:18px}
+.dlg h2{margin:0 0 6px}
+.dlg img{max-width:320px;width:100%;border:1px solid var(--line);border-radius:8px;background:#fff}
+.dlg ul{padding-left:18px;font-size:14px}
+.dlg .row{margin-top:14px}
+code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:2px 6px;word-break:break-all}
+@media print{
+  body{background:#fff}
+  .wrap > *:not(dialog){display:none!important}
+  dialog{position:static;border:0;max-width:none;width:auto}
+  dialog .no-print{display:none!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><h1>Youth Gathering 2026 – Signed waivers</h1><small>Medžlis 3 · Mechanicsburg, PA · Oct 30 – Nov 1, 2026</small></div>
+    <button id="logoutBtn" class="hide">Log out</button>
+  </div>
+
+  <section class="card" id="login">
+    <h2>Log in</h2>
+    <p class="muted" style="margin:0">Use the same account as the online Islamic Millionaire. Only the administrator can see the waivers.</p>
+    <form id="loginForm">
+      <label for="email">E-mail</label><input id="email" type="email" autocomplete="username">
+      <label for="password">Password</label><input id="password" type="password" autocomplete="current-password">
+      <div class="row" style="margin-top:12px"><button type="submit">Log in</button></div>
+    </form>
+  </section>
+
+  <p class="msg" id="msg"></p>
+
+  <div id="app" class="hide">
+    <section class="card">
+      <h2>Share with parents</h2>
+      <p style="margin:0 0 8px">Send this link. Each parent signs on their phone; it shows up here right away.</p>
+      <p><code id="parentLink"></code></p>
+      <div class="row">
+        <button type="button" id="copyLink">Copy link</button>
+        <a class="btn ghost" id="waLink" target="_blank" rel="noopener">Send on WhatsApp</a>
+        <a class="btn ghost" id="mailLink">Send by e-mail</a>
+        <a class="btn ghost" id="openLink" target="_blank" rel="noopener">Open the form</a>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="stat"><b id="sFamilies">0</b><span>waivers signed (parents)</span></div>
+      <div class="stat"><b id="sKids">0</b><span>participants covered</span></div>
+      <div class="stat"><b id="sBoysGirls">0 / 0</b><span>boys / girls</span></div>
+      <div class="stat"><b id="sMedical">0</b><span>with medical notes</span></div>
+      <div class="stat"><b id="sNoPhoto">0</b><span>no photos allowed</span></div>
+    </div>
+
+    <section class="card">
+      <div class="row" style="justify-content:space-between">
+        <input id="search" type="search" placeholder="Search parent or participant name, e-mail, phone…" style="flex:1 1 260px">
+        <div class="row">
+          <button type="button" class="ghost" id="reload">Refresh</button>
+          <button type="button" id="csv">Download spreadsheet (CSV)</button>
+        </div>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Signed</th><th>Participant</th><th>Age</th><th>Parent / guardian</th><th>Contact</th><th>Medical</th><th>Photos</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <p class="muted">Tap a row to see the full waiver, the signature and to print it. One row per participant; brothers and sisters signed together share one waiver.</p>
+    </section>
+  </div>
+
+  <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
+<script>
+const EVENT = 'youth-gathering-2026';
+const SUPABASE_URL = 'https://wlyfczvepjcluqcpyxpo.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_OFODrzQiSGAZzEKkYPd13g_P9lMJWNN';
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const EVENT_START = new Date('2026-10-30T00:00:00');
+let waivers = [];
+
+const msg = (t, err) => { $('msg').textContent = t || ''; $('msg').className = 'msg' + (err ? ' err' : ''); };
+const fmtDate = s => new Date(s).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+function age(birth) {
+  const b = new Date(birth + 'T00:00:00'); let a = EVENT_START.getFullYear() - b.getFullYear();
+  if (EVENT_START < new Date(EVENT_START.getFullYear(), b.getMonth(), b.getDate())) a--;
+  return isNaN(a) ? '' : a;
+}
+const hasMedical = c => c.medical && !/^(none|no|n\/a|na|-|nothing|nema)\.?$/i.test(c.medical.trim());
+
+// ---------------------------------------------------------------- share link
+const link = new URL('./', location.href).href;
+$('parentLink').textContent = link;
+$('openLink').href = link;
+const shareText = 'Assalamu alaikum! Please sign the parent permission & waiver for the Annual Youth Gathering (Medžlis 3, Mechanicsburg PA, Oct 30 – Nov 1, 2026). It is required for every participant: ' + link;
+$('waLink').href = 'https://wa.me/?text=' + encodeURIComponent(shareText);
+$('mailLink').href = 'mailto:?subject=' + encodeURIComponent('Youth Gathering 2026 – parent waiver (required)') + '&body=' + encodeURIComponent(shareText);
+$('copyLink').onclick = async () => {
+  try { await navigator.clipboard.writeText(link); $('copyLink').textContent = 'Copied ✓'; }
+  catch { prompt('Copy this link:', link); }
+  setTimeout(() => $('copyLink').textContent = 'Copy link', 2000);
+};
+
+// ---------------------------------------------------------------- auth
+$('loginForm').onsubmit = async e => {
+  e.preventDefault(); msg('Logging in…');
+  const { error } = await sb.auth.signInWithPassword({ email: $('email').value.trim(), password: $('password').value });
+  if (error) return msg(error.message, true);
+  await refresh();
+};
+$('logoutBtn').onclick = async () => { await sb.auth.signOut(); location.reload(); };
+
+async function refresh() {
+  const { data: { user } } = await sb.auth.getUser();
+  $('login').classList.toggle('hide', !!user); $('logoutBtn').classList.toggle('hide', !user);
+  if (!user) { $('app').classList.add('hide'); return msg(''); }
+  const { data: p } = await sb.from('profiles').select('role').eq('id', user.id).maybeSingle();
+  if (!p || p.role !== 'admin') { $('app').classList.add('hide'); return msg('This account is not the administrator, so it cannot see the waivers.', true); }
+  $('app').classList.remove('hide');
+  await load();
+}
+
+async function load() {
+  msg('Loading…');
+  const { data, error } = await sb.from('trip_waivers').select('*').eq('event', EVENT).order('signed_at', { ascending: false });
+  if (error) return msg('Could not load the waivers: ' + error.message + (/trip_waivers/.test(error.message) ? ' – has supabase/waiver.sql been run?' : ''), true);
+  waivers = data; msg('');
+  render();
+}
+$('reload').onclick = load;
+$('search').oninput = render;
+
+// ---------------------------------------------------------------- list
+function flat() {   // one entry per participant
+  return waivers.flatMap(w => w.children.map(c => ({ w, c })));
+}
+function render() {
+  const all = flat(), q = $('search').value.trim().toLowerCase();
+  $('sFamilies').textContent = waivers.length;
+  $('sKids').textContent = all.length;
+  $('sBoysGirls').textContent = all.filter(x => x.c.gender === 'Boy').length + ' / ' + all.filter(x => x.c.gender === 'Girl').length;
+  $('sMedical').textContent = all.filter(x => hasMedical(x.c)).length;
+  $('sNoPhoto').textContent = all.filter(x => !x.w.photo_consent).length;
+  const shown = all.filter(({ w, c }) => !q || [c.first, c.last, w.parent_first, w.parent_last, w.parent_email, w.parent_phone, w.signature_name]
+    .join(' ').toLowerCase().includes(q));
+  $('rows').innerHTML = shown.length ? shown.map(({ w, c }) => `
+    <tr class="rec" data-id="${w.id}">
+      <td>${esc(fmtDate(w.signed_at))}</td>
+      <td><b>${esc(c.first + ' ' + c.last)}</b> <span class="tag">${esc(c.gender)}</span></td>
+      <td>${esc(age(c.birth_date))}</td>
+      <td>${esc(w.parent_first + ' ' + w.parent_last)}<br><span class="muted">${esc(w.relationship)}</span></td>
+      <td>${esc(w.parent_email)}<br>${esc(w.parent_phone)}</td>
+      <td>${hasMedical(c) ? '<span class="tag warn">' + esc(c.medical) + '</span>' : '<span class="muted">none</span>'}</td>
+      <td>${w.photo_consent ? 'Yes' : '<span class="tag warn">No</span>'}</td>
+    </tr>`).join('') : `<tr><td colspan="7" class="muted">${waivers.length ? 'No match.' : 'No waivers signed yet. Share the link above with parents.'}</td></tr>`;
+  document.querySelectorAll('tr.rec').forEach(tr => tr.onclick = () => open(tr.dataset.id));
+}
+
+// ---------------------------------------------------------------- one waiver
+function open(id) {
+  const w = waivers.find(x => x.id === id);
+  if (!w) return;
+  $('dlgBody').innerHTML = `
+    <h2>Parent / guardian waiver</h2>
+    <p class="muted" style="margin:0">Annual Youth Gathering – Medžlis 3 · Mechanicsburg, PA · Oct 30 – Nov 1, 2026</p>
+    <p><b>Signed:</b> ${esc(new Date(w.signed_at).toLocaleString('en-US'))}</p>
+    <p><b>Parent / guardian:</b> ${esc(w.parent_first + ' ' + w.parent_last)} (${esc(w.relationship)})<br>
+       ${esc(w.parent_email)} · ${esc(w.parent_phone)}</p>
+    <p><b>Participant(s):</b></p>
+    <ul>${w.children.map(c => `<li><b>${esc(c.first + ' ' + c.last)}</b> – ${esc(c.gender)}, born ${esc(c.birth_date)} (age ${esc(age(c.birth_date))})<br>Medical: ${esc(c.medical)}</li>`).join('')}</ul>
+    <p><b>Emergency contact:</b> ${esc(w.emergency_name)} · ${esc(w.emergency_phone)}</p>
+    <p><b>Photos / video allowed:</b> ${w.photo_consent ? 'Yes' : 'No'}</p>
+    <p><b>Agreed to:</b></p>
+    <ul>${w.acknowledgements.map(t => '<li>' + esc(t) + '</li>').join('')}</ul>
+    <p><b>Signature</b> (typed name: ${esc(w.signature_name)})</p>
+    <img src="${esc(w.signature_image)}" alt="Signature">
+    <div class="row no-print">
+      <button type="button" onclick="window.print()">Print</button>
+      <button type="button" class="ghost" onclick="$('dlg').close()">Close</button>
+      <button type="button" class="danger" id="del">Delete (duplicate / test)</button>
+    </div>`;
+  $('del').onclick = async () => {
+    if (!confirm('Delete the waiver signed by ' + w.parent_first + ' ' + w.parent_last + '? This cannot be undone.')) return;
+    const { error } = await sb.from('trip_waivers').delete().eq('id', w.id);
+    if (error) return alert(error.message);
+    $('dlg').close(); await load();
+  };
+  $('dlg').showModal();
+  $('dlg').scrollTop = 0;
+}
+
+// ---------------------------------------------------------------- spreadsheet
+$('csv').onclick = () => {
+  const head = ['Signed at', 'Participant first', 'Participant last', 'Boy/Girl', 'Date of birth', 'Age at event', 'Medical / allergies',
+    'Parent first', 'Parent last', 'Relationship', 'Parent e-mail', 'Parent phone', 'Emergency contact', 'Emergency phone',
+    'Photos allowed', 'Signature (typed)', 'Waiver id'];
+  const cell = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const lines = flat().map(({ w, c }) => [new Date(w.signed_at).toLocaleString('en-US'), c.first, c.last, c.gender, c.birth_date, age(c.birth_date),
+    c.medical, w.parent_first, w.parent_last, w.relationship, w.parent_email, w.parent_phone, w.emergency_name, w.emergency_phone,
+    w.photo_consent ? 'Yes' : 'No', w.signature_name, w.id].map(cell).join(','));
+  const blob = new Blob(['﻿' + [head.map(cell).join(','), ...lines].join('\r\n')], { type: 'text/csv' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'youth-gathering-2026-waivers.csv'; a.click();
+};
+
+refresh();
+</script>
+</body>
+</html>

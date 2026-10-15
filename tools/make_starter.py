@@ -95,7 +95,7 @@ def main(dst):
         sys.exit(f'{dst} is not empty')
     files = run(['git', 'ls-files'], ROOT).splitlines()
     for f in files:
-        if f.startswith(('data/updates/', 'updates/', 'tools/__pycache__/')) or f in ('docs/weekly-update-prompt.md',):
+        if f.startswith(('data/updates/', 'updates/', 'tools/__pycache__/', 'waiver/')) or f in ('docs/weekly-update-prompt.md',):
             continue
         if f.startswith('assets/logo-bz-erie'):
             continue
