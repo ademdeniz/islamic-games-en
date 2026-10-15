@@ -4,7 +4,7 @@
 -- Safe to re-run, and it keeps working if schema.sql is re-run later.
 --
 -- Parents are not logged in: the public waiver page can only call submit_waiver(), which checks every
--- field and saves one row. Nobody but an admin can read, and only an admin can delete (duplicates, tests).
+-- field and saves one row. Only the admin and the accounts in waiver_viewers can read or delete (duplicates, tests).
 
 create extension if not exists pgcrypto;
 
@@ -28,14 +28,32 @@ create table if not exists public.trip_waivers (
 );
 create index if not exists trip_waivers_event on public.trip_waivers (event, signed_at desc);
 
+-- Who may see the waivers besides the admin (e.g. the imam in charge, who stays a mu'allim in the games).
+-- Add someone (with their e-mail) in the SQL Editor:
+--   insert into public.waiver_viewers (user_id) select id from auth.users where email = 'you@example.com' on conflict do nothing;
+create table if not exists public.waiver_viewers (
+  user_id    uuid primary key references auth.users(id) on delete cascade,
+  created_at timestamptz not null default now()
+);
+alter table public.waiver_viewers enable row level security;
+revoke all on public.waiver_viewers from anon, authenticated;
+
+create or replace function public.can_see_waivers() returns boolean
+language sql stable security definer set search_path = public as $$
+  select auth.uid() is not null and (public.my_role() = 'admin'
+         or exists (select 1 from public.waiver_viewers where user_id = auth.uid()))
+$$;
+revoke execute on function public.can_see_waivers() from public, anon;
+grant execute on function public.can_see_waivers() to authenticated;
+
 alter table public.trip_waivers enable row level security;
 
 drop policy if exists "admin reads waivers" on public.trip_waivers;
 create policy "admin reads waivers" on public.trip_waivers for select to authenticated
-  using (public.my_role() = 'admin');
+  using (public.can_see_waivers());
 drop policy if exists "admin deletes waivers" on public.trip_waivers;
 create policy "admin deletes waivers" on public.trip_waivers for delete to authenticated
-  using (public.my_role() = 'admin');
+  using (public.can_see_waivers());
 
 revoke all on public.trip_waivers from anon, authenticated;
 grant select, delete on public.trip_waivers to authenticated;
