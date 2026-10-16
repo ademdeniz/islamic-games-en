@@ -13,6 +13,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 from build_lessons_core import brand  # noqa: E402
+import tracking  # noqa: E402  (who opened the page, for how long)
 
 DATA = json.load(open(os.path.join(ROOT, 'data', 'sufara', 'letters.json'), encoding='utf-8'))
 LETTERS = DATA['letters']
@@ -131,7 +132,7 @@ def write(lesson, prev, nxt):
             .replace('__DATA__', json.dumps(lesson, ensure_ascii=False).replace('</', '<\\/')))
     out = os.path.join(ROOT, 'sufara', lesson['id'], 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    open(out, 'w', encoding='utf-8').write(brand(page))
+    open(out, 'w', encoding='utf-8').write(tracking.add(brand(page)))
 
 
 def build():

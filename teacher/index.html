@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maktab Activity – Teacher</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--green:#075943;--green-2:#0b6b50;--gold:#c99b3b;--gold-soft:#f3e6c4;--cream:#f7f1e1;--card:#fffdf7;--ink:#17372d;--muted:#5d6b64;--line:#e6d8b3;--red:#a3271d;--soft:#eef3ef}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+.wrap{max-width:1100px;margin:auto;padding:14px 16px 48px}
+.top{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--green);color:#fff;border:3px solid var(--gold);border-radius:18px;padding:14px 18px}
+.top h1{margin:0;font-size:clamp(19px,4vw,26px)}
+.top small{opacity:.85}
+.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;margin-top:14px}
+.card h2{font-size:17px;margin:0 0 8px}
+label{display:block;font-weight:600;font-size:14px;margin:10px 0 4px}
+input,select{font:inherit;padding:9px 12px;border:2px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input{width:100%}
+input:focus,select:focus{outline:none;border-color:var(--green-2)}
+button,.btn{font:inherit;font-weight:700;border-radius:999px;cursor:pointer;background:var(--green);color:#fff;border:2px solid var(--green);padding:7px 14px;font-size:14px;text-decoration:none;display:inline-block}
+button.ghost{background:#fff;color:var(--green)}
+button.danger{background:#fff;color:var(--red);border-color:var(--red)}
+button.small{padding:4px 10px;font-size:13px}
+button.link{background:none;border:0;color:var(--green);text-decoration:underline;padding:8px 6px;font-weight:600}
+.top button{background:#fff;color:var(--green);border-color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.tabs button{background:#fff;color:var(--green)}
+.tabs button[aria-selected="true"]{background:var(--green);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px}
+.stat{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 14px}
+.stat b{display:block;font-size:26px;line-height:1.1;color:var(--green)}
+.stat span{font-size:13px;color:var(--muted)}
+.msg{font-weight:700;margin:10px 0 0}
+.msg.err{color:var(--red)}
+.tablewrap{overflow-x:auto;margin-top:12px;border:2px solid var(--line);border-radius:14px;background:#fff}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+th{background:var(--gold-soft);font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+td.num,th.num{text-align:right}
+tr.rec{cursor:pointer}
+tr.rec:hover td{background:#fbf6e8}
+tr.idle td{color:var(--muted)}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--soft);color:var(--green)}
+.tag.warn{background:#fde8e4;color:var(--red)}
+.muted{color:var(--muted);font-size:13px}
+.hide{display:none!important}
+.code{font-size:34px;font-weight:800;letter-spacing:.12em;color:var(--green);font-family:ui-monospace,Menlo,monospace}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.bar{height:8px;border-radius:4px;background:var(--gold);display:inline-block;vertical-align:middle}
+dialog{border:3px solid var(--gold);border-radius:18px;padding:0;max-width:760px;width:calc(100% - 24px);background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(10,30,24,.55)}
+.dlg{padding:18px}
+.dlg h2{margin:0 0 4px}
+.day{margin-top:12px;font-weight:700}
+textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);border-radius:10px;min-height:80px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><h1>Maktab activity</h1><small>Who opened lessons, Sufara, Qur’an and surahs – and for how long</small></div>
+    <button id="logoutBtn" class="hide">Log out</button>
+  </div>
+
+  <section class="card" id="login">
+    <h2>Log in</h2>
+    <p class="muted" style="margin:0">Use the same account as the online Islamic Millionaire and the waivers.</p>
+    <form id="loginForm">
+      <label for="email">E-mail</label><input id="email" type="email" autocomplete="username">
+      <label for="password">Password</label><input id="password" type="password" autocomplete="current-password">
+      <div class="row" style="margin-top:12px"><button type="submit">Log in</button><button type="button" class="link" id="forgotBtn">Forgot password?</button></div>
+    </form>
+  </section>
+
+  <section class="card hide" id="recover">
+    <h2>Choose a new password</h2>
+    <form id="recoverForm">
+      <label for="newPassword">New password (at least 8 characters)</label><input id="newPassword" type="password" autocomplete="new-password">
+      <label for="newPassword2">Type it again</label><input id="newPassword2" type="password" autocomplete="new-password">
+      <div class="row" style="margin-top:12px"><button type="submit">Save new password</button></div>
+    </form>
+  </section>
+
+  <p class="msg" id="msg"></p>
+
+  <div id="app" class="hide">
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="week" aria-selected="true">This week</button>
+      <button role="tab" data-tab="kids" aria-selected="false">Children</button>
+      <button role="tab" data-tab="codes" aria-selected="false">Class codes</button>
+    </nav>
+
+    <!-- ------------------------------------------------------------ week -->
+    <section id="tab-week">
+      <div class="card">
+        <div class="row" style="justify-content:space-between">
+          <div class="row">
+            <button class="ghost small" id="prevWeek" aria-label="Previous week">◀</button>
+            <b id="weekLabel"></b>
+            <button class="ghost small" id="nextWeek" aria-label="Next week">▶</button>
+          </div>
+          <div class="row">
+            <select id="groupFilter"><option value="">All groups</option></select>
+            <button class="ghost" id="reload">Refresh</button>
+            <button id="weekCsv">Download week (CSV)</button>
+          </div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><b id="sActive">0 / 0</b><span>children active</span></div>
+        <div class="stat"><b id="sMinutes">0</b><span>minutes in total</span></div>
+        <div class="stat"><b id="sLessons">0</b><span>min lessons</span></div>
+        <div class="stat"><b id="sQuran">0</b><span>min Qur’an + surahs</span></div>
+        <div class="stat"><b id="sGames">0</b><span>min games</span></div>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Child</th><th>Group</th><th class="num">Lessons</th><th class="num">Sufara</th><th class="num">Qur’an</th><th class="num">Surahs</th><th class="num">Games</th><th class="num">Total</th><th></th><th>Last active</th></tr></thead>
+          <tbody id="weekRows"></tbody>
+        </table>
+      </div>
+      <p class="muted">Minutes of active use: the page was on screen and touched in the last minute, or audio was playing. Tap a child to see every page they opened.</p>
+    </section>
+
+    <!-- ------------------------------------------------------------ children -->
+    <section id="tab-kids" class="hide">
+      <div class="card">
+        <h2>Add a child</h2>
+        <form id="addKid" class="row" style="align-items:flex-end">
+          <div style="flex:1 1 150px"><label for="kFirst">First name</label><input id="kFirst" maxlength="40" required></div>
+          <div style="flex:1 1 150px"><label for="kLast">Last name</label><input id="kLast" maxlength="40"></div>
+          <div><label for="kGroup">Group</label><select id="kGroup"></select></div>
+          <button type="submit">Add</button>
+        </form>
+        <p class="muted">Children see only first name + last initial. The full name is only here.</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Child</th><th>Group</th><th>Pictures (PIN)</th><th class="num">Devices</th><th>Last seen</th><th></th></tr></thead>
+          <tbody id="kidRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ codes -->
+    <section id="tab-codes" class="hide">
+      <div class="groups" id="groupCards"></div>
+      <div class="card">
+        <h2>End of the school year</h2>
+        <p style="margin:0 0 10px">Download everything first, then delete the activity. Children and class codes stay.</p>
+        <div class="row">
+          <button id="allCsv">Download all activity (CSV)</button>
+          <button class="danger" id="deleteAll">Delete all activity…</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
+<script>
+const SUPABASE_URL = 'https://wlyfczvepjcluqcpyxpo.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_OFODrzQiSGAZzEKkYPd13g_P9lMJWNN';
+const PICS = ['🍎', '🐪', '🌙', '⭐', '🌴', '📖', '🕌', '🐝', '🌸'];
+const TYPES = ['lesson', 'sufara', 'quran', 'surah', 'game'];
+const TYPE_NAME = { lesson: 'Lesson', sufara: 'Sufara', quran: 'Qur’an', surah: 'Surah', game: 'Game' };
+const WORDS = ['NUR', 'SABR', 'ILM', 'IMAN', 'HUDA', 'SALAM', 'FAJR', 'QAMAR', 'JANNA', 'BARAKA'];
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const msg = (t, err) => { $('msg').textContent = t || ''; $('msg').className = 'msg' + (err ? ' err' : ''); };
+const fullName = k => k.first_name + (k.last_name ? ' ' + k.last_name : '');
+const mins = s => !s ? '' : s < 60 ? '<1' : String(Math.round(s / 60));
+const when = s => s ? new Date(s).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : '';
+
+let groups = [], kids = [], devices = [], week = [], weekStart = startOfWeek(new Date());
+
+function startOfWeek(d) { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - x.getDay()); return x; }   // Sunday = class day
+function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate() + n); return x; }
+const groupName = id => (groups.find(g => g.id === id) || {}).name || id;
+
+// ---------------------------------------------------------------- login, forgot password
+$('loginForm').onsubmit = async e => {
+  e.preventDefault(); msg('Logging in…');
+  const { error } = await sb.auth.signInWithPassword({ email: $('email').value.trim(), password: $('password').value });
+  if (error) return msg(error.message, true);
+  await refresh();
+};
+$('logoutBtn').onclick = async () => { await sb.auth.signOut(); location.reload(); };
+let recovering = /type=recovery/.test(location.hash);
+const linkError = new URLSearchParams(location.hash.slice(1)).get('error_description');
+$('forgotBtn').onclick = async () => {
+  const email = $('email').value.trim();
+  if (!email) { $('email').focus(); return msg('Type your e-mail above, then tap “Forgot password?” again.', true); }
+  const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: location.origin + location.pathname });
+  msg(error ? error.message : 'If there is an account for ' + email + ', we sent it an e-mail with a link to choose a new password.', !!error);
+};
+function showRecover() { recovering = true; ['login', 'app'].forEach(id => $(id).classList.add('hide')); $('recover').classList.remove('hide'); msg(''); }
+sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') showRecover(); });
+$('recoverForm').onsubmit = async e => {
+  e.preventDefault();
+  const p1 = $('newPassword').value;
+  if (p1.length < 8) return msg('The new password needs at least 8 characters.', true);
+  if (p1 !== $('newPassword2').value) return msg('The two passwords are not the same.', true);
+  const { error } = await sb.auth.updateUser({ password: p1 });
+  if (error) return msg(error.message, true);
+  recovering = false; history.replaceState(null, '', location.pathname);
+  $('recover').classList.add('hide'); await refresh(); msg('Your new password is saved. You are logged in.');
+};
+
+async function refresh() {
+  if (recovering) return showRecover();
+  const { data: { user } } = await sb.auth.getUser();
+  $('login').classList.toggle('hide', !!user); $('logoutBtn').classList.toggle('hide', !user);
+  if (!user) { $('app').classList.add('hide'); return msg(''); }
+  const { data: ok, error } = await sb.rpc('can_see_activity');
+  if (error) return msg('Could not check access: ' + error.message + (/can_see_activity/.test(error.message) ? ' – run supabase/tracking.sql first.' : ''), true);
+  if (!ok) return msg('You are logged in as ' + user.email + ', which is not allowed to see the activity. Add it in Supabase (see README).', true);
+  $('app').classList.remove('hide');
+  await loadAll();
+}
+
+// ---------------------------------------------------------------- data
+async function fetchAll(q) {   // PostgREST returns at most 1000 rows per request
+  let out = [], from = 0;
+  for (;;) {
+    const { data, error } = await q().range(from, from + 999);
+    if (error) throw error;
+    out = out.concat(data);
+    if (data.length < 1000) return out;
+    from += 1000;
+  }
+}
+async function loadAll() {
+  msg('Loading…');
+  try {
+    [groups, kids, devices] = await Promise.all([
+      fetchAll(() => sb.from('class_groups').select('*').order('id')),
+      fetchAll(() => sb.from('kids').select('*').order('first_name').order('last_name')),
+      fetchAll(() => sb.from('kid_devices').select('kid_id,last_seen'))
+    ]);
+    $('groupFilter').innerHTML = '<option value="">All groups</option>' + groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
+    $('kGroup').innerHTML = groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
+    await loadWeek();
+    renderKids(); renderCodes();
+    msg('');
+  } catch (e) { msg('Could not load: ' + e.message, true); }
+}
+async function loadWeek() {
+  const end = addDays(weekStart, 7);
+  $('weekLabel').textContent = weekStart.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + ' – ' +
+    addDays(end, -1).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  week = await fetchAll(() => sb.from('activity').select('*').gte('started_at', weekStart.toISOString()).lt('started_at', end.toISOString()).order('started_at'));
+  renderWeek();
+}
+
+// ---------------------------------------------------------------- this week
+function renderWeek() {
+  const gf = $('groupFilter').value;
+  const list = kids.filter(k => (!gf || k.group_id === gf) && (k.active || week.some(a => a.kid_id === k.id)));
+  const rows = list.map(k => {
+    const mine = week.filter(a => a.kid_id === k.id), t = {};
+    TYPES.forEach(x => t[x] = mine.filter(a => a.page_type === x).reduce((s, a) => s + a.active_seconds, 0));
+    const total = TYPES.reduce((s, x) => s + t[x], 0);
+    const last = mine.reduce((m, a) => a.last_seen > m ? a.last_seen : m, '');
+    return { k, t, total, last };
+  }).sort((a, b) => b.total - a.total || a.k.first_name.localeCompare(b.k.first_name));
+  const max = Math.max(1, ...rows.map(r => r.total)), sum = x => rows.reduce((s, r) => s + r.t[x], 0);
+  $('sActive').textContent = rows.filter(r => r.total > 0).length + ' / ' + rows.length;
+  $('sMinutes').textContent = Math.round(rows.reduce((s, r) => s + r.total, 0) / 60);
+  $('sLessons').textContent = Math.round((sum('lesson') + sum('sufara')) / 60);
+  $('sQuran').textContent = Math.round((sum('quran') + sum('surah')) / 60);
+  $('sGames').textContent = Math.round(sum('game') / 60);
+  $('weekRows').innerHTML = rows.length ? rows.map(r => `
+    <tr class="rec${r.total ? '' : ' idle'}" data-id="${r.k.id}">
+      <td><b>${esc(fullName(r.k))}</b>${r.k.active ? '' : ' <span class="tag">left</span>'}</td>
+      <td>${esc(groupName(r.k.group_id))}</td>
+      ${TYPES.map(x => `<td class="num">${mins(r.t[x])}</td>`).join('')}
+      <td class="num"><b>${r.total ? mins(r.total) : '–'}</b></td>
+      <td><span class="bar" style="width:${Math.round(80 * r.total / max)}px"></span></td>
+      <td>${r.total ? esc(when(r.last)) : '<span class="muted">nothing this week</span>'}</td>
+    </tr>`).join('') : '<tr><td colspan="10" class="muted">No children yet – add them under “Children”.</td></tr>';
+  document.querySelectorAll('#weekRows tr.rec').forEach(tr => tr.onclick = () => openKid(tr.dataset.id));
+}
+$('groupFilter').onchange = renderWeek;
+$('prevWeek').onclick = () => { weekStart = addDays(weekStart, -7); loadWeek().catch(e => msg(e.message, true)); };
+$('nextWeek').onclick = () => { weekStart = addDays(weekStart, 7); loadWeek().catch(e => msg(e.message, true)); };
+$('reload').onclick = loadAll;
+
+function openKid(id) {
+  const k = kids.find(x => x.id === id), mine = week.filter(a => a.kid_id === id);
+  const days = {};
+  mine.forEach(a => { const d = new Date(a.started_at).toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' }); (days[d] = days[d] || []).push(a); });
+  $('dlgBody').innerHTML = `<h2>${esc(fullName(k))}</h2><p class="muted" style="margin:0">${esc(groupName(k.group_id))} · ${esc($('weekLabel').textContent)}</p>` +
+    (mine.length ? Object.entries(days).map(([d, list]) => `<div class="day">${esc(d)}</div>
+      <div class="tablewrap" style="margin-top:6px"><table>${list.map(a => `<tr><td>${esc(new Date(a.started_at).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }))}</td>
+        <td><span class="tag">${esc(TYPE_NAME[a.page_type])}</span></td><td style="white-space:normal">${esc(a.title || a.page_key)}</td>
+        <td class="num">${mins(a.active_seconds) || '0'} min</td></tr>`).join('')}</table></div>`).join('')
+      : '<p>Nothing opened this week.</p>') +
+    '<div class="row" style="margin-top:14px"><button class="ghost" onclick="$(\'dlg\').close()">Close</button></div>';
+  $('dlg').showModal(); $('dlg').scrollTop = 0;
+}
+
+// ---------------------------------------------------------------- children
+function renderKids() {
+  const devs = id => devices.filter(d => d.kid_id === id);
+  const sorted = [...kids].sort((a, b) => (b.active - a.active) || a.group_id.localeCompare(b.group_id) || a.first_name.localeCompare(b.first_name));
+  $('kidRows').innerHTML = sorted.length ? sorted.map(k => {
+    const d = devs(k.id), last = d.reduce((m, x) => x.last_seen > m ? x.last_seen : m, '');
+    return `<tr class="${k.active ? '' : 'idle'}" data-id="${k.id}">
+      <td><b>${esc(fullName(k))}</b>${k.active ? '' : ' <span class="tag">left</span>'}</td>
+      <td><select data-act="group">${groups.map(g => `<option value="${esc(g.id)}"${g.id === k.group_id ? ' selected' : ''}>${esc(g.name)}</option>`).join('')}</select></td>
+      <td>${k.pin ? k.pin.split('').map(n => PICS[+n]).join(' ') : '<span class="muted">not chosen yet</span>'}</td>
+      <td class="num">${d.length}</td>
+      <td>${esc(when(last))}</td>
+      <td class="row" style="flex-wrap:nowrap">
+        ${k.pin ? '<button class="ghost small" data-act="pin">Reset pictures</button>' : ''}
+        ${d.length ? '<button class="ghost small" data-act="signout">Sign out devices</button>' : ''}
+        <button class="ghost small" data-act="active">${k.active ? 'Left the maktab' : 'Back in the maktab'}</button>
+      </td></tr>`;
+  }).join('') : '<tr><td colspan="6" class="muted">No children yet.</td></tr>';
+  document.querySelectorAll('#kidRows [data-act]').forEach(el => {
+    const id = el.closest('tr').dataset.id, k = kids.find(x => x.id === id);
+    const act = el.dataset.act;
+    const run = async (fn, ok) => { const { error } = await fn(); if (error) return msg(error.message, true); msg(ok); await loadAll(); msg(ok); };
+    if (act === 'group') el.onchange = () => run(() => sb.from('kids').update({ group_id: el.value }).eq('id', id), fullName(k) + ' moved to ' + groupName(el.value) + '.');
+    if (act === 'pin') el.onclick = () => confirm('Let ' + fullName(k) + ' choose new pictures next time?') &&
+      run(() => sb.from('kids').update({ pin: null }).eq('id', id), fullName(k) + ' will choose new pictures on the next sign-in.');
+    if (act === 'signout') el.onclick = () => confirm('Sign ' + fullName(k) + ' out on every device?') &&
+      run(() => sb.from('kid_devices').delete().eq('kid_id', id), fullName(k) + ' is signed out everywhere.');
+    if (act === 'active') el.onclick = () => run(() => sb.from('kids').update({ active: !k.active }).eq('id', id),
+      fullName(k) + (k.active ? ' is hidden from the name list (history kept).' : ' is back in the name list.'));
+  });
+}
+$('addKid').onsubmit = async e => {
+  e.preventDefault();
+  const first = $('kFirst').value.trim(), last = $('kLast').value.trim();
+  if (!first) return;
+  const { error } = await sb.from('kids').insert({ first_name: first, last_name: last, group_id: $('kGroup').value });
+  if (error) return msg(error.message, true);
+  $('kFirst').value = ''; $('kLast').value = ''; $('kFirst').focus();
+  await loadAll(); msg(first + ' added.');
+};
+
+// ---------------------------------------------------------------- class codes
+function newCode() { return WORDS[Math.floor(Math.random() * WORDS.length)] + String(10 + Math.floor(Math.random() * 90)); }
+function renderCodes() {
+  const link = new URL('../lessons/', location.href).href;
+  $('groupCards').innerHTML = groups.map(g => `<div class="card" data-id="${esc(g.id)}">
+      <h2>${esc(g.name)}</h2>
+      <div class="code">${esc(g.code)}</div>
+      <p class="muted" style="margin:4px 0 10px">${kids.filter(k => k.group_id === g.id && k.active).length} children · ${g.pin_required ? '3-picture PIN on' : 'no PIN – tap the name'}</p>
+      <label style="display:flex;gap:8px;align-items:center;font-weight:600"><input type="checkbox" data-act="pin" style="width:auto"${g.pin_required ? ' checked' : ''}> Children choose 3 pictures (PIN)</label>
+      <div class="row" style="margin-top:10px">
+        <button class="ghost small" data-act="copy">Copy message for parents</button>
+        <button class="danger small" data-act="new">Make a new code</button>
+      </div>
+      <textarea readonly data-act="text" style="margin-top:10px">Assalamu alaikum! From now on, the first time your child opens a lesson or game on a phone or tablet, they type the class code ${g.code} and tap their name${g.pin_required ? ', then choose 3 pictures to remember' : ''}. This lets the teacher see which lessons, Qur’an and surahs they practised, and for how long. Nothing else is collected. Lessons: ${link}</textarea>
+    </div>`).join('') || '<div class="card">No groups yet – run the setup file in Supabase.</div>';
+  document.querySelectorAll('#groupCards [data-act]').forEach(el => {
+    const id = el.closest('[data-id]').dataset.id, g = groups.find(x => x.id === id);
+    const act = el.dataset.act;
+    if (act === 'pin') el.onchange = async () => { const { error } = await sb.from('class_groups').update({ pin_required: el.checked, updated_at: new Date().toISOString() }).eq('id', id); if (error) return msg(error.message, true); await loadAll(); };
+    if (act === 'new') el.onclick = async () => {
+      if (!confirm('Make a new code for ' + g.name + '? The old code stops working for NEW devices. Children already signed in stay signed in.')) return;
+      const { error } = await sb.from('class_groups').update({ code: newCode(), updated_at: new Date().toISOString() }).eq('id', id);
+      if (error) return msg(error.message, true);
+      await loadAll(); msg('New code for ' + g.name + '.');
+    };
+    if (act === 'copy') el.onclick = async () => {
+      const text = el.closest('.card').querySelector('textarea').value;
+      try { await navigator.clipboard.writeText(text); el.textContent = 'Copied ✓'; } catch { el.closest('.card').querySelector('textarea').select(); }
+      setTimeout(() => el.textContent = 'Copy message for parents', 2000);
+    };
+  });
+}
+
+// ---------------------------------------------------------------- CSV, end of year
+function csv(rows, name) {
+  const head = ['Date', 'Time', 'Child', 'Group', 'Type', 'Page', 'Active minutes', 'Last seen'];
+  const cell = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const lines = rows.map(a => {
+    const k = kids.find(x => x.id === a.kid_id) || { first_name: '?', last_name: '', group_id: '' }, d = new Date(a.started_at);
+    return [d.toLocaleDateString('en-CA'), d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }), fullName(k), groupName(k.group_id),
+      TYPE_NAME[a.page_type], a.title || a.page_key, (a.active_seconds / 60).toFixed(1), new Date(a.last_seen).toLocaleString('en-US')].map(cell).join(',');
+  });
+  const blob = new Blob(['﻿' + [head.map(cell).join(','), ...lines].join('\r\n')], { type: 'text/csv' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click();
+}
+$('weekCsv').onclick = () => csv(week, 'maktab-activity-week-' + weekStart.toLocaleDateString('en-CA') + '.csv');
+$('allCsv').onclick = async () => {
+  msg('Preparing…');
+  try { const all = await fetchAll(() => sb.from('activity').select('*').order('started_at')); csv(all, 'maktab-activity-all-' + new Date().toLocaleDateString('en-CA') + '.csv'); msg(all.length + ' visits downloaded.'); }
+  catch (e) { msg(e.message, true); }
+};
+$('deleteAll').onclick = async () => {
+  if (prompt('This deletes ALL activity (children and codes stay). Download it first!\nType DELETE to continue:') !== 'DELETE') return;
+  const { error } = await sb.from('activity').delete().gte('started_at', '1970-01-01');
+  if (error) return msg(error.message, true);
+  await loadAll(); msg('All activity deleted.');
+};
+
+// ---------------------------------------------------------------- tabs
+document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
+  ['week', 'kids', 'codes'].forEach(t => $('tab-' + t).classList.toggle('hide', t !== b.dataset.tab));
+});
+
+if (linkError) { history.replaceState(null, '', location.pathname); refresh().then(() => msg('That reset link did not work (' + linkError.replace(/\+/g, ' ') + '). Ask for a new one.', true)); }
+else refresh();
+</script>
+</body>
+</html>

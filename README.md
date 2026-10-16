@@ -15,6 +15,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 | QR code for the mosque wall (always opens the newest update) | [/qr/](https://ademdeniz.github.io/islamic-games-en/qr/) | `tools/build_update.py` |
 | Pizza & parent duty | [/duty/](https://ademdeniz.github.io/islamic-games-en/duty/) | `data/duty/parents.json` → `tools/build_duty.py` |
 | Credits | [/credits/](https://ademdeniz.github.io/islamic-games-en/credits/) | `tools/build_credits.py` |
+| Teacher dashboard – who opened what, for how long (login) | [/teacher/](https://ademdeniz.github.io/islamic-games-en/teacher/) | hand-written · database `supabase/tracking.sql` |
 | Youth Gathering 2026 parent waiver (not linked; admin list at `waiver/admin.html`) | [/waiver/](https://ademdeniz.github.io/islamic-games-en/waiver/) | hand-written · database `supabase/waiver.sql` |
 
 Classes are every Sunday. Group 1: Ilmihal 2 & 3, Qur’an (Al-Baqarah), Sufara, Tajwid from November.
@@ -63,6 +64,12 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   (replaced by `learn-surahs-by-heart`). Local name `moj-mektebski-vrt` = repo `moj-mektebski-vrt1`.
 - `islamski-milijunas-online` uses our Supabase project (`supabase/config.json`, publishable key only).
   Database: run `supabase/schema.sql` in the Supabase SQL Editor; local test `tests/run_supabase_test.sh`.
+- **Activity tracking** (`supabase/tracking.sql`, `tools/tracking.js` + `tools/tracking.py`): lessons, Sufara, Read Along and
+  Learn the Surahs carry a small tracker (added by their builders; not on index pages, not in the starter). A child types the
+  class code of their group once per device, taps their name and – where the group has it on – picks 3 pictures. Only active
+  time counts (page on screen and touched in the last minute, or audio playing). Children, codes and activity are only visible
+  in `teacher/` to the admin and accounts in `activity_viewers` (add one like `waiver_viewers` below). The children's names
+  are entered in the dashboard or by a private SQL file – never in this public repository.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
   Only the admin and accounts in `waiver_viewers` can see signed waivers; `tests/run_supabase_test.sh` tests both files.
   To let an account see the waivers (it keeps its role in the games), run in the SQL Editor (with its e-mail):

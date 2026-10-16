@@ -27,6 +27,8 @@ def build(game, data_file):
     import site_settings
     html = html.replace('</head>', skel.BRAND_CSS + '</head>', 1)
     html = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + site_settings.brand_html(), html, count=1)
+    import tracking
+    html = tracking.add(html)
     out = os.path.join(ROOT, 'games', game, 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(html)

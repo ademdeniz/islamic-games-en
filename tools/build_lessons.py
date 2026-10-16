@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.join(ROOT, 'tools'))
 import skel  # noqa: E402
 
 from build_lessons_core import brand  # noqa: E402  (same logo header as every page)
+import tracking  # noqa: E402  (who opened the lesson, for how long)
 
 
 def load_all():
@@ -47,7 +48,7 @@ def build():
                     .replace('__DATA__', json.dumps(lesson, ensure_ascii=False).replace('</', '<\\/')))
             out = os.path.join(ROOT, 'lessons', bid, lesson['id'], 'index.html')
             os.makedirs(os.path.dirname(out), exist_ok=True)
-            open(out, 'w', encoding='utf-8').write(brand(page))
+            open(out, 'w', encoding='utf-8').write(tracking.add(brand(page)))
             count += 1
     index = open(os.path.join(ROOT, 'tools', 'templates', 'lessons-index.html'), encoding='utf-8').read()
     summary = {bid: {k: b[k] for k in ('title', 'level', 'icon', 'source')} |
