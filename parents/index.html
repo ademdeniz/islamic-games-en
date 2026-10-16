@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Child's Learning</title>
+<meta name="description" content="Parents: see what your child practised this week – lessons, Qur’an, surahs, Sufara and games.">
+<meta name="robots" content="noindex">
+<style>
+:root{--green:#075943;--green-2:#0b6b50;--gold:#c99b3b;--gold-soft:#f3e6c4;--cream:#f7f1e1;--card:#fffdf7;--ink:#17372d;--muted:#5d6b64;--line:#e6d8b3;--red:#a3271d;--soft:#eef3ef}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+.wrap{max-width:760px;margin:auto;padding:14px 16px 48px}
+.brand{background:#fff;border:3px solid var(--gold);border-radius:18px;padding:10px 14px}
+.brand img{display:block;width:100%;max-width:640px;height:auto;margin:auto}
+.hero{background:var(--green);color:#fff;border:3px solid var(--gold);border-radius:18px;padding:16px 20px;margin-top:10px;text-align:center}
+.hero h1{margin:0;font-size:clamp(22px,5vw,30px)}
+.hero p{margin:6px auto 0;opacity:.92}
+.bs{display:block;font-size:.85em;opacity:.8;font-weight:400}
+.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;margin-top:14px}
+.card h2{font-size:19px;margin:0 0 4px}
+label{display:block;font-weight:600;font-size:14px;margin:10px 0 4px}
+input{width:100%;font:inherit;padding:11px 12px;border:2px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input:focus{outline:none;border-color:var(--green-2)}
+#code{font-size:26px;letter-spacing:.3em;text-align:center}
+button{font:inherit;font-weight:700;border-radius:12px;cursor:pointer;background:var(--green);color:#fff;border:2px solid var(--green);padding:11px 18px}
+button.ghost{background:#fff;color:var(--green)}
+button.small{padding:5px 12px;border-radius:999px;font-size:14px}
+button.link{background:none;border:0;color:var(--green);text-decoration:underline;padding:6px;font-weight:600}
+button:disabled{opacity:.6}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.msg{font-weight:700;margin:10px 0 0}
+.msg.err{color:var(--red)}
+.muted{color:var(--muted);font-size:13px}
+.hide{display:none!important}
+.weeknav{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.weeknav b{text-align:center}
+.total{display:flex;align-items:baseline;gap:8px;margin:10px 0 4px}
+.total b{font-size:40px;line-height:1;color:var(--green)}
+.cats{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:8px}
+@media (max-width:520px){.cats{grid-template-columns:repeat(3,1fr)}}
+.cat{background:var(--soft);border-radius:12px;padding:8px 6px;text-align:center}
+.cat .e{font-size:20px}
+.cat b{display:block;font-size:20px;color:var(--green)}
+.cat span{font-size:12px;color:var(--muted)}
+.cat.zero b{color:var(--muted)}
+.day{font-weight:700;margin:12px 0 4px;font-size:14px}
+.visit{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);font-size:14px}
+.visit span:last-child{white-space:nowrap;color:var(--muted)}
+.trend{display:flex;gap:6px;align-items:flex-end;height:90px;margin-top:10px;padding-top:6px}
+.trend div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:11px;color:var(--muted)}
+.trend i{display:block;width:100%;max-width:38px;background:var(--gold);border-radius:6px 6px 0 0;min-height:2px}
+.trend .now i{background:var(--green)}
+.help{background:var(--gold-soft);border-radius:12px;padding:10px 12px;margin-top:10px;font-size:14px}
+details summary{cursor:pointer;font-weight:700;color:var(--green);margin-top:12px}
+footer{text-align:center;color:var(--muted);font-size:12px;margin-top:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="brand"><img src="../assets/logo-bz-erie-web.jpg" alt="Bosnian Islamic Community of Erie – Islamic Community of Bosniaks of North America"></header>
+  <div class="hero">
+    <h1>My child’s learning<span class="bs">Učenje mog djeteta</span></h1>
+    <p>What your child practised at home: lessons, Qur’an, surahs, Sufara and games.</p>
+  </div>
+
+  <!-- ------------------------------------------------------------ log in -->
+  <section class="card" id="step-email">
+    <h2>Log in<span class="bs">Prijava</span></h2>
+    <p class="muted" style="margin:0">Use the e-mail you registered your child with. We send you a code – no password needed.<br>Koristite e-mail s kojim ste upisali dijete. Poslat ćemo vam kod – bez lozinke.</p>
+    <form id="emailForm">
+      <label for="email">Your e-mail · Vaš e-mail</label>
+      <input id="email" type="email" autocomplete="email" inputmode="email" required>
+      <div class="row" style="margin-top:12px"><button id="sendBtn" type="submit">Send me a code · Pošalji mi kod</button></div>
+    </form>
+  </section>
+
+  <section class="card hide" id="step-code">
+    <h2>Check your e-mail<span class="bs">Provjerite e-mail</span></h2>
+    <p style="margin:0">We sent an e-mail to <b id="sentTo"></b>. Type the code from it, or tap the button in the e-mail.<br>
+      <span class="muted">Upišite kod iz e-maila ili pritisnite dugme u e-mailu. Ako ga ne vidite, pogledajte u Spam.</span></p>
+    <form id="codeForm">
+      <label for="code">Code · Kod</label>
+      <input id="code" inputmode="numeric" autocomplete="one-time-code" maxlength="10" required>
+      <div class="row" style="margin-top:12px">
+        <button id="verifyBtn" type="submit">Log in · Prijava</button>
+        <button type="button" class="link" id="otherEmail">Use another e-mail</button>
+      </div>
+    </form>
+  </section>
+
+  <p class="msg" id="msg"></p>
+
+  <!-- ------------------------------------------------------------ children -->
+  <div id="app" class="hide">
+    <section class="card">
+      <div class="weeknav">
+        <button class="ghost small" id="prevWeek" aria-label="Previous week">◀</button>
+        <b id="weekLabel"></b>
+        <button class="ghost small" id="nextWeek" aria-label="Next week">▶</button>
+      </div>
+    </section>
+    <div id="kids"></div>
+    <div class="row" style="justify-content:space-between;margin-top:14px">
+      <span class="muted" id="who"></span>
+      <button class="ghost small" id="logout">Log out · Odjava</button>
+    </div>
+  </div>
+
+  <footer>Bosnian Islamic Community of Erie · Questions? Ask the mu’allim.</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
+<script>
+const SUPABASE_URL = 'https://wlyfczvepjcluqcpyxpo.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_OFODrzQiSGAZzEKkYPd13g_P9lMJWNN';
+const CATS = [
+  ['lesson', '📚', 'Lessons', 'Lekcije'], ['quran', '📖', 'Qur’an', 'Kur’an'], ['surah', '🌙', 'Surahs', 'Sure'],
+  ['sufara', '✍️', 'Sufara', 'Sufara'], ['game', '🎮', 'Games', 'Igre']];
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const msg = (t, err) => { $('msg').textContent = t || ''; $('msg').className = 'msg' + (err ? ' err' : ''); };
+const mins = s => s >= 60 ? Math.round(s / 60) : s > 0 ? '<1' : 0;
+function startOfWeek(d) { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - x.getDay()); return x; }   // Sunday = class day
+function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate() + n); return x; }
+const fmt = (d, o) => d.toLocaleDateString('en-US', o);
+let kids = [], visits = [], weekStart = startOfWeek(new Date()), email = '';
+const TREND_WEEKS = 6;
+
+function show(step) {
+  ['step-email', 'step-code', 'app'].forEach(id => $(id).classList.toggle('hide', id !== step));
+}
+
+// ---------------------------------------------------------------- log in with a code
+$('emailForm').onsubmit = async e => {
+  e.preventDefault();
+  email = $('email').value.trim().toLowerCase();
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return msg('Please check the e-mail address. · Provjerite e-mail adresu.', true);
+  $('sendBtn').disabled = true; msg('Sending… · Šaljem…');
+  const { error } = await sb.auth.signInWithOtp({ email, options: { shouldCreateUser: true, emailRedirectTo: location.origin + location.pathname } });
+  $('sendBtn').disabled = false;
+  if (error) return msg((/rate|seconds/i.test(error.message) ? 'Please wait a minute before asking for another code. · Sačekajte minutu. ' : '') + error.message, true);
+  $('sentTo').textContent = email; show('step-code'); $('code').focus(); msg('');
+};
+$('otherEmail').onclick = () => { show('step-email'); msg(''); };
+$('codeForm').onsubmit = async e => {
+  e.preventDefault();
+  const token = $('code').value.replace(/\D/g, '');
+  if (token.length < 6) return msg('Type the whole code from the e-mail. · Upišite cijeli kod.', true);
+  $('verifyBtn').disabled = true; msg('Checking… · Provjeravam…');
+  let { error } = await sb.auth.verifyOtp({ email, token, type: 'email' });
+  if (error) ({ error } = await sb.auth.verifyOtp({ email, token, type: 'signup' }));   // first e-mail to a new address
+  $('verifyBtn').disabled = false;
+  if (error) return msg('That code did not work – it may be old. Ask for a new one. · Kod nije ispravan ili je istekao. ' + error.message, true);
+  await start();
+};
+$('logout').onclick = async () => { await sb.auth.signOut(); location.replace(location.pathname); };
+
+// ---------------------------------------------------------------- the children
+let starting = null;
+function start() { return starting = starting || load().finally(() => { starting = null; }); }
+async function load() {
+  const { data: { session } } = await sb.auth.getSession();
+  if (!session) { show('step-email'); return; }
+  msg('Loading… · Učitavam…');
+  const { data, error } = await sb.rpc('my_children');
+  if (error) return msg('Could not load: ' + error.message, true);
+  if (data === null) {   // logged in some other way (e.g. a game password) – ask for a code
+    await sb.auth.signOut();
+    show('step-email');
+    return msg('Please log in with a code sent to your e-mail. · Prijavite se kodom sa e-maila.', true);
+  }
+  kids = data;
+  $('who').textContent = 'Logged in as ' + session.user.email;
+  show('app'); msg('');
+  if (!kids.length) {
+    $('kids').innerHTML = `<section class="card"><h2>No child linked to this e-mail yet</h2>
+      <p>Log out and use the e-mail you registered with, or ask the mu’allim to add <b>${esc(session.user.email)}</b>.</p>
+      <p class="muted">Ovaj e-mail još nije povezan s djetetom. Koristite e-mail s kojim ste upisali dijete ili se javite muallimu.</p></section>`;
+    document.querySelector('#app .card').classList.add('hide');
+    return;
+  }
+  await loadWeek();
+}
+
+async function loadWeek() {
+  const end = addDays(weekStart, 7), from = addDays(weekStart, -7 * (TREND_WEEKS - 1));
+  $('weekLabel').innerHTML = esc(fmt(weekStart, { month: 'short', day: 'numeric' }) + ' – ' + fmt(addDays(end, -1), { month: 'short', day: 'numeric' })) +
+    (+weekStart === +startOfWeek(new Date()) ? '<span class="bs">This week · Ova sedmica</span>' : '');
+  $('nextWeek').disabled = +weekStart >= +startOfWeek(new Date());
+  const { data, error } = await sb.rpc('my_children_activity', { p_from: from.toISOString(), p_to: end.toISOString() });
+  if (error) return msg('Could not load: ' + error.message, true);
+  visits = data || [];
+  render();
+}
+$('prevWeek').onclick = () => { weekStart = addDays(weekStart, -7); loadWeek(); };
+$('nextWeek').onclick = () => { weekStart = addDays(weekStart, 7); loadWeek(); };
+
+function render() {
+  const end = addDays(weekStart, 7);
+  $('kids').innerHTML = kids.map(k => {
+    const mine = visits.filter(v => v.kid_id === k.id);
+    const week = mine.filter(v => new Date(v.started_at) >= weekStart && new Date(v.started_at) < end);
+    const by = t => week.filter(v => v.page_type === t).reduce((s, v) => s + v.active_seconds, 0);
+    const total = week.reduce((s, v) => s + v.active_seconds, 0);
+    const days = {};
+    week.forEach(v => { const d = fmt(new Date(v.started_at), { weekday: 'long', month: 'short', day: 'numeric' }); (days[d] = days[d] || []).push(v); });
+    const weeks = Array.from({ length: TREND_WEEKS }, (_, i) => {
+      const s = addDays(weekStart, -7 * (TREND_WEEKS - 1 - i)), e = addDays(s, 7);
+      return { s, sec: mine.filter(v => new Date(v.started_at) >= s && new Date(v.started_at) < e).reduce((a, v) => a + v.active_seconds, 0) };
+    });
+    const max = Math.max(60, ...weeks.map(w => w.sec));
+    const help = k.devices ? '' : `<div class="help">${esc(k.first_name)} has not signed in on a phone or tablet yet. Open any lesson, type the class code
+      <b>${esc(k.class_code)}</b> and tap ${esc(k.first_name)}’s name${k.pin_required ? ', then choose 3 pictures' : ''}.<br>
+      <span class="muted">Otvorite lekciju, upišite kod <b>${esc(k.class_code)}</b> i dodirnite ime djeteta${k.pin_required ? ', pa izaberite 3 sličice' : ''}.</span></div>`;
+    return `<section class="card">
+      <h2>${esc(k.first_name)} ${esc(k.last_name)}</h2>
+      <span class="muted">${esc(k.group)} · class code ${esc(k.class_code)}</span>
+      <div class="total"><b>${mins(total)}</b><span>minutes this week · minuta</span></div>
+      <div class="cats">${CATS.map(([t, e, en, bs]) => { const s = by(t); return `<div class="cat${s ? '' : ' zero'}"><div class="e">${e}</div><b>${mins(s)}</b><span>${en}<br>${bs}</span></div>`; }).join('')}</div>
+      ${help}
+      ${week.length ? `<details${week.length <= 6 ? ' open' : ''}><summary>What ${esc(k.first_name)} opened · Šta je otvorio/la (${week.length})</summary>
+        ${Object.entries(days).map(([d, list]) => `<div class="day">${esc(d)}</div>` + list.map(v => `<div class="visit"><span>${CATS.find(c => c[0] === v.page_type)[1]} ${esc(v.title)}</span><span>${mins(v.active_seconds)} min</span></div>`).join('')).join('')}
+      </details>` : (k.devices ? '<p class="muted">Nothing practised this week yet. · Ove sedmice još ništa.</p>' : '')}
+      <div class="trend" aria-label="Minutes in the last ${TREND_WEEKS} weeks">${weeks.map((w, i) => `<div class="${i === TREND_WEEKS - 1 ? 'now' : ''}">
+        <span>${w.sec ? mins(w.sec) : ''}</span><i style="height:${Math.round(60 * w.sec / max)}px"></i>${esc(fmt(w.s, { month: 'numeric', day: 'numeric' }))}</div>`).join('')}</div>
+      <p class="muted" style="margin:6px 0 0">Minutes per week (last ${TREND_WEEKS} weeks) · Minute po sedmici</p>
+    </section>`;
+  }).join('');
+}
+
+// Opening the link in the e-mail logs in too (Supabase puts the session in the address).
+const linkError = new URLSearchParams(location.hash.slice(1)).get('error_description');
+sb.auth.onAuthStateChange((ev, session) => { if (ev === 'SIGNED_IN' && $('app').classList.contains('hide') && session) setTimeout(start, 0); });
+if (linkError) { history.replaceState(null, '', location.pathname); show('step-email'); msg('That e-mail link did not work (' + linkError.replace(/\+/g, ' ') + '). Ask for a new code. · Link nije ispravan, zatražite novi kod.', true); }
+else start();
+</script>
+</body>
+</html>

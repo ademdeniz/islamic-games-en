@@ -16,6 +16,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 | Pizza & parent duty | [/duty/](https://ademdeniz.github.io/islamic-games-en/duty/) | `data/duty/parents.json` → `tools/build_duty.py` |
 | Credits | [/credits/](https://ademdeniz.github.io/islamic-games-en/credits/) | `tools/build_credits.py` |
 | Teacher dashboard – who opened what, for how long (login) | [/teacher/](https://ademdeniz.github.io/islamic-games-en/teacher/) | hand-written · database `supabase/tracking.sql` |
+| Parents – their own children's week (e-mail code login) | [/parents/](https://ademdeniz.github.io/islamic-games-en/parents/) | hand-written · database `supabase/parents.sql` |
 | Youth Gathering 2026 parent waiver (not linked; admin list at `waiver/admin.html`) | [/waiver/](https://ademdeniz.github.io/islamic-games-en/waiver/) | hand-written · database `supabase/waiver.sql` |
 
 Classes are every Sunday. Group 1: Ilmihal 2 & 3, Qur’an (Al-Baqarah), Sufara, Tajwid from November.
@@ -70,6 +71,9 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   time counts (page on screen and touched in the last minute, or audio playing). Children, codes and activity are only visible
   in `teacher/` to the admin and accounts in `activity_viewers` (add one like `waiver_viewers` below). The children's names
   are entered in the dashboard or by a private SQL file – never in this public repository.
+- **Parents** (`parents/`, `supabase/parents.sql`): a parent types their e-mail, gets a code (e-mail templates in
+  `supabase/email-templates/`) and sees only the children linked to that e-mail in `kid_parents` (from the registration
+  form; editable on `teacher/` → Children). Password logins never see children. The e-mails live only in Supabase.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
   Only the admin and accounts in `waiver_viewers` can see signed waivers; `tests/run_supabase_test.sh` tests both files.
   To let an account see the waivers (it keeps its role in the games), run in the SQL Editor (with its e-mail):

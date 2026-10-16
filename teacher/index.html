@@ -139,7 +139,7 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
       </div>
       <div class="tablewrap">
         <table>
-          <thead><tr><th>Child</th><th>Group</th><th>Pictures (PIN)</th><th class="num">Devices</th><th>Last seen</th><th></th></tr></thead>
+          <thead><tr><th>Child</th><th>Group</th><th>Parent e-mails (parents/ login)</th><th>Pictures (PIN)</th><th class="num">Devices</th><th>Last seen</th><th></th></tr></thead>
           <tbody id="kidRows"></tbody>
         </table>
       </div>
@@ -148,6 +148,12 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
     <!-- ------------------------------------------------------------ codes -->
     <section id="tab-codes" class="hide">
       <div class="groups" id="groupCards"></div>
+      <div class="card">
+        <h2>Parents</h2>
+        <p style="margin:0 0 8px">Parents log in at <a id="parentsLink" target="_blank" rel="noopener"></a> with a code sent to their e-mail and see only their own children. Their e-mails are on the Children tab.</p>
+        <textarea readonly id="parentsMsg"></textarea>
+        <div class="row" style="margin-top:8px"><button class="ghost small" id="copyParents">Copy message for parents</button></div>
+      </div>
       <div class="card">
         <h2>End of the school year</h2>
         <p style="margin:0 0 10px">Download everything first, then delete the activity. Children and class codes stay.</p>
@@ -178,7 +184,7 @@ const fullName = k => k.first_name + (k.last_name ? ' ' + k.last_name : '');
 const mins = s => !s ? '' : s < 60 ? '<1' : String(Math.round(s / 60));
 const when = s => s ? new Date(s).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : '';
 
-let groups = [], kids = [], devices = [], week = [], weekStart = startOfWeek(new Date());
+let groups = [], kids = [], devices = [], parents = [], week = [], weekStart = startOfWeek(new Date());
 
 function startOfWeek(d) { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - x.getDay()); return x; }   // Sunday = class day
 function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate() + n); return x; }
@@ -239,10 +245,11 @@ async function fetchAll(q) {   // PostgREST returns at most 1000 rows per reques
 async function loadAll() {
   msg('Loading…');
   try {
-    [groups, kids, devices] = await Promise.all([
+    [groups, kids, devices, parents] = await Promise.all([
       fetchAll(() => sb.from('class_groups').select('*').order('id')),
       fetchAll(() => sb.from('kids').select('*').order('first_name').order('last_name')),
-      fetchAll(() => sb.from('kid_devices').select('kid_id,last_seen'))
+      fetchAll(() => sb.from('kid_devices').select('kid_id,last_seen')),
+      fetchAll(() => sb.from('kid_parents').select('*')).catch(() => [])   // before parents.sql is run
     ]);
     $('groupFilter').innerHTML = '<option value="">All groups</option>' + groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
     $('kGroup').innerHTML = groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
@@ -315,6 +322,8 @@ function renderKids() {
     return `<tr class="${k.active ? '' : 'idle'}" data-id="${k.id}">
       <td><b>${esc(fullName(k))}</b>${k.active ? '' : ' <span class="tag">left</span>'}</td>
       <td><select data-act="group">${groups.map(g => `<option value="${esc(g.id)}"${g.id === k.group_id ? ' selected' : ''}>${esc(g.name)}</option>`).join('')}</select></td>
+      <td style="white-space:normal;min-width:180px">${parents.filter(x => x.kid_id === k.id).map(x => `<span class="tag">${esc(x.email)} <button class="link" style="padding:0 2px" data-act="unmail" data-email="${esc(x.email)}" aria-label="Remove ${esc(x.email)}">×</button></span>`).join(' ')}
+        <button class="ghost small" data-act="mail">+ e-mail</button></td>
       <td>${k.pin ? k.pin.split('').map(n => PICS[+n]).join(' ') : '<span class="muted">not chosen yet</span>'}</td>
       <td class="num">${d.length}</td>
       <td>${esc(when(last))}</td>
@@ -323,7 +332,7 @@ function renderKids() {
         ${d.length ? '<button class="ghost small" data-act="signout">Sign out devices</button>' : ''}
         <button class="ghost small" data-act="active">${k.active ? 'Left the maktab' : 'Back in the maktab'}</button>
       </td></tr>`;
-  }).join('') : '<tr><td colspan="6" class="muted">No children yet.</td></tr>';
+  }).join('') : '<tr><td colspan="7" class="muted">No children yet.</td></tr>';
   document.querySelectorAll('#kidRows [data-act]').forEach(el => {
     const id = el.closest('tr').dataset.id, k = kids.find(x => x.id === id);
     const act = el.dataset.act;
@@ -333,6 +342,14 @@ function renderKids() {
       run(() => sb.from('kids').update({ pin: null }).eq('id', id), fullName(k) + ' will choose new pictures on the next sign-in.');
     if (act === 'signout') el.onclick = () => confirm('Sign ' + fullName(k) + ' out on every device?') &&
       run(() => sb.from('kid_devices').delete().eq('kid_id', id), fullName(k) + ' is signed out everywhere.');
+    if (act === 'mail') el.onclick = () => {
+      const email = (prompt('Parent e-mail for ' + fullName(k) + ' (they log in on the parents page with it):') || '').trim().toLowerCase();
+      if (!email) return;
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return msg('That is not an e-mail address.', true);
+      run(() => sb.from('kid_parents').insert({ kid_id: id, email }), email + ' can now see ' + fullName(k) + '.');
+    };
+    if (act === 'unmail') el.onclick = () => confirm(el.dataset.email + ' will no longer see ' + fullName(k) + '. Continue?') &&
+      run(() => sb.from('kid_parents').delete().eq('kid_id', id).eq('email', el.dataset.email), el.dataset.email + ' removed.');
     if (act === 'active') el.onclick = () => run(() => sb.from('kids').update({ active: !k.active }).eq('id', id),
       fullName(k) + (k.active ? ' is hidden from the name list (history kept).' : ' is back in the name list.'));
   });
@@ -348,6 +365,15 @@ $('addKid').onsubmit = async e => {
 };
 
 // ---------------------------------------------------------------- class codes
+const parentsUrl = new URL('../parents/', location.href).href;
+$('parentsLink').href = parentsUrl; $('parentsLink').textContent = parentsUrl;
+$('parentsMsg').value = 'Assalamu alaikum! You can now see what your child practised at home each week – lessons, Qur’an, surahs and games. ' +
+  'Open ' + parentsUrl + ' and type the e-mail you registered with; you get a code by e-mail (no password).\n\n' +
+  'Sada možete vidjeti šta je vaše dijete vježbalo kod kuće svake sedmice. Otvorite ' + parentsUrl + ' i upišite e-mail s kojim ste upisali dijete; dobit ćete kod na e-mail (bez lozinke).';
+$('copyParents').onclick = async () => {
+  try { await navigator.clipboard.writeText($('parentsMsg').value); $('copyParents').textContent = 'Copied ✓'; } catch { $('parentsMsg').select(); }
+  setTimeout(() => $('copyParents').textContent = 'Copy message for parents', 2000);
+};
 function newCode() { return WORDS[Math.floor(Math.random() * WORDS.length)] + String(10 + Math.floor(Math.random() * 90)); }
 function renderCodes() {
   const link = new URL('../lessons/', location.href).href;
