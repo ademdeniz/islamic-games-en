@@ -14,6 +14,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 import skel  # noqa: E402
+import tracking  # noqa: E402
 
 BLOB = re.compile(r'data:[a-z]+/[a-z0-9.+-]+;base64,[A-Za-z0-9+/=\s]+?(?=["\')])')
 TEXT_ATTRS = {'title', 'alt', 'placeholder', 'aria-label', 'content', 'value', 'label', 'lang'}
@@ -185,7 +186,8 @@ def original_html(game):
 
 
 def translated_html(game):
-    return open(os.path.join(ROOT, 'games', game, 'index.html'), encoding='utf-8').read()
+    """The built game without the activity tracker (tools/tracking.js), which is not part of the translation."""
+    return tracking.strip(open(os.path.join(ROOT, 'games', game, 'index.html'), encoding='utf-8').read())
 
 
 def strip_brand(html):

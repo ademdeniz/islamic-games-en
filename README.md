@@ -65,8 +65,9 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   (replaced by `learn-surahs-by-heart`). Local name `moj-mektebski-vrt` = repo `moj-mektebski-vrt1`.
 - `islamski-milijunas-online` uses our Supabase project (`supabase/config.json`, publishable key only).
   Database: run `supabase/schema.sql` in the Supabase SQL Editor; local test `tests/run_supabase_test.sh`.
-- **Activity tracking** (`supabase/tracking.sql`, `tools/tracking.js` + `tools/tracking.py`): lessons, Sufara, Read Along and
-  Learn the Surahs carry a small tracker (added by their builders; not on index pages, not in the starter). A child types the
+- **Activity tracking** (`supabase/tracking.sql`, `tools/tracking.js` + `tools/tracking.py`): lessons, Sufara and every game
+  (Read Along and the surah games included) carry a small tracker, added by their builders (`skel.build` for the
+  translated games) – not on index pages, not in the starter. The game checks compare games without it. A child types the
   class code of their group once per device, taps their name and – where the group has it on – picks 3 pictures. Only active
   time counts (page on screen and touched in the last minute, or audio playing). Children, codes and activity are only visible
   in `teacher/` to the admin and accounts in `activity_viewers` (add one like `waiver_viewers` below). The children's names

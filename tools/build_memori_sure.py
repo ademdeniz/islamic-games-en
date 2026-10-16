@@ -115,5 +115,7 @@ R = [
 for a, b in R:
     assert src.count(a) == 1, a[:70]
     src = src.replace(a, b)
+import tracking  # noqa: E402  (who played, for how long)
+src = tracking.add(src)
 open(OUT, 'w', encoding='utf-8').write(src)
 print('built', OUT, len(src) // 1024, 'KB')
