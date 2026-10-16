@@ -10,7 +10,7 @@
 -- Let a teacher see the dashboard (with their e-mail):
 --   insert into public.activity_viewers (user_id) select id from auth.users where email = 'you@example.com' on conflict do nothing;
 
-create extension if not exists pgcrypto;
+create extension if not exists pgcrypto;   -- on Supabase it lives in the "extensions" schema (see search_path below)
 
 -- ------------------------------------------------------------------ tables
 create table if not exists public.class_groups (
@@ -111,7 +111,7 @@ end $$;
 
 -- Code + name (+ PIN) → a secret token for this device.
 create or replace function public.sign_in_kid(p_code text, p_kid uuid, p_pin text) returns jsonb
-language plpgsql security definer set search_path = public as $$
+language plpgsql security definer set search_path = public, extensions as $$
 declare g public.class_groups; k public.kids; tok text; new_pin boolean := false;
 begin
   select * into g from public.class_groups where code = upper(regexp_replace(coalesce(p_code, ''), '\s', '', 'g'));
@@ -135,7 +135,7 @@ end $$;
 -- "This child spent p_seconds more on this page." Returns false if the device was signed out by the teacher.
 create or replace function public.track_visit(p_token text, p_visit uuid, p_type text, p_key text, p_title text,
                                               p_seconds int) returns boolean
-language plpgsql security definer set search_path = public as $$
+language plpgsql security definer set search_path = public, extensions as $$
 declare kid uuid;
 begin
   update public.kid_devices set last_seen = now()

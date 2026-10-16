@@ -6,6 +6,9 @@
 -- ---------------------------------------------------------- Supabase stand-ins
 do $$ begin create role anon nologin; exception when duplicate_object then null; end $$;
 do $$ begin create role authenticated nologin; exception when duplicate_object then null; end $$;
+-- like Supabase: pgcrypto (gen_random_bytes, digest) lives in its own "extensions" schema, not in public
+create schema extensions;
+create extension pgcrypto schema extensions;
 create schema auth;
 create table auth.users (id uuid primary key default gen_random_uuid(), email text, raw_user_meta_data jsonb);
 create function auth.uid() returns uuid language sql stable as
