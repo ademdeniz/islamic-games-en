@@ -48,6 +48,26 @@ select public.track_visit(current_setting('my.tok2'), '20000000-0000-0000-0000-0
 \o
 commit;
 select t.check((select active_seconds from public.activity where id = '20000000-0000-0000-0000-000000000001') = 150, 'visit has 30 + 120 seconds, nothing from another child');
+-- ---------------------------------------------------------- today's summary, sign out
+begin; set local role anon;
+select t.check((public.kid_today(current_setting('my.tok2'), now() - interval '1 hour') ->> 'seconds')::int = 0, 'Sara has nothing today yet');
+select t.check((public.kid_today(current_setting('my.tok2'), now() - interval '1 hour') ->> 'goal_minutes')::int = 10, 'default daily goal is 10 minutes');
+select t.check(public.kid_today('not-a-token', now()) is null, 'unknown device gets no summary');
+select t.expect_error($$select public.kid_today(current_setting('my.tok2'), now() - interval '30 days')$$, 'summary only for recent days');
+commit;
+begin; set local role anon;
+\o /dev/null
+select set_config('my.tok3', public.sign_in_kid('NUR48', '10000000-0000-0000-0000-000000000003', null) ->> 'token', false);
+select public.track_visit(current_setting('my.tok3'), '20000000-0000-0000-0000-000000000005', 'quran', 'games/citaj-kuran', 'Read Along', 90);
+select public.track_visit(current_setting('my.tok3'), '20000000-0000-0000-0000-000000000006', 'lesson', 'lessons/b', 'Lesson B', 40);
+\o
+select t.check((public.kid_today(current_setting('my.tok3'), now() - interval '1 hour') ->> 'seconds')::int = 130, 'Mina''s today total');
+select t.check((public.kid_today(current_setting('my.tok3'), now() - interval '1 hour') -> 'by_type' ->> 'quran')::int = 90, 'today by kind');
+select t.check(jsonb_array_length(public.kid_today(current_setting('my.tok3'), now() - interval '1 hour') -> 'pages') = 2, 'pages practised today');
+select public.sign_out_device(current_setting('my.tok3'));
+select t.check(public.kid_today(current_setting('my.tok3'), now()) is null, 'signed-out device gets nothing');
+select t.check(not public.track_visit(current_setting('my.tok3'), '20000000-0000-0000-0000-000000000007', 'game', 'g', 'G', 10), 'signed-out device cannot report time');
+commit;
 
 -- ---------------------------------------------------------- who sees the dashboard
 begin; set local role authenticated; select set_config('request.jwt.claim.sub', '00000000-0000-0000-0000-00000000000b', true);
@@ -65,6 +85,8 @@ select t.check(public.can_see_activity(), 'listed teacher is a viewer');
 select t.check((select count(*) from public.activity a join public.kids k on k.id = a.kid_id where k.last_name = 'Hodzic') = 1, 'listed teacher sees activity with full names');
 insert into public.kids (group_id, first_name, last_name) values ('g2', 'Novi', 'Ucenik');
 update public.class_groups set code = 'SABR99' where id = 'g1';
+update public.class_groups set daily_goal_minutes = 15 where id = 'g1';
+select t.expect_error($$update public.class_groups set daily_goal_minutes = 500 where id = 'g1'$$, 'daily goal over 120 minutes');
 update public.kids set pin = null where first_name = 'Emir';
 select t.expect_error($$update public.activity set active_seconds = 99999$$, 'teacher edits activity');
 delete from public.kid_devices where kid_id = '10000000-0000-0000-0000-000000000001';
