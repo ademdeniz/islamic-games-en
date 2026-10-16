@@ -1,4 +1,4 @@
-"""The activity tracker (tools/tracking.js) is on every children's page – lessons, Sufara, Read Along, Learn the Surahs –
+"""The activity tracker (tools/tracking.js) is on every children's page – lessons, Sufara, every game (Read Along, surahs) –
 once, and nowhere else; with no Supabase project (the clean starter) pages get none; and it never gets in the way."""
 import glob
 import json
@@ -15,20 +15,20 @@ import tracking  # noqa: E402
 MARK = 'Maktab tracker'
 TRACKED = (glob.glob(os.path.join(ROOT, 'lessons', '*', '*', 'index.html')) +
            glob.glob(os.path.join(ROOT, 'sufara', '*', 'index.html')) +
-           [os.path.join(ROOT, 'games', g, 'index.html') for g in ('citaj-kuran', 'learn-surahs-by-heart')])
+           glob.glob(os.path.join(ROOT, 'games', '*', 'index.html')))
 UNTRACKED = [os.path.join(ROOT, p) for p in ('index.html', 'lessons/index.html', 'sufara/index.html', 'plan/index.html',
                                              'duty/index.html', 'waiver/index.html')]
 
 
 def test_tracker_on_every_childrens_page_once():
-    assert len(TRACKED) > 70
+    assert len(TRACKED) > 130
     cfg = json.load(open(os.path.join(ROOT, 'supabase', 'config.json')))
     for p in TRACKED:
         page = open(p, encoding='utf-8').read()
         assert page.count(MARK) == 1, p
         assert cfg['url'] in page and cfg['publishable_key'] in page, p
         assert '__URL__' not in page and '__KEY__' not in page, p
-        assert page.index(MARK) > page.rindex('</main>'), 'tracker must come after the page itself: ' + p
+        assert page.index(MARK) > page.rfind('</main>'), 'tracker must come after the page itself: ' + p
 
 
 def test_tracker_not_on_other_pages():
@@ -72,3 +72,12 @@ def test_automated_browsers_see_no_card(browser):
     p.goto('file://' + TRACKED[0])
     assert p.locator('#veil').count() == 0
     p.close()
+
+
+def test_games_compare_without_the_tracker():
+    """The translation checks read games without the tracker, so its English/Bosnian texts are not counted as game text."""
+    import gamecheck as gc
+    for game in ('kviz-namaz', 'memori-sure', 'mektebski-fudbal'):
+        page = open(os.path.join(ROOT, 'games', game, 'index.html'), encoding='utf-8').read()
+        assert MARK in page and MARK not in gc.translated_html(game)
+        assert tracking.strip(page) == gc.translated_html(game)

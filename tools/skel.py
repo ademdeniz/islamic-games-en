@@ -74,6 +74,9 @@ def build(game):
         import site_settings
         html = html.replace('</head>', BRAND_CSS + '</head>', 1)
         html = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + site_settings.brand_html(), html, count=1)
+    import tracking   # who played, for how long (tools/tracking.js)
+    if tracking.MARK not in html:
+        html = tracking.add(html)
     out = os.path.join(ROOT, 'games', game)
     os.makedirs(out, exist_ok=True)
     open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(html)

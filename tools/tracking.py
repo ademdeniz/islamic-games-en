@@ -5,6 +5,7 @@ no tracker at all. Database: supabase/tracking.sql · dashboard: teacher/.
 """
 import json
 import os
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -19,6 +20,15 @@ def script():
     js = open(os.path.join(ROOT, 'tools', 'tracking.js'), encoding='utf-8').read()
     js = js.replace('__URL__', cfg['url']).replace('__KEY__', cfg['publishable_key'])
     return '<script>\n' + js + '</script>'
+
+
+MARK = 'Maktab tracker'
+TAG = re.compile(r'<script>\n/\* Maktab tracker.*?</script>', re.S)
+
+
+def strip(page):
+    """The page without the tracker (the game checks compare games with their originals)."""
+    return TAG.sub('', page)
 
 
 def add(page):
