@@ -21,6 +21,11 @@ create table if not exists public.class_groups (
   updated_at   timestamptz not null default now()
 );
 
+alter table public.class_groups add column if not exists daily_goal_minutes int not null default 10;   -- 0 = no goal
+do $$ begin
+  alter table public.class_groups add constraint class_groups_goal_check check (daily_goal_minutes between 0 and 120);
+exception when duplicate_object then null; end $$;
+
 create table if not exists public.kids (
   id         uuid primary key default gen_random_uuid(),
   group_id   text not null references public.class_groups(id) on update cascade,
@@ -154,8 +159,39 @@ begin
   return true;
 end $$;
 
+-- What this child did since p_from (the start of their day): for the daily goal ring and the "I'm done" card.
+-- Returns null if the device was signed out.
+create or replace function public.kid_today(p_token text, p_from timestamptz) returns jsonb
+language plpgsql stable security definer set search_path = public, extensions as $$
+declare k public.kids; g public.class_groups;
+begin
+  select kids.* into k from public.kid_devices d join public.kids on kids.id = d.kid_id
+   where d.token_hash = encode(digest(coalesce(p_token, ''), 'sha256'), 'hex');
+  if k.id is null then return null; end if;
+  if p_from is null or p_from < now() - interval '2 days' or p_from > now() + interval '1 day' then
+    raise exception 'Bad day.';
+  end if;
+  select * into g from public.class_groups where id = k.group_id;
+  return jsonb_build_object(
+    'name', public.kid_label(k),
+    'goal_minutes', g.daily_goal_minutes,
+    'seconds', coalesce((select sum(active_seconds) from public.activity where kid_id = k.id and started_at >= p_from), 0),
+    'by_type', coalesce((select jsonb_object_agg(page_type, secs) from (select page_type, sum(active_seconds) secs from public.activity
+                          where kid_id = k.id and started_at >= p_from group by page_type) t), '{}'::jsonb),
+    'pages', coalesce((select jsonb_agg(title order by last desc) from (select title, max(last_seen) last from public.activity
+                        where kid_id = k.id and started_at >= p_from and active_seconds >= 30 group by title
+                        order by max(last_seen) desc limit 4) t), '[]'::jsonb));
+end $$;
+
+-- "Sign out on this device": forget this device's token.
+create or replace function public.sign_out_device(p_token text) returns void
+language sql security definer set search_path = public, extensions as $$
+  delete from public.kid_devices where token_hash = encode(digest(coalesce(p_token, ''), 'sha256'), 'hex')
+$$;
+
 revoke execute on function public.can_see_activity(), public.join_class(text), public.sign_in_kid(text, uuid, text),
-  public.track_visit(text, uuid, text, text, text, int) from public;
+  public.track_visit(text, uuid, text, text, text, int), public.kid_today(text, timestamptz), public.sign_out_device(text) from public;
 grant execute on function public.can_see_activity() to authenticated;
 grant execute on function public.join_class(text), public.sign_in_kid(text, uuid, text),
-  public.track_visit(text, uuid, text, text, text, int) to anon, authenticated;
+  public.track_visit(text, uuid, text, text, text, int), public.kid_today(text, timestamptz), public.sign_out_device(text)
+  to anon, authenticated;

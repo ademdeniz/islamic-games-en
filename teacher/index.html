@@ -382,6 +382,7 @@ function renderCodes() {
       <div class="code">${esc(g.code)}</div>
       <p class="muted" style="margin:4px 0 10px">${kids.filter(k => k.group_id === g.id && k.active).length} children · ${g.pin_required ? '3-picture PIN on' : 'no PIN – tap the name'}</p>
       <label style="display:flex;gap:8px;align-items:center;font-weight:600"><input type="checkbox" data-act="pin" style="width:auto"${g.pin_required ? ' checked' : ''}> Children choose 3 pictures (PIN)</label>
+      <label style="display:flex;gap:8px;align-items:center;font-weight:600">Daily goal <input type="number" data-act="goal" min="0" max="120" step="5" value="${g.daily_goal_minutes ?? 10}" style="width:80px"> minutes <span class="muted">(0 = no goal)</span></label>
       <div class="row" style="margin-top:10px">
         <button class="ghost small" data-act="copy">Copy message for parents</button>
         <button class="danger small" data-act="new">Make a new code</button>
@@ -392,6 +393,12 @@ function renderCodes() {
     const id = el.closest('[data-id]').dataset.id, g = groups.find(x => x.id === id);
     const act = el.dataset.act;
     if (act === 'pin') el.onchange = async () => { const { error } = await sb.from('class_groups').update({ pin_required: el.checked, updated_at: new Date().toISOString() }).eq('id', id); if (error) return msg(error.message, true); await loadAll(); };
+    if (act === 'goal') el.onchange = async () => {
+      const v = Math.max(0, Math.min(120, Math.round(+el.value || 0)));
+      const { error } = await sb.from('class_groups').update({ daily_goal_minutes: v, updated_at: new Date().toISOString() }).eq('id', id);
+      if (error) return msg(error.message + (/daily_goal/.test(error.message) ? ' – run the latest supabase/tracking.sql.' : ''), true);
+      await loadAll(); msg(g.name + ': daily goal ' + (v ? v + ' minutes.' : 'off.'));
+    };
     if (act === 'new') el.onclick = async () => {
       if (!confirm('Make a new code for ' + g.name + '? The old code stops working for NEW devices. Children already signed in stay signed in.')) return;
       const { error } = await sb.from('class_groups').update({ code: newCode(), updated_at: new Date().toISOString() }).eq('id', id);
