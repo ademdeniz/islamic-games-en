@@ -1,0 +1,151 @@
+{
+ "week": "2026-10-18",
+ "groups": {
+  "g1": [
+   {
+    "id": "i2-17",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.17 – Fourth pillar of Iman – belief in the messengers",
+    "keys": [
+     "lessons/ilmihal-2/17-messengers"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/17-messengers/"
+   },
+   {
+    "id": "i2-19",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.19 – Fifth pillar of Iman – belief in the Last Day",
+    "keys": [
+     "lessons/ilmihal-2/19-last-day"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/19-last-day/"
+   },
+   {
+    "id": "i3-23",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.23 – Positive attributes: Iradah, Qudrah, Kalam and Takwin",
+    "keys": [
+     "lessons/ilmihal-3/23-iradah-qudrah-kalam-takwin"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/23-iradah-qudrah-kalam-takwin/"
+   },
+   {
+    "id": "i3-25",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.25 – The beautiful names of Allah – Al-Asma’ al-Husna",
+    "keys": [
+     "lessons/ilmihal-3/25-asma-ul-husna"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/25-asma-ul-husna/"
+   },
+   {
+    "id": "i3-27",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.27 – Belief in Allah’s angels",
+    "keys": [
+     "lessons/ilmihal-3/27-angels"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/27-angels/"
+   },
+   {
+    "id": "q-5",
+    "kind": "quran",
+    "label": "Read Along – Al-Baqarah page 5",
+    "keys": [
+     "games/citaj-kuran#page-5"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-5"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Sukun",
+    "keys": [
+     "sufara/rule-sukun"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/rule-sukun/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/memori-kviz-sifati",
+     "games/citaj-kuran",
+     "games/mektebski-detektiv",
+     "games/meleki-trazenje-rijeci",
+     "games/labirint-ilmihala"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-18/"
+   }
+  ],
+  "g2": [
+   {
+    "id": "i1-14",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.14 – What is our religion called?",
+    "keys": [
+     "lessons/ilmihal-1/14-our-religion"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/14-our-religion/"
+   },
+   {
+    "id": "i1-15",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.15 – Allahu Rabbi",
+    "keys": [
+     "lessons/ilmihal-1/15-allahu-rabbi"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/15-allahu-rabbi/"
+   },
+   {
+    "id": "i1-16",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.16 – Mirza hurries to the maktab",
+    "keys": [
+     "lessons/ilmihal-1/16-mirza-hurries"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/16-mirza-hurries/"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Sukun",
+    "keys": [
+     "sufara/rule-sukun"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/rule-sukun/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/mektebski-detektiv",
+     "games/memori-imanski-sarti",
+     "games/memori-kviz-sifati",
+     "games/nahrani-ptica-a1",
+     "games/mektebski-safari"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-18/"
+   }
+  ]
+ }
+}

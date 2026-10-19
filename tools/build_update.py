@@ -106,6 +106,85 @@ def group_html(g, entries, games, homework):
             + f'<p class=lbl>🎮 Practise at home</p><div class=games>{gm}</div></section>')
 
 
+MINUTES = json.load(open(os.path.join(ROOT, 'data', 'homework.json'), encoding='utf-8'))
+
+
+def task_key(url):
+    """The page address the tracker records for a URL: lessons/ilmihal-2/17-messengers, games/citaj-kuran#page-5 …"""
+    path = url.split(SITE, 1)[1] if url.startswith(SITE) else url
+    path, _, frag = path.partition('#')
+    path = path.strip('/').removesuffix('/index.html').removesuffix('index.html').strip('/')
+    return path + ('#' + frag if frag else '')
+
+
+def homework_tasks(day):
+    """The week's homework as a checklist per group, for the homework check (teacher/, parents/, the children's chip):
+    every lesson page, the Read Along page, each surah, Sufara (all of the week's pages together) and the week's games."""
+    plan, cls = bp.schedule(), bp.class_days()
+    w = cls.index(day)
+    out = {}
+    for g, (_, _, tracks) in GROUPS.items():
+        tasks, sufara = [], []
+        entries = [it for t, _ in tracks for it, _ in plan[day][t]]
+        for it in entries:
+            url = it.get('url')
+            if not url:
+                continue
+            key = task_key(url)
+            if key.startswith('sufara/'):
+                sufara.append((key, it['title'], url))
+            elif key.startswith('games/citaj-kuran'):
+                key = 'games/citaj-kuran#page-%d' % it['page']
+                tasks.append({'id': it['k'], 'kind': 'quran', 'label': f"Read Along – Al-Baqarah page {it['page']}",
+                              'keys': [key], 'min': MINUTES['quran'], 'url': SITE + key})
+            elif key.startswith(('games/learn-surahs-by-heart', 'games/memori-sure')):
+                tasks.append({'id': it['k'], 'kind': 'surah', 'label': it['title'], 'keys': [key], 'min': MINUTES['surah'], 'url': url})
+            elif key.startswith('lessons/'):
+                page = f" p.{it['page']}" if it.get('page') else ''
+                tasks.append({'id': it['k'], 'kind': 'lesson', 'label': f"{it['kind']}{page} – {it['title']}",
+                              'keys': [key], 'min': MINUTES['lesson'], 'url': url})
+        if sufara:
+            tasks.append({'id': 'sufara', 'kind': 'sufara', 'label': 'Sufara – ' + ', '.join(t for _, t, _ in sufara),
+                          'keys': [k for k, _, _ in sufara], 'min': MINUTES['sufara'], 'url': sufara[0][2]})
+        games = bp.games_for([(it, False) for it in entries], day, w, g)
+        if games:
+            tasks.append({'id': 'games', 'kind': 'game', 'label': 'Games – any of this week’s games',
+                          'keys': ['games/' + s for s in games], 'min': MINUTES['games'], 'url': f'{SITE}updates/{day}/'})
+        out[g] = tasks
+    return {'week': day, 'groups': out}
+
+
+def write_homework(day, overwrite=False):
+    path = os.path.join(ROOT, 'updates', day, 'homework.json')
+    if overwrite or not os.path.exists(path):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        json.dump(homework_tasks(day), open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
+def homework_summary_html(prev):
+    """“Last week’s homework”: how many children practised each task (counted live from the tracker – no names).
+    Nothing without a Supabase project (the starter)."""
+    try:
+        cfg = json.load(open(os.path.join(ROOT, 'supabase', 'config.json'), encoding='utf-8'))
+    except (OSError, ValueError):
+        return ''
+    if not cfg.get('url') or not cfg.get('publishable_key'):
+        return ''
+    names = json.dumps({g: GROUPS[g][0] for g in GROUPS}, ensure_ascii=False)
+    return f'''<section class=card id=hwsum hidden><h2>📝 Last week’s homework – {nice(prev, False)}</h2><div id=hwbody></div>
+<p class=foot>How many children practised each task at home (active minutes, Sunday–Saturday). Counted live, no names.</p></section>
+<script>(function(){{var U={json.dumps(cfg['url'])},K={json.dumps(cfg['publishable_key'])},W={json.dumps(prev)},N={names};
+var f=new Date(W+'T00:00:00'),t=new Date(f);t.setDate(t.getDate()+7);
+function e(s){{return String(s).replace(/[&<>"]/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]}})}}
+fetch('../'+W+'/homework.json').then(function(r){{return r.json()}}).then(function(hw){{
+ return fetch(U+'/rest/v1/rpc/homework_summary',{{method:'POST',headers:{{'Content-Type':'application/json',apikey:K}},
+  body:JSON.stringify({{p_week:W,p_from:f.toISOString(),p_to:t.toISOString(),p_tasks:hw.groups}})}}).then(function(r){{return r.ok?r.json():null}}).then(function(s){{
+  if(!s)return;var h='';Object.keys(hw.groups).forEach(function(g){{var x=s[g];if(!x||!x.kids)return;
+   h+='<p class=lbl>'+e(N[g]||g)+' · '+x.kids+' children</p><ul>'+hw.groups[g].map(function(k){{return '<li>'+e(k.label)+' – <b>'+(x.tasks[k.id]||0)+' of '+x.kids+'</b></li>'}}).join('')+
+    (x.extra||[]).map(function(k){{return '<li>'+e(k.label)+' – <b>'+k.done+' of '+x.kids+'</b></li>'}}).join('')+'</ul>'}});
+  if(h){{document.getElementById('hwbody').innerHTML=h;document.getElementById('hwsum').hidden=false}}}})}}).catch(function(){{}})}})();</script>'''
+
+
 def build(day):
     info = json.load(open(os.path.join(ROOT, 'data', 'updates', day + '.json'), encoding='utf-8'))
     plan, cls = bp.schedule(), bp.class_days()
@@ -133,6 +212,8 @@ def build(day):
     dates = ''.join(f'<li><b>{nice(d, False)}</b> – {E(why)}</li>' for d, why in sorted(soon))
     url = f'{SITE}updates/{day}/'
     code, svg = qr(url)
+    done = [d for d in cls[:w] if os.path.exists(os.path.join(ROOT, 'data', 'updates', d + '.json'))]
+    summary = homework_summary_html(done[-1]) if done else ''
     body = f'''<main>
 <h1>Maktab Weekly Update</h1>
 <p class=date>{nice(day)} · Class {w + 1} of {len(cls)}</p>
@@ -140,6 +221,7 @@ def build(day):
 {f'<p class=att>👧👦 Today in class – {att}</p>' if att else ''}
 {''.join(f'<p class=note>📌 {E(n)}</p>' for n in notes)}
 <div class=groups>{''.join(groups)}</div>
+{summary}
 {coming}
 {f'<section class=card><h2>Dates to remember</h2><ul>{dates}</ul></section>' if dates else ''}
 <p class=tools><button id=share>🔗 Share this update</button> <button id=qrbtn>📱 QR code</button> <a href="../../plan/">📅 The whole year’s plan</a> <a href="../">📰 All updates</a></p>
@@ -199,6 +281,9 @@ if __name__ == '__main__':
                             if not os.path.exists(os.path.join(ROOT, 'updates', d, 'index.html'))]
     for d in days:
         print('built', os.path.relpath(build(d), ROOT))
+        write_homework(d, overwrite=True)
+    for d in glob.glob(os.path.join(ROOT, 'data', 'updates', '*.json')):   # weeks sent before the homework check
+        write_homework(os.path.basename(d)[:-5])
     build_index()
     build_latest()
     build_qr_sheet()

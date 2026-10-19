@@ -89,6 +89,7 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
   <div id="app" class="hide">
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="week" aria-selected="true">This week</button>
+      <button role="tab" data-tab="homework" aria-selected="false">Homework</button>
       <button role="tab" data-tab="kids" aria-selected="false">Children</button>
       <button role="tab" data-tab="codes" aria-selected="false">Class codes</button>
     </nav>
@@ -126,6 +127,25 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
     </section>
 
     <!-- ------------------------------------------------------------ children -->
+    <section id="tab-homework" class="hide">
+      <div class="card">
+        <div class="row" style="justify-content:space-between">
+          <div class="row">
+            <button class="ghost small" id="hwPrev" aria-label="Previous week">◀</button>
+            <b id="hwWeek"></b>
+            <button class="ghost small" id="hwNext" aria-label="Next week">▶</button>
+          </div>
+          <div class="row">
+            <select id="hwGroup"><option value="">All groups</option></select>
+            <button id="hwCsv">Download (CSV)</button>
+          </div>
+        </div>
+        <p class="muted" style="margin:8px 0 0">✅ done (enough active minutes) · ✔️ ticked by you · ◐ started · — not opened. Tap a cell to tick or untick it (for example after checking a notebook).
+          Minimums come from the week’s homework file (data/homework.json).</p>
+      </div>
+      <div id="hwGrid"></div>
+    </section>
+
     <section id="tab-kids" class="hide">
       <div class="card">
         <h2>Add a child</h2>
@@ -252,6 +272,7 @@ async function loadAll() {
       fetchAll(() => sb.from('kid_parents').select('*')).catch(() => [])   // before parents.sql is run
     ]);
     $('groupFilter').innerHTML = '<option value="">All groups</option>' + groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
+    $('hwGroup').innerHTML = $('groupFilter').innerHTML;
     $('kGroup').innerHTML = groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
     await loadWeek();
     renderKids(); renderCodes();
@@ -264,6 +285,7 @@ async function loadWeek() {
     addDays(end, -1).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   week = await fetchAll(() => sb.from('activity').select('*').gte('started_at', weekStart.toISOString()).lt('started_at', end.toISOString()).order('started_at'));
   renderWeek();
+  loadHomework();
 }
 
 // ---------------------------------------------------------------- this week
@@ -438,10 +460,106 @@ $('deleteAll').onclick = async () => {
   await loadAll(); msg('All activity deleted.');
 };
 
+// ---------------------------------------------------------------- homework
+let hw = null, hwMarks = [], hwExtra = [];
+const ymd = d => d.toLocaleDateString('en-CA');
+function hwMatch(visit, task) {   // same rule as public.homework_match in supabase/homework.sql
+  return visit === task || (!task.includes('#') && visit.split('#')[0] === task) || (!visit.includes('#') && task.includes('#') && visit === task.split('#')[0]);
+}
+function hwSeconds(kidId, keys) { return week.filter(a => a.kid_id === kidId && keys.some(k => hwMatch(a.page_key, k))).reduce((s, a) => s + a.active_seconds, 0); }
+function shortLabel(t) {
+  return t.kind === 'quran' ? t.label.replace('Read Along – Al-Baqarah page ', 'Read Along p.') : t.kind === 'game' ? 'Games' : t.kind === 'sufara' ? t.label : t.label.split(' – ')[0];
+}
+function hwStatus(kidId, t) {
+  const marked = hwMarks.some(m => m.kid_id === kidId && m.task_id === t.id);
+  const s = t.keys ? hwSeconds(kidId, t.keys) : 0, auto = !!t.keys && s >= t.min * 60;
+  return { marked, s, auto, done: marked || auto };
+}
+async function loadHomework() {
+  const w = ymd(weekStart);
+  $('hwWeek').textContent = $('weekLabel').textContent;
+  try { const r = await fetch('../updates/' + w + '/homework.json', { cache: 'no-cache' }); hw = r.ok ? await r.json() : null; } catch { hw = null; }
+  const [m, x] = await Promise.all([sb.from('homework_marks').select('*').eq('week', w), sb.from('homework_extra').select('*').eq('week', w).order('created_at')]);
+  const err = m.error || x.error;
+  if (err) { $('hwGrid').innerHTML = '<div class="card"><p class="msg err">' + esc(err.message) + (/homework_/.test(err.message) ? ' – run supabase/homework.sql in Supabase first.' : '') + '</p></div>'; return; }
+  hwMarks = m.data; hwExtra = x.data;
+  renderHomework();
+}
+function hwColumns(gid) {
+  return [...((hw && hw.groups[gid]) || []), ...hwExtra.filter(e => e.group_id === gid).map(e => ({ id: e.id, kind: 'written', label: e.label, extra: true }))];
+}
+function renderHomework() {
+  const gf = $('hwGroup').value;
+  $('hwGrid').innerHTML = groups.filter(g => !gf || g.id === gf).map(g => {
+    const cols = hwColumns(g.id), list = kids.filter(k => k.group_id === g.id && k.active);
+    const head = cols.map(c => {
+      const n = list.filter(k => hwStatus(k.id, c).done).length;
+      return `<th title="${esc(c.label)}">${esc(c.extra ? c.label : shortLabel(c))}${c.extra ? ` <button class="link" style="padding:0" data-del="${c.id}" aria-label="Remove written task">×</button>` : ''}
+        <br><small>${c.extra ? 'written · ' : '≥ ' + c.min + ' min · '}${n} of ${list.length}</small></th>`;
+    }).join('');
+    const rows = list.map(k => {
+      let done = 0;
+      const cells = cols.map(c => {
+        const st = hwStatus(k.id, c); if (st.done) done++;
+        const icon = st.auto ? '✅' : st.marked ? '✔️' : st.s ? '◐ ' + mins(st.s) : '—';
+        const tip = (c.keys ? mins(st.s || 0) + ' of ' + c.min + ' min. ' : '') + (st.marked ? 'Ticked by you – tap to untick.' : 'Tap to tick.');
+        return `<td class="num"><button class="link" style="text-decoration:none;color:inherit;padding:2px 6px" data-kid="${k.id}" data-task="${esc(c.id)}" title="${esc(tip)}">${icon}</button></td>`;
+      }).join('');
+      return `<tr><td><b>${esc(fullName(k))}</b></td>${cells}<td class="num"><b>${done} of ${cols.length}</b></td></tr>`;
+    }).join('');
+    return `<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">${esc(g.name)}</h2>
+        <button class="ghost small" data-add="${esc(g.id)}">+ Written task</button></div>
+      ${cols.length ? `<div class="tablewrap"><table><thead><tr><th>Child</th>${head}<th class="num">Done</th></tr></thead><tbody>${rows}</tbody></table></div>`
+        : '<p class="muted">No homework for this week yet (it comes with the weekly update). You can still add a written task.</p>'}</div>`;
+  }).join('');
+  document.querySelectorAll('#hwGrid [data-task]').forEach(b => b.onclick = async () => {
+    const kid = b.dataset.kid, task = b.dataset.task, w = ymd(weekStart);
+    const marked = hwMarks.some(m => m.kid_id === kid && m.task_id === task);
+    const { error } = marked ? await sb.from('homework_marks').delete().eq('kid_id', kid).eq('week', w).eq('task_id', task)
+                             : await sb.from('homework_marks').insert({ kid_id: kid, week: w, task_id: task });
+    if (error) return msg(error.message, true);
+    loadHomework();
+  });
+  document.querySelectorAll('#hwGrid [data-add]').forEach(b => b.onclick = async () => {
+    const label = (prompt('Written task for ' + groupName(b.dataset.add) + ' this week (for example “Notebook: book p. 8”):') || '').trim();
+    if (!label) return;
+    const { error } = await sb.from('homework_extra').insert({ week: ymd(weekStart), group_id: b.dataset.add, label });
+    if (error) return msg(error.message, true);
+    loadHomework();
+  });
+  document.querySelectorAll('#hwGrid [data-del]').forEach(b => b.onclick = async () => {
+    if (!confirm('Remove this written task and its ticks?')) return;
+    const id = b.dataset.del;
+    await sb.from('homework_marks').delete().eq('week', ymd(weekStart)).eq('task_id', id);
+    const { error } = await sb.from('homework_extra').delete().eq('id', id);
+    if (error) return msg(error.message, true);
+    loadHomework();
+  });
+}
+$('hwGroup').onchange = renderHomework;
+$('hwPrev').onclick = () => $('prevWeek').click();
+$('hwNext').onclick = () => $('nextWeek').click();
+$('hwCsv').onclick = () => {
+  const cell = v => '"' + String(v ?? '').replace(/"/g, '""') + '"', lines = [];
+  groups.forEach(g => {
+    const cols = hwColumns(g.id);
+    if (!cols.length) return;
+    lines.push([g.name, ...cols.map(c => c.label), 'Done'].map(cell).join(','));
+    kids.filter(k => k.group_id === g.id && k.active).forEach(k => {
+      let done = 0;
+      const vals = cols.map(c => { const st = hwStatus(k.id, c); if (st.done) done++; return st.auto ? 'done (' + mins(st.s) + ' min)' : st.marked ? 'ticked' : st.s ? 'started (' + mins(st.s) + ' min)' : ''; });
+      lines.push([fullName(k), ...vals, done + ' of ' + cols.length].map(cell).join(','));
+    });
+    lines.push('');
+  });
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'maktab-homework-' + ymd(weekStart) + '.csv'; a.click();
+};
+
 // ---------------------------------------------------------------- tabs
 document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
   document.querySelectorAll('.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
-  ['week', 'kids', 'codes'].forEach(t => $('tab-' + t).classList.toggle('hide', t !== b.dataset.tab));
+  ['week', 'homework', 'kids', 'codes'].forEach(t => $('tab-' + t).classList.toggle('hide', t !== b.dataset.tab));
 });
 
 if (linkError) { history.replaceState(null, '', location.pathname); refresh().then(() => msg('That reset link did not work (' + linkError.replace(/\+/g, ' ') + '). Ask for a new one.', true)); }

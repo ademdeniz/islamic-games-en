@@ -1,0 +1,8 @@
+{
+ "_help": "Homework check: the minimum ACTIVE minutes in the week (Sunday–Saturday) for a task to count as done. Lessons and surahs count per page; Sufara and games count all of the week's pages together. Change a number and run python3 tools/build_update.py <date> (or nothing: the dashboard reads the weekly homework.json files, which carry the minutes they were made with).",
+ "lesson": 5,
+ "quran": 15,
+ "surah": 15,
+ "sufara": 15,
+ "games": 10
+}

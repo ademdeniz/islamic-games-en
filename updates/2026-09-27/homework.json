@@ -1,0 +1,139 @@
+{
+ "week": "2026-09-27",
+ "groups": {
+  "g1": [
+   {
+    "id": "i2-8",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.8 – Prophet Adam (AS)",
+    "keys": [
+     "lessons/ilmihal-2/01-adam"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/01-adam/"
+   },
+   {
+    "id": "i2-10",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.10 – First pillar of Iman – Amantu billahi",
+    "keys": [
+     "lessons/ilmihal-2/02-amantu-billahi"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/02-amantu-billahi/"
+   },
+   {
+    "id": "i3-8",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.8 – Fulfilling our duties to Allah",
+    "keys": [
+     "lessons/ilmihal-3/01-duties-to-allah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/01-duties-to-allah/"
+   },
+   {
+    "id": "i3-11",
+    "kind": "surah",
+    "label": "Surah Al-Fil",
+    "keys": [
+     "games/learn-surahs-by-heart#fil"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/learn-surahs-by-heart/#fil"
+   },
+   {
+    "id": "i3-12",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.12 – Amantu billahi – belief in Allah (SWT)",
+    "keys": [
+     "lessons/ilmihal-3/02-amantu-billahi"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/02-amantu-billahi/"
+   },
+   {
+    "id": "q-2",
+    "kind": "quran",
+    "label": "Read Along – Al-Baqarah page 2",
+    "keys": [
+     "games/citaj-kuran#page-2"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-2"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Alif ا",
+    "keys": [
+     "sufara/01-alif"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/01-alif/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/citaj-kuran",
+     "games/mektebski-detektiv",
+     "games/memori-imanski-sarti",
+     "games/memori-kviz-sifati",
+     "games/mektebska-akademija"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-09-27/"
+   }
+  ],
+  "g2": [
+   {
+    "id": "i1-8",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.8 – A‘udhu billah and Bismillah",
+    "keys": [
+     "lessons/ilmihal-1/01-audhu-bismillah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/01-audhu-bismillah/"
+   },
+   {
+    "id": "i1-9",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.9 – How we start every good deed",
+    "keys": [
+     "lessons/ilmihal-1/01-audhu-bismillah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/01-audhu-bismillah/"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Alif ا",
+    "keys": [
+     "sufara/01-alif"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/01-alif/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/nahrani-ptica-a1",
+     "games/kviz-nivo-a1",
+     "games/izgradi-svoju-dzamiju"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-09-27/"
+   }
+  ]
+ }
+}
