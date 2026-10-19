@@ -66,6 +66,7 @@ let pageIdx=0,i=0,rate=1,reciter='alafasy',wholePage=false,raf=0,stopAt=null,spa
 function store(k,v){try{localStorage.setItem('ra-'+k,v)}catch(e){}}
 function load(k){try{return localStorage.getItem('ra-'+k)}catch(e){return null}}
 function page(){return DATA.pages[pageIdx]}
+function mark(h){if(location.hash!==h){history.replaceState(null,'',h);dispatchEvent(new HashChangeEvent('hashchange'))}}   // the activity tracker counts time per page
 function line(){return page().lines[i]}
 function status(t){$('status').textContent=t}
 function label(l){return l.n===0?'Bismillah':'Ayah '+l.n}
@@ -106,7 +107,7 @@ player.addEventListener('ended',()=>{cancelAnimationFrame(raf);clearMarks();
   else status('🗣️ Now you read the same ayah out loud.')});
 function go(d){stopAudio();i=Math.max(0,Math.min(page().lines.length-1,i+d));render()}
 function next(){if(i<page().lines.length-1){go(1)}else{stopAudio();status('🌟 Well done! You read the whole page, '+page().title+'.')}}
-function choosePage(k){stopAudio();pageIdx=k;i=0;store('page',k);
+function choosePage(k){stopAudio();pageIdx=k;i=0;store('page',k);mark('#page-'+page().mushaf_page);
   document.querySelectorAll('#pages .chip').forEach(c=>c.setAttribute('aria-pressed',+c.dataset.k===k));render()}
 function setRate(r){rate=r;player.defaultPlaybackRate=r;player.playbackRate=r;store('rate',r);
   document.querySelectorAll('#speed button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.rate===r))}
@@ -124,6 +125,7 @@ toggle('showTr','trBox');toggle('showEn','enBox');
 const sp=+load('page'),sr=+load('rate'),rc=load('reciter');
 if(rc&&DATA.reciters[rc]){reciter=rc;$('reciter').value=rc}
 if(sr)setRate(sr);
-choosePage(sp>=0&&sp<DATA.pages.length?sp:0);
+const hp=DATA.pages.findIndex(p=>'#page-'+p.mushaf_page===location.hash);   // #page-5 opens mushaf page 5 (homework links)
+choosePage(hp>=0?hp:sp>=0&&sp<DATA.pages.length?sp:0);
 window.RA={DATA,highlightAt,state:()=>({pageIdx,i,rate,reciter,wholePage}),player};
 </script></main></body></html>

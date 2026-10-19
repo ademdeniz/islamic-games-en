@@ -51,6 +51,7 @@ button:disabled{opacity:.6}
 .trend div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:11px;color:var(--muted)}
 .trend i{display:block;width:100%;max-width:38px;background:var(--gold);border-radius:6px 6px 0 0;min-height:2px}
 .trend .now i{background:var(--green)}
+.hw{margin-top:12px}.hwh{font-weight:700;margin:0 0 4px}.hw ul{margin:0;padding-left:4px;list-style:none}.hw li{padding:4px 0;border-bottom:1px solid var(--line);font-size:14px}
 .help{background:var(--gold-soft);border-radius:12px;padding:10px 12px;margin-top:10px;font-size:14px}
 details summary{cursor:pointer;font-weight:700;color:var(--green);margin-top:12px}
 footer{text-align:center;color:var(--muted);font-size:12px;margin-top:22px}
@@ -125,6 +126,7 @@ const mins = s => s >= 60 ? Math.round(s / 60) : s > 0 ? '<1' : 0;
 function startOfWeek(d) { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - x.getDay()); return x; }   // Sunday = class day
 function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate() + n); return x; }
 const fmt = (d, o) => d.toLocaleDateString('en-US', o);
+let hwFile = null, hwKids = {};
 let kids = [], visits = [], weekStart = startOfWeek(new Date()), email = '';
 const TREND_WEEKS = 6;
 
@@ -192,7 +194,26 @@ async function loadWeek() {
   const { data, error } = await sb.rpc('my_children_activity', { p_from: from.toISOString(), p_to: end.toISOString() });
   if (error) return msg('Could not load: ' + error.message, true);
   visits = data || [];
+  const w = weekStart.toLocaleDateString('en-CA');   // the homework given that Sunday (updates/<Sunday>/homework.json)
+  try { const r = await fetch('../updates/' + w + '/homework.json', { cache: 'no-cache' }); hwFile = r.ok ? await r.json() : null; } catch { hwFile = null; }
+  const hk = await sb.rpc('my_children_homework', { p_week: w });
+  hwKids = {}; (hk.data || []).forEach(x => hwKids[x.kid_id] = x);
   render();
+}
+function hwMatch(visit, task) {   // same rule as public.homework_match in supabase/homework.sql
+  return visit === task || (!task.includes('#') && (visit || '').split('#')[0] === task) || (!(visit || '').includes('#') && task.includes('#') && visit === task.split('#')[0]);
+}
+function homework(k, week) {
+  const tasks = (hwFile && hwFile.groups[k.group_id]) || [], extra = (hwKids[k.id] && hwKids[k.id].extra) || [], marks = (hwKids[k.id] && hwKids[k.id].marks) || [];
+  const items = [...tasks, ...extra.map(e => ({ id: e.id, label: '✏️ ' + e.label }))].map(t => {
+    const s = t.keys ? week.filter(v => t.keys.some(key => hwMatch(v.page_key, key))).reduce((a, v) => a + v.active_seconds, 0) : 0;
+    const done = marks.includes(t.id) || (t.keys && s >= t.min * 60);
+    return { t, s, done };
+  });
+  if (!items.length) return '';
+  const n = items.filter(x => x.done).length;
+  return `<div class="hw"><p class="hwh">📝 This week’s homework · Zadaća ove sedmice – <b>${n} of ${items.length}</b></p><ul>${items.map(({ t, s, done }) =>
+    `<li>${done ? '✅' : s ? '◐' : '○'} ${t.url ? `<a href="${esc(t.url)}">${esc(t.label)}</a>` : esc(t.label)}${t.keys && !done ? ` <span class="muted">(${mins(s)} of ${t.min} min)</span>` : ''}</li>`).join('')}</ul></div>`;
 }
 $('prevWeek').onclick = () => { weekStart = addDays(weekStart, -7); loadWeek(); };
 $('nextWeek').onclick = () => { weekStart = addDays(weekStart, 7); loadWeek(); };
@@ -220,6 +241,7 @@ function render() {
       <div class="total"><b>${mins(total)}</b><span>minutes this week · minuta</span></div>
       <div class="cats">${CATS.map(([t, e, en, bs]) => { const s = by(t); return `<div class="cat${s ? '' : ' zero'}"><div class="e">${e}</div><b>${mins(s)}</b><span>${en}<br>${bs}</span></div>`; }).join('')}</div>
       ${help}
+      ${homework(k, week)}
       ${week.length ? `<details${week.length <= 6 ? ' open' : ''}><summary>What ${esc(k.first_name)} opened · Šta je otvorio/la (${week.length})</summary>
         ${Object.entries(days).map(([d, list]) => `<div class="day">${esc(d)}</div>` + list.map(v => `<div class="visit"><span>${CATS.find(c => c[0] === v.page_type)[1]} ${esc(v.title)}</span><span>${mins(v.active_seconds)} min</span></div>`).join('')).join('')}
       </details>` : (k.devices ? '<p class="muted">Nothing practised this week yet. · Ove sedmice još ništa.</p>' : '')}

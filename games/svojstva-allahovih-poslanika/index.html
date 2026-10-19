@@ -118,8 +118,8 @@ E("restart").onclick=start;start();
   else if (rest[0] === 'games' && rest.length >= 2)
     type = rest[1] === 'citaj-kuran' ? 'quran' : (rest[1] === 'learn-surahs-by-heart' || rest[1] === 'memori-sure') ? 'surah' : 'game';
   if (!type) return;
-  var baseKey = rest.join('/');
-  function pageKey() { return type === 'surah' && location.hash ? baseKey + location.hash : baseKey; }
+  var baseKey = rest.join('/'), SITE_ROOT = '/' + parts.slice(0, at).map(function (p) { return p + '/'; }).join('');
+  function pageKey() { return (type === 'surah' || type === 'quran') && location.hash ? baseKey + location.hash : baseKey; }
 
   // ------------------------------------------------------------ small helpers
   function get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
@@ -143,6 +143,11 @@ E("restart").onclick=start;start();
   }
   function startOfDay() { var d = new Date(); d.setHours(0, 0, 0, 0); return d; }
   function dayStamp() { return startOfDay().toDateString(); }
+  function ymd(d) { var m = d.getMonth() + 1, x = d.getDate(); return d.getFullYear() + '-' + (m < 10 ? '0' : '') + m + '-' + (x < 10 ? '0' : '') + x; }
+  function weekStart() { var d = startOfDay(); d.setDate(d.getDate() - d.getDay()); return d; }   // Sunday = class day
+  function hwMatch(v, t) {   // same rule as public.homework_match in supabase/homework.sql
+    return v === t || (t.indexOf('#') < 0 && v.split('#')[0] === t) || (v.indexOf('#') < 0 && t.indexOf('#') >= 0 && v === t.split('#')[0]);
+  }
   function first(name) { return String(name).split(' ')[0]; }
   function mins(s) { return s >= 60 ? Math.round(s / 60) : s > 0 ? '<1' : 0; }
   var kid = get(ID_KEY);
@@ -246,6 +251,8 @@ E("restart").onclick=start;start();
     '.today span{background:#eef3ef;border-radius:999px;padding:4px 10px;font-size:14px;font-weight:700;color:#075943}' +
     '.quote{background:#f3e6c4;border-radius:14px;padding:12px;margin:12px 0 4px;font-size:15px;color:#17372d}' +
     '.quote small{display:block;color:#5d6b64;margin-top:6px}' +
+    '.hwk{text-align:left;background:#eef3ef;border-radius:14px;padding:10px 12px;margin:10px 0 2px;font-size:14px}' +
+    '.hwk ul{list-style:none;margin:6px 0 0;padding:0}.hwk li{padding:3px 0}.hwk a{color:#075943;font-weight:700}.hwk small{color:#5d6b64}' +
     '.bar{height:12px;border-radius:6px;background:#eef3ef;overflow:hidden;margin:8px 0 2px}.bar i{display:block;height:100%;background:#c99b3b}' +
     '</style><div id="chip" class="chip" hidden></div><div id="still" class="still" hidden>📖 Still reading? Tap to keep going</div>' +
     '<div id="veil" class="veil" hidden><div class="card" id="card"></div></div>';
@@ -292,12 +299,14 @@ E("restart").onclick=start;start();
     open('<div class="big">👤</div><h2>' + esc(kid.name) + '</h2>' +
       (today.loaded ? '<p>Today: <b>' + mins(todaySeconds()) + ' minutes</b>' + (goal ? ' of your ' + today.goal + '-minute goal' : '') + '</p>' +
         (goal ? '<div class="bar"><i style="width:' + Math.round(done * 100) + '%"></i></div>' : '') : '<p>This device counts your learning time for ' + esc(kid.name) + '.</p>') +
+      '<div id="hwbox"></div>' +
       '<button class="go" id="done">✋ I’m done for today</button><br>' +
       '<button class="go ghost" id="stay">Keep learning</button><br>' +
       '<button class="link" id="switch">Not ' + esc(first(kid.name)) + '? Switch</button><br>' +
       '<button class="link small" id="out">Sign out on this device</button>');
     $('stay').onclick = close;
     $('done').onclick = doneForToday;
+    flush(); setTimeout(homeworkBox, 400);
     $('switch').onclick = function () { flush(true); kid = null; put(ID_KEY, null); chip(); askCode(); };
     $('out').onclick = function () {
       open('<h2>Sign out on this device?</h2><p>Next time ' + esc(first(kid.name)) + ' types the class code and taps the name again' +
@@ -310,6 +319,32 @@ E("restart").onclick=start;start();
         forget(); put(SESSION_KEY, null); close();
       };
     };
+  }
+
+  // "📝 Homework this week: 3 of 6" – the week's tasks (updates/<Sunday>/homework.json) and what this child did
+  function homeworkBox() {
+    if (!kid || !$('hwbox')) return;
+    var ws = weekStart(), we = new Date(ws), w = ymd(ws);
+    we.setDate(we.getDate() + 7);
+    fetch(SITE_ROOT + 'updates/' + w + '/homework.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (file) {
+      var tasks = (file && file.groups[kid.group]) || [];
+      return rpc('kid_homework', { p_token: kid.token, p_week: w, p_from: ws.toISOString(), p_to: we.toISOString() }).then(function (h) {
+        var box = $('hwbox');
+        if (!h || !box) return;
+        var items = tasks.concat((h.extra || []).map(function (e) { return { id: e.id, label: '✏️ ' + e.label }; })).map(function (t) {
+          var s = 0;
+          if (t.keys) Object.keys(h.seconds || {}).forEach(function (k) { if (t.keys.some(function (x) { return hwMatch(k, x); })) s += h.seconds[k]; });
+          return { t: t, s: s, done: (h.marks || []).indexOf(t.id) >= 0 || (t.keys && s >= t.min * 60) };
+        });
+        if (!items.length) return;
+        var n = items.filter(function (x) { return x.done; }).length;
+        box.innerHTML = '<div class="hwk"><b>📝 Homework this week: ' + n + ' of ' + items.length + (n === items.length ? ' 🌟' : '') + '</b><ul>' +
+          items.map(function (x) {
+            var label = x.t.url && !x.done ? '<a href="' + esc(x.t.url) + '" target="_top">' + esc(x.t.label) + '</a>' : esc(x.t.label);
+            return '<li>' + (x.done ? '✅' : x.s ? '◐' : '○') + ' ' + label + (x.t.keys && !x.done ? ' <small>' + mins(x.s) + '/' + x.t.min + ' min</small>' : '') + '</li>';
+          }).join('') + '</ul></div>';
+      });
+    }).catch(function () {});
   }
 
   function doneForToday() {

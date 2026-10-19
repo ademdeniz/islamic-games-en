@@ -1,0 +1,140 @@
+{
+ "week": "2026-10-04",
+ "groups": {
+  "g1": [
+   {
+    "id": "i2-11",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.11 – The essential attributes of Allah (sifat dhatiyyah)",
+    "keys": [
+     "lessons/ilmihal-2/03-sifat-dhatiyyah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/03-sifat-dhatiyyah/"
+   },
+   {
+    "id": "i2-12",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.12 – The positive attributes of Allah (sifat thubutiyyah)",
+    "keys": [
+     "lessons/ilmihal-2/04-sifat-thubutiyyah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/04-sifat-thubutiyyah/"
+   },
+   {
+    "id": "i3-14",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.14 – Tawhid – Allah is One",
+    "keys": [
+     "lessons/ilmihal-3/03-tawhid"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/03-tawhid/"
+   },
+   {
+    "id": "i3-15",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.15 – Belief in the unseen (ghayb)",
+    "keys": [
+     "lessons/ilmihal-3/04-ghayb"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/04-ghayb/"
+   },
+   {
+    "id": "i3-17",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.17 – Kufr, shirk and nifaq",
+    "keys": [
+     "lessons/ilmihal-3/05-kufr-shirk-nifaq"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/05-kufr-shirk-nifaq/"
+   },
+   {
+    "id": "q-3",
+    "kind": "quran",
+    "label": "Read Along – Al-Baqarah page 3",
+    "keys": [
+     "games/citaj-kuran#page-3"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-3"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Dal د",
+    "keys": [
+     "sufara/02-dal"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/02-dal/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/memori-kviz-sifati",
+     "games/citaj-kuran",
+     "games/memori-imanski-sarti",
+     "games/sifati-trazenje-rijeci",
+     "games/dnevni-mektebski-izazov"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-04/"
+   }
+  ],
+  "g2": [
+   {
+    "id": "i1-10",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.10 – The human being – Allah’s most beautiful creation",
+    "keys": [
+     "lessons/ilmihal-1/02-best-creation"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/02-best-creation/"
+   },
+   {
+    "id": "i1-11",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.11 – I go to the maktab",
+    "keys": [
+     "lessons/ilmihal-1/03-going-to-maktab"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/03-going-to-maktab/"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Dal د",
+    "keys": [
+     "sufara/02-dal"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/02-dal/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/mektebski-detektiv",
+     "games/memori-kviz-sifati",
+     "games/sta-radi-masa",
+     "games/moj-mektebski-vrt"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-04/"
+   }
+  ]
+ }
+}

@@ -135,7 +135,7 @@ function drawSmart(){const p=PARTS[pIdx],l=S().lines[p.li],prev=PARTS[pIdx-1];
 function rateIt(v){score[pIdx]=v===0?Math.max(0,score[pIdx]-1):v===1?Math.min(4,score[pIdx]+1):Math.min(5,score[pIdx]+2);saveScore();stop();revealed=false;pIdx=pickSmart();draw()}
 /* ---------- actions ---------- */
 function setView(v){stop();view=v;revealed=false;if(v==='smart')pIdx=pickSmart();if(v==='build'){buildLine=PARTS[pIdx].li;buildCount=1}draw()}
-function chooseSurah(k){stop();sIdx=k;store('surah',k);buildParts();loadScore();pIdx=0;buildLine=0;buildCount=1;revealed=false;fillSurahs();if(view==='smart')pIdx=pickSmart();draw()}
+function chooseSurah(k){stop();sIdx=k;store('surah',k);if(location.hash!=='#'+DATA.surahs[k].id){history.replaceState(null,'','#'+DATA.surahs[k].id);dispatchEvent(new HashChangeEvent('hashchange'))}buildParts();loadScore();pIdx=0;buildLine=0;buildCount=1;revealed=false;fillSurahs();if(view==='smart')pIdx=pickSmart();draw()}
 function setRate(r){rate=r;player.defaultPlaybackRate=r;player.playbackRate=r;store('rate',r);document.querySelectorAll('#speed button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.rate===r))}
 $('tFollow').onclick=()=>setView('follow');$('tBuild').onclick=()=>setView('build');$('tSmart').onclick=()=>setView('smart');
 $('playPart').onclick=()=>play([range(PARTS[pIdx])],1,()=>msg('🗣️ Now recite this part yourself.'));

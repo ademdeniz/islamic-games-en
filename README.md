@@ -16,7 +16,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 | Pizza & parent duty | [/duty/](https://ademdeniz.github.io/islamic-games-en/duty/) | `data/duty/parents.json` → `tools/build_duty.py` |
 | Credits | [/credits/](https://ademdeniz.github.io/islamic-games-en/credits/) | `tools/build_credits.py` |
 | Teacher dashboard – who opened what, for how long (login) | [/teacher/](https://ademdeniz.github.io/islamic-games-en/teacher/) | hand-written · database `supabase/tracking.sql` |
-| Parents – their own children's week (e-mail code login) | [/parents/](https://ademdeniz.github.io/islamic-games-en/parents/) | hand-written · database `supabase/parents.sql` |
+| Parents – their own children's week and homework (e-mail code login) | [/parents/](https://ademdeniz.github.io/islamic-games-en/parents/) | hand-written · database `supabase/parents.sql` |
 | Youth Gathering 2026 parent waiver (not linked; admin list at `waiver/admin.html`) | [/waiver/](https://ademdeniz.github.io/islamic-games-en/waiver/) | hand-written · database `supabase/waiver.sql` |
 
 Classes are every Sunday. Group 1: Ilmihal 2 & 3, Qur’an (Al-Baqarah), Sufara, Tajwid from November.
@@ -75,6 +75,12 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
 - **Parents** (`parents/`, `supabase/parents.sql`): a parent types their e-mail, gets a code (e-mail templates in
   `supabase/email-templates/`) and sees only the children linked to that e-mail in `kid_parents` (from the registration
   form; editable on `teacher/` → Children). Password logins never see children. The e-mails live only in Supabase.
+- **Homework check** (`supabase/homework.sql`, `data/homework.json`): `tools/build_update.py` writes
+  `updates/<Sunday>/homework.json` – each group's lesson pages, Read Along page, surahs, Sufara and games with the minimum
+  active minutes for the week (Sunday–Saturday) from `data/homework.json`. A task is done when the child reaches the
+  minimum, or when the teacher ticks it on `teacher/` → Homework (written tasks can be added there). Children see their
+  list in the name chip, parents on `parents/`, and new weekly updates show “Last week’s homework” counts (no names).
+  Read Along and Learn the Surahs put the page/surah in the address (`#page-5`, `#fil`) so time is counted per page.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
   Only the admin and accounts in `waiver_viewers` can see signed waivers; `tests/run_supabase_test.sh` tests both files.
   To let an account see the waivers (it keeps its role in the games), run in the SQL Editor (with its e-mail):

@@ -42,7 +42,7 @@ begin
   if e is null then return null; end if;   -- not logged in with a code
   return coalesce((
     select jsonb_agg(jsonb_build_object('id', k.id, 'first_name', k.first_name, 'last_name', k.last_name,
-             'group', g.name, 'class_code', g.code, 'pin_required', g.pin_required,
+             'group', g.name, 'group_id', g.id, 'class_code', g.code, 'pin_required', g.pin_required,
              'devices', (select count(*) from public.kid_devices d where d.kid_id = k.id))
            order by k.first_name)
       from public.kids k join public.class_groups g on g.id = k.group_id
@@ -58,7 +58,7 @@ begin
     raise exception 'Bad date range.';
   end if;
   return coalesce((
-    select jsonb_agg(jsonb_build_object('kid_id', a.kid_id, 'page_type', a.page_type, 'title', a.title,
+    select jsonb_agg(jsonb_build_object('kid_id', a.kid_id, 'page_type', a.page_type, 'page_key', a.page_key, 'title', a.title,
              'started_at', a.started_at, 'active_seconds', a.active_seconds) order by a.started_at)
       from public.activity a
      where a.kid_id in (select kid_id from public.kid_parents where email = e)

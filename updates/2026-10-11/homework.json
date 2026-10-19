@@ -1,0 +1,139 @@
+{
+ "week": "2026-10-11",
+ "groups": {
+  "g1": [
+   {
+    "id": "i2-14",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.14 – Second pillar of Iman – belief in the angels",
+    "keys": [
+     "lessons/ilmihal-2/14-angels"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/14-angels/"
+   },
+   {
+    "id": "i2-16",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.16 – Third pillar of Iman – belief in the books",
+    "keys": [
+     "lessons/ilmihal-2/16-books"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/16-books/"
+   },
+   {
+    "id": "i3-20",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.20 – Essential attributes: Wujud, Qidam and Baqa",
+    "keys": [
+     "lessons/ilmihal-3/20-wujud-qidam-baqa"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/20-wujud-qidam-baqa/"
+   },
+   {
+    "id": "i3-21",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.21 – Essential attributes: Wahdaniyyah, Mukhalafatun lil-hawadith, Qiyamun bi-nafsihi",
+    "keys": [
+     "lessons/ilmihal-3/21-wahdaniyyah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/21-wahdaniyyah/"
+   },
+   {
+    "id": "i3-22",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.22 – Positive attributes: Hayat, ‘Ilm, Sam‘ and Basar",
+    "keys": [
+     "lessons/ilmihal-3/22-hayat-ilm-sam-basar"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/22-hayat-ilm-sam-basar/"
+   },
+   {
+    "id": "q-4",
+    "kind": "quran",
+    "label": "Read Along – Al-Baqarah page 4",
+    "keys": [
+     "games/citaj-kuran#page-4"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-4"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Dhal ذ",
+    "keys": [
+     "sufara/03-dhal"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/03-dhal/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/boziji-kitabi",
+     "games/citaj-kuran",
+     "games/meleki-trazenje-rijeci",
+     "games/memori-imanski-sarti",
+     "games/mektebsko-putovanje"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-11/"
+   }
+  ],
+  "g2": [
+   {
+    "id": "i1-12",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.12 – Du‘a for a good start – Rabbi yassir",
+    "keys": [
+     "lessons/ilmihal-1/12-rabbi-yassir"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/12-rabbi-yassir/"
+   },
+   {
+    "id": "i1-13",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.13 – Du‘a for knowledge",
+    "keys": [
+     "lessons/ilmihal-1/13-dua-for-knowledge"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/13-dua-for-knowledge/"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Dhal ذ",
+    "keys": [
+     "sufara/03-dhal"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/03-dhal/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/nahrani-ptica-a1",
+     "games/lov-na-blago-a1",
+     "games/pcelinja-akademija"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-11/"
+   }
+  ]
+ }
+}
