@@ -15,15 +15,29 @@ from build_lessons_core import brand  # noqa: E402,F401
 PAGE = os.path.join(gc.ROOT, 'duty', 'index.html')
 
 
-def test_first_round_only_every_parent_once():
+def test_turns_go_round_and_start_again_from_the_top():
     r, P = build_duty.rota(), build_duty.P
-    assert [d for d, _, _ in r] == [d for d in build_plan.class_days() if d >= P['start']][:max(len(P['g1']), len(P['g2']))]
+    assert [d for d, _, _ in r] == [d for d in build_plan.class_days() if d >= P['start']], 'every class Sunday of the year'
     for g, i in (('g1', 1), ('g2', 2)):
         done = {x[g] for x in P.get('done', []) if x.get(g)}
-        names = [x[i] for x in r if x[i] != build_duty.TBA]
-        assert names == [p for p in P[g] if p not in done], 'each parent once, in order – no second round'
-        assert not done & set(names), 'parents who already had their turn are not asked again'
-        assert all(x[i] == build_duty.TBA for x in r[len(names):])
+        names = [x[i] for x in r]
+        first = [p for p in P[g] if p not in done]
+        assert names[:len(first)] == first, 'first everyone who has not had a turn, in order'
+        rest = names[len(first):]
+        assert rest == (P[g] * len(r))[:len(rest)], 'then the whole list again from the top, round after round'
+        assert build_duty.TBA not in names
+
+
+def test_no_families_no_rota(monkeypatch):
+    monkeypatch.setitem(build_duty.P, 'g1', [])
+    monkeypatch.setitem(build_duty.P, 'g2', [])
+    assert build_duty.rota() == []
+
+
+def test_one_empty_group_waits_for_families(monkeypatch):
+    monkeypatch.setitem(build_duty.P, 'g2', [])
+    r = build_duty.rota()
+    assert r and all(b == build_duty.TBA for _, _, b in r) and all(a != build_duty.TBA for _, a, _ in r)
 
 
 def test_page_is_current_and_shares_nothing_private():
@@ -36,7 +50,7 @@ def test_page_is_current_and_shares_nothing_private():
     assert not re.search(r'[\w.]+@[\w.]+', text), 'no email addresses'
     assert all(re.fullmatch(r'\w+ (\w\.|family)', p) for g in ('g1', 'g2') for p in build_duty.P[g]), 'first name + initial only'
     assert '9:00 – 11:45 am' in html and '11:45 am – 12:15 pm' in html and 'from 12:15 pm' in html
-    assert 'next round will be posted' in html and 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
+    assert 'starts again from the top' in html and 'noindex' in html and 'The Imam will let you know if we need more or fewer' in html
 
 
 def test_done_turns_are_shown_with_a_tick():
