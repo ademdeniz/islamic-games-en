@@ -1,8 +1,9 @@
-"""Build duty/index.html: which two parents bring pizza and stay the whole day each Sunday (one from each group).
+"""Build duty/index.html: which two parents bring pizza and stay during their group's class each Sunday (one per group).
 
   python3 tools/build_duty.py
 
-Parents come from data/duty/parents.json and rotate in order, one per group per class Sunday (from "start").
+Parents come from data/duty/parents.json and take turns in order, one per group per class Sunday (from "start" to the
+end of the school year); after the last parent the list starts again from the top. New families go at the end of the list.
 Days without class (no_class in data/plan/plan.json) are skipped.
 """
 import datetime as dt
@@ -24,14 +25,24 @@ E = html.escape
 TBA = 'To be announced'
 
 
+def turns(g, done):
+    """A group's parents in turn order, for ever: first the ones who haven't had a turn yet, then the whole list again
+    from the top, round after round. New families are added at the end of the list in parents.json."""
+    first = [p for p in P[g] if p not in done]   # already had their turn
+    yield from first
+    while P[g]:
+        yield from P[g]
+    while True:
+        yield TBA
+
+
 def rota():
-    """First round only: every parent once. When a group runs out first, its slots are “to be announced” –
-    new families may join, and the next round is posted later."""
+    """Every class Sunday from "start" to the end of the school year: one parent from each group, taking turns."""
     done = {x[g] for x in P.get('done', []) for g in ('g1', 'g2') if x.get(g)}
-    g1, g2 = [p for p in P['g1'] if p not in done], [p for p in P['g2'] if p not in done]   # already had their turn
-    n = max(len(g1), len(g2))
-    days = [d for d in bp.class_days() if d >= P['start']][:n]
-    return [(d, g1[w] if w < len(g1) else TBA, g2[w] if w < len(g2) else TBA) for w, d in enumerate(days)]
+    if not P['g1'] and not P['g2']:
+        return []
+    t1, t2 = turns('g1', done), turns('g2', done)
+    return [(d, next(t1), next(t2)) for d in bp.class_days() if d >= P['start']]
 
 
 def build():
@@ -66,7 +77,7 @@ def build():
 <thead><tr><th>Sunday</th><th>Group 1 parent<br><small>9:00–11:45 · {each} pizzas</small></th><th>Group 2 parent<br><small>from 12:15 · {each} pizzas</small></th></tr></thead>
 <tbody>{rows}</tbody></table></div>
 {f'<div class=card><b>No class (no duty):</b><ul>{off}</ul></div>' if off else ''}
-<div class=card><b>📅 What comes next</b><p>This is the <b>first round</b> – every family once{" (✓ = already done – thank you!)" if P.get("done") else ""}. More families may still join, so the <b>next round will be posted after {dt.date.fromisoformat(last).strftime("%B %-d")}</b>, with everyone included.</p></div>
+<div class=card><b>📅 How the turns work</b><p>Each group goes down its list, one family per Sunday{" (✓ = already done – thank you!)" if P.get("done") else ""}. After the last family it <b>starts again from the top</b>. New families are added at the end of the list.</p></div>
 <p class=foot>{site_settings.NAME}</p>
 </main>'''
     page = open(os.path.join(ROOT, 'tools', 'templates', 'duty.html'), encoding='utf-8').read().replace('__BODY__', body)

@@ -1,5 +1,5 @@
 {
-  "_note": "Parents on the Sunday pizza & stay rota, in registration order. First name + last initial only (the page is public); a family without a parent's name yet is listed by family name. First round only: every family once.",
+  "_note": "Parents on the Sunday pizza & stay rota, in turn order. First name + last initial only (the page is public); a family without a parent's name yet is listed by family name. Each group goes down its list and starts again from the top; new families go at the end of the list.",
   "start": "2026-10-04",
   "pizzas": {
     "total": "5–6",
@@ -12,14 +12,18 @@
     "Emir H.",
     "Eldin F.",
     "Abdulah C.",
-    "Nurija C."
+    "Nurija C.",
+    "Mujic family"
   ],
   "g2": [
     "Nizama M.",
     "Mirsad K.",
     "Xhekiqi family",
     "Jakup N.",
-    "Alma S."
+    "Alma S.",
+    "Gobeljic family",
+    "Hajadarevic family",
+    "Hoxha family"
   ],
   "done": [
     {
