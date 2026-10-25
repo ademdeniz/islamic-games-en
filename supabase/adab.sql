@@ -8,7 +8,7 @@
 --   part     – taking part: answers, reads, tries
 --   respect  – respect to the teacher, friends and the masjid
 --   phone    – no phone during class
--- 3 = 🌟 all class · 2 = 🙂 after a reminder · 1 = 🌱 many reminders. Empty = not scored.
+-- 3 = 🌟 all class · 2 = 🙂 after a reminder · 1 = 😠 did not, even after many reminders. Empty = not scored.
 -- Only the teacher (admin and activity_viewers) can see or change the scores – not the children, not the parents.
 
 create table if not exists public.adab (

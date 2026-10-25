@@ -82,7 +82,7 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   list in the name chip, parents on `parents/`, and new weekly updates show “Last week’s homework” counts (no names).
   Read Along and Learn the Surahs put the page/surah in the address (`#page-5`, `#fil`) so time is counted per page.
 - **Adab rubric** (`supabase/adab.sql`): after class the teacher scores each child on `teacher/` → Adab – listening, speaking
-  in turn, taking part, respect and no phone – 🌟 3 all class · 🙂 2 after a reminder · 🌱 1 many reminders, with “absent” and a
+  in turn, taking part, respect and no phone – 🌟 3 all class · 🙂 2 after a reminder · 😠 1 did not, even after many reminders, with “absent” and a
   short note. The same tab shows each child’s year so far and whether the last 4 classes are better or need help. Only the
   admin and `activity_viewers` see the scores (not children, not parents). Run `supabase/adab.sql` after `tracking.sql`.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
