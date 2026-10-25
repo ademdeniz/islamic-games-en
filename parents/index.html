@@ -52,6 +52,11 @@ button:disabled{opacity:.6}
 .trend i{display:block;width:100%;max-width:38px;background:var(--gold);border-radius:6px 6px 0 0;min-height:2px}
 .trend .now i{background:var(--green)}
 .hw{margin-top:12px}.hwh{font-weight:700;margin:0 0 4px}.hw ul{margin:0;padding-left:4px;list-style:none}.hw li{padding:4px 0;border-bottom:1px solid var(--line);font-size:14px}
+.adab{margin-top:12px}.adab .cats{margin-top:4px}
+.adab .cat .e{font-size:26px}.adab .cat.bad{background:#fde8e4}
+.adab .past{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line);font-size:14px}
+.adab .past span:last-child{white-space:nowrap}
+.adab .f{font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;letter-spacing:.15em}
 .help{background:var(--gold-soft);border-radius:12px;padding:10px 12px;margin-top:10px;font-size:14px}
 details summary{cursor:pointer;font-weight:700;color:var(--green);margin-top:12px}
 footer{text-align:center;color:var(--muted);font-size:12px;margin-top:22px}
@@ -126,7 +131,10 @@ const mins = s => s >= 60 ? Math.round(s / 60) : s > 0 ? '<1' : 0;
 function startOfWeek(d) { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - x.getDay()); return x; }   // Sunday = class day
 function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate() + n); return x; }
 const fmt = (d, o) => d.toLocaleDateString('en-US', o);
-let hwFile = null, hwKids = {};
+let hwFile = null, hwKids = {}, adab = [];
+const ADAB = [['listen', 'Listening', 'Slušanje'], ['turn', 'Speaking in turn', 'Govori kad je red'], ['part', 'Taking part', 'Učešće'],
+  ['respect', 'Respect', 'Poštovanje'], ['phone', 'No phone', 'Bez telefona']];
+const FACE = { 3: '🌟', 2: '🙂', 1: '😠' };
 let kids = [], visits = [], weekStart = startOfWeek(new Date()), email = '';
 const TREND_WEEKS = 6;
 
@@ -198,6 +206,8 @@ async function loadWeek() {
   try { const r = await fetch('../updates/' + w + '/homework.json', { cache: 'no-cache' }); hwFile = r.ok ? await r.json() : null; } catch { hwFile = null; }
   const hk = await sb.rpc('my_children_homework', { p_week: w });
   hwKids = {}; (hk.data || []).forEach(x => hwKids[x.kid_id] = x);
+  const ad = await sb.rpc('my_children_adab', { p_from: addDays(weekStart, -7 * 7).toLocaleDateString('en-CA'), p_to: w });
+  adab = ad.data || [];   // before adab.sql is run: nothing to show
   render();
 }
 function hwMatch(visit, task) {   // same rule as public.homework_match in supabase/homework.sql
@@ -214,6 +224,19 @@ function homework(k, week) {
   const n = items.filter(x => x.done).length;
   return `<div class="hw"><p class="hwh">📝 This week’s homework · Zadaća ove sedmice – <b>${n} of ${items.length}</b></p><ul>${items.map(({ t, s, done }) =>
     `<li>${done ? '✅' : s ? '◐' : '○'} ${t.url ? `<a href="${esc(t.url)}">${esc(t.label)}</a>` : esc(t.label)}${t.keys && !done ? ` <span class="muted">(${mins(s)} of ${t.min} min)</span>` : ''}</li>`).join('')}</ul></div>`;
+}
+function adabBox(k) {   // the teacher's scores after class: this week's Sunday, then the classes before
+  const mine = adab.filter(a => a.kid_id === k.id).reverse(), w = weekStart.toLocaleDateString('en-CA');
+  if (!mine.length) return '';
+  const now = mine.find(a => a.day === w), past = mine.filter(a => a.day < w).slice(0, 5);
+  const day = d => fmt(new Date(d + 'T12:00'), { month: 'short', day: 'numeric' });
+  const today = !now ? '<p class="muted" style="margin:0">Not scored this Sunday. · Ove nedjelje nije ocijenjeno.</p>'
+    : now.absent ? '<p class="muted" style="margin:0">Absent this Sunday. · Odsutan/na ove nedjelje.</p>'
+    : `<div class="cats">${ADAB.map(([x, en, bs]) => `<div class="cat${now[x] === 1 ? ' bad' : now[x] ? '' : ' zero'}"><div class="e f">${FACE[now[x]] || '–'}</div><span>${en}<br>${bs}</span></div>`).join('')}</div>`;
+  return `<div class="adab"><p class="hwh">🤲 Adab in class · Ponašanje na času – ${esc(day(w))}</p>${today}
+    ${past.length ? past.map(a => `<div class="past"><span>${esc(day(a.day))}</span>${a.absent ? '<span class="muted">absent · odsutan/na</span>' : `<span class="f">${ADAB.map(([x]) => FACE[a[x]] || '·').join(' ')}</span>`}</div>`).join('') +
+      `<p class="muted" style="margin:4px 0 0">Earlier classes, in this order: ${ADAB.map(([, en]) => en.toLowerCase()).join(', ')}.</p>` : ''}
+    <p class="muted" style="margin:6px 0 0"><span class="f">🌟</span> all class · cijeli čas · <span class="f">🙂</span> after a reminder · nakon opomene · <span class="f">😠</span> not even after many reminders · ni nakon više opomena</p></div>`;
 }
 $('prevWeek').onclick = () => { weekStart = addDays(weekStart, -7); loadWeek(); };
 $('nextWeek').onclick = () => { weekStart = addDays(weekStart, 7); loadWeek(); };
@@ -242,6 +265,7 @@ function render() {
       <div class="cats">${CATS.map(([t, e, en, bs]) => { const s = by(t); return `<div class="cat${s ? '' : ' zero'}"><div class="e">${e}</div><b>${mins(s)}</b><span>${en}<br>${bs}</span></div>`; }).join('')}</div>
       ${help}
       ${homework(k, week)}
+      ${adabBox(k)}
       ${week.length ? `<details${week.length <= 6 ? ' open' : ''}><summary>What ${esc(k.first_name)} opened · Šta je otvorio/la (${week.length})</summary>
         ${Object.entries(days).map(([d, list]) => `<div class="day">${esc(d)}</div>` + list.map(v => `<div class="visit"><span>${CATS.find(c => c[0] === v.page_type)[1]} ${esc(v.title)}</span><span>${mins(v.active_seconds)} min</span></div>`).join('')).join('')}
       </details>` : (k.devices ? '<p class="muted">Nothing practised this week yet. · Ove sedmice još ništa.</p>' : '')}
