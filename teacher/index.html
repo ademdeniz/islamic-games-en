@@ -56,6 +56,26 @@ dialog::backdrop{background:rgba(10,30,24,.55)}
 .dlg h2{margin:0 0 4px}
 .day{margin-top:12px;font-weight:700}
 textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);border-radius:10px;min-height:80px}
+.adab td,.adab th{padding:6px 5px}
+.adab th:first-child,.adab td:first-child{position:sticky;left:0;background:#fff;z-index:1}
+.adab th:first-child{background:var(--gold-soft)}
+.sc{display:inline-flex;gap:2px}
+.sc button{background:none;border:2px solid transparent;border-radius:10px;padding:2px;font-size:18px;line-height:1.1;opacity:.28;filter:grayscale(1);min-width:30px}
+.sc button.on{opacity:1;filter:none;border-color:var(--gold);background:var(--gold-soft)}
+.adab .acts{display:flex;gap:6px;align-items:center}
+.adab .acts label{margin:0;font-weight:400;white-space:nowrap}
+.adab tr.absent td.c,.adab tr.absent [data-all]{opacity:.25;pointer-events:none}
+@media (max-width:700px){   /* phone: one card per child, a line per point */
+  .adab thead{display:none}
+  .adab,.adab tbody,.adab tr,.adab td{display:block;width:100%}
+  .adab tr{border-bottom:3px solid var(--line);padding:6px 0}
+  .adab td{border:0;padding:2px 12px;white-space:normal}
+  .adab td:first-child{position:static;padding-top:6px;font-size:16px}
+  .adab td.c{display:flex;justify-content:space-between;align-items:center}
+  .adab td.c::before{content:attr(data-label);color:var(--muted);font-size:15px}
+  .sc button{font-size:24px;min-width:44px;padding:4px}
+  .adab .acts{justify-content:flex-end;padding:6px 12px}
+}
 </style>
 </head>
 <body>
@@ -90,6 +110,7 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="week" aria-selected="true">This week</button>
       <button role="tab" data-tab="homework" aria-selected="false">Homework</button>
+      <button role="tab" data-tab="adab" aria-selected="false">Adab</button>
       <button role="tab" data-tab="kids" aria-selected="false">Children</button>
       <button role="tab" data-tab="codes" aria-selected="false">Class codes</button>
     </nav>
@@ -144,6 +165,27 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
           Minimums come from the week’s homework file (data/homework.json).</p>
       </div>
       <div id="hwGrid"></div>
+    </section>
+
+    <!-- ------------------------------------------------------------ adab -->
+    <section id="tab-adab" class="hide">
+      <div class="card">
+        <div class="row" style="justify-content:space-between">
+          <div class="row">
+            <button class="ghost small" id="adPrev" aria-label="Previous Sunday">◀</button>
+            <b id="adDay"></b>
+            <button class="ghost small" id="adNext" aria-label="Next Sunday">▶</button>
+          </div>
+          <div class="row">
+            <select id="adGroup"><option value="">All groups</option></select>
+            <button id="adCsv">Download the year (CSV)</button>
+          </div>
+        </div>
+        <p class="muted" style="margin:8px 0 0">🌟 all class · 🙂 after a reminder · 🌱 many reminders. Tap to score, tap again to clear – it is saved at once.
+          “🌟 all” gives every point a star. Only you see these scores (not the children, not the parents).</p>
+      </div>
+      <div id="adGrid"></div>
+      <div id="adYear"></div>
     </section>
 
     <section id="tab-kids" class="hide">
@@ -273,6 +315,7 @@ async function loadAll() {
     ]);
     $('groupFilter').innerHTML = '<option value="">All groups</option>' + groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
     $('hwGroup').innerHTML = $('groupFilter').innerHTML;
+    $('adGroup').innerHTML = $('groupFilter').innerHTML;
     $('kGroup').innerHTML = groups.map(g => `<option value="${esc(g.id)}">${esc(g.name)}</option>`).join('');
     await loadWeek();
     renderKids(); renderCodes();
@@ -286,6 +329,7 @@ async function loadWeek() {
   week = await fetchAll(() => sb.from('activity').select('*').gte('started_at', weekStart.toISOString()).lt('started_at', end.toISOString()).order('started_at'));
   renderWeek();
   loadHomework();
+  loadAdab();
 }
 
 // ---------------------------------------------------------------- this week
@@ -556,10 +600,103 @@ $('hwCsv').onclick = () => {
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'maktab-homework-' + ymd(weekStart) + '.csv'; a.click();
 };
 
+// ---------------------------------------------------------------- adab
+const ADAB = [['listen', 'Listening', 'eyes on the teacher, follows instructions'], ['turn', 'Speaking in turn', 'raises a hand, no side talk'],
+  ['part', 'Taking part', 'answers, reads, tries'], ['respect', 'Respect', 'to the teacher, friends and the masjid'], ['phone', 'No phone', 'no phone during class']];
+const SCORE = [[3, '🌟', 'all class'], [2, '🙂', 'after a reminder'], [1, '🌱', 'many reminders']];
+const scoreIcon = v => v >= 2.5 ? '🌟' : v >= 1.75 ? '🙂' : '🌱';
+let adab = null, adabErr = '';
+function schoolYearStart(d) { const y = d.getMonth() >= 7 ? d.getFullYear() : d.getFullYear() - 1; return y + '-08-01'; }   // from August
+async function loadAdab() {
+  $('adDay').textContent = 'Sunday ' + weekStart.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  if (!adab) {
+    try { adab = await fetchAll(() => sb.from('adab').select('*').gte('day', schoolYearStart(new Date())).order('day')); adabErr = ''; }
+    catch (e) { adab = null; adabErr = e.message; }
+  }
+  renderAdab();
+}
+const adabRow = (kid, day) => (adab || []).find(r => r.kid_id === kid && r.day === day);
+async function saveAdab(kid, change) {
+  const day = ymd(weekStart), old = adabRow(kid, day);
+  const row = { kid_id: kid, day, ...change, updated_at: new Date().toISOString() };
+  const { error } = await sb.from('adab').upsert(row, { onConflict: 'kid_id,day' });
+  if (error) return msg(error.message, true);
+  if (old) Object.assign(old, row); else adab.push({ listen: null, turn: null, part: null, respect: null, phone: null, absent: false, note: null, ...row });
+  renderAdab();
+}
+function renderAdab() {
+  if (!adab) {
+    $('adGrid').innerHTML = '<div class="card"><p class="msg err">' + esc(adabErr) + (/adab/.test(adabErr) ? ' – run supabase/adab.sql in Supabase first.' : '') + '</p></div>';
+    $('adYear').innerHTML = ''; return;
+  }
+  const gf = $('adGroup').value, day = ymd(weekStart);
+  const shown = groups.filter(g => !gf || g.id === gf);
+  $('adGrid').innerHTML = shown.map(g => {
+    const list = kids.filter(k => k.group_id === g.id && (k.active || adabRow(k.id, day)));
+    const rows = list.map(k => {
+      const r = adabRow(k.id, day) || {};
+      const cells = ADAB.map(([key, name]) => `<td class="c" data-label="${esc(name)}"><span class="sc" role="group" aria-label="${esc(name)}">${SCORE.map(([v, icon, what]) =>
+        `<button class="${r[key] === v ? 'on' : ''}" data-kid="${k.id}" data-k="${key}" data-v="${v}" title="${esc(name + ': ' + what)}" aria-pressed="${r[key] === v}">${icon}</button>`).join('')}</span></td>`).join('');
+      return `<tr class="${r.absent ? 'absent' : ''}"><td><b>${esc(fullName(k))}</b>${r.note ? `<br><small class="muted" title="${esc(r.note)}">📝 ${esc(r.note.length > 28 ? r.note.slice(0, 27) + '…' : r.note)}</small>` : ''}</td>${cells}
+        <td><div class="acts"><button class="ghost small" data-all="${k.id}">🌟 all</button>
+          <label><input type="checkbox" style="width:auto" data-absent="${k.id}" ${r.absent ? 'checked' : ''}> absent</label>
+          <button class="link" data-note="${k.id}" title="Note for this Sunday" aria-label="Note for this Sunday">✎</button></div></td></tr>`;
+    }).join('');
+    const scored = list.filter(k => { const r = adabRow(k.id, day); return r && !r.absent && ADAB.some(([x]) => r[x]); }).length;
+    return `<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">${esc(g.name)}</h2><span class="muted">${scored} of ${list.length} scored</span></div>
+      <div class="tablewrap"><table class="adab"><thead><tr><th>Child</th>${ADAB.map(([, n, d]) => `<th title="${esc(d)}">${esc(n)}</th>`).join('')}<th></th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>`;
+  }).join('');
+  document.querySelectorAll('#adGrid [data-k]').forEach(b => b.onclick = () => {
+    const r = adabRow(b.dataset.kid, day) || {}, v = +b.dataset.v;
+    saveAdab(b.dataset.kid, { [b.dataset.k]: r[b.dataset.k] === v ? null : v });
+  });
+  document.querySelectorAll('#adGrid [data-all]').forEach(b => b.onclick = () => saveAdab(b.dataset.all, Object.fromEntries(ADAB.map(([x]) => [x, 3]))));
+  document.querySelectorAll('#adGrid [data-absent]').forEach(c => c.onchange = () => saveAdab(c.dataset.absent, { absent: c.checked }));
+  document.querySelectorAll('#adGrid [data-note]').forEach(b => b.onclick = () => {
+    const r = adabRow(b.dataset.note, day) || {};
+    const note = prompt('Note for ' + fullName(kids.find(k => k.id === b.dataset.note)) + ' on this Sunday (only you see it):', r.note || '');
+    if (note === null) return;
+    saveAdab(b.dataset.note, { note: note.trim().slice(0, 300) || null });
+  });
+  // the year so far: average per point, and the last 4 classes against the ones before
+  $('adYear').innerHTML = shown.map(g => {
+    const list = kids.filter(k => k.group_id === g.id && (k.active || adab.some(r => r.kid_id === k.id)));
+    const rows = list.map(k => {
+      const mine = adab.filter(r => r.kid_id === k.id && !r.absent && ADAB.some(([x]) => r[x]));
+      if (!mine.length) return '';
+      const avg = (rs, key) => { const v = rs.flatMap(r => key ? [r[key]] : ADAB.map(([x]) => r[x])).filter(Boolean); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
+      const cells = ADAB.map(([x]) => { const a = avg(mine, x); return `<td class="num">${a ? scoreIcon(a) + ' ' + a.toFixed(1) : ''}</td>`; }).join('');
+      const recent = avg(mine.slice(-4)), before = mine.length > 4 ? avg(mine.slice(0, -4)) : null;
+      const trend = before == null || recent == null ? '' : recent - before >= 0.25 ? '↑ better' : before - recent >= 0.25 ? '↓ needs help' : '→ steady';
+      return `<tr><td><b>${esc(fullName(k))}</b></td><td class="num">${mine.length}</td>${cells}<td>${trend}</td></tr>`;
+    }).join('');
+    const none = list.length - list.filter(k => adab.some(r => r.kid_id === k.id && !r.absent && ADAB.some(([x]) => r[x]))).length;
+    if (!rows) return '';
+    return `<div class="card"><h2>${esc(g.name)} – the year so far</h2>${none ? `<p class="muted" style="margin:0">${none} more not scored yet.</p>` : ''}
+      <div class="tablewrap"><table><thead><tr><th>Child</th><th class="num">Classes</th>${ADAB.map(([, n]) => `<th class="num">${esc(n)}</th>`).join('')}<th>Last 4 classes</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>`;
+  }).join('');
+}
+$('adGroup').onchange = renderAdab;
+$('adPrev').onclick = () => $('prevWeek').click();
+$('adNext').onclick = () => $('nextWeek').click();
+$('adCsv').onclick = () => {
+  if (!adab) return;
+  const cell = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const lines = [['Sunday', 'Group', 'Child', ...ADAB.map(([, n]) => n), 'Absent', 'Note'].map(cell).join(',')];
+  adab.forEach(r => {
+    const k = kids.find(x => x.id === r.kid_id); if (!k) return;
+    lines.push([r.day, groupName(k.group_id), fullName(k), ...ADAB.map(([x]) => r[x]), r.absent ? 'absent' : '', r.note].map(cell).join(','));
+  });
+  const blob = new Blob(['\ufeff' + lines.join('\r\n')], { type: 'text/csv' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'maktab-adab-' + ymd(new Date()) + '.csv'; a.click();
+};
+
 // ---------------------------------------------------------------- tabs
 document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
   document.querySelectorAll('.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
-  ['week', 'homework', 'kids', 'codes'].forEach(t => $('tab-' + t).classList.toggle('hide', t !== b.dataset.tab));
+  ['week', 'homework', 'adab', 'kids', 'codes'].forEach(t => $('tab-' + t).classList.toggle('hide', t !== b.dataset.tab));
 });
 
 if (linkError) { history.replaceState(null, '', location.pathname); refresh().then(() => msg('That reset link did not work (' + linkError.replace(/\+/g, ' ') + '). Ask for a new one.', true)); }

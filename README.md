@@ -15,7 +15,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 | QR code for the mosque wall (always opens the newest update) | [/qr/](https://ademdeniz.github.io/islamic-games-en/qr/) | `tools/build_update.py` |
 | Pizza & parent duty | [/duty/](https://ademdeniz.github.io/islamic-games-en/duty/) | `data/duty/parents.json` → `tools/build_duty.py` |
 | Credits | [/credits/](https://ademdeniz.github.io/islamic-games-en/credits/) | `tools/build_credits.py` |
-| Teacher dashboard – who opened what, for how long (login) | [/teacher/](https://ademdeniz.github.io/islamic-games-en/teacher/) | hand-written · database `supabase/tracking.sql` |
+| Teacher dashboard – who opened what, for how long, homework and adab (login) | [/teacher/](https://ademdeniz.github.io/islamic-games-en/teacher/) | hand-written · database `supabase/tracking.sql` |
 | Parents – their own children's week and homework (e-mail code login) | [/parents/](https://ademdeniz.github.io/islamic-games-en/parents/) | hand-written · database `supabase/parents.sql` |
 | Youth Gathering 2026 parent waiver (not linked; admin list at `waiver/admin.html`) | [/waiver/](https://ademdeniz.github.io/islamic-games-en/waiver/) | hand-written · database `supabase/waiver.sql` |
 
@@ -81,6 +81,10 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   minimum, or when the teacher ticks it on `teacher/` → Homework (written tasks can be added there). Children see their
   list in the name chip, parents on `parents/`, and new weekly updates show “Last week’s homework” counts (no names).
   Read Along and Learn the Surahs put the page/surah in the address (`#page-5`, `#fil`) so time is counted per page.
+- **Adab rubric** (`supabase/adab.sql`): after class the teacher scores each child on `teacher/` → Adab – listening, speaking
+  in turn, taking part, respect and no phone – 🌟 3 all class · 🙂 2 after a reminder · 🌱 1 many reminders, with “absent” and a
+  short note. The same tab shows each child’s year so far and whether the last 4 classes are better or need help. Only the
+  admin and `activity_viewers` see the scores (not children, not parents). Run `supabase/adab.sql` after `tracking.sql`.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
   Only the admin and accounts in `waiver_viewers` can see signed waivers; `tests/run_supabase_test.sh` tests both files.
   To let an account see the waivers (it keeps its role in the games), run in the SQL Editor (with its e-mail):
