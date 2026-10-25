@@ -60,8 +60,10 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
 .adab th:first-child,.adab td:first-child{position:sticky;left:0;background:#fff;z-index:1}
 .adab th:first-child{background:var(--gold-soft)}
 .sc{display:inline-flex;gap:2px}
-.sc button{background:none;border:2px solid transparent;border-radius:10px;padding:2px;font-size:18px;line-height:1.1;opacity:.28;filter:grayscale(1);min-width:30px}
+.sc button{color:var(--ink);font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-weight:400;background:none;border:2px solid transparent;border-radius:10px;padding:2px;font-size:18px;line-height:1.1;opacity:.28;filter:grayscale(1);min-width:30px}
 .sc button.on{opacity:1;filter:none;border-color:var(--gold);background:var(--gold-soft)}
+.sc button.on.bad{border-color:var(--red);background:#fde8e4}
+.adab tr.bad td:first-child b{color:var(--red)}
 .adab .acts{display:flex;gap:6px;align-items:center}
 .adab .acts label{margin:0;font-weight:400;white-space:nowrap}
 .adab tr.absent td.c,.adab tr.absent [data-all]{opacity:.25;pointer-events:none}
@@ -181,7 +183,7 @@ textarea{width:100%;font:inherit;padding:10px;border:2px solid var(--line);borde
             <button id="adCsv">Download the year (CSV)</button>
           </div>
         </div>
-        <p class="muted" style="margin:8px 0 0">🌟 all class · 🙂 after a reminder · 🌱 many reminders. Tap to score, tap again to clear – it is saved at once.
+        <p class="muted" style="margin:8px 0 0">🌟 all class · 🙂 after a reminder · 😠 did not (not listening, talking, on the phone) even after many reminders. Tap to score, tap again to clear – it is saved at once.
           “🌟 all” gives every point a star. Only you see these scores (not the children, not the parents).</p>
       </div>
       <div id="adGrid"></div>
@@ -603,8 +605,8 @@ $('hwCsv').onclick = () => {
 // ---------------------------------------------------------------- adab
 const ADAB = [['listen', 'Listening', 'eyes on the teacher, follows instructions'], ['turn', 'Speaking in turn', 'raises a hand, no side talk'],
   ['part', 'Taking part', 'answers, reads, tries'], ['respect', 'Respect', 'to the teacher, friends and the masjid'], ['phone', 'No phone', 'no phone during class']];
-const SCORE = [[3, '🌟', 'all class'], [2, '🙂', 'after a reminder'], [1, '🌱', 'many reminders']];
-const scoreIcon = v => v >= 2.5 ? '🌟' : v >= 1.75 ? '🙂' : '🌱';
+const SCORE = [[3, '🌟', 'all class'], [2, '🙂', 'after a reminder'], [1, '😠', 'did not – even after many reminders']];
+const scoreIcon = v => v >= 2.5 ? '🌟' : v >= 1.75 ? '🙂' : '😠';
 let adab = null, adabErr = '';
 function schoolYearStart(d) { const y = d.getMonth() >= 7 ? d.getFullYear() : d.getFullYear() - 1; return y + '-08-01'; }   // from August
 async function loadAdab() {
@@ -636,8 +638,8 @@ function renderAdab() {
     const rows = list.map(k => {
       const r = adabRow(k.id, day) || {};
       const cells = ADAB.map(([key, name]) => `<td class="c" data-label="${esc(name)}"><span class="sc" role="group" aria-label="${esc(name)}">${SCORE.map(([v, icon, what]) =>
-        `<button class="${r[key] === v ? 'on' : ''}" data-kid="${k.id}" data-k="${key}" data-v="${v}" title="${esc(name + ': ' + what)}" aria-pressed="${r[key] === v}">${icon}</button>`).join('')}</span></td>`).join('');
-      return `<tr class="${r.absent ? 'absent' : ''}"><td><b>${esc(fullName(k))}</b>${r.note ? `<br><small class="muted" title="${esc(r.note)}">📝 ${esc(r.note.length > 28 ? r.note.slice(0, 27) + '…' : r.note)}</small>` : ''}</td>${cells}
+        `<button class="${r[key] === v ? 'on' : ''}${r[key] === v && v === 1 ? ' bad' : ''}" data-kid="${k.id}" data-k="${key}" data-v="${v}" title="${esc(name + ': ' + what)}" aria-pressed="${r[key] === v}">${icon}</button>`).join('')}</span></td>`).join('');
+      return `<tr class="${r.absent ? 'absent' : ''}${!r.absent && ADAB.some(([x]) => r[x] === 1) ? ' bad' : ''}"><td><b>${esc(fullName(k))}</b>${r.note ? `<br><small class="muted" title="${esc(r.note)}">📝 ${esc(r.note.length > 28 ? r.note.slice(0, 27) + '…' : r.note)}</small>` : ''}</td>${cells}
         <td><div class="acts"><button class="ghost small" data-all="${k.id}">🌟 all</button>
           <label><input type="checkbox" style="width:auto" data-absent="${k.id}" ${r.absent ? 'checked' : ''}> absent</label>
           <button class="link" data-note="${k.id}" title="Note for this Sunday" aria-label="Note for this Sunday">✎</button></div></td></tr>`;
