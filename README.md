@@ -84,7 +84,8 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
 - **Adab rubric** (`supabase/adab.sql`): after class the teacher scores each child on `teacher/` → Adab – listening, speaking
   in turn, taking part, respect and no phone – 🌟 3 all class · 🙂 2 after a reminder · 😠 1 did not, even after many reminders, with “absent” and a
   short note. The same tab shows each child’s year so far and whether the last 4 classes are better or need help. Only the
-  admin and `activity_viewers` see the scores (not children, not parents). Run `supabase/adab.sql` after `tracking.sql`.
+  admin and `activity_viewers` change them; a parent sees their own child's scores on `parents/` (not the notes).
+  Run `supabase/adab.sql` after `parents.sql`.
 - The parent waiver (`waiver/`) uses the same Supabase project: run `supabase/waiver.sql` after `schema.sql`.
   Only the admin and accounts in `waiver_viewers` can see signed waivers; `tests/run_supabase_test.sh` tests both files.
   To let an account see the waivers (it keeps its role in the games), run in the SQL Editor (with its e-mail):
