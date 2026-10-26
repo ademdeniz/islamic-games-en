@@ -7,7 +7,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 
 | Page | Link | Built with |
 |---|---|---|
-| Games (60) | [/](https://ademdeniz.github.io/islamic-games-en/) | `tools/templates/home.html` → `tools/build_home.py` |
+| Games and recitation pages (101) | [/](https://ademdeniz.github.io/islamic-games-en/) | `tools/templates/home.html` → `tools/build_home.py` |
 | Ilmihal lessons (books 1–3) | [/lessons/](https://ademdeniz.github.io/islamic-games-en/lessons/) | `data/lessons/` → `tools/build_lessons.py` |
 | Sufara | [/sufara/](https://ademdeniz.github.io/islamic-games-en/sufara/) | `data/sufara/` → `tools/build_sufara.py` |
 | Year plan for parents | [/plan/](https://ademdeniz.github.io/islamic-games-en/plan/) | `data/plan/plan.json` → `tools/build_plan.py` |
@@ -61,6 +61,15 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   Journey, Maze, Balloon, Safari, Garden, Aquarium, Secret Code, Hidden Picture, Build Your Mosque, Bee Academy).
 - **New games** (not translations): `learn-surahs-by-heart` (`tools/fetch_hifz.py` + `tools/build_hifz.py`) and the
   Read Along `citaj-kuran` (`tools/fetch_readalong.py` + `tools/build_citaj_kuran.py`).
+- **Recitation pages** (41, from Abdo ef. Rekić's newer repositories): surahs ayah by ayah (`sura-*`, `ajetul-kursijja`), their
+  tajwid-coloured transliterations (`sura-*-transkripcija`), Al-Baqarah 1–37 (`elif-lam-mim`, `bekare-*`) and duas & dhikr
+  (`dove-*`, `dova-poslije-ezana`). They keep the Arabic on purpose and share their English in `tools/tr/_rekic_ui.py`
+  (buttons and messages, author credit and his analytics tag removed) and `tools/tr/_rekic_dua.py` (each dua line's
+  transliteration and meaning). Full-screen pages set `BRAND_FIT` so they fit under the logo (`skel.FIT_CSS`).
+  The tracker counts `sura-*`/`ajetul-kursijja` as surahs and `elif-lam-mim`/`bekare-*` as Qur’an.
+  Local names that differ from his repositories: `sura-tekasur` = `sura-tekasur-`, `sura-nas` = `suretu-nnas`,
+  `sura-fatiha` = `sura--fatiha-`, `sura-fatiha-transkripcija` = `sura-fatiha-transkripcija-`,
+  `sura-nas-transkripcija` = `sura-nnas-transkripcija`, `elif-lam-mim` = `elif-lam-mim--`, `bekare-22-24` = `bekare22-23-24`.
 - Not on the home page: `maca-pripreme-za-namaz` (near-duplicate of `kviz-maca-namaz`) and `el-fatiha`
   (replaced by `learn-surahs-by-heart`). Local name `moj-mektebski-vrt` = repo `moj-mektebski-vrt1`.
 - `islamski-milijunas-online` uses our Supabase project (`supabase/config.json`, publishable key only).

@@ -27,6 +27,27 @@ BRAND_CSS = (
 )
 
 
+# Pages built as one full-screen app (height 100dvh, no scrolling) would lose their bottom row under the logo header.
+# Their table sets BRAND_FIT = True: the page becomes a column, the logo gets smaller and the app fills the rest.
+FIT_CSS = (
+    '<style>html,body{height:100%}body{display:flex!important;flex-direction:column;flex-wrap:nowrap!important}'
+    '.bz-brand{flex:none!important;margin:6px auto!important;padding:4px 10px!important}'
+    '.bz-brand img{max-height:9vh;width:auto!important;max-width:100%!important}'
+    'body>main,body>.app,body>#app{flex:1 1 auto;min-height:0;height:auto!important;max-height:none!important}</style>'
+)
+
+
+def brand_fit(game):
+    path = os.path.join(ROOT, 'tools', 'tr', game + '.py')
+    if not os.path.exists(path):
+        return False
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(game + '_fit', path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return bool(getattr(mod, 'BRAND_FIT', False))
+
+
 def main_file(game):
     d = os.path.join(ROOT, 'original', game)
     if game in MAIN_FILE:
@@ -72,7 +93,7 @@ def build(game):
     html = re.sub(r'<html([^>]*)lang="bs"', r'<html\1lang="en"', html, count=1)
     if '<div class="bz-brand">' not in html:  # the element itself, not just CSS that mentions it
         import site_settings
-        html = html.replace('</head>', BRAND_CSS + '</head>', 1)
+        html = html.replace('</head>', BRAND_CSS + (FIT_CSS if brand_fit(game) else '') + '</head>', 1)
         html = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + site_settings.brand_html(), html, count=1)
     import tracking   # who played, for how long (tools/tracking.js)
     if tracking.MARK not in html:

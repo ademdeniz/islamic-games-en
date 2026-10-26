@@ -97,7 +97,8 @@ document.addEventListener('pointerdown',unlock,{once:true});
   if (rest[0] === 'lessons' && rest.length >= 3) type = 'lesson';
   else if (rest[0] === 'sufara' && rest.length >= 2) type = 'sufara';
   else if (rest[0] === 'games' && rest.length >= 2)
-    type = rest[1] === 'citaj-kuran' ? 'quran' : (rest[1] === 'learn-surahs-by-heart' || rest[1] === 'memori-sure') ? 'surah' : 'game';
+    type = (rest[1] === 'citaj-kuran' || rest[1] === 'elif-lam-mim' || /^bekare-/.test(rest[1])) ? 'quran'
+      : (rest[1] === 'learn-surahs-by-heart' || rest[1] === 'memori-sure' || /^sura-/.test(rest[1]) || rest[1] === 'ajetul-kursijja') ? 'surah' : 'game';
   if (!type) return;
   var baseKey = rest.join('/'), SITE_ROOT = '/' + parts.slice(0, at).map(function (p) { return p + '/'; }).join('');
   function pageKey() { return (type === 'surah' || type === 'quran') && location.hash ? baseKey + location.hash : baseKey; }
