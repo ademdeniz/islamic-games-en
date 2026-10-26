@@ -117,6 +117,18 @@ def task_key(url):
     return path + ('#' + frag if frag else '')
 
 
+# Abdo ef. Rekić's recitation pages that practise the same thing: time on them counts for the task too.
+SURAH_PAGES = {   # surah id in learn-surahs-by-heart → his ayah-by-ayah page (and transliteration page)
+    'fatiha': ['sura-fatiha', 'sura-fatiha-transkripcija'], 'nas': ['sura-nas', 'sura-nas-transkripcija'],
+    'falaq': ['sura-felek', 'sura-felek-transkripcija'], 'ikhlas': ['sura-ihlas', 'sura-ihlas-transkripcija'],
+    'masad': ['sura-leheb', 'sura-leheb-transkripcija'], 'nasr': ['sura-nasr', 'sura-nasr-transkripcija'], 'kafirun': ['sura-kafirun'],
+    'kawthar': ['sura-kevser'], 'maun': ['sura-maun'], 'quraysh': ['sura-kurejs'], 'fil': ['sura-fil'], 'humazah': ['sura-humezeh'],
+    'asr': ['sura-asr'], 'takathur': ['sura-tekasur'], 'qariah': ['sura-kariah'], 'alif-lam-mim': ['elif-lam-mim'],
+    'kursi': ['ajetul-kursijja', 'dove-ajetul-kursijja'],
+}
+BAQARAH_PAGES = {2: ['elif-lam-mim'], 3: ['bekare-6-16'], 4: ['bekare-17-24'], 5: ['bekare-25-29'], 6: ['bekare-30-37']}   # mushaf page → his page
+
+
 def homework_tasks(day):
     """The week's homework as a checklist per group, for the homework check (teacher/, parents/, the children's chip):
     every lesson page, the Read Along page, each surah, Sufara (all of the week's pages together) and the week's games."""
@@ -136,9 +148,10 @@ def homework_tasks(day):
             elif key.startswith('games/citaj-kuran'):
                 key = 'games/citaj-kuran#page-%d' % it['page']
                 tasks.append({'id': it['k'], 'kind': 'quran', 'label': f"Read Along – Al-Baqarah page {it['page']}",
-                              'keys': [key], 'min': MINUTES['quran'], 'url': SITE + key})
+                              'keys': [key] + ['games/' + p for p in BAQARAH_PAGES.get(it['page'], [])], 'min': MINUTES['quran'], 'url': SITE + key})
             elif key.startswith(('games/learn-surahs-by-heart', 'games/memori-sure')):
-                tasks.append({'id': it['k'], 'kind': 'surah', 'label': it['title'], 'keys': [key], 'min': MINUTES['surah'], 'url': url})
+                extra = ['games/' + p for p in SURAH_PAGES.get(key.partition('#')[2], [])]
+                tasks.append({'id': it['k'], 'kind': 'surah', 'label': it['title'], 'keys': [key] + extra, 'min': MINUTES['surah'], 'url': url})
             elif key.startswith('lessons/'):
                 page = f" p.{it['page']}" if it.get('page') else ''
                 tasks.append({'id': it['k'], 'kind': 'lesson', 'label': f"{it['kind']}{page} – {it['title']}",
