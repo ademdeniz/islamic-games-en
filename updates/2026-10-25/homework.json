@@ -1,0 +1,141 @@
+{
+ "week": "2026-10-25",
+ "groups": {
+  "g1": [
+   {
+    "id": "i2-20",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.20 – Sixth pillar of Iman – belief in qadar",
+    "keys": [
+     "lessons/ilmihal-2/20-qadar"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/20-qadar/"
+   },
+   {
+    "id": "i2-21",
+    "kind": "surah",
+    "label": "Surah Al-Kafirun with its meaning",
+    "keys": [
+     "games/learn-surahs-by-heart#kafirun"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/learn-surahs-by-heart/#kafirun"
+   },
+   {
+    "id": "i3-29",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.29 – Other unseen beings – jinn and shayatin",
+    "keys": [
+     "lessons/ilmihal-3/29-jinn-shayatin"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/29-jinn-shayatin/"
+   },
+   {
+    "id": "i3-31",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.31 – Belief in Allah’s books and scrolls",
+    "keys": [
+     "lessons/ilmihal-3/31-books-and-scrolls"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/31-books-and-scrolls/"
+   },
+   {
+    "id": "i3-33",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.33 – The Qur’an – the final revelation",
+    "keys": [
+     "lessons/ilmihal-3/33-quran"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/33-quran/"
+   },
+   {
+    "id": "q-6",
+    "kind": "quran",
+    "label": "Read Along – Al-Baqarah page 6",
+    "keys": [
+     "games/citaj-kuran#page-6"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-6"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Tanwin, Ra ر",
+    "keys": [
+     "sufara/rule-tanwin",
+     "sufara/04-ra"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/rule-tanwin/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/boziji-kitabi",
+     "games/citaj-kuran",
+     "games/meleki-trazenje-rijeci",
+     "games/memori-imanski-sarti",
+     "games/balon-znanja"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-25/"
+   }
+  ],
+  "g2": [
+   {
+    "id": "i1-17",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.17 – The Shahadah",
+    "keys": [
+     "lessons/ilmihal-1/17-shahadah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/17-shahadah/"
+   },
+   {
+    "id": "i1-18",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.18 – The Islamic greeting – salam",
+    "keys": [
+     "lessons/ilmihal-1/18-salam"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/18-salam/"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Tanwin, Ra ر",
+    "keys": [
+     "sufara/rule-tanwin",
+     "sufara/04-ra"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/rule-tanwin/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/mektebski-detektiv",
+     "games/sta-radi-masa",
+     "games/balon-znanja"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-10-25/"
+   }
+  ]
+ }
+}
