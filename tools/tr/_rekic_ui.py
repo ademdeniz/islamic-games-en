@@ -120,8 +120,11 @@ def make_transform(pairs):
 
 
 def fits_screen(game):
-    """A one-screen app (no scrolling): skel.build then fits it under the logo header (BRAND_FIT)."""
-    return bool(re.search(r'html,\s*body\s*\{[^}]*overflow:hidden', original(game)))
+    """BRAND_FIT for skel.build: a one-screen app (no scrolling), or a page whose body is a column flexbox – the logo
+    header's wrapping CSS would otherwise push its content to the left on a wide screen."""
+    src = original(game)
+    column = any('display:flex' in r and 'flex-direction:column' in r for r in re.findall(r'(?<![\w.#-])body\s*\{([^}]*)\}', src))
+    return bool(re.search(r'html,\s*body\s*\{[^}]*overflow:hidden', src)) or column
 
 
 def page(game, extra=()):
