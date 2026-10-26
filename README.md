@@ -7,7 +7,7 @@ Ilmihal lessons, Sufara (the Arabic letters), the year plan, weekly updates for 
 
 | Page | Link | Built with |
 |---|---|---|
-| Games, recitation and tajwid pages (104) | [/](https://ademdeniz.github.io/islamic-games-en/) | `tools/templates/home.html` → `tools/build_home.py` |
+| Games, recitation and tajwid pages (110) | [/](https://ademdeniz.github.io/islamic-games-en/) | `tools/templates/home.html` → `tools/build_home.py` |
 | Ilmihal lessons (books 1–3) | [/lessons/](https://ademdeniz.github.io/islamic-games-en/lessons/) | `data/lessons/` → `tools/build_lessons.py` |
 | Sufara | [/sufara/](https://ademdeniz.github.io/islamic-games-en/sufara/) | `data/sufara/` → `tools/build_sufara.py` |
 | Year plan for parents | [/plan/](https://ademdeniz.github.io/islamic-games-en/plan/) | `data/plan/plan.json` → `tools/build_plan.py` |
@@ -61,13 +61,15 @@ The starter does not follow this repository on its own: re-run `make_starter.py`
   Journey, Maze, Balloon, Safari, Garden, Aquarium, Secret Code, Hidden Picture, Build Your Mosque, Bee Academy).
 - **New games** (not translations): `learn-surahs-by-heart` (`tools/fetch_hifz.py` + `tools/build_hifz.py`) and the
   Read Along `citaj-kuran` (`tools/fetch_readalong.py` + `tools/build_citaj_kuran.py`).
-- **Recitation and tajwid pages** (44, from Abdo ef. Rekić's newer repositories): surahs ayah by ayah (`sura-*`, `ajetul-kursijja`), their
+- **Recitation, tajwid pages and games** (50, from Abdo ef. Rekić's newer repositories): surahs ayah by ayah (`sura-*`, `ajetul-kursijja`), their
   tajwid-coloured transliterations (`sura-*-transkripcija`), Al-Baqarah 1–37 (`elif-lam-mim`, `bekare-*`) and duas & dhikr
   (`dove-*`, `dova-poslije-ezana`). They keep the Arabic on purpose and share their English in `tools/tr/_rekic_ui.py`
   (buttons and messages, author credit and his analytics tag removed) and `tools/tr/_rekic_dua.py` (each dua line's
   transliteration and meaning). Full-screen pages set `BRAND_FIT` so they fit under the logo (`skel.FIT_CSS`).
   Tajwid: `tedzvid` (= his `tedzvid-`), `kviz-tedzvid` (365 questions through `tools/tr/_tajwid_bank.py`, shared with the tajwid
   penalty game) and `tedzvid-arapski-brojevi`. A table can list attributes that hold text in `TEXT_ATTRS` (tedzvid: `data-lesson`).
+  Games: the penalty games `penali` (A1–A3), `penali2` (B1–B3), `penali-n` (Salah), `penali-t` (tajwid) share `tools/tr/_penali.py`;
+  `mektebski-ribolov` (Ilmihal bank) and `podmornica-znanja-namaz` (Salah bank, `tools/tr/_salah_bank.py` = kviz-namaz's translation).
   The tracker counts `sura-*`/`ajetul-kursijja` as surahs and `elif-lam-mim`/`bekare-*` as Qur’an.
   Local names that differ from his repositories: `sura-tekasur` = `sura-tekasur-`, `sura-nas` = `suretu-nnas`,
   `sura-fatiha` = `sura--fatiha-`, `sura-fatiha-transkripcija` = `sura-fatiha-transkripcija-`,
