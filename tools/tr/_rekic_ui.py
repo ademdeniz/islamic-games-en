@@ -90,8 +90,8 @@ UI = [
 ]
 
 _CREDIT = re.compile(r'<(footer|div|p|span|header|small)\b[^>]*>\s*Pripremio:?\s*Abdo ef\. Rekić[^<]*</\1>\s*')
-_CREDIT_B = re.compile(r'<(header|div|footer)\b[^>]*>\s*<(b|strong)>\s*Pripremio:?\s*Abdo ef\. Rekić[^<]*</\2>\s*</\1>\s*')
-_PORTAL = re.compile(r'<footer>\s*<a href="https://rekicabdo-bihac\.github\.io/mektebski-portal/">[^<]*</a>\s*</footer>')   # his Bosnian portal
+_CREDIT_B = re.compile(r'<(header|div|footer|p)\b[^>]*>\s*<(b|strong)>\s*Pripremio:?\s*Abdo ef\. Rekić[^<]*</\2>\s*</\1>\s*')
+_PORTAL = re.compile(r'<a href="https://rekicabdo-bihac\.github\.io/mektebski-portal/">[^<]*</a>')   # link to his Bosnian portal
 _GA = re.compile(r'<script async src="https://www\.googletagmanager\.com/gtag/js\?id=[^"]+"></script>\s*'
                  r'<script>window\.dataLayer=window\.dataLayer\|\|\[\];function gtag\(\)\{dataLayer\.push\(arguments\)\}'
                  r'gtag\("js",new Date\(\)\);gtag\("config","[^"]+"\);</script>')

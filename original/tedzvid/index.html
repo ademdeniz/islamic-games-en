@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="bs">
+<head><script async src="https://www.googletagmanager.com/gtag/js?id=G-4WRS80K94M"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-4WRS80K94M");</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Interaktivni Tedžvid – Abdo ef. Rekić</title>
+<style>
+:root{--bg:#071d17;--panel:#0d2c22;--card:#12392c;--gold:#f2cf75;--text:#f8f5e9;--muted:#c8d8d0;--ok:#49c987;--bad:#ff7c76}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:linear-gradient(160deg,#061812,#0b2b21);color:var(--text)}
+.wrap{max-width:860px;margin:auto;padding:14px}.hero{text-align:center;padding:18px 10px}.hero h1{margin:0;color:var(--gold);font-size:clamp(25px,6vw,42px)}.hero p{margin:7px 0;color:var(--muted)}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;padding:6px 0 8px;z-index:3}.tabs button,.btn,.ans{border:1px solid #426b5c;background:#12392c;color:white;border-radius:12px;min-height:46px;padding:9px;font-weight:700}.tabs button.active,.btn{background:var(--gold);color:#17231d;border-color:var(--gold)}
+.panel{background:#0d2c22;border:1px solid #315849;border-radius:18px;padding:16px;margin:12px 0}.panel h2{color:var(--gold);margin:0 0 10px}.arab{font-family:"Noto Naskh Arabic","Amiri","Traditional Arabic",serif;font-size:30px;direction:rtl;line-height:1.8;text-align:center}.rulegrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.rule{background:#12392c;border-radius:15px;padding:13px;border:1px solid #315849}.rule b{color:var(--gold)}.letters{font-size:28px;direction:rtl;text-align:center;margin:8px 0}.small{font-size:14px;color:var(--muted)}.hide{display:none}.q{font-size:19px;font-weight:800;margin:8px 0 13px}.answers{display:grid;gap:8px}.ans{text-align:left}.ans.correct{background:#174f36;border-color:var(--ok)}.ans.wrong{background:#5b2927;border-color:var(--bad)}.status{min-height:28px;margin-top:10px;font-weight:800}.progress{height:10px;background:#173d31;border-radius:10px;overflow:hidden;margin:10px 0}.progress i{display:block;height:100%;background:var(--gold);width:0}.score{text-align:center;font-size:22px;color:var(--gold);font-weight:900}.footer{text-align:center;color:var(--muted);font-size:13px;padding:18px}.pill{display:inline-block;padding:5px 9px;border-radius:999px;background:#173d31;margin:3px}.note{border-left:4px solid var(--gold);padding:10px 12px;background:#12392c;border-radius:10px}
+@media(max-width:600px){.tabs{grid-template-columns:repeat(2,1fr)}.rulegrid{grid-template-columns:1fr}.wrap{padding:9px}.arab{font-size:27px}}
+
+.lessonMenu{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.lessonCard{min-height:78px;border:1px solid #426b5c;background:#12392c;color:white;border-radius:15px;padding:14px;text-align:left;font-size:16px}
+.lessonCard b{display:block;color:var(--gold);font-size:18px;margin-bottom:5px}.lessonCard span{color:var(--muted)}
+.backBtn{border:0;background:var(--gold);color:#17231d;border-radius:11px;padding:10px 13px;font-weight:800;margin:5px 0 10px}
+@media(max-width:600px){.lessonMenu{grid-template-columns:1fr}}
+
+.stickyTop{
+ position:sticky;top:0;z-index:20;
+ background:linear-gradient(160deg,#061812f7,#0b2b21f7);
+ border-bottom:1px solid #315849;
+ padding:0 4px;
+ backdrop-filter:blur(8px);
+}
+.stickyTop .hero{padding:7px 5px 2px}
+.stickyTop .hero h1{font-size:clamp(20px,5vw,29px);line-height:1.1}
+.stickyTop .hero p{margin:2px 0;font-size:12px}
+.stickyTop .hero p:first-of-type{display:none}
+.stickyTop .tabs button{min-height:39px;padding:6px 4px;font-size:12px}
+@media(max-width:600px){
+ .stickyTop .tabs{grid-template-columns:repeat(5,1fr);gap:4px}
+ .stickyTop .tabs button{font-size:11px;min-height:38px}
+}
+
+
+.lessonQuizLauncher{margin:4px 0 10px}.lessonQuizBox,.finalQuizBox{margin-top:12px}
+.quizQ{font-size:20px;font-weight:800;margin:12px 0}.quizMeta{color:var(--muted);font-size:13px;margin:5px 0}
+.quizOpts{display:grid;gap:8px}.quizOpt{border:1px solid #426b5c;background:#103429;color:white;border-radius:13px;padding:12px;text-align:left;font-size:16px;min-height:48px}
+.quizOpt:disabled{opacity:.85}.quizMsg{font-weight:800;min-height:25px;margin-top:8px}.quizScore{font-size:22px;color:var(--gold);font-weight:900;margin:14px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="stickyTop"><section class="hero">
+<h1>Interaktivni TEDŽVID</h1>
+<p>Interaktivna lekcija tedžvida • prema knjizi <b>Tedžvid – Pravilno učenje Kur'ana</b></p>
+<p style='font-size:18px'><b>Pripremio Abdo ef. Rekić</b></p>
+</section>
+
+<nav class="tabs">
+<button class="active" data-tab="uci">📖 Nauči</button>
+<button data-tab="prepoznaj">👁️ Prepoznaj</button>
+<button data-tab="spoji">🔗 Spoji</button>
+<button data-tab="kviz">🏆 Ispit</button>
+<button class="tabbtn finalTopBtn" id="openFinalQuiz">🏆 Završni kviz</button></nav></div>
+
+<section id="uci" class="tab">
+<div id="lessonMenu">
+<div class="panel"><h2>Odaberi lekciju</h2><p>Svaka oblast je odvojena kao posebna lekcija.</p>
+<div class="lessonMenu"><button class="lessonCard" onclick="openLesson(0)"><b>1. Nun i tenvin</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(1)"><b>2. Mim sākin</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(2)"><b>3. Idgam mislejn</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(3)"><b>4. Hukmu-r-Rā’</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(4)"><b>5. Lafzatullah</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(5)"><b>6. Damir</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(6)"><b>7. Kalkala</b><span>Otvori lekciju →</span></button><button class="lessonCard" onclick="openLesson(7)"><b>8. Dužine (meddovi)</b><span>Otvori lekciju →</span></button></div></div></div>
+<div class="lessonPage hide" id="lesson0"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Nun i tenvin">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>نْ i tenvin ـً ـٍ ـٌ — pravila harfa NUN</h2>
+<p>Kada je <b>nun sākin (نْ)</b> ili <b>tenvin</b>, pravilo zavisi od sljedećeg harfa.</p>
+<div class="rulegrid">
+<div class="rule"><b>IZHAR – إظهار</b><p>Nun sākin ili tenvin izgovara se jasno i odsječno pred šest grlenih glasova.</p><div class="letters">ء ه ع ح غ خ</div><div class="arab">مِنْهُمْ &nbsp; قَوْمٍ هَادٍ</div></div>
+<div class="rule"><b>IDGAM SA GUNNOM</b><p>Slivanje uz nazalni izgovor.</p><div class="letters">ي ن م و</div><div class="arab">مَنْ يَعْمَلْ &nbsp; مِنْ وَالٍ</div></div>
+<div class="rule"><b>IDGAM BEZ GUNNE</b><p>Potpuno slivanje bez nazalnog tona.</p><div class="letters">ل ر</div><div class="arab">مِنْ رَبِّهِمْ</div></div>
+<div class="rule"><b>IKLAB – إقلاب</b><p>Pred harfom <b>ب</b>, nun se pretvara u mim uz nazalni izgovor.</p><div class="letters">ب</div><div class="arab">مِنْ بَعْدِ</div></div>
+<div class="rule"><b>IHFA – إخفاء</b><p>Ishodište nuna se skriva, a ostaje gunna.</p><div class="letters">ص ذ ث ك ج ش ق س د ط ز ف ت ض ظ</div><div class="arab">مِنْ قَبْلِكَ &nbsp; مِنْ شَيْءٍ</div></div>
+</div>
+</div>
+
+</div><div class="lessonPage hide" id="lesson1"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Mim sākin">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>مْ — pravila harfa MIM</h2>
+<div class="rulegrid">
+<div class="rule"><b>IDGAM MISLEJN / ŠEFEVIJJUN</b><p>Kada se <b>مْ</b> na kraju riječi susretne sa <b>م</b> na početku sljedeće riječi, dva ista glasa slivaju se u jedan uz gunnu.</p><div class="arab">لَكُمْ مَا</div></div>
+<div class="rule"><b>IHFA ŠEFEVIJJUN</b><p>Kada poslije <b>مْ</b> dođe <b>ب</b>, mim se zadržava na usnama uz nazalni izgovor.</p><div class="letters">مْ + ب</div><div class="arab">تَرْمِيهِمْ بِحِجَارَةٍ</div></div>
+<div class="rule"><b>IZHAR ŠEFEVIJJUN</b><p>U ostalim slučajevima mim sākin izgovara se jasno i odsječno. Posebno treba paziti pred <b>ف</b> i <b>و</b> da se mim ne izgubi ili ne uklopi.</p><div class="arab">عَلَيْهِمْ وَلَا الضَّالِّينَ</div></div>
+</div>
+</div>
+
+</div><div class="lessonPage hide" id="lesson2"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Idgam mislejn">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>IDGAM MISLEJN – إدغام المثلين</h2>
+<p><b>Idgam mislejn</b> znači <b>slivanje dvaju istih glasova</b>. Kada se na kraju jedne, a na početku sljedeće riječi nađu dva ista glasa, prvi sākin a drugi sa hareketom, prvi se uklapa u drugi.</p>
+<div class="rulegrid">
+<div class="rule"><b>Osnovno pravilo</b><p>Dva ista glasa izgovaraju se kao jedan udvostručeni glas.</p><div class="arab">قَدْ دَخَلُوا</div></div>
+<div class="rule"><b>MIM + MIM</b><p>Kada se <b>مْ</b> susretne sa <b>م</b>, slivanje je uz nazalni izgovor – gunnu.</p><div class="arab">لَكُمْ مَا</div></div>
+</div>
+<div class="note">Zapamti: <b>isti harf + isti harf → slivanje u jedan udvostručeni glas.</b></div>
+</div>
+
+</div><div class="lessonPage hide" id="lesson3"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Hukmu-r-Rā’">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>ر — HUKMU-R-RĀ’: izgovor harfa RA</h2>
+<p>Harf <b>ر</b> u Kur’anu izgovara se <b>krupno (tefhim)</b> ili <b>tanko (terkik)</b>, zavisno od hareketa i glasova oko njega.</p>
+<div class="rulegrid">
+<div class="rule"><b>KRUPNO</b><p>kada je ر sa fethom ili dammom; kada je sākin, a prije njega je fetha ili damma; te u još nekim slučajevima vezanim za prethodni i naredni glas.</p><div class="arab">رَبَّنَا &nbsp; رُزِقْنَا</div></div>
+<div class="rule"><b>TANKO</b><p>Između ostalog: kada je ر sa kesrom, te kada je sākin a prije njega kesra, uz izuzetke koji se posebno obrađuju.</p><div class="arab">رِزْقًا &nbsp; فِرْعَوْنَ</div></div>
+</div>
+<div class="note">Kod harfa ر važno je učiti pravilo kroz konkretne kur’anske primjere, jer postoje posebni slučajevi i izuzeci.</div>
+</div>
+
+</div><div class="lessonPage hide" id="lesson4"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Lafzatullah">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>اللّٰه — LAFZATULLAH</h2>
+<p>U riječi <b>Allah – اللّٰه</b>, udvostručeni <b>ل</b> izgovara se na dva načina:</p>
+<div class="rulegrid">
+<div class="rule"><b>KRUPNO</b><p>Kada ispred riječi Allah stoji glas sa <b>fethom ili dammom</b>.</p><div class="arab">هُوَ اللَّهُ &nbsp; عَبْدُ اللَّهِ</div></div>
+<div class="rule"><b>TANKO</b><p>Kada ispred riječi Allah stoji glas sa <b>kesrom</b>.</p><div class="arab">بِاللَّهِ &nbsp; لِلَّهِ</div></div>
+</div>
+</div>
+
+</div><div class="lessonPage hide" id="lesson5"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Damir">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>هُ / هِ — DAMIR (lična zamjenica)</h2>
+<p>Lična zamjenica <b>-hu / -hi</b> može se učiti <b>kratko</b> ili <b>dugo</b>. Kratko se izgovara kada prije nje stoji jedan od dugih vokala ili kada je prethodni glas sākin; u drugim odgovarajućim položajima zamjenica se produžava.</p>
+<div class="arab">إِنَّهُ &nbsp; بِهِ</div>
+<div class="note">Postoje i posebni izuzeci, pa se pravilo primjenjuje na konkretnoj riječi u ajetu.</div>
+</div>
+
+</div><div class="lessonPage hide" id="lesson6"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Kalkala">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>قَلْقَلَة — KALKALA</h2>
+<p>Kalkala je <b>praskanje (pucanje)</b> jednog od pet glasova kada je taj glas sākin, bilo u sredini ili na kraju riječi.</p>
+<div class="letters">ق ط ب ج د</div>
+<p class="small">Pamćenje: <b>قُطْبُ جَدٍّ</b></p>
+<div class="rulegrid">
+<div class="rule"><b>Kalkaletun sugrā</b><p>Blaže praskanje kada je glas sākin u sredini riječi.</p></div>
+<div class="rule"><b>Kalkaletun kubrā</b><p>Jače praskanje kada se stane na kraju riječi.</p></div>
+</div>
+</div>
+
+<div class="panel">
+<h2>🧠 Brzi pregled</h2>
+<p><span class="pill">NUN: Izhar • Idgam • Iklab • Ihfa</span>
+<span class="pill">MIM: Izhar šefevijjun • Ihfa šefevijjun • Idgam mislejn</span>
+<span class="pill">RA: krupno / tanko</span>
+<span class="pill">Lafzatullah: krupno / tanko</span>
+<span class="pill">Damir: kratko / dugo</span>
+<span class="pill">Kalkala: ق ط ب ج د</span></p>
+</div>
+</div><div class="lessonPage hide" id="lesson7"><div class="lessonQuizLauncher"><button class="btn lessonQuizBtn" data-lesson="Dužine">📝 Kviz lekcije – 20 pitanja</button></div><button class="backBtn" onclick="backLessons()">← Sve lekcije</button><div class="panel">
+<h2>DUŽINE GLASA — أَحْكَامُ الْمُدُودِ</h2>
+<p>Dužine se dijele na <b>običnu</b> (meddun tabi‘ijjun) i <b>neobične dužine</b> (meddovi). Harfovi obične dužine su <b>ا و ي</b> uz odgovarajući prethodni hareket.</p>
+<div class="rulegrid">
+<div class="rule"><b>MEDDUN TABI‘IJJUN — obična dužina</b><p>Traje koliko izgovorimo jedno dugo a, i ili u, odnosno <b>2 hareketa</b>.</p><div class="arab">قَالَ &nbsp; يَقُولُ &nbsp; قِيلَ</div></div>
+<div class="rule"><b>UZROČNICI DUŽINE</b><p>Uzročnici neobične dužine su <b>hemze</b> ili <b>sukūn</b> (stalni ili nestalni).</p></div>
+</div>
+<h3 style="color:var(--gold)">Pet vrsta meddova</h3>
+<div class="rulegrid">
+<div class="rule"><b>1. MEDDUN MUNFESIL — مد منفصل</b><p>Iza obične dužine dolazi <b>hemze na početku sljedeće riječi</b>.</p><p><b>Trajanje: 2–4 obične dužine (hareketa).</b></p><div class="arab">قَالُوا آمَنَّا</div></div>
+<div class="rule"><b>2. MEDDUN MUTTESIL — مد متصل</b><p>Iza obične dužine dolazi <b>hemze u istoj riječi</b>.</p><p><b>Trajanje: 4 obične dužine (obavezno).</b></p><div class="arab">جَاءَ &nbsp; سُوءٌ</div></div>
+<div class="rule"><b>3. MEDDUN LĀZIM — مد لازم</b><p>Iza obične dužine u istoj riječi dolazi <b>sukūnun lāzim</b>, tj. stalni sākin.</p><p><b>Trajanje: 4 obične dužine (obavezno).</b></p><div class="arab">الآنَ &nbsp; وَلَا الضَّالِّينَ</div></div>
+<div class="rule"><b>4. MEDDUN ‘ĀRID — مد عارض</b><p>Nastaje kada predahnemo ili stanemo na riječi, a pred završnim harfom stoji obična dužina.</p><p><b>Trajanje pri stajanju: 1, 2–3 ili 4 obične dužine.</b> Ako se ne stane, ostaje obična dužina.</p><div class="arab">خَالِدُونَ &nbsp; نَسْتَعِينُ</div></div>
+<div class="rule"><b>5. MEDDU LĪN — مد لين</b><p>Kada su <b>وْ</b> ili <b>يْ</b> harfu līn (sākin, a prije njih fetha), a poslije njih u istoj riječi dođe stalni ili nestalni sukūn.</p><p><b>Trajanje: 1 ili najviše 2 obične dužine; najbolja je obična dužina.</b></p><div class="arab">خَوْفْ &nbsp; خَيْرْ</div></div>
+</div>
+<div class="note"><b>Zapamti:</b> munfesil = hemze u sljedećoj riječi; muttesil = hemze u istoj riječi; lāzim = stalni sukūn; ‘ārid = sukūn zbog stajanja; līn = وْ / يْ poslije fethe.</div>
+</div></div>
+</section>
+
+<section id="prepoznaj" class="tab hide">
+<div class="panel">
+<h2>Prepoznaj pravilo</h2>
+<div id="pq" class="q"></div><div id="pa" class="answers"></div><div id="ps" class="status"></div>
+
+</div>
+</section>
+
+<section id="spoji" class="tab hide">
+<div class="panel">
+<h2>Spoji harf sa pravilom</h2>
+<p class="small">Odaberi pravilo kojem pripada prikazani harf kada dolazi poslije nuna sākin ili tenvina.</p>
+<div id="letter" class="arab"></div><div id="ma" class="answers"></div><div id="ms" class="status"></div>
+<button class="btn" id="mnext" type="button">Novi harf</button>
+</div>
+</section>
+
+<section id="kviz" class="tab hide">
+<div class="panel">
+<h2>Završni ispit – 12 zadataka</h2>
+<div class="progress"><i id="bar"></i></div><div class="score" id="score">0 / 0</div>
+<div id="kq" class="q"></div><div id="ka" class="answers"></div><div id="ks" class="status"></div>
+<button class="btn hide" id="restart" type="button">Ponovi ispit</button>
+</div>
+</section>
+
+<div class="footer">Sadržaj pravila i primjeri zasnovani su na knjizi Ćamila Silajdžića i Ibrahima Trebinjca, <i>Tedžvid – Pravilno učenje Kur'ana</i>.</div>
+</div>
+
+
+<section id="zavrsniKvizAll" class="tab hide">
+<div class="panel">
+<h2>🏆 ZAVRŠNI KVIZ – SVA PITANJA</h2>
+<p>Ovdje su objedinjena sva pitanja iz svih 8 lekcija: ukupno <b>160 pitanja</b>.</p>
+<p>Pitanja i mjesto tačnog odgovora se svaki put nasumično miješaju.</p>
+<button class="btn" id="startFinal160">▶ Pokreni završni kviz – 160 pitanja</button>
+<div id="final160Host" class="finalQuizBox"></div>
+</div>
+</section>
+<script>
+const root=document.querySelector('.wrap');
+const tabs=[...document.querySelectorAll('.tabs button')];
+tabs.forEach(b=>b.addEventListener('click',()=>{tabs.forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.tab').forEach(x=>x.classList.add('hide'));document.getElementById(b.dataset.tab).classList.remove('hide');if(b.dataset.tab==='prepoznaj')loadP();if(b.dataset.tab==='spoji')loadM();if(b.dataset.tab==='kviz'&&!quizStarted)startQuiz()}));
+const rules=['Izhar','Idgam sa gunnom','Idgam bez gunne','Iklab','Ihfa'];
+const qs=[
+['مِنْهُمْ','Izhar'],['قَوْمٍ هَادٍ','Izhar'],['مَنْ يَعْمَلْ','Idgam sa gunnom'],['مِنْ وَالٍ','Idgam sa gunnom'],
+['مِنْ رَبِّهِمْ','Idgam bez gunne'],['مِنْ لَدُنْهُ','Idgam bez gunne'],['مِنْ بَعْدِ','Iklab'],['سَمِيعٌ بَصِيرٌ','Iklab'],
+['مِنْ قَبْلِكَ','Ihfa'],['مِنْ شَيْءٍ','Ihfa'],['إِنْ كُنْتُمْ','Ihfa'],['مِنْ تَحْتِهَا','Ihfa']
+];
+function shuffle(a){
+ const b=[...a];
+ for(let i=b.length-1;i>0;i--){
+   const j=Math.floor(Math.random()*(i+1));
+   [b[i],b[j]]=[b[j],b[i]];
+ }
+ return b;
+}
+function answers(el,correct,cb){el.innerHTML='';shuffle(rules).forEach(r=>{let b=document.createElement('button');b.className='ans';b.textContent=r;b.addEventListener('click',()=>{[...el.children].forEach(x=>x.disabled=true);b.classList.add(r===correct?'correct':'wrong');if(r!==correct)[...el.children].find(x=>x.textContent===correct)?.classList.add('correct');cb(r===correct,correct)});el.appendChild(b)})}
+let pi=0, pDeck=[];
+function resetPDeck(){ pDeck=shuffle(qs); pi=0; }
+function loadP(){
+ if(!pDeck.length || pi>=pDeck.length) resetPDeck();
+ let q=pDeck[pi];document.getElementById('pq').innerHTML='<div class="arab">'+q[0]+'</div><div>Koje je pravilo?</div>';document.getElementById('ps').textContent='';answers(document.getElementById('pa'),q[1],(ok,c)=>{
+ document.getElementById('ps').textContent=ok?'✓ Tačno!':'✗ Tačno je: '+c;
+ setTimeout(()=>{pi++;loadP()},900);
+})}
+
+
+const groups={Izhar:['ء','ه','ع','ح','غ','خ'],'Idgam sa gunnom':['ي','ن','م','و'],'Idgam bez gunne':['ل','ر'],Iklab:['ب'],Ihfa:['ص','ذ','ث','ك','ج','ش','ق','س','د','ط','ز','ف','ت','ض','ظ']};
+let currentM;
+function loadM(){let flat=[];Object.entries(groups).forEach(([r,ls])=>ls.forEach(l=>flat.push([l,r])));currentM=flat[Math.floor(Math.random()*flat.length)];document.getElementById('letter').textContent='نْ + '+currentM[0];document.getElementById('ms').textContent='';answers(document.getElementById('ma'),currentM[1],(ok,c)=>document.getElementById('ms').textContent=ok?'✓ Tačno!':'✗ Ovaj harf pripada pravilu: '+c)}
+document.getElementById('mnext').addEventListener('click',loadM);
+
+let quizStarted=false, qi=0, points=0, quiz=[];
+function startQuiz(){quizStarted=true;qi=0;points=0;quiz=shuffle(qs).slice(0,12);renderQuiz()}
+function renderQuiz(){document.getElementById('score').textContent=points+' / '+qi;document.getElementById('bar').style.width=(qi/12*100)+'%';document.getElementById('ks').textContent='';
+if(qi>=quiz.length){document.getElementById('kq').innerHTML='<div class="score">Završeno! Rezultat: '+points+' / 12</div>';document.getElementById('ka').innerHTML='';document.getElementById('bar').style.width='100%';document.getElementById('restart').classList.remove('hide');return}
+let q=quiz[qi];document.getElementById('kq').innerHTML='<div class="arab">'+q[0]+'</div><div>Zadatak '+(qi+1)+': odredi pravilo.</div>';answers(document.getElementById('ka'),q[1],(ok,c)=>{if(ok)points++;document.getElementById('ks').textContent=ok?'✓ Tačno!':'✗ Tačno je: '+c;setTimeout(()=>{qi++;renderQuiz()},850)})}
+document.getElementById('restart').addEventListener('click',()=>{document.getElementById('restart').classList.add('hide');startQuiz()});
+loadP();loadM();
+
+function openLesson(i){
+ document.getElementById('lessonMenu').classList.add('hide');
+ document.querySelectorAll('.lessonPage').forEach(x=>x.classList.add('hide'));
+ document.getElementById('lesson'+i).classList.remove('hide');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+function backLessons(){
+ document.querySelectorAll('.lessonPage').forEach(x=>x.classList.add('hide'));
+ document.getElementById('lessonMenu').classList.remove('hide');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+
+const LESSON_QUIZZES={"Nun i tenvin": [["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ء?", "Izhar", ["Ihfa", "Iklab", "Idgam s gunnom"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ه?", "Izhar", ["Ihfa", "Iklab", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ع?", "Izhar", ["Ihfa", "Iklab", "Idgam s gunnom"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ح?", "Izhar", ["Ihfa", "Iklab", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe غ?", "Izhar", ["Ihfa", "Iklab", "Idgam s gunnom"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe خ?", "Izhar", ["Ihfa", "Iklab", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ي?", "Idgam s gunnom", ["Izhar", "Iklab", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ن?", "Idgam s gunnom", ["Izhar", "Ihfa", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe م?", "Idgam s gunnom", ["Izhar", "Iklab", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe و?", "Idgam s gunnom", ["Izhar", "Ihfa", "Idgam bez gunne"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ل?", "Idgam bez gunne", ["Izhar", "Ihfa", "Idgam s gunnom"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ر?", "Idgam bez gunne", ["Izhar", "Iklab", "Idgam s gunnom"]], ["Koje pravilo nastaje kada poslije nun sakina ili tenvina dođe ب?", "Iklab", ["Izhar", "Ihfa", "Idgam s gunnom"]], ["Koliko harfova ima ihfa kod nun sakina i tenvina?", "15", ["6", "4", "2"]], ["Koja grupa pripada izharu?", "ء ه ع ح غ خ", ["ي ن م و", "ل ر", "ق ط ب ج د"]], ["Koja grupa pripada idgamu s gunnom?", "ي ن م و", ["ء ه ع ح غ خ", "ل ر", "ق ط ب ج د"]], ["Koja grupa pripada idgamu bez gunne?", "ل ر", ["ي ن م و", "ء ه ع ح غ خ", "ص ذ ث ك"]], ["Šta se dešava s nunom kod iklaba ispred ب?", "Pretvara se u mim uz gunnu", ["Izgovara se potpuno jasno", "Potpuno se izostavlja bez gunne", "Pretvara se u lam"]], ["Kako se nun sakin ili tenvin izgovara kod izhara?", "Jasno", ["Skriveno", "Pretvara se u mim", "Uvijek se sliva"]], ["Kako se nun sakin ili tenvin izgovara kod ihfaa?", "Skriveno uz gunnu", ["Jasno bez gunne", "Kao mim bez gunne", "Kao lam"]]], "Mim sākin": [["Šta nastaje kada poslije مْ dođe م?", "Idgam mislejn uz gunnu", ["Ihfa šefevijjun", "Izhar šefevijjun", "Iklab"]], ["Šta nastaje kada poslije مْ dođe ب?", "Ihfa šefevijjun", ["Izhar šefevijjun", "Idgam bez gunne", "Iklab"]], ["Kako se zove pravilo kada poslije مْ dođe harf osim م i ب?", "Izhar šefevijjun", ["Ihfa šefevijjun", "Iklab", "Idgam s gunnom"]], ["Kod kojeg harfa poslije مْ posebno pazimo na usneni ihfa?", "ب", ["م", "ن", "ر"]], ["Kod kojih harfova treba posebno paziti da se مْ kod izhara ne stopi zbog bliskog mjesta izgovora?", "ف i و", ["ل i ر", "ق i ك", "ت i د"]], ["Kako se izgovara مْ prije ب?", "Skriveno uz gunnu", ["Potpuno jasno bez gunne", "Pretvara se u nun", "Ne izgovara se"]], ["Kako se izgovara مْ prije م?", "Sliva se u drugi mim uz gunnu", ["Pretvara se u ba", "Izgovara se odvojeno bez gunne", "Pretvara se u nun"]], ["Kako se izgovara مْ kod izhara šefevijjuna?", "Jasno i odvojeno", ["Skriveno", "Kao nun", "Uvijek udvostručeno"]], ["Koji primjer odgovara ihfau šefevijjunu?", "تَرْمِيهِمْ بِحِجَارَةٍ", ["لَكُمْ مَا", "مِنْ رَبِّهِمْ", "مِنْ بَعْدِ"]], ["Koji primjer odgovara mim + mim?", "لَكُمْ مَا", ["مِنْ بَعْدِ", "مِنْ رَبِّهِمْ", "قَالُوا آمَنَّا"]], ["Koliko osnovnih pravila za mim sakin obrađujemo u ovoj lekciji?", "3", ["2", "5", "6"]], ["Koja tri pravila pripadaju mim sakinu?", "Idgam mislejn, ihfa šefevijjun i izhar šefevijjun", ["Izhar, iklab i medd", "Kalkala, medd i damir", "Ra, lafzatullah i sekteh"]], ["Da li se kod مْ + م koristi gunna?", "Da", ["Ne", "Samo pri stajanju", "Samo ako je poslije hemze"]], ["Da li se kod مْ + ب koristi gunna?", "Da", ["Ne", "Samo na kraju ajeta", "Samo poslije kesre"]], ["Koji harf NE izaziva izhar šefevijjun poslije مْ?", "ب", ["ف", "و", "ت"]], ["Koji harf također NE izaziva izhar šefevijjun poslije مْ?", "م", ["ك", "ل", "س"]], ["Šta znači 'šefevijjun' u ovim pravilima?", "Usneni", ["Grleni", "Jezični", "Nosni"]], ["Gdje se zadržava mim kod ihfaa šefevijjuna?", "Na usnama uz prolazak glasa kroz nos", ["Samo u grlu", "Na vrhu jezika bez gunne", "Potpuno se izostavlja"]], ["Koja kombinacija označava idgam mislejn kod mima?", "مْ + م", ["مْ + ب", "نْ + ب", "مْ + ف"]], ["Koja kombinacija označava ihfa šefevijjun?", "مْ + ب", ["مْ + م", "نْ + ر", "مْ + و"]]], "Idgam mislejn": [["Šta znači idgam mislejn?", "Slivanje dvaju istih glasova", ["Skrivanje nuna", "Pretvaranje nuna u mim", "Produžavanje glasa"]], ["Kakav je prvi od dva ista glasa kod idgama mislejn?", "Sākin", ["Uvijek s fethom", "Uvijek s dammom", "Uvijek s kesrom"]], ["Kakav je drugi od dva ista glasa kod idgama mislejn?", "Sa hareketom", ["Uvijek sākin", "Bez ikakvog znaka", "Mora biti hemze"]], ["Kako se dva ista glasa izgovaraju nakon slivanja?", "Kao jedan udvostručeni glas", ["Kao dva potpuno odvojena glasa", "Kao dugi vokal", "Kao nun"]], ["Koji primjer predstavlja idgam mislejn?", "قَدْ دَخَلُوا", ["مِنْ بَعْدِ", "قَالُوا آمَنَّا", "مِنْ رَبِّهِمْ"]], ["Koja kombinacija mima je idgam mislejn?", "مْ + م", ["مْ + ب", "مْ + ف", "نْ + م"]], ["Kako se izgovara مْ + م?", "Uz gunnu", ["Bez gunne", "Kao ba", "Kao nun"]], ["Gdje se mogu susresti dva ista glasa za ovo pravilo?", "Na kraju jedne i početku sljedeće riječi", ["Samo na početku iste riječi", "Samo na kraju ajeta", "Samo poslije hemze"]], ["Šta se dešava s prvim sākin glasom?", "Uklapa se u drugi", ["Pretvara se u elif", "Uvijek se izgovara odvojeno", "Briše se i drugi glas"]], ["Rezultat idgama mislejn je:", "Jedan pojačan/udvostručen glas", ["Dva kratka vokala", "Jedan hemze", "Dugi elif"]], ["Da li harfovi u idgamu mislejn moraju biti isti?", "Da", ["Ne", "Samo kod nuna", "Samo kod ra"]], ["Koji opis najbolje odgovara nazivu 'mislejn'?", "Dva ista glasa", ["Dva udaljena glasa", "Dva grlena glasa", "Dva harfa medda"]], ["Kod مْ + م, kroz koji put se čuje gunna?", "Kroz nos", ["Samo kroz usta", "Samo iz grla", "Bez glasa"]], ["Koja od kombinacija NIJE idgam mislejn?", "مْ + ب", ["مْ + م", "دْ + د", "بْ + ب"]], ["Koja kombinacija jeste primjer dva ista harfa?", "دْ + د", ["دْ + ت", "مْ + ب", "نْ + ر"]], ["Šta mora biti zajedničko harfovima kod idgama mislejn?", "Isti harf/glas", ["Ista samo boja znaka", "Oba moraju biti harfovi medda", "Oba moraju biti grleni"]], ["Da li se مْ + م izgovara kao dva odvojena mima?", "Ne", ["Da", "Samo pri stajanju", "Samo bez gunne"]], ["Koje posebno svojstvo ima idgam dva mima?", "Gunnu", ["Kalkalu", "Iklab", "Medd munfesil"]], ["Koji izraz najbolje pamti pravilo?", "Isti harf + isti harf → slivanje", ["Hemze + medd → izhar", "Mim + ba → idgam mislejn", "Ra + kesra → kalkala"]], ["Da li je قَدْ دَخَلُوا primjer slivanja dva ista glasa?", "Da", ["Ne", "To je iklab", "To je medd"]]], "Hukmu-r-Rā’": [["Kako se harf ر može izgovarati?", "Krupno ili tanko", ["Samo tanko", "Samo krupno", "Samo kroz nos"]], ["Kako se ر izgovara kada na njemu stoji fetha?", "Krupno", ["Tanko", "Ne izgovara se", "Kao lam"]], ["Kako se ر izgovara kada na njemu stoji damma?", "Krupno", ["Tanko", "Kao mim", "Kao elif"]], ["Kako se ر izgovara kada ispred njega stoji kesra u osnovnom slučaju?", "Tanko", ["Krupno", "S gunnom", "Kao ba"]], ["Ako je ر sākin, a prije njega je fetha, izgovor je:", "Krupno", ["Tanko", "Bez glasa", "Uvijek produženo"]], ["Ako je ر sākin, a prije njega je damma, izgovor je:", "Krupno", ["Tanko", "Samo pri stajanju tanko", "Kao nun"]], ["Ako je ر sākin, a prije njega je stalna kesra, osnovni izgovor je:", "Tanko", ["Krupno", "Kalkala", "Iklab"]], ["Koji termin označava krupan izgovor?", "Tefhim", ["Terkik", "Ihfa", "Iklab"]], ["Koji termin označava tanak izgovor?", "Terkik", ["Tefhim", "Idgam", "Medd"]], ["Od čega zavisi izgovor harfa ر?", "Od hareketa na njemu i glasova prije/poslije", ["Samo od mjesta u ajetu", "Samo od dužine ajeta", "Samo od boje mushafa"]], ["Ako je ر sākin, a prije njega također sākin, gleda se:", "Hareket prije tog sākin harfa", ["Samo harf poslije ر", "Broj riječi u ajetu", "Uvijek se uči tanko"]], ["Nestabilna kesra prije sākin ر može biti slučaj za:", "Krupan izgovor", ["Uvijek tanak izgovor", "Iklab", "Kalkalu"]], ["Ako iza sākin ر dođe jedan od određenih krupnih harfova u istom kontekstu, ر može biti:", "Krupno", ["Uvijek tanko", "Pretvoreno u mim", "Neizgovoreno"]], ["Koji harf obrađuje hukmu-r-rā’?", "ر", ["ل", "م", "ن"]], ["Da li fetha na ر upućuje na tefhim?", "Da", ["Ne", "Samo na kraju sure", "Samo poslije hemze"]], ["Da li damma na ر upućuje na tefhim?", "Da", ["Ne", "Samo pri vakfu", "Samo u bismilli"]], ["Da li kesra neposredno prije sākin ر najčešće upućuje na terkik?", "Da", ["Ne", "Uvijek na kalkalu", "Uvijek na idgam"]], ["Šta znači da se ر izgovara 'tanko'?", "Terkik", ["Tefhim", "Gunna", "Sekteh"]], ["Šta znači da se ر izgovara 'krupno'?", "Tefhim", ["Terkik", "Ihfa", "Izhar"]], ["Koja dva pojma treba razlikovati kod izgovora ر?", "Tefhim i terkik", ["Izhar i iklab", "Medd i kalkala", "Gunna i sekteh"]]], "Lafzatullah": [["Na koliko načina se izgovara udvostručeni ل u riječi الله?", "Na dva načina", ["Na jedan način", "Na tri načina", "Na pet načina"]], ["Kako se ل u الله izgovara kada ispred stoji fetha?", "Krupno", ["Tanko", "S gunnom", "Ne izgovara se"]], ["Kako se ل u الله izgovara kada ispred stoji damma?", "Krupno", ["Tanko", "Kao mim", "S kalkalom"]], ["Kako se ل u الله izgovara kada ispred stoji kesra?", "Tanko", ["Krupno", "S gunnom", "Kao ra"]], ["Koji primjer ima krupan lafzatullah?", "هُوَ اللهُ", ["بِاللهِ", "لِلَّهِ", "بِسْمِ اللهِ"]], ["Koji primjer ima tanak lafzatullah?", "بِاللهِ", ["هُوَ اللهُ", "عَبْدُ اللهِ", "قَالَ اللهُ"]], ["U izrazu عَبْدُ اللهِ lafzatullah se izgovara:", "Krupno", ["Tanko", "Ne izgovara se", "S iklabom"]], ["U izrazu بِسْمِ اللهِ lafzatullah se izgovara:", "Tanko", ["Krupno", "S kalkalom", "S gunnom"]], ["Koji hareket neposredno prije lafzatullaha daje tanak izgovor?", "Kesra", ["Fetha", "Damma", "Sukun uvijek"]], ["Koja dva hareketa prije lafzatullaha daju krupan izgovor?", "Fetha i damma", ["Kesra i sukun", "Dvije kesre", "Samo fetha"]], ["Koji harf se posebno posmatra u riječi الله?", "Udvostručeni ل", ["ن", "م", "ر"]], ["Kako se zove krupan način izgovora?", "Tefhim", ["Terkik", "Ihfa", "Iklab"]], ["Kako se zove tanak način izgovora?", "Terkik", ["Tefhim", "Gunna", "Kalkala"]], ["Da li بِاللهِ ima tanak izgovor ل?", "Da", ["Ne", "Samo pri stajanju", "Samo bez kesre"]], ["Da li هُوَ اللهُ ima krupan izgovor ل?", "Da", ["Ne", "Samo na kraju ajeta", "Samo pri vakfu"]], ["Da li kesra prije الله daje tefhim?", "Ne", ["Da", "Uvijek", "Samo u sredini ajeta"]], ["Da li damma prije الله daje terkik?", "Ne", ["Da", "Uvijek", "Samo poslije mima"]], ["Koje pravilo vrijedi poslije fethe?", "Lafzatullah krupno", ["Lafzatullah tanko", "Lafzatullah se ne uči", "Lafzatullah s kalkalom"]], ["Koje pravilo vrijedi poslije kesre?", "Lafzatullah tanko", ["Lafzatullah krupno", "Lafzatullah s gunnom", "Lafzatullah se izostavlja"]], ["Šta određuje način izgovora ل u الله?", "Hareket glasa neposredno prije", ["Broj ajeta", "Dužina sure", "Mjesto stranice"]]], "Damir": [["Koji oblik lične zamjenice obrađuje ova lekcija?", "-hu / -hi", ["-na / -kum", "-ka / -ki", "-humā samo"]], ["Na koliko načina se damir -hu/-hi može izgovarati prema lekciji?", "Kratko ili dugo", ["Samo kratko", "Samo dugo", "Samo s kalkalom"]], ["Koji su kratki oblici damira?", "هُ ili هِ", ["هُو ili هِي", "مْ ili نْ", "ا ili ي"]], ["Koji su dugi oblici damira?", "هُو ili هِي", ["هُ ili هِ", "لَ ili لِ", "نَ ili نِ"]], ["Kada je prije damira kratki vokal, damir se izgovara:", "Dugo", ["Kratko", "Ne izgovara se", "S kalkalom"]], ["Kada je prije damira jedan od dugih vokala, damir se izgovara:", "Kratko", ["Dugo", "S gunnom", "Kao mim"]], ["Kada je prije damira sākin, damir se izgovara:", "Kratko", ["Dugo", "Kao ra", "S iklabom"]], ["Koji primjer pokazuje običnu dužinu spojene zamjenice?", "لَهُ", ["مِنْهُمْ", "قَدْ دَخَلُوا", "جَاءَ"]], ["Koji primjer pokazuje spojenu zamjenicu sa kesrom?", "بِهِ", ["هُوَ اللهُ", "خَوْفٌ", "مِنْ بَعْدِ"]], ["Koji primjer je naveden za zamjenicu poslije kratkog vokala?", "مَالُهُ", ["الضَّالِّينَ", "قَالُوا", "مِنْ رَبِّهِمْ"]], ["Damir o kojem govorimo odnosi se na koje lice?", "Treće lice jednine muškog roda", ["Prvo lice množine", "Drugo lice ženskog roda", "Treće lice množine"]], ["Gdje se nalazi spojena zamjenica -hu/-hi?", "Na kraju riječi", ["Uvijek na početku riječi", "Samo kao zasebna riječ", "Samo prije hemze"]], ["Da li se damir poslije kratkog vokala može produžiti?", "Da", ["Ne", "Samo poslije sukuna", "Samo kod kalkale"]], ["Da li se damir poslije dugog vokala izgovara kratko?", "Da", ["Ne", "Uvijek dugo", "Samo u bismilli"]], ["Da li se damir poslije sākin harfa izgovara kratko?", "Da", ["Ne", "Uvijek četiri hareketa", "Samo kod ra"]], ["Koji par predstavlja dugi izgovor?", "هُو / هِي", ["هُ / هِ", "مْ / نْ", "ا / وْ"]], ["Koji par predstavlja kratki izgovor?", "هُ / هِ", ["هُو / هِي", "ي / و", "ء / ه"]], ["Šta prvenstveno gledamo da odredimo dužinu damira?", "Glas i hareket prije damira", ["Broj ajeta", "Prvi harf sure", "Mjesto vakfa uvijek"]], ["Da li su -hu i -hi oblici lične zamjenice?", "Da", ["Ne", "Samo su harfovi medda", "Samo su znakovi vakfa"]], ["Koja je osnovna podjela izgovora damira u ovoj lekciji?", "Kratki i dugi izgovor", ["Tefhim i terkik", "Izhar i ihfa", "Iklab i kalkala"]]], "Kalkala": [["Koji su harfovi kalkale?", "ق ط ب ج د", ["ء ه ع ح غ خ", "ي ن م و", "ل ر"]], ["Koliko harfova kalkale ima?", "5", ["4", "6", "15"]], ["Koji izraz pomaže pamćenju harfova kalkale?", "قُطْبُ جَدٍّ", ["يَنْمُو", "لَرْ", "أَهْعَحْ"]], ["Kada se javlja kalkala?", "Kada je jedan od harfova kalkale sākin", ["Kod svakog harfa s fethom", "Samo kod nuna", "Samo poslije hemze"]], ["Kako se opisuje zvuk kalkale?", "Odskočan/potresen zvuk", ["Potpuno skriven zvuk", "Dugi vokal", "Nosni glas uvijek"]], ["Kako se zove blaža kalkala u sredini riječi?", "Kalkaletun sugrā", ["Kalkaletun kubrā", "Iklab", "Meddun muttesil"]], ["Kako se zove jača kalkala na kraju riječi?", "Kalkaletun kubrā", ["Kalkaletun sugrā", "Izhar", "Meddun munfesil"]], ["Koji od ovih harfova je harf kalkale?", "ق", ["س", "م", "ر"]], ["Koji od ovih harfova je harf kalkale?", "ط", ["ف", "ن", "ل"]], ["Koji od ovih harfova je harf kalkale?", "ب", ["و", "ه", "ع"]], ["Koji od ovih harfova je harf kalkale?", "ج", ["ي", "خ", "ر"]], ["Koji od ovih harfova je harf kalkale?", "د", ["ذ", "ث", "ش"]], ["Koji harf NIJE harf kalkale?", "م", ["ق", "ط", "ج"]], ["Da li se kalkala javlja na sākin ب?", "Da", ["Ne", "Samo ako je poslije nun", "Samo u lafzatullahu"]], ["Da li se kalkala javlja na sākin د?", "Da", ["Ne", "Samo s gunnom", "Samo poslije kesre"]], ["Da li se kalkala javlja na sākin م?", "Ne", ["Da", "Uvijek", "Samo na kraju ajeta"]], ["Gdje je kalkala obično jača?", "Na kraju riječi pri stajanju", ["Na početku riječi", "Samo poslije fethe", "Kod svakog mima"]], ["Gdje je kalkala obično blaža?", "U sredini riječi", ["Na kraju riječi pri stajanju", "Samo u bismilli", "Kod lafzatullaha"]], ["Šta je zajedničko harfovima kalkale kada se pravilo primjenjuje?", "Imaju sukun", ["Imaju kesru", "Imaju tenvin", "Imaju medd"]], ["Koja podjela pripada kalkali?", "Sugrā i kubrā", ["Tefhim i terkik", "Munfesil i muttesil", "Izhar i iklab"]]], "Dužine": [["Kako se zove obična dužina?", "Meddun tabi‘ijjun", ["Meddun muttesil", "Meddun lāzim", "Meddu līn"]], ["Koliko traje obična dužina?", "2 hareketa", ["1 hareket", "4 obične dužine", "6 obavezno"]], ["Koji su harfovi medda?", "ا و ي", ["ق ط ب", "ء ه ع", "ل ر م"]], ["Šta može biti uzročnik neobične dužine?", "Hemze ili sukun", ["Samo fetha", "Samo tenvin", "Samo šedde"]], ["Kod meddun munfesila hemze dolazi:", "Na početku sljedeće riječi", ["U istoj riječi", "Prije harfa medda", "Samo na kraju sure"]], ["Koliko prema ovoj lekciji traje meddun munfesil?", "2–4 obične dužine", ["Samo 1", "Uvijek 4", "Samo 6"]], ["Kod meddun muttesila hemze dolazi:", "U istoj riječi poslije obične dužine", ["U sljedećoj riječi", "Prije obične dužine", "Nema hemzeta"]], ["Koliko prema ovoj lekciji traje meddun muttesil?", "4 obične dužine obavezno", ["1 običnu dužinu", "2–4 po izboru", "Ne produžava se"]], ["Šta dolazi poslije obične dužine kod meddun lāzima?", "Stalni sukun", ["Hemze u sljedećoj riječi", "Tenvin", "Fetha"]], ["Koliko prema ovoj lekciji traje meddun lāzim?", "4 obične dužine obavezno", ["1 običnu dužinu", "2 obične dužine", "Ne produžava se"]], ["Kada nastaje meddun ‘ārid?", "Pri stajanju kada završni harf postane sākin", ["Samo na početku riječi", "Kad hemze dođe u sljedećoj riječi", "Kod مْ + ب"]], ["Ako se na riječi s meddun ‘āridom ne stane, ostaje:", "Obična dužina", ["Iklab", "Kalkala", "Idgam mislejn"]], ["Koji primjer pripada meddun muttesilu?", "جَاءَ", ["قَالُوا آمَنَّا", "خَوْفْ", "مِنْ بَعْدِ"]], ["Koji primjer pripada meddun lāzimu?", "وَلَا الضَّالِّينَ", ["جَاءَ", "قَالُوا آمَنَّا", "بِاللهِ"]], ["Kod meddu līna harfu līn može biti:", "وْ ili يْ poslije fethe", ["ا poslije kesre", "مْ poslije damme", "نْ poslije fethe"]], ["Koji primjer pripada meddu līnu?", "خَوْفْ", ["جَاءَ", "الضَّالِّينَ", "قَالُوا آمَنَّا"]], ["Koliko prema ovoj lekciji traje meddu līn?", "Jednu ili najviše dvije obične dužine", ["Uvijek četiri", "Uvijek šest", "Ne može se produžiti"]], ["Koja vrsta medda ima hemze u istoj riječi?", "Meddun muttesil", ["Meddun munfesil", "Meddu līn", "Meddun ‘ārid"]], ["Koja vrsta medda ima hemze u sljedećoj riječi?", "Meddun munfesil", ["Meddun muttesil", "Meddun lāzim", "Meddu līn"]], ["Koja vrsta medda je vezana za nestalni sukun zbog stajanja?", "Meddun ‘ārid", ["Meddun muttesil", "Meddun munfesil", "Meddun tabi‘ijjun"]]]};
+function makeQuiz(host, pool, title){
+ let deck=shuffle(pool), idx=0, score=0, locked=false;
+ function draw(){
+  if(idx>=deck.length){
+   host.innerHTML='<div class="quizScore">'+title+' — rezultat: '+score+' / '+deck.length+'</div><button class="btn restartQuiz">Ponovi kviz</button>';
+   host.querySelector('.restartQuiz').onclick=()=>makeQuiz(host,pool,title);
+   return;
+  }
+  locked=false;
+  const q=deck[idx], opts=shuffle([q[1],...q[2]]);
+  host.innerHTML='<div class="quizMeta">Pitanje '+(idx+1)+' / '+deck.length+'</div><div class="quizQ">'+q[0]+'</div><div class="quizOpts"></div><div class="quizMsg"></div>';
+  const box=host.querySelector('.quizOpts'), msg=host.querySelector('.quizMsg');
+  opts.forEach(o=>{
+   const b=document.createElement('button'); b.className='quizOpt'; b.textContent=o;
+   b.onclick=()=>{
+    if(locked)return; locked=true;
+    [...box.children].forEach(x=>x.disabled=true);
+    if(o===q[1]){score++;msg.textContent='✓ Tačno!';}
+    else msg.textContent='✗ Netačno. Tačan odgovor: '+q[1];
+    setTimeout(()=>{idx++;draw()},900);
+   };
+   box.appendChild(b);
+  });
+ }
+ draw();
+}
+document.querySelectorAll('.lessonQuizBtn').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  const name=btn.dataset.lesson, page=btn.closest('.lessonPage');
+  let host=page.querySelector('.lessonQuizBox');
+  if(!host){host=document.createElement('div');host.className='lessonQuizBox';btn.parentElement.after(host);}
+  makeQuiz(host,LESSON_QUIZZES[name],name+' – 20 pitanja');
+ });
+});
+const finalBtn=document.getElementById('startFinalAll');
+if(finalBtn) finalBtn.addEventListener('click',()=>{
+ const all=Object.values(LESSON_QUIZZES).flat();
+ makeQuiz(document.getElementById('finalAllQuiz'),all,'Završni kviz – sva pitanja');
+});
+
+const openFinal=document.getElementById('openFinalQuiz');
+if(openFinal){
+ openFinal.addEventListener('click',()=>{
+   document.querySelectorAll('section.tab').forEach(s=>s.classList.add('hide'));
+   document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
+   const sec=document.getElementById('zavrsniKvizAll');
+   sec.classList.remove('hide');
+   openFinal.classList.add('active');
+   window.scrollTo({top:0,behavior:'smooth'});
+ });
+}
+const start160=document.getElementById('startFinal160');
+if(start160){
+ start160.addEventListener('click',()=>{
+   const all=Object.values(LESSON_QUIZZES).flat();
+   makeQuiz(document.getElementById('final160Host'),all,'Završni kviz – svih 160 pitanja');
+ });
+}
+</script>
+</body>
+</html>
