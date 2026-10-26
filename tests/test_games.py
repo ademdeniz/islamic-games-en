@@ -69,8 +69,9 @@ def test_code_unchanged(game):
     reason = gc.structural_reason(game)
     if reason:
         pytest.skip('deliberate structural change: ' + reason)
-    a, _ = gc.skeleton(gc.original_minus_deletions(game))
-    b, _ = gc.skeleton(gc.strip_brand(gc.translated_html(game)))
+    extra = gc.allow(game, 'TEXT_ATTRS')
+    a, _ = gc.skeleton(gc.original_minus_deletions(game), extra)
+    b, _ = gc.skeleton(gc.strip_brand(gc.translated_html(game)), extra)
     a = re.sub(r'lang=T', '', a)
     b = re.sub(r'lang=T', '', b)
     if a != b:

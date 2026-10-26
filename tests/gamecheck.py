@@ -123,12 +123,12 @@ PARTS = re.compile(r'(<script\b[^>]*>.*?</script>|<style\b[^>]*>.*?</style>|<!--
 ATTR = re.compile(r'(\s[\w:.-]+)(\s*=\s*)("[^"]*"|\'[^\']*\'|[^\s>]+)')
 
 
-def mask_tag(tag, strings):
+def mask_tag(tag, strings, text_attrs=TEXT_ATTRS):
     def attr(m):
         name, eq, val = m.group(1), m.group(2), m.group(3)
         key = name.strip().lower()
         raw = val[1:-1] if val[:1] in '"\'' else val
-        if key in TEXT_ATTRS:
+        if key in text_attrs:
             strings.append(htmllib.unescape(raw))
             return name + '=T'
         if key.startswith('on'):
@@ -137,8 +137,10 @@ def mask_tag(tag, strings):
     return re.sub(r'\s+', ' ', ATTR.sub(attr, tag))
 
 
-def skeleton(html):
-    """Return (skeleton, strings) for a whole HTML document."""
+def skeleton(html, extra_attrs=()):
+    """Return (skeleton, strings) for a whole HTML document. extra_attrs: attributes that hold text in this game
+    (a table's TEXT_ATTRS, e.g. data-lesson when the lesson name is both the key and the title shown)."""
+    text_attrs = TEXT_ATTRS | set(extra_attrs)
     html = BLOB.sub('BLOB', html)
     strings, out = [], []
     for part in PARTS.split(html):
@@ -150,9 +152,9 @@ def skeleton(html):
             head, body = part[:head_end], part[head_end:-len('</script>')]
             if re.search(r'type\s*=\s*["\']?(application/(ld\+)?json|text/template)', head, re.I):
                 strings.append(body)
-                out.append(mask_tag(head, strings) + 'JSON</script>')
+                out.append(mask_tag(head, strings, text_attrs) + 'JSON</script>')
             else:
-                out.append(mask_tag(head, strings) + lex_js(body, strings) + '</script>')
+                out.append(mask_tag(head, strings, text_attrs) + lex_js(body, strings) + '</script>')
         elif low.startswith('<style'):
             body = re.sub(r'/\*.*?\*/', '', part, flags=re.S)
 
@@ -163,7 +165,7 @@ def skeleton(html):
         elif low.startswith('<!--'):
             continue
         elif part.startswith('<'):
-            out.append(mask_tag(part, strings))
+            out.append(mask_tag(part, strings, text_attrs))
         elif part.strip():
             strings.append(htmllib.unescape(part.strip()))
             out.append('T')
