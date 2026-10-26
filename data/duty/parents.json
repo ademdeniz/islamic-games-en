@@ -1,6 +1,6 @@
 {
   "_note": "Parents on the Sunday pizza & stay rota, in turn order. First name + last initial only (the page is public); a family without a parent's name yet is listed by family name. Each group goes down its list and starts again from the top; new families go at the end of the list.",
-  "start": "2026-10-25",
+  "start": "2026-11-08",
   "pizzas": {
     "total": "5–6",
     "each": 3
@@ -44,6 +44,11 @@
       "date": "2026-10-18",
       "g1": "Mirzet D.",
       "g2": "Xhekiqi family"
+    },
+    {
+      "date": "2026-10-25",
+      "g1": "Emir H.",
+      "g2": "Alma S."
     }
   ]
 }
