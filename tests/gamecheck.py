@@ -191,7 +191,7 @@ def translated_html(game):
 
 
 def strip_brand(html):
-    html = html.replace(skel.BRAND_CSS, '')
+    html = html.replace(skel.BRAND_CSS, '').replace(skel.FIT_CSS, '')
     return re.sub(r'<div class="bz-brand"><img [^>]*></div>', '', html, count=1)
 
 

@@ -24,8 +24,8 @@ h2{font-size:18px;color:var(--green);margin:0 0 4px}a{color:var(--green);font-we
 </style></head><body><main>
 <h1>Credits</h1>
 <p>This maktab website for __NAME__ is built on the work of others. May Allah reward them.</p>
-<div class="card"><h2>The games – Abdo ef. Rekić</h2>
-<p>The learning games are English versions of the Bosnian maktab games by <b>Abdo ef. Rekić</b> (Bihać), used with his kind permission.
+<div class="card"><h2>The games and recitation pages – Abdo ef. Rekić</h2>
+<p>The learning games and the surah, Al-Baqarah and dua recitation pages are English versions of the Bosnian maktab material by <b>Abdo ef. Rekić</b> (Bihać), used with his kind permission.
 His original games: <a href="https://github.com/rekicabdo-bihac">github.com/rekicabdo-bihac</a>.</p></div>
 <div class="card"><h2>The Ilmihal lessons – El-Kalem</h2>
 <p>The lessons follow the <b>Ilmihal 1–3</b> books for maktab (El-Kalem, Rijaset of the Islamic Community in Bosnia and Herzegovina,
