@@ -17,7 +17,8 @@
     "kind": "surah",
     "label": "Surah Al-Kafirun with its meaning",
     "keys": [
-     "games/learn-surahs-by-heart#kafirun"
+     "games/learn-surahs-by-heart#kafirun",
+     "games/sura-kafirun"
     ],
     "min": 15,
     "url": "https://ademdeniz.github.io/islamic-games-en/games/learn-surahs-by-heart/#kafirun"
@@ -57,7 +58,8 @@
     "kind": "quran",
     "label": "Read Along – Al-Baqarah page 6",
     "keys": [
-     "games/citaj-kuran#page-6"
+     "games/citaj-kuran#page-6",
+     "games/bekare-30-37"
     ],
     "min": 15,
     "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-6"

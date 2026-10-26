@@ -59,3 +59,17 @@ def test_read_along_and_surahs_put_the_page_in_the_address():
     hz = open(os.path.join(ROOT, 'games', 'learn-surahs-by-heart', 'index.html'), encoding='utf-8').read()
     assert "mark('#page-'+page().mushaf_page)" in ra and "'#page-'+p.mushaf_page===location.hash" in ra
     assert "history.replaceState(null,'','#'+DATA.surahs[k].id)" in hz
+
+
+def test_recitation_pages_count_for_the_same_surah_and_read_along_page():
+    for d in DAYS:
+        hw = json.load(open(os.path.join(ROOT, 'updates', d, 'homework.json'), encoding='utf-8'))
+        for tasks in hw['groups'].values():
+            for t in tasks:
+                if t['kind'] == 'surah' and d >= '2026-10-25':
+                    sid = t['keys'][0].partition('#')[2]
+                    assert t['keys'][1:] == ['games/' + p for p in bu.SURAH_PAGES.get(sid, [])], t
+    for slugs in list(bu.SURAH_PAGES.values()) + list(bu.BAQARAH_PAGES.values()):
+        assert all(page_exists('games/' + s) for s in slugs), slugs
+    t = {x['id']: x for x in json.load(open(os.path.join(ROOT, 'updates', '2026-10-25', 'homework.json'), encoding='utf-8'))['groups']['g1']}
+    assert 'games/sura-kafirun' in t['i2-21']['keys'] and 'games/bekare-30-37' in t['q-6']['keys']
