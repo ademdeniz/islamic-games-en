@@ -28,6 +28,8 @@ def load_all():
             lesson = json.load(open(f, encoding='utf-8'))
             lesson.update(id=os.path.basename(f)[:-5], book=bid, book_title=book['title'], source=book['source'],
                           root='../../../', section='lessons', lessons_link=True)
+            if book.get('footer'):   # a book that is not one printed book (Salah – Step by Step) says what it is based on
+                lesson.setdefault('footer', book['footer'])
             book['lessons'].append(lesson)
         for k, lesson in enumerate(book['lessons'], 1):   # lessons are numbered in book order: files are named by
             lesson['number'] = k                          # book page (14-…, 17-…), so a lesson added later slots in

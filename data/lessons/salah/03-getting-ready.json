@@ -1,0 +1,39 @@
+{
+  "title": "Getting ready for Salah",
+  "pages": "3",
+  "intro": "Before we pray we make sure we are clean and ready.",
+  "learn": [
+    {"type": "text", "html": "Before Salah we get ready. These are the <b>conditions of Salah</b> – without them the prayer is not right."},
+    {"type": "cards", "items": [
+      {"icon": "💧", "label": "1. We are clean – we have wudu (and ghusl when we need it)"},
+      {"icon": "👕", "label": "2. Our body, clothes and place are clean"},
+      {"icon": "🧕", "label": "3. Our body is properly covered"},
+      {"icon": "🕋", "label": "4. We face the Qiblah – towards the Ka‘bah in Makkah"},
+      {"icon": "🕐", "label": "5. It is the time of that prayer"},
+      {"icon": "💭", "label": "6. We make the niyyah – we know which prayer we are praying"}
+    ]},
+    {"type": "point", "title": "🧭 The Qiblah", "html": "All Muslims in the world pray facing the <b>Ka‘bah</b> in Makkah. In the masjid the <b>mihrab</b> shows us the Qiblah."},
+    {"type": "point", "title": "⭐ Remember", "html": "Clean, covered, facing the Qiblah, on time and with the niyyah – now we are ready to pray!"},
+    {"type": "text", "html": "Play: <a href=\"../../../games/kviz-maca-namaz/\">Preparing for Salah – Help the Kitty</a>."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Ready for Salah?", "prompt": "Tap everything we need before we pray, then tap Check.", "options": [
+      {"text": "💧 We have wudu", "correct": true},
+      {"text": "👕 Clean clothes", "correct": true},
+      {"text": "🕋 We face the Qiblah", "correct": true},
+      {"text": "🕐 It is the time of the prayer", "correct": true},
+      {"text": "🍭 A sweet in our mouth", "correct": false, "why": "We do not eat in Salah – our mouth should be clean and empty."},
+      {"text": "📺 The TV turned on loud", "correct": false, "why": "We pray in a calm place, with nothing to distract us."}
+    ]},
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Wudu", "Washing before Salah"], ["Qiblah", "The direction of the Ka‘bah"], ["Niyyah", "The intention"], ["Mihrab", "Shows the Qiblah in the masjid"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which way do we face in Salah?", "options": ["Towards the Ka‘bah", "Towards the window", "Towards the door", "Any way we like"], "answer": 0},
+      {"q": "What do we do with water before Salah?", "options": ["We make wudu", "We play with it", "We drink a lot", "Nothing"], "answer": 0},
+      {"q": "Where is the Ka‘bah?", "options": ["In Makkah", "In Madinah", "In Jerusalem", "In Sarajevo"], "answer": 0},
+      {"q": "What is the niyyah?", "options": ["Knowing which prayer we are praying", "A dua after Salah", "A kind of water", "The adhan"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["🧭 Where is the Qiblah in our classroom?", "👕 Why do we wear clean clothes for Salah?"]}
+  ]
+}

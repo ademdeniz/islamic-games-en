@@ -1,0 +1,39 @@
+{
+  "title": "Let’s pray two rak‘ahs",
+  "pages": "8",
+  "intro": "Put it all together: a prayer of two rak‘ahs, like the Fajr prayer.",
+  "learn": [
+    {"type": "text", "html": "Now we know the positions and what we recite. Let’s put them together into a prayer of <b>two rak‘ahs</b> – like the <b>Fajr</b> prayer."},
+    {"type": "list", "items": [
+      "<b>Niyyah</b> – in our heart we know which prayer we are praying",
+      "<b>Allaahu akbar</b> – the opening takbir, raising the hands",
+      "<b>1st rak‘ah:</b> Subhanaka → A‘udhu → Bismillah → Al-Fatiha → Ameen → a short surah",
+      "Ruku‘ → standing up → sajdah → short sitting → sajdah",
+      "<b>2nd rak‘ah:</b> Bismillah → Al-Fatiha → Ameen → a short surah",
+      "Ruku‘ → standing up → sajdah → short sitting → sajdah",
+      "<b>Last sitting:</b> At-Tahiyyat → Salawat → Dua",
+      "<b>Salam</b> to the right, then to the left"
+    ]},
+    {"type": "point", "title": "🌅 The Fajr prayer", "html": "Fajr has <b>4 rak‘ahs</b>: first <b>2 sunnah</b>, then <b>2 fard</b>. Both are prayed just like this."},
+    {"type": "text", "html": "Play: <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – level 1 is the Fajr prayer."},
+    {"type": "point", "title": "⭐ Remember", "html": "In the 2nd rak‘ah we do <b>not</b> recite Subhanaka – we start with Bismillah."}
+  ],
+  "practice": [
+    {"type": "order", "title": "Two rak‘ahs in order", "prompt": "Tap the steps of a two-rak‘ah prayer in order.", "items": ["Niyyah", "Opening takbir – Allaahu akbar", "1st rak‘ah: Subhanaka, Al-Fatiha, surah", "Ruku‘ and two sajdahs", "2nd rak‘ah: Al-Fatiha, surah", "Ruku‘ and two sajdahs again", "At-Tahiyyat, Salawat, Dua", "Salam right and left"]},
+    {"type": "choose_all", "title": "What do we recite in the 2nd rak‘ah?", "prompt": "Tap everything we recite while standing in the 2nd rak‘ah.", "options": [
+      {"text": "Bismillah", "correct": true},
+      {"text": "Al-Fatiha", "correct": true},
+      {"text": "A short surah", "correct": true},
+      {"text": "Subhanaka", "correct": false, "why": "Subhanaka is only in the first rak‘ah."},
+      {"text": "At-Tahiyyat", "correct": false, "why": "At-Tahiyyat is recited sitting, not standing."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many rak‘ahs does the Fajr fard have?", "options": ["2", "3", "4", "1"], "answer": 0},
+      {"q": "How many rak‘ahs does Fajr have in total (sunnah + fard)?", "options": ["4", "2", "6", "8"], "answer": 0},
+      {"q": "What do we do first in Salah?", "options": ["Niyyah and Allaahu akbar", "Salam", "Sajdah", "At-Tahiyyat"], "answer": 0},
+      {"q": "When do we recite At-Tahiyyat?", "options": ["In the sitting", "In ruku‘", "While standing", "In sajdah"], "answer": 0},
+      {"q": "How do we finish the prayer?", "options": ["Salam right and left", "Standing up", "Ruku‘", "Ameen"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Practise", "prompts": ["🕌 Pray two rak‘ahs together with your muallim.", "🌅 Ask your parents to wake you for Fajr this weekend!"]}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Wudu step by step",
+  "pages": "4",
+  "intro": "Wudu is the washing we do before Salah.",
+  "learn": [
+    {"type": "text", "html": "Before Salah we make <b>wudu</b> (abdest). We wash parts of our body with clean water, always starting with the <b>right</b> side."},
+    {"type": "cards", "items": [
+      {"icon": "🤲", "label": "1. A‘udhu, Bismillah and the niyyah"},
+      {"icon": "👐", "label": "2. Wash the hands 3 times"},
+      {"icon": "👄", "label": "3. Rinse the mouth 3 times"},
+      {"icon": "👃", "label": "4. Rinse the nose 3 times"},
+      {"icon": "🧒", "label": "5. Wash the face 3 times"},
+      {"icon": "💪", "label": "6. Wash the right arm, then the left, past the elbow, 3 times"},
+      {"icon": "💧", "label": "7. Masah – wipe the head with wet hands"},
+      {"icon": "👂", "label": "8. Wipe the ears"},
+      {"icon": "🧣", "label": "9. Wipe the neck"},
+      {"icon": "🦶", "label": "10. Wash the right foot, then the left, up to the ankle"},
+      {"icon": "☝️", "label": "11. Say the Shahadah"}
+    ]},
+    {"type": "point", "title": "🚱 Save water", "html": "Use just enough water for wudu, and turn the tap off when you finish."},
+    {"type": "point", "title": "⭐ Remember", "html": "Wudu is broken by going to the toilet, passing wind, deep sleep and bleeding. Then we make wudu again before we pray."},
+    {"type": "text", "html": "Play: <a href=\"../../../games/pomozimo-maci-abdest/\">Help the Kitty Make Wudu</a>."}
+  ],
+  "practice": [
+    {"type": "order", "title": "Wudu in order", "prompt": "Tap the steps of wudu in the right order.", "items": ["🤲 Bismillah and niyyah", "👐 Hands", "👄 Mouth", "👃 Nose", "🧒 Face", "💪 Arms past the elbows", "💧 Wipe the head", "🦶 Feet up to the ankles"]},
+    {"type": "choose_all", "title": "What breaks wudu?", "prompt": "Tap everything that breaks wudu, then tap Check.", "options": [
+      {"text": "🚽 Going to the toilet", "correct": true},
+      {"text": "😴 Falling deeply asleep", "correct": true},
+      {"text": "🩸 Bleeding", "correct": true},
+      {"text": "📖 Reading a book", "correct": false, "why": "Reading does not break wudu."},
+      {"text": "🙂 Smiling", "correct": false, "why": "Smiling does not break wudu."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What do we say when we start wudu?", "options": ["Bismillah", "As-salaamu ‘alaykum", "Ameen", "Allahu akbar"], "answer": 0},
+      {"q": "Which side do we wash first?", "options": ["The right", "The left", "It does not matter", "The back"], "answer": 0},
+      {"q": "How many times do we wash the face?", "options": ["3 times", "Once", "10 times", "We don’t wash it"], "answer": 0},
+      {"q": "What is masah?", "options": ["Wiping the head with wet hands", "Washing the feet", "Drinking water", "Rinsing the nose"], "answer": 0},
+      {"q": "What is the last step of wudu?", "options": ["Washing the feet, then the Shahadah", "Washing the hands", "Rinsing the mouth", "Washing the face"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Practise", "prompts": ["💧 Show your muallim the steps of wudu (without water).", "🏠 Make wudu at home before Maghrib today."]}
+  ]
+}

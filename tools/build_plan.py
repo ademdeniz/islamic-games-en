@@ -28,26 +28,28 @@ NO_CLASS = PLAN['no_class']                      # class days without class
 EVENTS = PLAN.get('events', {})                  # approximate Islamic dates, shown on the class day of that week
 EVENT_GAMES = {'Ramadan': ['ramazanski-put'], 'Laylat': ['oslobodi-papagaja'], 'Isra': ['oslobodi-papagaja'], 'Eid': ['oslobodi-papagaja', 'ramazanski-put']}
 
-TAJWID = [   # (rule, what the lesson covers)
-    ('Tajwid intro – why we recite beautifully', 'what tajwid is, makharij (where letters come from)'),
-    ('Heavy and light letters (tafkhim & tarqiq)', 'خ ص ض غ ط ق ظ are always heavy'),
-    ('Ghunnah – nun and mim with shaddah', 'نّ مّ held 2 counts through the nose'),
-    ('Nun sakinah & tanwin: Izhar', 'clear before ء ه ع ح غ خ'),
-    ('Nun sakinah & tanwin: Idgham with ghunnah', 'merge into ي ن م و (يَنمُو)'),
-    ('Nun sakinah & tanwin: Idgham without ghunnah', 'merge into ل ر'),
-    ('Nun sakinah & tanwin: Iqlab', 'turns into mim before ب'),
-    ('Nun sakinah & tanwin: Ikhfa', 'hidden before the other 15 letters'),
-    ('Review: the four rules of nun sakinah & tanwin', 'sort Qur’an examples into Izhar, Idgham, Iqlab, Ikhfa'),
-    ('Mim sakinah: Ikhfa shafawi, Idgham shafawi, Izhar shafawi', 'مْ before ب, before م, and before the rest'),
-    ('Qalqalah', 'bouncing ق ط ب ج د (قُطْبُ جَدٍّ)'),
-    ('Lam in “Allah” – heavy or light', 'heavy after fatha/damma, light after kasra'),
-    ('Ra – heavy or light', 'when ر is heavy and when light'),
-    ('Al- : sun and moon letters', 'lam shamsiyyah and lam qamariyyah'),
-    ('Madd tabi‘i – natural lengthening', 'ا و ي lengthened 2 counts'),
-    ('Madd muttasil & munfasil', 'madd followed by hamza – same word or next word'),
-    ('Madd lazim and madd ‘arid', 'long madd (6 counts) and madd when stopping'),
-    ('Stopping signs (waqf)', 'مـ لا ج صلى قلى and how to stop on a word'),
-    ('Review: Tajwid in Al-Baqarah', 'find the rules on the mushaf pages we read'),
+TAJWID = [   # (rule, what to do, page) – follows the 8 lessons of Interactive Tajwid (games/tedzvid), then reviews
+    ('Nun sakin & tanwin: Izhar', 'Interactive Tajwid → lesson 1 · clear before ء ه ع ح غ خ', 'tedzvid'),
+    ('Nun sakin & tanwin: Idgham with and without ghunnah', 'Interactive Tajwid → lesson 1 · merge into ي ن م و and into ل ر', 'tedzvid'),
+    ('Nun sakin & tanwin: Iqlab and Ikhfa', 'Interactive Tajwid → lesson 1 · mim before ب, hidden before the other 15', 'tedzvid'),
+    ('Review: the rules of nun – lesson quiz', 'Interactive Tajwid → lesson 1 → Lesson quiz (20 questions)', 'tedzvid'),
+    ('Mim sakin: Izhar, Ikhfa and Idgham shafawi', 'Interactive Tajwid → lesson 2', 'tedzvid'),
+    ('Idgham mithlayn – two same sounds', 'Interactive Tajwid → lesson 3', 'tedzvid'),
+    ('Review: nun and mim', 'Interactive Tajwid → Recognise and Match', 'tedzvid'),
+    ('The rules of Ra – heavy or light', 'Interactive Tajwid → lesson 4', 'tedzvid'),
+    ('Lafz al-Jalalah – the word Allah, heavy or light', 'Interactive Tajwid → lesson 5', 'tedzvid'),
+    ('Damir – the pronoun -hu / -hi, short or long', 'Interactive Tajwid → lesson 6', 'tedzvid'),
+    ('Qalqalah – ق ط ب ج د', 'Interactive Tajwid → lesson 7 · قُطْبُ جَدٍّ', 'tedzvid'),
+    ('Review: lessons 1–7', 'Interactive Tajwid → lesson 7 → Quick review, then the lesson quizzes', 'tedzvid'),
+    ('Tajwid Millionaire', '15 random questions from all 8 topics', 'kviz-tedzvid'),
+    ('Madd tabi‘i – natural lengthening (2 counts)', 'Interactive Tajwid → lesson 8 · ا و ي', 'tedzvid'),
+    ('Madd munfasil and madd muttasil', 'Interactive Tajwid → lesson 8 · hamzah in the next word / the same word', 'tedzvid'),
+    ('Madd lazim, madd ‘arid and madd lin', 'Interactive Tajwid → lesson 8', 'tedzvid'),
+    ('Review: madd – lesson quiz', 'Interactive Tajwid → lesson 8 → Lesson quiz (20 questions)', 'tedzvid'),
+    ('Final test – 12 tasks', 'Interactive Tajwid → Test', 'tedzvid'),
+    ('Tajwid in Al-Baqarah', 'find the rules on the mushaf pages we read in Read Along', 'citaj-kuran'),
+    ('Final quiz – all 160 questions', 'Interactive Tajwid → Final quiz', 'tedzvid'),
+    ('Tajwid Millionaire – end of year', 'how many of the 15 can you get right?', 'kviz-tedzvid'),
 ]
 
 
@@ -100,22 +102,33 @@ def quran_items(n, first=2):
 
 
 def tajwid_items():
-    return [{'k': f'tj-{i}', 'kind': 'Tajwid', 'title': t, 'hint': h, 'url': None, 'topics': ['tajwid']} for i, (t, h) in enumerate(TAJWID)]
+    return [{'k': f'tj-{i}', 'kind': 'Tajwid', 'title': t, 'hint': h, 'url': f'{SITE}games/{g}/', 'topics': ['tajwid']}
+            for i, (t, h, g) in enumerate(TAJWID)]
+
+
+SALAH = json.load(open(os.path.join(ROOT, 'data', 'plan', 'salah.json'), encoding='utf-8'))   # weekly Salah: starter / review
+
+
+def salah_items(t):
+    return [{'k': f"{t['id']}-{i}", 'kind': 'Salah', 'title': x['title'], 'hint': x['hint'], 'url': SITE + x['url'], 'topics': []}
+            for i, x in enumerate(SALAH[t['list']])]
 
 
 LABEL = {'ilmihal': lambda t: f"Ilmihal {t['book']}", 'quran': lambda t: 'Qur’an', 'sufara': lambda t: 'Sufara',
-         'tajwid': lambda t: 'Tajwid' + (f" (from {dt.date.fromisoformat(t['from']).strftime('%B')})" if t.get('from') else '')}
+         'tajwid': lambda t: 'Tajwid' + (f" (from {dt.date.fromisoformat(t['from']).strftime('%B')})" if t.get('from') else ''),
+         'salah': lambda t: 'Salah' + {'starter': ' – first steps', 'review': ' – review'}[t['list']]}
 
 
 def track_items(t):
     return {'ilmihal': lambda: lesson_items(t['book']), 'sufara': lambda: sufara_items(t.get('key_prefix', '')),
-            'quran': lambda: quran_items(len(SUNDAYS), t.get('first_page', 2)), 'tajwid': tajwid_items}[t['type']]()
+            'quran': lambda: quran_items(len(SUNDAYS), t.get('first_page', 2)), 'tajwid': tajwid_items,
+            'salah': lambda: salah_items(t)}[t['type']]()
 
 
 def about(g):
     """“Ilmihal 2 & 3, Qur’an, Sufara & Tajwid” – what a group does, in words."""
     books = [str(t['book']) for t in g['tracks'] if t['type'] == 'ilmihal']
-    parts = (['Ilmihal ' + ' & '.join(books)] if books else []) + [LABEL[t['type']](t).split(' (')[0] for t in g['tracks'] if t['type'] != 'ilmihal']
+    parts = (['Ilmihal ' + ' & '.join(books)] if books else []) + [LABEL[t['type']](t).split(' (')[0].split(' – ')[0] for t in g['tracks'] if t['type'] != 'ilmihal']
     return ', '.join(parts[:-1]) + (' & ' if len(parts) > 1 else '') + parts[-1] if parts else ''
 
 

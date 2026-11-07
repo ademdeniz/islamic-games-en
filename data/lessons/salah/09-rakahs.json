@@ -1,0 +1,36 @@
+{
+  "title": "How many rak‘ahs? The five prayers in full",
+  "pages": "9",
+  "intro": "Sunnah, fard and witr – 40 rak‘ahs every day.",
+  "learn": [
+    {"type": "text", "html": "Every prayer has <b>fard</b> rak‘ahs (a duty) and most have <b>sunnah</b> rak‘ahs (what the Prophet (SAW) prayed). Isha also has <b>witr</b>."},
+    {"type": "cards", "items": [
+      {"icon": "🌅", "label": "Fajr – 2 sunnah + 2 fard = 4"},
+      {"icon": "☀️", "label": "Dhuhr – 4 sunnah + 4 fard + 2 sunnah = 10"},
+      {"icon": "🌤️", "label": "Asr – 4 sunnah + 4 fard = 8"},
+      {"icon": "🌇", "label": "Maghrib – 3 fard + 2 sunnah = 5"},
+      {"icon": "🌙", "label": "Isha – 4 sunnah + 4 fard + 2 sunnah + 3 witr = 13"}
+    ]},
+    {"type": "point", "title": "🔢 40 rak‘ahs", "html": "4 + 10 + 8 + 5 + 13 = <b>40 rak‘ahs</b> every day. Of them <b>17</b> are fard: 2 + 4 + 4 + 3 + 4."},
+    {"type": "point", "title": "🤲 Witr and the Qunut", "html": "In the 3rd rak‘ah of witr we recite the <b>Qunut</b> dua. Learn it: <a href=\"../../../games/dove-kunut-dova/\">The Qunut Dua</a>."},
+    {"type": "point", "title": "⭐ Remember", "html": "In a fard of 3 or 4 rak‘ahs, after the first two rak‘ahs we sit for <b>At-Tahiyyat</b>, then stand up; in its 3rd and 4th rak‘ahs we recite only <b>Al-Fatiha</b>."},
+    {"type": "text", "html": "Play: <a href=\"../../../games/akademija-namaza-igre/\">Salah Academy – Puzzles</a> and <a href=\"../../../games/5-dnevnih-namaza/\">The 5 Daily Prayers</a>."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the prayer and its rak‘ahs", "pairs": [
+      ["Fajr", "4 rak‘ahs"], ["Dhuhr", "10 rak‘ahs"], ["Asr", "8 rak‘ahs"], ["Maghrib", "5 rak‘ahs"], ["Isha", "13 rak‘ahs"]
+    ]},
+    {"type": "sort", "title": "How many fard rak‘ahs?", "prompt": "Does the fard of this prayer have 4 rak‘ahs or fewer?", "bins": ["4 fard rak‘ahs", "2 or 3 fard rak‘ahs"], "items": [
+      {"text": "Dhuhr", "bin": 0}, {"text": "Asr", "bin": 0}, {"text": "Isha", "bin": 0}, {"text": "Fajr", "bin": 1}, {"text": "Maghrib", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many rak‘ahs do we pray every day in total?", "options": ["40", "17", "5", "24"], "answer": 0},
+      {"q": "How many of them are fard?", "options": ["17", "40", "10", "13"], "answer": 0},
+      {"q": "Which prayer has 3 fard rak‘ahs?", "options": ["Maghrib", "Fajr", "Asr", "Isha"], "answer": 0},
+      {"q": "Which prayer has the witr?", "options": ["Isha", "Fajr", "Dhuhr", "Asr"], "answer": 0},
+      {"q": "What do we recite in the 3rd rak‘ah of witr?", "options": ["The Qunut dua", "Subhanaka", "The adhan", "Nothing"], "answer": 0},
+      {"q": "In the 3rd and 4th rak‘ah of a fard, what do we recite while standing?", "options": ["Only Al-Fatiha", "Al-Fatiha and a long surah", "Subhanaka", "At-Tahiyyat"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["🔢 Count the rak‘ahs of the five prayers out loud.", "🕌 Which prayer do you find easiest to pray on time? Which is hardest?"]}
+  ]
+}

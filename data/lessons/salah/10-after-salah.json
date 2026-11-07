@@ -1,0 +1,31 @@
+{
+  "title": "After Salah – dhikr and dua",
+  "pages": "10",
+  "intro": "Before we get up: salawat, Ayat al-Kursi, tasbih and a dua.",
+  "learn": [
+    {"type": "text", "html": "When we finish the fard, we stay sitting for a moment and remember Allah – this is <b>dhikr</b>."},
+    {"type": "cards", "items": [
+      {"icon": "📿", "label": "Subhaanallaah – 33 times"},
+      {"icon": "📿", "label": "Alhamdulillaah – 33 times"},
+      {"icon": "📿", "label": "Allaahu akbar – 33 times"},
+      {"icon": "☝️", "label": "Then: Laa ilaaha illallaahu wahdahu laa shareeka lah…"}
+    ]},
+    {"type": "phrase", "label": "Before the tasbih", "ar": "أَسْتَغْفِرُ اللَّهَ", "tr": "Astaghfirullaah (3 times)", "en": "I ask Allah for forgiveness."},
+    {"type": "point", "title": "📖 Ayat al-Kursi", "html": "The Prophet (SAW) taught us to recite <b>Ayat al-Kursi</b> after every fard prayer. Learn it: <a href=\"../../../games/dove-ajetul-kursijja/\">Ayat al-Kursi after Salah</a>."},
+    {"type": "text", "html": "All four parts with the recording: <a href=\"../../../games/dove-zikr-i-dova-poslije-namaza/\">Dhikr and Dua after Salah</a> · <a href=\"../../../games/dove-tesbih/\">Tasbih after Salah</a>."},
+    {"type": "point", "title": "⭐ Remember", "html": "After Salah we raise our hands and ask Allah for good for ourselves, our parents and all believers."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The tasbih in order", "prompt": "Put the tasbih in order.", "items": ["Subhaanallaah ×33", "Alhamdulillaah ×33", "Allaahu akbar ×33", "Laa ilaaha illallaah…"]},
+    {"type": "memory", "title": "Match the words and the meaning", "pairs": [
+      ["Subhaanallaah", "Glory be to Allah"], ["Alhamdulillaah", "All praise is for Allah"], ["Allaahu akbar", "Allah is the Greatest"], ["Astaghfirullaah", "I ask Allah for forgiveness"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many times do we say Subhaanallaah after Salah?", "options": ["33", "3", "10", "100"], "answer": 0},
+      {"q": "Which ayah do we recite after every fard prayer?", "options": ["Ayat al-Kursi", "The last ayah of Al-Baqarah only", "Al-Fatiha", "Nothing"], "answer": 0},
+      {"q": "What does Astaghfirullaah mean?", "options": ["I ask Allah for forgiveness", "Allah is the Greatest", "Glory be to Allah", "Peace be upon you"], "answer": 0},
+      {"q": "What do we call remembering Allah?", "options": ["Dhikr", "Wudu", "Qiblah", "Rak‘ah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "This week", "prompts": ["📿 After every prayer this week, do the tasbih – count on your fingers!", "🤲 Make a dua for your parents after Salah."]}
+  ]
+}

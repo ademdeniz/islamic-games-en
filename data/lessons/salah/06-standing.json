@@ -1,0 +1,26 @@
+{
+  "title": "What we recite while standing",
+  "pages": "6",
+  "intro": "Subhanaka, A‘udhu billah, Bismillah, Al-Fatiha and a short surah.",
+  "learn": [
+    {"type": "text", "html": "After the opening <b>Allaahu akbar</b> we stand still, put our hands together and recite quietly:"},
+    {"type": "phrase", "label": "1. Subhanaka – only in the first rak‘ah", "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلَا إِلَٰهَ غَيْرُكَ", "tr": "Subhaanakallaahumma wa bihamdika, wa tabaarakasmuka, wa ta‘aalaa jadduka, wa laa ilaaha ghayruk.", "en": "Glory be to You, O Allah, and all praise is Yours. Blessed is Your name, exalted is Your majesty, and there is no god but You."},
+    {"type": "phrase", "label": "2. A‘udhu billah", "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", "tr": "A‘oodhu billaahi minash-shaytaanir-rajeem", "en": "I seek Allah’s protection from the accursed Shaytan."},
+    {"type": "phrase", "label": "3. Bismillah", "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "tr": "Bismillaahir-Rahmaanir-Raheem", "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful."},
+    {"type": "point", "title": "4. Al-Fatiha – in every rak‘ah", "html": "Then we recite <b>Al-Fatiha</b> and say <b>Ameen</b> quietly. Practise it in <a href=\"../../../games/learn-surahs-by-heart/#fatiha\">Learn the Surahs by Heart</a>."},
+    {"type": "point", "title": "5. A short surah", "html": "In the first two rak‘ahs we add a short surah, for example <b>Al-Ikhlas</b>, <b>Al-Kawthar</b> or <b>Al-‘Asr</b>."},
+    {"type": "text", "html": "Listen and repeat: <a href=\"../../../games/dove-subhaneke/\">Subhanaka with the recording</a>."},
+    {"type": "point", "title": "⭐ Remember", "html": "Subhanaka → A‘udhu → Bismillah → Al-Fatiha → Ameen → a short surah."}
+  ],
+  "practice": [
+    {"type": "order", "title": "What we recite in the first rak‘ah", "prompt": "Put them in order.", "items": ["Subhanaka", "A‘udhu billah", "Bismillah", "Al-Fatiha", "Ameen", "A short surah"]},
+    {"type": "order", "title": "Subhanaka in order", "prompt": "Put the parts of Subhanaka in order.", "items": ["Subhaanakallaahumma wa bihamdika", "wa tabaarakasmuka", "wa ta‘aalaa jadduka", "wa laa ilaaha ghayruk"]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which surah do we recite in every rak‘ah?", "options": ["Al-Fatiha", "Al-Ikhlas", "An-Nas", "Al-Kawthar"], "answer": 0},
+      {"q": "What do we say after Al-Fatiha?", "options": ["Ameen", "Allaahu akbar", "As-salaamu ‘alaykum", "Bismillah"], "answer": 0},
+      {"q": "In which rak‘ah do we recite Subhanaka?", "options": ["Only in the first", "In every rak‘ah", "Only in the last", "Never"], "answer": 0},
+      {"q": "What does “wa laa ilaaha ghayruk” mean?", "options": ["And there is no god but You", "Blessed is Your name", "Glory be to You", "Exalted is Your majesty"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Practise", "prompts": ["🗣️ Say Subhanaka to your muallim.", "🎧 Listen to Subhanaka at home three times this week."]}
+  ]
+}

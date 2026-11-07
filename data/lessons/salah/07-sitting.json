@@ -1,0 +1,27 @@
+{
+  "title": "The last sitting and the salam",
+  "pages": "7",
+  "intro": "At-Tahiyyat, the salawat, a dua – and the salam to the right and left.",
+  "learn": [
+    {"type": "text", "html": "At the end of Salah we sit and recite quietly:"},
+    {"type": "phrase", "label": "1. At-Tahiyyat", "ar": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ", "tr": "At-tahiyyaatu lillaahi was-salawaatu wat-tayyibaatu. As-salaamu ‘alayka ayyuhan-nabiyyu wa rahmatullaahi wa barakaatuh. As-salaamu ‘alaynaa wa ‘alaa ‘ibaadillaahis-saaliheen. Ash-hadu an laa ilaaha illallaah, wa ash-hadu anna Muhammadan ‘abduhu wa rasooluh.", "en": "All greetings, prayers and good words belong to Allah. Peace be upon you, O Prophet, and Allah’s mercy and blessings. Peace be upon us and upon Allah’s righteous servants. I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and Messenger."},
+    {"type": "point", "title": "2. Salawat", "html": "Then we send blessings on the Prophet (SAW): <b>Allaahumma salli ‘alaa Muhammadin…</b> and <b>Allaahumma baarik ‘alaa Muhammadin…</b>"},
+    {"type": "phrase", "label": "3. A dua", "ar": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ", "tr": "Rabbanaa aatinaa fid-dunyaa hasanatan wa fil-aakhirati hasanatan wa qinaa ‘adhaaban-naar.", "en": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire."},
+    {"type": "phrase", "label": "4. The salam – right, then left", "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ", "tr": "As-salaamu ‘alaykum wa rahmatullaah", "en": "Peace be upon you and Allah’s mercy."},
+    {"type": "text", "html": "Listen and repeat, part by part: <a href=\"../../../games/dove-ettehijjatu/\">At-Tahiyyat, Salawat and Duas</a>."},
+    {"type": "point", "title": "⭐ Remember", "html": "At-Tahiyyat → Salawat → Dua → Salam to the right → Salam to the left."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The last sitting in order", "prompt": "Put them in order.", "items": ["At-Tahiyyat", "Salawat", "Dua (Rabbanaa aatinaa…)", "Salam to the right", "Salam to the left"]},
+    {"type": "memory", "title": "Match the words and the meaning", "pairs": [
+      ["At-tahiyyaatu lillaahi", "All greetings belong to Allah"], ["As-salaamu ‘alayka ayyuhan-nabiyyu", "Peace be upon you, O Prophet"], ["Rabbanaa aatinaa fid-dunyaa hasanatan", "Our Lord, give us good in this world"], ["As-salaamu ‘alaykum wa rahmatullaah", "Peace be upon you and Allah’s mercy"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What do we recite first in the last sitting?", "options": ["At-Tahiyyat", "Al-Fatiha", "Subhanaka", "Ameen"], "answer": 0},
+      {"q": "On whom do we send salawat?", "options": ["The Prophet Muhammad (SAW)", "Our friends", "The muallim", "Nobody"], "answer": 0},
+      {"q": "How does Salah end?", "options": ["With the salam to the right and left", "With Allaahu akbar", "With Bismillah", "With Ameen"], "answer": 0},
+      {"q": "To which side do we give the first salam?", "options": ["The right", "The left", "Forward", "Back"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Practise", "prompts": ["🗣️ Say At-Tahiyyat with your muallim, part by part.", "🎧 Listen to At-Tahiyyat at home this week."]}
+  ]
+}
