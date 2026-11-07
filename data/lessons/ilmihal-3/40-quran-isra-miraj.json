@@ -1,0 +1,37 @@
+{
+  "title": "The Qur’an, Isra and Mi‘raj",
+  "pages": "40–41",
+  "intro": "The lasting miracle of the Qur’an, and the night journey of the Prophet (SAW).",
+  "learn": [
+    {"type": "point", "title": "📖 The Qur’an – the lasting miracle", "html": "The Qur’an is the <b>greatest miracle</b> of Muhammad (SAW). Allah challenged people to bring even one surah like it, and no one has ever been able to. It has been kept <b>unchanged</b> for more than 1,400 years – in the hearts of hafiz, in writing, and in our recitation every day."},
+    {"type": "heading", "text": "Isra – the night journey"},
+    {"type": "text", "html": "In one night, by Allah’s will, the Prophet (SAW) travelled from <b>Al-Masjid al-Haram</b> in Makkah to <b>Al-Masjid al-Aqsa</b> in Jerusalem, with the angel <b>Jibril</b>, riding <b>Al-Buraq</b>. There he led all the prophets in prayer. Allah tells us about this journey at the start of <b>Surah Al-Isra</b> <small>(Qur’an, Al-Isra 17:1)</small>."},
+    {"type": "heading", "text": "Mi‘raj – the ascent"},
+    {"type": "text", "html": "From Jerusalem the Prophet (SAW) was taken up through the <b>seven heavens</b>. In the heavens he met earlier prophets, among them Adam, ‘Isa, Yusuf, Idris, Harun, Musa and Ibrahim (peace be upon them). He reached <b>Sidrat al-Muntaha</b>, the furthest point of the heavens."},
+    {"type": "point", "title": "🕌 The gift of Mi‘raj – five daily prayers", "html": "On the night of Mi‘raj Allah made the <b>five daily prayers</b> a duty for Muslims. That is why Salah is sometimes called the <b>mi‘raj of the believer</b> – in it we come close to Allah."},
+    {"type": "point", "title": "🤝 Abu Bakr as-Siddiq", "html": "When the Prophet (SAW) told people about the journey, many in Makkah did not believe him. <b>Abu Bakr</b> said at once: “If he said it, it is true.” From then on he was called <b>as-Siddiq</b> – the one who confirms the truth."},
+    {"type": "cards", "items": [
+      {"icon": "🕋", "label": "Al-Masjid al-Haram – Makkah, where the journey began"},
+      {"icon": "🕌", "label": "Al-Masjid al-Aqsa – Jerusalem, the end of the Isra"},
+      {"icon": "✨", "label": "Seven heavens – the Mi‘raj"},
+      {"icon": "🌙", "label": "Laylat al-Mi‘raj – remembered on the 27th night of Rajab"}
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "<b>Isra</b> = Makkah → Jerusalem. <b>Mi‘raj</b> = Jerusalem → the heavens. Its gift is the <b>five daily prayers</b>."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The night journey in order", "prompt": "Put the events in order.", "items": ["🕋 Setting off from Al-Masjid al-Haram in Makkah", "🕌 Arriving at Al-Masjid al-Aqsa in Jerusalem", "🤲 Leading the prophets in prayer", "✨ Rising through the seven heavens", "🌿 Reaching Sidrat al-Muntaha", "🕐 Receiving the five daily prayers"]},
+    {"type": "sort", "title": "Isra or Mi‘raj?", "prompt": "Is this part of the Isra or of the Mi‘raj?", "bins": ["Isra – Makkah to Jerusalem", "Mi‘raj – up to the heavens"], "items": [
+      {"text": "Riding Al-Buraq from Makkah", "bin": 0}, {"text": "Praying with the prophets in Al-Aqsa", "bin": 0}, {"text": "Meeting the prophets in the heavens", "bin": 1}, {"text": "Reaching Sidrat al-Muntaha", "bin": 1}, {"text": "The five prayers made a duty", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is the greatest and lasting miracle of Muhammad (SAW)?", "options": ["The Qur’an", "The splitting of the moon", "Water from his fingers", "The cool fire"], "answer": 0},
+      {"q": "What is the Isra?", "options": ["The night journey from Makkah to Jerusalem", "The migration to Madinah", "The first revelation", "The Farewell Hajj"], "answer": 0},
+      {"q": "What is the Mi‘raj?", "options": ["The ascent through the seven heavens", "A trip to Madinah", "A battle", "The month of fasting"], "answer": 0},
+      {"q": "Which angel was with the Prophet (SAW)?", "options": ["Jibril", "Mika’il", "Israfil", "Malik"], "answer": 0},
+      {"q": "What gift did Muslims receive on the night of Mi‘raj?", "options": ["The five daily prayers", "Fasting in Ramadan", "Zakah", "Hajj"], "answer": 0},
+      {"q": "Who believed straight away and was called as-Siddiq?", "options": ["Abu Bakr", "‘Umar", "‘Uthman", "‘Ali"], "answer": 0},
+      {"q": "Which surah begins with the night journey?", "options": ["Al-Isra", "Al-Fatiha", "Al-Kahf", "Ya-Sin"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["💬 Why is Salah called the mi‘raj of the believer?", "🤝 What can we learn from Abu Bakr as-Siddiq?", "🌙 Laylat al-Mi‘raj is coming in January – how can your family mark it?"]}
+  ]
+}
