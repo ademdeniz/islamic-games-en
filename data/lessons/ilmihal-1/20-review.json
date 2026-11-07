@@ -1,0 +1,122 @@
+{
+  "title": "Review – let’s repeat!",
+  "pages": "20–21",
+  "intro": "Let’s repeat everything we have learned so far.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Today we <b>repeat</b> what we learned in the maktab. Say each du‘a out loud, then try the games below!"
+    },
+    {
+      "type": "point",
+      "title": "1️⃣ A‘udhu billah and Bismillah",
+      "html": "With these words we ask Allah, the Most Merciful, to <b>protect us</b> and to give us His <b>mercy</b>. We say them before every good deed."
+    },
+    {
+      "type": "point",
+      "title": "2️⃣ The best creation",
+      "html": "The human being is Allah’s <b>most beautiful</b> and <b>most perfect</b> creation. We should live on Earth <b>doing good</b> and being <b>thankful</b> to Allah."
+    },
+    {
+      "type": "point",
+      "title": "3️⃣ The maktab",
+      "html": "In the maktab the <b>muallim</b> (or <b>muallima</b>) teaches us about the Islamic <b>religion</b>, good <b>manners</b> and <b>reading the Qur’an</b>."
+    },
+    {
+      "type": "phrase",
+      "label": "Rabbi yassir",
+      "ar": "رَبِّ يَسِّرْ وَلَا تُعَسِّرْ رَبِّ تَمِّمْ بِالْخَيْرِ",
+      "tr": "Rabbi yassir wa laa tu‘assir, Rabbi tammim bil-khayr.",
+      "en": "My Lord, make it easy and do not make it hard. My Lord, complete it with good."
+    },
+    {
+      "type": "phrase",
+      "label": "Rabbi zidnee ‘ilmaa",
+      "ar": "رَبِّ زِدْنِي عِلْمًا",
+      "tr": "Rabbi zidnee ‘ilmaa",
+      "en": "My Lord, increase me in knowledge."
+    },
+    {
+      "type": "point",
+      "title": "4️⃣ Our religion",
+      "html": "Islam is <b>our</b> religion. We are <b>Muslims</b>. We believe in <b>Allah</b> and the Prophet <b>Muhammad (SAW)</b>, we tell the <b>truth</b> and we do <b>good</b> deeds."
+    },
+    {
+      "type": "phrase",
+      "label": "Allahu Rabbi",
+      "ar": "اللَّهُ رَبِّي، وَمُحَمَّدٌ نَبِيِّي، وَالْقُرْآنُ كِتَابِي، وَالْإِسْلَامُ دِينِي",
+      "tr": "Allaahu Rabbee, wa Muhammadun Nabiyyee, wal-Qur’aanu kitaabee, wal-Islaamu deenee.",
+      "en": "Allah is my Lord, Muhammad is my Prophet, the Qur’an is my book, Islam is my religion."
+    },
+    {
+      "type": "phrase",
+      "label": "The Shahadah",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "Ash-hadu an laa ilaaha illallaah, wa ash-hadu anna Muhammadan ‘abduhu wa rasooluhu",
+      "en": "I believe and declare that only Allah is God, and I believe and declare that Muhammad is Allah’s servant and Messenger."
+    },
+    {
+      "type": "point",
+      "title": "5️⃣ Salam",
+      "html": "Salam is the <b>greeting of peace</b>: <b>As-salaamu ‘alaykum</b>. We answer: <b>Wa ‘alaykumus-salaam</b>. It is lovely to add: <b>wa rahmatullaahi wa barakaatuhu</b>."
+    },
+    {
+      "type": "point",
+      "title": "6️⃣ Water",
+      "html": "Allah made every living thing from <b>water</b>, so water is the source of <b>life</b>. The best water on Earth is <b>Zamzam</b>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the du‘a and its meaning",
+      "pairs": [
+        ["A‘udhu billah…", "I seek Allah’s protection from Shaytan"],
+        ["Bismillah…", "In the name of Allah"],
+        ["Rabbi yassir", "My Lord, make it easy"],
+        ["Rabbi zidnee ‘ilmaa", "My Lord, increase me in knowledge"],
+        ["As-salaamu ‘alaykum", "Peace be upon you"],
+        ["Allaahu Rabbee", "Allah is my Lord"]
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Allahu Rabbi in order",
+      "prompt": "Put the words in the right order.",
+      "items": [
+        "Allaahu Rabbee – Allah is my Lord",
+        "wa Muhammadun Nabiyyee – Muhammad is my Prophet",
+        "wal-Qur’aanu kitaabee – the Qur’an is my book",
+        "wal-Islaamu deenee – Islam is my religion"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Fill in the gap",
+      "questions": [
+        {"q": "With A‘udhu billah and Bismillah we ask Allah to ___ us and give us His mercy.", "options": ["protect", "forget", "leave", "tire"], "answer": 0},
+        {"q": "The human being is Allah’s most beautiful and most ___ creation.", "options": ["perfect", "boring", "tiny", "noisy"], "answer": 0},
+        {"q": "In the maktab we are taught by the ___.", "options": ["muallim", "shopkeeper", "driver", "doctor"], "answer": 0},
+        {"q": "Before every task we say A‘udhu billah, Bismillah and ___.", "options": ["Rabbi yassir", "Goodbye", "Wa ‘alaykumus-salaam", "Nothing"], "answer": 0},
+        {"q": "Rabbi zidnee ‘ilmaa means: My Lord, increase me in ___.", "options": ["knowledge", "toys", "sleep", "sweets"], "answer": 0},
+        {"q": "Islam is our religion. We are ___.", "options": ["Muslims", "strangers", "guests", "travellers"], "answer": 0},
+        {"q": "My Lord is Allah, my Prophet is Muhammad (SAW), my book is the ___.", "options": ["Qur’an", "comic", "dictionary", "diary"], "answer": 0},
+        {"q": "We show we belong to Islam with the words of the ___.", "options": ["Shahadah", "song", "game", "story"], "answer": 0},
+        {"q": "We answer the salam with ___.", "options": ["Wa ‘alaykumus-salaam", "Rabbi yassir", "Bismillah", "Ameen"], "answer": 0},
+        {"q": "Allah made every living thing from ___, and the best water on Earth is Zamzam.", "options": ["water", "stone", "fire", "metal"], "answer": 0}
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Repeat with your muallim",
+      "prompts": [
+        "🗣️ Say A‘udhu billah and Bismillah.",
+        "🗣️ Say Rabbi yassir and Rabbi zidnee ‘ilmaa.",
+        "🗣️ Say Allahu Rabbi.",
+        "🗣️ Say the Shahadah and what it means.",
+        "👋 Give salam to a friend and answer theirs.",
+        "🎨 Draw your masjid and your maktab!"
+      ]
+    }
+  ]
+}
