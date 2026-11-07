@@ -218,9 +218,9 @@ TEXT = {
     False: {'__TITLE__': 'Maktab Year Plan', '__H1__': f'Maktab Year Plan {YEAR}',
             '__SUB__': f'{site_settings.NAME} · {WHEN}. Tick lessons when you teach them. '
                        f'Mark a {DAY} “No class” and the plan moves everything forward.',
-            '__FOOT__': 'Islamic dates are approximate (moon sighting). Qur’an: Read Along has Al-Baqarah pages 2–5; the pages marked '
-                        '“to build” come next. Tajwid topics are placeholders until their lessons exist. Items marked “continued” carry on '
-                        'from the week before.'},
+            '__FOOT__': 'Islamic dates are approximate (moon sighting). Qur’an: Al-Baqarah pages marked “to build” are not in Read Along '
+                        'yet. Tajwid follows the 8 lessons of Interactive Tajwid; Salah follows Salah – Step by Step and the Salah games. '
+                        'Items marked “continued” carry on from the week before.'},
     True: {'__TITLE__': 'Maktab Class Plan', '__H1__': f'Maktab Class Plan {YEAR}',
            '__SUB__': f'{site_settings.NAME} · what each group learns {WHEN}. '
                       'Tap a lesson or a game to practise together at home. 📰 <a href="../updates/">Weekly updates</a>',
