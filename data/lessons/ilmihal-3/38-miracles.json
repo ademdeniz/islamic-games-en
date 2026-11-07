@@ -1,0 +1,49 @@
+{
+  "title": "The miracles of Allah’s messengers",
+  "pages": "38–39",
+  "intro": "Allah supported His messengers with miracles – signs no person could do.",
+  "learn": [
+    {"type": "text", "html": "A <b>mu‘jizah</b> (miracle) is an extraordinary event that Allah (SWT) gave to a messenger as <b>proof</b> that he truly was sent by Allah. No person could do it by their own power – it happened <b>only by Allah’s will</b>."},
+    {"type": "point", "title": "Why miracles?", "html": "People asked the messengers for proof. With the miracles Allah showed that the messengers spoke the <b>truth</b>, so that people would believe and follow them. Each miracle fitted what that messenger’s people knew best."},
+    {"type": "heading", "text": "Miracles of some of the messengers"},
+    {"type": "cards", "items": [
+      {"icon": "🔥", "label": "Ibrahim (AS) – the fire became cool and safe for him"},
+      {"icon": "🐪", "label": "Salih (AS) – the she-camel that came out of a rock"},
+      {"icon": "🪄", "label": "Musa (AS) – his staff became a snake, and the sea split in two"},
+      {"icon": "🐦", "label": "Sulayman (AS) – he understood the speech of birds and ants"},
+      {"icon": "👶", "label": "‘Isa (AS) – he spoke as a baby and healed the sick by Allah’s permission"},
+      {"icon": "🐟", "label": "Yunus (AS) – he came out alive from the belly of a great fish"}
+    ]},
+    {"type": "heading", "text": "Miracles of Muhammad (SAW)"},
+    {"type": "list", "items": [
+      "<b>The Qur’an</b> – his greatest miracle, and the only one that lasts until the end of the world. Nobody can bring anything like it.",
+      "<b>Isra and Mi‘raj</b> – the night journey to Jerusalem and the ascent through the heavens.",
+      "<b>The splitting of the moon</b> – the people of Makkah saw the moon split in two. <small>(Qur’an, Al-Qamar 54:1)</small>",
+      "<b>Water flowing from between his fingers</b>, so that many companions could drink and make wudu."
+    ]},
+    {"type": "point", "title": "Mu‘jizah and karamah", "html": "A miracle given to a <b>messenger</b> is a <b>mu‘jizah</b>. An extraordinary gift Allah gives to a very pious believer who is not a prophet is called a <b>karamah</b>."},
+    {"type": "point", "title": "⭐ Remember", "html": "Miracles happen only by <b>Allah’s will</b>. The miracles of the earlier messengers were seen by the people of their time – the <b>Qur’an</b> is a miracle we can still read, hear and learn today."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the messenger and his miracle", "pairs": [
+      ["Ibrahim (AS)", "The fire became cool"], ["Musa (AS)", "The staff and the sea"], ["Salih (AS)", "The she-camel"], ["Sulayman (AS)", "Understood birds and ants"], ["‘Isa (AS)", "Spoke as a baby"], ["Muhammad (SAW)", "The Qur’an"]
+    ]},
+    {"type": "choose_all", "title": "Miracles of Muhammad (SAW)", "prompt": "Tap every miracle of the Prophet Muhammad (SAW), then tap Check.", "options": [
+      {"text": "📖 The Qur’an", "correct": true},
+      {"text": "🌙 The splitting of the moon", "correct": true},
+      {"text": "🌌 Isra and Mi‘raj", "correct": true},
+      {"text": "💧 Water flowing from between his fingers", "correct": true},
+      {"text": "🔥 The fire became cool", "correct": false, "why": "That was the miracle of Ibrahim (AS)."},
+      {"text": "🌊 The sea split in two", "correct": false, "why": "That was the miracle of Musa (AS)."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is a mu‘jizah?", "options": ["An extraordinary event Allah gives a messenger as proof", "A trick anyone can learn", "A kind of prayer", "A book of hadith"], "answer": 0},
+      {"q": "By whose will do miracles happen?", "options": ["Only by Allah’s will", "By the messenger’s own power", "By the people’s wish", "By luck"], "answer": 0},
+      {"q": "What is the greatest miracle of Muhammad (SAW)?", "options": ["The Qur’an", "The she-camel", "The staff", "The ark"], "answer": 0},
+      {"q": "Which miracle lasts until the end of the world?", "options": ["The Qur’an", "The splitting of the sea", "The cool fire", "The she-camel"], "answer": 0},
+      {"q": "Whose staff became a snake?", "options": ["Musa (AS)", "‘Isa (AS)", "Nuh (AS)", "Yusuf (AS)"], "answer": 0},
+      {"q": "What do we call an extraordinary gift to a pious believer who is not a prophet?", "options": ["Karamah", "Mu‘jizah", "Wahy", "Sunnah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["💬 Why did Allah give the messengers miracles?", "📖 How can the Qur’an still be a miracle for us today?", "🤔 Which story of a miracle do you like best, and why?"]}
+  ]
+}
