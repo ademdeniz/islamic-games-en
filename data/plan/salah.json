@@ -1,41 +1,207 @@
 {
-  "_help": "Weekly Salah track for each group (plan.json: tracks of type salah, \"list\": starter or review). One line a week, spread over the weeks from the track's start. url is a site path; hint says what to do.",
+  "_help": "Weekly Salah track for each group (plan.json: tracks of type salah, \"list\": starter or review). The existing games and du‘a pages lead; the Salah – Step by Step lessons fill the steps they don’t cover. Items are spread over the weeks from the track's start (two in a week when there are more items than weeks). url is a site path; hint says what to do.",
   "starter": [
-    {"title": "What is Salah?", "url": "lessons/salah/01-what-is-salah/", "hint": "Salah – Step by Step, lesson 1"},
-    {"title": "The five daily prayers and their times", "url": "lessons/salah/02-five-prayers/", "hint": "lesson 2"},
-    {"title": "Getting ready for Salah", "url": "lessons/salah/03-getting-ready/", "hint": "lesson 3"},
-    {"title": "Wudu step by step", "url": "lessons/salah/04-wudu/", "hint": "lesson 4"},
-    {"title": "Practise wudu: Help the Kitty Make Wudu", "url": "games/pomozimo-maci-abdest/", "hint": "show the steps in class, play at home"},
-    {"title": "The positions of Salah", "url": "lessons/salah/05-positions/", "hint": "lesson 5 · practise standing, ruku‘ and sajdah in a row"},
-    {"title": "What we recite while standing – Subhanaka", "url": "lessons/salah/06-standing/", "hint": "lesson 6 · listen in Subhanaka (Duas & Dhikr)"},
-    {"title": "Al-Fatiha in Salah", "url": "games/learn-surahs-by-heart/#fatiha", "hint": "recite Al-Fatiha to the muallim"},
-    {"title": "The last sitting and the salam – At-Tahiyyat", "url": "lessons/salah/07-sitting/", "hint": "lesson 7"},
-    {"title": "At-Tahiyyat by heart", "url": "games/dove-ettehijjatu/", "hint": "part by part with the recording"},
-    {"title": "Let’s pray two rak‘ahs", "url": "lessons/salah/08-two-rakahs/", "hint": "lesson 8 · pray two rak‘ahs together"},
-    {"title": "Build the Salah – Fajr", "url": "games/sastavi-namaz/", "hint": "level 1"},
-    {"title": "Review: getting ready and wudu", "url": "games/kviz-maca-namaz/", "hint": "Preparing for Salah – Help the Kitty"},
-    {"title": "After Salah – tasbih", "url": "lessons/salah/10-after-salah/", "hint": "lesson 10 · Subhaanallaah, Alhamdulillaah, Allaahu akbar"},
-    {"title": "Review: the five prayers", "url": "lessons/salah/02-five-prayers/", "hint": "lesson 2 again · order and matching games"},
-    {"title": "Review: pray two rak‘ahs on your own", "url": "lessons/salah/08-two-rakahs/", "hint": "each child shows one rak‘ah to the muallim"}
+    {
+      "title": "What is Salah?",
+      "url": "lessons/salah/01-what-is-salah/",
+      "hint": "Salah – Step by Step, lesson 1"
+    },
+    {
+      "title": "Dua after the Adhan",
+      "url": "games/dove-dova-poslije-ezana/",
+      "hint": "listen part by part, then the short quiz"
+    },
+    {
+      "title": "The five daily prayers and their times",
+      "url": "lessons/salah/02-five-prayers/",
+      "hint": "lesson 2 · order and matching games"
+    },
+    {
+      "title": "Preparing for Salah – Help the Kitty",
+      "url": "games/kviz-maca-namaz/",
+      "hint": "find the pairs about getting ready · lesson 3"
+    },
+    {
+      "title": "Help the Kitty Make Wudu",
+      "url": "games/pomozimo-maci-abdest/",
+      "hint": "show the steps in class, play at home · lesson 4"
+    },
+    {
+      "title": "The positions of Salah",
+      "url": "lessons/salah/05-positions/",
+      "hint": "lesson 5 · practise standing, ruku‘ and sajdah in a row"
+    },
+    {
+      "title": "Subhanaka",
+      "url": "games/dove-subhaneke/",
+      "hint": "the opening dua – part by part with the recording · lesson 6"
+    },
+    {
+      "title": "Al-Fatiha in Salah",
+      "url": "games/learn-surahs-by-heart/#fatiha",
+      "hint": "recite Al-Fatiha to the muallim"
+    },
+    {
+      "title": "At-Tahiyyatu, Salawat and Duas",
+      "url": "games/dove-ettehijjatu/",
+      "hint": "start with At-Tahiyyat, part by part · lesson 7"
+    },
+    {
+      "title": "Let’s pray two rak‘ahs",
+      "url": "lessons/salah/08-two-rakahs/",
+      "hint": "lesson 8 · pray two rak‘ahs together"
+    },
+    {
+      "title": "Build the Salah – Fajr",
+      "url": "games/sastavi-namaz/",
+      "hint": "level 1"
+    },
+    {
+      "title": "Tasbih after Salah",
+      "url": "games/dove-tesbih/",
+      "hint": "Subhanallah, Alhamdulillah, Allahu akbar · lesson 10"
+    },
+    {
+      "title": "Dhikr after Salah",
+      "url": "games/dove-ala-resulina-salavat/",
+      "hint": "Ala rasulina salawat, Subhanallah, La ilaha illallah"
+    },
+    {
+      "title": "The Dua after Salah",
+      "url": "games/dove-namaska-dova/",
+      "hint": "from Alhamdulillah to Rabbanaghfir li"
+    },
+    {
+      "title": "Dua after the Adhan – Salah Academy",
+      "url": "games/dova-poslije-ezana/",
+      "hint": "match, put in order, final test"
+    },
+    {
+      "title": "Salah Academy – level 1",
+      "url": "games/akademija-namaza/",
+      "hint": "score 70% to move up"
+    },
+    {
+      "title": "Review: At-Tahiyyatu and Salawat",
+      "url": "games/dove-ettehijjatu/",
+      "hint": "recite to the muallim"
+    },
+    {
+      "title": "The 5 Daily Prayers",
+      "url": "games/5-dnevnih-namaza/",
+      "hint": "quiz together in class"
+    },
+    {
+      "title": "Review: Build the Salah",
+      "url": "games/sastavi-namaz/",
+      "hint": "Fajr and the next level"
+    },
+    {
+      "title": "Salah Quiz",
+      "url": "games/kviz-namaz/",
+      "hint": "class competition"
+    }
   ],
   "review": [
-    {"title": "Review: two rak‘ahs step by step", "url": "lessons/salah/08-two-rakahs/", "hint": "Salah – Step by Step, lesson 8 · then Build the Salah, level 1"},
-    {"title": "How many rak‘ahs? The five prayers in full", "url": "lessons/salah/09-rakahs/", "hint": "lesson 9 · 40 rak‘ahs, 17 fard"},
-    {"title": "Build the Salah – all levels", "url": "games/sastavi-namaz/", "hint": "Fajr, Sunnah of 4, Fard of 4, Maghrib…"},
-    {"title": "Review: wudu and what breaks it", "url": "lessons/salah/04-wudu/", "hint": "lesson 4 · then Help the Kitty Make Wudu"},
-    {"title": "Review: the conditions of Salah", "url": "games/kviz-maca-namaz/", "hint": "Preparing for Salah – Help the Kitty · lesson 3"},
-    {"title": "Salah Academy – levels 1 to 4", "url": "games/akademija-namaza/", "hint": "score 70% to move up"},
-    {"title": "Review: Subhanaka and Al-Fatiha", "url": "games/dove-subhaneke/", "hint": "recite to the muallim · lesson 6"},
-    {"title": "Review: At-Tahiyyat, Salawat and Duas", "url": "games/dove-ettehijjatu/", "hint": "recite to the muallim · lesson 7"},
-    {"title": "Salah Academy – Puzzles", "url": "games/akademija-namaza-igre/", "hint": "the Sunnah and Fard prayers in order"},
-    {"title": "Salah Academy – levels 5 to 8", "url": "games/akademija-namaza/", "hint": "score 70% to move up"},
-    {"title": "Witr and the Qunut dua", "url": "games/dove-kunut-dova/", "hint": "learn the Qunut part by part"},
-    {"title": "After Salah – dhikr and dua", "url": "lessons/salah/10-after-salah/", "hint": "lesson 10 · then Dhikr and Dua after Salah"},
-    {"title": "Ayat al-Kursi after Salah", "url": "games/dove-ajetul-kursijja/", "hint": "part by part with the recording"},
-    {"title": "The Dua after the Adhan", "url": "games/dova-poslije-ezana/", "hint": "Salah Academy – learn, match, test"},
-    {"title": "The 5 Daily Prayers – quiz", "url": "games/5-dnevnih-namaza/", "hint": "30 questions, 30 seconds each"},
-    {"title": "Salah Quiz", "url": "games/kviz-namaz/", "hint": "30 questions from a bank of 472"},
-    {"title": "Penalties – Salah", "url": "games/penali-n/", "hint": "class competition"},
-    {"title": "Submarine of Knowledge – Salah", "url": "games/podmornica-znanja-namaz/", "hint": "collect 500 jewels"}
+    {
+      "title": "Build the Salah – all levels",
+      "url": "games/sastavi-namaz/",
+      "hint": "Fajr, Sunnah of 4, Fard of 4, Maghrib… · lesson 8"
+    },
+    {
+      "title": "How many rak‘ahs? The five prayers in full",
+      "url": "lessons/salah/09-rakahs/",
+      "hint": "lesson 9 · 40 rak‘ahs, 17 fard"
+    },
+    {
+      "title": "Salah Academy – Puzzles",
+      "url": "games/akademija-namaza-igre/",
+      "hint": "the Sunnah and Fard prayers in order"
+    },
+    {
+      "title": "Review: Help the Kitty Make Wudu",
+      "url": "games/pomozimo-maci-abdest/",
+      "hint": "race the clock · lesson 4: what breaks wudu"
+    },
+    {
+      "title": "Review: Preparing for Salah – Help the Kitty",
+      "url": "games/kviz-maca-namaz/",
+      "hint": "the conditions of Salah"
+    },
+    {
+      "title": "Subhanaka",
+      "url": "games/dove-subhaneke/",
+      "hint": "recite to the muallim, then the quiz"
+    },
+    {
+      "title": "At-Tahiyyatu, Salawat and Duas",
+      "url": "games/dove-ettehijjatu/",
+      "hint": "recite to the muallim, then the quiz"
+    },
+    {
+      "title": "Salah Academy – levels 1 to 4",
+      "url": "games/akademija-namaza/",
+      "hint": "score 70% to move up"
+    },
+    {
+      "title": "The Dua after Salah",
+      "url": "games/dove-namaska-dova/",
+      "hint": "from Alhamdulillah to Rabbanaghfir li"
+    },
+    {
+      "title": "Dhikr after Salah",
+      "url": "games/dove-ala-resulina-salavat/",
+      "hint": "Ala rasulina salawat, Subhanallah, La ilaha illallah"
+    },
+    {
+      "title": "Tasbih after Salah",
+      "url": "games/dove-tesbih/",
+      "hint": "33 each and the last part"
+    },
+    {
+      "title": "Ayat al-Kursi after Salah",
+      "url": "games/dove-ajetul-kursijja/",
+      "hint": "part by part with the recording"
+    },
+    {
+      "title": "Dhikr and Dua after Salah – all four parts",
+      "url": "games/dove-zikr-i-dova-poslije-namaza/",
+      "hint": "salawat, Ayat al-Kursi, tasbih and the dua"
+    },
+    {
+      "title": "Salah Academy – levels 5 to 8",
+      "url": "games/akademija-namaza/",
+      "hint": "score 70% to move up"
+    },
+    {
+      "title": "The Qunut Dua",
+      "url": "games/dove-kunut-dova/",
+      "hint": "witr prayer · lesson 9"
+    },
+    {
+      "title": "Dua after the Adhan – Salah Academy",
+      "url": "games/dova-poslije-ezana/",
+      "hint": "learn, match, order, final test"
+    },
+    {
+      "title": "The 5 Daily Prayers",
+      "url": "games/5-dnevnih-namaza/",
+      "hint": "30 questions, 30 seconds each"
+    },
+    {
+      "title": "Salah Quiz",
+      "url": "games/kviz-namaz/",
+      "hint": "30 questions from a bank of 472"
+    },
+    {
+      "title": "Penalties – Salah",
+      "url": "games/penali-n/",
+      "hint": "class competition"
+    },
+    {
+      "title": "Submarine of Knowledge – Salah",
+      "url": "games/podmornica-znanja-namaz/",
+      "hint": "collect 500 jewels"
+    }
   ]
 }
