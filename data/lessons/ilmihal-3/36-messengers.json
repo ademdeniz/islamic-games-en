@@ -1,0 +1,121 @@
+{
+  "title": "Wa rusulihi – belief in Allah’s messengers",
+  "pages": "36–37",
+  "intro": "The fourth pillar of iman: we believe in all of Allah’s messengers.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Wa rusulihi</b> means believing in Allah’s <b>messengers</b>. Allah (SWT) chose people to whom He sent revelation. The messengers explained Allah’s guidance to people, called them to good and turned them away from evil."
+    },
+    {
+      "type": "point",
+      "title": "The first and the last",
+      "html": "<b>Adam (AS)</b> was the first human being and the first prophet. Allah taught him how to live on Earth, and after him sent messengers to people. <b>Muhammad (SAW)</b> is Allah’s <b>last</b> messenger – after him there will be no new messenger and no new revelation."
+    },
+    {
+      "type": "point",
+      "title": "How many messengers?",
+      "html": "The hadiths mention <b>124,000</b> prophets. The Qur’an names <b>25</b> of them. The most chosen of them, the <b>ulul-‘azm</b> (those of firm resolve), are <b>Nuh, Ibrahim, Musa, ‘Isa and Muhammad</b> (peace be upon them)."
+    },
+    {
+      "type": "heading",
+      "text": "The 25 messengers named in the Qur’an"
+    },
+    {
+      "type": "text",
+      "html": "Adam, Idris, Nuh, Hud, Salih, Ibrahim, Ishaq, Isma‘il, Lut, Ya‘qub, Yusuf, Ayyub, Shu‘ayb, Musa, Harun, Dhul-Kifl, Dawud, Sulayman, Ilyas, Al-Yasa‘, Yunus, Zakariyya, Yahya, ‘Isa and Muhammad (peace be upon them all)."
+    },
+    {
+      "type": "heading",
+      "text": "The qualities of the messengers"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {"icon": "🗣️", "label": "Sidq – they always told the truth"},
+        {"icon": "🤝", "label": "Amanah – they were trustworthy, reliable and honest"},
+        {"icon": "📜", "label": "Tabligh – they passed on Allah’s revelation exactly and completely"},
+        {"icon": "🤍", "label": "‘Ismah – they were kept pure from sin"},
+        {"icon": "💡", "label": "Fatanah – they were wise and sharp-minded"},
+        {"icon": "⚖️", "label": "‘Adalah – they were completely fair"}
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The messengers worked too"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {"icon": "🐑", "label": "Muhammad (SAW) – a shepherd, later a trader"},
+        {"icon": "🛡️", "label": "Dawud (AS) – made armour"},
+        {"icon": "🏛️", "label": "Sulayman (AS) – a builder"},
+        {"icon": "🪚", "label": "‘Isa (AS) – a carpenter"},
+        {"icon": "🧵", "label": "Idris (AS) – a tailor"},
+        {"icon": "🌾", "label": "Adam (AS) – a farmer"}
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The messengers lived simply and worked with their hands. When we mention a messenger’s name we say <b>‘alayhis-salaam</b> (AS) – peace be upon him. Their lives and their manners are an <b>example</b> for every believer."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the quality and its meaning",
+      "pairs": [
+        ["Sidq", "Always truthful"],
+        ["Amanah", "Trustworthy and honest"],
+        ["Tabligh", "Passed on the revelation completely"],
+        ["‘Ismah", "Pure from sin"],
+        ["Fatanah", "Wise and sharp-minded"],
+        ["‘Adalah", "Completely fair"]
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Ulul-‘azm or not?",
+      "prompt": "Put each messenger in the right box.",
+      "bins": ["Ulul-‘azm", "Other messengers"],
+      "items": [
+        {"text": "Nuh", "bin": 0},
+        {"text": "Ibrahim", "bin": 0},
+        {"text": "Musa", "bin": 0},
+        {"text": "‘Isa", "bin": 0},
+        {"text": "Muhammad", "bin": 0},
+        {"text": "Yusuf", "bin": 1},
+        {"text": "Yunus", "bin": 1},
+        {"text": "Dawud", "bin": 1},
+        {"text": "Hud", "bin": 1}
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {"q": "What does “wa rusulihi” mean?", "options": ["Belief in Allah’s messengers", "Belief in the angels", "Belief in the books", "Belief in the Last Day"], "answer": 0},
+        {"q": "Who was the first human being and the first prophet?", "options": ["Adam (AS)", "Nuh (AS)", "Ibrahim (AS)", "Musa (AS)"], "answer": 0},
+        {"q": "Who is Allah’s last messenger?", "options": ["Muhammad (SAW)", "‘Isa (AS)", "Musa (AS)", "Yahya (AS)"], "answer": 0},
+        {"q": "How many messengers are named in the Qur’an?", "options": ["25", "5", "124", "99"], "answer": 0},
+        {"q": "How many prophets do the hadiths mention?", "options": ["124,000", "25", "1,000", "313"], "answer": 0},
+        {"q": "Which group are the ulul-‘azm?", "options": ["Nuh, Ibrahim, Musa, ‘Isa and Muhammad", "Adam, Idris, Hud, Salih and Lut", "Yusuf, Yunus, Ayyub, Ilyas and Yahya", "Dawud, Sulayman, Harun, Ishaq and Ya‘qub"], "answer": 0},
+        {"q": "Which quality means the messengers always told the truth?", "options": ["Sidq", "Fatanah", "Tabligh", "‘Ismah"], "answer": 0},
+        {"q": "Which quality means they passed on the revelation exactly and completely?", "options": ["Tabligh", "Sidq", "Amanah", "‘Adalah"], "answer": 0},
+        {"q": "What work did Dawud (AS) do?", "options": ["He made armour", "He was a tailor", "He was a carpenter", "He was a farmer"], "answer": 0},
+        {"q": "What work did Muhammad (SAW) do?", "options": ["Shepherd, later a trader", "Builder", "Tailor", "Carpenter"], "answer": 0},
+        {"q": "What do we say when we mention a messenger’s name?", "options": ["‘Alayhis-salaam", "Bismillah", "Aameen", "Subhanallah"], "answer": 0}
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "💬 How many of the 25 messengers can you name without looking?",
+        "🤝 Which quality of the messengers would you most like to have, and why?",
+        "🛠️ The messengers worked with their hands. How can you help at home this week?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Water is the source of life",
+  "pages": "19",
+  "intro": "Water is one of the greatest mercies of Allah.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Water is one of the <b>greatest mercies</b> of Allah. In the Qur’an Allah tells us that He made <b>every living thing from water</b>."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah says that from water He made every living thing. <small>(Qur’an, Al-Anbiya 21:30)</small><br>That is why we say: <b>water is the source of life</b>."
+    },
+    {
+      "type": "heading",
+      "text": "💧 Did you know?"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {"icon": "🧒", "label": "About 70 out of every 100 parts of our body are water"},
+        {"icon": "🌍", "label": "Water covers more than two thirds of the Earth"},
+        {"icon": "🌧️", "label": "Water goes round and round: sea → cloud → rain → river → sea"},
+        {"icon": "🌱", "label": "People, animals and plants all need water to live"}
+      ]
+    },
+    {
+      "type": "point",
+      "title": "🫧 Clean and cleaning",
+      "html": "Allah made water <b>clean</b>, and it also <b>makes things clean</b>. It washes away the dirt we can see and the germs we cannot see. It also helps us relax and get ready for salah. That is why we wash with water (wudu) and bathe regularly."
+    },
+    {
+      "type": "heading",
+      "text": "Hadith"
+    },
+    {
+      "type": "text",
+      "html": "Muhammad (SAW) said: <i>“The best water on the face of the Earth is Zamzam. In it there is food for the hungry and a cure for the sick.”</i> <small>(Tabarani, Ibn Hibban)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "There is only a little drinking water, so let’s <b>save water</b> and protect life on Earth! Let’s think about the blessing of water and be <b>thankful</b> to our Lord – say <b>Alhamdulillah</b> after you drink."
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "How can we save water?",
+      "prompt": "Tap every way to save water, then tap Check.",
+      "options": [
+        {"text": "🚰 Turn off the tap while brushing our teeth", "correct": true},
+        {"text": "🥤 Drink all the water we pour into our glass", "correct": true},
+        {"text": "🔧 Tell an adult when a tap is dripping", "correct": true},
+        {"text": "🤲 Use just enough water for wudu", "correct": true},
+        {"text": "💦 Leave the tap running while we play", "correct": false, "why": "That wastes water – and drinking water is precious."},
+        {"text": "🛁 Fill the bath and then pour it away without using it", "correct": false, "why": "That wastes a lot of water we could have saved."}
+      ]
+    },
+    {
+      "type": "order",
+      "title": "The water cycle",
+      "prompt": "Put the journey of water in order, starting with the sea.",
+      "items": [
+        "🌊 Water is in the sea",
+        "☀️ The sun warms it and it rises up",
+        "☁️ It becomes clouds",
+        "🌧️ It falls as rain",
+        "🏞️ It flows in rivers back to the sea"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {"q": "From what did Allah make every living thing?", "options": ["From water", "From sand", "From fire", "From wood"], "answer": 0},
+        {"q": "Why do we say water is the source of life?", "options": ["Because everything living needs water and was made from it", "Because it is blue", "Because it is cold", "Because it is in the sea"], "answer": 0},
+        {"q": "How much of our body is water?", "options": ["About 70 out of 100 parts", "About 5 out of 100 parts", "None", "All of it"], "answer": 0},
+        {"q": "What does it mean that water is clean and cleaning?", "options": ["It is pure and it washes away dirt and germs", "It makes things dirty", "It is only for drinking", "It has no use"], "answer": 0},
+        {"q": "What is the best water on Earth?", "options": ["Zamzam", "Sea water", "Rain in a puddle", "Juice"], "answer": 0},
+        {"q": "Why do we save water?", "options": ["Because there is only a little drinking water", "Because water is boring", "Because it is too heavy", "We don’t need to save it"], "answer": 0},
+        {"q": "What do we say to thank Allah after drinking?", "options": ["Alhamdulillah", "Goodbye", "Hurry up", "Nothing"], "answer": 0}
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "💬 From what did Allah make every living thing?",
+        "💧 Why do we say that water is the source of life?",
+        "🫧 How is water both clean and cleaning?",
+        "🚰 Why do we save water? How will you save water this week?",
+        "🤲 For what do we thank our Lord?",
+        "🕋 Which is the best water on Earth?"
+      ]
+    }
+  ]
+}

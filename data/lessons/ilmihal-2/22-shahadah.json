@@ -1,0 +1,163 @@
+{
+  "title": "First pillar of Islam – the Shahadah",
+  "pages": "22–23",
+  "intro": "The pillars of Islam are the main duties of a Muslim. The first one is to say the Shahadah.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>pillars of Islam</b> are the main Islamic duties, and there are <b>five</b> of them. The first pillar of Islam – and the first main duty – is to <b>say the Shahadah</b> (Kalimat ash-shahadah)."
+    },
+    {
+      "type": "phrase",
+      "label": "The Shahadah",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "Ash-hadu an laa ilaaha illallaah, wa ash-hadu anna Muhammadan ‘abduhu wa rasooluhu",
+      "en": "I bear witness that there is no god but Allah, and I bear witness that Muhammad (SAW) is Allah’s servant and Messenger."
+    },
+    {
+      "type": "heading",
+      "text": "The Shahadah has two parts"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "☝️",
+          "label": "Ash-hadu an laa ilaaha illallaah – With the first part we confirm that we believe Allah (SWT) exists and that He is One. With it we show we obey Allah."
+        },
+        {
+          "icon": "🕌",
+          "label": "Wa ash-hadu anna Muhammadan ‘abduhu wa rasooluhu – With the second part we confirm that Muhammad (SAW) is Allah’s servant and Messenger. With it we show we follow the Prophet."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "From the moment we say the Shahadah for the first time, we promise to do what Allah (SWT) has commanded, to stay away from what He has forbidden, and to follow the <b>Sunnah</b> of the Prophet (SAW)."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The <b>Sunnah</b> is everything the Prophet Muhammad (SAW) said, did, or silently approved of when others did it."
+    },
+    {
+      "type": "text",
+      "html": "When we <b>say the Shahadah often</b>, our faith and our obedience to Allah (SWT) and His Messenger grow stronger."
+    },
+    {
+      "type": "point",
+      "title": "💬 Talk with your muallim",
+      "html": "The Shahadah in my heart, on my tongue and in what I do."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Put the Shahadah in order",
+      "prompt": "Tap the parts in the right order.",
+      "items": [
+        "Ash-hadu an laa ilaaha illallaah,",
+        "wa ash-hadu anna",
+        "Muhammadan",
+        "‘abduhu wa rasooluhu"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words and their meaning",
+      "pairs": [
+        [
+          "Ash-hadu",
+          "I bear witness"
+        ],
+        [
+          "Laa ilaaha illallaah",
+          "There is no god but Allah"
+        ],
+        [
+          "‘Abduhu",
+          "His servant"
+        ],
+        [
+          "Rasooluhu",
+          "His Messenger"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many pillars of Islam are there?",
+          "options": [
+            "Five",
+            "Six",
+            "Three",
+            "Seven"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the first pillar of Islam?",
+          "options": [
+            "Saying the Shahadah",
+            "Fasting",
+            "Zakah",
+            "Hajj"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we confirm with the first part of the Shahadah?",
+          "options": [
+            "That Allah exists and is One",
+            "That the Prophet was a merchant",
+            "That we must fast",
+            "That the Qur’an has 114 surahs"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we confirm with the second part of the Shahadah?",
+          "options": [
+            "That Muhammad (SAW) is Allah’s servant and Messenger",
+            "That there are five prayers",
+            "That angels are made of light",
+            "That the Ka‘bah is in Makkah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the Sunnah?",
+          "options": [
+            "What the Prophet (SAW) said, did or approved",
+            "A kind of fasting",
+            "The name of a surah",
+            "A part of the mosque"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happens when we say the Shahadah often?",
+          "options": [
+            "Our faith grows stronger",
+            "Nothing at all",
+            "We forget our prayers",
+            "Our faith gets weaker"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose your task",
+      "prompts": [
+        "✍️ Write a short poem or a few sentences: “The Shahadah – the joy of my heart”, and read it in class.",
+        "👨‍👩‍👧 Teach the words of the Shahadah to a younger child in your family – a brother, sister or cousin.",
+        "💬 What does the Shahadah mean to you?"
+      ]
+    }
+  ]
+}

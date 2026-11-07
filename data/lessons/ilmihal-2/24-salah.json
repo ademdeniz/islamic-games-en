@@ -1,0 +1,216 @@
+{
+  "title": "Second pillar of Islam – Salah",
+  "pages": "24–25",
+  "intro": "Salah is the second pillar of Islam: five prayers every day, at their set times.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The second pillar of Islam – and the second main Islamic duty – is <b>Salah</b> (prayer)."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah (SWT) tells us in the Qur’an to keep up the prayer, because <b>prayer keeps a person away from shameful and evil deeds</b> (Al-‘Ankabut, 29:45)."
+    },
+    {
+      "type": "text",
+      "html": "Salah is the most complete way of showing our <b>obedience and thankfulness</b> to Allah (SWT). It is commanded in the Qur’an, and the Prophet Muhammad (SAW) showed us how to pray."
+    },
+    {
+      "type": "heading",
+      "text": "Five prayers in 24 hours, each at its own time"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🌅",
+          "label": "Fajr – From dawn until sunrise."
+        },
+        {
+          "icon": "☀️",
+          "label": "Dhuhr – When the sun has passed the middle of the sky."
+        },
+        {
+          "icon": "🌤️",
+          "label": "Asr – Halfway between Dhuhr and sunset."
+        },
+        {
+          "icon": "🌇",
+          "label": "Maghrib – When the sun has set."
+        },
+        {
+          "icon": "🌙",
+          "label": "Isha – When the night has fully come."
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember: three times when we must not pray",
+      "html": "1. When the sun is <b>rising</b>. 2. When the sun is <b>setting</b>. 3. When the sun is in the <b>middle of the sky</b>.<br>That is about 45 minutes after sunrise, 45 minutes before sunset, and 5–10 minutes while the sun is at its highest."
+    },
+    {
+      "type": "text",
+      "html": "With Salah we <b>thank Allah</b> for all the blessings He has given us in this world (dunya), and we hope for His mercy and reward in the next world (akhirah)."
+    },
+    {
+      "type": "text",
+      "html": "A Muslim knows that every prayer is a <b>meeting with Allah</b> (SWT), and that Salah reminds us of the Day of Judgement. Salah also protects us from doing wrong."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "“The first thing a person will be asked about on the Day of Judgement is the prayer. If the prayer is good, the rest of their deeds will be good; if it is bad, the rest of their deeds will be bad.” <small>(Tabarani)</small>"
+    },
+    {
+      "type": "text",
+      "html": "We build the habit of praying from early childhood, and Salah becomes a <b>duty</b> from the moment we come of age, for the rest of our life."
+    },
+    {
+      "type": "point",
+      "title": "💬 Talk with your muallim",
+      "html": "Salah – the joy of my life."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The five daily prayers in order",
+      "prompt": "Tap the prayers from the first of the day to the last.",
+      "items": [
+        "Fajr",
+        "Dhuhr",
+        "Asr",
+        "Maghrib",
+        "Isha"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the prayer and its time",
+      "pairs": [
+        [
+          "Fajr",
+          "From dawn until sunrise"
+        ],
+        [
+          "Dhuhr",
+          "After the sun passes the middle of the sky"
+        ],
+        [
+          "Maghrib",
+          "When the sun has set"
+        ],
+        [
+          "Isha",
+          "When the night has fully come"
+        ]
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "When must we NOT pray?",
+      "prompt": "Tap the three times when we must not pray, then tap Check.",
+      "options": [
+        {
+          "text": "🌅 While the sun is rising",
+          "correct": true
+        },
+        {
+          "text": "🌇 While the sun is setting",
+          "correct": true
+        },
+        {
+          "text": "☀️ While the sun is in the middle of the sky",
+          "correct": true
+        },
+        {
+          "text": "🌙 When the night has fully come",
+          "correct": false,
+          "why": "That is the time of Isha – we pray then."
+        },
+        {
+          "text": "🌄 Between dawn and sunrise",
+          "correct": false,
+          "why": "That is the time of Fajr – we pray then."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the second pillar of Islam?",
+          "options": [
+            "Salah",
+            "Hajj",
+            "Zakah",
+            "Fasting"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many prayers must a Muslim pray every day?",
+          "options": [
+            "Five",
+            "Three",
+            "Two",
+            "Seven"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When do we pray Fajr?",
+          "options": [
+            "From dawn until sunrise",
+            "When the sun has set",
+            "At midnight",
+            "Halfway through the afternoon"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which prayer do we pray when the sun has set?",
+          "options": [
+            "Maghrib",
+            "Dhuhr",
+            "Fajr",
+            "Asr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What will we be asked about first on the Day of Judgement?",
+          "options": [
+            "The prayer",
+            "Our clothes",
+            "Our games",
+            "Our house"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Salah protect us from?",
+          "options": [
+            "Shameful and evil deeds",
+            "Rain",
+            "Being tired",
+            "Homework"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Use what you learned",
+      "prompts": [
+        "🌅 Start your day with Fajr, between dawn and sunrise.",
+        "🧎 Get ready and show your friends in the maktab how to pray two rak‘ahs.",
+        "📅 Plan your week so that Salah always comes first – and Jumu‘ah on Friday!"
+      ]
+    }
+  ]
+}
