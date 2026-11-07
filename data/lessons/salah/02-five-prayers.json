@@ -1,0 +1,34 @@
+{
+  "title": "The five daily prayers and their times",
+  "pages": "2",
+  "intro": "Each of the five prayers has its own time of the day.",
+  "learn": [
+    {"type": "text", "html": "Allah gave every prayer its <b>own time</b>. We pray each prayer <b>in its time</b> – not too early and not too late."},
+    {"type": "cards", "items": [
+      {"icon": "🌅", "label": "Fajr – from dawn until just before sunrise"},
+      {"icon": "☀️", "label": "Dhuhr – when the sun has passed the middle of the sky"},
+      {"icon": "🌤️", "label": "Asr – in the afternoon, when the sun leans to the west"},
+      {"icon": "🌇", "label": "Maghrib – just after sunset"},
+      {"icon": "🌙", "label": "Isha – when it is fully dark"}
+    ]},
+    {"type": "point", "title": "🌞 Three times we do not pray", "html": "While the sun is <b>rising</b>, while it stands in the <b>middle of the sky</b>, and while it is <b>setting</b>."},
+    {"type": "point", "title": "⭐ Remember", "html": "<b>Fajr, Dhuhr, Asr, Maghrib, Isha</b> – say them in order five times!"}
+  ],
+  "practice": [
+    {"type": "order", "title": "The prayers of the day in order", "prompt": "Start with the first prayer of the day.", "items": ["🌅 Fajr", "☀️ Dhuhr", "🌤️ Asr", "🌇 Maghrib", "🌙 Isha"]},
+    {"type": "memory", "title": "Match the prayer and its time", "pairs": [
+      ["Fajr", "At dawn"], ["Dhuhr", "Just after midday"], ["Asr", "In the afternoon"], ["Maghrib", "After sunset"], ["Isha", "When it is dark"]
+    ]},
+    {"type": "sort", "title": "Day or night?", "prompt": "Is this prayer in daylight or when it is dark?", "bins": ["☀️ In daylight", "🌙 When it is dark"], "items": [
+      {"text": "Dhuhr", "bin": 0}, {"text": "Asr", "bin": 0}, {"text": "Isha", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which is the first prayer of the day?", "options": ["Fajr", "Isha", "Asr", "Dhuhr"], "answer": 0},
+      {"q": "Which prayer do we pray just after sunset?", "options": ["Maghrib", "Fajr", "Dhuhr", "Asr"], "answer": 0},
+      {"q": "Which prayer do we pray when it is fully dark?", "options": ["Isha", "Fajr", "Dhuhr", "Asr"], "answer": 0},
+      {"q": "Which prayer comes after Dhuhr?", "options": ["Asr", "Fajr", "Isha", "Maghrib"], "answer": 0},
+      {"q": "When do we NOT pray?", "options": ["While the sun is rising", "At dawn", "After sunset", "When it is dark"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "At home", "prompts": ["🕐 Ask your parents what time Maghrib is today.", "📱 Look at a prayer-times calendar from the masjid.", "🗣️ Say the five prayers in order to your family."]}
+  ]
+}

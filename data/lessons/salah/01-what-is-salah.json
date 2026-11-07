@@ -1,0 +1,37 @@
+{
+  "title": "What is Salah?",
+  "pages": "1",
+  "intro": "Salah is how we talk to Allah – five times every day.",
+  "learn": [
+    {"type": "text", "html": "<b>Salah</b> (prayer) is the <b>second pillar of Islam</b>. In Salah we stand before Allah, praise Him, thank Him and ask Him for help. It is the highest way of showing that we <b>obey</b> and <b>thank</b> Allah."},
+    {"type": "cards", "items": [
+      {"icon": "☝️", "label": "1st pillar – the Shahadah"},
+      {"icon": "🕌", "label": "2nd pillar – Salah"},
+      {"icon": "🌙", "label": "3rd pillar – fasting in Ramadan"},
+      {"icon": "🤲", "label": "4th pillar – Zakah"},
+      {"icon": "🕋", "label": "5th pillar – Hajj"}
+    ]},
+    {"type": "point", "title": "🕐 Five times a day", "html": "Every day a Muslim prays <b>five</b> prayers: <b>Fajr, Dhuhr, Asr, Maghrib</b> and <b>Isha</b>. Each one has its own time."},
+    {"type": "point", "title": "💚 Why do we pray?", "html": "We pray to come <b>closer to Allah</b> and to earn His pleasure. Salah keeps us away from bad deeds, makes our heart calm and teaches us to be clean and on time."},
+    {"type": "text", "html": "Before Salah we hear the <b>adhan</b> – the call to prayer. It tells everyone: it is time to pray! Learn the dua we say after it: <a href=\"../../../games/dove-dova-poslije-ezana/\">Dua after the Adhan</a>."},
+    {"type": "point", "title": "⭐ Remember", "html": "Salah is the <b>second pillar of Islam</b>. We pray <b>five</b> times every day."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The five pillars of Islam", "prompt": "Put the pillars of Islam in order.", "items": ["☝️ Shahadah", "🕌 Salah", "🌙 Fasting in Ramadan", "🤲 Zakah", "🕋 Hajj"]},
+    {"type": "choose_all", "title": "What does Salah do for us?", "prompt": "Tap everything Salah gives us, then tap Check.", "options": [
+      {"text": "💚 It brings us closer to Allah", "correct": true},
+      {"text": "😌 It makes our heart calm", "correct": true},
+      {"text": "🛑 It keeps us away from bad deeds", "correct": true},
+      {"text": "⏰ It teaches us to be on time", "correct": true},
+      {"text": "🎮 It is a game we play when we are bored", "correct": false, "why": "Salah is worship – we stand before Allah."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which pillar of Islam is Salah?", "options": ["The second", "The first", "The fourth", "The fifth"], "answer": 0},
+      {"q": "How many prayers do we pray every day?", "options": ["Five", "Three", "Two", "Ten"], "answer": 0},
+      {"q": "What do we hear before Salah?", "options": ["The adhan", "A bell", "A song", "Nothing"], "answer": 0},
+      {"q": "Why do we pray?", "options": ["To come closer to Allah", "To show off", "To be faster than others", "To play"], "answer": 0},
+      {"q": "Which of these is one of the five daily prayers?", "options": ["Maghrib", "Ramadan", "Hajj", "Zakah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["💬 What is Salah?", "🕐 Can you name the five prayers?", "👨‍👩‍👧 Who prays in your home? Ask them to show you!"]}
+  ]
+}

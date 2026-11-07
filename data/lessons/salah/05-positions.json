@@ -1,0 +1,35 @@
+{
+  "title": "The positions of Salah",
+  "pages": "5",
+  "intro": "Standing, bowing, prostrating and sitting – and what we say in each.",
+  "learn": [
+    {"type": "text", "html": "In Salah our body moves through a few <b>positions</b>. Between them we say <b>Allaahu akbar</b> – Allah is the Greatest."},
+    {"type": "cards", "items": [
+      {"icon": "🧍", "label": "Qiyam – standing; we recite Al-Fatiha and a surah"},
+      {"icon": "🙇", "label": "Ruku‘ – bowing, hands on the knees"},
+      {"icon": "🧍", "label": "Qawmah – standing up again after ruku‘"},
+      {"icon": "🛐", "label": "Sajdah – forehead and nose on the ground; we do it twice"},
+      {"icon": "🧎", "label": "Jalsah – a short sitting between the two sajdahs"},
+      {"icon": "🧎", "label": "Qa‘dah – the sitting at the end; we recite At-Tahiyyat"}
+    ]},
+    {"type": "phrase", "label": "Opening takbir – we raise our hands", "ar": "اللَّهُ أَكْبَرُ", "tr": "Allaahu akbar", "en": "Allah is the Greatest."},
+    {"type": "phrase", "label": "In ruku‘ – 3 times", "ar": "سُبْحَانَ رَبِّيَ الْعَظِيمِ", "tr": "Subhaana Rabbiyal-‘Azeem", "en": "Glory be to my Lord, the Most Great."},
+    {"type": "phrase", "label": "Standing up from ruku‘", "ar": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ، رَبَّنَا لَكَ الْحَمْدُ", "tr": "Sami‘allaahu liman hamidah. Rabbanaa lakal-hamd.", "en": "Allah hears the one who praises Him. Our Lord, to You belongs all praise."},
+    {"type": "phrase", "label": "In sajdah – 3 times", "ar": "سُبْحَانَ رَبِّيَ الْأَعْلَى", "tr": "Subhaana Rabbiyal-A‘laa", "en": "Glory be to my Lord, the Most High."},
+    {"type": "point", "title": "⭐ Remember", "html": "One <b>rak‘ah</b> = standing, one ruku‘ and two sajdahs. In sajdah we are closest to Allah."}
+  ],
+  "practice": [
+    {"type": "order", "title": "One rak‘ah in order", "prompt": "Put the positions of one rak‘ah in order.", "items": ["🧍 Standing (qiyam)", "🙇 Bowing (ruku‘)", "🧍 Standing up again", "🛐 First sajdah", "🧎 Short sitting", "🛐 Second sajdah"]},
+    {"type": "memory", "title": "Match the position and what we say", "pairs": [
+      ["Ruku‘", "Subhaana Rabbiyal-‘Azeem"], ["Sajdah", "Subhaana Rabbiyal-A‘laa"], ["Standing up from ruku‘", "Sami‘allaahu liman hamidah"], ["Moving to a new position", "Allaahu akbar"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What do we say when we start Salah?", "options": ["Allaahu akbar", "Ameen", "As-salaamu ‘alaykum", "Bismillah"], "answer": 0},
+      {"q": "What is ruku‘?", "options": ["Bowing with hands on the knees", "Sitting", "Lying down", "Standing still"], "answer": 0},
+      {"q": "How many sajdahs are in one rak‘ah?", "options": ["Two", "One", "Three", "Four"], "answer": 0},
+      {"q": "What do we say in sajdah?", "options": ["Subhaana Rabbiyal-A‘laa", "Subhaana Rabbiyal-‘Azeem", "Rabbi yassir", "Ameen"], "answer": 0},
+      {"q": "In which position are we closest to Allah?", "options": ["Sajdah", "Standing", "Walking", "Sitting at the end"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Practise together", "prompts": ["🧍 Stand in a row with your friends and show each position as your muallim calls it.", "🗣️ Say what we recite in ruku‘ and in sajdah."]}
+  ]
+}
