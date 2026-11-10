@@ -1,0 +1,153 @@
+{
+ "week": "2026-11-08",
+ "groups": {
+  "g1": [
+   {
+    "id": "i2-22",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.22 – First pillar of Islam – the Shahadah",
+    "keys": [
+     "lessons/ilmihal-2/22-shahadah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/22-shahadah/"
+   },
+   {
+    "id": "i2-24",
+    "kind": "lesson",
+    "label": "Ilmihal 2 p.24 – Second pillar of Islam – Salah",
+    "keys": [
+     "lessons/ilmihal-2/24-salah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-2/24-salah/"
+   },
+   {
+    "id": "i3-36",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.36 – Belief in Allah’s messengers and their qualities",
+    "keys": [
+     "lessons/ilmihal-3/36-messengers"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/36-messengers/"
+   },
+   {
+    "id": "i3-38",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.38 – The miracles of Allah’s messengers",
+    "keys": [
+     "lessons/ilmihal-3/38-miracles"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/38-miracles/"
+   },
+   {
+    "id": "i3-40",
+    "kind": "lesson",
+    "label": "Ilmihal 3 p.40 – The Qur’an, Isra and Mi‘raj",
+    "keys": [
+     "lessons/ilmihal-3/40-quran-isra-miraj"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-3/40-quran-isra-miraj/"
+   },
+   {
+    "id": "q-7",
+    "kind": "quran",
+    "label": "Read Along – Al-Baqarah page 7",
+    "keys": [
+     "games/citaj-kuran#page-7"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/games/citaj-kuran#page-7"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Zay ز",
+    "keys": [
+     "sufara/05-zay"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/05-zay/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/mektebski-detektiv",
+     "games/5-dnevnih-namaza",
+     "games/akademija-namaza",
+     "games/citaj-kuran",
+     "games/mektebski-safari",
+     "games/mektebski-fudbal"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-11-08/"
+   }
+  ],
+  "g2": [
+   {
+    "id": "i1-19",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.19 – Water is the source of life",
+    "keys": [
+     "lessons/ilmihal-1/19-water"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/19-water/"
+   },
+   {
+    "id": "i1-20",
+    "kind": "lesson",
+    "label": "Ilmihal 1 p.20 – Review",
+    "keys": [
+     "lessons/ilmihal-1/20-review"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/ilmihal-1/20-review/"
+   },
+   {
+    "id": "sl2-0",
+    "kind": "lesson",
+    "label": "Salah – What is Salah?",
+    "keys": [
+     "lessons/salah/01-what-is-salah"
+    ],
+    "min": 5,
+    "url": "https://ademdeniz.github.io/islamic-games-en/lessons/salah/01-what-is-salah/"
+   },
+   {
+    "id": "sufara",
+    "kind": "sufara",
+    "label": "Sufara – Zay ز",
+    "keys": [
+     "sufara/05-zay"
+    ],
+    "min": 15,
+    "url": "https://ademdeniz.github.io/islamic-games-en/sufara/05-zay/"
+   },
+   {
+    "id": "games",
+    "kind": "game",
+    "label": "Games – any of this week’s games",
+    "keys": [
+     "games/kviz-imanski-sarti",
+     "games/learn-surahs-by-heart",
+     "games/tajna-zivotinja",
+     "games/zagonetna-zivotinja-a3",
+     "games/ilmihal-memori",
+     "games/islamski-milijunas",
+     "games/mektebski-akvarij",
+     "games/mektebsko-povlacenje-konopa"
+    ],
+    "min": 10,
+    "url": "https://ademdeniz.github.io/islamic-games-en/updates/2026-11-08/"
+   }
+  ]
+ }
+}
