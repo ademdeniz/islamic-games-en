@@ -1,0 +1,43 @@
+{
+  "title": "Shafa‘ah, Mizan and the Sirat bridge",
+  "pages": "46–47",
+  "intro": "Intercession, the scales of deeds and the bridge – what awaits us on the Last Day.",
+  "learn": [
+    {"type": "heading", "text": "Shafa‘ah – intercession"},
+    {"type": "text", "html": "<b>Shafa‘ah</b> means asking Allah to forgive someone or to raise them. On the Last Day, <b>by Allah’s permission</b>, the Prophet Muhammad (SAW) will intercede for the believers of his ummah. Others may intercede too – prophets, martyrs, the Qur’an itself for those who recited it – but only with Allah’s permission."},
+    {"type": "heading", "text": "Mizan – the scales"},
+    {"type": "text", "html": "On the Last Day Allah will set up the <b>Mizan</b> – the scales – and weigh our deeds with complete justice. No one will be wronged in the least. <small>(Qur’an, Al-Anbiya 21:47)</small> Whose good deeds are <b>heavier</b> will be successful."},
+    {"type": "point", "title": "Heavy on the scales", "html": "The Prophet (SAW) said that nothing is heavier on the scales than <b>good character</b>. Two light phrases are heavy on the scales: <b>Subhaanallaahi wa bihamdihi, subhaanallaahil-‘Azeem</b>. <small>(Bukhari)</small>"},
+    {"type": "heading", "text": "As-Sirat – the bridge"},
+    {"type": "text", "html": "The <b>Sirat</b> is a bridge over Jahannam that every person must cross. People cross it according to their deeds: some like lightning, some like the wind, some running, some walking, some crawling."},
+    {"type": "cards", "items": [
+      {"icon": "🤲", "label": "Shafa‘ah – intercession, by Allah’s permission"},
+      {"icon": "⚖️", "label": "Mizan – the scales of deeds"},
+      {"icon": "🌉", "label": "Sirat – the bridge over Jahannam"},
+      {"icon": "💧", "label": "Al-Hawd – the Prophet’s pool; whoever drinks from it is never thirsty again"}
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Our deeds today decide how heavy our scales are and how fast we cross the Sirat. Let’s send <b>salawat</b> on the Prophet (SAW) and hope for his intercession."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Shafa‘ah", "Intercession"], ["Mizan", "The scales of deeds"], ["Sirat", "The bridge over Jahannam"], ["Al-Hawd", "The Prophet’s pool"]
+    ]},
+    {"type": "choose_all", "title": "Heavy on the scales", "prompt": "Tap every deed that makes our good scale heavier, then tap Check.", "options": [
+      {"text": "😊 Good character", "correct": true},
+      {"text": "📿 Subhaanallaahi wa bihamdihi", "correct": true},
+      {"text": "🕌 Praying on time", "correct": true},
+      {"text": "🤝 Helping our parents", "correct": true},
+      {"text": "🗯️ Making fun of others", "correct": false, "why": "That is a bad deed – it makes the other side heavier."},
+      {"text": "🤥 Lying", "correct": false, "why": "Lying is a sin – it does not add to our good deeds."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is shafa‘ah?", "options": ["Intercession by Allah’s permission", "A kind of fasting", "The scales", "A bridge"], "answer": 0},
+      {"q": "Who will intercede for the believers of his ummah?", "options": ["Muhammad (SAW)", "Nobody", "Any person who wants to", "The angels only"], "answer": 0},
+      {"q": "What is the Mizan?", "options": ["The scales on which deeds are weighed", "A bridge", "A pool", "A book"], "answer": 0},
+      {"q": "What is heaviest on the scales, according to the Prophet (SAW)?", "options": ["Good character", "Money", "Fame", "Strength"], "answer": 0},
+      {"q": "What is the Sirat?", "options": ["A bridge over Jahannam", "A garden", "A mosque", "A river"], "answer": 0},
+      {"q": "How fast does a person cross the Sirat?", "options": ["According to their deeds", "Everyone at the same speed", "According to their age", "According to their wealth"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["⚖️ Which good habit will you add to your scales this week?", "📿 Say Subhaanallaahi wa bihamdihi, subhaanallaahil-‘Azeem 10 times today."]}
+  ]
+}

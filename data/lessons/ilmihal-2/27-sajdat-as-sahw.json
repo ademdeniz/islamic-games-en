@@ -1,0 +1,44 @@
+{
+  "title": "Sajdat as-sahw – the prostration of forgetfulness",
+  "pages": "27",
+  "intro": "Two extra sajdahs that fix a mistake we made in Salah without meaning to.",
+  "learn": [
+    {"type": "text", "html": "We learned that <b>sajdah</b> is a part of Salah and the greatest sign of obedience and thanks to Allah. <b>Sajdat as-sahw</b> is an extra sajdah we make to <b>correct a mistake</b> we made in Salah <b>without meaning to</b>."},
+    {"type": "heading", "text": "We must make sajdat as-sahw if we…"},
+    {"type": "list", "items": [
+      "forget a <b>wajib</b> of Salah – Al-Fatiha, the surah, the Qunut dua, At-Tahiyyat or the first sitting",
+      "are <b>late</b> with a wajib – we forget the first sitting, stand up for the 3rd rak‘ah, and go back to sit",
+      "are <b>late</b> with a fard – in the 3rd or 4th rak‘ah of a fard we add a surah after Al-Fatiha and so are late for ruku‘",
+      "pray <b>more rak‘ahs</b> than we should – five instead of four",
+      "are <b>not sure</b> how many rak‘ahs we prayed – then we count the <b>smaller</b> number"
+    ]},
+    {"type": "heading", "text": "How do we make it?"},
+    {"type": "list", "items": [
+      "At the end of Salah we give the salam to the <b>right</b> side only",
+      "Then we make <b>two sajdahs</b>, just like the normal sajdahs of Salah",
+      "We sit again and recite <b>At-Tahiyyat, the salawat and the duas</b>",
+      "We give the salam to the <b>right and left</b>"
+    ]},
+    {"type": "point", "title": "Good to know", "html": "If we forget to make it right after the salam, we can still make it while we are in the place where we prayed. <b>One</b> sajdat as-sahw fixes one mistake or several. Someone praying behind an imam does not make it for their own mistake, but makes it <b>together with the imam</b> when the imam makes it."},
+    {"type": "point", "title": "💬 Talk with your muallim", "html": "Sajdat as-sahw: I understood my mistake, I admitted it, and I corrected it!"}
+  ],
+  "practice": [
+    {"type": "order", "title": "Making sajdat as-sahw", "prompt": "Put the steps in order.", "items": ["Salam to the right side", "First sajdah", "Second sajdah", "Sit: At-Tahiyyat, salawat and duas", "Salam to the right and left"]},
+    {"type": "choose_all", "title": "When do we make sajdat as-sahw?", "prompt": "Tap every mistake that needs sajdat as-sahw, then tap Check.", "options": [
+      {"text": "We forgot the first sitting and stood up", "correct": true},
+      {"text": "We forgot the surah after Al-Fatiha", "correct": true},
+      {"text": "We prayed five rak‘ahs instead of four", "correct": true},
+      {"text": "We added a surah in the 3rd rak‘ah of a fard", "correct": true},
+      {"text": "We ate during Salah", "correct": false, "why": "Eating breaks Salah – we pray it again; sajdat as-sahw can’t fix it."},
+      {"text": "We lost our wudu", "correct": false, "why": "Without wudu Salah is broken – we make wudu and pray again."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is sajdat as-sahw?", "options": ["Extra sajdahs to fix a mistake made without meaning to", "A sajdah we make every morning", "A kind of wudu", "The first sajdah of Salah"], "answer": 0},
+      {"q": "How many sajdahs is sajdat as-sahw?", "options": ["Two", "One", "Three", "Four"], "answer": 0},
+      {"q": "When do we make it?", "options": ["After the salam to the right side", "Before Al-Fatiha", "In the first rak‘ah", "Before wudu"], "answer": 0},
+      {"q": "Not sure if you prayed 3 or 4 rak‘ahs – what do you count?", "options": ["3 – the smaller number", "4 – the bigger number", "Neither", "Start from 1"], "answer": 0},
+      {"q": "You pray behind the imam and make a small mistake. What do you do?", "options": ["Nothing – we follow the imam", "Make sajdat as-sahw alone", "Leave the row", "Pray again"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Choose your task", "prompts": ["📝 Write three situations when we must make sajdat as-sahw in your maktab notebook.", "🗣️ Describe how sajdat as-sahw is made."]}
+  ]
+}

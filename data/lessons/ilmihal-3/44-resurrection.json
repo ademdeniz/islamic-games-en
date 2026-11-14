@@ -1,0 +1,33 @@
+{
+  "title": "Resurrection after death",
+  "pages": "44–45",
+  "intro": "Allah, who created us the first time, will bring us back to life.",
+  "learn": [
+    {"type": "text", "html": "A Muslim believes in <b>ba‘th</b> – being <b>brought back to life</b> after death. When the Sur is blown the second time, Allah will raise every person who ever lived, with body and soul."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "When people asked how dry bones could live again, Allah answered: the One who created them the <b>first time</b> will give them life again. <small>(Qur’an, Ya-Sin 36:78–79)</small>"},
+    {"type": "heading", "text": "After the resurrection"},
+    {"type": "cards", "items": [
+      {"icon": "🌅", "label": "Ba‘th – everyone is brought back to life"},
+      {"icon": "👥", "label": "Hashr – all people are gathered in one place"},
+      {"icon": "📒", "label": "The books of deeds – given in the right hand or the left"},
+      {"icon": "⚖️", "label": "Hisab – the reckoning: Allah judges with complete justice"}
+    ]},
+    {"type": "point", "title": "The book of deeds", "html": "The angels <b>Kiraman Katibin</b> write down everything we do. On that Day each person receives their book: the believers in the <b>right hand</b> – full of joy – and the others in the left."},
+    {"type": "point", "title": "Signs around us", "html": "Every spring Allah brings dry earth back to life with rain. In the same way He will bring people back to life. <small>(Qur’an, Fussilat 41:39)</small>"},
+    {"type": "point", "title": "⭐ Remember", "html": "Nothing is hard for Allah. He made us from nothing, so bringing us back is easy for Him."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The Day of Resurrection in order", "prompt": "Put these in order.", "items": ["The second blowing of the Sur", "Ba‘th – everyone is brought back to life", "Hashr – everyone is gathered", "The books of deeds are given", "Hisab – the reckoning"]},
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Ba‘th", "Being brought back to life"], ["Hashr", "The gathering of all people"], ["Hisab", "The reckoning"], ["Kiraman Katibin", "The angels who write our deeds"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is ba‘th?", "options": ["Being brought back to life after death", "A kind of prayer", "The month of fasting", "A journey"], "answer": 0},
+      {"q": "Who will be brought back to life?", "options": ["Every person who ever lived", "Only good people", "Only prophets", "Nobody"], "answer": 0},
+      {"q": "How do the believers receive their book of deeds?", "options": ["In the right hand", "In the left hand", "On their back", "They get none"], "answer": 0},
+      {"q": "Which sign in nature reminds us of the resurrection?", "options": ["Dry earth coming back to life with rain", "The sun setting", "Snow", "Wind"], "answer": 0},
+      {"q": "Who writes down our deeds?", "options": ["Kiraman Katibin", "Jibril", "Israfil", "Our friends"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["🌱 Plant a seed this week and watch it come to life – what does it remind you of?", "📒 What would you like to see written in your book of deeds?"]}
+  ]
+}

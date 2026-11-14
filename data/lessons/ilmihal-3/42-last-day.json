@@ -1,0 +1,35 @@
+{
+  "title": "Belief in the Last Day",
+  "pages": "42–43",
+  "intro": "The fifth pillar of iman: this world will end, and every person will meet Allah.",
+  "learn": [
+    {"type": "text", "html": "<b>Wal-yawmil-aakhir</b> – belief in the <b>Last Day</b> – is the fifth pillar of iman. A Muslim believes that this world will one day <b>end</b>, and that after it comes the <b>Akhirah</b>, the next life, which never ends."},
+    {"type": "point", "title": "When is the Last Day?", "html": "Only <b>Allah</b> knows when the Last Day (Qiyamah) will come. Not even the angels or the prophets know. The Prophet (SAW) told us about some <b>signs</b> before it, so that people would remember it and prepare."},
+    {"type": "heading", "text": "What will happen"},
+    {"type": "list", "items": [
+      "By Allah’s command the angel <b>Israfil</b> will blow the <b>Sur</b> (the trumpet)",
+      "The world as we know it will end – mountains, seas and sky will change",
+      "Then the Sur is blown again and <b>all people are brought back to life</b> (next lesson)",
+      "Every person will see their deeds, even the smallest good or evil deed <small>(Qur’an, Az-Zalzalah 99:7–8)</small>"
+    ]},
+    {"type": "heading", "text": "The barzakh – the life of the grave"},
+    {"type": "text", "html": "Between death and the Last Day is the <b>barzakh</b>. In the grave every person is asked: <i>Who is your Lord? What is your religion? Who is your Prophet?</i> A believer answers: <b>Allah is my Lord, Islam is my religion, Muhammad (SAW) is my Prophet.</b>"},
+    {"type": "point", "title": "Why does it matter?", "html": "Belief in the Last Day makes us <b>responsible</b>: we know every deed counts. It gives us <b>hope</b> – no good deed is lost – and keeps us away from wrong, even when no one is watching."},
+    {"type": "point", "title": "⭐ Remember", "html": "This world is a <b>field</b> where we plant deeds; in the Akhirah we <b>harvest</b> them."}
+  ],
+  "practice": [
+    {"type": "order", "title": "In order", "prompt": "Put these in order, from first to last.", "items": ["Life in this world", "Death", "Barzakh – the life of the grave", "The Sur is blown and the world ends", "Everyone is brought back to life"]},
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Akhirah", "The next life"], ["Qiyamah", "The Last Day"], ["Barzakh", "The life of the grave"], ["Sur", "The trumpet"], ["Israfil", "The angel who blows the Sur"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which pillar of iman is belief in the Last Day?", "options": ["The fifth", "The first", "The third", "The sixth"], "answer": 0},
+      {"q": "Who knows when the Last Day will come?", "options": ["Only Allah", "The angels", "Scientists", "Everyone"], "answer": 0},
+      {"q": "Which angel will blow the Sur?", "options": ["Israfil", "Jibril", "Mika’il", "Malik"], "answer": 0},
+      {"q": "What is the barzakh?", "options": ["The life between death and the Last Day", "A city", "A prayer", "A month"], "answer": 0},
+      {"q": "Which three questions are asked in the grave?", "options": ["Who is your Lord, what is your religion, who is your Prophet", "How old are you, where do you live, what is your name", "What did you eat, where did you go, who are your friends", "None"], "answer": 0},
+      {"q": "How does belief in the Last Day help us?", "options": ["It makes us responsible for our deeds", "It makes us lazy", "It changes nothing", "It makes us afraid of everything"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with your muallim", "prompts": ["💬 Why did Allah not tell us when the Last Day will come?", "🌱 “This world is a field” – what good deeds will you plant this week?"]}
+  ]
+}

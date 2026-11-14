@@ -1,0 +1,32 @@
+{
+  "title": "Subhanaka – with its meaning",
+  "pages": "22",
+  "intro": "With Subhanaka we glorify and praise Allah – especially at the start of every Salah.",
+  "learn": [
+    {"type": "text", "html": "We glorify and praise Allah, the Most High, by reciting <b>Subhanaka</b>. We say it often, and especially at the <b>start of every Salah</b>."},
+    {"type": "phrase", "label": "Subhanaka", "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلَا إِلَٰهَ غَيْرُكَ", "tr": "Subhaanakallaahumma wa bihamdika, wa tabaarakasmuka, wa ta‘aalaa jadduka, wa laa ilaaha ghayruk!", "en": "Glory be to You, my Allah, and all praise is Yours. Blessed is Your name, Your greatness is beyond reach, and there is no god but You!"},
+    {"type": "heading", "text": "What the words mean"},
+    {"type": "list", "items": [
+      "<b>Subhaanakallaahumma</b> – Glory be to You, my Allah",
+      "<b>wa bihamdika</b> – and all praise is Yours",
+      "<b>wa tabaarakasmuka</b> – blessed is Your name",
+      "<b>wa ta‘aalaa jadduka</b> – Your greatness is beyond reach",
+      "<b>wa laa ilaaha ghayruk</b> – and there is no god but You"
+    ]},
+    {"type": "text", "html": "Listen to it part by part: <a href=\"../../../games/dove-subhaneke/\">Subhanaka with the recording</a>."},
+    {"type": "point", "title": "⭐ Remember", "html": "We recite Subhanaka at the start of Salah, after the opening <b>Allaahu akbar</b>."}
+  ],
+  "practice": [
+    {"type": "order", "title": "Subhanaka in order", "prompt": "Put the parts of Subhanaka in the right order.", "items": ["Subhaanakallaahumma", "wa bihamdika", "wa tabaarakasmuka", "wa ta‘aalaa jadduka", "wa laa ilaaha ghayruk"]},
+    {"type": "memory", "title": "Match the words and their meaning", "pairs": [
+      ["Subhaanakallaahumma", "Glory be to You, my Allah"], ["wa bihamdika", "And all praise is Yours"], ["wa tabaarakasmuka", "Blessed is Your name"], ["wa laa ilaaha ghayruk", "There is no god but You"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How do we glorify and praise Allah?", "options": ["By reciting Subhanaka", "By shouting", "By running", "By sleeping"], "answer": 0},
+      {"q": "When do we recite Subhanaka?", "options": ["At the start of every Salah", "Only at night", "Only on Eid", "Never"], "answer": 0},
+      {"q": "What does “wa tabaarakasmuka” mean?", "options": ["Blessed is Your name", "There is no god but You", "Glory be to You", "And all praise is Yours"], "answer": 0},
+      {"q": "What do we say just before Subhanaka in Salah?", "options": ["Allaahu akbar", "As-salaamu ‘alaykum", "Ameen", "Alhamdulillah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Answer the questions", "prompts": ["💬 How do we glorify and praise Allah, the Most High?", "🕌 When do we recite Subhanaka?", "📖 What do these words mean?"]}
+  ]
+}

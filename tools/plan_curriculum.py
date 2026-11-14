@@ -117,7 +117,7 @@ ILMIHAL = {
         (20, 'Sixth pillar of Iman – belief in qadar', {'iman'}), (21, 'Surah Al-Kafirun with its meaning', {'surah'}),
         (22, 'First pillar of Islam – the Shahadah', {'shahadah'}), (24, 'Second pillar of Islam – Salah', {'salah'}),
         (26, 'What breaks Salah', {'salah'}), (27, 'Sajdat as-sahw (prostration of forgetfulness)', {'salah-steps'}),
-        (28, 'How to pray Salah', {'salah-steps'}), (30, 'Praying in congregation (jama‘ah)', {'salah'}), (32, 'Joining the congregation late', {'salah'}),
+        (28, 'Making up missed prayers (qada’)', {'salah'}), (30, 'Praying in congregation (jama‘ah)', {'salah'}), (32, 'Joining the congregation late', {'salah'}),
         (34, 'Third pillar of Islam – fasting', {'fasting', 'ramadan'}), (36, 'Fourth pillar of Islam – Zakah', {'zakah'}),
         (38, 'Fifth pillar of Islam – Hajj', {'hajj'}), (40, 'Review', {'review-2'}), (43, 'A Muslim is tidy', {'akhlaq'}),
         (45, 'Cleanliness and personal hygiene', {'akhlaq', 'wudu'}), (46, 'Our duty to stay healthy', {'akhlaq'}), (47, 'Healthy eating', {'akhlaq'}),
