@@ -92,9 +92,10 @@ UI = [
 _CREDIT = re.compile(r'<(footer|div|p|span|header|small)\b[^>]*>\s*Pripremio:?\s*Abdo ef\. Rekić[^<]*</\1>\s*')
 _CREDIT_B = re.compile(r'<(header|div|footer|p)\b[^>]*>\s*<(b|strong)>\s*Pripremio:?\s*Abdo ef\. Rekić[^<]*</\2>\s*</\1>\s*')
 _PORTAL = re.compile(r'<a href="https://rekicabdo-bihac\.github\.io/mektebski-portal/">[^<]*</a>')   # link to his Bosnian portal
-_GA = re.compile(r'<script async src="https://www\.googletagmanager\.com/gtag/js\?id=[^"]+"></script>\s*'
-                 r'<script>window\.dataLayer=window\.dataLayer\|\|\[\];function gtag\(\)\{dataLayer\.push\(arguments\)\}'
-                 r'gtag\("js",new Date\(\)\);gtag\("config","[^"]+"\);</script>')
+_GA = re.compile(r'(?:<!--[^>]*-->\s*)?<script async(?:="")? src="https://www\.googletagmanager\.com/gtag/js\?id=[^"]+"></script>\s*'
+                 r'<script>window\.dataLayer=window\.dataLayer\|\|\[\];function gtag\(\)\{dataLayer\.push\(arguments\);?\}'
+                 r'gtag\(["\']js["\'],new Date\(\)\);gtag\(["\']config["\'],["\'][^"\']+["\']\);</script>\s*')   # either quote style
+_CREDIT_BARE = re.compile(r'<(b|strong|small)>\s*Pripremio:?\s*Abdo ef\. Rekić\s*</\1>')   # inside a header or bar with other things
 
 
 def original(game):
@@ -105,7 +106,11 @@ def original(game):
 def deletions(game):
     """The author credit element and his Google Analytics tag (our pages must not report children's visits to it)."""
     src = original(game)
-    return [m.group(0) for r in (_CREDIT, _CREDIT_B, _PORTAL, _GA) for m in r.finditer(src)]
+    out = [m.group(0) for r in (_CREDIT, _CREDIT_B, _PORTAL, _GA) for m in r.finditer(src)]
+    rest = src
+    for d in out:
+        rest = rest.replace(d, '')
+    return list(dict.fromkeys(out + [m.group(0) for m in _CREDIT_BARE.finditer(rest)]))   # + what those left; no repeats
 
 
 def make_transform(pairs):
