@@ -24,6 +24,7 @@ PAGES = [
     {'id': 'baqarah-p5', 'title': 'Al-Baqarah – page 5', 'mushaf_page': 5, 'surah': 2},
     {'id': 'baqarah-p6', 'title': 'Al-Baqarah – page 6', 'mushaf_page': 6, 'surah': 2},
     {'id': 'baqarah-p7', 'title': 'Al-Baqarah – page 7', 'mushaf_page': 7, 'surah': 2},
+    {'id': 'baqarah-p8', 'title': 'Al-Baqarah – page 8', 'mushaf_page': 8, 'surah': 2},
     {'id': 'yasin-1-12', 'title': 'Ya-Sin – page 440', 'mushaf_page': 440, 'surah': 36},
 ]
 
