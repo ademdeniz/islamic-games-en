@@ -1,0 +1,48 @@
+{
+  "title": "What breaks Salah",
+  "pages": "26",
+  "intro": "Some actions and states break the prayer – then we must pray it again.",
+  "learn": [
+    {"type": "text", "html": "Salah is a strict duty – <b>fard</b> – that Muslims must perform in the prescribed way. Salah is valid when we have made all the preparations and kept all its rules. If something happens that <b>breaks</b> the prayer, it is not valid and we must <b>pray it again</b>."},
+    {"type": "heading", "text": "Salah is broken if we…"},
+    {"type": "list", "items": [
+      "lose our <b>wudu</b> in any way during Salah",
+      "leave out any <b>condition</b> of Salah or any of its essential parts (<b>arkan</b>)",
+      "turn our <b>chest away from the Qiblah</b>",
+      "make movements that do not belong in Salah, so that someone watching would wonder whether we are praying at all",
+      "<b>speak</b> words that are not part of Salah – answer a salam or a question, <b>laugh out loud</b>, sigh or groan",
+      "clear our throat without need, or <b>eat or drink</b> during Salah – even chewing gum",
+      "recite the Qur’an so wrongly that its <b>meaning changes</b>",
+      "cry in Salah – unless it is out of devotion and awe before Allah",
+      "men and women pray in the same row without a barrier, or a woman stands in front of a man"
+    ]},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah warns those who pray but do not perform their prayer as they should. <small>(Qur’an, Al-Ma‘un 107:4–5)</small>"},
+    {"type": "point", "title": "⭐ Remember", "html": "In Salah we stand before Allah: we keep still, keep our eyes on the place of sajdah and think about what we recite."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Does it break Salah?", "prompt": "Tap everything that breaks Salah, then tap Check.", "options": [
+      {"text": "😂 Laughing out loud", "correct": true},
+      {"text": "🍬 Chewing gum", "correct": true},
+      {"text": "🗣️ Answering a friend’s question", "correct": true},
+      {"text": "↩️ Turning the chest away from the Qiblah", "correct": true},
+      {"text": "💨 Losing wudu", "correct": true},
+      {"text": "🤲 Crying out of awe before Allah", "correct": false, "why": "Crying from devotion and awe before Allah does not break Salah."},
+      {"text": "👀 Looking at the place of sajdah", "correct": false, "why": "That is exactly where we should look in Salah."}
+    ]},
+    {"type": "sort", "title": "Amir and Selman", "prompt": "Amir and Selman prayed Dhuhr behind the imam. Which of their actions broke Salah?", "bins": ["Breaks Salah or doesn’t belong in it", "Correct"], "items": [
+      {"text": "Selman nudged Amir with his elbow", "bin": 0},
+      {"text": "Selman looked around at the wall", "bin": 0},
+      {"text": "Amir pointed and whispered “Shhh, we’re praying”", "bin": 0},
+      {"text": "Amir shook his head in ruku‘", "bin": 0},
+      {"text": "They finished with the salam together", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What must we do if our Salah is broken?", "options": ["Pray it again", "Nothing", "Pray it tomorrow", "Only say Ameen"], "answer": 0},
+      {"q": "Does eating or drinking break Salah?", "options": ["Yes – even chewing gum", "No", "Only water is allowed", "Only at Fajr"], "answer": 0},
+      {"q": "Which way must our chest face in Salah?", "options": ["The Qiblah", "The door", "Any way", "Our friend"], "answer": 0},
+      {"q": "What happens if we answer a salam during Salah?", "options": ["Salah is broken", "We get extra reward", "Nothing", "We must say it twice"], "answer": 0},
+      {"q": "Which crying does NOT break Salah?", "options": ["Crying from awe before Allah", "Crying because we are bored", "Crying because of a game", "Crying loudly for a toy"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Let’s repeat together", "prompts": ["💧 What breaks wudu?", "🕌 What are the essential parts of Salah?", "📝 Write the lesson of the ayah from Al-Ma‘un (4–5) in your maktab notebook."]}
+  ]
+}

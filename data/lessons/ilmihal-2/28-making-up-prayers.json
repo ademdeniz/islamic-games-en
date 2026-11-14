@@ -1,0 +1,43 @@
+{
+  "title": "Making up missed prayers (qada’)",
+  "pages": "28–29",
+  "intro": "If we miss a prayer, it is our duty to make it up.",
+  "learn": [
+    {"type": "text", "html": "Every Muslim must pray <b>regularly and on time</b>. But if we miss one or more prayers, it is our duty to <b>make them up</b> (qada’)."},
+    {"type": "cards", "items": [
+      {"icon": "⏳", "label": "Fa’itah – a missed prayer"},
+      {"icon": "🕐", "label": "Waqtiyyah – the prayer whose time is now"}
+    ]},
+    {"type": "heading", "text": "What do we make up?"},
+    {"type": "list", "items": [
+      "Only the <b>fard</b> of the five daily prayers, and the <b>witr</b>",
+      "The sunnahs are not made up – except the sunnah of <b>Fajr</b>, when we make up Fajr on the same day after sunrise",
+      "Missed prayers are made up in the <b>same order</b> as we should have prayed them"
+    ]},
+    {"type": "point", "title": "The niyyah", "html": "We make the niyyah as for a normal prayer, but instead of <b>adaa’an</b> (on time) we say <b>qadaa’an</b> (making up) – for example: <i>…fardil-fajri qadaa’an mustaqbilal-qiblah…</i>"},
+    {"type": "heading", "text": "Which comes first?"},
+    {"type": "list", "items": [
+      "Fewer than <b>six</b> missed prayers: first the missed prayers, then the prayer of the time",
+      "<b>Six or more</b> missed prayers: first the prayer of the time, then the missed ones",
+      "We don’t need to keep this order if the time of the current prayer is running out, if there are six or more missed prayers, or if we forgot we had missed prayers"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Best of all is to pray <b>every prayer on time</b> – then there is nothing to make up!"}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Qada’", "Making up a missed prayer"], ["Fa’itah", "A missed prayer"], ["Waqtiyyah", "The prayer whose time is now"], ["Qadaa’an", "The word we say in the niyyah"]
+    ]},
+    {"type": "sort", "title": "Do we make it up?", "prompt": "If we missed it, do we make it up?", "bins": ["We make it up", "We don’t make it up"], "items": [
+      {"text": "The fard of Dhuhr", "bin": 0}, {"text": "The fard of Isha", "bin": 0}, {"text": "Witr", "bin": 0},
+      {"text": "The sunnah of Asr", "bin": 1}, {"text": "The last sunnah of Dhuhr", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is a fa’itah?", "options": ["A missed prayer", "The prayer whose time is now", "A dua", "A kind of wudu"], "answer": 0},
+      {"q": "In what order do we make up missed prayers?", "options": ["The same order we should have prayed them", "Any order", "The newest first", "Only Fajr"], "answer": 0},
+      {"q": "Which word do we say in the niyyah for a missed prayer?", "options": ["Qadaa’an", "Adaa’an", "Ameen", "Bismillah"], "answer": 0},
+      {"q": "We missed 2 prayers. What do we pray first?", "options": ["The missed prayers, then the prayer of the time", "The prayer of the time, then the missed ones", "Only the prayer of the time", "Nothing"], "answer": 0},
+      {"q": "Which sunnah can be made up?", "options": ["The sunnah of Fajr, on the same day", "The sunnah of Asr", "The sunnah of Isha", "None of them"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Do your homework", "prompts": ["📋 Make two tables: “I PRAYED” and “I STILL NEED TO PRAY”, with the days of the week and the five prayers.", "✅ Each time you pray, mark it in “I PRAYED”. Mark a minus in the other table for a missed prayer – and when you make it up, turn the minus into a plus with another colour.", "💬 What is a fa’itah and what is a waqtiyyah?"]}
+  ]
+}
