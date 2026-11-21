@@ -1,0 +1,47 @@
+{
+  "title": "Jannah and Jahannam",
+  "pages": "48–49",
+  "intro": "The eternal homes of the akhirah: Jannah for the believers, Jahannam for the unbelievers and wrongdoers.",
+  "learn": [
+    {"type": "text", "html": "The <b>akhirah</b> is the eternal life that comes after a person leaves the dunya. We can think of the dunya as a <b>journey</b> to the akhirah, in which we earn reward or punishment by our deeds. <b>Jannah</b> is the eternal home prepared for the believers; <b>Jahannam</b> is the home prepared for the unbelievers, the oppressors and those who commit great sins."},
+    {"type": "heading", "text": "Jannah"},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Those who believed and did good deeds will be admitted, by their Lord’s permission, to gardens under which rivers flow, to stay in them for ever; their greeting there will be: “Peace.” <small>(Qur’an, Ibrahim 14:23)</small>"},
+    {"type": "text", "html": "Those who cross the Sirat bridge will reach their eternal home – Jannah – where they will enjoy the reward for the deeds they did in the dunya. In Jannah there are rivers and wide rooms, a pleasant life without hardship, where believers get whatever they wish. In it is what <b>no eye has seen, no ear has heard</b>, and no one has ever imagined. Its fragrance can be smelled from a distance of forty years."},
+    {"type": "list", "items": [
+      "Jannah has <b>a hundred levels</b>; the highest is <b>Firdaws</b>, beneath the Throne (‘Arsh).",
+      "Jannah has <b>eight gates</b>.",
+      "The greatest honour for the believers in Jannah will be <b>seeing Allah</b> (SWT).",
+      "Even the lowest level is like the whole dunya and ten times more.",
+      "Its gardens are eternal and never dry up or wither; its people live in it for ever."
+    ]},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Their reward with their Lord will be gardens of ‘Adn under which rivers flow, where they will stay for ever – Allah is pleased with them and they are pleased with Him. That is for whoever fears his Lord. <small>(Qur’an, Al-Bayyinah 98:8)</small>"},
+    {"type": "heading", "text": "Jahannam"},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Thus your Lord’s word came true against those who disbelieved: they will be the companions of the Fire. <small>(Qur’an, Ghafir 40:6)</small>"},
+    {"type": "text", "html": "Jahannam is the home in the akhirah prepared for the unbelievers, where they will stay for ever – and also for believers who committed great sins, if they are not forgiven, for a time. Its fuel is people and stones. Its fire is <b>69 times stronger</b> than the fire of this world. It has <b>seven gates</b> and seven levels, one below the other by how severe the punishment is. Its guardians are stern and mighty angels."},
+    {"type": "text", "html": "Believers who were wrongdoers and had sins will be punished in Jahannam if Allah does not forgive them, and after that they will be brought into Jannah by Allah’s <b>mercy</b> or by the <b>shafa‘ah</b> of the intercessors."},
+    {"type": "heading", "text": "From the hadith"},
+    {"type": "list", "items": [
+      "The Prophet (SAW) said that the Sirat will be set over Jahannam, and he and his ummah will be the first to cross it. On that day only the prophets will speak, and their dua will be: <i>“O Allah, save us, save us!”</i> <small>(Bukhari)</small>",
+      "He said that Allah will bring whom He wills into Jannah by His mercy, then say: <i>“Bring out whoever has even an atom of iman in his heart.”</i> <small>(Bukhari)</small>"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Every good deed brings us closer to Jannah, and every bad deed closer to Jahannam. Allah’s mercy is greater than everything."}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Which way does it lead?", "prompt": "Does this deed bring us closer to Jannah or to Jahannam?", "bins": ["🌿 Closer to Jannah", "🔥 Closer to Jahannam"], "items": [
+      {"text": "Praying on time", "bin": 0}, {"text": "Helping parents", "bin": 0}, {"text": "Telling the truth", "bin": 0}, {"text": "Reading the Qur’an", "bin": 0},
+      {"text": "Lying", "bin": 1}, {"text": "Backbiting", "bin": 1}, {"text": "Hurting others", "bin": 1}
+    ]},
+    {"type": "memory", "title": "Numbers to remember", "pairs": [
+      ["100", "Levels of Jannah"], ["8", "Gates of Jannah"], ["7", "Gates of Jahannam"], ["69", "Times stronger than worldly fire"], ["Firdaws", "The highest level of Jannah"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is Jannah?", "options": ["The eternal home prepared for the believers", "A city in the dunya", "The bridge", "The place of gathering"], "answer": 0},
+      {"q": "What is the highest level of Jannah?", "options": ["Firdaws", "Mahshar", "Barzakh", "Sirat"], "answer": 0},
+      {"q": "How many gates does Jannah have?", "options": ["Eight", "Seven", "One", "Ten"], "answer": 0},
+      {"q": "What is the greatest honour for the believers in Jannah?", "options": ["Seeing Allah (SWT)", "Gold", "Big houses", "Fast horses"], "answer": 0},
+      {"q": "How much stronger is the fire of Jahannam than worldly fire?", "options": ["69 times", "2 times", "10 times", "The same"], "answer": 0},
+      {"q": "Will all people in Jahannam stay there for ever?", "options": ["No – believers with sins can be brought out by Allah’s mercy or shafa‘ah", "Yes, all of them", "Nobody goes there", "Only for one day"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Choose your task", "prompts": ["💬 Briefly describe what follows after a person dies.", "📋 Make a table: “Deeds that bring me closer to Jannah” and “Deeds that bring me closer to Jahannam”. Try to avoid the ones that lead to Jahannam from now on."]}
+  ]
+}

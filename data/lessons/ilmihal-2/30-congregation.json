@@ -1,0 +1,46 @@
+{
+  "title": "Praying in congregation (jama‘ah)",
+  "pages": "30–31",
+  "intro": "Salah prayed together in jama‘ah is worth 25 or 27 times more.",
+  "learn": [
+    {"type": "text", "html": "We learned that Allah, the Most High, has strictly commanded Muslims to perform the <b>fard</b> prayers. Fard prayers can be prayed <b>alone</b> or in <b>jama‘ah</b> (congregation)."},
+    {"type": "text", "html": "Our Prophet Muhammad (SAW) <b>regularly</b> prayed in jama‘ah, and so showed his followers that praying in jama‘ah is his <b>sunnah</b>. That is why a prayer in jama‘ah is worth <b>25 or 27 times</b> more than a prayer alone."},
+    {"type": "point", "title": "⭐ Remember – the niyyah", "html": "When we pray in jama‘ah, after the words “…<b>qiblati</b>” in the niyyah we add: <b>“iqtadaytu bihaadhal-imaami”</b>, which means “<b>I follow this imam</b>”."},
+    {"type": "heading", "text": "Prayed in jama‘ah"},
+    {"type": "list", "items": [
+      "the fard of the five daily prayers",
+      "witr and tarawih – only in the month of Ramadan",
+      "Jumu‘ah, Eid and janazah prayers are prayed <b>only</b> in jama‘ah",
+      "some nafl prayers too, like the night prayer (qiyam al-layl), the prayer for rain and the prayer at an eclipse of the sun"
+    ]},
+    {"type": "heading", "text": "A jama‘ah needs at least two people"},
+    {"type": "cards", "items": [
+      {"icon": "🧍", "label": "Imam – the man who leads the jama‘ah and stands in front"},
+      {"icon": "🙋", "label": "Muqtadi – the one who prays behind the imam, standing behind him to his right"}
+    ]},
+    {"type": "heading", "text": "Important in jama‘ah"},
+    {"type": "list", "items": [
+      "If there are several muqtadis, they stand in <b>rows</b> (saff).",
+      "In the fard, the imam’s recitation counts for the muqtadis too – in qiyam they recite nothing, except <b>Subhanaka</b> in the first rak‘ah.",
+      "Muqtadis may <b>not</b> do any part of the Salah before the imam – they must <b>follow</b> him."
+    ]}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Jama‘ah", "Praying together"], ["Imam", "Leads the prayer, stands in front"], ["Muqtadi", "Prays behind the imam"], ["Saff", "A row of people praying"], ["Iqtadaytu bihaadhal-imaami", "I follow this imam"]
+    ]},
+    {"type": "sort", "title": "Only in jama‘ah?", "prompt": "Is this prayer prayed only in jama‘ah, or can it also be prayed alone?", "bins": ["Only in jama‘ah", "Alone or in jama‘ah"], "items": [
+      {"text": "Jumu‘ah", "bin": 0}, {"text": "Eid prayer", "bin": 0}, {"text": "Janazah", "bin": 0},
+      {"text": "The fard of Dhuhr", "bin": 1}, {"text": "The fard of Maghrib", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How much more is a prayer in jama‘ah worth?", "options": ["25 or 27 times", "2 times", "100 times", "The same"], "answer": 0},
+      {"q": "What do we add to the niyyah in jama‘ah?", "options": ["Iqtadaytu bihaadhal-imaami – I follow this imam", "Ameen", "Qadaa’an", "Nothing"], "answer": 0},
+      {"q": "How many people are needed for a jama‘ah?", "options": ["At least two", "At least ten", "At least forty", "One"], "answer": 0},
+      {"q": "Where does one muqtadi stand?", "options": ["Behind the imam, to his right", "In front of the imam", "Far away", "To his left"], "answer": 0},
+      {"q": "What does the muqtadi recite in qiyam of the fard?", "options": ["Only Subhanaka in the first rak‘ah", "Al-Fatiha and a long surah", "At-Tahiyyat", "The adhan"], "answer": 0},
+      {"q": "May a muqtadi go into ruku‘ before the imam?", "options": ["No – he must follow the imam", "Yes", "Only in Maghrib", "Only on Friday"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Do your homework", "prompts": ["📦 Make two boxes: “I PRAYED IN THE MASJID” and “I PRAYED AT HOME”.", "✂️ Each time you pray in the masjid, put 27 paper slips in the first box; each time you pray at home, put 1 slip in the second.", "🤔 After seven days, count them: which is worth more – a prayer in the masjid or at home – and why?"]}
+  ]
+}

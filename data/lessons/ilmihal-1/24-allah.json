@@ -1,0 +1,32 @@
+{
+  "title": "Allah (SWT)",
+  "pages": "24",
+  "intro": "Allah is the Almighty Creator of everything that exists.",
+  "learn": [
+    {"type": "list", "items": [
+      "Allah is the <b>Almighty Creator</b> of everything that exists.",
+      "Allah is the <b>One and Only</b> God and the Lord of people.",
+      "Allah <b>created us</b> and gave us life and health.",
+      "Allah gives children a <b>happy, joyful</b> childhood."
+    ]},
+    {"type": "heading", "text": "🎵 A song about Allah"},
+    {"type": "text", "html": "<i>He gave us a soul<br>from His own ruh,<br>and He gave us life –<br>the Eternal Creator.<br><br>Only Him I praise,<br>to sajdah I fall,<br>I hope for His reward<br>and His mercy.</i><br><small>(English translation)</small>", "bs": "<i>Podari nam dušu<br>On od ruha svog,<br>i život nam dade<br>Stvoritelj vječni.<br><br>Samo Njega slavim<br>i na sedždu padam,<br>nagradi se Njegovoj<br>i milosti nadam.</i>"},
+    {"type": "point", "title": "⭐ Remember", "html": "When we say Allah’s name, we add <b>jalla jalaaluhu</b> – in short <b>(SWT)</b> – which means <b>the Most High</b>."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "What has Allah given us?", "prompt": "Tap everything Allah has given us, then tap Check.", "options": [
+      {"text": "❤️ Life", "correct": true},
+      {"text": "💪 Health", "correct": true},
+      {"text": "😊 A happy childhood", "correct": true},
+      {"text": "👨‍👩‍👧 Our family", "correct": true},
+      {"text": "🌧️ Rain and food", "correct": true}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who is our Lord?", "options": ["Allah", "The sun", "A king", "The sea"], "answer": 0},
+      {"q": "What did Allah create?", "options": ["Everything that exists", "Only people", "Only animals", "Only the sky"], "answer": 0},
+      {"q": "How many gods are there?", "options": ["Only one – Allah", "Two", "Three", "Many"], "answer": 0},
+      {"q": "What do we add when we say Allah’s name?", "options": ["Jalla jalaaluhu (SWT)", "Hello", "Goodbye", "Ameen"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions to talk about", "prompts": ["💬 Who is our Lord? What did Allah create?", "🎵 Learn the song about Allah, the Most High.", "🎁 Think of something Allah, the Most High, has given us!", "🖍️ Colour the word ALLAH."]}
+  ]
+}
