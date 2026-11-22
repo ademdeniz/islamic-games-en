@@ -1,0 +1,166 @@
+{
+  "title": "The Eid prayer",
+  "pages": "96",
+  "intro": "Two rak‘ahs, twice a year, with six extra takbirs.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>Eid prayer</b> is a special prayer prayed <b>twice a year</b>: on the first day of <b>Eid al-Fitr</b> – the 1st of Shawwal – and on the first day of <b>Eid al-Adha</b> – the 10th of Dhul-Hijjah."
+    },
+    {
+      "type": "text",
+      "html": "The Eid prayer is prayed <b>45 minutes after sunrise</b>."
+    },
+    {
+      "type": "text",
+      "html": "The Eid prayer is <b>wajib</b>. It is prayed in <b>jama‘ah</b>, and it is a duty for all adult men. In our communities, after praying Fajr in jama‘ah in the local masjid, the time until the Eid prayer is spent reciting the Qur’an, making duas and listening to advice (wa‘z)."
+    },
+    {
+      "type": "point",
+      "title": "How it is prayed",
+      "html": "The Eid prayer has <b>two rak‘ahs</b>, prayed like the sunnah of Fajr, with <b>six extra takbirs</b>. For each one we say “Allahu akbar” and <b>raise our hands</b>, as in the opening takbir."
+    },
+    {
+      "type": "phrase",
+      "label": "Each extra takbir",
+      "ar": "اللَّهُ أَكْبَرُ",
+      "tr": "Allaahu akbar",
+      "en": "Allah is the Greatest"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>1st rak‘ah:</b> Subhanaka, <b>3 takbirs “Allahu akbar”</b>, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "<b>2nd rak‘ah:</b> Bismillah, Al-Fatiha and a surah, <b>3 takbirs “Allahu akbar”</b>, then we go into ruku‘"
+      ]
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the Eid al-Fitr prayer",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ عِيدِ الْفِطْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اقْتَدَيْتُ بِهَذَا الْإِمَامِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata ‘eedil-fitri, adaa’an mustaqbilal-qiblati, iqtadaytu bihaadhal-imaami. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the prayer of Eid al-Fitr, on time, facing the Qiblah, following this imam. Allah is the Greatest!"
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the Eid al-Adha prayer",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ عِيدِ الْأَضْحَى أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اقْتَدَيْتُ بِهَذَا الْإِمَامِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata ‘eedil-adhaa, adaa’an mustaqbilal-qiblati, iqtadaytu bihaadhal-imaami. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the prayer of Eid al-Adha, on time, facing the Qiblah, following this imam. Allah is the Greatest!"
+    },
+    {
+      "type": "text",
+      "html": "After the two rak‘ahs of the Eid prayer, it is sunnah for the imam to give the <b>Eid khutbah</b>."
+    },
+    {
+      "type": "text",
+      "html": "After the Eid prayer, we traditionally wish each other a happy Eid, and the Eid gathering goes on with family, neighbours and friends."
+    },
+    {
+      "type": "text",
+      "html": "Practise: <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – the Fajr sunnah levels; the Eid prayer is prayed the same way, with the extra takbirs."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The 1st rak‘ah in order",
+      "prompt": "Put the 1st rak‘ah of the Eid prayer in order.",
+      "items": [
+        "Opening takbir and niyyah",
+        "Subhanaka",
+        "3 extra takbirs, raising the hands",
+        "A‘udhu and Bismillah",
+        "Al-Fatiha and a surah"
+      ]
+    },
+    {
+      "type": "order",
+      "title": "The 2nd rak‘ah in order",
+      "prompt": "Put the 2nd rak‘ah of the Eid prayer in order.",
+      "items": [
+        "Bismillah",
+        "Al-Fatiha and a surah",
+        "3 extra takbirs, raising the hands",
+        "Ruku‘"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many times a year do we pray the Eid prayer?",
+          "options": [
+            "Twice",
+            "Once",
+            "Every Friday",
+            "Five times"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When is the Eid prayer prayed?",
+          "options": [
+            "45 minutes after sunrise",
+            "Before Fajr",
+            "At Dhuhr time",
+            "After Isha"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What kind of prayer is the Eid prayer?",
+          "options": [
+            "Wajib",
+            "Fard",
+            "Nafl",
+            "Makruh"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many rak‘ahs does the Eid prayer have?",
+          "options": [
+            "2",
+            "4",
+            "3",
+            "16"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many extra takbirs are there in the Eid prayer?",
+          "options": [
+            "6 – three in each rak‘ah",
+            "2",
+            "4",
+            "10"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "On which date is Eid al-Adha?",
+          "options": [
+            "The 10th of Dhul-Hijjah",
+            "The 1st of Shawwal",
+            "The 27th of Ramadan",
+            "The 1st of Muharram"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 What is the Eid prayer? Who must pray it? How many rak‘ahs does it have and how are they prayed?",
+        "✏️ Task 1: Describe the Islamic customs on the morning of Eid.",
+        "🖼️ Task 2: Together, make a poster in maktab that explains how the Eid prayer is prayed.",
+        "📅 With your friends in maktab, write a plan of activities for Eid. Share your plans and see if you can help your friends with some of the activities.",
+        "🕌 Form a jama‘ah in maktab and practise the Eid prayer with your muallim."
+      ]
+    }
+  ]
+}

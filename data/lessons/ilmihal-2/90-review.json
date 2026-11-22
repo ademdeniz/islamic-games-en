@@ -1,0 +1,279 @@
+{
+  "title": "Review",
+  "pages": "90–92",
+  "intro": "Sins and tawbah, Asr, the traveller’s prayer, Isha and witr – let’s repeat what we learned.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s repeat what we have learned about <b>sins</b> and <b>tawbah</b>, the <b>Asr</b> and <b>Isha</b> prayers, <b>witr</b> and the prayer of a <b>traveller</b> (musafir). Read each part, try to say it in your own words, then do the activities."
+    },
+    {
+      "type": "heading",
+      "text": "Define it!"
+    },
+    {
+      "type": "text",
+      "html": "In your notebook, finish each sentence: <b>A sin is…</b> · <b>Small sins are…</b> · <b>Serious sins are…</b> · <b>Tawbah is…</b> · <b>A musafir is…</b>"
+    },
+    {
+      "type": "heading",
+      "text": "Sins – fill in the gaps"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Small sins include talking while the <b>adhan</b> is being called and missing the prayer in <b>jama‘ah</b> without a good reason.",
+        "A major sin is what is <b>clearly forbidden in the Qur’an</b>, with a punishment in this world and the next.",
+        "Of all kinds of sin, only the <b>serious</b> sins take a person out of Islam.",
+        "Serious sins: <b>kufr</b> – disbelief in Allah and the basic truths of faith, and denying them; <b>shirk</b> – associating partners with Allah; <b>riddah</b> – leaving Islam; <b>nifaq</b> – hypocrisy in faith; mocking, ridiculing and insulting holy things; denying the fard and the haram.",
+        "Allah forbade sins because they cause <b>harm</b> in both worlds."
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Accepting tawbah",
+      "html": "For tawbah to be accepted, a person <b>stops</b> the sin, <b>regrets</b> it in the heart and does <b>not go back</b> to it. Telling other people about the sin is <b>not</b> one of the conditions."
+    },
+    {
+      "type": "heading",
+      "text": "Asr, Isha and witr"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Asr</b> has 8 rak‘ahs: 4 sunnah and 4 fard. The fard of Asr is prayed the same way as the fard of Dhuhr.",
+        "In the <b>sunnah of Asr</b>, in the first sitting we recite At-Tahiyyat <b>and the salawat</b>, and in the 3rd rak‘ah we start again with <b>Subhanaka</b>, A‘udhu, Bismillah, Al-Fatiha and a surah.",
+        "<b>Isha</b> has 13 rak‘ahs: 4 sunnah, 4 fard, 2 last sunnah and 3 witr. The first sunnah of Isha is prayed like the sunnah of Asr.",
+        "<b>Witr</b> – 1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah. 2nd rak‘ah: Bismillah, Al-Fatiha and a surah. First sitting: At-Tahiyyat. 3rd rak‘ah: Bismillah, Al-Fatiha and a surah, then after a takbir the <b>Qunut dua</b>."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The traveller (musafir)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A traveller does not have to pray the sunnah prayers, and <b>shortens</b> the fard of four rak‘ahs to two.",
+        "A traveller prays in a vehicle only if it cannot stop for a break.",
+        "The easing counts if the stay away lasts up to <b>15 days</b>. If he intends to stay longer, it counts only while he is still on the way.",
+        "A traveller may lead people who are not travelling as their imam."
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Practise: <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – the Asr and Isha levels, and <a href=\"../../../games/dove-kunut-dova/\">the Qunut dua</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Circle the right answer",
+      "questions": [
+        {
+          "q": "How many rak‘ahs does Asr have?",
+          "options": [
+            "8 – 4 sunnah and 4 fard",
+            "10 – 4 sunnah and 6 fard",
+            "8 – 3 sunnah and 5 fard"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What easing does a musafir (traveller) use?",
+          "options": [
+            "He does not have to pray the sunnah, and shortens the fard",
+            "He shortens both the sunnah and the fard",
+            "He leaves the fard and shortens the sunnah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "The first sunnah of Isha is prayed the same way as the sunnah of…",
+          "options": [
+            "Asr",
+            "Dhuhr",
+            "Fajr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many rak‘ahs does Isha have, with witr?",
+          "options": [
+            "13",
+            "10",
+            "8",
+            "17"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When do we recite the Qunut dua?",
+          "options": [
+            "In the 3rd rak‘ah of witr, after a takbir",
+            "In the 3rd rak‘ah of the Isha sunnah",
+            "In the first sitting of Asr",
+            "After the salam of Fajr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which sins take a person out of Islam?",
+          "options": [
+            "Only the serious sins",
+            "All small sins",
+            "Every major sin",
+            "No sin at all"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "True or false?",
+      "prompt": "Is the sentence true or false?",
+      "bins": [
+        "✅ True",
+        "❌ False"
+      ],
+      "items": [
+        {
+          "text": "We wipe away small sins by doing good deeds and by tawbah.",
+          "bin": 0
+        },
+        {
+          "text": "A person who commits a major sin is still a Muslim.",
+          "bin": 0
+        },
+        {
+          "text": "A person who commits a serious sin stops being a Muslim.",
+          "bin": 0
+        },
+        {
+          "text": "Sin harms a person’s mental and physical health.",
+          "bin": 0
+        },
+        {
+          "text": "A person can become rich by sinning.",
+          "bin": 1
+        },
+        {
+          "text": "Those who sin weaken the community.",
+          "bin": 0
+        },
+        {
+          "text": "Someone who sins does not need to ask Allah for forgiveness.",
+          "bin": 1
+        },
+        {
+          "text": "Damage done by a sin must be made good.",
+          "bin": 0
+        },
+        {
+          "text": "Asr time lasts from when the sun leans to the west until full darkness.",
+          "bin": 1
+        },
+        {
+          "text": "The fard of Asr and the fard of Dhuhr are prayed differently.",
+          "bin": 1
+        },
+        {
+          "text": "Isha time lasts from sunset until Fajr.",
+          "bin": 1
+        },
+        {
+          "text": "A traveller may be the imam for people who are not travelling.",
+          "bin": 0
+        },
+        {
+          "text": "We recite the Qunut dua in the 3rd rak‘ah of the Isha sunnah.",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "A serious sin or not?",
+      "prompt": "Does this person commit a serious sin – one that takes a person out of Islam?",
+      "bins": [
+        "⛔ Serious sin",
+        "⚠️ Not a serious sin (but still a sin)"
+      ],
+      "items": [
+        {
+          "text": "Mushrik – associates partners with Allah",
+          "bin": 0
+        },
+        {
+          "text": "Kafir – disbelieves in Allah",
+          "bin": 0
+        },
+        {
+          "text": "Someone who leaves Islam",
+          "bin": 0
+        },
+        {
+          "text": "Munafiq – a hypocrite in faith",
+          "bin": 0
+        },
+        {
+          "text": "Someone who does not fast",
+          "bin": 1
+        },
+        {
+          "text": "A smoker",
+          "bin": 1
+        },
+        {
+          "text": "Someone who drinks alcohol",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Conditions for tawbah",
+      "prompt": "Tap every condition for tawbah to be accepted, then tap Check.",
+      "options": [
+        {
+          "text": "Stop doing that sin",
+          "correct": true
+        },
+        {
+          "text": "Regret it in the heart",
+          "correct": true
+        },
+        {
+          "text": "Never do the same sin again",
+          "correct": true
+        },
+        {
+          "text": "Tell other people about the sin",
+          "correct": false,
+          "why": "Tawbah is between you and Allah – we don’t need to tell others about our sins."
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Isha in order",
+      "prompt": "Put the parts of Isha in order.",
+      "items": [
+        "4 rak‘ahs sunnah",
+        "4 rak‘ahs fard",
+        "2 rak‘ahs last sunnah",
+        "3 rak‘ahs witr"
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "In your notebook",
+      "prompts": [
+        "📋 Define: a sin, small sins, serious sins, tawbah, a musafir.",
+        "📋 Write the order of the 4 sunnah rak‘ahs of Asr – what do we recite in each rak‘ah and sitting?",
+        "✏️ Cross out the odd one out among the major sins: taking a life, disobeying elders, disobeying parents, quarrelling, lying, two-facedness, betting, backbiting. Talk about your answer with your muallim."
+      ]
+    }
+  ]
+}
