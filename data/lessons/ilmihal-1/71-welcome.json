@@ -1,0 +1,101 @@
+{
+  "title": "Welcome to you! – a mawlid poem",
+  "pages": "71",
+  "intro": "A famous Bosnian mawlid poem welcoming the Prophet (SAW).",
+  "names": [
+    "Bašagić"
+  ],
+  "learn": [
+    {
+      "type": "heading",
+      "text": "🎵 Welcome to you!"
+    },
+    {
+      "type": "text",
+      "html": "<i>Welcome to you, greatest son<br>of the Arab people and homeland!<br>Welcome to you, noble one,<br>of Hashim, of Quraysh!<br><br>You who will lift the weak to their feet<br>and free many peoples from slavery!<br>Welcome to you, bringer of light,<br>intercessor and saviour!<br><br>When Israfil blows the trumpet,<br>our souls will hope in you.<br>You will ease the troubles of the unhappy,<br>you will reach out your hand to the sinner.</i><br><small>(From the mawlid poem of Safvet-beg Bašagić, English translation)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Muhammad (SAW) – may Allah’s peace be upon him."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "Muhammad (SAW) said: <i>“The closest to me on the Day of Judgement will be those who sent the most salawat on me.”</i> <small>(Tirmidhi)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "What does the poem say about the Prophet (SAW)?",
+      "prompt": "Tap everything the poem says, then tap Check.",
+      "options": [
+        {
+          "text": "He lifts the weak to their feet",
+          "correct": true
+        },
+        {
+          "text": "He frees peoples from slavery",
+          "correct": true
+        },
+        {
+          "text": "He is a bringer of light",
+          "correct": true
+        },
+        {
+          "text": "He reaches out his hand to the sinner",
+          "correct": true
+        },
+        {
+          "text": "He was born in Egypt",
+          "correct": false,
+          "why": "He was born in Makkah, of Hashim and Quraysh."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Who will be closest to the Prophet (SAW) on the Day of Judgement?",
+          "options": [
+            "Those who sent the most salawat on him",
+            "The richest",
+            "The tallest",
+            "The fastest"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which tribe was the Prophet (SAW) from?",
+          "options": [
+            "Quraysh",
+            "Hawazin",
+            "Thaqif",
+            "Aws"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who blows the trumpet on the Last Day?",
+          "options": [
+            "Israfil",
+            "Jibril",
+            "Mika’il",
+            "Malik"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🎵 Learn part of the poem “Welcome to you!”",
+        "📿 Send salawat on the Prophet (SAW) many times today."
+      ]
+    }
+  ]
+}

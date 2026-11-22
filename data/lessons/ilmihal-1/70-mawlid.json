@@ -1,0 +1,113 @@
+{
+  "title": "Mawlid – the birth of Muhammad (SAW)",
+  "pages": "70",
+  "intro": "We rejoice at the birth of the last and most chosen Messenger of Allah.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Mawlid</b> is the day we rejoice at the birth of the most chosen and last Messenger of Allah, Muhammad (SAW). He was born on the <b>12th of Rabi‘ al-Awwal, 571</b>, in Makkah, in Arabia. His father was <b>‘Abdullah</b> and his mother <b>Aminah</b>. His family, <b>Banu Hashim</b>, belonged to the most respected Arab tribe, <b>Quraysh</b>."
+    },
+    {
+      "type": "text",
+      "html": "On the day of his birth we recite the <b>mawlid</b> – a poem about the Prophet’s life – and we mark the whole month of Rabi‘ al-Awwal with special programmes."
+    },
+    {
+      "type": "heading",
+      "text": "🎵 From the mawlid"
+    },
+    {
+      "type": "text",
+      "html": "<i>Let us recite the mawlid for Muhammad,<br>let us all thank him with full hearts!<br>Let it be warm thanks from all of us<br>to the Prophet who showed the way to safety.<br><br>Mawlid, mawlid – Muhammad’s birthday,<br>darkness is gone, a new day dawns!<br>Muhammad was given as a gift to mankind –<br>let us send salawat on the chosen one:</i><br><small>(From the mawlid poem of Rešad Kadić, English translation)</small>"
+    },
+    {
+      "type": "phrase",
+      "label": "Salawat",
+      "ar": "الصَّلَاةُ وَالسَّلَامُ عَلَيْكَ يَا رَسُولَ اللَّهِ، الصَّلَاةُ وَالسَّلَامُ عَلَيْكَ يَا حَبِيبَ اللَّهِ، الصَّلَاةُ وَالسَّلَامُ عَلَيْكَ يَا شَفِيعَ اللَّهِ",
+      "tr": "As-salaatu was-salaamu ‘alayka yaa Rasoolallaah! As-salaatu was-salaamu ‘alayka yaa Habeeballaah! As-salaatu was-salaamu ‘alayka yaa Shafee‘allaah!",
+      "en": "Allah’s blessing and peace be upon you, O Messenger of Allah! … O beloved of Allah! … O intercessor with Allah!"
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match",
+      "pairs": [
+        [
+          "Father",
+          "‘Abdullah"
+        ],
+        [
+          "Mother",
+          "Aminah"
+        ],
+        [
+          "Family",
+          "Banu Hashim"
+        ],
+        [
+          "Tribe",
+          "Quraysh"
+        ],
+        [
+          "City",
+          "Makkah"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is Mawlid?",
+          "options": [
+            "The day we rejoice at the Prophet’s birth",
+            "A kind of fast",
+            "The new year",
+            "A prayer"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When was Muhammad (SAW) born?",
+          "options": [
+            "12 Rabi‘ al-Awwal, 571",
+            "1 Muharram, 622",
+            "1 Shawwal, 610",
+            "27 Rajab, 621"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where was he born?",
+          "options": [
+            "Makkah",
+            "Madinah",
+            "Jerusalem",
+            "Damascus"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we recite on Mawlid?",
+          "options": [
+            "The mawlid – a poem about his life",
+            "The adhan only",
+            "Nothing",
+            "The Qunut"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 How do we mark the day and month of the Prophet’s birth?",
+        "🎵 Recite part of the mawlid poem.",
+        "🗣️ Say the salawat."
+      ]
+    }
+  ]
+}

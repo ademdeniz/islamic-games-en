@@ -1,0 +1,49 @@
+{
+  "title": "Gaining knowledge",
+  "pages": "110–111",
+  "intro": "The very first word revealed in the Qur’an was “Read!” – seeking knowledge is a Muslim’s lifelong duty.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Read in the name of your Lord who created – created the human being from a clinging clot. Read, and your Lord is the Most Generous, who taught by the pen, taught the human being what he did not know. <small>(Qur’an, Al-‘Alaq 96:1–5)</small>"},
+    {"type": "text", "html": "The first words of the Qur’an revealed to Muhammad (SAW) were about <b>reading, learning and gaining knowledge</b>. These are qualities only a human being can practise, and through them people are raised above all other creatures. A person can believe without knowledge, but such belief often goes astray. Only with true knowledge can a person understand the real meaning of faith and of this short life in the dunya."},
+    {"type": "text", "html": "Following that first revelation, Muslims must make their souls noble with <b>knowledge</b> and <b>good behaviour</b>. Knowledge is a strong motivation for how we behave and act, but it also brings <b>responsibility</b>. The knowledge we gain should be put into practice: we act by it, and through it we guide others to good and keep them from evil. A Muslim must also <b>pass on</b> the knowledge they have gained to other people."},
+    {"type": "text", "html": "In the very first revelation Allah commanded <b>Iqra’</b> – read, learn, study and keep growing in knowledge until the end of life. Sadly, many Muslims today have neglected this Qur’anic command, and they lag behind in education around the world."},
+    {"type": "point", "title": "Use your youth", "html": "It is especially important to use our <b>youth</b> for learning. A wise saying says that learning when young is like <b>carving in stone</b> – it stays with us our whole life and helps us in every situation."},
+    {"type": "text", "html": "In other places in the Qur’an, too, Allah (SWT) stresses knowledge and the value of people of learning. He draws our attention to their worth:"},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "He gives wisdom to whom He wills, and whoever has been given wisdom has been given a great good. But only people of understanding remember this. <small>(Qur’an, Al-Baqarah 2:269)</small>"},
+    {"type": "text", "html": "Allah (SWT) teaches us a dua and commands us to learn so that we increase our knowledge:"},
+    {"type": "phrase", "label": "Dua for knowledge (Qur’an, Ta-Ha 20:114)", "ar": "رَبِّ زِدْنِي عِلْمًا", "tr": "Rabbi zidnee ‘ilmaa", "en": "My Lord, increase me in knowledge."},
+    {"type": "point", "title": "Hadith", "html": "Muhammad (SAW) described seeking knowledge as a path to Jannah. He said: <i>“Whoever follows a path seeking knowledge, Allah makes easy for him a path to Jannah.”</i> <small>(Muslim)</small>"},
+    {"type": "point", "title": "⭐ Remember", "html": "We must gain knowledge <b>all our life</b> – knowledge that benefits the one who has it, and through them all people. It takes giving things up, work, effort, patience and sacrifice."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the reference", "pairs": [
+      ["“Read in the name of your Lord who created”", "Al-‘Alaq 96:1"],
+      ["“My Lord, increase me in knowledge”", "Ta-Ha 20:114"],
+      ["“He gives wisdom to whom He wills”", "Al-Baqarah 2:269"],
+      ["A path to Jannah for the one who seeks knowledge", "Hadith in Muslim"]
+    ]},
+    {"type": "choose_all", "title": "Knowledge brings responsibility", "prompt": "Tap what a Muslim should do with the knowledge they gain, then tap Check.", "options": [
+      {"text": "✅ Act on it", "correct": true},
+      {"text": "🧭 Use it to guide others to good", "correct": true},
+      {"text": "🗣️ Pass it on to other people", "correct": true},
+      {"text": "🤲 Ask Allah to increase it", "correct": true},
+      {"text": "🤫 Keep it only for myself", "correct": false, "why": "A Muslim must pass on the knowledge they have gained to others."},
+      {"text": "🛑 Stop learning after school", "correct": false, "why": "We seek knowledge our whole life – until the end."},
+      {"text": "😏 Use it to show off", "correct": false, "why": "Knowledge should make the soul noble and lead to good behaviour, not pride."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What was the first command Allah gave in the Qur’an?", "options": ["Iqra’ – Read!", "Pray!", "Fast!", "Travel!"], "answer": 0},
+      {"q": "What raises a human being above other creatures?", "options": ["Reading, learning and knowledge", "Strength", "Size", "Speed"], "answer": 0},
+      {"q": "What is learning in youth like, according to the wise saying?", "options": ["Carving in stone", "Writing on water", "Drawing in sand", "A dream"], "answer": 0},
+      {"q": "Which dua did Allah teach us for knowledge?", "options": ["Rabbi zidnee ‘ilmaa", "Bismillah", "Alhamdulillah", "Ameen"], "answer": 0},
+      {"q": "What does Allah make easy for the one who seeks knowledge?", "options": ["A path to Jannah", "A path to wealth", "A path to fame", "Nothing"], "answer": 0},
+      {"q": "How long should we keep learning?", "options": ["Our whole life", "Only until age 10", "Only in maktab", "Only during holidays"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and talk", "prompts": [
+      "📖 What was the first command Allah (SWT) gave to people?",
+      "💡 What is the role of knowledge in a Muslim’s life? What is the best time of life for learning?",
+      "♾️ What is lifelong learning? Do you know someone around you who keeps learning all their life?",
+      "🎓 Talk with your muallim: plan your path through education. After middle school, think about high school and college. Which subjects interest you, and what work would you like to do?"
+    ]}
+  ]
+}
