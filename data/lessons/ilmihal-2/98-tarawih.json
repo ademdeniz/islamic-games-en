@@ -1,0 +1,170 @@
+{
+  "title": "Tarawih prayer – worship in Ramadan",
+  "pages": "98",
+  "intro": "Twenty rak‘ahs on the nights of Ramadan, after Isha and before witr.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Tarawih</b> is the prayer we pray on the <b>nights of the month of Ramadan</b>."
+    },
+    {
+      "type": "text",
+      "html": "Praying tarawih is a <b>confirmed sunnah</b> (mu’akkadah), and it is best to pray it in the <b>masjid behind the imam</b>."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“Whoever stays up Ramadan in prayer, believing and hoping for Allah’s reward, his sins will be forgiven.”</i> <small>(Bukhari)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Tarawih is prayed at the time of <b>Isha</b>, after the last sunnah of Isha and <b>before witr</b>. It has <b>twenty rak‘ahs</b>, and we give salam after every <b>four</b> or after every <b>two</b> rak‘ahs."
+    },
+    {
+      "type": "list",
+      "items": [
+        "If we give salam after every <b>four</b> rak‘ahs, tarawih is prayed like the <b>first sunnah of Isha</b>.",
+        "If we pray it <b>two</b> rak‘ahs at a time, it is prayed like the <b>last sunnah of Isha</b>.",
+        "After the salam, it is good to take a short break, with dhikr or salawat."
+      ]
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for tarawih",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ التَّرَاوِيحِ عِشْرِينَ رَكْعَةً، أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اقْتَدَيْتُ بِهَذَا الْإِمَامِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaatat-taraaweehi ‘ishreena rak‘atan, adaa’an mustaqbilal-qiblati, iqtadaytu bihaadhal-imaami. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the tarawih prayer of twenty rak‘ahs, on time, facing the Qiblah, following this imam. Allah is the Greatest!"
+    },
+    {
+      "type": "heading",
+      "text": "Four rak‘ahs of tarawih – like the first sunnah of Isha"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "2nd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "First sitting: At-Tahiyyat and the salawat",
+        "3rd rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "4th rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "Last sitting: At-Tahiyyat, salawat, duas and salam"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The acts of worship in Ramadan are: <b>fasting</b>, <b>muqabalah</b> (reading the whole Qur’an together), <b>sadaqat al-fitr</b> and <b>i‘tikaf</b> (staying in the masjid for worship)."
+    },
+    {
+      "type": "text",
+      "html": "Practise: <a href=\"../../../games/ramazanski-put/\">The Ramadan Path</a> and <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – the Isha levels."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "A Ramadan night in order",
+      "prompt": "Put the prayers of a Ramadan night in order.",
+      "items": [
+        "4 rak‘ahs sunnah of Isha",
+        "4 rak‘ahs fard of Isha",
+        "2 rak‘ahs last sunnah of Isha",
+        "20 rak‘ahs tarawih",
+        "3 rak‘ahs witr"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Acts of worship in Ramadan",
+      "prompt": "Tap the acts of worship the book lists for Ramadan, then tap Check.",
+      "options": [
+        {
+          "text": "Fasting",
+          "correct": true
+        },
+        {
+          "text": "Muqabalah",
+          "correct": true
+        },
+        {
+          "text": "Sadaqat al-fitr",
+          "correct": true
+        },
+        {
+          "text": "I‘tikaf",
+          "correct": true
+        },
+        {
+          "text": "Qurbani",
+          "correct": false,
+          "why": "Qurbani belongs to Eid al-Adha, not to Ramadan."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When is tarawih prayed?",
+          "options": [
+            "On the nights of Ramadan, after the last sunnah of Isha and before witr",
+            "Every Friday at Dhuhr",
+            "Before Fajr all year",
+            "On the morning of Eid"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many rak‘ahs does tarawih have?",
+          "options": [
+            "20",
+            "8",
+            "2",
+            "13"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where is it best to pray tarawih?",
+          "options": [
+            "In the masjid behind the imam",
+            "Alone on the street",
+            "Only at school",
+            "It doesn’t matter at all"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "If we give salam after every two rak‘ahs, tarawih is prayed like…",
+          "options": [
+            "the last sunnah of Isha",
+            "the fard of Dhuhr",
+            "witr",
+            "the Eid prayer"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does the hadith promise to someone who prays in Ramadan with faith, hoping for reward?",
+          "options": [
+            "Their sins will be forgiven",
+            "They will become rich",
+            "They will never be hungry",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 What is tarawih? When is it prayed and how many rak‘ahs does it have? What is the niyyah for tarawih?",
+        "📋 Tarawih is prayed like the sunnah of Isha. Draw boxes for the 1st rak‘ah, 2nd rak‘ah, first sitting, 3rd rak‘ah, 4th rak‘ah and last sitting, and write what we recite in each.",
+        "🕌 Form a jama‘ah in maktab and practise four rak‘ahs of tarawih with your muallim."
+      ]
+    }
+  ]
+}
