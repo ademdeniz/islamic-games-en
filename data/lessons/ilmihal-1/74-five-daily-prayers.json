@@ -1,0 +1,152 @@
+{
+  "title": "The five daily prayers",
+  "pages": "74",
+  "intro": "Fajr, Dhuhr, Asr, Maghrib and Isha – and when each one is.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The second pillar of Islam is <b>Salah</b> – the highest way to show obedience and thanks to Allah. By praying we want to come closer to our Lord and earn His love. In a day and a night there are <b>five</b> prayers: <b>Fajr, Dhuhr, Asr, Maghrib and Isha</b>."
+    },
+    {
+      "type": "heading",
+      "text": "The time of the five daily prayers"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🌅",
+          "label": "Fajr – from dawn until just before sunrise"
+        },
+        {
+          "icon": "☀️",
+          "label": "Dhuhr – when the sun has moved a little past the middle of the sky, until late afternoon"
+        },
+        {
+          "icon": "🌤️",
+          "label": "Asr – when the sun leans to the west, until just before sunset"
+        },
+        {
+          "icon": "🌇",
+          "label": "Maghrib – from sunset until it is completely dark"
+        },
+        {
+          "icon": "🌙",
+          "label": "Isha – when the sunlight is completely gone, until just before dawn"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Besides the five daily prayers we also pray"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jumu‘ah on Fridays",
+        "tarawih in Ramadan",
+        "the two Eid prayers",
+        "sometimes the janazah prayer"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "We learn to pray from early childhood, and we pray regularly from the age of <b>ten</b> for the rest of our lives."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The five prayers",
+      "prompt": "Put them in order of the day.",
+      "items": [
+        "Fajr",
+        "Dhuhr",
+        "Asr",
+        "Maghrib",
+        "Isha"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "When does it begin?",
+      "pairs": [
+        [
+          "Fajr",
+          "At dawn"
+        ],
+        [
+          "Dhuhr",
+          "Just after midday"
+        ],
+        [
+          "Asr",
+          "When the sun leans west"
+        ],
+        [
+          "Maghrib",
+          "At sunset"
+        ],
+        [
+          "Isha",
+          "When it is fully dark"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many daily prayers are there?",
+          "options": [
+            "Five",
+            "Three",
+            "Seven",
+            "Two"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which prayer is on Fridays?",
+          "options": [
+            "Jumu‘ah",
+            "Tarawih",
+            "Witr",
+            "Janazah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which prayer is in Ramadan nights?",
+          "options": [
+            "Tarawih",
+            "Jumu‘ah",
+            "Eid",
+            "Duha"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "From what age do we pray regularly?",
+          "options": [
+            "Ten",
+            "Two",
+            "Twenty",
+            "Forty"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 What do we want to achieve by praying?",
+        "🗣️ Describe the time of each of the five daily prayers."
+      ]
+    }
+  ]
+}
