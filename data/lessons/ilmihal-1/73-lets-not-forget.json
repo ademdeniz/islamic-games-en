@@ -1,0 +1,90 @@
+{
+  "title": "Let’s not forget",
+  "pages": "73",
+  "intro": "Qurbani, the takbirs, the Eid manners, the Hijrah and the Mawlid – let’s not forget!",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s not forget! Say the missing words with your muallim:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "After the Eid prayer, those who ______ offer a ______: a camel or ______ for up to ______ people, or a ______ for one person.",
+        "On the day before and all ______ days of Eid al-Adha we recite the ______: Allaahu akbar, ______, laa ilaaha illallaahu ______, Allaahu akbar, wa ______!",
+        "The good deeds for both Eids are ______. On Eid al-Fitr it is good to ______ something before going to the masjid; on Eid al-Adha it is good to ______ until the Eid prayer.",
+        "The Hijrah is the move of ______ (SAW) and the Muslims from ______ to ______ in ______.",
+        "The Hijri calendar has ______ months. Its week begins on ______, and a day begins at ______.",
+        "Muhammad (SAW) was born on ______ ______, ______, in ______. His father was ______ and his mother ______.",
+        "The Prophet (SAW) said: “The closest to me on the Day of Judgement will be those who send the most ______ on me.”"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Fill in the gap",
+      "questions": [
+        {
+          "q": "How many people can share a cow for qurbani?",
+          "options": [
+            "Up to seven",
+            "One",
+            "Two",
+            "Twenty"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which day does the Hijri week begin on?",
+          "options": [
+            "Friday",
+            "Monday",
+            "Sunday",
+            "Saturday"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When does a Hijri day begin?",
+          "options": [
+            "At sunset",
+            "At midnight",
+            "At sunrise",
+            "At noon"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What was the Prophet’s mother’s name?",
+          "options": [
+            "Aminah",
+            "Khadijah",
+            "Fatimah",
+            "Hawwa"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Takbirs of tashriq",
+      "prompt": "Put them in order.",
+      "items": [
+        "Allaahu akbar, Allaahu akbar",
+        "laa ilaaha illallaahu",
+        "wallaahu akbar",
+        "Allaahu akbar",
+        "wa lillaahil-hamd"
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🗣️ Recite the takbirs of tashriq and the salawat."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title": "What is good to do on Eid",
+  "pages": "68",
+  "intro": "Clean, bathe, dress nicely, go early to the masjid – and share the joy!",
+  "learn": [
+    {
+      "type": "heading",
+      "text": "Good things to do for Eid"
+    },
+    {
+      "type": "list",
+      "items": [
+        "clean and decorate the house, the masjid and the area around them",
+        "recite something for the souls of our loved ones",
+        "bathe and put on perfume",
+        "wear our nicest, festive clothes",
+        "go early to the masjid for Fajr",
+        "recite the takbirs and give as much sadaqah as we can",
+        "share the joy of Eid with others",
+        "give Eid gifts",
+        "help prepare Eid food and sweets",
+        "visit our closest family, neighbours, relatives and friends"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "We help our parents prepare the Eid food and sweets. We greet our parents for Eid by <b>kissing their right hand</b> and giving them a small gift – and they give us an Eid gift too."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The good deeds are the same for both Eids. The only difference: on <b>Eid al-Fitr</b> it is good to eat something – like a <b>date</b> – after dawn and before going to the masjid; on <b>Eid al-Adha</b> it is good to <b>not eat</b> from dawn until after the Eid prayer."
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "Good for Eid",
+      "prompt": "Tap everything that is good to do on Eid, then tap Check.",
+      "options": [
+        {
+          "text": "🛁 Bathe and put on perfume",
+          "correct": true
+        },
+        {
+          "text": "👔 Wear our nicest clothes",
+          "correct": true
+        },
+        {
+          "text": "🕌 Go early to the masjid",
+          "correct": true
+        },
+        {
+          "text": "🎁 Give gifts",
+          "correct": true
+        },
+        {
+          "text": "👵 Visit family",
+          "correct": true
+        },
+        {
+          "text": "😠 Argue with our brother",
+          "correct": false,
+          "why": "Eid is for sharing joy and love."
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Which Eid?",
+      "prompt": "Before the Eid prayer, what is good?",
+      "bins": [
+        "Eid al-Fitr",
+        "Eid al-Adha"
+      ],
+      "items": [
+        {
+          "text": "Eat a date before the Eid prayer",
+          "bin": 0
+        },
+        {
+          "text": "Don’t eat until after the Eid prayer",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How do we greet our parents at Eid?",
+          "options": [
+            "Kiss their right hand and give a small gift",
+            "Ignore them",
+            "Ask for money first",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Are the good deeds the same for both Eids?",
+          "options": [
+            "Yes – with one small difference about eating",
+            "No, completely different",
+            "There are no good deeds",
+            "Only for adults"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 What are the good deeds for Eid?",
+        "🎉 Describe your Eid!"
+      ]
+    }
+  ]
+}
