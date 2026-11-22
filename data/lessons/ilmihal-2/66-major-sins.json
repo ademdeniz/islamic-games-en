@@ -1,0 +1,128 @@
+{
+  "title": "Major sins",
+  "pages": "66",
+  "intro": "Sins Allah clearly forbade in the Qur’an, with punishment in this world and the next.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "A <b>major sin</b> is anything Allah clearly forbade in the Qur’an, with a punishment in this world and the next."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "If you avoid the major sins you are forbidden, We will remove your smaller misdeeds. <small>(Qur’an, An-Nisa’ 4:31)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "Major sins include"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Taking a life</b> – including one’s own. Allah gives life, and only He has the right to take it.",
+        "<b>Leaving Salah</b> – Allah warns about those who abandoned prayer and followed their desires, except those who repent, believe and do good. <small>(Qur’an, Maryam 19:59–60)</small>",
+        "<b>Not doing the Islamic duties</b> of fasting, zakah and Hajj – they are fard.",
+        "<b>Disobeying parents</b> – the Prophet (SAW) said: <i>“Allah’s pleasure is in the parents’ pleasure, and Allah’s anger is in the parents’ anger.”</i> <small>(Tirmidhi)</small>",
+        "<b>Cutting family ties</b> – <i>“Whoever cuts family ties will not enter Jannah.”</i> <small>(Bukhari)</small>",
+        "<b>Zina</b> and everything that leads to it, like indecent looking and indecent talk.",
+        "<b>Using up an orphan’s wealth</b> and treating orphans unjustly.",
+        "<b>Lying</b> – it leads to evil and harms people and the community.",
+        "<b>Gambling, games of chance, horoscopes and betting</b> – people see some small gain, but the harm is far greater.",
+        "<b>Carrying tales, backbiting and slander</b>.",
+        "<b>Alcohol</b> – every drink with alcohol, in any amount, is forbidden. <i>“Alcohol is the mother of all evils.”</i> <small>(Hakim)</small>"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Because of the harm they do, Allah forbade the major sins – and it is our duty to warn others, to <b>call to good</b> and turn people away from evil."
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "Major sins",
+      "prompt": "Tap every major sin from the lesson, then tap Check.",
+      "options": [
+        {
+          "text": "Leaving Salah",
+          "correct": true
+        },
+        {
+          "text": "Disobeying parents",
+          "correct": true
+        },
+        {
+          "text": "Lying",
+          "correct": true
+        },
+        {
+          "text": "Gambling and betting",
+          "correct": true
+        },
+        {
+          "text": "Backbiting",
+          "correct": true
+        },
+        {
+          "text": "Saying “Alhamdulillah”",
+          "correct": false,
+          "why": "That is dhikr – a good deed."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is a major sin?",
+          "options": [
+            "Something Allah clearly forbade, with punishment in both worlds",
+            "A small mistake",
+            "A good deed",
+            "Something allowed"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Allah promise in An-Nisa’ 4:31?",
+          "options": [
+            "If we avoid the major sins, He removes the smaller ones",
+            "Nothing",
+            "More homework",
+            "Money"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where is Allah’s pleasure, according to the hadith?",
+          "options": [
+            "In the parents’ pleasure",
+            "In being rich",
+            "In being famous",
+            "In sleeping"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did the Prophet (SAW) call alcohol?",
+          "options": [
+            "The mother of all evils",
+            "A medicine",
+            "A drink like water",
+            "Fine in small amounts"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "🗣️ How would you talk to someone who commits major sins? What would help them understand the harm and stop? Should we speak gently or harshly?"
+      ]
+    }
+  ]
+}

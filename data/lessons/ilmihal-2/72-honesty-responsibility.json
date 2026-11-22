@@ -1,0 +1,129 @@
+{
+  "title": "Honesty and responsibility",
+  "pages": "72",
+  "intro": "Doing our duties on time, carefully and well.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Among the virtues every person – and every Muslim – should have are <b>honesty</b> and <b>responsibility</b>. They complete each other: if someone is honest, they are responsible; if someone is responsible, they are honest."
+    },
+    {
+      "type": "text",
+      "html": "A person who does their duties on time can be called honest and responsible. We decorate ourselves with these qualities from childhood so we stay like this when we grow up. If we do our maktab and school work on time, we are already building these habits."
+    },
+    {
+      "type": "text",
+      "html": "Allah created us to make an effort, and our effort will be seen by Him, His Messenger and the believers. So every boy and girl should try to be honest and responsible."
+    },
+    {
+      "type": "heading",
+      "text": "Honesty and responsibility mean"
+    },
+    {
+      "type": "list",
+      "items": [
+        "doing our duties on time",
+        "doing them carefully and conscientiously",
+        "doing them completely, as we were asked",
+        "doing them beautifully",
+        "leaving the place where we worked tidy",
+        "if we can, doing more than we were asked"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "How to do maktab or school homework"
+    },
+    {
+      "type": "list",
+      "items": [
+        "after a rest, start the homework straight away",
+        "do it the way the muallim or teacher said",
+        "keep the page clean and tidy",
+        "if allowed, make the page look nice",
+        "afterwards, put the books back in the bag and tidy the place where you worked"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Doing homework well",
+      "prompt": "Put it in order.",
+      "items": [
+        "Rest a little after coming home",
+        "Start the homework straight away",
+        "Do it as the teacher said",
+        "Keep the page clean and tidy",
+        "Put the books away and tidy up"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Honest and responsible?",
+      "prompt": "Tap everything an honest, responsible pupil does, then tap Check.",
+      "options": [
+        {
+          "text": "Does homework on time",
+          "correct": true
+        },
+        {
+          "text": "Does it completely",
+          "correct": true
+        },
+        {
+          "text": "Leaves the desk tidy",
+          "correct": true
+        },
+        {
+          "text": "Does a bit more than asked",
+          "correct": true
+        },
+        {
+          "text": "Copies a friend’s answers",
+          "correct": false,
+          "why": "That is not honest."
+        },
+        {
+          "text": "Leaves it until the last minute and rushes",
+          "correct": false,
+          "why": "We do our duties on time and carefully."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How do honesty and responsibility relate?",
+          "options": [
+            "They complete each other",
+            "They are opposites",
+            "They are not connected",
+            "Only adults need them"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who sees our effort?",
+          "options": [
+            "Allah, His Messenger and the believers",
+            "Nobody",
+            "Only our teacher",
+            "Only our friends"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose your task",
+      "prompts": [
+        "✍️ Write a short story or poem about honesty and responsibility.",
+        "📅 Make your weekly calendar, putting duties in order of importance: Salah, maktab and school, training, free activities and play, free time."
+      ]
+    }
+  ]
+}

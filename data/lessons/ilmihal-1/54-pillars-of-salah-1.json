@@ -1,0 +1,118 @@
+{
+  "title": "Pillars of Salah: opening takbir, standing and recitation",
+  "pages": "54",
+  "intro": "The six parts of Salah – the first three.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>pillars</b> (arkan) of Salah are its essential parts. There are <b>six</b>, and we must do them all carefully and correctly for our Salah to be right and complete. Without all of them, Salah is not right and must be prayed again."
+    },
+    {
+      "type": "heading",
+      "text": "1. Iftitah takbir – the opening takbir"
+    },
+    {
+      "type": "text",
+      "html": "After the niyyah, <b>boys</b> raise their hands to their ears, fingers together, palms facing the Qiblah, touching the soft part of the ears with the thumbs, and say <b>Allaahu akbar</b>. <b>Girls</b> raise their hands to their chest, fingers together, and say <b>Allaahu akbar</b>. We look at the place of sajdah. The feet face the Qiblah, four fingers apart."
+    },
+    {
+      "type": "heading",
+      "text": "2. Qiyam – standing"
+    },
+    {
+      "type": "text",
+      "html": "We stand straight and look at the place where our face goes down in sajdah. <b>Boys</b> put their hands at the waist, right hand over left, holding the left wrist with the thumb and little finger. <b>Girls</b> hold their hands on the chest, the right palm on the back of the left hand."
+    },
+    {
+      "type": "heading",
+      "text": "3. Qira’ah – reciting the Qur’an"
+    },
+    {
+      "type": "text",
+      "html": "Standing, we recite what is set for each standing. In the <b>first</b> standing: Subhanaka, A‘udhu billah, Bismillah, Al-Fatiha and a surah. In the <b>second</b> standing: Bismillah, Al-Fatiha and a surah."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Standing + recitation + ruku‘ + sajdah + sajdah = <b>one rak‘ah</b>. A Salah can have two, three or four rak‘ahs."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The first rak‘ah",
+      "prompt": "Put the recitation of the first standing in order.",
+      "items": [
+        "Subhanaka",
+        "A‘udhu billah",
+        "Bismillah",
+        "Al-Fatiha",
+        "A surah"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many pillars of Salah are there?",
+          "options": [
+            "Six",
+            "Three",
+            "Twelve",
+            "Two"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the iftitah takbir?",
+          "options": [
+            "Saying Allaahu akbar at the start",
+            "The salam",
+            "The last sitting",
+            "Ruku‘"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where do we look while standing?",
+          "options": [
+            "At the place of sajdah",
+            "At the ceiling",
+            "At our friend",
+            "Out of the window"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we recite in the second standing?",
+          "options": [
+            "Bismillah, Al-Fatiha and a surah",
+            "Subhanaka only",
+            "At-Tahiyyat",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many rak‘ahs can a Salah have?",
+          "options": [
+            "Two, three or four",
+            "Ten",
+            "One only",
+            "Seven"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Practise",
+      "prompts": [
+        "🧍 Show the opening takbir and standing the right way.",
+        "🗣️ Recite what we say in the first standing."
+      ]
+    }
+  ]
+}

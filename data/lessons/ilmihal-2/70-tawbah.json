@@ -1,0 +1,130 @@
+{
+  "title": "Tawbah – repentance",
+  "pages": "70–71",
+  "intro": "Turning back to Allah after a sin – the way Adam (AS) and Hawwa did.",
+  "names": [
+    "Ćazim",
+    "Ćatić"
+  ],
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Tawbah</b> is repenting for a sin. It is part of a believer’s everyday life. Tawbah has been known since the time when the first man, Adam (AS), and his wife Hawwa lived in Jannah and made the first mistake. After it, they were the first to repent to Allah and make tawbah."
+    },
+    {
+      "type": "text",
+      "html": "A person who sins must repent by making tawbah. In Islam, tawbah is made to <b>Allah alone</b>, and <b>straight after</b> the sin."
+    },
+    {
+      "type": "heading",
+      "text": "For tawbah to be accepted, the person"
+    },
+    {
+      "type": "list",
+      "items": [
+        "stops the sin",
+        "regrets it in the heart",
+        "does not go back to it"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "If someone was wronged",
+      "html": "If the sin was against another person, the sinner should first <b>apologise</b> and ask them to forgive. If something of theirs was damaged, it must be <b>made good</b>."
+    },
+    {
+      "type": "phrase",
+      "label": "Words of tawbah",
+      "ar": "أَسْتَغْفِرُ اللَّهَ مِنْ كُلِّ ذَنْبٍ وَأَتُوبُ إِلَيْهِ",
+      "tr": "Astaghfirullaaha min kulli dhanbin wa atoobu ilayh.",
+      "en": "I ask Allah’s forgiveness for every sin, and I turn to Him in repentance."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Turn to Allah in repentance, all of you, O believers, so that you may succeed. <small>(Qur’an, An-Nur 24:31)</small>"
+    },
+    {
+      "type": "point",
+      "title": "A poem of repentance",
+      "html": "The Bosnian poet Musa Ćazim Ćatić wrote a famous poem, <i>Tawbah-i nasuh</i> (sincere repentance), in which he falls into sajdah, admits his sins, and asks Allah to heal his soul, strengthen his will and light his way with mercy. Read it with your muallim."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Making tawbah",
+      "prompt": "Put the steps in order.",
+      "items": [
+        "Stop the sin",
+        "Regret it in the heart",
+        "Apologise and make good if someone was wronged",
+        "Ask Allah’s forgiveness",
+        "Never go back to it"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is tawbah?",
+          "options": [
+            "Repenting for a sin",
+            "A kind of food",
+            "A prayer time",
+            "A journey"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who made the first tawbah?",
+          "options": [
+            "Adam (AS) and Hawwa",
+            "Musa (AS)",
+            "Nuh (AS)",
+            "The angels"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "To whom is tawbah made?",
+          "options": [
+            "To Allah alone",
+            "To a friend",
+            "To nobody",
+            "To the imam only"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Is it enough to repent to Allah if we damaged someone’s things?",
+          "options": [
+            "No – we must also apologise and make it good",
+            "Yes",
+            "Only on Friday",
+            "We don’t need to repent"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “Astaghfirullaah” mean?",
+          "options": [
+            "I ask Allah’s forgiveness",
+            "Allah is the Greatest",
+            "Peace be upon you",
+            "In the name of Allah"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "💬 Tawbah in everyday life: being ready to admit a mistake to ourselves and others, to be honest, to learn to put things right and to apologise."
+      ]
+    }
+  ]
+}

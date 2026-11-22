@@ -1,0 +1,101 @@
+{
+  "title": "The sixth condition of Salah – the niyyah",
+  "pages": "51",
+  "intro": "The niyyah is the decision in the heart about which prayer we are praying.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>sixth condition</b> of Salah is the <b>niyyah</b> – deciding to pray. The niyyah is a conscious decision in the heart: why and for whom we are doing something. Before Salah we must know which prayer we want to pray."
+    },
+    {
+      "type": "text",
+      "html": "We can strengthen the niyyah in the heart by saying its words. Every prayer has its own niyyah. When we say it, we turn our thoughts to Allah:"
+    },
+    {
+      "type": "phrase",
+      "label": "The start of every niyyah",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa…",
+      "en": "I intend to pray, for Allah, the Most High…"
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "Muhammad (SAW) said: <i>“Deeds are judged by intentions, and every person gets what they intended…”</i> <small>(Bukhari and Muslim)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "The six conditions before Salah"
+    },
+    {
+      "type": "list",
+      "items": [
+        "a clean body, clothes and place",
+        "wudu (or ghusl, or tayammum)",
+        "being properly dressed",
+        "praying on time",
+        "facing the Qiblah",
+        "the niyyah"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The six conditions before Salah",
+      "prompt": "Put them in order.",
+      "items": [
+        "Cleanliness",
+        "Wudu",
+        "Proper clothing",
+        "On time",
+        "Facing the Qiblah",
+        "Niyyah"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the sixth condition of Salah?",
+          "options": [
+            "The niyyah – deciding to pray",
+            "Being fast",
+            "Being tall",
+            "Having a prayer mat"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the niyyah?",
+          "options": [
+            "A decision in the heart",
+            "A song",
+            "A kind of food",
+            "A place"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How are deeds judged, according to the hadith?",
+          "options": [
+            "By intentions",
+            "By size",
+            "By speed",
+            "By price"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Fill in and list",
+      "prompts": [
+        "📝 The conditions of Salah are what we must fulfil for Salah to be ______. There are ______: ______ before Salah and ______ during it.",
+        "🗣️ Name the six conditions before Salah."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Let’s not forget",
+  "pages": "53",
+  "intro": "Clothing, prayer times, the adhan and iqamah, the Qiblah and the niyyah.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s not forget! Say the missing words with your muallim:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The third condition of Salah is being properly ______. With clothes we protect our body and our ______.",
+        "Clothes for Salah should be clean, ______, comfortable and ______ – not see-through, dirty, ______ or with pictures.",
+        "The fourth condition is praying ______. There are five prayer times: ______, ______, ______, ______ and ______.",
+        "We cannot pray while the sun is ______, when it is in the ______ of the sky, and while it is ______.",
+        "The adhan announces the prayer ______ and calls us to pray ______.",
+        "In the iqamah we add: ______ – the prayer is beginning.",
+        "The fifth condition is facing the ______ – the direction of the ______ in Makkah.",
+        "The sixth condition is the ______ – deciding to pray."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "The six conditions before Salah",
+      "pairs": [
+        [
+          "1st",
+          "Cleanliness"
+        ],
+        [
+          "2nd",
+          "Wudu"
+        ],
+        [
+          "3rd",
+          "Proper clothing"
+        ],
+        [
+          "4th",
+          "On time"
+        ],
+        [
+          "5th",
+          "Facing the Qiblah"
+        ],
+        [
+          "6th",
+          "Niyyah"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What do we add in the iqamah?",
+          "options": [
+            "Qad qaamatis-salaah",
+            "Prayer is better than sleep",
+            "Ameen",
+            "Bismillah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which direction do we face?",
+          "options": [
+            "The Qiblah – the Ka‘bah",
+            "The window",
+            "Any way",
+            "The door"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When can we NOT pray?",
+          "options": [
+            "While the sun is rising",
+            "In the evening",
+            "At night",
+            "After Isha"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🗣️ Recite the adhan, the iqamah and the dua after the adhan!"
+      ]
+    }
+  ]
+}
