@@ -1,0 +1,79 @@
+{
+  "title": "Responsibility for life and health",
+  "pages": "106–107",
+  "intro": "Life and health are among Allah’s greatest gifts – and we are responsible for looking after them, body and mind.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Musa (AS) said: Our Lord is the One who gave everything He created its form, and then guided it. <small>(Qur’an, Ta-Ha 20:50)</small>"},
+    {"type": "text", "html": "Muslims know that they are <b>responsible before Allah (SWT)</b> for every deed they do. This feeling of responsibility moves a person to do good deeds. That is why Allah reminds us of our responsibility:"},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Do not follow what you have no knowledge of. Truly, the hearing, the sight and the heart – each of these will be asked about. <small>(Qur’an, Al-Isra 17:36)</small>"},
+    {"type": "text", "html": "The stronger the feeling of responsibility, the firmer a person is on Allah’s path. We often call someone <i>irresponsible</i> when they don’t do their duties and keep their promises on time. But how often have we asked ourselves: <b>“How responsible am I for my own life and health?”</b>"},
+    {"type": "text", "html": "Our responsibility for the blessings of life and health is to use them for what will help us in this world and the next. Life and health are among the <b>greatest blessings</b> Allah gave people, so every person – especially every Muslim – must be thankful for them and look after them. Whoever deliberately ruins or takes their own life, or damages their health, commits a great sin."},
+    {"type": "heading", "text": "How we look after our health"},
+    {"type": "list", "items": [
+      "doing what Allah (SWT) commanded (Salah, fasting…)",
+      "doing what Allah allowed (sleep, rest…)",
+      "keeping away from the haram – everything Allah forbade (alcohol, gambling, drugs…)",
+      "keeping our body, clothes and the places where we live and work clean",
+      "eating healthy food",
+      "working and earning in moderation",
+      "sport and recreation",
+      "getting treatment when we are ill"
+    ]},
+    {"type": "point", "title": "Hijama (cupping)", "html": "Hijama is a way of treatment by letting blood from certain places on the body. It is done by a trained medical person. The Prophet (SAW) used to have hijama done on the 17th, 19th and 21st day of the months of the Hijri calendar. <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "When we think about the Prophet’s (SAW) advice and look at the world as it is, we see that many people spend their free time <b>harming their health</b> – doing what is not allowed and not doing what is commanded."},
+    {"type": "text", "html": "A person is made of a <b>soul and a body</b> – not only a body, and not only a soul. So when we talk about looking after our health, we mean not only our <b>physical</b> health but also our <b>mental</b> health."},
+    {"type": "heading", "text": "We look after our physical health by…"},
+    {"type": "cards", "items": [
+      {"icon": "🕌", "label": "Regularly doing the Islamic duties (Salah, fasting…)"},
+      {"icon": "🥗", "label": "Eating healthy food"},
+      {"icon": "🚶", "label": "Being active every day, as much as we can"},
+      {"icon": "⚽", "label": "Doing a sport or recreation"},
+      {"icon": "🩺", "label": "Regular check-ups, especially at the dentist"},
+      {"icon": "🩸", "label": "Hijama – a Sunnah of the Prophet (SAW)"}
+    ]},
+    {"type": "heading", "text": "We look after our mental health by…"},
+    {"type": "cards", "items": [
+      {"icon": "📖", "label": "Regularly reading the Qur’an and praying"},
+      {"icon": "👫", "label": "Talking with friends who lead us to good and away from evil"},
+      {"icon": "🕊️", "label": "Avoiding quarrels and anger"},
+      {"icon": "⚖️", "label": "Not overdoing laughter or sadness"},
+      {"icon": "🧘", "label": "Self-control in unexpected and hard situations"}
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "The Messenger of Allah, Muhammad (SAW), reminds us: <i>“There are two blessings that most people are cheated of: health and free time.”</i> <small>(Bukhari)</small>"}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Body or mind?", "prompt": "Does each habit mainly help our physical health or our mental health?", "bins": ["💪 Physical health", "🧠 Mental health"], "items": [
+      {"text": "Eating fruit and vegetables", "bin": 0},
+      {"text": "Playing football with friends", "bin": 0},
+      {"text": "Going to the dentist for a check-up", "bin": 0},
+      {"text": "Walking every day", "bin": 0},
+      {"text": "Reading the Qur’an", "bin": 1},
+      {"text": "Calming down instead of getting angry", "bin": 1},
+      {"text": "Spending time with good friends", "bin": 1},
+      {"text": "Staying calm when something goes wrong", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "Looking after my health", "prompt": "Tap everything that is a good way to look after your health, then tap Check.", "options": [
+      {"text": "😴 Getting enough sleep and rest", "correct": true},
+      {"text": "🧼 Keeping my body and clothes clean", "correct": true},
+      {"text": "🕌 Praying and fasting", "correct": true},
+      {"text": "💊 Getting treatment when I am ill", "correct": true},
+      {"text": "📱 Playing on the phone until late at night", "correct": false, "why": "Sleep and rest are a blessing Allah allowed us – wasting them harms our health."},
+      {"text": "🚬 Trying a cigarette", "correct": false, "why": "Allah forbade what harms us. Damaging your own health on purpose is a sin."},
+      {"text": "🍬 Eating only sweets and chips", "correct": false, "why": "Healthy food is one of the ways we look after the body Allah gave us."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What are two of the greatest blessings Allah gave people?", "options": ["Life and health", "Money and fame", "Phones and games", "Cars and houses"], "answer": 0},
+      {"q": "What is it to deliberately damage your own health?", "options": ["A great sin", "Allowed", "A good deed", "Not important"], "answer": 0},
+      {"q": "What two parts is a person made of?", "options": ["A soul and a body", "Only a body", "Only a soul", "Bones and skin"], "answer": 0},
+      {"q": "What is hijama?", "options": ["Treatment by letting blood, done by a trained person", "A kind of fasting", "A sport", "A dua"], "answer": 0},
+      {"q": "Which two blessings did the Prophet (SAW) say most people are cheated of?", "options": ["Health and free time", "Food and drink", "Gold and silver", "Sleep and dreams"], "answer": 0},
+      {"q": "According to the Qur’an, what will each be asked about?", "options": ["The hearing, the sight and the heart", "Only our clothes", "Only our money", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 What does it mean to be responsible for your own life and health?",
+      "📝 Task 1: In your maktab notebook, write some more ways to look after your physical and mental health that are not listed here.",
+      "🗓️ Task 2: Write a plan of your daily and weekly activities, making sure they look after your physical and mental health.",
+      "🤲 Talk with your muallim: Salah – looking after our physical and mental health."
+    ]}
+  ]
+}

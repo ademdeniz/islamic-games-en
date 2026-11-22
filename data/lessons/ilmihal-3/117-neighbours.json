@@ -1,0 +1,61 @@
+{
+  "title": "Duties to neighbours",
+  "pages": "117–118",
+  "intro": "A good neighbour is safe to live next to – and Islam teaches us to be the best neighbour on the street.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Worship Allah and do not associate anything with Him. Be good to parents, to relatives, to orphans, to the needy, to the neighbour who is near and the neighbour who is far, and to others… <small>(Qur’an, An-Nisa 4:36)</small>"},
+    {"type": "text", "html": "The people who live near our home, on our street or in our neighbourhood are our <b>neighbours</b>. They are the people we meet most often and know best. Islam teaches us that besides being good to our parents and relatives, we should also be good to our neighbours."},
+    {"type": "text", "html": "We should <b>respect</b> older neighbours and greet them when we meet; with neighbours our own age we should play, hang out and be careful with each other. It is especially important to <b>help each other</b> in everyday tasks, which brings us even closer. A good, kind relationship with neighbours confirms our faith and gives it a special sweetness, and we feel the peace and contentment that comes from it."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“…and the best of neighbours is the one who treats his neighbour best.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "From our parents we learned to treat our neighbours nicely: to greet them with salam when we meet, to say kind words to them, to listen to them and, if they ask for help, to help them."},
+    {"type": "heading", "text": "Six rights of a Muslim"},
+    {"type": "text", "html": "The Prophet (SAW) said: <i>“A Muslim has six rights over another Muslim:</i> <small>(Muslim)</small>"},
+    {"type": "list", "items": [
+      "when you meet him, give him salam;",
+      "when he invites you, accept;",
+      "when he asks for advice, advise him;",
+      "when he sneezes (and says Alhamdulillah), say to him <i>yarhamukallaah</i>;",
+      "when he is ill, visit him;",
+      "and when he dies, pray his janazah.”"
+    ]},
+    {"type": "phrase", "label": "When someone sneezes and says Alhamdulillah, we say:", "ar": "يَرْحَمُكَ اللهُ", "tr": "Yarhamukallaah", "en": "May Allah have mercy on you."},
+    {"type": "text", "html": "As children we get to know our first friends in our neighbourhood, and we grow up and play together. When we grow older, we go to maktab and school together and spend our free time playing."},
+    {"type": "text", "html": "Without good relations with neighbours there is no harmony or friendship in the jama‘ah, and no true faith. Allah (SWT) and His Messenger (SAW) strictly <b>forbid bothering neighbours</b>, whether they are Muslims or not, and teach us that the one who is hostile to his neighbours and neighbourhood is not a complete believer."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“By Allah, he is not a believer! By Allah, he is not a believer! By Allah, he is not a believer!”</i> They asked: “Who, O Messenger of Allah?” He said: <i>“The one whose neighbour is not safe from his harm.”</i> <small>(Bukhari)</small>"},
+    {"type": "point", "title": "The woman who prayed at night", "html": "Abu Hurairah (RA) reported that people once praised a woman to the Prophet (SAW): she prayed voluntary prayers at night, fasted besides Ramadan and gave sadaqah – but she <b>hurt her neighbours with her tongue</b>. The Prophet (SAW) said: <i>“There is no good in her. She is among the people of the Fire.”</i>"},
+    {"type": "text", "html": "By treating children our own age kindly, we get used to good manners towards everyone. When we take care not to hurt others or call them <b>ugly nicknames</b>, we build a good picture of ourselves."},
+    {"type": "point", "title": "⭐ Remember", "html": "Always greet your neighbours nicely with a <b>smile</b> and salam, talk with them, and ask how they are."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The six rights of a Muslim", "prompt": "Put the six rights in the order the Prophet (SAW) listed them.", "items": [
+      "When you meet him, give him salam",
+      "When he invites you, accept",
+      "When he asks for advice, advise him",
+      "When he sneezes, say yarhamukallaah",
+      "When he is ill, visit him",
+      "When he dies, pray his janazah"
+    ]},
+    {"type": "sort", "title": "Good neighbour or not?", "prompt": "Is this what a good neighbour does?", "bins": ["😊 Good neighbour", "🙁 Not a good neighbour"], "items": [
+      {"text": "Smiling and saying salam over the fence", "bin": 0},
+      {"text": "Shovelling snow for an older neighbour", "bin": 0},
+      {"text": "Bringing a plate of food on Eid", "bin": 0},
+      {"text": "Visiting a neighbour who is ill", "bin": 0},
+      {"text": "Playing loud music late at night", "bin": 1},
+      {"text": "Calling the neighbour’s kid an ugly nickname", "bin": 1},
+      {"text": "Throwing rubbish into the neighbour’s yard", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who are our neighbours?", "options": ["People who live near our home, on our street or in our neighbourhood", "Only our relatives", "Only Muslims", "Only people our age"], "answer": 0},
+      {"q": "Who is the best neighbour, according to the hadith?", "options": ["The one who treats his neighbour best", "The richest one", "The one with the biggest house", "The one who never talks"], "answer": 0},
+      {"q": "Whom did the Prophet (SAW) say is “not a believer” three times?", "options": ["The one whose neighbour is not safe from his harm", "The one who is poor", "The one who lives far away", "The one who has no neighbours"], "answer": 0},
+      {"q": "Is it allowed to bother a neighbour who is not Muslim?", "options": ["No – bothering any neighbour is forbidden", "Yes", "Only on weekends", "Only a little"], "answer": 0},
+      {"q": "Why was there “no good” in the woman who prayed and fasted?", "options": ["She hurt her neighbours with her tongue", "She prayed too much", "She was poor", "She lived alone"], "answer": 0},
+      {"q": "What do we say to someone who sneezes and says Alhamdulillah?", "options": ["Yarhamukallaah", "Ameen", "Insha’Allah", "Bismillah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 Whom do we call our neighbours? What are our duties to them? What does a good relationship with neighbours mean?",
+      "🔎 Task 1: Find out how the Prophet (SAW) treated his neighbours who were not Muslims.",
+      "🤝 Task 2: Find a way to help a neighbour who needs help. Write what you did and how you helped."
+    ]}
+  ]
+}

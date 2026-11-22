@@ -1,0 +1,70 @@
+{
+  "title": "Keeping family ties",
+  "pages": "115–116",
+  "intro": "Silat ar-rahim – keeping in touch with our relatives – keeps us connected to Allah and to one another.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Worship Allah and do not associate anything with Him, and be good to parents, to relatives, to orphans… <small>(Qur’an, An-Nisa 4:36)</small>"},
+    {"type": "text", "html": "We learned earlier to tell the difference between the <b>close</b> and the <b>wider</b> family, and who belongs to each. Besides being good to our parents, a Muslim has the duty to look after and protect their relatives. <b>Visiting</b> relatives and taking care of them is the best way to keep family ties (<b>silat ar-rahim</b>)."},
+    {"type": "text", "html": "Besides our parents, brothers and sisters, our relatives include our <b>grandfathers and grandmothers</b>, our parents’ brothers and sisters – <b>aunts and uncles</b> on both sides – and their children, our <b>cousins</b>. Keeping family ties is one of the important duties of a believer, commanded in the Qur’an, in the hadith qudsi of Allah (SWT) and in the hadiths of Muhammad (SAW)."},
+    {"type": "point", "title": "Hadith qudsi", "html": "Muhammad (SAW) told us that Allah (SWT) said: <i>“I am the Most Merciful (Ar-Rahman). I created the ties of kinship (ar-rahim) and gave them a name from My own name. Whoever keeps them, I will keep him; whoever cuts them, I will cut him off.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "From this ayah and hadith qudsi we learn that family ties have a very important place in Islam, because whoever keeps family ties keeps a bond with Allah (SWT), and whoever cuts them cuts their bond with Him. So it is important to stress:"},
+    {"type": "list", "items": [
+      "keeping family ties is like keeping our bond with Allah, which brings good in this world and the next",
+      "cutting family ties is like cutting our bond with Allah, which takes away many of life’s values"
+    ]},
+    {"type": "text", "html": "Keeping family ties matters because of the <b>love between relatives</b>, which grows in childhood. That is why it is important to visit relatives with our parents while we are children, and to get to know their children. For relatives’ children to love each other, and for that love to last, we should:"},
+    {"type": "cards", "items": [
+      {"icon": "👋", "label": "Get to know our relatives"},
+      {"icon": "⏳", "label": "Spend as much time together as we can"},
+      {"icon": "🎲", "label": "Hang out and play together"},
+      {"icon": "🏡", "label": "Stay as guests with each other in the holidays"},
+      {"icon": "📚", "label": "Help each other with school and maktab work"}
+    ]},
+    {"type": "heading", "text": "The benefits of keeping family ties"},
+    {"type": "list", "items": [
+      "the pleasure of Allah (SWT)",
+      "the reward for following the Sunnah",
+      "good communication between relatives",
+      "more love between relatives",
+      "easier everyday life in the dunya",
+      "bearing hard times more easily"
+    ]},
+    {"type": "text", "html": "We should keep family ties even with relatives who <b>don’t visit us back</b>. If we do that, it shows we are doing it only for the sake of Allah (SWT), and we expect our reward from Him."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Keeping family ties is not returning a visit. Keeping family ties is visiting the one who does not visit you.”</i> <small>(Bukhari)</small>"},
+    {"type": "text", "html": "Cutting family ties has serious consequences in this world, and especially on the <b>Day of Judgement</b>, as the Prophet (SAW) warned."},
+    {"type": "point", "title": "🏙️ In our community", "html": "Many of our families in Erie have relatives in Bosnia and around the world. A phone or video call, a message or a visit in the summer holidays is also a way of keeping family ties."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Who are my relatives?", "prompt": "Tap everyone who belongs to our relatives (rahim), then tap Check.", "options": [
+      {"text": "👴 Grandfather", "correct": true},
+      {"text": "👵 Grandmother", "correct": true},
+      {"text": "🧔 My father’s brother", "correct": true},
+      {"text": "👩 My mother’s sister", "correct": true},
+      {"text": "🧒 My aunt’s children", "correct": true},
+      {"text": "🏫 My classmate", "correct": false, "why": "A classmate can be a good friend, but is not a relative."},
+      {"text": "🛒 The shopkeeper on our street", "correct": false, "why": "We treat everyone kindly, but the shopkeeper is not family."}
+    ]},
+    {"type": "memory", "title": "Match it up", "pairs": [
+      ["Silat ar-rahim", "Keeping family ties"],
+      ["Keeping the ties", "Allah keeps His bond with you"],
+      ["Cutting the ties", "Allah cuts His bond with you"],
+      ["True silat ar-rahim", "Visiting the one who doesn’t visit you"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is the best way to keep family ties?", "options": ["Visiting and caring for relatives", "Waiting for them to come first", "Only sending gifts once", "Forgetting about them"], "answer": 0},
+      {"q": "Which name of Allah did He give to the ties of kinship (rahim)?", "options": ["Ar-Rahman – the Most Merciful", "Al-Malik – the King", "Al-Khaliq – the Creator", "Al-‘Aziz – the Mighty"], "answer": 0},
+      {"q": "What happens to the one who keeps family ties?", "options": ["Allah keeps His bond with him", "Nothing", "He loses time", "He becomes poor"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say true keeping of family ties is?", "options": ["Visiting the one who doesn’t visit you", "Only returning visits", "Visiting only rich relatives", "Visiting once a year"], "answer": 0},
+      {"q": "When does love between relatives grow?", "options": ["In childhood", "Only when we are old", "Never", "Only at weddings"], "answer": 0},
+      {"q": "When are the consequences of cutting family ties especially hard?", "options": ["On the Day of Judgement", "On holidays", "At school", "Never"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 Who, besides our parents, belongs to our relatives? What results come from keeping family ties, and what from cutting them?",
+      "🌟 What are the benefits of keeping family ties? What is keeping family ties according to the hadith of Muhammad (SAW)?",
+      "😊 Talk with your muallim: remember some of the best moments you spent with your relatives. Describe them and try to explain why that feeling was so good.",
+      "📞 Choose a task (1): Talk with your parents about relatives your family rarely or never visits – and agree to visit or call them.",
+      "👴 Choose a task (2): Talk with your grandfather and grandmother about what families used to be like. How often did they visit each other, and how big were the families then?",
+      "📋 Choose a task (3): Make a table of your close and wider family: name, how they are related to you, and how close you are (✓ we know each other, ✓✓ we visit often, ✓✓✓ we visit very often)."
+    ]}
+  ]
+}

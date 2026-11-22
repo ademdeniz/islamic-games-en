@@ -1,0 +1,68 @@
+{
+  "title": "Obedience and care for parents",
+  "pages": "112–114",
+  "intro": "After obeying Allah, being good to our parents is one of the greatest duties – in their lives and after them.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "We have commanded the human being to be good to his parents. His mother carried him, weakness upon weakness, and weaned him in two years. Be thankful to Me and to your parents – to Me is the return. <small>(Qur’an, Luqman 31:14)</small>"},
+    {"type": "text", "html": "If someone asked us: who loves you most, who is happy when you are happy and sad when you are sad, who worries when you are ill and when you are not home, who has given their life for you and wished for you most? – our answer would surely be the same: <b>our parents</b>."},
+    {"type": "text", "html": "Our parents are the closest and dearest people to us. By Allah’s will we came from them. They love us, look after us, raise us, help us and encourage us; we lean on them, they love us most, and so we owe them the most. Parents and children are the closest of all: parents look after their children, and children must <b>listen to and respect</b> their parents."},
+    {"type": "text", "html": "One of the most beautiful qualities of good character is to return goodness with <b>even more goodness</b>. This is especially true for parents, who have done us endless good. Allah (SWT) asks children to respect their parents and commands them to obey them."},
+    {"type": "text", "html": "Being good to our parents (<b>birr al-walidayn</b>) means every good we can do for them. Parents don’t ask for much – they are thankful when we smile at them, look at them kindly, kiss them and speak to them nicely. We often get the chance to do good to other people, but no good can compare with the good we do for our parents."},
+    {"type": "point", "title": "Ibn Umar (RA) at the Ka‘bah", "html": "It is told that Abdullah ibn Umar (RA) was at the Ka‘bah and saw a man doing tawaf while carrying his mother on his back. The man said: “Abdullah, son of Umar, do you think I have repaid my mother, carrying her on my back so she could do tawaf?” – “No, my friend,” answered Abdullah ibn Umar, “you have not repaid her even for <b>one pain of giving birth</b>.”"},
+    {"type": "point", "title": "Hadith", "html": "Abu Hurairah (RA) reported that a man came to the Messenger of Allah (SAW) and asked: “O Messenger of Allah, who has the most right to my good company?” He said: <i>“Your mother.”</i> The man asked: “Then who?” <i>“Your mother.”</i> “Then who?” <i>“Your mother.”</i> “Then who?” <i>“Your father.”</i> <small>(Bukhari)</small> The mother is mentioned three times because she carries, gives birth to and feeds her children."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Your Lord has commanded that you worship none but Him, and that you be good to your parents. If one or both of them reach old age with you, do not say to them even “Uff!” and do not shout at them, but speak to them with respect. Lower to them the wing of humility out of mercy and say: “My Lord, have mercy on them, as they raised me when I was small.” <small>(Qur’an, Al-Isra 17:23–24)</small>"},
+    {"type": "phrase", "label": "Dua for parents (Qur’an, Al-Isra 17:24)", "ar": "رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا", "tr": "Rabbir-hamhumaa kamaa rabbayaanee sagheeraa", "en": "My Lord, have mercy on them, as they raised me when I was small."},
+    {"type": "heading", "text": "Our duties to our parents"},
+    {"type": "text", "html": "Caring for our parents is a duty that lasts until the end of their lives, and it matters most when they grow <b>old and weak</b>. Besides obeying Allah, the ayahs list our duties to our parents:"},
+    {"type": "list", "items": [
+      "to be good to them",
+      "to obey them all our life, especially when they grow old",
+      "to speak to them with full respect",
+      "to make dua to Allah for them"
+    ]},
+    {"type": "point", "title": "After they pass away", "html": "Our duties don’t stop when our parents leave this world. A man asked the Prophet (SAW) about being good to parents after their death, and he answered: <i>“Yes – make dua for them and ask forgiveness for them, carry out what they asked in their will, visit the relatives you have only through them, and treat their friends with honour and kindness.”</i> <small>(Abu Dawud)</small>"},
+    {"type": "heading", "text": "⭐ Remember: the three men in the cave"},
+    {"type": "text", "html": "Abdullah ibn Umar reported that three men were travelling and took shelter in a cave to rest. While they were there, a rock rolled down the hill and <b>closed the entrance</b>. In the morning they could not get out, so they decided to ask Allah (SWT) for help, each mentioning the <b>best deed</b> he had done in his life."},
+    {"type": "text", "html": "One of them mentioned his goodness to his parents: “O Allah, You know that I had old and weak parents, and every evening I brought them milk from my sheep. One evening I came late and they had already fallen asleep, while my own children were crying from hunger. I stood waiting until they woke up so I could feed them first, and so the dawn came. When they woke up I fed them, and then I fed my children. My Lord, You know I did this out of fear of You – so move the rock from the cave entrance!” The rock moved, but not enough to get out. After him the other two made dua, mentioning their best deeds, and Allah answered them too: the rock moved away and they went on their way. <small>(Bukhari and Muslim)</small>"}
+  ],
+  "practice": [
+    {"type": "order", "title": "Who has the most right to my good company?", "prompt": "Put the Prophet’s (SAW) answers in the order he gave them.", "items": [
+      "1st answer: “Your mother”",
+      "2nd answer: “Your mother”",
+      "3rd answer: “Your mother”",
+      "4th answer: “Your father”"
+    ]},
+    {"type": "sort", "title": "In their life or after it?", "prompt": "Is this a duty while our parents are alive, or after they pass away?", "bins": ["🏡 While they are alive", "🤲 After they pass away"], "items": [
+      {"text": "Speaking to them with respect", "bin": 0},
+      {"text": "Never saying even “Uff!” to them", "bin": 0},
+      {"text": "Bringing them what they need when they are old", "bin": 0},
+      {"text": "Smiling at them and kissing them", "bin": 0},
+      {"text": "Carrying out what they asked in their will", "bin": 1},
+      {"text": "Visiting relatives we have only through them", "bin": 1},
+      {"text": "Honouring their old friends", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "Being good to parents", "prompt": "Tap everything that is birr al-walidayn – being good to parents – then tap Check.", "options": [
+      {"text": "😊 Smiling at them", "correct": true},
+      {"text": "🤲 Making dua for them", "correct": true},
+      {"text": "🧹 Helping at home without being asked", "correct": true},
+      {"text": "🗣️ Speaking to them kindly", "correct": true},
+      {"text": "😤 Sighing “Uff!” when they ask for help", "correct": false, "why": "Allah says: do not say to them even “Uff!”"},
+      {"text": "📢 Shouting back at them", "correct": false, "why": "Allah commands us not to shout at them, but to speak to them with respect."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Why did the Prophet (SAW) mention the mother three times?", "options": ["Because she carries, gives birth to and feeds her children", "Because fathers don’t matter", "By mistake", "Because she is older"], "answer": 0},
+      {"q": "What did Ibn Umar tell the man carrying his mother?", "options": ["He had not repaid her for even one pain of giving birth", "He had repaid everything", "He should put her down", "He should go home"], "answer": 0},
+      {"q": "What does Allah forbid us to say to our parents?", "options": ["Even “Uff!”", "“Thank you”", "“As-salamu alaykum”", "“I love you”"], "answer": 0},
+      {"q": "What did the man in the cave do when his parents were asleep?", "options": ["Waited until dawn to feed them first", "Woke them up by shouting", "Gave the milk away", "Went to sleep"], "answer": 0},
+      {"q": "Do our duties to parents end when they die?", "options": ["No – we make dua, keep their ties and honour their friends", "Yes, completely", "Only if they were old", "Only for the father"], "answer": 0},
+      {"q": "When does caring for parents matter most?", "options": ["When they grow old and weak", "Only on Eid", "Only when we are small", "Never"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 What does being good to parents include? Why did the Prophet (SAW) mention the mother three times and then the father?",
+      "📋 What are our duties to our parents? The death of a parent is hard – do our duties to them stop then?",
+      "🏠 How should Muslim men and women treat their parents once they start their own families?",
+      "✍️ Task: Think and write – whose rights come first, the parents’ or the spouse’s, and how can we fulfil both?",
+      "🤔 Talk with your muallim: It is amazing how one mother can look after her ten children, yet ten children cannot look after one mother."
+    ]}
+  ]
+}
