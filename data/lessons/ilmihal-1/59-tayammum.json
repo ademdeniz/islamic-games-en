@@ -1,0 +1,134 @@
+{
+  "title": "The rules of Tayammum",
+  "pages": "59",
+  "intro": "When there is no water, we purify ourselves by touching clean earth.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Tayammum</b> is touching earth, or something made of earth, for a symbolic purification. We do it:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "when we want to pray or recite the Qur’an and have no water for wudu or ghusl",
+        "when we have only a little water that we need for drinking and cooking",
+        "when we can’t use the water – because it is dirty, because of illness, great cold and so on"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The three fard of tayammum"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "💭",
+          "label": "1. The niyyah in the heart, with A‘udhu billah and Bismillah"
+        },
+        {
+          "icon": "🧒",
+          "label": "2. Touch dry earth with the palms and wipe the face once"
+        },
+        {
+          "icon": "💪",
+          "label": "3. Touch the earth again and wipe the right and left arm past the elbows"
+        }
+      ]
+    },
+    {
+      "type": "phrase",
+      "label": "The niyyah of tayammum",
+      "ar": "نَوَيْتُ التَّيَمُّمَ لِأَجْلِ الصَّلَاةِ وَلِرَفْعِ الْحَدَثِ تَقَرُّبًا إِلَى اللَّهِ تَعَالَى",
+      "tr": "Nawaytut-tayammuma li-ajlis-salaati wa li-raf‘il-hadathi taqarruban ilallaahi ta‘aalaa.",
+      "en": "I intend to make tayammum for Salah, to remove impurity and to come closer to Allah, the Most High."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Tayammum is broken by everything that breaks wudu – and when we are able to use water for wudu or ghusl again."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Tayammum in order",
+      "prompt": "Put the steps in order.",
+      "items": [
+        "Niyyah, A‘udhu and Bismillah",
+        "Touch dry earth",
+        "Wipe the face",
+        "Touch the earth again",
+        "Wipe the arms"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "When do we make tayammum?",
+      "prompt": "Tap the right times, then tap Check.",
+      "options": [
+        {
+          "text": "There is no water",
+          "correct": true
+        },
+        {
+          "text": "We need the little water for drinking",
+          "correct": true
+        },
+        {
+          "text": "We are ill and can’t use water",
+          "correct": true
+        },
+        {
+          "text": "We don’t feel like washing",
+          "correct": false,
+          "why": "If we can use water, we must make wudu."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is tayammum?",
+          "options": [
+            "Purifying with clean earth",
+            "A kind of bath",
+            "A song",
+            "A prayer"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many times do we wipe the face?",
+          "options": [
+            "Once",
+            "Three times",
+            "Five times",
+            "Never"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What breaks tayammum?",
+          "options": [
+            "Whatever breaks wudu, and finding usable water",
+            "Nothing",
+            "Only sleeping",
+            "Eating"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 What is tayammum? When do we make it?",
+        "💬 What are the three fard of tayammum? What breaks it?"
+      ]
+    }
+  ]
+}

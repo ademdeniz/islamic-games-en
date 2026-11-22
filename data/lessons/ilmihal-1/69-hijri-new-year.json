@@ -1,0 +1,170 @@
+{
+  "title": "The new Hijri year",
+  "pages": "69",
+  "intro": "The Muslim year starts on 1 Muharram and remembers the Hijrah.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The new Muslim year begins on the <b>1st of Muharram</b>. On this day we remember the <b>Hijrah</b>, so we call this year the <b>Hijri</b> year. The Hijrah is the move of Muhammad (SAW) and the Muslims from <b>Makkah to Madinah</b>. It happened in <b>622</b>, and since then Muslims count their years by the Hijri calendar."
+    },
+    {
+      "type": "heading",
+      "text": "The twelve months of the Hijri calendar"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "1️⃣",
+          "label": "Muharram"
+        },
+        {
+          "icon": "2️⃣",
+          "label": "Safar"
+        },
+        {
+          "icon": "3️⃣",
+          "label": "Rabi‘ al-Awwal"
+        },
+        {
+          "icon": "4️⃣",
+          "label": "Rabi‘ al-Akhir"
+        },
+        {
+          "icon": "5️⃣",
+          "label": "Jumada al-Ula"
+        },
+        {
+          "icon": "6️⃣",
+          "label": "Jumada al-Akhirah"
+        },
+        {
+          "icon": "7️⃣",
+          "label": "Rajab"
+        },
+        {
+          "icon": "8️⃣",
+          "label": "Sha‘ban"
+        },
+        {
+          "icon": "9️⃣",
+          "label": "Ramadan"
+        },
+        {
+          "icon": "🔟",
+          "label": "Shawwal"
+        },
+        {
+          "icon": "1️⃣1️⃣",
+          "label": "Dhul-Qa‘dah"
+        },
+        {
+          "icon": "1️⃣2️⃣",
+          "label": "Dhul-Hijjah"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Good to know",
+      "html": "The Hijri year is a <b>lunar</b> (moon) year of about <b>355 days</b>. The first day of the Hijri week is <b>Friday</b>. A day in the Hijri calendar starts at <b>sunset</b> and lasts until the next sunset."
+    },
+    {
+      "type": "point",
+      "title": "Greeting",
+      "html": "We greet each other: <b>Blessed new Hijri year!</b>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The Hijri months",
+      "prompt": "Put the first six months in order.",
+      "items": [
+        "Muharram",
+        "Safar",
+        "Rabi‘ al-Awwal",
+        "Rabi‘ al-Akhir",
+        "Jumada al-Ula",
+        "Jumada al-Akhirah"
+      ]
+    },
+    {
+      "type": "order",
+      "title": "The last six months",
+      "prompt": "Put them in order.",
+      "items": [
+        "Rajab",
+        "Sha‘ban",
+        "Ramadan",
+        "Shawwal",
+        "Dhul-Qa‘dah",
+        "Dhul-Hijjah"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When does the Hijri year begin?",
+          "options": [
+            "1 Muharram",
+            "1 Ramadan",
+            "1 January",
+            "1 Shawwal"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the Hijrah?",
+          "options": [
+            "The move from Makkah to Madinah",
+            "A kind of prayer",
+            "A food",
+            "A mountain"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When did the Hijrah happen?",
+          "options": [
+            "622",
+            "571",
+            "610",
+            "632"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When does a Hijri day begin?",
+          "options": [
+            "At sunset",
+            "At midnight",
+            "At noon",
+            "At sunrise"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many months does the Hijri year have?",
+          "options": [
+            "Twelve",
+            "Ten",
+            "Thirteen",
+            "Six"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 When does the Muslim new year begin, and what is it called?",
+        "🗣️ Say the months of the Hijri calendar."
+      ]
+    }
+  ]
+}

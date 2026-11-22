@@ -1,0 +1,91 @@
+{
+  "title": "Salawat",
+  "pages": "61",
+  "intro": "The salawat show our love for the Prophet Muhammad (SAW) and his family.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>salawat</b> show our love for the Prophet Muhammad (SAW) and his family. In Salah we say them in the sitting <b>after At-Tahiyyat</b>:"
+    },
+    {
+      "type": "phrase",
+      "label": "Salawat",
+      "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ. اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "tr": "Allaahumma salli ‘alaa Muhammadin wa ‘alaa aali Muhammad, kamaa sallayta ‘alaa Ibraaheema wa ‘alaa aali Ibraaheem, innaka hameedun majeed. Allaahumma baarik ‘alaa Muhammadin wa ‘alaa aali Muhammad, kamaa baarakta ‘alaa Ibraaheema wa ‘alaa aali Ibraaheem, innaka hameedun majeed.",
+      "en": "O Allah, bless Muhammad and his family, as You blessed Ibrahim and his family – truly You are Praised and Glorious! O Allah, give blessings to Muhammad and his family, as You gave blessings to Ibrahim and his family – truly You are Praised and Glorious!"
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah and His angels send blessings on the Prophet. O believers, send blessings on him and greet him with peace! <small>(Qur’an, Al-Ahzab 33:56)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The salawat in order",
+      "prompt": "Put the parts in order.",
+      "items": [
+        "Allaahumma salli ‘alaa Muhammadin…",
+        "kamaa sallayta ‘alaa Ibraaheema…",
+        "innaka hameedun majeed",
+        "Allaahumma baarik ‘alaa Muhammadin…",
+        "kamaa baarakta ‘alaa Ibraaheema…"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What do the salawat show?",
+          "options": [
+            "Our love for the Prophet (SAW) and his family",
+            "That we are tired",
+            "Nothing",
+            "Our love for food"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When do we say the salawat in Salah?",
+          "options": [
+            "In the sitting, after At-Tahiyyat",
+            "In ruku‘",
+            "At the start",
+            "In sajdah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which prophet is mentioned in the salawat?",
+          "options": [
+            "Ibrahim (AS)",
+            "Musa (AS)",
+            "Nuh (AS)",
+            "Yunus (AS)"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Allah tell the believers in Al-Ahzab 33:56?",
+          "options": [
+            "Send blessings on the Prophet",
+            "Stop praying",
+            "Go to sleep",
+            "Eat more"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🗣️ Say the salawat to your muallim.",
+        "💬 What did Allah say about sending blessings on the Prophet?"
+      ]
+    }
+  ]
+}
