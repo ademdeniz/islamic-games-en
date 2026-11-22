@@ -1,0 +1,152 @@
+{
+  "title": "Tayammum – symbolic purification",
+  "pages": "60",
+  "intro": "When we can’t use water, we can purify ourselves with clean earth.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Before Salah and reciting the Qur’an, every Muslim must have <b>wudu</b>. But in certain justified situations, when we cannot make wudu, we make <b>tayammum</b> instead. Tayammum is a symbolic purification for Salah and reciting the Qur’an."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "…and if you find no water, then touch clean earth and wipe your faces and hands with it… <small>(Qur’an, Al-Ma’idah 5:6)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "The three most common reasons"
+    },
+    {
+      "type": "list",
+      "items": [
+        "there is <b>no water</b>",
+        "there is only a little water and we need it for drinking",
+        "for some reason we <b>cannot use water</b> for wudu or ghusl"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Other reasons: the water is far away or hard to reach, or the water is not clean."
+    },
+    {
+      "type": "heading",
+      "text": "How to make tayammum"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Make the niyyah in the heart and say A‘udhu billah and Bismillah.",
+        "Touch clean, dry earth (or something made of earth) with the palms and wipe the face once.",
+        "Touch the clean, dry earth again and wipe the arms past the elbows once – right, then left."
+      ]
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah of tayammum",
+      "ar": "نَوَيْتُ التَّيَمُّمَ لِأَجْلِ الصَّلَاةِ وَلِرَفْعِ الْحَدَثِ تَقَرُّبًا إِلَى اللَّهِ تَعَالَى",
+      "tr": "Nawaytut-tayammuma li-ajlis-salaati wa li-raf‘il-hadathi taqarruban ilallaahi ta‘aalaa.",
+      "en": "I intend to make tayammum for Salah, to remove impurity, and to come closer to Allah, the Most High."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Tayammum is broken by everything that breaks wudu – and also when we become able to use water for wudu or ghusl."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Tayammum in order",
+      "prompt": "Put the steps in order.",
+      "items": [
+        "Niyyah, A‘udhu and Bismillah",
+        "Touch clean earth",
+        "Wipe the face",
+        "Touch clean earth again",
+        "Wipe the right arm, then the left"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "When may we make tayammum?",
+      "prompt": "Tap every correct reason, then tap Check.",
+      "options": [
+        {
+          "text": "There is no water",
+          "correct": true
+        },
+        {
+          "text": "We need the little water we have for drinking",
+          "correct": true
+        },
+        {
+          "text": "We cannot use water because of illness",
+          "correct": true
+        },
+        {
+          "text": "The water is dirty",
+          "correct": true
+        },
+        {
+          "text": "We are too lazy to walk to the tap",
+          "correct": false,
+          "why": "If water is near and usable, we must make wudu."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is tayammum?",
+          "options": [
+            "A symbolic purification with clean earth",
+            "A kind of fasting",
+            "A prayer",
+            "A dua"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many times do we wipe the face in tayammum?",
+          "options": [
+            "Once",
+            "Three times",
+            "Never",
+            "Ten times"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What breaks tayammum?",
+          "options": [
+            "Whatever breaks wudu, and being able to use water again",
+            "Nothing",
+            "Only sleeping",
+            "Only eating"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which surah tells us about tayammum?",
+          "options": [
+            "Al-Ma’idah",
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "An-Nas"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and task",
+      "prompts": [
+        "💬 What is tayammum, and when do we make it?",
+        "🏕️ You are somewhere with very little water – just enough to drink tonight. The spring can only be reached after sunrise. How do you pray Maghrib and Isha, and how Dhuhr the next day when there is water?"
+      ]
+    }
+  ]
+}

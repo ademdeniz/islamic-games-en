@@ -1,0 +1,133 @@
+{
+  "title": "Love and obedience to parents",
+  "pages": "51–52",
+  "intro": "After worshipping Allah, the strongest duty is kindness to our parents.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Loving and obeying our parents is not a matter of choice. In the Qur’an, right after worshipping Him, Allah made it a strict duty – <b>fard</b> – that in our deeds, words and feelings we obey our parents and show them our love."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Your Lord has commanded that you worship none but Him, and that you be good to your parents. If one or both of them reach old age with you, do not say to them even “uff”, and do not shout at them, but speak to them with respect. Lower to them the wing of humility out of mercy and say: “My Lord, have mercy on them as they brought me up when I was small.” <small>(Qur’an, Al-Isra 17:23–24)</small>"
+    },
+    {
+      "type": "text",
+      "html": "No better description of how to treat our parents could be given. We are good to them and gentle with them, even when one day we think differently. We take special care with our <b>words</b> and never speak harshly to our mother or father. We show our love when we help them, because we know how much they sacrificed for us. Ibn ‘Umar (RA) explained this ayah: <i>“When you speak to your parents, say: ‘Dear father’, ‘Dear mother’.”</i>"
+    },
+    {
+      "type": "point",
+      "title": "A great sin",
+      "html": "Disobeying parents is a <b>great sin</b>. We may not go against our parents <b>except</b> when they tell us to do a sin. The companions asked the Prophet (SAW) about the best deed, and among the best he named obedience to parents. Kindness to parents is one of the deeds most beloved to Allah."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "If they push you to associate with Me something you have no knowledge of, do not obey them – but keep good company with them in this world, and follow the way of those who turn to Me. <small>(Qur’an, Luqman 31:15)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Kind or unkind?",
+      "prompt": "How is this behaviour toward parents?",
+      "bins": [
+        "💚 Kind",
+        "💔 Unkind"
+      ],
+      "items": [
+        {
+          "text": "Helping with chores without being asked",
+          "bin": 0
+        },
+        {
+          "text": "Speaking gently",
+          "bin": 0
+        },
+        {
+          "text": "Making dua for them",
+          "bin": 0
+        },
+        {
+          "text": "Saying “uff” when asked to help",
+          "bin": 1
+        },
+        {
+          "text": "Shouting at them",
+          "bin": 1
+        },
+        {
+          "text": "Ignoring them",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What comes right after worshipping Allah in Al-Isra 17:23?",
+          "options": [
+            "Being good to parents",
+            "Playing games",
+            "Being rich",
+            "Travelling"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What must we not even say to our parents?",
+          "options": [
+            "“Uff”",
+            "“Thank you”",
+            "“Dear mother”",
+            "“Salam”"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When may we not obey our parents?",
+          "options": [
+            "Only when they tell us to do a sin",
+            "When we are tired",
+            "When we disagree",
+            "Never"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is disobeying parents?",
+          "options": [
+            "A great sin",
+            "A small mistake",
+            "Nothing",
+            "A good deed"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What dua does the Qur’an teach for parents?",
+          "options": [
+            "My Lord, have mercy on them as they brought me up when I was small",
+            "Rabbi yassir",
+            "Bismillah",
+            "Ameen"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 How do we show love to our parents?",
+        "📝 Fill in: obeying parents is a ______ deed, and disobeying them is a ______ sin.",
+        "📋 Honestly write how you behave toward your parents in different situations, and try to replace the unkind with the kind.",
+        "✍️ Write five pieces of advice for children on how to treat their parents."
+      ]
+    }
+  ]
+}

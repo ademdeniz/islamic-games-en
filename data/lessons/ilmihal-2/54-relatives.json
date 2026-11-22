@@ -1,0 +1,152 @@
+{
+  "title": "Duties to relatives",
+  "pages": "54–55",
+  "intro": "Keeping family ties is a duty Allah commanded.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "One of the duties Allah commanded is our duty to our <b>relatives</b>. Sadly, many Muslims don’t know that these duties are commanded by Allah."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah commands justice, doing good and giving to relatives, and forbids indecency, evil and oppression. He advises you so that you take heed. <small>(Qur’an, An-Nahl 16:90)</small>"
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“By the One who sent me with the truth, Allah will not accept sadaqah, nor look on the Day of Judgement at a man who has relatives in need of his help and does not help them.”</i> <small>(Tabarani)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "Some duties to relatives"
+    },
+    {
+      "type": "list",
+      "items": [
+        "love them for the sake of Allah",
+        "look after them and visit them regularly",
+        "help them as much as we can",
+        "make peace between relatives who have fallen out",
+        "visit even those who don’t visit back",
+        "respect relatives even if they are not Muslims"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "If we keep family ties"
+    },
+    {
+      "type": "list",
+      "items": [
+        "we bring joy to our relatives’ hearts",
+        "Allah rewards us with a longer life",
+        "our provision (rizq) increases",
+        "we earn Allah’s pleasure",
+        "we come closer to Jannah and further from Jahannam",
+        "love in the family grows",
+        "we discourage Shaytan"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Who is it?",
+      "pairs": [
+        [
+          "My father’s father",
+          "Grandfather"
+        ],
+        [
+          "My mother’s brother",
+          "Uncle (maternal)"
+        ],
+        [
+          "My father’s brother",
+          "Uncle (paternal)"
+        ],
+        [
+          "My son’s son – says grandpa",
+          "Grandson"
+        ],
+        [
+          "My daughter’s daughter – says grandma",
+          "Granddaughter"
+        ]
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Keeping family ties",
+      "prompt": "Tap everything that keeps family ties, then tap Check.",
+      "options": [
+        {
+          "text": "Visiting grandparents",
+          "correct": true
+        },
+        {
+          "text": "Calling an aunt who is ill",
+          "correct": true
+        },
+        {
+          "text": "Making peace between cousins who fell out",
+          "correct": true
+        },
+        {
+          "text": "Visiting a relative who never visits back",
+          "correct": true
+        },
+        {
+          "text": "Refusing to talk to an uncle after an argument",
+          "correct": false,
+          "why": "We make peace and keep family ties."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Who commanded duties to relatives?",
+          "options": [
+            "Allah, in the Qur’an",
+            "Nobody",
+            "Only our parents",
+            "The school"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does keeping family ties bring, according to the hadiths?",
+          "options": [
+            "A longer life and more provision",
+            "Nothing",
+            "Less money",
+            "More arguments"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Must we respect relatives who are not Muslims?",
+          "options": [
+            "Yes",
+            "No",
+            "Only on holidays",
+            "Only if they are rich"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💭 Why do you sometimes feel lonely? Does visiting relatives help?",
+        "🤝 How can visiting relatives help a person feel better?"
+      ]
+    }
+  ]
+}

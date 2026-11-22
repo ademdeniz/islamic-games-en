@@ -1,0 +1,111 @@
+{
+  "title": "Let’s repeat what we learned",
+  "pages": "36",
+  "intro": "The conditions of the religion, Iman, Islam, Al-Ikhlas and Salah – let’s repeat!",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s repeat! Say the missing words with your muallim:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Din</b> means ______, and shart means ______. There are ____ conditions of the religion: six of ______, five of ______, four of ______, three of tayammum, ______ of ghusl and twelve of ______.",
+        "<b>Ihsan</b> is the highest awareness of Allah – as if we ______ Him, because even if we don’t see Him, ______.",
+        "The <b>pillars of Iman</b> are ____ basic truths of faith. The first is: Aamantu ______ – I believe in Allah.",
+        "<b>Surah Al-Ikhlas</b> is worth ______ of the Qur’an. Recite Al-Ikhlas!",
+        "The <b>pillars of Islam</b> are five: 1. ______ 2. ______ 3. ______ 4. ______ 5. ______.",
+        "<b>Salah</b> is the ______ main duty of a Muslim. The Prophet (SAW) said: “Know that your best deed is ______.”",
+        "There are ______ conditions of Salah: six ______ Salah and six ______ Salah."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Fill in the gap",
+      "questions": [
+        {
+          "q": "How many conditions of the religion are there?",
+          "options": [
+            "33",
+            "12",
+            "6",
+            "5"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is ihsan?",
+          "options": [
+            "Worshipping Allah as if we see Him",
+            "A kind of food",
+            "A city",
+            "A game"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many pillars of Iman are there?",
+          "options": [
+            "6",
+            "5",
+            "12",
+            "33"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Al-Ikhlas is worth…",
+          "options": [
+            "A third of the Qur’an",
+            "Half of the Qur’an",
+            "Nothing",
+            "One ayah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which pillar of Islam is Salah?",
+          "options": [
+            "The second",
+            "The first",
+            "The third",
+            "The fifth"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many conditions of Salah are there?",
+          "options": [
+            "12",
+            "6",
+            "5",
+            "33"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "The pillars of Islam",
+      "prompt": "Put them in order.",
+      "items": [
+        "Shahadah",
+        "Salah",
+        "Fasting",
+        "Zakah",
+        "Hajj"
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🗣️ Recite Surah Al-Ikhlas.",
+        "🗣️ Say the six pillars of Iman."
+      ]
+    }
+  ]
+}

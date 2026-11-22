@@ -1,0 +1,187 @@
+{
+  "title": "Healthy eating",
+  "pages": "47–48",
+  "intro": "Eat and drink, but do not overdo it – food is for health and strength to worship Allah.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Eat and drink, but do not be excessive – Allah does not love those who are excessive. <small>(Qur’an, Al-A‘raf 7:31)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Allah created people and gave them countless blessings. Among the most important are <b>food, water and air</b> – and also <b>health</b>. To look after the blessing of health, we must first of all eat <b>healthily</b>: varied, good and tasty food that Allah has allowed, with everything the body needs – milk and dairy, honey, grains, fruit and vegetables, and meat."
+    },
+    {
+      "type": "text",
+      "html": "Islam teaches that <b>eating too much</b> is forbidden and harmful: it damages health and causes many problems. Today many people suffer from obesity, a direct result of overeating. Unhealthy food causes many illnesses, so a Muslim protects their health by eating <b>halal food in moderation</b>."
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🍯",
+          "label": "Honey"
+        },
+        {
+          "icon": "🫒",
+          "label": "Olives"
+        },
+        {
+          "icon": "🍇",
+          "label": "Grapes"
+        },
+        {
+          "icon": "💧",
+          "label": "Water"
+        },
+        {
+          "icon": "🥛",
+          "label": "Milk"
+        },
+        {
+          "icon": "🌴",
+          "label": "Dates"
+        },
+        {
+          "icon": "🍎",
+          "label": "Pomegranate and figs"
+        },
+        {
+          "icon": "🌾",
+          "label": "Wheat and lentils"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "These are some of the foods mentioned in the Qur’an. Others are onions, cucumbers, bananas and squash."
+    },
+    {
+      "type": "heading",
+      "text": "Food and drink Islam forbids"
+    },
+    {
+      "type": "list",
+      "items": [
+        "pork, pork fat and anything made from pork",
+        "meat of animals that died by themselves",
+        "meat of predators, reptiles and rodents",
+        "blood",
+        "alcoholic drinks",
+        "intoxicating drugs",
+        "overeating any food – even halal food"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "A Muslim sees food as a way to keep life and health, to have strength to worship Allah and live well. So a Muslim does not eat until hungry and does not drink until thirsty. The Prophet (SAW) said: <i>“A person fills no vessel worse than his stomach…”</i> <small>(Ahmad)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Halal or haram?",
+      "prompt": "Is it allowed or forbidden?",
+      "bins": [
+        "✅ Halal",
+        "❌ Haram"
+      ],
+      "items": [
+        {
+          "text": "Honey",
+          "bin": 0
+        },
+        {
+          "text": "Dates",
+          "bin": 0
+        },
+        {
+          "text": "Milk",
+          "bin": 0
+        },
+        {
+          "text": "Olives",
+          "bin": 0
+        },
+        {
+          "text": "Pork",
+          "bin": 1
+        },
+        {
+          "text": "Blood",
+          "bin": 1
+        },
+        {
+          "text": "Alcohol",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What does Allah say in Al-A‘raf 7:31?",
+          "options": [
+            "Eat and drink, but do not be excessive",
+            "Eat as much as you can",
+            "Never eat sweets",
+            "Only eat at night"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why does a Muslim eat?",
+          "options": [
+            "To keep life and health and have strength to worship",
+            "Only for fun",
+            "To be faster than others",
+            "Because it is boring"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which of these is forbidden?",
+          "options": [
+            "Pork",
+            "Honey",
+            "Figs",
+            "Lentils"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Is it allowed to eat too much halal food?",
+          "options": [
+            "No – overeating is forbidden and harmful",
+            "Yes, always",
+            "Only on Eid",
+            "Only sweets"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did the Prophet (SAW) say is the worst vessel to fill?",
+          "options": [
+            "The stomach",
+            "A cup",
+            "A pot",
+            "A bag"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk and tasks",
+      "prompts": [
+        "💬 When and why does a Muslim eat and drink?",
+        "📋 Make a table: “I eat sweets and fast food”, “I eat dairy”, “I check the ingredients”, “I drink fizzy drinks” – always, often, sometimes or never. Compare with a friend: who looks after their health better?"
+      ]
+    }
+  ]
+}

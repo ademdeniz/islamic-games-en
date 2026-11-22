@@ -1,0 +1,144 @@
+{
+  "title": "The first condition of Salah – cleanliness",
+  "pages": "37",
+  "intro": "A clean body, clean clothes and a clean place to pray.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Allah loves tidiness and cleanliness – especially when we pray. So the <b>first condition</b> of Salah is: a clean <b>body</b>, clean <b>clothes</b> and a clean <b>place</b> to pray."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "Muhammad (SAW) said: <i>“Cleanliness is half of iman.”</i> <small>(Muslim)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "🧼 A clean body"
+    },
+    {
+      "type": "list",
+      "items": [
+        "personal hygiene",
+        "washing the hands often",
+        "brushing the teeth",
+        "making wudu",
+        "bathing regularly",
+        "keeping clean in the toilet",
+        "cutting the nails"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "👕 Clean clothes"
+    },
+    {
+      "type": "text",
+      "html": "We keep our clothes clean and tidy, away from all impurity – especially alcohol, blood, urine and a dog’s saliva. We wash, clean and iron them regularly."
+    },
+    {
+      "type": "heading",
+      "text": "🕌 A clean place"
+    },
+    {
+      "type": "text",
+      "html": "Allah made the <b>whole earth</b> a place where we can pray. The place must be clean and tidy, so we use a <b>prayer mat</b> (sajjadah). Where we pray there must be no pictures or figures of living beings, or anything that distracts us."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Body, clothes or place?",
+      "prompt": "What does it keep clean?",
+      "bins": [
+        "🧼 Body",
+        "👕 Clothes",
+        "🕌 Place"
+      ],
+      "items": [
+        {
+          "text": "Brushing teeth",
+          "bin": 0
+        },
+        {
+          "text": "Cutting nails",
+          "bin": 0
+        },
+        {
+          "text": "Bathing",
+          "bin": 0
+        },
+        {
+          "text": "Washing and ironing",
+          "bin": 1
+        },
+        {
+          "text": "Keeping away from impurity",
+          "bin": 1
+        },
+        {
+          "text": "A prayer mat",
+          "bin": 2
+        },
+        {
+          "text": "No pictures where we pray",
+          "bin": 2
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What does Allah love?",
+          "options": [
+            "Tidiness and cleanliness",
+            "Dirt",
+            "Mess",
+            "Noise"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the first condition of Salah?",
+          "options": [
+            "A clean body, clothes and place",
+            "Being fast",
+            "Being tall",
+            "Having new shoes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where can we pray?",
+          "options": [
+            "Anywhere on earth that is clean",
+            "Only in the bathroom",
+            "Only at school",
+            "Nowhere"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What must not be where we pray?",
+          "options": [
+            "Pictures of living beings",
+            "A prayer mat",
+            "The Qiblah",
+            "Clean floor"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 How do we keep our body, clothes and home clean?",
+        "🕌 What must not be in the place where we pray?"
+      ]
+    }
+  ]
+}
