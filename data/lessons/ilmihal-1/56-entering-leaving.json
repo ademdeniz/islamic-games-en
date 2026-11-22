@@ -1,0 +1,127 @@
+{
+  "title": "Manners of entering and leaving",
+  "pages": "56",
+  "intro": "Right foot in, left foot out – and the bathroom the other way round.",
+  "learn": [
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🏠",
+          "label": "Right foot IN – home, masjid, school, maktab"
+        },
+        {
+          "icon": "🚪",
+          "label": "Left foot OUT – home, masjid, school, maktab"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The bathroom"
+    },
+    {
+      "type": "text",
+      "html": "We go <b>into</b> the bathroom with the <b>left</b> foot, and before going in we say:"
+    },
+    {
+      "type": "phrase",
+      "label": "Before going into the bathroom",
+      "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+      "tr": "Allaahumma innee a‘oodhu bika minal-khubuthi wal-khabaa’ith.",
+      "en": "O Allah, I seek refuge with You from the male and female devils. (Bukhari and Muslim)"
+    },
+    {
+      "type": "text",
+      "html": "We come <b>out</b> with the <b>right</b> foot and then say:"
+    },
+    {
+      "type": "phrase",
+      "label": "After coming out",
+      "ar": "غُفْرَانَكَ",
+      "tr": "Ghufraanaka",
+      "en": "I ask Your forgiveness, my Lord. (Abu Dawud, Ibn Majah, Tirmidhi)"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Which foot first?",
+      "prompt": "Which foot do we use first?",
+      "bins": [
+        "➡️ Right foot",
+        "⬅️ Left foot"
+      ],
+      "items": [
+        {
+          "text": "Going into the masjid",
+          "bin": 0
+        },
+        {
+          "text": "Going into school",
+          "bin": 0
+        },
+        {
+          "text": "Coming out of the bathroom",
+          "bin": 0
+        },
+        {
+          "text": "Leaving the masjid",
+          "bin": 1
+        },
+        {
+          "text": "Leaving home",
+          "bin": 1
+        },
+        {
+          "text": "Going into the bathroom",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Which foot do we enter the masjid with?",
+          "options": [
+            "The right",
+            "The left",
+            "Both together",
+            "It doesn’t matter"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which foot do we enter the bathroom with?",
+          "options": [
+            "The left",
+            "The right",
+            "Both",
+            "We jump"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say after leaving the bathroom?",
+          "options": [
+            "Ghufraanaka",
+            "Bismillah",
+            "Ameen",
+            "Allaahu akbar"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Practise",
+      "prompts": [
+        "🚪 Practise going into and out of the masjid and maktab the right way!",
+        "💬 Where do we go in with the right foot? Where do we come out with the left?"
+      ]
+    }
+  ]
+}

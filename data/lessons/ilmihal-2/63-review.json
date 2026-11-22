@@ -1,0 +1,134 @@
+{
+  "title": "Let’s review what we learned",
+  "pages": "63–64",
+  "intro": "Dhuhr, Asr and Isha, witr, mash, cleanliness, health and tayammum – let’s repeat.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s repeat what we have learned. Do the activities, then answer the questions with your muallim."
+    },
+    {
+      "type": "heading",
+      "text": "Fill in the tables in your notebook"
+    },
+    {
+      "type": "text",
+      "html": "For <b>Dhuhr</b>, <b>Asr</b> and <b>Isha</b>, write what we recite in each rak‘ah and sitting of the sunnah, the fard and the last sunnah. Also describe how we pray the <b>third rak‘ah of witr</b>."
+    },
+    {
+      "type": "heading",
+      "text": "Answer the questions"
+    },
+    {
+      "type": "list",
+      "items": [
+        "What is mash? How do we wipe over khuffs, and over a bandage or a part of the body we can’t wash because of illness?",
+        "When is wiping over khuffs not valid?",
+        "Which impurities must we keep away from?",
+        "What does personal hygiene mean?",
+        "How do we look after our health? What especially harms it?",
+        "How do we make tayammum?"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Review quiz",
+      "questions": [
+        {
+          "q": "How many fard rak‘ahs does Dhuhr have?",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "10"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "In the 3rd and 4th rak‘ah of a fard, what do we recite standing?",
+          "options": [
+            "Bismillah and Al-Fatiha only",
+            "Subhanaka and a surah",
+            "At-Tahiyyat",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we recite in the 3rd rak‘ah of witr?",
+          "options": [
+            "The Qunut dua",
+            "The adhan",
+            "Subhanaka only",
+            "Nothing extra"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is mash?",
+          "options": [
+            "Wiping with a wet hand",
+            "Washing three times",
+            "A kind of prayer",
+            "A dua"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How long can a traveller wipe over khuffs?",
+          "options": [
+            "72 hours",
+            "24 hours",
+            "One week",
+            "One hour"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When do we make tayammum?",
+          "options": [
+            "When we can’t use water",
+            "When we are lazy",
+            "On Fridays",
+            "Never"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Which prayer?",
+      "prompt": "How many rak‘ahs does each have in total?",
+      "bins": [
+        "10 rak‘ahs",
+        "8 rak‘ahs",
+        "13 rak‘ahs (with witr)"
+      ],
+      "items": [
+        {
+          "text": "Dhuhr",
+          "bin": 0
+        },
+        {
+          "text": "Asr",
+          "bin": 1
+        },
+        {
+          "text": "Isha",
+          "bin": 2
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "In your notebook",
+      "prompts": [
+        "📋 Fill in the tables for Dhuhr, Asr and Isha.",
+        "🗣️ Explain to a friend how to make tayammum."
+      ]
+    }
+  ]
+}

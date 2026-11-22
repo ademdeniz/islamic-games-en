@@ -1,0 +1,111 @@
+{
+  "title": "The dua after the Adhan",
+  "pages": "48",
+  "intro": "How the adhan began, and the dua we say after it.",
+  "learn": [
+    {
+      "type": "heading",
+      "text": "How the adhan began"
+    },
+    {
+      "type": "text",
+      "html": "One night a companion of the Prophet (SAW), ‘Abdullah, dreamed of a man in green clothes carrying a bell. ‘Abdullah wanted to buy the bell to announce the prayer time and call people to the masjid, but the man offered to teach him something better – and recited the <b>adhan</b>."
+    },
+    {
+      "type": "text",
+      "html": "The next day ‘Abdullah told Muhammad (SAW) about his dream. The Prophet said the dream was true and told him to go to <b>Bilal</b>, who had a beautiful voice, and teach him the words. So Bilal called the first adhan."
+    },
+    {
+      "type": "text",
+      "html": "Allah gives special mercy when the muezzin calls the adhan – all of nature hears and understands it. We stop what we are doing, get ready for Salah and repeat the words. When the muezzin says <b>Hayya ‘alas-salaah</b> and <b>Hayya ‘alal-falaah</b>, we say: <b>Laa hawla wa laa quwwata illaa billaahil-‘aliyyil-‘azeem</b>."
+    },
+    {
+      "type": "phrase",
+      "label": "The dua after the adhan",
+      "ar": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَالدَّرَجَةَ الرَّفِيعَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ",
+      "tr": "Allaahumma rabba haadhihid-da‘watit-taammati was-salaatil-qaa’imati, aati Muhammadanil-waseelata wal-fadeelata wad-darajatar-rafee‘ata, wab‘ath-hu maqaaman mahmoodanil-ladhee wa‘adtah, innaka laa tukhliful-mee‘aad.",
+      "en": "O Allah, Lord of this perfect call and of the prayer about to begin, give Muhammad the special place in Jannah and every good and the high rank, and raise him to the praised station You promised him. Truly, You never break Your promise!"
+    },
+    {
+      "type": "heading",
+      "text": "🎵 On the minaret"
+    },
+    {
+      "type": "text",
+      "html": "<i>When the muezzin began the adhan,<br>from every side it rang out:<br>the warm voices of muezzins<br>from many minarets around.<br><br>Mirza trembled like a little bird,<br>his whole heart was thrilled –<br>Allah’s name was heard everywhere,<br>“Allaahu akbar” echoed out.</i><br><small>(R. Kadić, English translation)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Listen and repeat: <a href=\"../../../games/dove-dova-poslije-ezana/\">Dua after the Adhan</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "How the adhan began",
+      "prompt": "Put the story in order.",
+      "items": [
+        "‘Abdullah dreams of a man with a bell",
+        "The man teaches him the adhan",
+        "‘Abdullah tells the Prophet (SAW)",
+        "The Prophet says: teach it to Bilal",
+        "Bilal calls the first adhan"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Who dreamed of the adhan?",
+          "options": [
+            "‘Abdullah",
+            "Bilal",
+            "‘Umar",
+            "‘Ali"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who called the first adhan?",
+          "options": [
+            "Bilal",
+            "‘Abdullah",
+            "The Prophet (SAW)",
+            "Abu Bakr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say at “Hayya ‘alas-salaah”?",
+          "options": [
+            "Laa hawla wa laa quwwata illaa billaah",
+            "Ameen",
+            "Bismillah",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When do we say the dua after the adhan?",
+          "options": [
+            "When the muezzin finishes the adhan",
+            "Before the adhan",
+            "During sajdah",
+            "Before eating"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 What did ‘Abdullah dream? Whom did he tell?",
+        "🎵 What is the message of the song “On the minaret”?",
+        "🗣️ Say the dua after the adhan."
+      ]
+    }
+  ]
+}

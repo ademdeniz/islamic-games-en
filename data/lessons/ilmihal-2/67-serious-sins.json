@@ -1,0 +1,117 @@
+{
+  "title": "Serious sins",
+  "pages": "67",
+  "intro": "Sins that take a person out of Islam.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Besides small and major sins, a person can commit <b>serious sins</b> – sins that take the person <b>out of Islam</b>. So it is very important for Muslims to know them."
+    },
+    {
+      "type": "heading",
+      "text": "Serious sins"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Kufr</b> – disbelief in Allah and the basic truths of faith, and denying them",
+        "<b>Shirk</b> – associating partners with Allah, believing there are other gods besides Him",
+        "<b>Riddah</b> – leaving Islam, when someone openly says they are leaving Islam or are no longer Muslim",
+        "<b>Nifaq</b> – hypocrisy: openly claiming faith while secretly denying it",
+        "mocking, ridiculing or insulting Allah, His messengers, the Qur’an, the Ka‘bah, Salah, masjids and other holy things",
+        "denying the fard duties Allah commanded and the haram He forbade"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) was asked what sin is, and said: <i>“Sin is what troubles you in your chest and what you would not like people to find out.”</i> <small>(Muslim)</small>"
+    },
+    {
+      "type": "text",
+      "html": "A person who commits one of these sins stops being a Muslim. To become Muslim again, they must make <b>tawbah</b> – repent with the heart – and say the <b>Shahadah</b>."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "We use the word “worship” only for Allah, the Most High."
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Match the word and meaning",
+      "pairs": [
+        [
+          "Kufr",
+          "Disbelief"
+        ],
+        [
+          "Shirk",
+          "Associating partners with Allah"
+        ],
+        [
+          "Riddah",
+          "Leaving Islam"
+        ],
+        [
+          "Nifaq",
+          "Hypocrisy"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What are serious sins?",
+          "options": [
+            "Sins that take a person out of Islam",
+            "Small mistakes",
+            "Good deeds",
+            "Allowed things"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is nifaq?",
+          "options": [
+            "Showing faith openly but denying it secretly",
+            "Fasting",
+            "Giving sadaqah",
+            "Praying"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What must someone do to return to Islam?",
+          "options": [
+            "Make tawbah and say the Shahadah",
+            "Nothing",
+            "Pay money",
+            "Move house"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is sin, according to the hadith?",
+          "options": [
+            "What troubles you inside and you wouldn’t want people to know",
+            "Whatever is fun",
+            "Whatever is new",
+            "Whatever is expensive"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Task",
+      "prompts": [
+        "🗣️ Talk with your parents: what is hypocrisy, and how common is it today? Write down the main points and discuss them with your muallim."
+      ]
+    }
+  ]
+}

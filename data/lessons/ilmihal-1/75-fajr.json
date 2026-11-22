@@ -1,0 +1,108 @@
+{
+  "title": "Fajr prayer",
+  "pages": "75",
+  "intro": "The morning prayer: 2 rak‘ahs sunnah and 2 rak‘ahs fard.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Fajr</b> is the morning prayer, prayed from dawn until sunrise. It has <b>four rak‘ahs</b>: two rak‘ahs <b>sunnah</b> and two rak‘ahs <b>fard</b>. After getting ready for Salah we say A‘udhu billah and Bismillah, then the niyyah."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Luqman said to his son: O my son, establish the prayer! <small>(Qur’an, Luqman 31:17)</small>"
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the sunnah of Fajr",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ سُنَّةِ الْفَجْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata sunnatil-fajri, adaa’an mustaqbilal-qiblati. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the sunnah of Fajr, on time, facing the Qiblah. Allah is the Greatest!"
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the fard of Fajr",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ فَرْضِ الْفَجْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata fardil-fajri, adaa’an mustaqbilal-qiblati. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the fard of Fajr, on time, facing the Qiblah. Allah is the Greatest!"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "We pray the sunnah and the fard of Fajr <b>the same way</b> – two rak‘ahs each."
+    },
+    {
+      "type": "text",
+      "html": "Practise: <a href=\"../../salah/08-two-rakahs/\">Let’s pray two rak‘ahs</a> and <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – level 1."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Fajr in order",
+      "prompt": "Put it in order.",
+      "items": [
+        "A‘udhu billah and Bismillah",
+        "Niyyah for the sunnah",
+        "2 rak‘ahs sunnah",
+        "Niyyah for the fard",
+        "2 rak‘ahs fard"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When do we pray Fajr?",
+          "options": [
+            "From dawn until sunrise",
+            "At noon",
+            "At sunset",
+            "At midnight"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many rak‘ahs does Fajr have in total?",
+          "options": [
+            "Four",
+            "Two",
+            "Three",
+            "Ten"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we pray first?",
+          "options": [
+            "The sunnah",
+            "The fard",
+            "Witr",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What changes in the niyyah for the fard?",
+          "options": [
+            "“fardil-fajri” instead of “sunnatil-fajri”",
+            "Nothing",
+            "We say it in sajdah",
+            "We add “Ameen”"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 When do we pray Fajr? How many rak‘ahs does it have?",
+        "🗣️ Say the niyyah for the sunnah and the fard of Fajr.",
+        "🌅 Ask your family to wake you for Fajr this weekend!"
+      ]
+    }
+  ]
+}

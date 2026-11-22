@@ -1,0 +1,109 @@
+{
+  "title": "Du‘as",
+  "pages": "62",
+  "intro": "Duas are our requests to Allah – in Salah we make them after the salawat.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<i>My Allah, thanks be to You,<br>the little children pray to You –<br>accept our duas, O Lord,<br>You are the One who can do all things.</i>"
+    },
+    {
+      "type": "text",
+      "html": "<b>Duas</b> are our requests to the Almighty Allah. In Salah we make them in the <b>last sitting</b>, after the salawat:"
+    },
+    {
+      "type": "phrase",
+      "label": "Rabbanaa aatinaa",
+      "ar": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "tr": "Rabbanaa aatinaa fid-dunyaa hasanatan wa fil-aakhirati hasanatan wa qinaa ‘adhaaban-naar.",
+      "en": "Our Lord, give us good in this world and good in the next, and protect us from the punishment of the Fire."
+    },
+    {
+      "type": "phrase",
+      "label": "Rabbanaghfir lee",
+      "ar": "رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
+      "tr": "Rabbanaghfir lee wa li-waalidayya wa lil-mu’mineena yawma yaqoomul-hisaab.",
+      "en": "Our Lord, forgive me, my parents and all the believers on the Day of Judgement."
+    },
+    {
+      "type": "point",
+      "title": "⭐ In the last sitting",
+      "html": "<b>At-Tahiyyat</b> – good words to Allah. <b>Salawat</b> – blessings on Muhammad (SAW). <b>Duas</b> – our requests to Allah."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The last sitting",
+      "prompt": "Put it in order.",
+      "items": [
+        "At-Tahiyyat",
+        "Salawat",
+        "Duas",
+        "Salam"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the dua and meaning",
+      "pairs": [
+        [
+          "Rabbanaa aatinaa fid-dunyaa hasanatan",
+          "Our Lord, give us good in this world"
+        ],
+        [
+          "wa fil-aakhirati hasanatan",
+          "and good in the next"
+        ],
+        [
+          "Rabbanaghfir lee wa li-waalidayya",
+          "Our Lord, forgive me and my parents"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What are duas?",
+          "options": [
+            "Our requests to Allah",
+            "Songs",
+            "Games",
+            "Stories"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When do we make duas in Salah?",
+          "options": [
+            "In the last sitting, after the salawat",
+            "In ruku‘",
+            "Before wudu",
+            "At the start"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "For whom do we ask forgiveness in “Rabbanaghfir lee”?",
+          "options": [
+            "Me, my parents and all believers",
+            "Only me",
+            "Nobody",
+            "Only my friends"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Write and say",
+      "prompts": [
+        "✍️ Write one dua in your workbook!",
+        "🗣️ Recite At-Tahiyyat, the salawat and the duas."
+      ]
+    }
+  ]
+}

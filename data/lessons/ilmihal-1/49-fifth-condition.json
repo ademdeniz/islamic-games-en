@@ -1,0 +1,116 @@
+{
+  "title": "The fifth condition of Salah – facing the Qiblah",
+  "pages": "49",
+  "intro": "Muslims all over the world face the Ka‘bah in Makkah when they pray.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>fifth condition</b> of Salah is facing the <b>Qiblah</b>. The Qiblah is the direction of the <b>Ka‘bah</b> in Makkah, in Arabia. Muslims all over the world face it when they pray."
+    },
+    {
+      "type": "text",
+      "html": "The Ka‘bah is the first and most honoured house of Allah, in the city of Makkah. It is a stone building shaped like a cube, with a flat roof and no windows. In one corner is the black stone – <b>al-Hajar al-Aswad</b>. Every year the Ka‘bah is covered with a black cloth with ayahs of the Qur’an written on it."
+    },
+    {
+      "type": "text",
+      "html": "Around the Ka‘bah is the <b>Haram</b>, the holy area where Muslims from all over the world pray, recite the Qur’an and do <b>tawaf</b> – walking around the Ka‘bah – during Hajj. The Ka‘bah and the Haram are the most honoured place on earth for all Muslims."
+    },
+    {
+      "type": "point",
+      "title": "Where is the Qiblah from here?",
+      "html": "From Bosnia the Qiblah is to the south-east. From <b>Erie</b>, in North America, the Qiblah is roughly to the <b>north-east</b> – use a compass or a Qiblah app to be exact."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "If we don’t know the direction of the Qiblah, we try to find out and then face where we think it is. We must not pray toward a figure, picture or photo of a person or animal."
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the fifth condition of Salah?",
+          "options": [
+            "Facing the Qiblah",
+            "Being fast",
+            "Wearing a hat",
+            "Praying loudly"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the Qiblah?",
+          "options": [
+            "The direction of the Ka‘bah in Makkah",
+            "A kind of food",
+            "A prayer mat",
+            "A song"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What shape is the Ka‘bah?",
+          "options": [
+            "A cube",
+            "A ball",
+            "A pyramid",
+            "A tower"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is in one corner of the Ka‘bah?",
+          "options": [
+            "The black stone – al-Hajar al-Aswad",
+            "A clock",
+            "A window",
+            "A tree"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we do if we don’t know the Qiblah?",
+          "options": [
+            "Try to find out and face where we think it is",
+            "Don’t pray",
+            "Face any picture",
+            "Go home"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words",
+      "pairs": [
+        [
+          "Qiblah",
+          "The direction of the Ka‘bah"
+        ],
+        [
+          "Ka‘bah",
+          "The house of Allah in Makkah"
+        ],
+        [
+          "Tawaf",
+          "Walking around the Ka‘bah"
+        ],
+        [
+          "Haram",
+          "The holy area around the Ka‘bah"
+        ]
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Task",
+      "prompts": [
+        "📦 Make a model of the Ka‘bah from paper!"
+      ]
+    }
+  ]
+}

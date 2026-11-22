@@ -1,0 +1,124 @@
+{
+  "title": "Finding our way in nature and the direction of the Qiblah",
+  "pages": "50",
+  "intro": "A compass, an app, a shadow – and signs in nature.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "There are many ways to find the direction of the Qiblah:"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🧭",
+          "label": "A compass or Qiblah compass"
+        },
+        {
+          "icon": "📱",
+          "label": "A phone app that shows the prayer times and the Qiblah"
+        },
+        {
+          "icon": "☀️",
+          "label": "The “Qiblah hour” in the prayer timetable"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "The Qiblah hour",
+      "html": "The prayer timetable has a time called the “Qiblah hour”. At that time on that day, look at the shadow of an object: the Qiblah is in the direction <b>opposite</b> the shadow."
+    },
+    {
+      "type": "heading",
+      "text": "Finding our way by nature"
+    },
+    {
+      "type": "list",
+      "items": [
+        "tree tops are fuller on the <b>south</b> side than the north",
+        "the rings on a tree stump are narrower on the <b>north</b> side and wider on the south",
+        "an anthill is on the <b>south</b> side of a stump, stone or bush",
+        "on the <b>north</b> side, tree bark is rougher and covered in moss"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "North or south?",
+      "prompt": "Which side is it on?",
+      "bins": [
+        "⬆️ North",
+        "⬇️ South"
+      ],
+      "items": [
+        {
+          "text": "Moss on the bark",
+          "bin": 0
+        },
+        {
+          "text": "Narrow tree rings",
+          "bin": 0
+        },
+        {
+          "text": "Fuller tree tops",
+          "bin": 1
+        },
+        {
+          "text": "An anthill",
+          "bin": 1
+        },
+        {
+          "text": "Wide tree rings",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How can a phone help us?",
+          "options": [
+            "An app shows the prayer times and the Qiblah",
+            "It can’t",
+            "It plays games only",
+            "It makes calls only"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "At the “Qiblah hour”, where is the Qiblah?",
+          "options": [
+            "Opposite the shadow",
+            "In the shadow",
+            "Toward the sun always",
+            "Nowhere"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "On which side of a tree is moss usually found?",
+          "options": [
+            "The north side",
+            "The south side",
+            "On top",
+            "Nowhere"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Tasks",
+      "prompts": [
+        "📱 Install an app that shows the Qiblah.",
+        "☀️ In front of the maktab, find the Qiblah using the Qiblah hour.",
+        "🌳 On a maktab trip, find north using moss!"
+      ]
+    }
+  ]
+}

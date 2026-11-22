@@ -1,0 +1,106 @@
+{
+  "title": "Let’s repeat what we learned",
+  "pages": "52",
+  "intro": "Cleanliness, wudu, Surah An-Nas – let’s repeat!",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s repeat! Say the missing words with your muallim:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Allah loves tidiness and ______, especially when we ______. The Prophet (SAW) said: “Cleanliness is half of ______.”",
+        "So the first condition of Salah is a clean ______, ______ and ______.",
+        "Allah made the whole earth a place for ______. Where we pray there must be no ______ or anything that distracts us.",
+        "The second condition of Salah is ______ – or ghusl if needed, or ______ when there is no water.",
+        "Wudu is the religious ______ of parts of the body for ______ and reciting the ______.",
+        "The four fard of wudu are: washing the ______, washing the ______, wiping the ______ and washing the ______.",
+        "After wudu it is lovely to say the ______.",
+        "Surah An-Nas is the ______ surah in the Qur’an. Recite An-Nas!"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Fill in the gap",
+      "questions": [
+        {
+          "q": "Cleanliness is half of…",
+          "options": [
+            "Iman",
+            "Food",
+            "School",
+            "Play"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the second condition of Salah?",
+          "options": [
+            "Wudu",
+            "Fasting",
+            "Hajj",
+            "Zakah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many fard of wudu are there?",
+          "options": [
+            "Four",
+            "Ten",
+            "Two",
+            "Six"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say after wudu?",
+          "options": [
+            "The Shahadah",
+            "Goodbye",
+            "Ameen",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which is the last surah in the Qur’an?",
+          "options": [
+            "An-Nas",
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Falaq"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Wudu in order",
+      "prompt": "Put the steps in order.",
+      "items": [
+        "Hands",
+        "Mouth",
+        "Nose",
+        "Face",
+        "Arms",
+        "Head",
+        "Ears",
+        "Neck",
+        "Feet"
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🗣️ Recite Surah An-Nas.",
+        "💧 Show the four fard of wudu."
+      ]
+    }
+  ]
+}

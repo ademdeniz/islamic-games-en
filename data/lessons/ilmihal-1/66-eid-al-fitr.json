@@ -1,0 +1,97 @@
+{
+  "title": "The joy of Eid al-Fitr",
+  "pages": "66",
+  "intro": "Three blessed days after Ramadan – the joy of having fasted.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Eid al-Fitr</b> is three blessed days after the month of Ramadan. It is celebrated on the 1st, 2nd and 3rd of <b>Shawwal</b>, as the joy of having fasted and done our other duties in Ramadan."
+    },
+    {
+      "type": "text",
+      "html": "On the morning of the first day of Eid we go to the masjid to pray the <b>Eid prayer</b>."
+    },
+    {
+      "type": "text",
+      "html": "In the days of Eid we do deeds Allah loves, we are happy, we visit relatives, neighbours and friends, and we give each other gifts."
+    },
+    {
+      "type": "point",
+      "title": "In Bosnia",
+      "html": "In Bosnia and Herzegovina the second day of Eid al-Fitr is marked as the <b>Day of the Martyrs</b> (shuhada). People visit the graveyards and recite Ya-Sin and Al-Fatiha for their loved ones, the martyrs and all Muslims."
+    },
+    {
+      "type": "point",
+      "title": "Eid greetings",
+      "html": "We greet each other: <b>Bayram sherif mubarak olsun!</b> (May your blessed Eid be blessed!) and answer: <b>Allah razı olsun!</b> (May Allah be pleased with you!). Many Muslims also say <b>Eid mubarak!</b>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The first day of Eid",
+      "prompt": "Put the morning in order.",
+      "items": [
+        "Wake up early and bathe",
+        "Put on nice clothes",
+        "Eat a date",
+        "Go to the masjid for the Eid prayer",
+        "Visit family and friends"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When is Eid al-Fitr?",
+          "options": [
+            "1–3 Shawwal, after Ramadan",
+            "Before Ramadan",
+            "In Muharram",
+            "In Dhul-Hijjah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we celebrate at Eid al-Fitr?",
+          "options": [
+            "The joy of having fasted in Ramadan",
+            "The new year",
+            "The Hijrah",
+            "Hajj"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we do on the first morning of Eid?",
+          "options": [
+            "Pray the Eid prayer at the masjid",
+            "Sleep late",
+            "Fast all day",
+            "Stay at home"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How do we greet each other at Eid?",
+          "options": [
+            "Eid mubarak! / Bayram sherif mubarak olsun!",
+            "Good night",
+            "Happy birthday",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 What is Eid al-Fitr? How do we spend the days of Eid?",
+        "🤲 How do we greet each other at Eid?"
+      ]
+    }
+  ]
+}
