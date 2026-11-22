@@ -1,0 +1,48 @@
+{
+  "title": "Kinds of Salah by importance",
+  "pages": "68–69",
+  "intro": "Fard, wajib and sunnah prayers – and what each includes.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "O believers, bow and prostrate, worship your Lord and do good, so that you may succeed. <small>(Qur’an, Al-Hajj 22:77)</small>"},
+    {"type": "text", "html": "Salah is the most important act of worship prescribed for Muslims – the time when a believer speaks with Allah. Salah is a pillar of the religion: whoever denies that it is a duty stops being a Muslim, and whoever does not pray the prescribed prayers commits a great sin. Allah made the five daily prayers a strict duty for every adult Muslim of sound mind, unless they have a valid reason. Besides them there are other required prayers, and voluntary (nafl) prayers at the level of sunnah."},
+    {"type": "heading", "text": "Fard prayers"},
+    {"type": "list", "items": [
+      "the five daily prayers – <b>17</b> fard rak‘ahs a day: 2 Fajr, 4 Dhuhr, 4 Asr, 3 Maghrib and 4 Isha",
+      "Jumu‘ah – 2 rak‘ahs",
+      "janazah (the funeral prayer)"
+    ]},
+    {"type": "heading", "text": "Wajib prayers"},
+    {"type": "list", "items": [
+      "3 rak‘ahs of witr, prayed with Isha",
+      "2 rak‘ahs of Eid al-Fitr",
+      "2 rak‘ahs of Eid al-Adha"
+    ]},
+    {"type": "heading", "text": "Sunnah prayers"},
+    {"type": "list", "items": [
+      "<b>Confirmed sunnah</b> (mu’akkadah) – the Prophet (SAW) always prayed them: 2 of Fajr, 6 of Dhuhr, 2 of Maghrib and 2 of Isha",
+      "<b>Non-confirmed sunnah</b> (ghayr mu’akkadah) – he sometimes left them: 4 of Asr and 4 of Isha, tahiyyat al-masjid, and nafl prayers for a need, like salat al-hajah, istikharah and the prayer for rain"
+    ]},
+    {"type": "point", "title": "Hadith", "html": "Umm Habibah (RA) said she heard the Prophet (SAW) say: <i>“Whoever prays twelve sunnah rak‘ahs in a day and night, a house will be built for him in Jannah.”</i> <small>(Muslim)</small>"}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Fard, wajib or sunnah?", "prompt": "Which kind of prayer is it?", "bins": ["Fard", "Wajib", "Sunnah"], "items": [
+      {"text": "The 2 rak‘ahs of Fajr fard", "bin": 0}, {"text": "Jumu‘ah", "bin": 0}, {"text": "Janazah", "bin": 0},
+      {"text": "Witr", "bin": 1}, {"text": "Eid al-Fitr prayer", "bin": 1}, {"text": "Eid al-Adha prayer", "bin": 1},
+      {"text": "The 2 rak‘ahs before Fajr fard", "bin": 2}, {"text": "Tahiyyat al-masjid", "bin": 2}, {"text": "Istikharah", "bin": 2}
+    ]},
+    {"type": "sort", "title": "Which kind of act in Salah?", "prompt": "Is it a fard, wajib, sunnah or makruh act in Salah?", "bins": ["Fard", "Wajib", "Sunnah", "Makruh"], "items": [
+      {"text": "Standing in Salah", "bin": 0}, {"text": "Ruku‘", "bin": 0}, {"text": "The last sitting", "bin": 0},
+      {"text": "Reciting Al-Fatiha", "bin": 1}, {"text": "The first sitting", "bin": 1}, {"text": "Giving the salam", "bin": 1}, {"text": "Sajdat as-sahw", "bin": 1},
+      {"text": "Saying Ameen", "bin": 2}, {"text": "Saying the takbirs", "bin": 2}, {"text": "Reciting Subhanaka", "bin": 2},
+      {"text": "Closing the eyes, yawning, looking up", "bin": 3}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many fard rak‘ahs do we pray each day?", "options": ["17", "40", "12", "5"], "answer": 0},
+      {"q": "Which prayer is wajib?", "options": ["Witr", "Fajr fard", "Jumu‘ah", "Tahiyyat al-masjid"], "answer": 0},
+      {"q": "What is a confirmed sunnah?", "options": ["A sunnah the Prophet (SAW) always prayed", "A sunnah he never prayed", "A fard prayer", "A makruh act"], "answer": 0},
+      {"q": "What is the reward for praying 12 sunnah rak‘ahs a day?", "options": ["A house in Jannah", "A new car", "Nothing", "Gold"], "answer": 0},
+      {"q": "Who must pray the five daily prayers?", "options": ["Every adult Muslim of sound mind without a valid reason", "Only imams", "Only men", "Only on Fridays"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and task", "prompts": ["💬 What are the conditions for having to pray the five daily prayers?", "🤔 What mistake does someone make who never prays the sunnah prayers, especially the confirmed ones? Has he fulfilled his duties to Allah and to the Prophet (SAW)?"]}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "The pillars of Iman",
+  "pages": "31",
+  "intro": "Six basic truths of faith that we firmly believe and often say.",
+  "learn": [
+    {"type": "text", "html": "The <b>pillars of Iman</b> are the six basic truths of faith that make up iman – Islamic belief. We firmly believe them and often say them:"},
+    {"type": "phrase", "label": "1", "ar": "آمَنْتُ بِاللَّهِ", "tr": "Aamantu billaahi", "en": "I believe in Allah"},
+    {"type": "phrase", "label": "2", "ar": "وَمَلَائِكَتِهِ", "tr": "wa malaa’ikatihee", "en": "and His angels"},
+    {"type": "phrase", "label": "3", "ar": "وَكُتُبِهِ", "tr": "wa kutubihee", "en": "and His books – revelations"},
+    {"type": "phrase", "label": "4", "ar": "وَرُسُلِهِ", "tr": "wa rusulihee", "en": "and His messengers"},
+    {"type": "phrase", "label": "5", "ar": "وَالْيَوْمِ الْآخِرِ", "tr": "wal-yawmil-aakhiri", "en": "and the Last Day"},
+    {"type": "phrase", "label": "6", "ar": "وَبِالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللَّهِ تَعَالَى", "tr": "wa bil-qadari khayrihee wa sharrihee minallaahi ta‘aalaa", "en": "and I believe that everything happens by Allah’s will and decree"}
+  ],
+  "practice": [
+    {"type": "order", "title": "The pillars of Iman in order", "prompt": "Put the six pillars of Iman in order.", "items": ["Aamantu billaahi", "wa malaa’ikatihee", "wa kutubihee", "wa rusulihee", "wal-yawmil-aakhiri", "wa bil-qadari khayrihee wa sharrihee…"]},
+    {"type": "memory", "title": "Match the words and meaning", "pairs": [
+      ["Aamantu billaahi", "I believe in Allah"], ["wa malaa’ikatihee", "and His angels"], ["wa kutubihee", "and His books"], ["wa rusulihee", "and His messengers"], ["wal-yawmil-aakhiri", "and the Last Day"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many pillars of Iman are there?", "options": ["Six", "Five", "Three", "Ten"], "answer": 0},
+      {"q": "What is the first pillar of Iman?", "options": ["Belief in Allah", "Belief in the angels", "Belief in the books", "Belief in the Last Day"], "answer": 0},
+      {"q": "What does “wa rusulihee” mean?", "options": ["and His messengers", "and His books", "and His angels", "and the Last Day"], "answer": 0},
+      {"q": "What do we do with the pillars of Iman?", "options": ["We firmly believe them and often say them", "We forget them", "We say them once a year", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions to talk about", "prompts": ["💬 What are the pillars of Iman?", "🗣️ How many are there, and what are they? Say them all!"]}
+  ]
+}

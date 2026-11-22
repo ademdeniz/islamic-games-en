@@ -1,0 +1,49 @@
+{
+  "title": "The wajib parts of Salah",
+  "pages": "61–62",
+  "intro": "The wajibs make our Salah complete; if we forget one, we make sajdat as-sahw.",
+  "learn": [
+    {"type": "text", "html": "The <b>wajibs</b> of Salah are parts we do so that our Salah is <b>complete</b>. Leaving out a wajib makes the Salah incomplete, and we must make <b>sajdat as-sahw</b> if it happened because we forgot or made a mistake."},
+    {"type": "heading", "text": "The wajibs of Salah"},
+    {"type": "list", "items": [
+      "reciting Al-Fatiha in every rak‘ah",
+      "in the first two rak‘ahs of a fard, and in every rak‘ah of other prayers, reciting a surah or part of the Qur’an after Al-Fatiha – one long or three short ayahs",
+      "when praying behind an imam, reciting nothing except Subhanaka in the first rak‘ah",
+      "the imam reciting Al-Fatiha and the surah quietly in Dhuhr and Asr and in daytime nafl prayers",
+      "the imam reciting Al-Fatiha and the surah aloud in the fard of Fajr, the first two rak‘ahs of Maghrib and Isha, Jumu‘ah, Eid, tarawih and witr in Ramadan",
+      "in sajdah, putting the forehead and nose on the ground so we feel it is firm",
+      "sitting the first time after the second rak‘ah, long enough to recite At-Tahiyyat",
+      "reciting At-Tahiyyat in every sitting",
+      "after At-Tahiyyat, standing up for the third rak‘ah",
+      "reciting the Qunut dua in witr",
+      "ending with the salam: turning the head to the right saying <i>as-salaamu ‘alaykum wa rahmatullaah</i>, then to the left saying the same",
+      "saying the six extra takbirs in the Eid prayers",
+      "praying with ta‘dil al-arkan – calmly and properly",
+      "making sajdat as-sahw when it is needed"
+    ]},
+    {"type": "text", "html": "When we pray behind an imam and he misses a wajib by forgetting or by mistake, he makes sajdat as-sahw at the end, and we as muqtadis make it with him."},
+    {"type": "point", "title": "⭐ Remember", "html": "For our Salah to be complete, we must do <b>all the wajibs</b>. Whoever forgets more than three wajibs, or leaves a wajib out on purpose, must <b>repeat</b> the Salah."}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Aloud or quietly?", "prompt": "Does the imam recite aloud or quietly in this prayer?", "bins": ["🔊 Aloud", "🤫 Quietly"], "items": [
+      {"text": "Fard of Fajr", "bin": 0}, {"text": "First two rak‘ahs of Maghrib", "bin": 0}, {"text": "Jumu‘ah", "bin": 0}, {"text": "Eid prayer", "bin": 0},
+      {"text": "Dhuhr", "bin": 1}, {"text": "Asr", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "Which are wajibs?", "prompt": "Tap every wajib of Salah, then tap Check.", "options": [
+      {"text": "Reciting Al-Fatiha in every rak‘ah", "correct": true},
+      {"text": "The first sitting after the second rak‘ah", "correct": true},
+      {"text": "The Qunut dua in witr", "correct": true},
+      {"text": "Ending with the salam", "correct": true},
+      {"text": "The opening takbir", "correct": false, "why": "The opening takbir is a fard of Salah, not a wajib."},
+      {"text": "Ruku‘", "correct": false, "why": "Ruku‘ is a fard of Salah."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What happens if we forget a wajib?", "options": ["We make sajdat as-sahw", "The Salah is fine as it is", "We go home", "We pray tomorrow"], "answer": 0},
+      {"q": "What do we recite behind an imam?", "options": ["Only Subhanaka in the first rak‘ah", "Al-Fatiha and a surah", "Nothing at all, not even Subhanaka", "The adhan"], "answer": 0},
+      {"q": "How much do we recite after Al-Fatiha, at least?", "options": ["One long or three short ayahs", "One word", "The whole Qur’an", "Nothing"], "answer": 0},
+      {"q": "We forget the first sitting and stand up for the 3rd rak‘ah. What do we do?", "options": ["Continue and make sajdat as-sahw at the end", "Stop praying", "Start again from the beginning right away", "Nothing"], "answer": 0},
+      {"q": "When must we repeat the Salah?", "options": ["If we leave out a wajib on purpose, or forget more than three", "Never", "If we forget one wajib", "Only on Fridays"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What are the wajibs of Salah? Name them!", "🤔 After Salah, someone is sure they prayed fewer rak‘ahs than they should. What should they do?", "📋 Make a table: the wajibs in qiyam, in ruku‘, and in the other parts of Salah."]}
+  ]
+}

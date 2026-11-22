@@ -1,0 +1,41 @@
+{
+  "title": "Cleanliness and personal hygiene",
+  "pages": "45",
+  "intro": "Cleanliness is half of faith – and, doctors say, half of health.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah loves those who turn to Him often in repentance, and He loves those who keep themselves clean. <small>(Qur’an, Al-Baqarah 2:222)</small>"},
+    {"type": "text", "html": "Following this ayah, every Muslim must keep the body, clothes and place where they live <b>clean</b>. Cleanliness is a condition for all the Islamic duties – from the Shahadah, Salah and fasting to zakah and Hajj."},
+    {"type": "text", "html": "To keep our body, clothes and home clean, we keep away from the main kinds of impurity (najasah): alcohol, blood, pus, urine, stool and anything else that comes out of a human or animal body."},
+    {"type": "point", "title": "Hadith", "html": "Muhammad (SAW) said: <i>“Cleanliness is half of faith.”</i> <small>(Muslim)</small> And medicine says that cleanliness is half of health."},
+    {"type": "heading", "text": "Personal hygiene means:"},
+    {"type": "list", "items": [
+      "every morning after getting up, making wudu or washing the face and brushing the teeth",
+      "always washing the hands before and after eating",
+      "cleaning ourselves after using the toilet, and washing the hands with soap",
+      "brushing the teeth well after every meal",
+      "bathing regularly",
+      "cutting the nails",
+      "wearing clean clothes",
+      "using tissues"
+    ]},
+    {"type": "text", "html": "We also keep our <b>yard</b> clean and tidy, with green grass and many flowers."},
+    {"type": "point", "title": "💬 Imam Abu Hanifah’s story", "html": "Imam Abu Hanifah was always neat, nicely dressed and smelled good. One day he saw a man sitting with him in old, worn clothes. Later he gave him a thousand dirhams to look after his appearance. The man said: “I am rich – I don’t need sadaqah.” Abu Hanifah said: “Haven’t you heard the hadith: ‘Allah loves to see the trace of His blessing on His servant’? Change your appearance, so your friend does not have to hide from you.”"}
+  ],
+  "practice": [
+    {"type": "order", "title": "A clean day", "prompt": "Put the day in order.", "items": ["Wake up and make wudu or wash", "Brush teeth", "Wash hands before breakfast", "Brush teeth after eating", "Bath in the evening", "Put on clean clothes for the next day"]},
+    {"type": "choose_all", "title": "Personal hygiene", "prompt": "Tap everything that is part of personal hygiene, then tap Check.", "options": [
+      {"text": "🧼 Washing hands with soap", "correct": true},
+      {"text": "✂️ Cutting the nails", "correct": true},
+      {"text": "🛁 Bathing regularly", "correct": true},
+      {"text": "🤧 Using tissues", "correct": true},
+      {"text": "👕 Wearing the same dirty shirt all week", "correct": false, "why": "We wear clean clothes."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Whom does Allah love, according to Al-Baqarah 2:222?", "options": ["Those who repent often and keep themselves clean", "Those who are rich", "Those who are strong", "Those who sleep a lot"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say cleanliness is?", "options": ["Half of faith", "Not important", "Only for Fridays", "A quarter of Hajj"], "answer": 0},
+      {"q": "Why is cleanliness especially important for a Muslim?", "options": ["It is a condition for the Islamic duties", "It is fashionable", "It is only for guests", "It is not important"], "answer": 0},
+      {"q": "What did Abu Hanifah teach with the hadith?", "options": ["Allah loves to see the trace of His blessing on His servant", "Rich people should look poor", "Clothes don’t matter", "We should never give gifts"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and task", "prompts": ["💬 What do Allah, the Prophet (SAW) and modern medicine say about cleanliness?", "📝 Write in your maktab notebook the lessons from the story of Abu Hanifah, and talk about them. (Ask your muallim who Abu Hanifah was.)"]}
+  ]
+}

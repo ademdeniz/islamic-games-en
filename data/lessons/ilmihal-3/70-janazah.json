@@ -1,0 +1,184 @@
+{
+  "title": "The funeral prayer (janazah)",
+  "pages": "70–71",
+  "intro": "Death, the janazah prayer and how we comfort a family.",
+  "names": [
+    "Başın"
+  ],
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Every soul will taste death… <small>(Qur’an, Ali ‘Imran 3:185)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Allah decreed that a person lives in the dunya for a set time, after which the soul returns to Allah and the body to the earth from which it was made. <b>Death</b> is moving from the dunya to the eternal world – the akhirah."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "One day Jibril came to the Prophet (SAW) and said: <i>“O Muhammad! Live as you wish, but you will die in the end. Love whom you wish, but you will leave them in the end. Do what you wish – you will be rewarded (or punished) for it.”</i> <small>(Tabarani)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "A Muslim near death"
+    },
+    {
+      "type": "list",
+      "items": [
+        "We must not wish for death because of a hardship: “Let none of you wish for death because of a hardship that befalls him…” <small>(Bukhari and Muslim)</small>",
+        "Whoever feels death is near should write a will (wasiyyah).",
+        "Recite the Shahadah, and often say <i>laa ilaaha illallaah</i>.",
+        "When a Muslim passes away, the family should repay any debts as soon as possible."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The janazah prayer"
+    },
+    {
+      "type": "text",
+      "html": "The janazah is a special prayer for Muslims who have died. It is <b>fard kifayah</b> – a duty of the community that some of its members must do; if nobody does it, everyone is sinful."
+    },
+    {
+      "type": "list",
+      "items": [
+        "<b>Conditions:</b> the person who died was a Muslim; the body has been washed (ghusl) and wrapped in a shroud (kafan); it is placed in front of the jama‘ah; its right side faces the Qiblah",
+        "<b>Fard:</b> standing in rows (at least three rows is good); saying four takbirs behind the imam, raising the hands only at the first",
+        "<b>Sunnah:</b> after the 1st takbir, Subhanaka with <i>wa jalla thanaa’uk</i>; after the 2nd, the salawat; after the 3rd, the janazah dua; after the 4th, the salam to the right (lowering the right hand) and to the left (lowering the left hand)"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Carrying the deceased to the graveyard and burying them is also fard kifayah for Muslims; it is sunnah to hurry in carrying the janazah. It is makruh for women to follow and see off the janazah."
+    },
+    {
+      "type": "heading",
+      "text": "Condolence (ta‘ziyah)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "We comfort the family with words that give patience and help them accept Allah’s decree: <b>Innaa lillaahi wa innaa ilayhi raaji‘oon</b> – “We belong to Allah and to Him we return.”",
+        "The grieving family answers: <b>Innallaaha ma‘as-saabireen</b> – “Truly, Allah is with the patient.”",
+        "Condolence has no time limit, but it is best in the first three days.",
+        "It is sunnah for relatives and neighbours to make food for the grieving family. The Prophet (SAW) said: <i>“Prepare food for the family of Ja‘far, for what has happened has kept them busy.”</i> <small>(Tirmidhi)</small>",
+        "In Bosnia there is also a traditional way of giving condolence in Turkish: <i>Başın sağ olsun</i> (may your head be well), answered with <i>Dostum sağ olsun</i> (may my friend be well too)."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The janazah prayer in order",
+      "prompt": "Put the janazah prayer in order.",
+      "items": [
+        "1st takbir – Subhanaka",
+        "2nd takbir – the salawat",
+        "3rd takbir – the janazah dua",
+        "4th takbir – the salam right and left"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words",
+      "pairs": [
+        [
+          "Innaa lillaahi wa innaa ilayhi raaji‘oon",
+          "We belong to Allah and to Him we return"
+        ],
+        [
+          "Innallaaha ma‘as-saabireen",
+          "Allah is with the patient"
+        ],
+        [
+          "Fard kifayah",
+          "A duty of the community"
+        ],
+        [
+          "Kafan",
+          "The shroud"
+        ],
+        [
+          "Wasiyyah",
+          "A will"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is death?",
+          "options": [
+            "Moving from the dunya to the akhirah",
+            "The end of everything",
+            "A long sleep",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What kind of duty is the janazah prayer?",
+          "options": [
+            "Fard kifayah – a duty of the community",
+            "Sunnah only",
+            "Makruh",
+            "Not needed"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many takbirs are in the janazah prayer?",
+          "options": [
+            "Four",
+            "Two",
+            "Seven",
+            "One"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we recite after the third takbir?",
+          "options": [
+            "The janazah dua",
+            "Subhanaka",
+            "The salawat",
+            "Al-Ikhlas"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say to comfort a grieving family?",
+          "options": [
+            "Innaa lillaahi wa innaa ilayhi raaji‘oon",
+            "Congratulations",
+            "Goodbye",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did the Prophet (SAW) recommend doing for a grieving family?",
+          "options": [
+            "Making food for them",
+            "Asking them for food",
+            "Leaving them alone for a year",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "💬 What is death? What is the janazah prayer, and what are its conditions, fard and sunnah?",
+        "🤔 Which traditional customs at a funeral are not part of Islam? Remember: what we learned as fard and wajib is the religion – everything else is tradition."
+      ]
+    }
+  ]
+}
