@@ -1,0 +1,49 @@
+{
+  "title": "Truthfulness and trustworthiness",
+  "pages": "128",
+  "intro": "A Muslim loves the truth and keeps what is entrusted to them – just like the Prophet (SAW), “al-Amin”, the trustworthy one.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) tells the believers to be mindful of Him and to speak only what is true and right. <small>(Qur’an, Al-Ahzab 33:70)</small>"},
+    {"type": "text", "html": "<b>Truthfulness</b> is a good human quality: standing up for the truth and loving it. Muslim men and women are truthful, they lean towards the truth, and they keep away from lies."},
+    {"type": "text", "html": "A Muslim does not see truthfulness only as a nice extra quality – it is <b>part of their faith</b>."},
+    {"type": "text", "html": "Sometimes a Muslim has to confirm something with an honest word even when the truth goes <b>against themselves</b> or against someone they love. That is a real test of how truthful they are."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Say the truth, even if it is bitter.”</i> <small>(Ahmad)</small>"},
+    {"type": "heading", "text": "Trustworthiness"},
+    {"type": "text", "html": "<b>Trustworthiness</b> means keeping your promises and taking good care of what was entrusted to you. The Qur’an describes the believers as those <b>who keep the trusts given to them and keep their promises</b>. <small>(Qur’an, Al-Ma‘arij 70:32)</small>"},
+    {"type": "text", "html": "A trustworthy person does not betray what someone trusted them with, and keeps what they agreed with others. The Prophet (SAW) called people who break their promises <b>hypocrites</b> (people who are two-faced)."},
+    {"type": "text", "html": "Life in this world is full of <b>trusts</b> (amanah) and duties that we must carry out, and we are responsible for how we treat them."},
+    {"type": "heading", "text": "Al-Amin – the trustworthy one"},
+    {"type": "text", "html": "Even before he became a prophet, the Prophet (SAW) was known among his people as <b>al-Amin</b> – the trustworthy one. Khadijah (RA), a rich and respected woman, married him because of his trustworthiness and good character. Even before their marriage she trusted him to take her goods for trade to faraway Sham (Syria)."},
+    {"type": "text", "html": "Because of his trustworthiness, even the Quraysh – who did not believe he was a prophet – left their valuables with him. When Allah (SWT) ordered him to make the Hijrah to Madinah, after his people had treated him badly, he left <b>Ali (RA)</b>, his cousin, behind to return everything people had left with him. He was the most trustworthy man."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“There is no faith in the one who cannot be trusted, and no religion in the one who does not keep his promises.”</i> <small>(Ahmad)</small>"},
+    {"type": "text", "html": "Losing trustworthiness means losing faith – and it is one of the signs of the Day of Judgement. The Prophet (SAW) said: <i>“When trust is lost, then wait for the Hour.”</i> <small>(Bukhari)</small>"},
+    {"type": "text", "html": "Trustworthiness and trust are the qualities on which <b>good relations in society</b> are built."},
+    {"type": "point", "title": "⭐ Remember", "html": "The marks of a good Muslim are trustworthiness, sincerity and truthfulness. Try hard so that others recognise you by them!"}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "A truthful and trustworthy Muslim", "prompt": "Tap everything a truthful and trustworthy Muslim does, then tap Check.", "options": [
+      {"text": "🗣️ Says the truth even when it is hard", "correct": true},
+      {"text": "🤝 Keeps their promises", "correct": true},
+      {"text": "🔒 Takes care of what friends lend them", "correct": true},
+      {"text": "↩️ Gives back what belongs to others", "correct": true},
+      {"text": "🤥 Tells a small lie to get out of trouble", "correct": false, "why": "The Prophet (SAW) said: say the truth, even if it is bitter."},
+      {"text": "📢 Shares a secret a friend trusted them with", "correct": false, "why": "A secret is also an amanah (a trust) – a trustworthy person keeps it."},
+      {"text": "⏳ Agrees to meet but never comes", "correct": false, "why": "Breaking promises is a sign of a hypocrite, not of a believer."}
+    ]},
+    {"type": "order", "title": "The story of al-Amin", "prompt": "Put the events in the right order.", "items": [
+      "Muhammad (SAW) is known among his people as al-Amin, the trustworthy one",
+      "Khadijah (RA) trusts him with her goods for trade in Sham",
+      "Khadijah (RA) marries him because of his trustworthiness and good character",
+      "Allah orders him to make the Hijrah to Madinah",
+      "Ali (RA) stays behind to give people back their valuables"
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is truthfulness?", "options": ["Loving and standing up for the truth", "Saying whatever is easiest", "Never talking", "Agreeing with everyone"], "answer": 0},
+      {"q": "What nickname did the Prophet (SAW) have even before he was a prophet?", "options": ["Al-Amin – the trustworthy one", "The rich one", "The strong one", "The traveller"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say about the one who does not keep promises?", "options": ["He has no religion", "He is clever", "It does not matter", "He is a good friend"], "answer": 0},
+      {"q": "Who returned the Quraysh’s valuables after the Hijrah?", "options": ["Ali (RA)", "Khadijah (RA)", "Abu Bakr (RA)", "Nobody"], "answer": 0},
+      {"q": "Losing trustworthiness is a sign of…", "options": ["the Day of Judgement", "good luck", "strong faith", "a good harvest"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and talking with your teacher", "prompts": ["💬 What is truthfulness, and what is trustworthiness?", "🏷️ What nickname did the Prophet (SAW) have?", "📜 What did the Prophet (SAW) say about the one who cannot be trusted and does not keep promises?", "🤝 Talk with your teacher: a Muslim’s virtue is to fulfil the duties they took on and the promises they gave.", "🔗 How are truthfulness and trustworthiness connected?"]}
+  ]
+}

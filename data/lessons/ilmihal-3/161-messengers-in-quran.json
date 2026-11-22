@@ -1,0 +1,64 @@
+{
+  "title": "Allah’s messengers mentioned in the Qur’an",
+  "pages": "161–162",
+  "intro": "Allah sent a messenger to every people – 25 of them are named in the Qur’an.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Every people had a messenger… <small>(Qur’an, Yunus 10:47, meaning)</small>"},
+    {"type": "text", "html": "Sending messengers is one of the <b>greatest blessings</b> Allah has given to people. Every messenger shows Allah’s <b>mercy</b> to people. The first person on Earth and the first prophet was <b>Adam (AS)</b>, and <b>Muhammad (SAW)</b> is the <b>Khatam al-Anbiya’</b> – the Seal of the Prophets, the last and the best of them. Because messengers are so important for explaining Allah’s revelation, Allah sent a messenger to <b>every people</b>."},
+    {"type": "text", "html": "Only Allah (SWT) knows the exact number of His messengers. We learned before that the Qur’an mentions <b>25 by name</b>:"},
+    {"type": "cards", "items": [
+      {"icon": "1️⃣", "label": "Adam"}, {"icon": "2️⃣", "label": "Idris"}, {"icon": "3️⃣", "label": "Nuh"}, {"icon": "4️⃣", "label": "Hud"}, {"icon": "5️⃣", "label": "Salih"},
+      {"icon": "6️⃣", "label": "Ibrahim"}, {"icon": "7️⃣", "label": "Ishaq"}, {"icon": "8️⃣", "label": "Isma‘il"}, {"icon": "9️⃣", "label": "Lut"}, {"icon": "🔟", "label": "Ya‘qub"},
+      {"icon": "⭐", "label": "Yusuf"}, {"icon": "⭐", "label": "Ayyub"}, {"icon": "⭐", "label": "Shu‘ayb"}, {"icon": "⭐", "label": "Musa"}, {"icon": "⭐", "label": "Harun"},
+      {"icon": "⭐", "label": "Dhul-Kifl"}, {"icon": "⭐", "label": "Dawud"}, {"icon": "⭐", "label": "Sulayman"}, {"icon": "⭐", "label": "Ilyas"}, {"icon": "⭐", "label": "Al-Yasa‘"},
+      {"icon": "⭐", "label": "Yunus"}, {"icon": "⭐", "label": "Zakariyya"}, {"icon": "⭐", "label": "Yahya"}, {"icon": "⭐", "label": "‘Isa"}, {"icon": "🌙", "label": "Muhammad"}
+    ]},
+    {"type": "point", "title": "Ulul-‘Azm – the messengers of firm resolve", "html": "Among the most chosen of them are <b>Nuh, Ibrahim, Musa, ‘Isa and Muhammad</b> (peace be upon them). Together they are called <b>Ulul-‘Azm</b> – the messengers of firm resolve."},
+    {"type": "heading", "text": "Where are they named?"},
+    {"type": "text", "html": "Many ayahs mention the names of Allah’s messengers. A few ayahs in <b>Surah An-Nisa’</b> and <b>Surah Al-An‘am</b> contain most of them:"},
+    {"type": "point", "title": "📖 An-Nisa’ 4:163–165", "html": "We sent revelation to you as We sent it to Nuh and the prophets after him; We sent revelation to Ibrahim, Isma‘il, Ishaq, Ya‘qub and his descendants, ‘Isa, Ayyub, Yunus, Harun and Sulayman, and to Dawud We gave the Zabur. Some messengers We have told you about before, and some We have not – and Allah truly spoke to Musa. They were messengers bringing good news and warnings, so that people would have no excuse before Allah after the messengers. Allah is Almighty and Wise. <small>(meaning)</small>"},
+    {"type": "point", "title": "📖 Al-An‘am 6:83–87", "html": "That was Our proof which We gave Ibrahim against his people. We raise in rank whom We will. We gave him Ishaq and Ya‘qub and guided each of them – and Nuh We guided before – and from his descendants Dawud, Sulayman, Ayyub, Yusuf, Musa and Harun; that is how We reward those who do good. And Zakariyya, Yahya, ‘Isa and Ilyas – all of them were righteous. And Isma‘il, Al-Yasa‘, Yunus and Lut – all of them We favoured above the worlds; and some of their fathers, children and brothers, whom We chose and guided to the straight path. <small>(meaning)</small>"},
+    {"type": "text", "html": "The messengers not named in these two places are mentioned elsewhere in the Qur’an:"},
+    {"type": "list", "items": [
+      "<b>Adam</b>: He taught Adam the names of all things… <small>(Al-Baqarah 2:31)</small>",
+      "<b>Isma‘il, Idris and Dhul-Kifl</b>: all of them were patient. <small>(Al-Anbiya’ 21:85)</small>",
+      "<b>Hud and Salih</b>: “O my people, don’t let your disagreement with me bring on you what struck the people of Nuh, or the people of Hud, or the people of Salih…” <small>(Hud 11:89)</small>",
+      "<b>Muhammad</b>: Muhammad is only a messenger; messengers have passed away before him. <small>(Al ‘Imran 3:144)</small>"
+    ]},
+    {"type": "point", "title": "Three more chosen servants", "html": "Besides the messengers, Allah (SWT) also mentions in the Qur’an three of His chosen servants: <b>Luqman, ‘Uzayr and Dhul-Qarnayn</b>."},
+    {"type": "phrase", "label": "Salawat on the Prophet (SAW)", "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ", "tr": "Allaahumma salli ‘alaa Muhammad.", "en": "O Allah, send Your blessings on Muhammad."},
+    {"type": "point", "title": "📜 Hadith", "html": "<i>“Whoever sends one salawat on me, Allah sends ten blessings on him and writes ten good deeds for him.”</i> <small>(Ahmad)</small>"}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Ulul-‘Azm", "prompt": "Tap the five messengers of firm resolve (Ulul-‘Azm), then tap Check.", "options": [
+      {"text": "Nuh (AS)", "correct": true},
+      {"text": "Ibrahim (AS)", "correct": true},
+      {"text": "Musa (AS)", "correct": true},
+      {"text": "‘Isa (AS)", "correct": true},
+      {"text": "Muhammad (SAW)", "correct": true},
+      {"text": "Yusuf (AS)", "correct": false, "why": "Yusuf (AS) is a great prophet, but he is not one of the five Ulul-‘Azm."},
+      {"text": "Luqman", "correct": false, "why": "Luqman is a chosen servant mentioned in the Qur’an, but not one of the 25 named messengers."}
+    ]},
+    {"type": "sort", "title": "I or Y?", "prompt": "Does the prophet’s name start with I or Y?", "bins": ["Starts with I", "Starts with Y"], "items": [
+      {"text": "Idris", "bin": 0}, {"text": "Ibrahim", "bin": 0}, {"text": "Ishaq", "bin": 0}, {"text": "Isma‘il", "bin": 0}, {"text": "Ilyas", "bin": 0},
+      {"text": "Ya‘qub", "bin": 1}, {"text": "Yusuf", "bin": 1}, {"text": "Yunus", "bin": 1}, {"text": "Yahya", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many messengers are named in the Qur’an?", "options": ["25", "5", "12", "100"], "answer": 0},
+      {"q": "Who knows the exact number of all the messengers?", "options": ["Only Allah", "The angels", "Historians", "The Companions"], "answer": 0},
+      {"q": "What does the Qur’an call the last Messenger?", "options": ["Khatam al-Anbiya’ – the Seal of the Prophets", "The first prophet", "Ulul-Albab", "Dhul-Qarnayn"], "answer": 0},
+      {"q": "Who was the first person and the first prophet?", "options": ["Adam (AS)", "Nuh (AS)", "Ibrahim (AS)", "Idris (AS)"], "answer": 0},
+      {"q": "Which surahs contain most of the prophets’ names in a few ayahs?", "options": ["An-Nisa’ and Al-An‘am", "Al-Fatiha and Al-Ikhlas", "Yasin and Al-Mulk", "An-Nas and Al-Falaq"], "answer": 0},
+      {"q": "Which of these surahs is NOT named after a prophet?", "options": ["Al-Baqarah", "Yunus", "Hud", "Yusuf"], "answer": 0},
+      {"q": "What does Allah give someone who sends one salawat on the Prophet (SAW)?", "options": ["Ten blessings and ten good deeds", "One good deed", "Nothing", "A hundred years of life"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions, tasks and talk", "prompts": [
+      "❓ What does the Qur’an call the last Messenger of Allah? How many messengers were there in total?",
+      "❓ Which messengers does the Qur’an mention by name? What are the Ulul-‘Azm and who are they?",
+      "🔎 Task 1: Find in the Qur’an all the surahs named after Allah’s messengers.",
+      "🔎 Task 2: How many times is the last Messenger mentioned by name in the Qur’an?",
+      "✍️ Task 3: Make a table of the prophets whose names start with I and with Y.",
+      "🗣️ Talk with your muallim: “Whoever sends one salawat on me, Allah sends ten on him and writes ten good deeds for him.” (Ahmad)"
+    ]}
+  ]
+}

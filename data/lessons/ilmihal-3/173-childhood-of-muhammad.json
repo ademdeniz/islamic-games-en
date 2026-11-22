@@ -1,0 +1,64 @@
+{
+  "title": "The childhood of Muhammad (SAW)",
+  "pages": "173–175",
+  "intro": "Born in the Year of the Elephant, raised in the desert by Halimah, an orphan cared for by his grandfather and uncle.",
+  "learn": [
+    {"type": "text", "html": "The Messenger of Allah, Muhammad (SAW), came from the family of <b>Hashim</b> of the tribe of <b>Quraysh</b>, one of the best-known and most respected tribes in Makkah at that time. His father <b>‘Abdullah</b>, son of ‘Abd al-Muttalib, died <b>two months before he was born</b>. His mother <b>Aminah</b> gave birth to him on the <b>12th of Rabi‘ al-Awwal</b> (20 April <b>571</b>) in the city of <b>Makkah</b>."},
+    {"type": "point", "title": "🐘 The Year of the Elephant", "html": "In 571 CE, the Ethiopian ruler <b>Abrahah</b> set out against Makkah with an army and elephants. That year is called the <b>Year of the Elephant</b> – and in that year the Prophet (SAW) was born."},
+    {"type": "heading", "text": "Growing up in the desert"},
+    {"type": "text", "html": "At that time, respected families of Makkah gave their baby boys to women in desert villages to be nursed, so they could spend part of their childhood in the desert. This was done for several reasons:"},
+    {"type": "list", "items": [
+      "to keep children away from the <b>infectious diseases</b> that often spread in towns,",
+      "boys grew up more easily and quickly in the <b>clean desert air</b>, and became stronger and tougher,",
+      "children learned the <b>pure Arabic language</b> spoken by the desert tribes,",
+      "living among the nomads, they learned skills such as <b>wrestling, riding and archery</b>."
+    ]},
+    {"type": "text", "html": "So Aminah gave her baby to the tribe of <b>Banu Sa‘d</b>, to <b>Halimah</b>, who was well respected among Makkan families because she looked after the children she took to nurse very well."},
+    {"type": "point", "title": "Halimah’s story", "html": "The year the Prophet (SAW) was born was very dry and poor. Halimah said she left her village with her husband <b>Al-Harith</b>, riding a donkey, while her husband led an old camel, and they reached Makkah last. <i>“Every woman was offered Muhammad, but they refused him because they did not expect that his mother and grandfather could pay well. The other women took children from rich families, and I was left with no child at all. I was ashamed to go home without a baby, so I said to my husband: ‘I will go and take that orphan – maybe Allah will give us <b>barakah</b> through him.’”</i>"},
+    {"type": "text", "html": "<i>“When I took him and held him, I felt the milk come; he drank his fill and fell asleep, and so did my own son, who had cried from hunger the night before. My husband noticed that our old, weak camel now had milk, so we both drank well and slept.”</i> Her husband said: <i>“You know, Halimah, you have taken a blessed child.”</i> When they got home, their sheep gave much more milk, and so it was from then on."},
+    {"type": "text", "html": "Muhammad (SAW) grew up in the clean air of the Arabian desert, and when he was two, Halimah weaned him; he was already well developed. Halimah took him back to his mother, but persuaded Aminah to let him come back to the village because of the barakah they enjoyed with him. Aminah agreed, and he stayed two more years."},
+    {"type": "point", "title": "The opening of the chest", "html": "When Muhammad (SAW) was four, something happened that made Halimah return him to Aminah. One day, while he was near the tent of his nursing mother, her son ran to her and said that <b>two men in white</b> had opened Muhammad’s chest and <b>washed his heart</b>. Worried about his safety, Halimah and her husband decided to take him back to Aminah in Makkah."},
+    {"type": "heading", "text": "An orphan"},
+    {"type": "text", "html": "Muhammad (SAW) spent his fifth year with his mother Aminah. When he was six, Aminah decided to visit her relatives in <b>Madinah</b> and show her son where his father ‘Abdullah was buried. On the way back, at a place called <b>Al-Abwa’</b>, Aminah suddenly fell ill and died."},
+    {"type": "text", "html": "His grandfather <b>‘Abd al-Muttalib</b>, already old by then, took care of him with great love, took him everywhere and never left him. But this did not last long: when the Prophet (SAW) was <b>eight</b>, his grandfather died too, and his uncle <b>Abu Talib</b> and his wife <b>Fatimah</b> took care of him. Abu Talib was a trader and often took Muhammad (SAW) with him. He had many children and lived simply, so Muhammad (SAW) chose to <b>look after the flocks</b> of Makkan families to help his uncle support the family."},
+    {"type": "heading", "text": "The monk Bahira"},
+    {"type": "text", "html": "Once, when Abu Talib went to <b>Sham</b> (Syria) to trade, he took his nephew with him. They stopped to rest at the place of a Christian monk called <b>Bahira</b>. The monk noticed on the boy the <b>signs of prophethood</b>, because from his religious books he knew that the time was near when a prophet would be sent from the Arabs. People also tell that a <b>cloud gave the boy shade</b> on the journey. After talking with Abu Talib, Bahira became even more sure that the boy would be a messenger of Allah, and he advised Abu Talib to take him back to Makkah, because enemies who recognised the signs might try to harm him."},
+    {"type": "text", "html": "When Muhammad (SAW) was twenty, he began to work as a <b>trader</b>: he took caravans for rich people of Makkah and sold their goods for a share of the profit."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The early life of Muhammad (SAW)", "prompt": "Put the events in order.", "items": [
+      "His father ‘Abdullah dies",
+      "He is born in Makkah in the Year of the Elephant",
+      "He is nursed by Halimah in the desert",
+      "His chest is opened and his heart is washed",
+      "His mother Aminah dies at Al-Abwa’",
+      "His grandfather ‘Abd al-Muttalib dies",
+      "He travels to Sham with his uncle Abu Talib",
+      "He starts working as a trader"
+    ]},
+    {"type": "memory", "title": "Who is who?", "pairs": [
+      ["‘Abdullah", "His father"],
+      ["Aminah", "His mother"],
+      ["Halimah", "His nursing mother"],
+      ["‘Abd al-Muttalib", "His grandfather"],
+      ["Abu Talib", "His uncle"],
+      ["Bahira", "The monk who saw the signs"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which tribe did Muhammad (SAW) come from?", "options": ["Quraysh", "Banu Sa‘d", "Aws", "Khazraj"], "answer": 0},
+      {"q": "When was the Prophet (SAW) born?", "options": ["12th Rabi‘ al-Awwal, in 571", "1st Ramadan, in 610", "10th Muharram, in 622", "27th Rajab, in 621"], "answer": 0},
+      {"q": "Why is that year called the Year of the Elephant?", "options": ["Abrahah came against Makkah with an army and elephants", "An elephant was born in Makkah", "People went to Africa", "There were no elephants that year"], "answer": 0},
+      {"q": "Which of these was NOT a reason to send babies to the desert?", "options": ["To make them rich", "To keep them away from diseases", "To learn pure Arabic", "To grow up strong in clean air"], "answer": 0},
+      {"q": "Where did his mother Aminah die?", "options": ["At Al-Abwa’", "In Makkah", "In Sham", "In Ta’if"], "answer": 0},
+      {"q": "How old was he when his grandfather died?", "options": ["Eight", "Two", "Twenty", "Forty"], "answer": 0},
+      {"q": "How did he help his uncle Abu Talib’s family?", "options": ["By looking after the flocks of Makkan families", "By building houses", "By fishing", "By writing books"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions, task and talk", "prompts": [
+      "❓ Which family did Muhammad (SAW) come from, and what were his parents’ names?",
+      "❓ Give some reasons why he grew up in the desert village. What interesting things happened to his nursing mother Halimah?",
+      "❓ When did Muhammad (SAW) lose his father, and when his mother?",
+      "✍️ Task: Describe what happened on the Prophet’s journey to Sham with his uncle Abu Talib.",
+      "🗣️ Talk with your muallim: The Prophet’s chest was first opened and his heart washed while he was with Halimah. Did it happen again? If so, when?"
+    ]}
+  ]
+}

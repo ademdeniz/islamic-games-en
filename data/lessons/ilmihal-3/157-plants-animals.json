@@ -1,0 +1,60 @@
+{
+  "title": "How we treat plants and animals",
+  "pages": "157–158",
+  "intro": "Allah made the plant and animal world serve us – and we must treat it with care and mercy.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "He is the One who created for you everything on the earth, then turned to the sky and made it seven heavens – and He knows everything. <small>(Qur’an, Al-Baqarah 2:29, meaning)</small><br>He is the One who made the earth easy for you, so walk through its regions and eat from what He provides – and to Him you will be raised. <small>(Qur’an, Al-Mulk 67:15, meaning)</small>"},
+    {"type": "text", "html": "One of the most important features of Islam is that it gives <b>equal attention</b> to the <b>dunya</b> – this world – and the <b>akhirah</b> – the world to come. Islam calls Muslims to work for a kind and caring society, and at the same time to try to enter Jannah by Allah’s mercy."},
+    {"type": "text", "html": "On that path we must always treat the <b>plant and animal world</b>, which Allah made to serve us, carefully and responsibly."},
+    {"type": "list", "items": [
+      "Plants are our <b>greatest helper</b> against harmful gases.",
+      "Green areas help to balance the <b>winds</b> and reduce <b>noise</b>.",
+      "Economic progress and development are closely tied to nature, where everything works in harmony and every result has its cause."
+    ]},
+    {"type": "heading", "text": "Out in nature"},
+    {"type": "text", "html": "Before we go out into nature we should learn the basic rules of behaving there. People often carry bad habits from home to picnic spots, parks, forests and mountains. Far from home there is often nowhere to put rubbish, and bins near towns are often full. Muslims should be an <b>example</b> of the right way to treat nature in every situation – for example, by taking their rubbish home with them."},
+    {"type": "heading", "text": "Animals in the Qur’an"},
+    {"type": "text", "html": "<b>Six surahs</b> of the Qur’an are named after animals, and animals are mentioned in the Qur’an and hadiths in many places:"},
+    {"type": "cards", "items": [
+      {"icon": "🐄", "label": "Al-Baqarah – The Cow"},
+      {"icon": "🐑", "label": "Al-An‘am – The Livestock"},
+      {"icon": "🐝", "label": "An-Nahl – The Bee"},
+      {"icon": "🐜", "label": "An-Naml – The Ant"},
+      {"icon": "🕷️", "label": "Al-‘Ankabut – The Spider"},
+      {"icon": "🐘", "label": "Al-Fil – The Elephant"}
+    ]},
+    {"type": "text", "html": "There is great wisdom in this. Many rules of the Shari‘ah are connected to animals – from eating their meat, to using them for hunting, to owning them."},
+    {"type": "point", "title": "No pain without need", "html": "We are <b>forbidden to cause pain</b> to other living beings, except in real necessity. By the rules of our religion we may kill <b>pests</b> that cause harm, but we may <b>not torture</b> any animal, and we may <b>not burn</b> them with fire, because that is a great sin."},
+    {"type": "point", "title": "📜 Hadith", "html": "It is reported that one of the Companions said: “I went with my grandfather Anas ibn Malik (RA) to the house of Al-Hakam ibn Ayyub. There we saw some people using a hen as a target. Anas said to them: <i>‘The Messenger of Allah (SAW) forbade that any animal be tied up and used as a target.’</i>” <small>(Muslim)</small>"},
+    {"type": "point", "title": "⭐ Remember", "html": "Whoever shows mercy to a living being, the Creator will show mercy to him."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Surahs named after animals", "pairs": [
+      ["Al-Baqarah", "The Cow 🐄"], ["Al-An‘am", "The Livestock 🐑"], ["An-Nahl", "The Bee 🐝"], ["An-Naml", "The Ant 🐜"], ["Al-‘Ankabut", "The Spider 🕷️"], ["Al-Fil", "The Elephant 🐘"]
+    ]},
+    {"type": "choose_all", "title": "Kind to every creature", "prompt": "Tap everything a Muslim does, then tap Check.", "options": [
+      {"text": "Puts out food for birds in winter", "correct": true},
+      {"text": "Takes rubbish home after a picnic", "correct": true},
+      {"text": "Looks after trees and green areas", "correct": true},
+      {"text": "Removes pests that cause harm, without torturing them", "correct": true},
+      {"text": "Uses a hen or a cat as a target for fun", "correct": false, "why": "The Prophet (SAW) forbade tying up an animal and using it as a target."},
+      {"text": "Burns insects with fire", "correct": false, "why": "Burning living beings with fire is a great sin."},
+      {"text": "Leaves rubbish in the forest because the bins are full", "correct": false, "why": "Muslims should be an example in nature – we take our rubbish with us."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many surahs are named after animals?", "options": ["Six", "Two", "Ten", "One"], "answer": 0},
+      {"q": "What does An-Nahl mean?", "options": ["The Bee", "The Ant", "The Spider", "The Cow"], "answer": 0},
+      {"q": "Which surah is named after the ant?", "options": ["An-Naml", "Al-Fil", "Al-Baqarah", "Al-An‘am"], "answer": 0},
+      {"q": "Islam gives equal attention to…", "options": ["this world (dunya) and the next world (akhirah)", "only this world", "only the next world", "only money"], "answer": 0},
+      {"q": "What did the Prophet (SAW) forbid, according to Anas ibn Malik (RA)?", "options": ["Tying up an animal and using it as a target", "Keeping chickens", "Feeding birds", "Planting trees"], "answer": 0},
+      {"q": "Who will the Creator show mercy to?", "options": ["Whoever shows mercy to living beings", "Whoever has the most pets", "Whoever lives in the city", "No one"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and choose-a-task", "prompts": [
+      "❓ What practical role does the plant world play?",
+      "🌿 What example should a Muslim be to others when it comes to treating the environment?",
+      "🐜 After which animals are surahs of the Qur’an named?",
+      "❓ Is it allowed to remove plants and animals that cause harm? How?",
+      "✍️ Choose a task: What is the purpose of creating the plant and animal world? OR What attitude should we have towards plants and animals?"
+    ]}
+  ]
+}
