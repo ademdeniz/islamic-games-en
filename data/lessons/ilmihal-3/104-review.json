@@ -1,0 +1,79 @@
+{
+  "title": "Let’s review what we learned",
+  "pages": "104–105",
+  "intro": "Salah, the jama‘ah, janazah, fasting, Zakah, Hajj, the hadith collections, ghusl and marriage – let’s repeat it all.",
+  "learn": [
+    {"type": "text", "html": "We have learned about <b>Salah</b> and the other Islamic duties. Answer these questions with your muallim, then do the activities below."},
+    {"type": "list", "items": [
+      "What is the first pillar of the Islamic faith?",
+      "What is Salah?",
+      "What are the fard parts of Salah?",
+      "What is makruh (disliked) in Salah?",
+      "What is the jama‘ah?",
+      "What is the janazah, and what are the fard parts of the janazah?",
+      "What is fasting (sawm), and who must fast?"
+    ]},
+    {"type": "heading", "text": "Write definitions of…"},
+    {"type": "list", "items": [
+      "the actions of a mukallaf (af‘al al-mukallafin) and how they are divided",
+      "hayd, nifas and istihadah",
+      "the sahib al-‘udhr (a person with a lasting excuse) and the rules for them"
+    ]},
+    {"type": "heading", "text": "Fill in the gaps"},
+    {"type": "list", "items": [
+      "The first thing a person will be asked about on the Day of Judgement is ________. If it is ________, the rest will be right too; if it is not right, the rest will not be right either.",
+      "Conditions for the janazah prayer to be valid: the person who died is a ________; the body is ________ (has had ghusl) and wrapped in a ________ (shroud); the body is placed ________ the jama‘ah; its right side is turned toward the ________.",
+      "We give condolences with the words: “________” – Truly, Allah is with the patient. The family answers: “________” – We belong to Allah and to Him we return.",
+      "Zakah must be given by Muslims who: really own more than ________; have owned at least the nisab for a whole ________; and whose wealth still reaches the ________ at the end of the year.",
+      "Among the best-known and most trusted hadith collections are Sahih ________ and Sahih ________. After them come the Sunan of Abu ________, ________, ________ and Ibn ________. Together they are called the ________ – the six books. Also worth mentioning is the M________, the hadith collection of Imam ________.",
+      "Marriage in the Shari‘ah is a contract between a man and a woman who ________ and meet the conditions for marriage. It is based on their free ________, with ________ witnesses."
+    ]},
+    {"type": "heading", "text": "Write a few sentences…"},
+    {"type": "text", "html": "<i>…about the hijab – the pride of every Muslim woman.</i>"}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Fard, wajib, sunnah or makruh?", "prompt": "Sort each part of Salah into the right group.", "bins": ["🟥 Fard", "🟧 Wajib", "🟩 Sunnah", "⛔ Makruh"], "items": [
+      {"text": "Making sajdah", "bin": 0},
+      {"text": "The last sitting (qa‘dah akhirah)", "bin": 0},
+      {"text": "Standing (qiyam)", "bin": 0},
+      {"text": "Reciting Al-Fatiha", "bin": 1},
+      {"text": "Ending the prayer with salam", "bin": 1},
+      {"text": "Reciting the Qunut dua in witr", "bin": 1},
+      {"text": "Saying Ameen after Al-Fatiha", "bin": 2},
+      {"text": "Feet a hand’s width apart in qiyam", "bin": 2},
+      {"text": "Giving salam first to the right, then to the left", "bin": 2},
+      {"text": "Praying in a row with a gap in the row in front", "bin": 3},
+      {"text": "Making the second rak‘ah longer than the first", "bin": 3},
+      {"text": "Turning around during Salah", "bin": 3}
+    ]},
+    {"type": "choose_all", "title": "True or false?", "prompt": "Tap every sentence that is TRUE, then tap Check.", "options": [
+      {"text": "Sadaqat al-fitr is given at the end of Ramadan.", "correct": true},
+      {"text": "The Prophet (SAW) said prayer in congregation is worth 27 times more than prayer alone.", "correct": true},
+      {"text": "Zakah is giving wealth for everyone, whether they can afford it or not.", "correct": false, "why": "Zakah is a duty only for those who own more than the nisab for a whole year."},
+      {"text": "Hajj is the first Islamic duty.", "correct": false, "why": "The first pillar of Islam is the Shahadah. Hajj is the fifth, and only for those who are able."},
+      {"text": "Ghusl is just an ordinary bath.", "correct": false, "why": "Ghusl is a washing of the whole body done in a set way, with the intention of worship."},
+      {"text": "A sahib al-‘udhr cannot pray at all.", "correct": false, "why": "A sahib al-‘udhr makes wudu for the time of each prayer and can pray every prayer."}
+    ]},
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Mukallaf", "A person who must keep the Islamic duties"],
+      ["Nisab", "The smallest amount of wealth on which Zakah is due"],
+      ["Kafan", "The white cloth a body is wrapped in"],
+      ["Kutub as-sittah", "The six best-known hadith collections"],
+      ["Istihadah", "Bleeding outside the normal time, like an illness"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What will a person be asked about first on the Day of Judgement?", "options": ["Salah", "Money", "School marks", "Friends"], "answer": 0},
+      {"q": "Which two collections are the most trusted books of hadith?", "options": ["Sahih al-Bukhari and Sahih Muslim", "Sunan Abu Dawud and Sunan Ibn Majah", "Muwatta and Musnad", "There are none"], "answer": 0},
+      {"q": "What do we say when we hear that someone has died?", "options": ["Inna lillaahi wa innaa ilayhi raaji‘oon", "Bismillah", "MashaAllah", "Ameen"], "answer": 0},
+      {"q": "Which way is the right side of the body turned in the janazah prayer?", "options": ["Toward the Qiblah", "Toward the door", "It does not matter", "Toward the imam’s left"], "answer": 0},
+      {"q": "How long must wealth above the nisab be owned before Zakah is due?", "options": ["A whole year", "One week", "One month", "Ten years"], "answer": 0},
+      {"q": "How many witnesses are needed for a marriage contract?", "options": ["Two", "None", "One", "Ten"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Write it in your notebook", "prompts": [
+      "📝 Answer the seven questions: the first pillar of the faith, Salah, the fard parts of Salah, makruh in Salah, the jama‘ah, the janazah, and fasting.",
+      "📖 Write definitions of: the actions of a mukallaf; hayd, nifas and istihadah; the sahib al-‘udhr.",
+      "✍️ Fill in the gaps from the Learn section in your notebook.",
+      "🧕 Write a few sentences about the hijab – the pride of every Muslim woman."
+    ]}
+  ]
+}

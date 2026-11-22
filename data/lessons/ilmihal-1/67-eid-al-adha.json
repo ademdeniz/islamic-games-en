@@ -1,0 +1,122 @@
+{
+  "title": "The joy of Eid al-Adha",
+  "pages": "67",
+  "intro": "Four blessed days of Hajj, qurbani and the takbirs.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Eid al-Adha</b> is four blessed days – the 10th, 11th, 12th and 13th of <b>Dhul-Hijjah</b>. In these days Muslims do the rites of <b>Hajj</b>, the <b>qurbani</b> and the <b>takbirs of tashriq</b>, hoping for Allah’s mercy and reward. Muslims who can afford it travel to Makkah before Eid for Hajj, the fifth pillar of Islam – so this Eid is also called the <b>Eid of Hajj</b>."
+    },
+    {
+      "type": "text",
+      "html": "On the day before Eid and on all four days of Eid we recite the <b>takbirs of tashriq</b>, glorifying Allah:"
+    },
+    {
+      "type": "phrase",
+      "label": "Takbirs of tashriq",
+      "ar": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، لَا إِلَٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ وَلِلَّهِ الْحَمْدُ",
+      "tr": "Allaahu akbar, Allaahu akbar, laa ilaaha illallaahu wallaahu akbar, Allaahu akbar wa lillaahil-hamd!",
+      "en": "Allah is the Greatest, Allah is the Greatest, there is no god but Allah, Allah is the Greatest, Allah is the Greatest, and to Allah belongs all praise!"
+    },
+    {
+      "type": "text",
+      "html": "On the morning of the first day we go to the masjid for the <b>Eid prayer</b>. After it, those who can afford it offer a <b>qurbani</b>: a camel or a cow for up to seven people, or a sheep for one person."
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🏠",
+          "label": "One third of the meat we may keep"
+        },
+        {
+          "icon": "🤲",
+          "label": "One third we give to the poor"
+        },
+        {
+          "icon": "👨‍👩‍👧",
+          "label": "One third we give to relatives, neighbours and friends"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Eid al-Adha words",
+      "pairs": [
+        [
+          "Hajj",
+          "The journey to Makkah"
+        ],
+        [
+          "Qurbani",
+          "The sacrifice"
+        ],
+        [
+          "Takbirs of tashriq",
+          "Allaahu akbar… wa lillaahil-hamd"
+        ],
+        [
+          "Dhul-Hijjah",
+          "The month of Eid al-Adha"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When is Eid al-Adha?",
+          "options": [
+            "10–13 Dhul-Hijjah",
+            "1–3 Shawwal",
+            "In Ramadan",
+            "In Muharram"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "A sheep is a qurbani for how many people?",
+          "options": [
+            "One",
+            "Seven",
+            "Three",
+            "Ten"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How is the qurbani meat shared?",
+          "options": [
+            "A third each for us, the poor, and relatives and friends",
+            "All for us",
+            "All thrown away",
+            "Only for guests"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we recite on the days of Eid al-Adha?",
+          "options": [
+            "The takbirs of tashriq",
+            "Only Al-Fatiha",
+            "The Qunut",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 What is Eid al-Adha? What happens in Makkah in these days?",
+        "🗣️ Say the takbirs of tashriq.",
+        "🐑 What is the qurbani, and how do we share its meat?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Piety and God-consciousness (taqwa)",
+  "pages": "123",
+  "intro": "Taqwa means always being aware of Allah – keeping away from what He forbade, even when no one else is watching.",
+  "learn": [
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Guard yourself against the haram – what is forbidden – and you will be the most devout of people…”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "<b>Ihsan</b> is a constant awareness of Allah (SWT): worshipping Allah as if we see Him, because even though we don’t see Him, He truly sees us."},
+    {"type": "text", "html": "The heart of piety and God-consciousness (<b>taqwa</b>) is keeping away from the <b>haram</b> and from <b>doubtful things</b>, and holding ourselves to account for every deed we do. Whoever does not act this way does not have complete piety and taqwa!"},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "O you who believe, be mindful of Allah as He should be minded, and do not die except as Muslims. <small>(Qur’an, Ali ‘Imran 3:102)</small>"},
+    {"type": "text", "html": "Taqwa is part of faith and completes it, so every Muslim should have it. With taqwa a person guards themselves against every bad action, reminding themselves at every moment that Allah (SWT) sees, hears and knows everything. Whoever fears Allah will not give in to desires and forbidden things, but will turn to worship and obedience to their Lord."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "…Be mindful of Allah, and know that Allah is with those who are mindful of Him. <small>(Qur’an, Al-Baqarah 2:194)</small>"},
+    {"type": "text", "html": "In this ayah Allah (SWT) commands us to fear only Him and to <b>speak the truth</b>. Those who truly fear their Lord speak the truth even when it is against themselves. Allah (SWT) will reward such people and forgive their sins."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "O you who believe, be mindful of Allah and believe in His Messenger. He will give you a double share of His mercy and give you a light by which you will walk… <small>(Qur’an, Al-Hadid 57:28)</small>"},
+    {"type": "heading", "text": "An example of piety and taqwa: Yusuf (AS)"},
+    {"type": "text", "html": "The wife of the ruler of Egypt tried to get <b>Yusuf (AS)</b> to commit a great, forbidden sin with her, but he refused. She was young and beautiful and had everything ready; Yusuf (AS) was young and handsome, and he was her servant. When she found herself alone with him, she locked the doors of the palace and said: “Come…”"},
+    {"type": "text", "html": "Yusuf (AS) answered her: <i>“I seek refuge in Allah! He is my master, who has treated me well. Truly, wrongdoers will never succeed.”</i> <small>(Qur’an, Yusuf 12:23)</small> Even when he was alone and no one could see him, Yusuf (AS) knew that <b>Allah sees</b> – that is taqwa."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "What is taqwa?", "prompt": "Tap everything that shows taqwa, then tap Check.", "options": [
+      {"text": "🙈 Not cheating on a test even when the teacher leaves the room", "correct": true},
+      {"text": "🗣️ Telling the truth even when it gets me into trouble", "correct": true},
+      {"text": "🤔 Staying away from something when I’m not sure it’s halal", "correct": true},
+      {"text": "📝 Thinking about my deeds at the end of the day", "correct": true},
+      {"text": "👀 Being good only when someone is watching", "correct": false, "why": "Taqwa means knowing that Allah always sees us – even when no one else does."},
+      {"text": "🍫 Taking a snack from the shop because no one will notice", "correct": false, "why": "Stealing is haram, and Allah sees and knows everything."}
+    ]},
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Ihsan", "Worshipping Allah as if you see Him"],
+      ["Taqwa", "Being mindful of Allah and keeping away from sin"],
+      ["Haram", "What Allah has forbidden"],
+      ["Yusuf (AS)", "Refused to sin even when alone"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What did the Prophet (SAW) say makes a person the most devout?", "options": ["Guarding against the haram", "Being rich", "Talking a lot", "Having many friends"], "answer": 0},
+      {"q": "What is ihsan?", "options": ["Worshipping Allah as if you see Him, knowing He sees you", "A kind of food", "A place in Makkah", "Praying only on Fridays"], "answer": 0},
+      {"q": "Whom is Allah with, according to Al-Baqarah 2:194?", "options": ["Those who are mindful of Him", "Those who are strong", "Those who are famous", "Everyone who shouts"], "answer": 0},
+      {"q": "What does Allah promise in Al-Hadid 57:28 to those with taqwa?", "options": ["A double share of mercy and a light to walk by", "Gold and silver", "A long holiday", "Nothing"], "answer": 0},
+      {"q": "What did Yusuf (AS) say when he was asked to sin?", "options": ["“I seek refuge in Allah!”", "“Maybe later”", "“No one will see”", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 What is ihsan?",
+      "🔎 Describe how the Companions of the Messenger of Allah guarded themselves against the haram.",
+      "🌟 Choose a task (1): Which deeds make a Muslim more God-conscious and devout?",
+      "⚖️ Choose a task (2): In which life situations is a Muslim’s taqwa tested?",
+      "🤲 Talk with your muallim: Allah’s help is on the side of those who fear Him."
+    ]}
+  ]
+}

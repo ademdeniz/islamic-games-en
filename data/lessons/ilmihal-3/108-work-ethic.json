@@ -1,0 +1,68 @@
+{
+  "title": "Work and a work ethic",
+  "pages": "108–109",
+  "intro": "In Islam, honest work is worship – and doing it well is something Allah loves.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Say: “Do your work! Allah will see your deeds, and so will His Messenger and the believers. And you will be returned to the Knower of the unseen and the seen, and He will tell you what you used to do.” <small>(Qur’an, At-Tawbah 9:105)</small>"},
+    {"type": "text", "html": "<b>Work is worship (‘ibadah)</b>, a deed loved by Allah (SWT), and a need built into every person. Through work, Muslims earn what they and their families need to live, and also the means to help the poor, their Islamic community and the wider society."},
+    {"type": "text", "html": "Working with this intention has the value of the <b>highest worship</b>, through which we reach Allah’s pleasure, mercy and reward."},
+    {"type": "text", "html": "Muhammad (SAW) taught his followers how important work, trade, farming and other useful activities are. His own life was an example of hard work and effort to earn <b>halal</b> income for himself and his family. Even as a young boy he helped the large family of his uncle <b>Abu Talib</b>, with whom he lived, by looking after the flocks of the wealthy people of Makkah. When he grew up he became a trader, travelling as far as <b>Sham</b> (Syria), almost two thousand kilometres from Makkah. The Messenger of Islam worked and earned, and encouraged his ummah to work and earn too."},
+    {"type": "text", "html": "Allah (SWT) created us to make an effort, because without effort and work there is no success – not in this world, and not in the next world, the akhirah."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“No one has ever eaten better food than what he eats from the work of his own hands.”</i> <small>(Bukhari)</small>"},
+    {"type": "point", "title": "Hadith", "html": "<i>“If a Muslim plants a tree or sows a field, and a bird, a person or an animal eats from it, it is counted for him as sadaqah.”</i> <small>(Bukhari)</small>"},
+    {"type": "heading", "text": "A good work ethic"},
+    {"type": "text", "html": "A work ethic is part of our responsibility to Allah (SWT), to the work we do and to the people we work with. It includes:"},
+    {"type": "list", "items": [
+      "asking Allah (SWT) for success in our work",
+      "arriving at work on time",
+      "being hard-working and active in the tasks we are given",
+      "taking care to do the job thoroughly and precisely",
+      "trying to do even more than we were asked",
+      "finishing every task on time",
+      "respecting those in charge",
+      "being helpful to the people we work with",
+      "treating everyone at work kindly and fairly"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Muhammad (SAW) said: <i>“Allah loves that when one of you does a job, he does it thoroughly (well).”</i> <small>(Tabarani)</small>"},
+    {"type": "heading", "text": "The upper hand is better than the lower hand"},
+    {"type": "text", "html": "A pious man named <b>Shaqiq</b> set out on a long journey to trade and earn. Before leaving, he said goodbye to his friend <b>Ibrahim</b> and told him he would be away a long time. But only a few days later he was back. Seeing him in the masjid, Ibrahim asked in surprise: “Why did you come back so soon?” Shaqiq answered: “On the way I saw something very strange, so I decided not to go.” – “What did you see?” asked Ibrahim."},
+    {"type": "text", "html": "“While travelling,” Shaqiq began, “I got tired and stopped to rest in an empty, barren place. There I noticed a bird that was <b>blind and lame</b>. I said to myself: how does this bird live in this lonely place when it can neither see nor move? Soon another bird flew in, carrying food to the first one. This happened several times a day. I said: the One who provides for this helpless bird in such an empty place will provide for me too! So I gave up the journey and came back.”"},
+    {"type": "text", "html": "“How strange you are, Shaqiq,” Ibrahim answered. “Why did you choose to be the blind and lame bird that lives on others’ help? Why didn’t you want to be the <b>other bird</b> – the one that works to get its own food and then helps the blind and the weak? Don’t you know that <b>the upper hand is better than the lower hand</b>?” When he heard this, Shaqiq stood up, kissed Ibrahim’s hand and said: “You are our teacher!” Then he went back to his trade and work."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "A good work ethic", "prompt": "Tap everything that belongs to a good work ethic, then tap Check.", "options": [
+      {"text": "⏰ Arriving on time", "correct": true},
+      {"text": "🤲 Asking Allah for success", "correct": true},
+      {"text": "🎯 Doing the job thoroughly and precisely", "correct": true},
+      {"text": "🤝 Helping the people I work with", "correct": true},
+      {"text": "➕ Doing even more than I was asked", "correct": true},
+      {"text": "🐌 Leaving tasks until after the deadline", "correct": false, "why": "A good worker finishes every task on time."},
+      {"text": "🙄 Being rude to the person in charge", "correct": false, "why": "A work ethic includes respecting those in charge and treating everyone kindly."},
+      {"text": "😴 Doing the job carelessly so it’s over quickly", "correct": false, "why": "Allah loves that when we do a job, we do it well."}
+    ]},
+    {"type": "order", "title": "The story of Shaqiq", "prompt": "Put the story in the right order.", "items": [
+      "Shaqiq sets out on a long journey to trade",
+      "He rests in an empty, barren place",
+      "He sees a blind and lame bird",
+      "Another bird brings it food several times a day",
+      "Shaqiq gives up and goes home",
+      "Ibrahim asks: “Why not be the bird that works and helps?”",
+      "Shaqiq goes back to his trade and work"
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How does Islam see honest work?", "options": ["As worship (‘ibadah)", "As a punishment", "As a waste of time", "As something only for adults"], "answer": 0},
+      {"q": "What did the Prophet (SAW) do as a young boy to help his uncle’s family?", "options": ["Looked after flocks of sheep", "Nothing", "Built houses", "Sold cars"], "answer": 0},
+      {"q": "Where did the Prophet (SAW) travel as a trader?", "options": ["To Sham (Syria)", "To India", "To Egypt only", "He never travelled"], "answer": 0},
+      {"q": "What is the best food, according to the hadith?", "options": ["What you eat from the work of your own hands", "The most expensive food", "Food others give you", "Fast food"], "answer": 0},
+      {"q": "If a bird eats from a tree a Muslim planted, what is it?", "options": ["Sadaqah for him", "A loss", "A sin", "Nothing"], "answer": 0},
+      {"q": "What is the lesson of the story of Shaqiq and Ibrahim?", "options": ["The upper hand (the one that gives) is better than the lower hand", "It is best to wait for others to feed you", "Birds are better than people", "Never travel"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 How is work treated in Islam?",
+      "🌟 Who is the best example of hard work and effort for Muslims? Explain.",
+      "🛠️ What does a work ethic include?",
+      "🐦 What is the message of the story of Shaqiq and Ibrahim?",
+      "🗓️ Task: A wise man said that a well-planned job is half done. Fill in a table of your daily activities – morning (7–12), day (12–19) and evening (19–22) – for every day of the week. Use it for a month, then see how much of it you managed. Plan enough time for work and study, but also for fun and time with others – and stick to it!"
+    ]}
+  ]
+}
