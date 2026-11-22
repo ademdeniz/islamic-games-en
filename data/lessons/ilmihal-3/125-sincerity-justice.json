@@ -1,0 +1,58 @@
+{
+  "title": "Sincerity and justice",
+  "pages": "124–125",
+  "intro": "Ikhlas – doing everything only for Allah – and ‘adl – giving everyone their right, even people we don’t like.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "…and they were commanded only to worship Allah, sincere to Him in religion, turning away from falsehood… <small>(Qur’an, Al-Bayyinah 98:5)</small>"},
+    {"type": "text", "html": "<b>Sincerity</b> (ikhlas) is a basic quality of every Muslim’s faith. It means professing our faith and doing good <b>only to please Allah</b>. According to Islam, sincerity should always go with noble intentions, kind words and every good deed. Only deeds done sincerely for Allah are accepted, and only they bring a reward."},
+    {"type": "text", "html": "Sincerity in words brings a person to sincerity in deeds and right behaviour. When a person tries to stick to the truth in everything they say, the light of truth shines in their heart and mind, and people come to know them as <b>sincere and trustworthy</b>."},
+    {"type": "text", "html": "One of the best-known sayings of Muhammad (SAW) teaches, with a clear example, how important sincerity is in life:"},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Deeds are judged by intentions, and every person gets what they intended. So whoever made hijrah for Allah and His Messenger, his hijrah is for Allah and His Messenger. And whoever made hijrah for something of this world, to get it, or for a woman to marry her, his hijrah is for what he made it for.”</i> <small>(Bukhari)</small>"},
+    {"type": "text", "html": "Following these ayahs and this hadith, sincerity becomes a rule for how we behave towards Allah and towards other people – and it is the foundation of a healthy Muslim society. Being sincere means believing and doing good with an <b>open and pure heart</b>, without hypocrisy or pretending. Sincerity is praiseworthy; hypocrisy and lying are hateful."},
+    {"type": "point", "title": "Hadith", "html": "Muhammad (SAW) said: <i>“Be truthful, for truthfulness leads to goodness, and goodness leads to Jannah. A person keeps speaking the truth and sticking to it until he is written with Allah as truthful. And beware of lying, for lying leads to wickedness, and wickedness leads to Jahannam. A person keeps lying and acting on lies until he is written with Allah as a liar.”</i> <small>(Bukhari)</small>"},
+    {"type": "heading", "text": "Justice (‘adl)"},
+    {"type": "text", "html": "Everything Allah created has its rights, and <b>justice</b> is respecting and honouring the rights of others. A believer is asked always to be just and never to threaten the rights of others, because this is one of the basic values of Islam."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah commands justice, doing good and giving to relatives, and He forbids shameful deeds, wrongdoing and oppression. He warns you so that you may take heed. <small>(Qur’an, An-Nahl 16:90)</small>"},
+    {"type": "text", "html": "In this ayah Allah (SWT) commands <b>three praiseworthy</b> qualities and forbids <b>three bad</b> ones. Justice comes <b>first</b>, which gives this virtue of the believer a special importance."},
+    {"type": "text", "html": "Being just means guarding against everything that damages a person’s humanity and character. A believer tries to be just in every situation, but also stands up for their own rights."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“The just will be with Allah on high places of light – those who were just in their judgements, with their families, and in whatever they were put in charge of.”</i> <small>(Muslim)</small>"},
+    {"type": "text", "html": "Allah stresses justice as a praiseworthy and necessary quality in many places in the Qur’an, and the Prophet (SAW) insists in many hadiths on treating people fairly. We fulfil what the Qur’an and Sunnah ask when we are just <b>in every situation and to everyone – even to an enemy</b>."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "O you who believe, stand firm for Allah and be witnesses in justice. Do not let your dislike of some people lead you to be unjust. Be just – that is closest to taqwa. And be mindful of Allah; Allah knows well what you do. <small>(Qur’an, Al-Ma’idah 5:8)</small>"},
+    {"type": "text", "html": "So the dislike we feel for some people must <b>never be a reason to be unjust</b> to them. That is why Allah (SWT) insists on justice as a proof of our taqwa."},
+    {"type": "point", "title": "⭐ Remember", "html": "Absolute, perfect justice is an attribute of Allah (SWT) alone."}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Sincere or not?", "prompt": "Is this done sincerely for Allah, or for something else?", "bins": ["💎 Sincere (for Allah)", "🎭 For show"], "items": [
+      {"text": "Giving sadaqah quietly so no one knows", "bin": 0},
+      {"text": "Praying the same way alone as in front of others", "bin": 0},
+      {"text": "Helping a classmate without wanting thanks", "bin": 0},
+      {"text": "Reading the Qur’an loudly only when guests are listening", "bin": 1},
+      {"text": "Posting a photo of my good deed to get likes", "bin": 1},
+      {"text": "Being kind to someone only to get something from them", "bin": 1}
+    ]},
+    {"type": "memory", "title": "An-Nahl 16:90", "pairs": [
+      ["Commanded 1", "Justice"],
+      ["Commanded 2", "Doing good"],
+      ["Commanded 3", "Giving to relatives"],
+      ["Forbidden 1", "Shameful deeds"],
+      ["Forbidden 2", "Wrongdoing"],
+      ["Forbidden 3", "Oppression"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is sincerity (ikhlas)?", "options": ["Doing good only to please Allah", "Doing good to be praised", "Never talking", "Being rich"], "answer": 0},
+      {"q": "“Deeds are judged by…”", "options": ["Intentions", "How big they are", "Who sees them", "How fast they are done"], "answer": 0},
+      {"q": "Where does truthfulness lead, according to the hadith?", "options": ["To goodness, and goodness to Jannah", "To trouble", "To being poor", "Nowhere"], "answer": 0},
+      {"q": "What is justice?", "options": ["Respecting the rights of others", "Always winning", "Taking what you want", "Being strong"], "answer": 0},
+      {"q": "Which quality does Allah mention first in An-Nahl 16:90?", "options": ["Justice", "Wealth", "Strength", "Fame"], "answer": 0},
+      {"q": "Should we be just to people we don’t like?", "options": ["Yes – dislike must never make us unjust", "No", "Only if they are Muslims", "Only sometimes"], "answer": 0},
+      {"q": "Whose attribute is perfect, absolute justice?", "options": ["Allah’s alone", "Every judge’s", "The teacher’s", "Everyone’s"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 What is sincerity? What is justice? What does it mean to be sincere to Allah (SWT) in words and deeds?",
+      "⚖️ What does it mean to be just? What are the limits of human justice?",
+      "🧭 Talk with your muallim: A folk saying says: “True justice is the conscience.” In justice and sincerity we follow the Prophet (SAW).",
+      "🤔 Choose a task (1): A Muslim may not hate another person, but can hate the bad deeds of others. Think, and explain with an example how much Muslims keep to this rule. How do you treat fairly someone who has hurt you?",
+      "💎 Choose a task (2): We learned that sincerity is shown in words and deeds. Which kind of sincerity is more important?"
+    ]}
+  ]
+}
