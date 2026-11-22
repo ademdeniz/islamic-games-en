@@ -1,0 +1,135 @@
+{
+  "title": "Wudu – practice",
+  "pages": "42",
+  "intro": "Put the steps of wudu in order and practise them.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s practise wudu! Look at each step, say what we do, and show it with your hands."
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "1️⃣",
+          "label": "Hands three times"
+        },
+        {
+          "icon": "2️⃣",
+          "label": "Mouth three times"
+        },
+        {
+          "icon": "3️⃣",
+          "label": "Nose three times"
+        },
+        {
+          "icon": "4️⃣",
+          "label": "Face three times"
+        },
+        {
+          "icon": "5️⃣",
+          "label": "Right arm three times"
+        },
+        {
+          "icon": "6️⃣",
+          "label": "Left arm three times"
+        },
+        {
+          "icon": "7️⃣",
+          "label": "Wipe the head"
+        },
+        {
+          "icon": "8️⃣",
+          "label": "Wipe the ears"
+        },
+        {
+          "icon": "9️⃣",
+          "label": "Wipe the neck"
+        },
+        {
+          "icon": "🔟",
+          "label": "Right foot, then left foot"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The <b>fard</b> of wudu are the face, the arms, wiping the head and the feet. Colour them in another colour in your notebook!"
+    },
+    {
+      "type": "text",
+      "html": "Play: <a href=\"../../../games/pomozimo-maci-abdest/\">Help the Kitty Make Wudu</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Wudu in order",
+      "prompt": "Tap the steps in order.",
+      "items": [
+        "Hands",
+        "Mouth",
+        "Nose",
+        "Face",
+        "Right arm",
+        "Left arm",
+        "Head",
+        "Ears",
+        "Neck",
+        "Feet"
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Fard or sunnah?",
+      "prompt": "Is this step a fard of wudu?",
+      "bins": [
+        "Fard of wudu",
+        "Not fard"
+      ],
+      "items": [
+        {
+          "text": "Face",
+          "bin": 0
+        },
+        {
+          "text": "Arms past the elbows",
+          "bin": 0
+        },
+        {
+          "text": "Wiping the head",
+          "bin": 0
+        },
+        {
+          "text": "Feet past the ankles",
+          "bin": 0
+        },
+        {
+          "text": "Hands",
+          "bin": 1
+        },
+        {
+          "text": "Mouth",
+          "bin": 1
+        },
+        {
+          "text": "Nose",
+          "bin": 1
+        },
+        {
+          "text": "Ears",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Practise",
+      "prompts": [
+        "🔢 In your notebook, number the pictures of wudu in the right order and describe each one.",
+        "🖍️ Colour the four fard of wudu in another colour."
+      ]
+    }
+  ]
+}

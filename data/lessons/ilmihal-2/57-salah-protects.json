@@ -1,0 +1,118 @@
+{
+  "title": "Salah protects and teaches us",
+  "pages": "57",
+  "intro": "Salah keeps us away from wrong and teaches us to be on time and organised.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Prayer keeps one away from immorality and wrongdoing, and the remembrance of Allah is greater; Allah knows what you do. <small>(Qur’an, Al-‘Ankabut 29:45)</small>"
+    },
+    {
+      "type": "text",
+      "html": "The duty of Salah for every adult Muslim of sound mind is often mentioned in the Qur’an. When we pray with humility, aware that we stand before the Almighty Creator, our heart fills with love and awe. It reminds us of standing before Allah on the Day of Judgement to answer for our deeds. This touches the heart and soul, wakes noble thoughts, and makes the soul ashamed of and sorry for anything bad."
+    },
+    {
+      "type": "text",
+      "html": "In this way Salah protects us from every bad thought and intention – and trains us so that even outside Salah we don’t think of doing wrong. That is why Salah should be part of every family. Allah commands: <i>Command your family to pray, and be steadfast in it.</i> <small>(Qur’an, Ta-Ha 20:132)</small>"
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) asked: <i>“If one of you had a river and bathed in it five times a day, would any dirt remain on him?”</i> They said: “No.” He said: <i>“So too, whoever prays five times a day has no sins left.”</i> <small>(Bukhari)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Besides protecting us from sin, Salah trains us to be <b>on time, precise and organised</b>, and keeps our body active. It removes laziness from our lives and makes us active in every good. Muslims who pray regularly do other good deeds for Allah too, and Salah protects them in both worlds."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "<i>“The first thing a person will be asked about on the Day of Judgement is the prayer. If it is right, the rest of his deeds will be right; if it is not, the rest will be rejected.”</i> <small>(Tabarani)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "What does Salah teach us?",
+      "prompt": "Tap everything, then tap Check.",
+      "options": [
+        {
+          "text": "⏰ To be on time",
+          "correct": true
+        },
+        {
+          "text": "📐 To be precise and organised",
+          "correct": true
+        },
+        {
+          "text": "🛡️ To stay away from wrong",
+          "correct": true
+        },
+        {
+          "text": "🏃 To be active, not lazy",
+          "correct": true
+        },
+        {
+          "text": "😴 To sleep in",
+          "correct": false,
+          "why": "Salah, especially Fajr, teaches us to get up on time."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What does Salah keep us away from?",
+          "options": [
+            "Immorality and wrongdoing",
+            "Our friends",
+            "School",
+            "Food"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What will we be asked about first on the Day of Judgement?",
+          "options": [
+            "Salah",
+            "Our clothes",
+            "Our toys",
+            "Our height"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did the Prophet (SAW) compare the five prayers to?",
+          "options": [
+            "A river we bathe in five times a day",
+            "A mountain",
+            "A long road",
+            "A locked box"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Ta-Ha 20:132 command?",
+          "options": [
+            "Command your family to pray",
+            "Travel far away",
+            "Sleep a lot",
+            "Eat more"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose your task",
+      "prompts": [
+        "🕌 Describe how you feel in Salah.",
+        "🖼️ Draw the parts of Salah in pictures."
+      ]
+    }
+  ]
+}

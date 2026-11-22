@@ -1,0 +1,131 @@
+{
+  "title": "The rules of Wudu – the four fard",
+  "pages": "40",
+  "intro": "Four things must be done in wudu – without them wudu is not right.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The four things we <b>must</b> do in wudu are called the <b>conditions</b> or <b>fard of wudu</b>. Without them, wudu is not right."
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🧒",
+          "label": "1. Wash the face once"
+        },
+        {
+          "icon": "💪",
+          "label": "2. Wash the right and left arm past the elbows once"
+        },
+        {
+          "icon": "💧",
+          "label": "3. Wipe at least a quarter of the head with a wet hand – mash"
+        },
+        {
+          "icon": "🦶",
+          "label": "4. Wash the right and left foot past the ankles once"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah says: O believers, when you stand up to pray, wash your faces and your arms up to the elbows, wipe over your heads, and wash your feet up to the ankles… <small>(Qur’an, Al-Ma’idah 5:6)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "In wudu we wash these parts three times – but the fard is to wash them at least <b>once</b>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "The four fard of wudu",
+      "prompt": "Tap the four fard of wudu, then tap Check.",
+      "options": [
+        {
+          "text": "Washing the face",
+          "correct": true
+        },
+        {
+          "text": "Washing the arms past the elbows",
+          "correct": true
+        },
+        {
+          "text": "Wiping a quarter of the head",
+          "correct": true
+        },
+        {
+          "text": "Washing the feet past the ankles",
+          "correct": true
+        },
+        {
+          "text": "Rinsing the nose",
+          "correct": false,
+          "why": "Rinsing the nose is sunnah, not fard."
+        },
+        {
+          "text": "Wiping the neck",
+          "correct": false,
+          "why": "Wiping the neck is not one of the four fard."
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "The four fard in order",
+      "prompt": "Put them in order.",
+      "items": [
+        "Face",
+        "Arms",
+        "Head",
+        "Feet"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many fard of wudu are there?",
+          "options": [
+            "Four",
+            "Two",
+            "Ten",
+            "Six"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happens if we leave out a fard of wudu?",
+          "options": [
+            "Wudu is not right",
+            "Nothing",
+            "It is better",
+            "It is quicker"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which surah tells us about wudu?",
+          "options": [
+            "Al-Ma’idah",
+            "Al-Fatiha",
+            "An-Nas",
+            "Al-Ikhlas"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Learn it",
+      "prompts": [
+        "📖 Learn what Allah said about wudu in Al-Ma’idah 5:6."
+      ]
+    }
+  ]
+}

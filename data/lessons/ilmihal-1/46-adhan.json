@@ -1,0 +1,153 @@
+{
+  "title": "The Adhan",
+  "pages": "46",
+  "intro": "The adhan announces the prayer time and calls us to pray together.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>adhan</b> announces the start of the prayer time and calls people to pray together. The <b>muezzin</b> calls the adhan. When he begins, we stop talking and working and quietly repeat the words of the adhan."
+    },
+    {
+      "type": "phrase",
+      "label": "Allaahu akbar (4×)",
+      "ar": "اللَّهُ أَكْبَرُ",
+      "tr": "Allaahu akbar",
+      "en": "Allah is the Greatest!"
+    },
+    {
+      "type": "phrase",
+      "label": "Ash-hadu an laa ilaaha illallaah (2×)",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ",
+      "tr": "Ash-hadu an laa ilaaha illallaah",
+      "en": "I bear witness that there is no god but Allah!"
+    },
+    {
+      "type": "phrase",
+      "label": "Ash-hadu anna Muhammadan rasoolullaah (2×)",
+      "ar": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+      "tr": "Ash-hadu anna Muhammadan rasoolullaah",
+      "en": "I bear witness that Muhammad is Allah’s Messenger!"
+    },
+    {
+      "type": "phrase",
+      "label": "Hayya ‘alas-salaah (2×)",
+      "ar": "حَيَّ عَلَى الصَّلَاةِ",
+      "tr": "Hayya ‘alas-salaah",
+      "en": "Come to prayer!"
+    },
+    {
+      "type": "phrase",
+      "label": "Hayya ‘alal-falaah (2×)",
+      "ar": "حَيَّ عَلَى الْفَلَاحِ",
+      "tr": "Hayya ‘alal-falaah",
+      "en": "Come to success!"
+    },
+    {
+      "type": "phrase",
+      "label": "Allaahu akbar (2×) · Laa ilaaha illallaah",
+      "ar": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، لَا إِلَٰهَ إِلَّا اللَّهُ",
+      "tr": "Allaahu akbar, Allaahu akbar. Laa ilaaha illallaah.",
+      "en": "Allah is the Greatest! There is no god but Allah."
+    },
+    {
+      "type": "point",
+      "title": "At Fajr",
+      "html": "In the Fajr adhan, after <b>Hayya ‘alal-falaah</b> we add twice: <b>As-salaatu khayrun minan-nawm</b> – Prayer is better than sleep."
+    },
+    {
+      "type": "text",
+      "html": "After the adhan, make the dua: <a href=\"../../../games/dove-dova-poslije-ezana/\">Dua after the Adhan</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The adhan in order",
+      "prompt": "Put the adhan in order.",
+      "items": [
+        "Allaahu akbar",
+        "Ash-hadu an laa ilaaha illallaah",
+        "Ash-hadu anna Muhammadan rasoolullaah",
+        "Hayya ‘alas-salaah",
+        "Hayya ‘alal-falaah",
+        "Laa ilaaha illallaah"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words and meaning",
+      "pairs": [
+        [
+          "Allaahu akbar",
+          "Allah is the Greatest"
+        ],
+        [
+          "Hayya ‘alas-salaah",
+          "Come to prayer"
+        ],
+        [
+          "Hayya ‘alal-falaah",
+          "Come to success"
+        ],
+        [
+          "As-salaatu khayrun minan-nawm",
+          "Prayer is better than sleep"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the adhan?",
+          "options": [
+            "The call that announces the prayer time",
+            "A surah",
+            "A kind of food",
+            "A game"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who calls the adhan?",
+          "options": [
+            "The muezzin",
+            "The imam’s son only",
+            "Anyone shouting",
+            "Nobody"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we do when we hear the adhan?",
+          "options": [
+            "Stop talking and quietly repeat it",
+            "Turn up the music",
+            "Keep playing",
+            "Leave"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is added in the Fajr adhan?",
+          "options": [
+            "Prayer is better than sleep",
+            "Good morning",
+            "Eat breakfast",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Task",
+      "prompts": [
+        "🎙️ Recite the adhan with your beautiful voice!",
+        "🤲 After the adhan, make the dua after the adhan or recite Al-Fatiha."
+      ]
+    }
+  ]
+}

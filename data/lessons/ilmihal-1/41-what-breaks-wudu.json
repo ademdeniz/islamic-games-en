@@ -1,0 +1,144 @@
+{
+  "title": "What breaks Wudu",
+  "pages": "41",
+  "intro": "Five things break wudu – then we make wudu again.",
+  "names": [
+    "Hasanović"
+  ],
+  "learn": [
+    {
+      "type": "heading",
+      "text": "Wudu is broken by:"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "😴",
+          "label": "1. Sleeping or losing consciousness, even for a moment"
+        },
+        {
+          "icon": "🩸",
+          "label": "2. Blood or other liquid flowing from the body"
+        },
+        {
+          "icon": "🤢",
+          "label": "3. Vomiting from the stomach"
+        },
+        {
+          "icon": "🚽",
+          "label": "4. Going to the toilet"
+        },
+        {
+          "icon": "😂",
+          "label": "5. Laughing out loud in Salah"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "With one wudu we can pray <b>several prayers</b>, as long as nothing breaks it – but it is better to make a new wudu for each prayer."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "Muhammad (SAW) said: <i>“There is no person who makes a mistake, then gets up, makes wudu, prays and asks Allah for forgiveness, but Allah forgives him.”</i> <small>(Abu Dawud, Nasa’i)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "The clever grandsons of the Prophet (SAW)"
+    },
+    {
+      "type": "text",
+      "html": "Hasan and Husayn were the sons of ‘Ali and Fatimah, and the grandsons of Muhammad (SAW). Once, when they were little boys, they were playing near the masjid. At prayer time a man came and started making wudu – but not correctly. The boys wanted to teach him, but how? They were small, and he might get angry. So they went up to him and said: “We are having a contest – who can make wudu more beautifully, more correctly and faster. We can’t agree, so please be our judge!” And they made wudu. When the man saw how they did it, he stroked their hair and said: “Dear children, may Allah reward you – you have taught me how to make wudu!” Then he went to make it again."
+    },
+    {
+      "type": "text",
+      "html": "<small>Adapted from Bilal Hasanović, an Islamic reader (El-Kalem, Sarajevo, 1991).</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "Does it break wudu?",
+      "prompt": "Tap everything that breaks wudu, then tap Check.",
+      "options": [
+        {
+          "text": "😴 Falling asleep",
+          "correct": true
+        },
+        {
+          "text": "🩸 A bleeding cut",
+          "correct": true
+        },
+        {
+          "text": "🤢 Vomiting",
+          "correct": true
+        },
+        {
+          "text": "🚽 Going to the toilet",
+          "correct": true
+        },
+        {
+          "text": "😂 Laughing out loud in Salah",
+          "correct": true
+        },
+        {
+          "text": "🙂 Smiling",
+          "correct": false,
+          "why": "Smiling does not break wudu."
+        },
+        {
+          "text": "📖 Reading a book",
+          "correct": false,
+          "why": "Reading does not break wudu."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many prayers can we pray with one wudu?",
+          "options": [
+            "Several, if nothing breaks it",
+            "Only one",
+            "None",
+            "Exactly five"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who were Hasan and Husayn?",
+          "options": [
+            "The grandsons of the Prophet (SAW)",
+            "Two angels",
+            "Two kings",
+            "Two teachers"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How did they teach the man?",
+          "options": [
+            "By asking him to judge their wudu contest",
+            "By shouting at him",
+            "By laughing at him",
+            "They didn’t"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Answer",
+      "prompts": [
+        "💬 What breaks wudu?",
+        "💡 What can we learn from how Hasan and Husayn taught the man?"
+      ]
+    }
+  ]
+}

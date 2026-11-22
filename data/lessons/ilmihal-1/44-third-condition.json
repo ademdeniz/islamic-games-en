@@ -1,0 +1,123 @@
+{
+  "title": "The third condition of Salah – proper clothing",
+  "pages": "44",
+  "intro": "We wear clean, decent clothes – especially when we stand before Allah.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "With clothes we protect our body and our <b>modesty</b>. Allah revealed: <i>O children of Adam, We have given you clothing to cover yourselves.</i> So we always wear decent clothes – beautiful, clean and tidy."
+    },
+    {
+      "type": "text",
+      "html": "We never wear short, tight or see-through clothes. In Salah especially we must dress properly, because we stand before our Lord."
+    },
+    {
+      "type": "point",
+      "title": "Covering in Salah",
+      "html": "Girls and women cover the whole body except the face, hands and feet. Boys and men dress decently – at the very least covering from the waist to below the knees."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "O children of Adam, take your adornment (dress nicely) when you come to pray. <small>(Qur’an, Al-A‘raf 7:31)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Clothes for Salah",
+      "prompt": "Should our clothes for Salah be like this?",
+      "bins": [
+        "✅ Yes",
+        "❌ No"
+      ],
+      "items": [
+        {
+          "text": "Clean",
+          "bin": 0
+        },
+        {
+          "text": "Tidy",
+          "bin": 0
+        },
+        {
+          "text": "Comfortable",
+          "bin": 0
+        },
+        {
+          "text": "Beautiful",
+          "bin": 0
+        },
+        {
+          "text": "See-through",
+          "bin": 1
+        },
+        {
+          "text": "Dirty",
+          "bin": 1
+        },
+        {
+          "text": "Tight",
+          "bin": 1
+        },
+        {
+          "text": "With pictures on them",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the third condition of Salah?",
+          "options": [
+            "Being properly dressed",
+            "Being fast",
+            "Being tall",
+            "Having a watch"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we protect with clothes?",
+          "options": [
+            "Our body and our modesty",
+            "Our toys",
+            "Our books",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should we not wear?",
+          "options": [
+            "Short, tight or see-through clothes",
+            "Clean clothes",
+            "Tidy clothes",
+            "Comfortable clothes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Allah say in Al-A‘raf 7:31?",
+          "options": [
+            "Dress nicely when you come to pray",
+            "Never wear clothes",
+            "Wear the same thing always",
+            "Wear only black"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Answer",
+      "prompts": [
+        "💬 What is the third condition of Salah? What should our clothes be like in Salah?"
+      ]
+    }
+  ]
+}

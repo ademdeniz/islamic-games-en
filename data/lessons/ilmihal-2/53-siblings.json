@@ -1,0 +1,126 @@
+{
+  "title": "Caring for sisters and brothers",
+  "pages": "53",
+  "intro": "Our brothers and sisters are often our first and best friends.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "A childhood at home means good relations with every member of the family, especially our parents. After our parents, our <b>brothers and sisters</b> have an important place in our lives. They play with us, look after us and care for us. Growing up together, our love grows and life becomes happier. We share our first experiences and habits with them, tell them our secrets, and ask them for help with school and maktab work."
+    },
+    {
+      "type": "text",
+      "html": "For good relations, brothers and sisters should <b>love, respect and understand</b> each other. We listen to and respect our <b>older</b> brothers and sisters and ask them what we don’t know. We look after and protect our <b>younger</b> ones and teach them good manners."
+    },
+    {
+      "type": "text",
+      "html": "Islam teaches that even when we grow up and life separates us, we must <b>keep in touch</b> with our brothers and sisters."
+    },
+    {
+      "type": "heading",
+      "text": "Our duties to brothers and sisters"
+    },
+    {
+      "type": "list",
+      "items": [
+        "visiting them regularly",
+        "helping them with money if we can",
+        "visiting and caring for them when they are ill",
+        "sharing their sadness and their joy",
+        "praying the janazah when they die",
+        "asking Allah to forgive their sins"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Two kinds of kinship",
+      "html": "In Islam there are two kinds of kinship: by <b>blood</b> and by <b>milk</b> (being nursed by the same woman)."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "By fulfilling our duties to brothers and sisters, we grow love and respect, earn Allah’s pleasure and a reward in the next world."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Older or younger?",
+      "prompt": "What do we do toward older or younger brothers and sisters?",
+      "bins": [
+        "👆 Older ones",
+        "👇 Younger ones"
+      ],
+      "items": [
+        {
+          "text": "Listen to them",
+          "bin": 0
+        },
+        {
+          "text": "Respect them",
+          "bin": 0
+        },
+        {
+          "text": "Ask them what we don’t know",
+          "bin": 0
+        },
+        {
+          "text": "Look after them",
+          "bin": 1
+        },
+        {
+          "text": "Protect them",
+          "bin": 1
+        },
+        {
+          "text": "Teach them good manners",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What should brothers and sisters have for each other?",
+          "options": [
+            "Love, respect and understanding",
+            "Jealousy",
+            "Anger",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Must we keep in touch with siblings when we grow up?",
+          "options": [
+            "Yes",
+            "No",
+            "Only on Eid",
+            "Only if they are rich"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What are the two kinds of kinship in Islam?",
+          "options": [
+            "By blood and by milk",
+            "By school and by sport",
+            "By name and by city",
+            "There is only one"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk and tasks",
+      "prompts": [
+        "💬 Do people care more for their brothers and sisters – or less? Is arguing a way to solve problems?",
+        "🎁 Make a lovely gift for your brother or sister – friends at maktab can help with ideas.",
+        "🗣️ Talk with your parents about how lovely it is to have a brother or sister as a best friend."
+      ]
+    }
+  ]
+}

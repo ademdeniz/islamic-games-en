@@ -1,0 +1,159 @@
+{
+  "title": "The fourth condition of Salah – praying on time",
+  "pages": "45",
+  "intro": "Every prayer has its own time – five times, five prayers.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>fourth condition</b> of Salah is to pray each prayer in its <b>set time</b>. There are five prayer times – as many as the prayers:"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🌅",
+          "label": "Fajr – the morning prayer"
+        },
+        {
+          "icon": "☀️",
+          "label": "Dhuhr – the midday prayer"
+        },
+        {
+          "icon": "🌤️",
+          "label": "Asr – the afternoon prayer"
+        },
+        {
+          "icon": "🌇",
+          "label": "Maghrib – the evening prayer"
+        },
+        {
+          "icon": "🌙",
+          "label": "Isha – the night prayer"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "We cannot pray:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "while the sun is rising",
+        "while the sun is in the middle of the sky",
+        "while the sun is setting"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "It is disliked (makruh) to pray (roughly):"
+    },
+    {
+      "type": "list",
+      "items": [
+        "about 45 minutes after sunrise",
+        "5–10 minutes while the sun is at its highest",
+        "about 45 minutes before sunset – except that day’s Asr"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The start of each prayer time is announced by the <b>muezzin</b> with the adhan, at the exact time in the yearly Islamic calendar – the prayer timetable."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The five prayers",
+      "prompt": "Put them in order of the day.",
+      "items": [
+        "Fajr",
+        "Dhuhr",
+        "Asr",
+        "Maghrib",
+        "Isha"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the prayer and its time",
+      "pairs": [
+        [
+          "Fajr",
+          "Morning"
+        ],
+        [
+          "Dhuhr",
+          "Midday"
+        ],
+        [
+          "Asr",
+          "Afternoon"
+        ],
+        [
+          "Maghrib",
+          "Evening"
+        ],
+        [
+          "Isha",
+          "Night"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the fourth condition of Salah?",
+          "options": [
+            "Praying on time",
+            "Praying fast",
+            "Praying loudly",
+            "Praying in new clothes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many prayer times are there?",
+          "options": [
+            "Five",
+            "Three",
+            "Seven",
+            "Two"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When can we NOT pray?",
+          "options": [
+            "While the sun is rising",
+            "In the morning",
+            "In the evening",
+            "At night"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who announces the prayer time?",
+          "options": [
+            "The muezzin, with the adhan",
+            "The teacher",
+            "The postman",
+            "Nobody"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Answer",
+      "prompts": [
+        "💬 Describe the times of the five daily prayers.",
+        "🕐 Look at your masjid’s prayer timetable with your family."
+      ]
+    }
+  ]
+}

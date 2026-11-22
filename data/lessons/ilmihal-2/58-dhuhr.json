@@ -1,0 +1,162 @@
+{
+  "title": "Dhuhr prayer",
+  "pages": "58–59",
+  "intro": "The second daily prayer: 4 sunnah, 4 fard and 2 sunnah – 10 rak‘ahs.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Dhuhr</b> is the second daily prayer. Its time begins when the sun has passed the middle of the sky. It has <b>10 rak‘ahs</b>: four sunnah, four fard and two sunnah. We pray the sunnah first, then the fard, then the last sunnah."
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the sunnah of Dhuhr",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ سُنَّةِ الظُّهْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata sunnatidh-dhuhri, adaa’an mustaqbilal-qiblati. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the sunnah of Dhuhr, on time, facing the Qiblah. Allah is the Greatest!"
+    },
+    {
+      "type": "heading",
+      "text": "The first sunnah – 4 rak‘ahs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "2nd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "First sitting: At-Tahiyyat",
+        "3rd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "4th rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "Last sitting: At-Tahiyyat, salawat, duas and salam"
+      ]
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the fard of Dhuhr",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ فَرْضِ الظُّهْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata fardidh-dhuhri, adaa’an mustaqbilal-qiblati. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the fard of Dhuhr, on time, facing the Qiblah. Allah is the Greatest!"
+    },
+    {
+      "type": "heading",
+      "text": "The fard – 4 rak‘ahs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "2nd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "First sitting: At-Tahiyyat",
+        "3rd rak‘ah: Bismillah and Al-Fatiha",
+        "4th rak‘ah: Bismillah and Al-Fatiha",
+        "Last sitting: At-Tahiyyat, salawat, duas and salam"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The last sunnah – 2 rak‘ahs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "2nd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "Last sitting: At-Tahiyyat, salawat, duas and salam"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Practise: <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – the Dhuhr levels."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Dhuhr in order",
+      "prompt": "Put the parts of Dhuhr in order.",
+      "items": [
+        "4 rak‘ahs sunnah",
+        "4 rak‘ahs fard",
+        "2 rak‘ahs sunnah"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "In the 3rd and 4th rak‘ah of the fard",
+      "prompt": "What do we recite standing? Tap them, then tap Check.",
+      "options": [
+        {
+          "text": "Bismillah",
+          "correct": true
+        },
+        {
+          "text": "Al-Fatiha",
+          "correct": true
+        },
+        {
+          "text": "A surah",
+          "correct": false,
+          "why": "In the 3rd and 4th rak‘ah of the fard we recite only Bismillah and Al-Fatiha."
+        },
+        {
+          "text": "Subhanaka",
+          "correct": false,
+          "why": "Subhanaka is only in the 1st rak‘ah."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many rak‘ahs does Dhuhr have in total?",
+          "options": [
+            "10",
+            "4",
+            "8",
+            "13"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When does Dhuhr time begin?",
+          "options": [
+            "When the sun has passed the middle of the sky",
+            "At dawn",
+            "At sunset",
+            "At midnight"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we pray first?",
+          "options": [
+            "The 4 rak‘ahs of sunnah",
+            "The fard",
+            "The last sunnah",
+            "Witr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we change in the niyyah for the fard?",
+          "options": [
+            "“fardidh-dhuhri” instead of “sunnatidh-dhuhri”",
+            "Nothing",
+            "We add “qadaa’an”",
+            "We say it in the sajdah"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "📋 Draw a table of what we recite in each rak‘ah of Dhuhr. Colour the rak‘ahs where we recite the same thing with the same colour.",
+        "💬 Talk with your muallim: My Salah – my happiness!"
+      ]
+    }
+  ]
+}

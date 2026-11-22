@@ -1,0 +1,163 @@
+{
+  "title": "The second condition of Salah – Wudu",
+  "pages": "38–39",
+  "intro": "Wudu is washing parts of the body so we can pray and read the Qur’an.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>second condition</b> of Salah is <b>wudu</b> – or, if needed, ghusl, or in need tayammum. Wudu is the religious washing of certain parts of the body for Salah, reciting the Qur’an and other worship."
+    },
+    {
+      "type": "text",
+      "html": "We start wudu with A‘udhu billah, Bismillah and the niyyah:"
+    },
+    {
+      "type": "phrase",
+      "label": "The niyyah of wudu",
+      "ar": "نَوَيْتُ أَنْ أَتَوَضَّأَ لِأَجْلِ الصَّلَاةِ وَلِرَفْعِ الْحَدَثِ تَقَرُّبًا إِلَى اللَّهِ تَعَالَى",
+      "tr": "Nawaytu an atawadda’a li-ajlis-salaati wa li-raf‘il-hadathi taqarruban ilallaahi ta‘aalaa.",
+      "en": "I intend to make wudu for Salah, to remove impurity and to come closer to Allah, the Most High."
+    },
+    {
+      "type": "heading",
+      "text": "We make wudu with clean water:"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "👐",
+          "label": "1. Wash the hands past the wrists three times"
+        },
+        {
+          "icon": "👄",
+          "label": "2. Rinse the mouth with the right hand three times, and brush the teeth (or use a miswak)"
+        },
+        {
+          "icon": "👃",
+          "label": "3. Rinse the nose three times"
+        },
+        {
+          "icon": "🧒",
+          "label": "4. Wash the face three times"
+        },
+        {
+          "icon": "💪",
+          "label": "5. Wash the right arm past the elbow three times"
+        },
+        {
+          "icon": "💪",
+          "label": "6. Wash the left arm past the elbow three times"
+        },
+        {
+          "icon": "💧",
+          "label": "7. Wipe at least a quarter of the head with a wet hand – mash"
+        },
+        {
+          "icon": "👂",
+          "label": "8. Wipe the ears inside and out"
+        },
+        {
+          "icon": "🧣",
+          "label": "9. Wipe the neck once with the back of the fingers"
+        },
+        {
+          "icon": "🦶",
+          "label": "10. Wash the right and left foot past the ankles"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "Muhammad (SAW) said: <i>“Allah does not accept the prayer of anyone until he makes wudu properly.”</i> <small>(Abu Dawud)</small>"
+    },
+    {
+      "type": "text",
+      "html": "After wudu it is lovely to say the <b>Shahadah</b>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "Wudu in order",
+      "prompt": "Put the steps of wudu in order.",
+      "items": [
+        "Hands",
+        "Mouth",
+        "Nose",
+        "Face",
+        "Right arm",
+        "Left arm",
+        "Wipe the head",
+        "Ears",
+        "Neck",
+        "Feet"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is the second condition of Salah?",
+          "options": [
+            "Wudu",
+            "Fasting",
+            "Hajj",
+            "Zakah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say before wudu?",
+          "options": [
+            "A‘udhu billah, Bismillah and the niyyah",
+            "Goodbye",
+            "Ameen only",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many times do we wash the face?",
+          "options": [
+            "Three",
+            "One",
+            "Five",
+            "Ten"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say after wudu?",
+          "options": [
+            "The Shahadah",
+            "Ameen",
+            "Hello",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Does Allah accept Salah without proper wudu?",
+          "options": [
+            "No",
+            "Yes",
+            "Sometimes",
+            "Only on Friday"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Practise",
+      "prompts": [
+        "💧 One pupil makes wudu while the others watch and check the steps.",
+        "🐱 Play: Help the Kitty Make Wudu."
+      ]
+    }
+  ]
+}
