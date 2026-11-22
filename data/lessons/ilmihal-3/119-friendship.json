@@ -1,0 +1,56 @@
+{
+  "title": "Friendship",
+  "pages": "119–120",
+  "intro": "A friend is like a seller of perfume or a blacksmith – so choose friends who bring out the best in you.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "O you who believe, be mindful of Allah and be with those who are truthful. <small>(Qur’an, At-Tawbah 9:119)</small>"},
+    {"type": "text", "html": "Every person has a natural need for <b>friends</b>. Friends have a very important place and role in our life: they spend time with us, help us with everyday tasks and duties, and comfort us in hard times."},
+    {"type": "point", "title": "Hadith", "html": "Muhammad (SAW) said: <i>“The best companion in the sight of Allah is the one who treats his companion best.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "We meet our first friends in early childhood – at kindergarten, maktab or school. A friendship based on <b>sincerity</b> can last a long time, even until the end of life, because a sincere relationship between people makes the bond of friendship even stronger. Friends owe each other sincerity."},
+    {"type": "text", "html": "Besides sincerity, friendship should be based on <b>forgiving</b> each other, <b>trust</b> and <b>helping</b> each other. When Muhammad (SAW) spoke about friends, he used a simple picture to show how a person influences their friend."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“A good and a bad companion are like a seller of perfume and a blacksmith. The perfume seller will either give you some perfume, or you will buy some from him, or at least you will enjoy a nice smell from him. The blacksmith will either burn your clothes, or you will get a bad smell from him.”</i> <small>(Bukhari)</small>"},
+    {"type": "text", "html": "The Prophet (SAW) tells us that a friend’s influence can’t be avoided – it can be the cause of the good or the bad we do. If you have a good friend, you will surely benefit, like from the owner of perfume."},
+    {"type": "text", "html": "A good friend passes on to their friend some of what they have – usually good human qualities: <b>knowledge and wisdom</b>, good character, modesty (haya) and good manners, <b>sincere advice</b>; they will teach you what is useful, warn you about the bad and point out your mistakes."},
+    {"type": "text", "html": "A bad friend exposes their companion to the problems that most often lead to lying, cheating, unfairness, swearing and violence – and these lead to bad deeds and habits such as alcohol, stealing and bad behaviour. That is why the Prophet (SAW) warns us to choose our friends carefully:"},
+    {"type": "point", "title": "Hadith", "html": "<i>“A person follows the way of his friend, so be careful whom you make your friend.”</i> <small>(Ahmad)</small>"},
+    {"type": "text", "html": "It is good to be surrounded by good and sincere friends. Friendship is one of the important religious and social values we should look after. Islam teaches us to keep friends who remind us of Allah and to treat them well."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“The best of friends in the sight of Allah are those who are best to their friends.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "Friends notice each other’s moods and changes – whether someone is happy or sad – and they try to help each other. So it is important and useful to have true friends and to treat them well. But we also need to learn how to recognise a good friend, how true friends behave, and how to look after a friendship."},
+    {"type": "heading", "text": "⭐ Remember: written in sand, carved in stone"},
+    {"type": "text", "html": "Two friends were travelling through the desert. On the way they argued, and one slapped the other. The friend who was slapped was hurt, but without a word he wrote in the sand: <i>“Today my best friend slapped me.”</i>"},
+    {"type": "text", "html": "They travelled on until they reached an oasis, where they decided to swim. The friend who had been slapped started to drown, but his friend saved him. When he had recovered, he carved into a stone: <i>“Today my best friend saved my life.”</i> The one who had slapped him and saved him asked: “When I hit you, you wrote it in the sand, and when I saved you, you carved it in stone. Why?”"},
+    {"type": "text", "html": "“When someone hurts us, we should write it in the <b>sand</b>, so the winds of forgiveness can wipe it away. When someone does us good, we should carve it in <b>stone</b>, so no wind can ever wipe it away.”"}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Perfume seller or blacksmith?", "prompt": "Is this friend like the perfume seller (good influence) or the blacksmith (bad influence)?", "bins": ["🌸 Perfume seller", "🔥 Blacksmith"], "items": [
+      {"text": "Reminds you it’s time for Salah", "bin": 0},
+      {"text": "Helps you study for a test", "bin": 0},
+      {"text": "Tells you kindly when you make a mistake", "bin": 0},
+      {"text": "Invites you to come to the masjid together", "bin": 0},
+      {"text": "Asks you to lie to your parents", "bin": 1},
+      {"text": "Teaches you to swear", "bin": 1},
+      {"text": "Dares you to take something from a shop", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "What friendship is built on", "prompt": "Tap what a true friendship is built on, then tap Check.", "options": [
+      {"text": "💎 Sincerity", "correct": true},
+      {"text": "🤝 Trust", "correct": true},
+      {"text": "🕊️ Forgiving each other", "correct": true},
+      {"text": "🙌 Helping each other", "correct": true},
+      {"text": "💰 Whose family has more money", "correct": false, "why": "Friendship is built on sincerity, trust, forgiveness and help – not on wealth."},
+      {"text": "😈 Doing bad things together", "correct": false, "why": "A bad friend leads to bad deeds. A good friend reminds you of Allah."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Whom does Allah tell the believers to be with?", "options": ["Those who are truthful", "Those who are famous", "Those who are rich", "Anyone at all"], "answer": 0},
+      {"q": "In the hadith, a good friend is like…", "options": ["A seller of perfume", "A blacksmith", "A farmer", "A sailor"], "answer": 0},
+      {"q": "“A person follows the way of his…”", "options": ["Friend", "Neighbour’s cat", "Teacher only", "Phone"], "answer": 0},
+      {"q": "Who is the best friend in the sight of Allah?", "options": ["The one who is best to his friends", "The one with the most friends", "The strongest one", "The funniest one"], "answer": 0},
+      {"q": "In the story, where did the friend write about the slap?", "options": ["In the sand", "In stone", "In a book", "On a wall"], "answer": 0},
+      {"q": "Why did he carve the rescue in stone?", "options": ["So no wind could ever wipe the good deed away", "Because he had no sand", "To show off", "To make his friend sad"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and talk", "prompts": [
+      "💬 What is friendship based on? When do we meet our first friends, and how long can a friendship last?",
+      "💎 What qualities must sincere friends have? Which qualities will a friend pass on to us?",
+      "🪞 Talk with your muallim: “A friend is a mirror to his friend.”"
+    ]}
+  ]
+}

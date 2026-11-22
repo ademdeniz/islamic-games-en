@@ -1,0 +1,59 @@
+{
+  "title": "Respect for elders",
+  "pages": "121–122",
+  "intro": "“Whoever is not merciful to the young and does not respect the old is not one of us.”",
+  "learn": [
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Whoever is not merciful to the young, does not respect the old, and does not recognise the right of the learned, is not one of us.”</i> <small>(Bukhari, Al-Adab al-Mufrad)</small>"},
+    {"type": "text", "html": "Respect for elders and respect for each other make life in the family and in society pleasant and noble. When people of different ages are together, there are often misunderstandings and arguments. Muhammad (SAW) gave us a <b>golden rule</b> that shows the best way: be <b>merciful to the young</b> and <b>respect the old</b>."},
+    {"type": "text", "html": "This religious principle obliges us to respect our elders, and it is valid for <b>all times and all generations</b>."},
+    {"type": "text", "html": "Every step away from good manners and respect for elders makes things worse, starting in the family itself. Interestingly, the Prophet (SAW) described this as one of the <b>minor signs</b> of the Day of Judgement:"},
+    {"type": "point", "title": "Hadith", "html": "Muhammad (SAW) said: <i>“The Day of Judgement will not come until children become angry, rain becomes hot, the number of wicked and dishonest people grows and the number of noble people shrinks, and the young (wrongly and rudely) stand up against the old, and the wicked against the noble.”</i> <small>(Tabarani)</small>"},
+    {"type": "text", "html": "It is the duty of every Muslim to respect and honour <b>older people, the learned, those in positions of responsibility</b>, and everyone who in some way deserves respect."},
+    {"type": "point", "title": "Abu Bakr’s father", "html": "Muhammad (SAW) taught us these values in practice. When the Muslims freed Makkah, among those who came to accept Islam was <b>Abu Quhafah</b>, the frail old father of Abu Bakr (RA), who came himself to Muhammad (SAW). The Prophet (SAW) said to Abu Bakr: <i>“Why didn’t you leave him to sit in his house, so we could go to him?”</i> – showing us how to respect elders."},
+    {"type": "text", "html": "Respecting elders, because of their age, experience and knowledge, is a quality of the believers. Those who don’t accept it and don’t follow the Sunnah of Muhammad (SAW) are not complete believers."},
+    {"type": "heading", "text": "How we show respect to elders"},
+    {"type": "cards", "items": [
+      {"icon": "👋", "label": "We greet them first with salam"},
+      {"icon": "🕌", "label": "In the masjid we give them our place in the front rows"},
+      {"icon": "🤲", "label": "If they need help, we help them"},
+      {"icon": "👂", "label": "When they speak, we don’t interrupt but listen carefully"},
+      {"icon": "🚌", "label": "On buses and in public places we give them our seat"},
+      {"icon": "⚽", "label": "If we are playing, we stop until they have passed"},
+      {"icon": "🚶", "label": "We don’t walk in front of them"},
+      {"icon": "➡️", "label": "Walking with them, we let them be on the right side"}
+    ]},
+    {"type": "text", "html": "By following this advice we prevent disorder, unwanted behaviour and any other situation that could in any way threaten the rights of older people."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Showing respect", "prompt": "Tap everything that shows respect to elders, then tap Check.", "options": [
+      {"text": "👋 Greeting them first with salam", "correct": true},
+      {"text": "🚌 Giving them my seat on the bus", "correct": true},
+      {"text": "👂 Listening without interrupting", "correct": true},
+      {"text": "🛍️ Helping carry their shopping", "correct": true},
+      {"text": "➡️ Letting them walk on my right side", "correct": true},
+      {"text": "🏃 Running in front of them to get somewhere first", "correct": false, "why": "We don’t walk in front of our elders."},
+      {"text": "🗣️ Talking over them because I know better", "correct": false, "why": "When elders speak, we don’t interrupt but listen carefully."},
+      {"text": "🕌 Taking the front row and leaving them at the back", "correct": false, "why": "In the masjid we give our elders our place in the front rows."}
+    ]},
+    {"type": "memory", "title": "The golden rule", "pairs": [
+      ["To the young", "Be merciful"],
+      ["To the old", "Show respect"],
+      ["To the learned", "Recognise their right"],
+      ["Abu Quhafah", "The father of Abu Bakr (RA)"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is the golden rule the Prophet (SAW) gave us?", "options": ["Be merciful to the young and respect the old", "The oldest is always right", "The young should decide everything", "Don’t talk to older people"], "answer": 0},
+      {"q": "Who was Abu Quhafah?", "options": ["Abu Bakr’s (RA) old father", "A king of Makkah", "An angel", "A trader from Sham"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say when Abu Quhafah came to him?", "options": ["“Why didn’t you leave him in his house, so we could go to him?”", "“Why are you late?”", "“Go back home”", "Nothing"], "answer": 0},
+      {"q": "The young standing up rudely against the old is a sign of what?", "options": ["The coming of the Day of Judgement", "Good manners", "Strength", "Nothing"], "answer": 0},
+      {"q": "Which side do we let an older person walk on?", "options": ["The right side", "Behind us", "In the road", "It doesn’t matter"], "answer": 0},
+      {"q": "What should we do if we are playing and an older person passes?", "options": ["Stop playing until they have passed", "Play louder", "Ask them to go around", "Ignore them"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": [
+      "💬 How did the Prophet (SAW) show respect to older people? Which actions do we count as respecting elders? Why are good manners and respect for elders important?",
+      "📝 Choose a task (1): Try to do one good deed for an older person every day. Write it down and share it with your friends and muallim. Notice the good deeds your friends do for elders too (giving up a seat on the bus, helping carry groceries, helping the frail…).",
+      "🏠 Choose a task (2): With your muallim, make a plan to visit older and frail people in your jama‘ah and help them with jobs they can’t do alone.",
+      "🤲 Talk with your muallim: Respect for the old and mercy for the young. I too, God willing, will grow old."
+    ]}
+  ]
+}
