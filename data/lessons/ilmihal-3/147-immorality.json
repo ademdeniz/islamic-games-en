@@ -1,0 +1,55 @@
+{
+  "title": "Immorality – protecting ourselves and its consequences",
+  "pages": "147–148",
+  "intro": "Islam teaches us to guard our chastity and keep far from everything that leads to zina.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: do not even come near zina – it is a shameful deed and an evil way. <small>(Qur’an, Al-Isra 17:32)</small>"},
+    {"type": "text", "html": "Allah (SWT) destroyed some earlier nations because of the sins they did, and some of them because of immorality. The Qur’an’s story of <b>Lut (AS)</b> tells us that his people were destroyed because of their moral corruption, which had led them astray."},
+    {"type": "text", "html": "All of Allah’s prophets lived <b>modest and moral lives</b> and taught us to do the same. In the Qur’an Allah (SWT) revealed several rules that protect our moral life and our families. Allah gave us <b>marriage</b>, and the Prophet (SAW) made it a firm practice in his life – marriage guarantees a moral, modest life and good, well-raised children."},
+    {"type": "text", "html": "<b>Zina</b> means any forbidden intimate relationship between a man and a woman who are not married to each other. Islam forbids it in all its forms."},
+    {"type": "heading", "text": "Closing the door early"},
+    {"type": "text", "html": "Islam not only forbids zina – it also forbids the <b>steps</b> that can lead to it or push a person towards it. One way Islam protects a moral life is this hadith:"},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Whoever believes in Allah and the Last Day, let him not be alone with a woman without her mahram (a close relative she cannot marry), because then Shaytan is the third one with them.”</i> <small>(Ahmad)</small>"},
+    {"type": "text", "html": "The Prophet (SAW) also warned about the first small steps – such as <b>looks and words</b> that stir up desire. He said that the eyes, the hands and the feet can also fall into this sin. <small>(Bukhari)</small> That is why a Muslim <b>lowers their gaze</b>, chooses modest words, and keeps away from indecent pictures and videos."},
+    {"type": "text", "html": "Some old forms of immorality are being openly promoted again today. A Muslim must know that <b>every form</b> of immorality is forbidden and must be avoided. We can point out its harm to others, and with kind and wise words show that such behaviour is wrong."},
+    {"type": "heading", "text": "The consequences"},
+    {"type": "text", "html": "Islam warns that an immoral life brings harm in <b>this world</b> and in the <b>akhirah</b>, where the punishment is much heavier. So we should repent for every wrong deed that can be connected with immorality."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Keep away from zina, for it has six consequences: three in this world and three in the akhirah. In this world, it takes away the light from the face, brings poverty and shortens life. In the akhirah, it brings Allah’s anger, a hard reckoning and the fire of Jahannam.”</i> <small>(Bayhaqi)</small>"},
+    {"type": "text", "html": "The results of immorality spread through the <b>whole society</b>. That is why it is the role of all of us to raise moral children and to stop the immorality we see. A society that allows or tolerates immorality cannot succeed in the fight against it. So Islam acts <b>early</b>, to prevent every kind of immoral behaviour. Only in this way can a society fight this evil that does huge harm to humanity."},
+    {"type": "heading", "text": "Also good to know"},
+    {"type": "list", "items": [
+      "In this world, the Shari‘ah sets the rules for zina; in the akhirah, judging it is only Allah’s right – unless He forgives.",
+      "The fight against immorality cannot succeed if it is done in only one way and without a plan.",
+      "The media, schools, religious communities, lawmakers, courts, the police and other institutions have an important role in protecting morals.",
+      "Society must stop accepting immoral behaviour, even in its smallest forms, and must encourage good morals."
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Islam forbids everything that leads to zina, and parents have the duty to raise their children well and guide them by Islamic morals. So, young men and young women: take care of your chastity and your morals!"}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Guarding yourself", "prompt": "Tap everything that helps a young Muslim stay modest and pure, then tap Check.", "options": [
+      {"text": "👀 Lowering your gaze from what is not appropriate", "correct": true},
+      {"text": "💬 Using clean, modest words", "correct": true},
+      {"text": "📵 Closing indecent pictures or videos and telling a parent", "correct": true},
+      {"text": "👫 Not being alone with someone of the other gender who is not your mahram", "correct": true},
+      {"text": "🤲 Asking Allah to protect your heart", "correct": true},
+      {"text": "😏 Joining in with dirty jokes to fit in", "correct": false, "why": "Words that stir up desire are one of the first steps the Prophet (SAW) warned about."},
+      {"text": "🤫 Keeping secret chats with strangers online", "correct": false, "why": "Secret contact with strangers is unsafe – tell a parent or a trusted adult."}
+    ]},
+    {"type": "sort", "title": "Six consequences of zina", "prompt": "Sort each consequence: in this world or in the akhirah?", "bins": ["🌍 In this world", "⚖️ In the akhirah"], "items": [
+      {"text": "It takes away the light from the face", "bin": 0},
+      {"text": "It brings poverty", "bin": 0},
+      {"text": "It shortens life", "bin": 0},
+      {"text": "Allah’s anger", "bin": 1},
+      {"text": "A hard reckoning", "bin": 1},
+      {"text": "The fire of Jahannam", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What does Allah say about zina in Surah Al-Isra?", "options": ["Do not even come near it", "It is a small matter", "Only avoid it on Fridays", "Nothing"], "answer": 0},
+      {"q": "Which institution did Allah give to protect a moral life?", "options": ["Marriage", "Sports clubs", "Markets", "Games"], "answer": 0},
+      {"q": "Why should a person not be alone with a non-mahram?", "options": ["Because Shaytan is the third one with them", "Because it is boring", "Because it is too loud", "There is no reason"], "answer": 0},
+      {"q": "Which people were destroyed because of moral corruption?", "options": ["The people of Lut (AS)", "The people of Madinah", "The Companions", "The Ansar"], "answer": 0},
+      {"q": "Why does Islam forbid even the first small steps?", "options": ["To close the door to sin early", "Because they are illegal", "Because they cost money", "To make life hard"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions, tasks and talking with your teacher", "prompts": ["💍 Through which institution does Islam protect Muslims from an immoral life?", "🌱 What does a moral life give us?", "⚖️ What are the consequences of an immoral life in this world and in the akhirah?", "🧭 How should a Muslim think about immorality? Describe it.", "🛡️ How does Islam protect us from an immoral life?", "🌍 Task: the world faces the problem of immorality but has not found a way to stop it. Why do you think that is?", "🤝 Talk with your teacher: how can we act early (prevention) to protect ourselves from immorality?"]}
+  ]
+}
