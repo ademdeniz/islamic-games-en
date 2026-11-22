@@ -1,0 +1,66 @@
+{
+  "title": "Ghusl – the ritual bath",
+  "pages": "89–90",
+  "intro": "When ghusl is obligatory, its three fard and its sunnah, and when it is sunnah to bathe.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: …and if you are in a state of janabah, then purify yourselves (by bathing)… <small>(Qur’an, Al-Ma’idah 5:6)</small>"},
+    {"type": "text", "html": "Keeping ourselves clean comes before doing the Islamic duties Allah (SWT) gave Muslim men and women. Besides everyday hygiene, Muslims are also commanded to take a <b>ghusl</b> in certain situations."},
+    {"type": "text", "html": "<b>Ghusl</b> is the religious bath, prescribed in the Qur’an, which Muslims take for cleanliness, so that they can pray Salah and recite the Qur’an."},
+    {"type": "heading", "text": "When is ghusl obligatory?"},
+    {"type": "list", "items": [
+      "For a husband and wife after marital relations.",
+      "After a release of semen – in sleep (a “wet dream”) or while awake.",
+      "For a woman after her monthly period (hayd) and after the bleeding that follows childbirth (nifas)."
+    ]},
+    {"type": "text", "html": "A person in one of these states is <b>junub</b> (not in a state of ritual purity) and cannot do the Islamic acts of worship until they take a ghusl. Until then they must not: pray Salah, touch the Qur’an without a cover or recite it, enter the mosque, or do tawaf around the Ka‘bah."},
+    {"type": "heading", "text": "The three fard of ghusl"},
+    {"type": "list", "items": [
+      "<b>Gargling</b> – rinsing the mouth and throat well with water.",
+      "<b>Istinshaq</b> – rinsing the nose.",
+      "<b>Washing the whole body</b> so that no spot is left dry."
+    ]},
+    {"type": "heading", "text": "The sunnah of ghusl"},
+    {"type": "list", "items": [
+      "Before bathing, say <b>Bismillah</b> and make the <b>intention</b>.",
+      "Make <b>wudu</b>.",
+      "Start washing from the <b>head</b>, then over the <b>right</b> and the <b>left shoulder</b>, and then wash the whole body.",
+      "Wash several times.",
+      "Use shampoo, soap and nice scents."
+    ]},
+    {"type": "phrase", "label": "The intention (niyyah) for ghusl", "ar": "نَوَيْتُ الْغُسْلَ لِرَفْعِ الْجَنَابَةِ وَلِرَفْعِ الْحَدَثِ تَقَرُّبًا إِلَى اللَّهِ تَعَالَى", "tr": "Nawaytul-ghusla li-raf‘il-janaabati wa li-raf‘il-hadathi taqarruban ilallaahi ta‘aalaa.", "en": "I intend to take a ghusl to remove the state of janabah and impurity, to come closer to Allah, the Most High."},
+    {"type": "point", "title": "Hadith", "html": "Maymunah (RA) said: <i>“I brought the Messenger of Allah (SAW) water for his ghusl. He washed his hands two or three times, then washed his private area with his left hand and rubbed that hand well on the ground. Then he made wudu as for Salah, poured water over his head and washed it, and then his whole body. After the bath he moved from that place and washed his feet. I brought him a towel, but he gave it back.”</i> <small>(Muslim)</small>"},
+    {"type": "heading", "text": "When is it sunnah to bathe?"},
+    {"type": "cards", "items": [
+      {"icon": "🕌", "label": "Before the Jumu‘ah prayer"},
+      {"icon": "🌙", "label": "Before the Eid prayer"},
+      {"icon": "🕋", "label": "Right before putting on the ihram"}
+    ]}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Fard or Sunnah of ghusl?", "prompt": "Sort each part of ghusl.", "bins": ["✅ Fard", "⭐ Sunnah"], "items": [
+      {"text": "Rinsing the mouth and throat", "bin": 0},
+      {"text": "Rinsing the nose", "bin": 0},
+      {"text": "Washing the whole body so nothing is dry", "bin": 0},
+      {"text": "Saying Bismillah", "bin": 1},
+      {"text": "Making wudu first", "bin": 1},
+      {"text": "Using soap and nice scents", "bin": 1}
+    ]},
+    {"type": "order", "title": "Ghusl step by step", "prompt": "Put the ghusl of the Prophet (SAW) in order.", "items": ["Bismillah and the intention", "Washing the hands", "Making wudu as for Salah", "Pouring water over the head", "Over the right and left shoulder", "Washing the whole body"]},
+    {"type": "choose_all", "title": "Before ghusl", "prompt": "Tap everything a person who needs ghusl must NOT do until they bathe, then tap Check.", "options": [
+      {"text": "🕌 Pray Salah", "correct": true},
+      {"text": "📖 Touch the Qur’an without a cover", "correct": true},
+      {"text": "🚪 Enter the mosque", "correct": true},
+      {"text": "🕋 Do tawaf around the Ka‘bah", "correct": true},
+      {"text": "🍞 Eat breakfast", "correct": false, "why": "Eating is allowed – the rules of ghusl are about acts of worship."},
+      {"text": "🤲 Make du‘a and remember Allah", "correct": false, "why": "We can always make du‘a and remember Allah."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is ghusl?", "options": ["The religious bath prescribed in the Qur’an", "A kind of fasting", "A prayer at night", "Washing only the hands"], "answer": 0},
+      {"q": "How many fard does ghusl have?", "options": ["Three", "One", "Six", "Ten"], "answer": 0},
+      {"q": "Where do we start washing the body in ghusl?", "options": ["From the head, then the right and left shoulder", "From the feet", "From the left hand", "It does not matter at all"], "answer": 0},
+      {"q": "Before which prayer is it sunnah to bathe?", "options": ["Jumu‘ah", "Asr", "Witr", "Tahajjud"], "answer": 0},
+      {"q": "What is istinshaq?", "options": ["Rinsing the nose", "Rinsing the mouth", "Washing the feet", "Wiping the head"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions", "prompts": ["💬 What is ghusl? When must Muslim men and women take a ghusl?", "📋 What are the fard and the sunnah of ghusl? When is it sunnah to bathe?", "🔍 Islam gives great attention to cleanliness – acts of worship depend on being clean and on the rules of purity. Find out whether there is another religion that looks at cleanliness in a similar way."]}
+  ]
+}

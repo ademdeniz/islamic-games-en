@@ -1,0 +1,97 @@
+{
+  "title": "Fasting – the rules and virtues of Ramadan",
+  "pages": "73–75",
+  "intro": "Who must fast, its fard, who may postpone it, making up missed days, and the great reward of fasting.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: O believers, fasting has been prescribed for you as it was prescribed for those before you, so that you may become mindful of Allah (have taqwa). <small>(Qur’an, Al-Baqarah 2:183)</small>"},
+    {"type": "text", "html": "<b>Fasting (sawm)</b> means keeping away from food, drink, marital relations and other bodily pleasures <b>from dawn until sunset</b>, with the intention of coming closer to Allah (SWT). Fasting in the month of Ramadan was prescribed by Allah (SWT)."},
+    {"type": "text", "html": "Today the start of Ramadan is set using modern calculations, and the exact times of suhur and iftar are written in the prayer timetable (takwim), which in Bosnia and Herzegovina is prepared and published by the Riyasat of the Islamic Community. In our community, the Imam can tell you how the timetable and the start of Ramadan are announced here."},
+    {"type": "heading", "text": "Who must fast?"},
+    {"type": "text", "html": "Fasting is <b>obligatory</b> for every Muslim man and woman who is <b>adult</b>, of <b>sound mind</b>, <b>physically healthy</b>, <b>at home</b> (not travelling), and who has no reason in the Shari‘ah that prevents fasting."},
+    {"type": "list", "items": [
+      "It is <b>not obligatory</b> for children who are not yet adults – but it is good for them to get used to fasting.",
+      "It is not obligatory for a person who is not of sound mind.",
+      "A woman during her monthly period (hayd) or after giving birth (nifas) must <b>not</b> fast – her fast would not be accepted even if she fasted. She makes up the missed days after Ramadan."
+    ]},
+    {"type": "heading", "text": "The fard of fasting"},
+    {"type": "list", "items": [
+      "<b>Niyyah</b> – the intention to fast as an act of worship for Allah (SWT). (If we intend to fast the whole of Ramadan, we do not need to say the intention again each evening.)",
+      "<b>Keeping away</b> from food, drink, marital relations and other bodily pleasures from dawn until sunset."
+    ]},
+    {"type": "heading", "text": "Postponing the fast"},
+    {"type": "text", "html": "These people are allowed to postpone fasting in Ramadan, but must <b>make up</b> the missed days later:"},
+    {"type": "list", "items": [
+      "<b>The ill and the elderly</b> for whom fasting is hard. If there is no hope of getting better, they use another ruling – <b>fidya</b>: for every day of fasting they feed a poor person lunch and dinner, according to what they can afford. Fidya may also be given as money.",
+      "<b>Travellers</b> who are allowed to shorten their prayers may also postpone fasting, but must make up the missed days.",
+      "<b>Pregnant and nursing women</b> – they make up the days after the pregnancy or nursing.",
+      "<b>Workers</b> who do very hard physical work.",
+      "<b>Prisoners</b>, if they have no conditions to fast."
+    ]},
+    {"type": "heading", "text": "Making up (qada) and atonement (kaffarah)"},
+    {"type": "list", "items": [
+      "<b>Qada</b> is making up days of fasting that were missed for a valid reason. They should be made up after Eid al-Fitr and before the next Ramadan – the same number of days that were missed.",
+      "<b>Kaffarah</b> is the atonement for <b>deliberately</b> breaking a fast in Ramadan. For one broken day, a person must fast <b>60 days in a row</b> and also make up that day. If that is not possible, they may instead feed <b>60 poor people</b>."
+    ]},
+    {"type": "point", "title": "🏮 A special joy", "html": "In Bosnia, children loved to see the lamps (kandil) lit on the minaret at the end of the fast, and to run home to tell their parents it was time for iftar."},
+    {"type": "heading", "text": "The virtues of fasting"},
+    {"type": "text", "html": "Fasting is an act of worship especially dear to Allah (SWT), and He promises a great reward to whoever fasts for His sake. Some special virtues belong only to the fasting person:"},
+    {"type": "point", "title": "Du‘a at iftar", "html": "The Prophet (SAW) said: <i>“Three du‘as will not be rejected: the du‘a of the fasting person when he breaks his fast, of a just leader, and of the one who has been wronged.”</i> <small>(Abu Dawud)</small>"},
+    {"type": "point", "title": "Tarawih and night prayer", "html": "The Prophet (SAW) said: <i>“Whoever prays at night in Ramadan, believing in Allah and hoping for His reward, his past sins will be forgiven.”</i> <small>(Bukhari)</small>"},
+    {"type": "point", "title": "A special reward", "html": "The Prophet (SAW) said: <i>“Allah says: ‘Every deed of the son of Adam is for him except fasting – it is for Me, and I will reward it.’”</i> <small>(Bukhari)</small>"},
+    {"type": "list", "items": [
+      "Fasting is a <b>shield</b> from sins and from the fire of Jahannam.",
+      "Only those who fast will enter through the gate of Jannah called <b>Ar-Rayyan</b>.",
+      "The greatest joy of the fasting person will be <b>meeting Allah</b> (SWT).",
+      "The reward for fasting with our Lord is beyond measure.",
+      "Fasting wipes away a person’s sins.",
+      "Fasting will <b>intercede</b> for a person on the Day of Judgement."
+    ]},
+    {"type": "heading", "text": "Voluntary fasting"},
+    {"type": "text", "html": "Besides the obligatory fast of Ramadan, there is also voluntary fasting, which the Prophet (SAW) encouraged. It is good to fast on these days:"},
+    {"type": "cards", "items": [
+      {"icon": "📅", "label": "Mondays and Thursdays"},
+      {"icon": "🌕", "label": "The three middle days of each hijri month"},
+      {"icon": "🌊", "label": "The day of Ashura (10 Muharram)"},
+      {"icon": "⛰️", "label": "The day of Arafah (9 Dhul-Hijjah)"},
+      {"icon": "6️⃣", "label": "Six days of Shawwal"},
+      {"icon": "🌙", "label": "Fasting in the month of Muharram"}
+    ]},
+    {"type": "point", "title": "⛔ Not allowed", "html": "It is <b>forbidden</b> to fast on the day of Eid al-Fitr and on the days of Eid al-Adha."}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Fard or Sunnah?", "prompt": "Sort each fast by how obligatory it is.", "bins": ["✅ Fard (obligatory)", "⭐ Sunnah (voluntary)"], "items": [
+      {"text": "Fasting in Ramadan", "bin": 0},
+      {"text": "Making up missed days of Ramadan", "bin": 0},
+      {"text": "Fasting on the day of Ashura", "bin": 1},
+      {"text": "Fasting on Mondays", "bin": 1},
+      {"text": "Fasting on the day of Arafah", "bin": 1},
+      {"text": "Six days of Shawwal", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "Who may postpone the fast?", "prompt": "Tap everyone who is allowed to postpone fasting in Ramadan, then tap Check.", "options": [
+      {"text": "🤒 A sick person for whom fasting is hard", "correct": true},
+      {"text": "✈️ A traveller", "correct": true},
+      {"text": "🤱 A nursing mother", "correct": true},
+      {"text": "🏗️ A worker doing very hard physical work", "correct": true},
+      {"text": "😴 A healthy adult who just doesn’t feel like it", "correct": false, "why": "Fasting is obligatory for every healthy adult Muslim at home. Breaking it on purpose needs kaffarah."},
+      {"text": "🎮 Someone who wants to play games all day", "correct": false, "why": "That is not a valid reason – fasting is fard for a healthy adult."}
+    ]},
+    {"type": "memory", "title": "Match the words", "pairs": [
+      ["Sawm", "Fasting"],
+      ["Fidya", "Feeding a poor person for each day"],
+      ["Qada", "Making up missed days"],
+      ["Kaffarah", "60 days in a row for a broken fast"],
+      ["Ar-Rayyan", "The gate of Jannah for those who fast"],
+      ["Niyyah", "The intention"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "From when to when do we fast?", "options": ["From dawn until sunset", "From sunrise until noon", "All day and all night", "From Dhuhr until Isha"], "answer": 0},
+      {"q": "What are the two fard of fasting?", "options": ["The intention and keeping away from food, drink and other pleasures", "Suhur and iftar", "Tarawih and Witr", "Zakah and Sadaqah"], "answer": 0},
+      {"q": "What does someone do who cannot fast and has no hope of getting better?", "options": ["Gives fidya – feeds a poor person for each day", "Nothing", "Fasts at night", "Pays kaffarah"], "answer": 0},
+      {"q": "What is the kaffarah for deliberately breaking one day of Ramadan?", "options": ["Fasting 60 days in a row (or feeding 60 poor people)", "Fasting one more day", "Saying sorry", "Giving one coin"], "answer": 0},
+      {"q": "Who enters through the gate of Ar-Rayyan?", "options": ["Only those who fast", "Everyone", "Only scholars", "Only children"], "answer": 0},
+      {"q": "On which day is fasting forbidden?", "options": ["The day of Eid al-Fitr", "Monday", "The day of Arafah", "The day of Ashura"], "answer": 0},
+      {"q": "Whose du‘a is not rejected, according to the hadith?", "options": ["The fasting person at iftar", "Someone who is angry", "Someone who is in a hurry", "Nobody’s"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What is fasting? For whom is it obligatory, and for whom is it not allowed?", "🤒 Who may postpone fasting for a while? When is it good to fast voluntarily?", "🌟 What are the benefits and virtues of fasting?", "✏️ Fill in: If a sick person has no hope of getting better, they make up for the fast by giving ____. It means ____, and it can also be given in ____.", "🧮 A person broke their fast without a valid reason. Explain what they must do and how many days they must fast.", "🎵 Find the nasheed “Shukran Rahmanu”, practise it and sing it with your maktab friends."]}
+  ]
+}

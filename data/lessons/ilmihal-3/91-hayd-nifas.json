@@ -1,0 +1,42 @@
+{
+  "title": "Hayd, nifas and istihadah",
+  "pages": "91",
+  "intro": "The rules for a woman’s monthly period, the bleeding after childbirth, and other bleeding.",
+  "learn": [
+    {"type": "text", "html": "As girls grow up, their bodies change, and Islam gives clear and simple rules for this – just as it does for wudu and ghusl. Every Muslim should know them."},
+    {"type": "heading", "text": "Hayd – the monthly period"},
+    {"type": "text", "html": "<b>Hayd</b> (the monthly period or cycle) is the monthly bleeding of a grown woman, which can last from <b>three to ten days</b>. A girl usually gets her first period between the ages of <b>eleven and fifteen</b>, depending on the climate, food, health and family genes."},
+    {"type": "text", "html": "The shortest time between two periods is <b>15 days</b>, and there is no limit to the longest."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“The shortest hayd is three days, and the longest is ten days.”</i> <small>(Tabarani)</small>"},
+    {"type": "text", "html": "During hayd a woman does <b>not pray Salah</b> and does <b>not fast</b>, and marital relations are not allowed. She does <b>not</b> have to make up the prayers she missed, but she <b>must make up</b> the days of fasting – best straight after Eid al-Fitr, or before the next Ramadan. When her period ends, she takes a ghusl."},
+    {"type": "heading", "text": "Nifas – bleeding after childbirth"},
+    {"type": "text", "html": "<b>Nifas</b> is the bleeding a woman has right after giving birth. It can last up to <b>40 days</b> – that is the longest time – and there is no limit to the shortest. The rules are the same as for hayd: no Salah, no fasting and no marital relations; the prayers are not made up, but the fasting days are – best straight after Eid al-Fitr, or before the next Ramadan."},
+    {"type": "heading", "text": "Istihadah – bleeding that is neither hayd nor nifas"},
+    {"type": "text", "html": "<b>Istihadah</b> is bleeding in a grown woman at a time that is neither hayd nor nifas. If it comes in the time of hayd, it is istihadah when it lasts <b>less than three</b> or <b>more than ten</b> days; after childbirth, when it lasts <b>more than 40</b> days. A woman in istihadah is considered a <b>sahib al-‘udhr</b> (a person with a lasting excuse) and follows those rules – so she still prays and fasts."},
+    {"type": "point", "title": "⭐ Remember", "html": "These are natural things Allah (SWT) created. If you have questions, you can always ask your mother, a trusted adult or your muallim(a) – there is no shame in learning your religion."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the word and its meaning", "pairs": [
+      ["Hayd", "The monthly period"],
+      ["Nifas", "Bleeding after childbirth"],
+      ["Istihadah", "Bleeding that is neither hayd nor nifas"],
+      ["Three days", "The shortest hayd"],
+      ["Ten days", "The longest hayd"],
+      ["40 days", "The longest nifas"]
+    ]},
+    {"type": "sort", "title": "During hayd or nifas", "prompt": "Which must be made up later, and which not?", "bins": ["🔁 Made up later", "✖️ Not made up"], "items": [
+      {"text": "Missed days of fasting in Ramadan", "bin": 0},
+      {"text": "Fasting days missed because of nifas", "bin": 0},
+      {"text": "The five daily prayers missed during hayd", "bin": 1},
+      {"text": "The prayers missed during nifas", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How long can hayd last?", "options": ["From three to ten days", "One day", "40 days", "A whole month"], "answer": 0},
+      {"q": "What is the longest time of nifas?", "options": ["40 days", "10 days", "3 days", "There is no limit"], "answer": 0},
+      {"q": "What is the shortest time between two periods?", "options": ["15 days", "3 days", "40 days", "One year"], "answer": 0},
+      {"q": "Does a woman in hayd make up the prayers she missed?", "options": ["No – but she makes up the fasting days", "Yes, all of them", "Only Fajr", "Only on Fridays"], "answer": 0},
+      {"q": "What is the status of a woman in istihadah?", "options": ["She is a sahib al-‘udhr", "She is junub", "She is in hayd", "She is travelling"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions", "prompts": ["💬 What are hayd and nifas? How long can each last?", "📋 What is a woman not allowed to do during hayd and nifas?", "🩺 What is istihadah, and what is the status of a woman in istihadah?", "✏️ Fill in: The shortest hayd is ____ and the longest ____ days. The shortest nifas is ____ and the longest ____. If an adult woman has bleeding outside these times, it is called ____ and she is considered a ____."]}
+  ]
+}

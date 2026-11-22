@@ -1,0 +1,58 @@
+{
+  "title": "The best-known hadith collections",
+  "pages": "84–85",
+  "intro": "How the hadiths of the Prophet (SAW) were written down, checked and gathered into the six great collections.",
+  "names": ["Škapura", "Karalić", "Šefik", "Kurdić"],
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) gave the Prophet Muhammad (SAW) the task of passing on the Qur’an and explaining it: We have sent down the Book to you only so that you may make clear to them what they differed about. <small>(Qur’an, An-Nahl 16:64)</small>"},
+    {"type": "text", "html": "So the Prophet (SAW) worked hard to explain to his Companions, in the best way, the rules in Allah’s Book. To understand the faith, the Companions stayed close to him and listened to what he said."},
+    {"type": "heading", "text": "How hadiths were written down"},
+    {"type": "list", "items": [
+      "At the start of his mission, the Prophet (SAW) <b>did not allow</b> hadiths to be written, so that the text of the Qur’an would not get mixed with hadiths. In that time the Companions <b>memorised</b> what he said and did and passed it on by word of mouth.",
+      "Later the Prophet (SAW) <b>allowed</b> hadiths to be written, so the first hadiths were written down already in his lifetime.",
+      "Writing continued after he passed away – especially once some people began to make up hadiths on purpose. So the scholars of hadith (<b>muhaddithun</b>) gathered them very carefully into collections. They wrote down everything connected with the Prophet’s life, with special care for his sayings – the hadiths.",
+      "Knowing how important hadiths are, the muhaddithun spared no time or effort: they travelled to faraway places to check whether one hadith was authentic. They paid special attention to the <b>sanad</b> (chain of narrators): if even one narrator was unreliable, the hadith was not recorded, or it was marked as weak (da‘if).",
+      "The richest time of collecting hadiths was the end of the first and the beginning of the second century after the Hijrah. A great Islamic science grew up whose aim was to collect hadiths, select the authentic ones and arrange them by topic."
+    ]},
+    {"type": "heading", "text": "The six collections – Al-Kutub as-Sittah"},
+    {"type": "text", "html": "The best-known and most authentic hadith collections are <b>Sahih al-Bukhari</b> and <b>Sahih Muslim</b>. After them in authenticity come the <b>Sunan of Abu Dawud</b>, the <b>Sunan of At-Tirmidhi</b>, the <b>Sunan of An-Nasa’i</b> and the <b>Sunan of Ibn Majah</b>. Together these are called <b>Al-Kutub as-Sittah</b> – “the six books”. Another important collection is the <b>Muwatta’</b> of Imam Malik."},
+    {"type": "cards", "items": [
+      {"icon": "📗", "label": "Sahih al-Bukhari"},
+      {"icon": "📘", "label": "Sahih Muslim"},
+      {"icon": "📙", "label": "Sunan Abu Dawud"},
+      {"icon": "📕", "label": "Sunan At-Tirmidhi"},
+      {"icon": "📓", "label": "Sunan An-Nasa’i"},
+      {"icon": "📒", "label": "Sunan Ibn Majah"}
+    ]},
+    {"type": "point", "title": "🔎 Very careful work", "html": "Imam Al-Bukhari at first gathered about <b>600,000</b> hadiths, and Imam Muslim about <b>300,000</b>. After checking them, Al-Bukhari put about <b>7,000</b> into his Sahih, and Muslim about <b>12,000</b>."},
+    {"type": "text", "html": "In the last decades of the 20th century and the beginning of the 21st, all of these hadith collections were translated into Bosnian by groups of scholars and by individual muhaddithun, among them Hasan-ef. Škapura, Prof. Mahmut-ef. Karalić and Prof. Dr. Šefik Kurdić."},
+    {"type": "point", "title": "⭐ Remember", "html": "The <b>sanad</b> is the chain of named narrators of a hadith, reaching back to the Companions who heard it from the Prophet (SAW) and remembered it. The rules for a correct sanad are very strict, so the authenticity of hadiths has been kept to this day. By authenticity, hadiths are divided into <b>sahih</b> – authentic, <b>hasan</b> – good, and <b>da‘if</b> – weak."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the imam and his collection", "pairs": [
+      ["Imam Al-Bukhari", "Sahih al-Bukhari"],
+      ["Imam Muslim", "Sahih Muslim"],
+      ["Imam Abu Dawud", "Sunan Abu Dawud"],
+      ["Imam At-Tirmidhi", "Sunan At-Tirmidhi"],
+      ["Imam Malik", "Al-Muwatta’"]
+    ]},
+    {"type": "sort", "title": "Sahih or Sunan?", "prompt": "Sort the six books: is each one a Sahih or a Sunan?", "bins": ["📗 Sahih", "📙 Sunan"], "items": [
+      {"text": "Al-Bukhari", "bin": 0},
+      {"text": "Muslim", "bin": 0},
+      {"text": "Abu Dawud", "bin": 1},
+      {"text": "At-Tirmidhi", "bin": 1},
+      {"text": "An-Nasa’i", "bin": 1},
+      {"text": "Ibn Majah", "bin": 1}
+    ]},
+    {"type": "order", "title": "From most to least authentic", "prompt": "Put the kinds of hadith in order, from the strongest to the weakest.", "items": ["Sahih – authentic", "Hasan – good", "Da‘if – weak"]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Why did the Prophet (SAW) at first not allow hadiths to be written?", "options": ["So they would not get mixed with the Qur’an", "Because there was no paper", "Because hadiths were not important", "Because nobody could write"], "answer": 0},
+      {"q": "What is the sanad?", "options": ["The chain of narrators of a hadith", "A kind of prayer", "A book of poems", "A city"], "answer": 0},
+      {"q": "What are the six best-known collections called together?", "options": ["Al-Kutub as-Sittah", "Al-Asma’ al-Husna", "Al-Mu‘awwidhatayn", "Al-Khulafa’ ar-Rashidun"], "answer": 0},
+      {"q": "Which two collections are the most authentic?", "options": ["Sahih al-Bukhari and Sahih Muslim", "Sunan Abu Dawud and Sunan Ibn Majah", "The Muwatta’ and Sunan An-Nasa’i", "None of them"], "answer": 0},
+      {"q": "About how many hadiths did Al-Bukhari put into his Sahih?", "options": ["About 7,000", "About 600,000", "About 70", "Exactly 100"], "answer": 0},
+      {"q": "When was the richest time of collecting hadiths?", "options": ["End of the 1st and start of the 2nd century after the Hijrah", "The 20th century", "Before the Prophet (SAW) was born", "The 10th century after the Hijrah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions", "prompts": ["💬 When did writing down hadiths begin? Which are the best-known hadith collections?", "📚 What is the one name for the six collections, and which are they?", "🌍 When did translations of the hadith collections into Bosnian appear, and which scholars of hadith stood out in that work?", "🧩 With your muallim, solve the Al-Kutub as-Sittah crossword in your book."]}
+  ]
+}

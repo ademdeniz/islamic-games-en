@@ -1,0 +1,71 @@
+{
+  "title": "Hajj – its rules and virtues",
+  "pages": "80–82",
+  "intro": "The fifth pillar of Islam: who must go on Hajj, how its fard are done, and the reward of an accepted Hajj.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: Complete the Hajj and ‘umrah for Allah. <small>(Qur’an, Al-Baqarah 2:196)</small>"},
+    {"type": "text", "html": "<b>Hajj</b> is the <b>fifth pillar of Islam</b>. It is prescribed for every Muslim man and woman, <b>once in a lifetime</b>, if they meet its conditions. Hajj is the act of worship of visiting the Ka‘bah and the other holy places at the time Allah prescribed."},
+    {"type": "point", "title": "Hadith", "html": "Abu Hurayrah (RA) reported: <i>“The Messenger of Allah (SAW) gave us a khutbah and said: ‘O people, Allah has prescribed Hajj for you, so perform it.’”</i> <small>(Bukhari)</small>"},
+    {"type": "heading", "text": "When is Hajj obligatory?"},
+    {"type": "list", "items": [
+      "The person is <b>adult</b>, and <b>physically and mentally healthy</b>.",
+      "The person has the <b>means</b>: money for the journey there and back, and enough for the family to live on until they return.",
+      "The journey is <b>safe</b> – the pilgrim will be safe in life and property.",
+      "For women there is one more condition – a <b>mahram</b>: a woman travels for Hajj and ‘umrah only with her husband or a close relative (father, grandfather, brother), or together with a group of women."
+    ]},
+    {"type": "heading", "text": "How the fard of Hajj are done"},
+    {"type": "list", "items": [
+      "<b>Ihram at the Miqat.</b> Near Makkah, at the Miqat, the pilgrims make the intention and put on the ihram. It is good to bathe and put on perfume first. For men the ihram is two white, unstitched cloths covering the lower and upper body; for women it is their usual modest dress with hijab. Then they pray two rak‘ahs and, reciting the <b>talbiyah</b>, continue towards Makkah.",
+      "<b>Standing at Arafah</b> on the 9th of Dhul-Hijjah, from sunrise. The pilgrims pray Dhuhr and Asr together at the time of Dhuhr, with one adhan and two iqamahs, and spend the time until sunset in worship and du‘a.",
+      "<b>Muzdalifah.</b> After sunset they go to Muzdalifah (between Arafah and Mina), pray Maghrib and Isha with one adhan and two iqamahs, and collect pebbles for the <b>rami</b> – the stoning of Shaytan at Mina.",
+      "<b>Stoning at Mina.</b> After Fajr on the 10th of Dhul-Hijjah they go to the Great Jamrah and throw pebbles at it, saying takbir.",
+      "<b>Tawaf</b> – the third fard of Hajj. In Makkah the pilgrims walk seven times around the Ka‘bah, keeping it on their left, starting at the Black Stone (Al-Hajar al-Aswad) – turning their palms towards it if they cannot get close enough to kiss it. Then they pray two rak‘ahs behind Maqam Ibrahim and do the <b>sa‘y</b> (walking quickly) between Safa and Marwah.",
+      "After tawaf and sa‘y the pilgrims take off the ihram, and its prohibitions end. In the days of tashriq (when takbirs are said after the fard prayers) they also stone the other jamarat.",
+      "Before going home, they must do the <b>farewell tawaf</b>, and then leave Makkah. With this, Hajj is complete."
+    ]},
+    {"type": "point", "title": "Arafah", "html": "The Prophet (SAW) said: <i>“Hajj is Arafah.”</i> <small>(Ahmad)</small>"},
+    {"type": "heading", "text": "Forbidden while in ihram"},
+    {"type": "text", "html": "From the moment they put on the ihram, the pilgrims are <b>muhrim</b>, and these things are forbidden for them:"},
+    {"type": "list", "items": [
+      "marital relations;",
+      "indecent words and deeds, quarrelling and arguing;",
+      "hunting and killing insects;",
+      "perfume, cutting nails, shaving or cutting the hair of the head and body, trimming the beard;",
+      "using perfumed soap or shampoo when washing;",
+      "covering the head (for men), and covering the face (for men and women);",
+      "for men, wearing anything other than the ihram – no stitched clothes."
+    ]},
+    {"type": "heading", "text": "The virtue of Hajj"},
+    {"type": "text", "html": "Hajj is the <b>crown of a believer’s worship</b>, and the longing of every sincere Muslim heart to visit the holy places where the last Messenger of Allah, Muhammad (SAW), walked. A Hajj done well makes a believer stronger in faith and more faithful in following the Prophet (SAW). That is why Muslims should keep away from sins after Hajj, and try to keep the purity Allah gave them until they move to the akhirah."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“From one ‘umrah to the next is forgiveness for the sins between them, and an accepted Hajj has no reward except Jannah.”</i> <small>(Bukhari)</small>"},
+    {"type": "point", "title": "⭐ Remember – ‘umrah", "html": "<b>‘Umrah</b> is a pilgrimage to the Ka‘bah at any time outside the days of Hajj. Its rites are done only in the Haram, and they are: <b>ihram, tawaf and sa‘y</b>. With fewer crowds, ‘umrah is an unforgettable act of worship and a chance to visit all the holy places. It is especially valuable in Ramadan. The Prophet (SAW) said: <i>“When Ramadan comes, perform ‘umrah, for ‘umrah in Ramadan is equal to Hajj (in reward).”</i> <small>(Bukhari)</small>"}
+  ],
+  "practice": [
+    {"type": "order", "title": "The journey of Hajj", "prompt": "Put the steps of Hajj in order.", "items": ["Ihram at the Miqat", "Standing at Arafah", "Collecting pebbles at Muzdalifah", "Stoning the Great Jamrah at Mina", "Tawaf and sa‘y", "The farewell tawaf"]},
+    {"type": "choose_all", "title": "In ihram", "prompt": "Tap everything that is FORBIDDEN while in ihram, then tap Check.", "options": [
+      {"text": "🧴 Putting on perfume", "correct": true},
+      {"text": "✂️ Cutting nails or hair", "correct": true},
+      {"text": "🦟 Killing insects", "correct": true},
+      {"text": "😠 Quarrelling and arguing", "correct": true},
+      {"text": "🤲 Making du‘a", "correct": false, "why": "Du‘a is what pilgrims do most – especially at Arafah!"},
+      {"text": "🕋 Doing tawaf around the Ka‘bah", "correct": false, "why": "Tawaf is one of the fard of Hajj."}
+    ]},
+    {"type": "memory", "title": "Match the places and words", "pairs": [
+      ["Miqat", "Where pilgrims put on the ihram"],
+      ["Arafah", "Standing in du‘a on the 9th of Dhul-Hijjah"],
+      ["Muzdalifah", "Where pebbles are collected"],
+      ["Mina", "Where Shaytan is stoned"],
+      ["Safa and Marwah", "The two hills of the sa‘y"],
+      ["Al-Hajar al-Aswad", "The Black Stone, where tawaf starts"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many times in life is Hajj fard?", "options": ["Once, if you meet the conditions", "Every year", "Never", "Every Ramadan"], "answer": 0},
+      {"q": "What do men wear in ihram?", "options": ["Two white, unstitched cloths", "A suit", "Any clothes", "A coat and hat"], "answer": 0},
+      {"q": "On which day do pilgrims stand at Arafah?", "options": ["The 9th of Dhul-Hijjah", "The 1st of Ramadan", "The 10th of Muharram", "The 27th of Rajab"], "answer": 0},
+      {"q": "How many times do pilgrims walk around the Ka‘bah in tawaf?", "options": ["Seven", "Three", "Ten", "One"], "answer": 0},
+      {"q": "What is the reward of an accepted Hajj?", "options": ["Jannah", "A certificate", "Money", "Nothing"], "answer": 0},
+      {"q": "What are the rites of ‘umrah?", "options": ["Ihram, tawaf and sa‘y", "Only Arafah", "Fasting and zakah", "Only stoning"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What is Hajj? What are the conditions that make Hajj obligatory?", "🕋 Describe how the fard of Hajj are done. What reward is promised to the one whose Hajj is accepted?", "👴 Task: find someone in your family who has been on Hajj and talk with them about what it was like. Write down the most important details and talk about them with your muallim in class."]}
+  ]
+}

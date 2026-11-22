@@ -7,6 +7,7 @@ A lesson file has: number, title, pages, intro, learn[...] (phrase, text, headin
 practice[...] (order, choose_all, quiz, memory, sort, reflect) – see tools/templates/lesson.html.
 """
 import glob
+import re
 import html
 import json
 import os
@@ -24,7 +25,8 @@ def load_all():
     books = json.load(open(os.path.join(ROOT, 'data', 'lessons', 'books.json'), encoding='utf-8'))
     for bid, book in books.items():
         book['lessons'] = []
-        for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'lessons', bid, '*.json'))):
+        for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'lessons', bid, '*.json')),   # by book page, numerically (100-… after 98-…)
+                        key=lambda f: (int(re.match(r'\d+', os.path.basename(f)).group()), f) if re.match(r'\d', os.path.basename(f)) else (0, f)):
             lesson = json.load(open(f, encoding='utf-8'))
             lesson.update(id=os.path.basename(f)[:-5], book=bid, book_title=book['title'], source=book['source'],
                           root='../../../', section='lessons', lessons_link=True)
