@@ -1,0 +1,234 @@
+{
+  "title": "The traveller’s prayer",
+  "pages": "80–81",
+  "intro": "On a journey Allah makes Salah easier: the 4-rak‘ah fards become 2.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah wants ease for you, and He does not want hardship for you. <small>(Qur’an, Al-Baqarah 2:185)</small>"
+    },
+    {
+      "type": "text",
+      "html": "One of the most valuable deeds with Allah is a complete, humble Salah prayed <b>on time</b>. Sometimes life makes it hard to pray in the usual way – and one of those times is when a Muslim is <b>travelling</b>. So Allah has made it easier."
+    },
+    {
+      "type": "point",
+      "title": "Who is a traveller (musafir)?",
+      "html": "A <b>musafir</b> is a person who leaves the place where they live and travels <b>at least 80 kilometres</b> (about 50 miles) away."
+    },
+    {
+      "type": "heading",
+      "text": "✈️ What is easier for the traveller"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The fard prayers of 4 rak‘ahs are shortened to 2 rak‘ahs – the fard of Fajr and Maghrib are not shortened.",
+        "Witr is prayed in full, without shortening.",
+        "The sunnah prayers are not required. If there is free time, the traveller prays them in full, without shortening."
+      ]
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🌅",
+          "label": "Fajr fard: 2"
+        },
+        {
+          "icon": "☀️",
+          "label": "Dhuhr fard: 4 → 2"
+        },
+        {
+          "icon": "🌤️",
+          "label": "Asr fard: 4 → 2"
+        },
+        {
+          "icon": "🌇",
+          "label": "Maghrib fard: 3"
+        },
+        {
+          "icon": "🌙",
+          "label": "Isha fard: 4 → 2"
+        },
+        {
+          "icon": "⭐",
+          "label": "Witr: 3"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The traveller in congregation"
+    },
+    {
+      "type": "text",
+      "html": "When possible, the traveller prays in congregation (jama‘ah). If he joins people who live in that place (residents) and their imam is a resident, he <b>follows the imam without shortening</b> – he prays all 4 rak‘ahs. A traveller should avoid being the imam of residents. But if it happens, he shortens his own prayer to 2 rak‘ahs, and the residents behind him stand up and finish the <b>3rd and 4th rak‘ah on their own</b>."
+    },
+    {
+      "type": "heading",
+      "text": "Praying in a car, bus, train or plane"
+    },
+    {
+      "type": "text",
+      "html": "On a journey, a Muslim should plan stops so he can pray each Salah <b>on time</b>, using the ease Allah has given. If he cannot stop, he prays in the vehicle as well as he can: if possible he turns towards the Qiblah and prays <b>sitting</b>, making ruku‘ and sajdah <b>by bowing his head</b>. If it is possible, he prays standing. If he misses a prayer, he makes it up as soon as he can – the way he had to pray it on the journey, with the 4-rak‘ah fards shortened."
+    },
+    {
+      "type": "point",
+      "title": "✋ Remember!",
+      "html": "Nafl (extra) prayers may be prayed sitting if standing is difficult for us."
+    },
+    {
+      "type": "heading",
+      "text": "How long does the ease last?"
+    },
+    {
+      "type": "text",
+      "html": "If the traveller plans to stay in the place he travelled to for <b>up to 15 days</b>, he uses the ease the whole time he is there. If, when he sets off, he plans to stay <b>longer than 15 days</b>, he uses the ease only while he is on the way – when he arrives, the ease stops and he prays in full."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“The deeds most loved by Allah are: praying Salah on time, being good and obedient to parents, and striving in Allah’s way.”</i> <small>(Bukhari)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Shortened or not?",
+      "prompt": "Does the traveller shorten it?",
+      "bins": [
+        "✂️ Shortened to 2",
+        "✅ Prayed in full"
+      ],
+      "items": [
+        {
+          "text": "The fard of Dhuhr",
+          "bin": 0
+        },
+        {
+          "text": "The fard of Asr",
+          "bin": 0
+        },
+        {
+          "text": "The fard of Isha",
+          "bin": 0
+        },
+        {
+          "text": "The fard of Fajr",
+          "bin": 1
+        },
+        {
+          "text": "The fard of Maghrib",
+          "bin": 1
+        },
+        {
+          "text": "Witr",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Is he a musafir?",
+      "prompt": "Who counts as a traveller (musafir)? Tap them, then tap Check.",
+      "options": [
+        {
+          "text": "Amir drives 300 km to visit his aunt for a week",
+          "correct": true
+        },
+        {
+          "text": "Lejla flies abroad for a 5-day trip",
+          "correct": true
+        },
+        {
+          "text": "Hasan goes to the shop 2 km from his house",
+          "correct": false,
+          "why": "A musafir travels at least 80 km from home."
+        },
+        {
+          "text": "Sara visits her friend in the next street",
+          "correct": false,
+          "why": "That is not a journey – it is much less than 80 km."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How far must a person travel to be a musafir?",
+          "options": [
+            "At least 80 km",
+            "At least 5 km",
+            "At least 1,000 km",
+            "Any distance"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many rak‘ahs of fard does a traveller pray for Dhuhr on his own?",
+          "options": [
+            "2",
+            "4",
+            "3",
+            "1"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "A traveller joins a resident imam for Dhuhr. How many rak‘ahs does he pray?",
+          "options": [
+            "4 – he follows the imam without shortening",
+            "2 – and leaves the imam",
+            "3",
+            "He may not join"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "A traveller leads residents in Isha. What do the residents do after his salam?",
+          "options": [
+            "Stand up and finish the 3rd and 4th rak‘ah on their own",
+            "Nothing – they are finished",
+            "Start the whole prayer again",
+            "Pray Witr straight away"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "If a traveller can’t stand in a plane, how does he pray?",
+          "options": [
+            "Sitting, making ruku‘ and sajdah by bowing his head",
+            "He does not pray at all",
+            "Only in his mind",
+            "Lying down in the aisle"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Ali sets off planning to stay 20 days in another city. When does he use the ease?",
+          "options": [
+            "Only on the way",
+            "The whole 20 days",
+            "Never",
+            "Only on the way home"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 Who is a musafir? What is made easier for a traveller? How do you pray in a vehicle?",
+        "📋 A traveller stops at a mosque where the people are praying Dhuhr, and joins them behind the local imam. Write how he will pray Dhuhr.",
+        "🗺️ Imagine you are planning a trip to another city. Use a map app to find how many kilometres it is from where you live, and how many days you plan to stay. Are you a musafir? Which kinds of ease do you have in your Salah?",
+        "🤔 Choose one: How should a traveller act if residents ask him to be their imam? Which ease does a traveller have if he left after Fajr planning to stay 10 days with a friend? And if he plans to stay longer than 15 days?"
+      ]
+    }
+  ]
+}
