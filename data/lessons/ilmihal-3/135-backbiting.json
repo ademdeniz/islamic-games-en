@@ -1,0 +1,45 @@
+{
+  "title": "Backbiting",
+  "pages": "135",
+  "intro": "Talking about someone behind their back – a sin Allah compares to something truly disgusting.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: …and do not backbite one another. Would any of you like to eat the flesh of his dead brother? You would hate it! So be mindful of Allah – Allah accepts repentance and is Most Merciful. <small>(Qur’an, Al-Hujurat 49:12)</small>"},
+    {"type": "text", "html": "<b>Backbiting</b> (ghibah) – talking about people behind their back – was common among earlier generations, and it is still with us today."},
+    {"type": "text", "html": "It is not only a sin before Allah – it also leads to <b>hatred, arguments and hostility</b> among Muslim men and women. Our Lord compares backbiting with <b>eating the flesh of a dead brother</b>."},
+    {"type": "text", "html": "When people backbite, they often don’t think about the sin. They believe they have the right to say something about someone if it is true. But the Prophet (SAW) once asked the Companions: “Do you know what backbiting is?” They said: “Allah and His Messenger know best.” He said: <i>“It is mentioning your brother with something he would not like.”</i> They asked: “What if what I say about him is true?” He said: <i>“If it is true, you have backbitten him; and if it is not true, you have slandered him.”</i> <small>(Muslim)</small>"},
+    {"type": "text", "html": "Backbiting is connected to other sins, especially <b>envy</b> – people rarely speak badly about someone without some envy."},
+    {"type": "heading", "text": "Why people backbite"},
+    {"type": "list", "items": [
+      "not being able to stand certain people,",
+      "looking down on someone’s success,",
+      "envy of the blessings others have."
+    ]},
+    {"type": "text", "html": "The best way to protect ourselves is to understand that <b>everyone has faults</b> and certain weaknesses, so it is normal to expect mistakes from people. We should look at our <b>own</b> faults and weaknesses and work on them instead."},
+    {"type": "point", "title": "Hadith", "html": "In his Farewell Hajj the Prophet (SAW) said: <i>“Your lives, your property and your honour are as sacred to you as this day is sacred, in this city and in this month.”</i> <small>(Bukhari)</small>"},
+    {"type": "point", "title": "Hadith", "html": "<i>“Whoever believes in Allah and the Last Day, let him say something good or keep quiet.”</i> <small>(Bukhari and Muslim)</small>"}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Is this backbiting?", "prompt": "Tap every example of backbiting, then tap Check.", "options": [
+      {"text": "💬 Laughing about a classmate’s clothes when he isn’t there", "correct": true},
+      {"text": "📱 Sending a group chat message making fun of someone", "correct": true},
+      {"text": "🗣️ Telling others about a friend’s mistake – even though it is true", "correct": true},
+      {"text": "🙌 Telling your mother that your friend helped you today", "correct": false, "why": "Saying something good about someone is not backbiting."},
+      {"text": "🤫 Changing the topic when others start gossiping", "correct": false, "why": "That is the right thing to do: say something good or keep quiet."}
+    ]},
+    {"type": "order", "title": "The Prophet’s conversation", "prompt": "Put the conversation in the right order.", "items": [
+      "The Prophet (SAW) asks: “Do you know what backbiting is?”",
+      "The Companions answer: “Allah and His Messenger know best.”",
+      "He says: “Mentioning your brother with something he would not like.”",
+      "They ask: “What if it is true?”",
+      "He says: “If it is true, you backbit him; if not, you slandered him.”"
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What does Allah compare backbiting to?", "options": ["Eating the flesh of a dead brother", "Drinking cold water", "Losing a game", "Telling a joke"], "answer": 0},
+      {"q": "Is it backbiting if what you say is true?", "options": ["Yes – it is still backbiting", "No, then it is fine", "Only on Fridays", "Only if you say it loudly"], "answer": 0},
+      {"q": "Which sin is backbiting most often connected with?", "options": ["Envy", "Generosity", "Kindness", "Patience"], "answer": 0},
+      {"q": "What is the best way to protect yourself from backbiting?", "options": ["Work on your own faults instead of others’", "Talk only about strangers", "Whisper", "Use a fake name"], "answer": 0},
+      {"q": "What should a believer do instead?", "options": ["Say something good or keep quiet", "Say whatever they want", "Write it down instead", "Tell only best friends"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions, tasks and talking with your teacher", "prompts": ["💬 What is backbiting? What does Allah (SWT) compare it to?", "🔍 What are the causes of backbiting?", "👥 Task (choose one): what should you do if you are with people who start backbiting someone?", "🛡️ Task (choose one): what is the best and easiest way to guard against backbiting? Use the saying: “Whoever believes in Allah and the Last Day, let him say something good or keep quiet.”", "🤝 Talk with your teacher: “Whoever believes in Allah and the Last Day, let him say something good or keep quiet.”"]}
+  ]
+}
