@@ -1,0 +1,127 @@
+{
+  "title": "The rules of Ghusl",
+  "pages": "58",
+  "intro": "Ghusl is the religious bath that adults must take in certain states.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Besides bathing regularly and making wudu, in certain cases a full religious bath is required before Salah. It is called <b>ghusl</b>. Ghusl is required of adult Muslims when they are in a state called <b>janabah</b> (major impurity)."
+    },
+    {
+      "type": "text",
+      "html": "Before bathing, we make the niyyah in the heart and may say it:"
+    },
+    {
+      "type": "phrase",
+      "label": "The niyyah of ghusl",
+      "ar": "نَوَيْتُ الْغُسْلَ لِرَفْعِ الْجَنَابَةِ وَلِرَفْعِ الْحَدَثِ تَقَرُّبًا إِلَى اللَّهِ تَعَالَى",
+      "tr": "Nawaytul-ghusla li-raf‘il-janaabati wa li-raf‘il-hadathi taqarruban ilallaahi ta‘aalaa.",
+      "en": "I intend to bathe to remove impurity and to come closer to Allah, the Most High."
+    },
+    {
+      "type": "heading",
+      "text": "The three fard of ghusl"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "👄",
+          "label": "1. Gargarah – rinse the mouth and throat three times"
+        },
+        {
+          "icon": "👃",
+          "label": "2. Istinshaq – rinse the nose three times"
+        },
+        {
+          "icon": "🚿",
+          "label": "3. Ghaslul-wujud – wash the whole body so no part stays dry"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Sunnah of ghusl"
+    },
+    {
+      "type": "list",
+      "items": [
+        "say A‘udhu billah, Bismillah and the niyyah",
+        "wash off any visible dirt first",
+        "wash the body three times",
+        "start with the head, then the right side, then the left"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Disliked in ghusl",
+      "html": "Wasting a lot of water, talking while bathing, and asking someone else to help if it isn’t necessary."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The three fard of ghusl",
+      "prompt": "Put them in order.",
+      "items": [
+        "Rinse the mouth and throat",
+        "Rinse the nose",
+        "Wash the whole body"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is ghusl?",
+          "options": [
+            "A required religious bath",
+            "A kind of prayer",
+            "A dua",
+            "A meal"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many fard does ghusl have?",
+          "options": [
+            "Three",
+            "Four",
+            "Ten",
+            "One"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which part do we start washing with?",
+          "options": [
+            "The head",
+            "The feet",
+            "The left side",
+            "The hands only"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is disliked in ghusl?",
+          "options": [
+            "Wasting a lot of water",
+            "Saying Bismillah",
+            "Washing well",
+            "Making the niyyah"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 What is ghusl? What are its three fard?",
+        "💬 What are the sunnah acts of ghusl? What is disliked?"
+      ]
+    }
+  ]
+}
