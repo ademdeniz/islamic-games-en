@@ -1,0 +1,137 @@
+{
+  "title": "The consequences of sin",
+  "pages": "68–69",
+  "intro": "Allah knows what helps us and what harms us – that is why sin is forbidden.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Allah created people and knows best their nature, soul and body. Allah knows what helps people and what harms them – so people are forbidden to sin."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“A person sometimes says a word without thinking whether it is good or not, and because of it he is thrown into the Fire.”</i> <small>(Bukhari)</small>"
+    },
+    {
+      "type": "text",
+      "html": "A sinner will feel the greatest consequences of sin on the <b>Day of Judgement</b>, but many are seen already in this world. They harm the person, the family and society."
+    },
+    {
+      "type": "heading",
+      "text": "The consequences of sin"
+    },
+    {
+      "type": "list",
+      "items": [
+        "harm to mental and physical health",
+        "weakening or losing faith",
+        "loss of a person’s dignity",
+        "less provision (rizq) and blessing (barakah)",
+        "poverty in the family",
+        "various illnesses",
+        "weaker family ties and harmony",
+        "a weaker community",
+        "natural disasters – drought, floods",
+        "one sin leading to others"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) warned: <i>“When immorality appears among a people and is done openly, plagues and diseases come that earlier peoples did not know.”</i> <small>(Ibn Majah)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "The goal of life is happiness in this world and the next. To reach it, every Muslim must keep away from sin."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Small, major or serious?",
+      "prompt": "Which kind of sin is it?",
+      "bins": [
+        "Small",
+        "Major",
+        "Serious"
+      ],
+      "items": [
+        {
+          "text": "Talking during the adhan",
+          "bin": 0
+        },
+        {
+          "text": "Ignoring a Muslim for no reason",
+          "bin": 0
+        },
+        {
+          "text": "Lying",
+          "bin": 1
+        },
+        {
+          "text": "Disobeying parents",
+          "bin": 1
+        },
+        {
+          "text": "Alcohol",
+          "bin": 1
+        },
+        {
+          "text": "Insulting Islam’s holy things",
+          "bin": 2
+        },
+        {
+          "text": "Shirk",
+          "bin": 2
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Why is sin forbidden?",
+          "options": [
+            "Because it harms us",
+            "Because it is boring",
+            "For no reason",
+            "Because it is new"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where will the greatest consequences of sin be felt?",
+          "options": [
+            "On the Day of Judgement",
+            "Nowhere",
+            "Only at school",
+            "Only in the morning"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which is a consequence of sin?",
+          "options": [
+            "Less barakah",
+            "More health",
+            "Stronger families",
+            "More faith"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Choose your task",
+      "prompts": [
+        "💭 What are small sins – are they unimportant? Why?",
+        "💭 Why are some sins called major and not small?",
+        "💭 Why are serious sins called that? Which are they?",
+        "💬 Talk with your muallim: sin troubles and torments you!"
+      ]
+    }
+  ]
+}

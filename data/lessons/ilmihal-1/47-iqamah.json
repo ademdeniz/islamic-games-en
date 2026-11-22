@@ -1,0 +1,108 @@
+{
+  "title": "The Iqamah",
+  "pages": "47",
+  "intro": "The iqamah is said right before the fard prayer begins.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Men say the <b>iqamah</b> before praying a <b>fard</b> prayer. When we pray in jama‘ah, only the muezzin says the iqamah. The iqamah is said a little faster than the adhan."
+    },
+    {
+      "type": "text",
+      "html": "The iqamah is like the adhan, but after <b>Hayya ‘alal-falaah</b> we add twice:"
+    },
+    {
+      "type": "phrase",
+      "label": "Qad qaamatis-salaah (2×)",
+      "ar": "قَدْ قَامَتِ الصَّلَاةُ",
+      "tr": "Qad qaamatis-salaah",
+      "en": "The prayer is about to begin!"
+    },
+    {
+      "type": "heading",
+      "text": "The iqamah"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Allaahu akbar (4×)",
+        "Ash-hadu an laa ilaaha illallaah (2×)",
+        "Ash-hadu anna Muhammadan rasoolullaah (2×)",
+        "Hayya ‘alas-salaah (2×)",
+        "Hayya ‘alal-falaah (2×)",
+        "<b>Qad qaamatis-salaah (2×)</b>",
+        "Allaahu akbar (2×)",
+        "Laa ilaaha illallaah"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The iqamah in order",
+      "prompt": "Put the iqamah in order.",
+      "items": [
+        "Allaahu akbar",
+        "Ash-hadu an laa ilaaha illallaah",
+        "Ash-hadu anna Muhammadan rasoolullaah",
+        "Hayya ‘alas-salaah",
+        "Hayya ‘alal-falaah",
+        "Qad qaamatis-salaah",
+        "Laa ilaaha illallaah"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When is the iqamah said?",
+          "options": [
+            "Right before the fard prayer",
+            "At sunrise",
+            "After eating",
+            "Before sleeping"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who says the iqamah in jama‘ah?",
+          "options": [
+            "The muezzin",
+            "Everyone",
+            "The children",
+            "Nobody"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is added in the iqamah?",
+          "options": [
+            "Qad qaamatis-salaah – the prayer is beginning",
+            "Prayer is better than sleep",
+            "Ameen",
+            "Bismillah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Is the iqamah said faster or slower than the adhan?",
+          "options": [
+            "A little faster",
+            "Much slower",
+            "The same",
+            "It is silent"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Task",
+      "prompts": [
+        "🎙️ All the boys say the iqamah and the girls give marks! The winner says the iqamah in the masjid."
+      ]
+    }
+  ]
+}

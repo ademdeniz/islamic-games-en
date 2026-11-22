@@ -1,0 +1,165 @@
+{
+  "title": "Kinds of sins – small sins",
+  "pages": "65",
+  "intro": "A sin is anything Allah forbade. Small sins must not be taken lightly.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Luqman told his son: O my son, even if a deed – good or bad – were the weight of a mustard seed, inside a rock, in the heavens or in the earth, Allah will bring it out. Allah is Subtle, All-Aware. <small>(Qur’an, Luqman 31:16)</small>"
+    },
+    {
+      "type": "text",
+      "html": "A <b>sin</b> is anything Allah has forbidden, crossing His limits, and neglecting the Islamic duties. Sins differ in how harmful and how big they are. Sins can be <b>public</b> or <b>secret</b>; <b>visible</b> – done with the hands, feet and so on – or <b>invisible</b> – done with the heart, like hatred, envy or insincerity. There are sins against Allah and sins against His creatures."
+    },
+    {
+      "type": "text",
+      "html": "Sins are divided into <b>small</b>, <b>major</b> and <b>serious</b> sins."
+    },
+    {
+      "type": "point",
+      "title": "Small sins",
+      "html": "Small sins are those with no set punishment in the Shari‘ah and no open threat of Jahannam. But if someone keeps doing small sins and thinks they don’t matter, that becomes a <b>major</b> sin."
+    },
+    {
+      "type": "heading",
+      "text": "Some small sins"
+    },
+    {
+      "type": "list",
+      "items": [
+        "talking while the adhan or iqamah is being called",
+        "missing the prayer in jama‘ah without a good reason",
+        "talking while the Qur’an is being recited",
+        "facing the Qiblah when using the toilet",
+        "listening to backbiting",
+        "ignoring a Muslim without a reason"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“There is no small sin that will not grow into a major one if it is taken lightly, and no major sin that tawbah and asking forgiveness will not turn into a small one.”</i> <small>(Daylami)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "Small sins can be wiped away by <b>tawbah</b> or by <b>good deeds</b>. Small sins are the road to major ones – so we must not do them, even though they have no set punishment."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Visible or invisible?",
+      "prompt": "Is the sin done with the body or with the heart?",
+      "bins": [
+        "👐 Visible – with the body",
+        "💭 Invisible – with the heart"
+      ],
+      "items": [
+        {
+          "text": "Hitting someone",
+          "bin": 0
+        },
+        {
+          "text": "Taking what isn’t ours",
+          "bin": 0
+        },
+        {
+          "text": "Hatred",
+          "bin": 1
+        },
+        {
+          "text": "Envy",
+          "bin": 1
+        },
+        {
+          "text": "Insincerity",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Small sins",
+      "prompt": "Tap the small sins from the lesson, then tap Check.",
+      "options": [
+        {
+          "text": "Talking during the adhan",
+          "correct": true
+        },
+        {
+          "text": "Talking while the Qur’an is recited",
+          "correct": true
+        },
+        {
+          "text": "Listening to backbiting",
+          "correct": true
+        },
+        {
+          "text": "Ignoring a Muslim for no reason",
+          "correct": true
+        },
+        {
+          "text": "Helping a friend with homework",
+          "correct": false,
+          "why": "That is a good deed, not a sin."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is a sin?",
+          "options": [
+            "Anything Allah has forbidden",
+            "Anything that is fun",
+            "Anything new",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How are sins divided?",
+          "options": [
+            "Small, major and serious",
+            "Big and bigger",
+            "Morning and evening",
+            "There is only one kind"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happens if we keep doing small sins and think they don’t matter?",
+          "options": [
+            "They become a major sin",
+            "Nothing",
+            "They disappear",
+            "They become good deeds"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How are small sins wiped away?",
+          "options": [
+            "By tawbah and good deeds",
+            "By forgetting them",
+            "By doing more",
+            "They can’t be"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions",
+      "prompts": [
+        "💬 What is a sin? What are public and secret sins?",
+        "💬 What are small sins? Give some examples. How are they wiped away?"
+      ]
+    }
+  ]
+}
