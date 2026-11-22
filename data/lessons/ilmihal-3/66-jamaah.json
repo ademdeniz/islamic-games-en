@@ -1,0 +1,42 @@
+{
+  "title": "The meaning of the jama‘ah and praying in congregation",
+  "pages": "66–67",
+  "intro": "The jama‘ah is the Muslim community – and the rows of Salah are the best picture of its strength.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "The believing men and women are allies of one another: they call to good and forbid evil, establish prayer, give zakah and obey Allah and His Messenger. Allah will have mercy on them – Allah is Almighty, All-Wise. <small>(Qur’an, At-Tawbah 9:71)</small>"},
+    {"type": "text", "html": "The <b>jama‘ah</b> is the Muslim community in which Muslims respect, love, help and advise one another. The word comes from an Arabic word meaning to gather and unite; from the same root comes the word <b>jami‘</b> (masjid) – Allah’s house where Muslims gather to worship Him."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Whoever wants the middle of Jannah, let him stay with the jama‘ah, for Shaytan is with the one who is alone, and further from two…”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "Showing the value of community, the Prophet (SAW), when he came to Madinah, built the <b>Madinah community</b> and its masjid. Its purpose was to grow love for Allah and His Messenger and brotherly love between the Muhajirun and the Ansar – the masjid was the place where they worked together and helped one another."},
+    {"type": "text", "html": "The jama‘ah and the masjid are very important in a Muslim’s life: places of peace and harmony, where good work and journeys begin, where problems a person can’t solve alone are solved, places of advice and brotherly love. Allah tells us: <i>The believers are but brothers.</i> <small>(Qur’an, Al-Hujurat 49:10)</small>"},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) always prayed in jama‘ah and said: <i>“Prayer in congregation is worth twenty-seven times more than prayer alone.”</i> <small>(Bukhari)</small>"},
+    {"type": "heading", "text": "The meaning of praying in jama‘ah"},
+    {"type": "list", "items": [
+      "it teaches us that people are social beings, and our coming into the world, life and going to the akhirah are tied to a community",
+      "standing in rows shows the strength of the community and grows a feeling of unity",
+      "standing in a row reminds us that we are equal before Allah, whatever our colour, race or wealth",
+      "it teaches cleanliness, hygiene, punctuality and accuracy",
+      "praying together grows love, compassion and mercy among Muslims",
+      "the time before and after Salah is a chance to talk and help those with problems",
+      "the rows remind us of standing before Allah on the Day of Judgement",
+      "only a strong community that cares for each member and is united guarantees success for each of us"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Since Islam has existed, the jama‘ah has existed. Every link in the chain gives the jama‘ah strength. The rows are the best picture of the jama‘ah’s strength."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "What does praying in jama‘ah teach us?", "prompt": "Tap everything, then tap Check.", "options": [
+      {"text": "🤝 We are equal before Allah", "correct": true},
+      {"text": "💪 The strength of unity", "correct": true},
+      {"text": "⏰ Being on time", "correct": true},
+      {"text": "❤️ Love and mercy among Muslims", "correct": true},
+      {"text": "🏃 To finish quickly and leave", "correct": false, "why": "The time before and after Salah is a chance to help and talk with others."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is the jama‘ah?", "options": ["The Muslim community that loves and helps each other", "A building only", "A kind of fasting", "A book"], "answer": 0},
+      {"q": "What did the Prophet (SAW) do first when he came to Madinah?", "options": ["Built the community and its masjid", "Built a palace", "Went to war", "Went back to Makkah"], "answer": 0},
+      {"q": "How much more is prayer in congregation worth?", "options": ["27 times", "2 times", "100 times", "The same"], "answer": 0},
+      {"q": "Where is the unity of the jama‘ah seen most clearly?", "options": ["In praying together in rows", "In the market", "At school", "In sport"], "answer": 0},
+      {"q": "What does standing in rows remind us of?", "options": ["Standing before Allah on the Day of Judgement", "Waiting for a bus", "A queue for food", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk and tasks", "prompts": ["🕌 How many Muslims in your jama‘ah regularly pray the five prayers and come to the masjid?", "🤝 Describe the relationships among Muslims in your jama‘ah. What would you change or improve?", "📖 Talk with your muallim: “Hold firmly together to the rope of Allah and do not be divided.” (Qur’an, Ali ‘Imran 3:103)"]}
+  ]
+}

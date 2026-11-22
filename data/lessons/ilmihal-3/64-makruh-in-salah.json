@@ -1,0 +1,47 @@
+{
+  "title": "What is disliked (makruh) in Salah",
+  "pages": "64",
+  "intro": "Things a Muslim should avoid in Salah – they disturb a calm and dignified prayer.",
+  "learn": [
+    {"type": "text", "html": "<b>Makruh</b> things are acts that are disliked for a Muslim and should be avoided. In Salah, makruh means leaving out a sunnah without meaning to, or doing something that is not part of Salah and disturbs a calm, dignified prayer."},
+    {"type": "heading", "text": "Makruh in Salah"},
+    {"type": "list", "items": [
+      "turning, adjusting clothes or something else during Salah",
+      "kneeling or sitting improperly without need",
+      "answering a salam with the hand, a gesture or a nod",
+      "looking up",
+      "closing the eyes without need",
+      "yawning or stretching",
+      "making the second rak‘ah longer than the first",
+      "reciting the same surah in both rak‘ahs of a fard (unless you know only one)",
+      "reciting in the second rak‘ah a surah that comes before the one in the first (e.g. Al-Masad after Al-Ikhlas)",
+      "skipping just one surah between two rak‘ahs (e.g. Al-Ikhlas, then An-Nas)",
+      "going into ruku‘ or sajdah before the imam and coming back with him",
+      "praying when food is served and you are hungry",
+      "praying in a row when there is a gap in the row in front",
+      "praying in clothes with pictures of living beings, or in a room with such pictures",
+      "praying facing an open flame or on a busy path",
+      "praying on someone else’s land without the owner’s permission",
+      "praying in the open without putting a sutrah (a stick about 80 cm high) in front"
+    ]},
+    {"type": "text", "html": "Some of these stop being makruh if the prayer time is running out, or if we might miss the jama‘ah – for example, if the time is about to end, we pray even in a room with pictures rather than lose the prayer."},
+    {"type": "point", "title": "⭐ Remember", "html": "If we do something makruh, we do <b>not</b> have to repeat the Salah – but we should avoid it and take care to do the sunnah acts."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Makruh or fine?", "prompt": "Tap everything that is makruh in Salah, then tap Check.", "options": [
+      {"text": "👀 Looking up", "correct": true},
+      {"text": "🥱 Yawning and stretching", "correct": true},
+      {"text": "👕 Fixing your clothes again and again", "correct": true},
+      {"text": "🍽️ Praying while hungry food is on the table", "correct": true},
+      {"text": "📍 Looking at the place of sajdah", "correct": false, "why": "That is what we should do in Salah."},
+      {"text": "🧍 Standing calmly in a straight row", "correct": false, "why": "That is good – it is part of praying properly."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is makruh?", "options": ["Something disliked that we should avoid", "Something fard", "Something wajib", "Something that breaks Salah"], "answer": 0},
+      {"q": "Must we repeat Salah if we do something makruh?", "options": ["No – but we should avoid it", "Yes, always", "Only twice", "Only in jama‘ah"], "answer": 0},
+      {"q": "In rak‘ah 1 you recite Al-Ikhlas. Which is makruh in rak‘ah 2?", "options": ["Al-Masad (it comes before Al-Ikhlas)", "Al-Falaq", "An-Nas after skipping two", "None"], "answer": 0},
+      {"q": "What is a sutrah?", "options": ["A stick about 80 cm high put in front of someone praying", "A prayer mat", "A kind of dua", "A row"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Choose your task", "prompts": ["🌾 On a trip you stop in a field to pray Dhuhr; its time is nearly over and you don’t know the owner. Praying on land without permission is makruh – but the prayer time is ending. What do you do?", "🤔 Someone prayed Dhuhr and forgot Al-Fatiha before the surah. They remembered only after the last sitting, right after the sajdah, and gave the salam. What should they do?"]}
+  ]
+}

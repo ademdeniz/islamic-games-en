@@ -1,0 +1,46 @@
+{
+  "title": "Let’s review what we learned",
+  "pages": "40–42",
+  "intro": "Adam (AS), Allah, the angels, the books, the Qur’an, qadar, Salah and the pillars of Islam – let’s repeat.",
+  "learn": [
+    {"type": "text", "html": "Let’s repeat what we have learned so far this year. Try the activities, then answer the questions with your muallim."},
+    {"type": "heading", "text": "Fill in the gaps"},
+    {"type": "list", "items": [
+      "Allah, the Most High, ________ Adam (AS) from ________, and breathed into him a ________. Then He commanded the ________ to make sajdah to him, and they did. With them was Iblis, who ________, became arrogant and became ________.",
+      "Allah alone is worthy of our ________ and worship; only to Him we ________ and only from Him we ________. He has 99 ________, and His own name is ________.",
+      "The Qur’an is Allah’s ________ revelation, sent to His last Messenger ________ (SAW). It began on the night of ________ in the month of ________ in the year ____, in the cave of ________ on Mount ________. It was revealed over ____ years: ____ in Makkah and ____ in Madinah. It has ____ surahs and over ____ thousand ayahs, in ____ juz’.",
+      "Once the companions asked about qadar, and the Prophet (SAW) said: “Know that what reached you could not have ________ you, and what missed you could not have ________ you.”"
+    ]},
+    {"type": "heading", "text": "Answer the questions"},
+    {"type": "list", "items": [
+      "When was Salah given to the believers, and who showed in practice how to pray it?",
+      "When do we make sajdat as-sahw, and how?",
+      "Which part of Salah do we make up, and which not?",
+      "What is fasting? What is zakah? What is Hajj?",
+      "What is the first pillar of iman? What are the sifat?",
+      "Write what you know about the last Messenger, Muhammad (SAW)."
+    ]}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the angel and the duty", "pairs": [
+      ["Jibril", "Brought revelation to the messengers"], ["Mika’il", "In charge of nature (rain, plants)"], ["Israfil", "Will blow the trumpet at the end of the world"], ["Malak al-Mawt", "Takes the soul from the body"], ["Kiraman Katibin", "Write our good and bad deeds"], ["Munkar and Nakir", "Question people in the grave"], ["Ridwan", "Guardian of Jannah"], ["Malik", "Guardian of Jahannam"]
+    ]},
+    {"type": "choose_all", "title": "True or false?", "prompt": "Tap every sentence that is TRUE, then tap Check.", "options": [
+      {"text": "The Tawrat was revealed to Musa (AS).", "correct": true},
+      {"text": "The dunya is this world.", "correct": true},
+      {"text": "The Zabur was revealed to Shith (AS).", "correct": false, "why": "The Zabur was revealed to Dawud (AS)."},
+      {"text": "The Injil was revealed to Idris (AS).", "correct": false, "why": "The Injil was revealed to ‘Isa (AS)."},
+      {"text": "The Qur’an was not revealed to Muhammad (SAW).", "correct": false, "why": "The Qur’an was revealed to Muhammad (SAW)."},
+      {"text": "Allah’s messengers were angels.", "correct": false, "why": "The messengers were people chosen by Allah."},
+      {"text": "The akhirah is a world that does not last for ever.", "correct": false, "why": "The akhirah is eternal."},
+      {"text": "Death is the end, and there is nothing after it.", "correct": false, "why": "After death comes the barzakh and then the akhirah."}
+    ]},
+    {"type": "order", "title": "The Shahadah in order", "prompt": "Put the words of the Shahadah in the right order.", "items": ["Ash-hadu", "an laa ilaaha", "illallaah", "wa ash-hadu", "anna Muhammadan", "‘abduhu wa rasooluh"]},
+    {"type": "choose_all", "title": "Making up prayers – true or false?", "prompt": "Tap every sentence that is TRUE, then tap Check.", "options": [
+      {"text": "When I make up Fajr on the same day after sunrise, I pray both the sunnah and the fard.", "correct": true},
+      {"text": "When I miss a prayer, I make up the sunnah first and then the fard.", "correct": false, "why": "We make up only the fard (and witr) – except the sunnah of Fajr on the same day."},
+      {"text": "I make up eight missed prayers before the prayer of the time.", "correct": false, "why": "With six or more missed prayers, we pray the prayer of the time first."}
+    ]},
+    {"type": "reflect", "title": "Task", "prompts": ["📋 Fill in a table for joining the congregation late: which rak‘ahs you prayed behind the imam and which you make up after his salam (see the lesson “Joining the congregation late”).", "📝 Write what you know about the last Messenger, Muhammad (SAW)."]}
+  ]
+}

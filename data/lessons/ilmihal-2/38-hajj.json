@@ -1,0 +1,34 @@
+{
+  "title": "Fifth pillar of Islam – Hajj",
+  "pages": "38–39",
+  "intro": "Visiting the Ka‘bah and the holy places at a set time – once in a lifetime, for whoever is able.",
+  "learn": [
+    {"type": "text", "html": "The fifth Islamic duty is <b>Hajj</b>. Hajj means visiting the <b>Ka‘bah</b> and the other holy places at an exact time. The rites of Hajj are done from the <b>9th to the 13th of Dhul-Hijjah</b> – the day before and the days of Eid al-Adha."},
+    {"type": "text", "html": "Every Muslim man and woman must do Hajj <b>once in a lifetime</b>, if they can pay for the journey and support their family until they come back."},
+    {"type": "heading", "text": "The three fard parts of Hajj"},
+    {"type": "list", "items": [
+      "<b>Ihram</b> – making the intention to enter the rites of Hajj, while saying the talbiyah",
+      "<b>Standing at ‘Arafat</b> – the pilgrims stay on the plain of ‘Arafat on the 9th of Dhul-Hijjah",
+      "<b>Tawaf</b> – going around the Ka‘bah seven times, after dawn on the first day of Eid al-Adha (tawaf al-ifadah)"
+    ]},
+    {"type": "phrase", "label": "The talbiyah", "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ", "tr": "Labbaykallaahumma labbayk. Labbayka laa shareeka laka labbayk. Innal-hamda wan-ni‘mata laka wal-mulk. Laa shareeka lak.", "en": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. All praise and blessings are Yours, and the dominion. You have no partner."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“For an accepted Hajj there is no reward except Jannah.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "text", "html": "At ‘Arafat the pilgrims wear the white <b>ihram</b>: clean, white, unsewn clothing of two pieces for men; for women, the ihram is their usual modest clothing. Hajj time is also <b>Eid al-Adha</b>, when those not on Hajj offer a <b>qurbani</b> (sacrifice) to Allah. On the journey, pilgrims also visit the Prophet’s Masjid in <b>Madinah</b> and other holy places."},
+    {"type": "point", "title": "⭐ Remember", "html": "One of the conditions for a valid Hajj is going around the Ka‘bah – <b>tawaf</b> – seven times."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Hajj words", "pairs": [
+      ["Ihram", "White clothing and the intention for Hajj"], ["‘Arafat", "Where pilgrims stand on the 9th"], ["Tawaf", "Going around the Ka‘bah 7 times"], ["Talbiyah", "Labbaykallaahumma labbayk"], ["Qurbani", "The sacrifice at Eid al-Adha"]
+    ]},
+    {"type": "order", "title": "The three fard of Hajj in order", "prompt": "Put them in order.", "items": ["Ihram", "Standing at ‘Arafat", "Tawaf al-ifadah"]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which pillar of Islam is Hajj?", "options": ["The fifth", "The first", "The third", "The fourth"], "answer": 0},
+      {"q": "How often must a Muslim who is able do Hajj?", "options": ["Once in a lifetime", "Every year", "Every month", "Never"], "answer": 0},
+      {"q": "When are the rites of Hajj?", "options": ["9th–13th of Dhul-Hijjah", "In Ramadan", "In Rajab", "Any time"], "answer": 0},
+      {"q": "Where are the pilgrims on the 9th of Dhul-Hijjah?", "options": ["At ‘Arafat", "In Madinah", "At home", "In Jerusalem"], "answer": 0},
+      {"q": "How many times do pilgrims go around the Ka‘bah in tawaf?", "options": ["Seven", "Three", "Five", "Ten"], "answer": 0},
+      {"q": "What is the reward for an accepted Hajj?", "options": ["Jannah", "Gold", "A new house", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk with a hajji", "prompts": ["🗣️ Talk to someone who has done Hajj. Write down their experiences and feelings and tell them in the maktab.", "💬 What is Hajj? What are the fard parts of Hajj?", "📿 With your muallim, learn the talbiyah in Arabic and in English."]}
+  ]
+}

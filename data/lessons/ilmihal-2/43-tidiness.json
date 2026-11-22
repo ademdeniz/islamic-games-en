@@ -1,0 +1,31 @@
+{
+  "title": "A Muslim is tidy",
+  "pages": "43–44",
+  "intro": "Allah loves tidiness – in our body, our clothes, our home and everything we do.",
+  "learn": [
+    {"type": "text", "html": "Besides keeping our home and yard clean, Islam asks Muslims to keep their <b>body and clothes tidy</b>, and to be tidy in everything they do. <b>Tidiness</b> includes cleanliness, and adds beauty and order to how we dress and behave – at home and wherever we work. Allah loves tidiness, so He commanded Muslims to be tidy."},
+    {"type": "point", "title": "The Prophet (SAW) was always tidy", "html": "The Prophet (SAW) was an example of tidiness in every way. With his tidiness he won the hearts of strangers, and they accepted Islam. ‘A’ishah (RA) said: <i>“I never saw Allah’s Messenger untidy. He sometimes used oil on his hair, combed it regularly, and said: ‘Allah does not love dirt and untidiness.’”</i> <small>(Bayhaqi)</small>"},
+    {"type": "heading", "text": "Islamic manners of tidiness"},
+    {"type": "list", "items": ["a clean body", "clean, tidy clothes", "good manners while eating", "staying away every day from everything that is improper"]},
+    {"type": "text", "html": "We must get used to tidiness from childhood. The believers will be <b>rewarded</b> by Allah for tidiness in this world and the next."},
+    {"type": "heading", "text": "🎵 Tidiness"},
+    {"type": "text", "html": "<i>Allah loves tidiness and cleanliness,<br>so be like that at home and school.<br>What is tidiness? you often ask –<br>the answer is short: everything in its place.<br><br>When you get up in the morning, get going:<br>visit the bathroom and make your bed.<br>Books, notebooks and pencils know their place,<br>trainers and shoes are shining bright.<br><br>At home and at school, at maktab and in the park,<br>I’ll be like that at every step.<br>Why will I be tidy? To make my parents happy –<br>the Prophet said: if your parent is pleased with you, Jannah is yours.</i><br><small>(English translation)</small>"},
+    {"type": "point", "title": "⭐ Remember", "html": "I may not have great wealth, but I am <b>clean and tidy</b>!"}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "A tidy morning", "prompt": "Tap everything a tidy Muslim does, then tap Check.", "options": [
+      {"text": "🛏️ Makes the bed", "correct": true},
+      {"text": "🪥 Brushes teeth and washes", "correct": true},
+      {"text": "🎒 Puts books and pencils back in their place", "correct": true},
+      {"text": "👟 Keeps shoes clean", "correct": true},
+      {"text": "🧦 Leaves clothes on the floor", "correct": false, "why": "Everything in its place – tidy clothes are part of a Muslim’s manners."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What does tidiness include?", "options": ["Cleanliness, beauty and order in how we dress and behave", "Only washing hands", "Only a clean room", "Nothing"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say about dirt and untidiness?", "options": ["Allah does not love them", "They don’t matter", "They are fine at home", "They are good"], "answer": 0},
+      {"q": "Who said she never saw the Prophet (SAW) untidy?", "options": ["‘A’ishah (RA)", "Khadijah (RA)", "Fatimah (RA)", "Maryam (AS)"], "answer": 0},
+      {"q": "When should we start getting used to tidiness?", "options": ["From childhood", "When we are old", "Only before Eid", "Never"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What does tidiness mean? Describe the Prophet’s tidiness.", "📋 Make a daily plan for keeping your body, your clothes, the place where you pray and the rest of the house clean and tidy."]}
+  ]
+}

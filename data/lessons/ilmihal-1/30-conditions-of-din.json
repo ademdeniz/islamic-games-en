@@ -1,0 +1,31 @@
+{
+  "title": "The conditions of the religion (din)",
+  "pages": "30",
+  "intro": "Din means religion, and shart means condition. There are 33 conditions of the religion.",
+  "learn": [
+    {"type": "text", "html": "<b>Din</b> means religion, and <b>shart</b> means condition. The conditions of the religion are the conditions or actions every adult must fulfil for complete faith. There are <b>thirty-three</b> of them:"},
+    {"type": "cards", "items": [
+      {"icon": "6️⃣", "label": "6 conditions of iman (faith)"},
+      {"icon": "5️⃣", "label": "5 conditions of Islam"},
+      {"icon": "4️⃣", "label": "4 of wudu"},
+      {"icon": "3️⃣", "label": "3 of tayammum"},
+      {"icon": "3️⃣", "label": "3 of ghusl"},
+      {"icon": "🔢", "label": "12 of Salah"}
+    ]},
+    {"type": "text", "html": "6 + 5 + 4 + 3 + 3 + 12 = <b>33</b>"},
+    {"type": "point", "title": "Ihsan", "html": "<b>Ihsan</b> is the highest level of awareness of Allah, the Most High – <b>as if we see Him</b>, because even if we do not see Him, <b>He sees us</b>. This belief helps us keep fulfilling the conditions of the religion."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "How many conditions?", "pairs": [
+      ["Iman", "6"], ["Islam", "5"], ["Wudu", "4"], ["Salah", "12"], ["All together", "33"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What does din mean?", "options": ["Religion", "Food", "House", "Friend"], "answer": 0},
+      {"q": "What does shart mean?", "options": ["Condition", "Prayer", "Book", "Angel"], "answer": 0},
+      {"q": "How many conditions of the religion are there?", "options": ["33", "5", "6", "99"], "answer": 0},
+      {"q": "How many conditions of Salah are there?", "options": ["12", "3", "4", "6"], "answer": 0},
+      {"q": "What is ihsan?", "options": ["Worshipping Allah as if we see Him, knowing He sees us", "A kind of food", "A city", "A surah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Answer", "prompts": ["💬 What do din and shart mean?", "🔢 How many conditions of the religion are there, and which are they?", "👀 What is ihsan, and how does it help us?"]}
+  ]
+}

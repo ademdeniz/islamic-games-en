@@ -1,0 +1,44 @@
+{
+  "title": "The sunnah acts of Salah",
+  "pages": "63",
+  "intro": "What the Prophet (SAW) did in Salah and taught us to do – they make Salah more complete.",
+  "learn": [
+    {"type": "text", "html": "Believers should do the <b>sunnah acts</b> of Salah, because the Prophet Muhammad (SAW) did them and asked us to do them. If we leave one out, we do <b>not</b> have to repeat the Salah."},
+    {"type": "heading", "text": "The sunnah acts of Salah"},
+    {"type": "list", "items": [
+      "at the opening takbir, men raise their hands to their ears and women to their shoulders",
+      "in qiyam, folding the hands – men below the navel, right hand over left, holding the left wrist with thumb and little finger; women on the chest, right hand on the left",
+      "in qiyam, standing with the feet a hand’s width apart",
+      "reciting Subhanaka and A‘udhu billah in the first rak‘ah",
+      "reciting Bismillah before Al-Fatiha in every rak‘ah",
+      "saying <i>Ameen</i> quietly after Al-Fatiha",
+      "in ruku‘, holding the knees with the fingers",
+      "saying <i>Sami‘allaahu liman hamidah</i> and <i>Rabbanaa lakal-hamd</i>",
+      "saying the takbir when moving from one part of Salah to the next",
+      "saying <i>Subhaana Rabbiyal-‘Azeem</i> in ruku‘ and <i>Subhaana Rabbiyal-A‘laa</i> in sajdah",
+      "going down to sajdah: first the knees, then the palms, then the face – and the reverse when getting up",
+      "in sajdah, putting the forehead and nose down, fingers together and pointing to the Qiblah",
+      "men sitting on the left foot with the right foot upright, toes toward the Qiblah; women with both feet to the right side",
+      "putting the hands on the thighs or knees in the sitting between the two sajdahs",
+      "in sajdah, men keeping the stomach away from the knees and the elbows away from the body; women keeping them close",
+      "in the last sitting, and in the first sitting of the sunnah of Asr and Isha, reciting the salawat and duas after At-Tahiyyat",
+      "raising the right index finger at the Shahadah in At-Tahiyyat",
+      "giving the salam first to the right, then to the left"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "By doing the sunnah acts our Salah is more <b>complete</b> and humble, and we are more present in our conversation with the All-High Lord."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "What do we say?", "pairs": [
+      ["After Al-Fatiha", "Ameen"], ["Rising from ruku‘", "Sami‘allaahu liman hamidah"], ["In ruku‘", "Subhaana Rabbiyal-‘Azeem"], ["In sajdah", "Subhaana Rabbiyal-A‘laa"], ["Moving to a new position", "Allaahu akbar"]
+    ]},
+    {"type": "order", "title": "Going down to sajdah", "prompt": "What touches the ground first? Put them in order.", "items": ["The knees", "The palms", "The face – forehead and nose"]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Must we repeat Salah if we leave out a sunnah act?", "options": ["No", "Yes, always", "Only in Fajr", "Only in jama‘ah"], "answer": 0},
+      {"q": "How high do men raise their hands at the opening takbir?", "options": ["To the ears", "Above the head", "To the waist", "Not at all"], "answer": 0},
+      {"q": "When do we raise the right index finger?", "options": ["At the Shahadah in At-Tahiyyat", "In ruku‘", "At the salam", "In qiyam"], "answer": 0},
+      {"q": "Which side do we give the salam to first?", "options": ["The right", "The left", "Forward", "Both at once"], "answer": 0},
+      {"q": "Why should we do the sunnah acts?", "options": ["The Prophet (SAW) did them and they make Salah more complete", "They are fard", "To finish faster", "There is no reason"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What are the sunnah acts of Salah, and what do we gain by doing them?", "🤔 Someone leaves out two wajibs and one sunnah, and in the last sitting realises it. What should they do, and why?", "💬 Talk with your muallim: “The worst thief is the one who steals from his own Salah.”"]}
+  ]
+}

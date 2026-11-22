@@ -1,0 +1,36 @@
+{
+  "title": "Let’s repeat what we learned",
+  "pages": "29",
+  "intro": "Subhanaka, Al-Fatiha, Allah, the Prophet (SAW), Hasbi Rabbi and the right side – let’s repeat!",
+  "learn": [
+    {"type": "text", "html": "Let’s repeat! Say the missing word out loud with your muallim:"},
+    {"type": "list", "items": [
+      "At the start of every Salah we recite ________. With these words we glorify and ________ Allah, the Most High.",
+      "Al-Fatiha is the first surah in the ________. We recite it in Salah. It starts with: Al-hamdu lillaahi ________.",
+      "Our Lord is ________. He is the Creator of everything that ________. He gives us a happy ________.",
+      "When we say Allah’s name we say ________, which means the Most High.",
+      "The last Messenger of Allah is ________ (SAW). He was born in the city of ________.",
+      "His parents, ________ and ________, died early. He grew up with his grandfather ________.",
+      "When he was ____ years old, Allah began to send him the revelation of the noble ________.",
+      "A Muslim relies only on ________ (Hasbi Rabbi).",
+      "Islam gives priority to the ________ side. We eat with the ________ hand."
+    ]}
+  ],
+  "practice": [
+    {"type": "quiz", "title": "Fill in the gap", "questions": [
+      {"q": "At the start of every Salah we recite…", "options": ["Subhanaka", "Al-Ikhlas", "The adhan", "The salam"], "answer": 0},
+      {"q": "Al-Fatiha is the first surah in the…", "options": ["Qur’an", "Hadith", "Ilmihal", "Sufara"], "answer": 0},
+      {"q": "Al-Fatiha starts: Al-hamdu lillaahi…", "options": ["Rabbil-‘aalameen", "Ahad", "Akbar", "Wa barakaatuh"], "answer": 0},
+      {"q": "When we say Allah’s name we add…", "options": ["Jalla jalaaluhu (SWT)", "Alayhis-salaam", "Radiyallahu ‘anhu", "Nothing"], "answer": 0},
+      {"q": "In which city was Muhammad (SAW) born?", "options": ["Makkah", "Madinah", "Jerusalem", "Cairo"], "answer": 0},
+      {"q": "Who looked after him after his parents died?", "options": ["His grandfather ‘Abd al-Muttalib", "His uncle Abu Lahab", "Nobody", "His brother"], "answer": 0},
+      {"q": "How old was he when the revelation began?", "options": ["40", "10", "20", "60"], "answer": 0},
+      {"q": "When we say the Prophet’s name we add…", "options": ["Sallallaahu ‘alayhi wa sallam (SAW)", "Jalla jalaaluhu", "Ameen", "Bismillah"], "answer": 0},
+      {"q": "Which hand do we eat with?", "options": ["The right", "The left", "Both", "Neither"], "answer": 0}
+    ]},
+    {"type": "memory", "title": "Match the words", "pairs": [
+      ["Subhanaka", "At the start of Salah"], ["Al-Fatiha", "The first surah"], ["Hasbi Rabbi", "Allah is enough for me"], ["(SWT)", "Said after Allah’s name"], ["(SAW)", "Said after the Prophet’s name"]
+    ]},
+    {"type": "reflect", "title": "Say it", "prompts": ["🗣️ Say Subhanaka and its meaning.", "🗣️ Recite Al-Fatiha to your muallim.", "👟 Show how we put on and take off shoes the right way!"]}
+  ]
+}
