@@ -1,0 +1,153 @@
+{
+  "title": "The prayer of the sick",
+  "pages": "82",
+  "intro": "Illness does not cut us off from Allah – a sick person prays in the way they are able.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah does not burden anyone with more than they can bear. <small>(Qur’an, Al-Baqarah 2:286)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Illness is a test in the life of a believer. But even when we are ill, we must keep our connection with our Lord through <b>Salah</b>. Sometimes illness stops us from praying in the usual way, so Allah has made it <b>easier for the sick</b>."
+    },
+    {
+      "type": "heading",
+      "text": "🩺 How a sick person prays"
+    },
+    {
+      "type": "point",
+      "title": "Can’t stand? → Sitting",
+      "html": "If a sick person cannot pray standing, they pray <b>sitting</b>, making ruku‘ and sajdah <b>by bowing the head</b> – bending lower for the sajdah than for the ruku‘."
+    },
+    {
+      "type": "point",
+      "title": "Can’t sit? → Lying down",
+      "html": "If they cannot even sit, they pray <b>lying on their back</b>, with their feet towards the Qiblah and their knees bent. Their head is raised a little so they can show the parts of the prayer by moving it. If they cannot move even these parts of the body, they may pray <b>in their mind</b>."
+    },
+    {
+      "type": "point",
+      "title": "Too ill to pray at all",
+      "html": "If the illness is so serious that the person cannot pray even in these easier ways, the prayer is delayed until they are able to pray. If this state lasts <b>longer than one day</b>, they do not have to make up the missed prayers."
+    },
+    {
+      "type": "point",
+      "title": "Unconscious or in a coma",
+      "html": "A sick person who is in a coma or unconscious for <b>more than a day and a night</b> – that is, if <b>six or more</b> prayers are missed – does not have to make up the prayers missed in that state."
+    },
+    {
+      "type": "text",
+      "html": "The sick person judges their own state and prays <b>in the best way their health allows</b>."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“No hardship, sadness or illness – not even a worry – comes to a believer without Allah forgiving some of his sins because of it.”</i> <small>(Tirmidhi)</small>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The easier ways, step by step",
+      "prompt": "Put them in order, from the usual way to the easiest.",
+      "items": [
+        "Standing",
+        "Sitting, bowing the head for ruku‘ and sajdah",
+        "Lying down, feet towards the Qiblah",
+        "In the mind"
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "How will they pray?",
+      "prompt": "Choose the way each person will pray.",
+      "bins": [
+        "🪑 Sitting",
+        "🛏️ Lying down"
+      ],
+      "items": [
+        {
+          "text": "Has strong pains in the legs and can’t stand",
+          "bin": 0
+        },
+        {
+          "text": "Broke a leg but can sit up in a chair",
+          "bin": 0
+        },
+        {
+          "text": "Just had an operation and must not get out of bed",
+          "bin": 1
+        },
+        {
+          "text": "Is too weak even to sit up",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How does a sick person pray if they can’t stand?",
+          "options": [
+            "Sitting, bowing the head for ruku‘ and sajdah",
+            "They don’t pray",
+            "Standing anyway, even if it harms them",
+            "Only on Fridays"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When praying sitting, the head bends lower for …",
+          "options": [
+            "the sajdah than for the ruku‘",
+            "the ruku‘ than for the sajdah",
+            "neither – the same for both",
+            "the takbir"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Lying down, where do the feet point?",
+          "options": [
+            "Towards the Qiblah",
+            "Away from the Qiblah",
+            "To the left",
+            "It doesn’t matter"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Someone was unconscious and missed six or more prayers. Must they make them up?",
+          "options": [
+            "No",
+            "Yes, all of them",
+            "Only Fajr",
+            "Only the sunnahs"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who judges how the sick person can pray?",
+          "options": [
+            "The sick person themself",
+            "Their best friend",
+            "Nobody",
+            "The neighbours"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and task",
+      "prompts": [
+        "💬 How does a sick person pray? What about someone who is in a coma or unconscious?",
+        "📋 With your muallim, decide whether each person will pray, and how: a person with strong pains in the legs; a person who has just had an operation and must not get out of bed; a person who had an accident and cannot move their body; a person who has fainted; a person who is asleep; a person who cannot turn towards the Qiblah."
+      ]
+    }
+  ]
+}

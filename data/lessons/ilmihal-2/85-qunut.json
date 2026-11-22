@@ -1,0 +1,160 @@
+{
+  "title": "The Qunut du‘a with its meaning",
+  "pages": "85",
+  "intro": "The du‘a we recite in the 3rd rak‘ah of Witr – learn it part by part, with its meaning.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>Qunut du‘a</b> is recited in <b>Witr</b>, at the end of Isha. In the 3rd rak‘ah, after Al-Fatiha and a surah, we say the takbir (<i>Allaahu akbar</i>) and recite the Qunut. Then we finish the rak‘ah as usual."
+    },
+    {
+      "type": "phrase",
+      "label": "The Qunut – part 1",
+      "ar": "اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنَسْتَهْدِيكَ وَنُؤْمِنُ بِكَ وَنَتُوبُ إِلَيْكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ كُلَّهُ",
+      "tr": "Allaahumma innaa nasta‘eenuka wa nastaghfiruka wa nastahdeeka, wa nu’minu bika wa natoobu ilayka wa natawakkalu ‘alayka, wa nuthnee ‘alaykal-khayra kullahu.",
+      "en": "O Allah, we ask You for help, we ask You for forgiveness and we ask You for guidance. We believe in You, we turn to You in repentance and we rely on You. We praise You with every good."
+    },
+    {
+      "type": "phrase",
+      "label": "The Qunut – part 2",
+      "ar": "نَشْكُرُكَ وَلَا نَكْفُرُكَ وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ",
+      "tr": "Nashkuruka wa laa nakfuruka, wa nakhla‘u wa natruku man yafjuruk.",
+      "en": "We thank You and we are not ungrateful to You. We turn away from and leave whoever disobeys You."
+    },
+    {
+      "type": "phrase",
+      "label": "The Qunut – part 3",
+      "ar": "اللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ وَإِلَيْكَ نَسْعَى وَنَحْفِدُ نَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ",
+      "tr": "Allaahumma iyyaaka na‘budu, wa laka nusallee wa nasjudu, wa ilayka nas‘aa wa nahfidu. Narjoo rahmataka wa nakhshaa ‘adhaabaka, inna ‘adhaabaka bil-kuffaari mulhiq.",
+      "en": "O Allah, You alone we worship, to You we pray and to You we prostrate. To You we strive and we hurry to serve You. We hope for Your mercy and we fear Your punishment. Truly, Your punishment reaches the disbelievers."
+    },
+    {
+      "type": "heading",
+      "text": "💡 What we say to Allah in the Qunut"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🤲",
+          "label": "We ask for help, forgiveness and guidance"
+        },
+        {
+          "icon": "❤️",
+          "label": "We believe in Allah and rely on Him"
+        },
+        {
+          "icon": "🙏",
+          "label": "We thank Him and are not ungrateful"
+        },
+        {
+          "icon": "🕌",
+          "label": "We worship, pray and prostrate to Him alone"
+        },
+        {
+          "icon": "🌧️",
+          "label": "We hope for His mercy and fear His punishment"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Listen, repeat and test yourself: <a href=\"../../../games/dove-kunut-dova/\">The Qunut Dua</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The Qunut in order",
+      "prompt": "Put the parts of the Qunut in order.",
+      "items": [
+        "Allaahumma innaa nasta‘eenuka",
+        "wa nastaghfiruka wa nastahdeeka",
+        "wa nu’minu bika wa natoobu ilayka",
+        "Nashkuruka wa laa nakfuruka",
+        "Allaahumma iyyaaka na‘budu",
+        "Narjoo rahmataka wa nakhshaa ‘adhaabaka"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Words and meanings",
+      "pairs": [
+        [
+          "nasta‘eenuka",
+          "we ask You for help"
+        ],
+        [
+          "nastaghfiruka",
+          "we ask You for forgiveness"
+        ],
+        [
+          "nastahdeeka",
+          "we ask You for guidance"
+        ],
+        [
+          "nashkuruka",
+          "we thank You"
+        ],
+        [
+          "narjoo rahmataka",
+          "we hope for Your mercy"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "In which prayer do we recite the Qunut?",
+          "options": [
+            "Witr",
+            "The fard of Fajr",
+            "The sunnah of Asr",
+            "The fard of Dhuhr"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "In which rak‘ah of Witr?",
+          "options": [
+            "The 3rd",
+            "The 1st",
+            "The 2nd",
+            "After the salam"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “wa natawakkalu ‘alayka” mean?",
+          "options": [
+            "And we rely on You",
+            "And we thank You",
+            "And we fear You",
+            "And we worship You"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “Allaahumma iyyaaka na‘budu” mean?",
+          "options": [
+            "O Allah, You alone we worship",
+            "O Allah, forgive us",
+            "O Allah, we thank You",
+            "O Allah, guide us"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "🎧 Learn the Qunut by heart, one part at a time, with The Qunut Dua practice page, and recite it to your muallim.",
+        "💬 Which line of the Qunut do you like most? What are you asking Allah for when you say it?"
+      ]
+    }
+  ]
+}
