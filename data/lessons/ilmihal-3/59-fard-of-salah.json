@@ -1,0 +1,36 @@
+{
+  "title": "The fard parts of Salah",
+  "pages": "59–60",
+  "intro": "The six parts of Salah that must be done for the prayer to be valid.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "O believers, seek help through patience and prayer. <small>(Qur’an, Al-Baqarah 2:153)</small>"},
+    {"type": "text", "html": "Salah is worship done for Allah that is very valuable and needs our full presence. The Prophet (SAW) taught us how to pray, and showed us which parts are <b>essential</b> for the prayer to be valid, and which parts we can make up or correct (with sajdat as-sahw) if we miss them."},
+    {"type": "text", "html": "The <b>fard</b> parts of Salah must be done for the prayer to be valid. Someone who realises after Salah that they left out a fard must <b>pray it again</b>."},
+    {"type": "heading", "text": "The six fard parts of Salah"},
+    {"type": "list", "items": [
+      "<b>Iftitah takbir</b> – the opening takbir: saying <i>Allaahu akbar</i> quietly while standing, at the start of Salah.",
+      "<b>Qiyam</b> – standing, for as long as it takes to recite the required part of the Qur’an.",
+      "<b>Qira’ah</b> – reciting the Qur’an: in every rak‘ah we properly recite a set part of the Qur’an.",
+      "<b>Ruku‘</b> – bowing at the waist, at least as far as reaching the knees; in ruku‘ we try to keep the back level with the head.",
+      "<b>Sajdah</b> – making two sajdahs, with the forehead, nose, palms, knees and toes on the ground.",
+      "<b>Qa‘dah akhirah</b> – the last sitting, after the last rak‘ah, at least as long as it takes to recite At-Tahiyyat; then the salawat, duas and salam."
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "We do the fard parts of Salah <b>as our health allows</b> at that moment."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“What do you think – if there were a river at someone’s door and he bathed in it five times a day, would any dirt be left on him?” They said: “No dirt would be left.” He said: “That is like the five prayers, by which Allah wipes away sins.”</i> <small>(Bukhari and Muslim)</small>"}
+  ],
+  "practice": [
+    {"type": "order", "title": "The fard parts in order", "prompt": "Put the six fard parts of Salah in order.", "items": ["Iftitah takbir", "Qiyam – standing", "Qira’ah – reciting", "Ruku‘ – bowing", "Sajdah – two sajdahs", "Qa‘dah akhirah – the last sitting"]},
+    {"type": "memory", "title": "Match the fard and its meaning", "pairs": [
+      ["Iftitah takbir", "Saying Allaahu akbar to start"], ["Qiyam", "Standing"], ["Qira’ah", "Reciting the Qur’an"], ["Ruku‘", "Bowing"], ["Sajdah", "Forehead and nose on the ground"], ["Qa‘dah akhirah", "The last sitting"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What are the fard parts of Salah?", "options": ["Parts that must be done for the Salah to be valid", "Parts we can skip", "Duas after Salah", "The sunnah prayers"], "answer": 0},
+      {"q": "How many fard parts of Salah are there?", "options": ["Six", "Three", "Ten", "Two"], "answer": 0},
+      {"q": "Is Salah valid if we leave out a fard?", "options": ["No – we must pray it again", "Yes", "Only on Fridays", "Only if nobody sees"], "answer": 0},
+      {"q": "Which parts touch the ground in sajdah?", "options": ["Forehead, nose, palms, knees and toes", "Only the hands", "Only the forehead", "The elbows"], "answer": 0},
+      {"q": "How long must the last sitting last?", "options": ["At least as long as At-Tahiyyat takes", "One second", "An hour", "It is not needed"], "answer": 0},
+      {"q": "What are the five prayers like, in the hadith?", "options": ["A river we bathe in five times a day", "A mountain", "A long journey", "A locked door"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["🧍 With your muallim, practise doing each fard part of Salah correctly.", "📖 Read the meaning of Surah Al-Ma‘un and talk about it, especially its last two ayahs.", "🖼️ Make a poster of the fard parts of Salah.", "🌳 Talk with your muallim: praying Salah outdoors, in nature."]}
+  ]
+}

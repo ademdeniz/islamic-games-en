@@ -1,0 +1,44 @@
+{
+  "title": "Salah – the five daily prayers",
+  "pages": "57–58",
+  "intro": "Salah is the second pillar of Islam – the first thing we will be asked about on the Day of Judgement.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah says that prayer keeps one away from immorality and wrongdoing, and the remembrance of Allah is greater still; and Allah knows what you do. <small>(Qur’an, Al-‘Ankabut 29:45)</small>"},
+    {"type": "text", "html": "Praying Salah is the <b>second pillar of Islam</b>. Salah is the highest way of showing obedience and thanks to Allah, the Most High. It is a perfect act of worship with special words and movements; it begins with the opening takbir and ends with the salam. Salah is the foundation of faith and the <b>first</b> thing a person will answer for on the Day of Judgement."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“The first thing a person will be asked about on the Day of Judgement is the prayer. If it is right, the rest of his deeds will be right; if it is not right, the rest will not be right either.”</i> <small>(Tabarani)</small>"},
+    {"type": "text", "html": "Salah was given a special honour: it was prescribed in the <b>highest heaven</b>, during the Prophet’s Mi‘raj. It is done only for Allah, with full humility and presence, in a calm and awake state of heart and soul. A correct Salah needs presence of mind <b>and</b> doing its fard, wajib and sunnah parts properly."},
+    {"type": "text", "html": "Besides cleaning the soul, Salah is the best <b>protection</b> in this life from bad words and deeds. Whoever regularly prays the five prayers is in a constant link with Allah that cannot be broken if he stays steady. He becomes aware that Allah is always present, and this link keeps him away from sins and from deeds his Lord does not like."},
+    {"type": "point", "title": "A conversation with Allah", "html": "When we talk to people we try to be polite, focused and thankful; when we talk to Allah we must be fully present, because Salah is a believer’s conversation with Allah <b>without anyone in between</b>. Salah is a relief and rest for the believer – the Prophet (SAW) said to Bilal: <i>“O Bilal, call to prayer – give us rest with it.”</i> His comfort and the joy of his eyes were in Salah."},
+    {"type": "heading", "text": "Hadith qudsi – Al-Fatiha in Salah"},
+    {"type": "text", "html": "Allah said: <i>“I have divided the prayer between Me and My servant into two halves, and My servant shall have what he asks.”</i>"},
+    {"type": "list", "items": [
+      "When the servant says “All praise is for Allah, Lord of the worlds,” Allah says: “My servant has praised Me.”",
+      "When he says “The Most Merciful, the Especially Merciful,” Allah says: “My servant has extolled Me.”",
+      "When he says “Master of the Day of Judgement,” Allah says: “My servant has glorified Me.”",
+      "When he says “You alone we worship and You alone we ask for help,” Allah says: “This is between Me and My servant, and My servant shall have what he asks.”",
+      "When he says “Guide us to the straight path…,” Allah says: “This is for My servant, and My servant shall have what he asks.” <small>(Muslim)</small>"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "In Allah’s shade, on the Day when there is no other shade, will be a young man or woman who grew up in obedience to Allah."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Al-Fatiha and Allah’s answer", "pairs": [
+      ["All praise is for Allah, Lord of the worlds", "My servant has praised Me"], ["The Most Merciful, the Especially Merciful", "My servant has extolled Me"], ["Master of the Day of Judgement", "My servant has glorified Me"], ["You alone we worship…", "This is between Me and My servant"]
+    ]},
+    {"type": "choose_all", "title": "What does Salah give us?", "prompt": "Tap everything Salah gives a believer, then tap Check.", "options": [
+      {"text": "🛡️ Protection from bad words and deeds", "correct": true},
+      {"text": "🔗 A constant link with Allah", "correct": true},
+      {"text": "😌 Rest and relief", "correct": true},
+      {"text": "🧼 A clean soul", "correct": true},
+      {"text": "💤 A reason to be lazy", "correct": false, "why": "Salah keeps us awake, present and on time."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which pillar of Islam is Salah?", "options": ["The second", "The first", "The third", "The fourth"], "answer": 0},
+      {"q": "What will we be asked about first on the Day of Judgement?", "options": ["Salah", "Our money", "Our clothes", "Our friends"], "answer": 0},
+      {"q": "How does Salah begin and end?", "options": ["With the opening takbir and the salam", "With Ameen and Bismillah", "With the adhan and the iqamah", "With sajdah and ruku‘"], "answer": 0},
+      {"q": "Where was Salah prescribed?", "options": ["In the highest heaven, on the Mi‘raj", "In Madinah", "In the cave of Hira", "At ‘Arafat"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say to Bilal?", "options": ["“Call to prayer – give us rest with it”", "“Let us go home”", "“Pray quickly”", "“Pray tomorrow”"], "answer": 0},
+      {"q": "What makes a Salah correct?", "options": ["Presence of mind and doing its fard, wajib and sunnah parts properly", "Praying as fast as possible", "Wearing new clothes", "Praying loudly"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and talk", "prompts": ["💬 What is Salah? How do we know a Salah is correct?", "🌿 Besides pleasing Allah, what else does Salah bring a person?", "🌙 Talk with your muallim: Salah is the mi‘raj of the believer; Salah is the first thing we will be asked about."]}
+  ]
+}

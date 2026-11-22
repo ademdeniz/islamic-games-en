@@ -1,0 +1,35 @@
+{
+  "title": "Kalimat ash-Shahadah",
+  "pages": "55–56",
+  "intro": "The first pillar of Islam: bearing witness that there is no god but Allah and that Muhammad is His Messenger.",
+  "learn": [
+    {"type": "phrase", "label": "Kalimat ash-Shahadah", "ar": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ", "tr": "Ash-hadu an laa ilaaha illallaah, wa ash-hadu anna Muhammadan ‘abduhu wa rasooluh.", "en": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and Messenger."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah bears witness that there is no god but Him – and so do the angels and those with knowledge – maintaining justice. There is no god but Him, the Almighty, the All-Wise. <small>(Qur’an, Ali ‘Imran 3:18)</small>"},
+    {"type": "text", "html": "The first pillar of Islam is bearing witness that there is no god but Allah and that Muhammad (SAW) is His Messenger. The Kalimat ash-Shahadah is the <b>foundation</b> of a Muslim’s faith and has <b>two parts</b>."},
+    {"type": "heading", "text": "1. There is no god but Allah"},
+    {"type": "text", "html": "The first part means that in all that exists there is <b>no one</b> worthy of worship except Allah, the Most High. By it we reject the worship of angels, prophets, chosen people, trees, the sun, the moon, stones and graves – because Allah created all of them. We also confirm that everything on earth, living and not living, was created and bears witness to Allah’s <b>oneness</b>. So only Allah deserves worship, and the whole universe submits to Him."},
+    {"type": "text", "html": "Saying “there is no god but Allah” is the <b>key</b> to entering Islam and the main mark of a believer: in it is the decision to obey Allah, worship only Him and turn away from worshipping anything else."},
+    {"type": "heading", "text": "2. Muhammad is Allah’s Messenger"},
+    {"type": "list", "items": [
+      "Bearing witness that Allah sent His last Messenger, Muhammad (SAW), with the truth – the Qur’an – to bring good news and warn all of humanity. <small>(Qur’an, Saba’ 34:28)</small>",
+      "Believing that everything Muhammad (SAW) said, did and told us is true, because it is revelation from Allah – he does not speak from his own desire. <small>(Qur’an, An-Najm 53:3–4)</small>",
+      "Muhammad (SAW) conveyed from Allah, and our duty is to obey what he commanded and avoid what he forbade. <small>(Qur’an, Al-Hashr 59:7)</small>"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "All Muslims in the world believe the truths of the Shahadah, and every act of worship we do confirms: <b>there is no god but Allah, and Muhammad is His Messenger</b>."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The Shahadah in order", "prompt": "Put the Shahadah in order.", "items": ["Ash-hadu an laa ilaaha", "illallaah", "wa ash-hadu anna Muhammadan", "‘abduhu wa rasooluh"]},
+    {"type": "sort", "title": "Which part of the Shahadah?", "prompt": "Is this about the first part or the second part?", "bins": ["1. No god but Allah", "2. Muhammad is His Messenger"], "items": [
+      {"text": "Only Allah deserves worship", "bin": 0}, {"text": "We do not worship the sun, stones or graves", "bin": 0}, {"text": "The key to entering Islam", "bin": 0},
+      {"text": "He brought the Qur’an to all people", "bin": 1}, {"text": "We obey what he commanded", "bin": 1}, {"text": "He did not speak from his own desire", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "How many parts does the Kalimat ash-Shahadah have?", "options": ["Two", "One", "Three", "Five"], "answer": 0},
+      {"q": "What does the first part mean?", "options": ["No one is worthy of worship except Allah", "Muhammad is a prophet", "We must fast", "We must pray five times"], "answer": 0},
+      {"q": "What is the key to entering Islam?", "options": ["Saying there is no god but Allah", "Buying a Qur’an", "Visiting a masjid", "Learning Arabic"], "answer": 0},
+      {"q": "With what did Allah send Muhammad (SAW)?", "options": ["With the truth – the Qur’an", "With gold", "With an army only", "With nothing"], "answer": 0},
+      {"q": "What is our duty toward what the Prophet (SAW) commanded?", "options": ["To obey it", "To ignore it", "To change it", "To forget it"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk and tasks", "prompts": ["🤲 Talk with your muallim: by our worship we confirm “there is no god but Allah and Muhammad is His Messenger” – how are worship and the Shahadah connected?", "🖊️ Write the Arabic text of the Shahadah on a big sheet, copying it from a calligraphy panel (levha).", "🌿 How does nature – plants, animals, everything around us – bear witness to Allah’s oneness?", "💭 Write words or sentences that remind you of tawhid – the oneness of Allah."]}
+  ]
+}

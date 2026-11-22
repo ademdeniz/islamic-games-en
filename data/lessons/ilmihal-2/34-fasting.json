@@ -1,0 +1,52 @@
+{
+  "title": "Third pillar of Islam – fasting",
+  "pages": "34–35",
+  "intro": "Fasting in the month of Ramadan is the third duty of Islam.",
+  "learn": [
+    {"type": "text", "html": "The third pillar of Islam – the third main Islamic duty – is <b>fasting in the month of Ramadan</b>."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah tells the believers that fasting has been prescribed for them as it was prescribed for those before them, so that they may become <b>mindful of Allah</b> (taqwa). <small>(Qur’an, Al-Baqarah 2:183)</small>"},
+    {"type": "text", "html": "Fasting means <b>knowingly holding back</b> from food, drink and other bodily pleasures from the start of dawn until sunset. The Ramadan fast means:"},
+    {"type": "list", "items": [
+      "starting the fast on time, with the niyyah",
+      "during the day, staying away from everything that breaks the fast",
+      "breaking the fast (iftar) on time"
+    ]},
+    {"type": "phrase", "label": "The niyyah for the fast", "ar": "نَوَيْتُ أَنْ أَصُومَ غَدًا فَرِيضَةً مِنْ شَهْرِ رَمَضَانَ لِلَّهِ تَعَالَى", "tr": "Nawaytu an asooma ghadan fareedatan min shahri Ramadaana lillaahi ta‘aalaa.", "en": "I intend to fast tomorrow the obligatory fast of the month of Ramadan, for Allah, the Most High."},
+    {"type": "phrase", "label": "The dua for iftar", "ar": "اللَّهُمَّ إِنِّي لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ", "tr": "Allaahumma innee laka sumtu, wa bika aamantu, wa ‘alayka tawakkaltu, wa ‘alaa rizqika aftartu.", "en": "O Allah, for You I fasted, in You I believe, in You I trust, and with Your provision I break my fast."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“When one of you breaks the fast, let him break it with a date; if he cannot find a date, then with water, for water is pure.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "heading", "text": "In Ramadan it is lovely to…"},
+    {"type": "list", "items": [
+      "pray all the prayers in jama‘ah if we can",
+      "read the Qur’an or its translation",
+      "give sadaqah",
+      "pray the night prayer",
+      "hold iftars with family, neighbours and friends",
+      "spend lots of time in dhikr, dua and salawat on the Prophet (SAW)"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "At the end of Ramadan every person who fasts must give <b>sadaqat al-fitr</b>, which cleans the fast from bad and useless talk."},
+    {"type": "heading", "text": "Ramadan words"},
+    {"type": "cards", "items": [
+      {"icon": "📖", "label": "Muqabalah – reading the Qur’an together in the masjid"},
+      {"icon": "🕌", "label": "Tarawih – a special prayer on Ramadan nights after Isha"},
+      {"icon": "🤲", "label": "I‘tikaf – staying in the masjid in the last ten days only for worship"},
+      {"icon": "🌙", "label": "Suhur – the meal before the fast, until dawn"},
+      {"icon": "⏰", "label": "Imsak – the moment the fast begins"},
+      {"icon": "🌇", "label": "Iftar – the time the fast ends"}
+    ]}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Ramadan words", "pairs": [
+      ["Suhur", "The meal before dawn"], ["Imsak", "The fast begins"], ["Iftar", "The fast ends"], ["Tarawih", "Night prayer after Isha"], ["I‘tikaf", "Staying in the masjid for worship"], ["Muqabalah", "Reading the Qur’an together"]
+    ]},
+    {"type": "order", "title": "A day of fasting", "prompt": "Put the day in order.", "items": ["Suhur before dawn", "Niyyah for the fast", "Imsak – the fast begins", "Fasting through the day", "Sunset", "Iftar with a date or water"]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which pillar of Islam is fasting?", "options": ["The third", "The first", "The second", "The fifth"], "answer": 0},
+      {"q": "From when to when do we fast?", "options": ["From dawn until sunset", "From noon until night", "From sunset until dawn", "All day and night"], "answer": 0},
+      {"q": "What should we break the fast with, according to the hadith?", "options": ["A date, or water", "Chocolate", "Juice only", "Bread"], "answer": 0},
+      {"q": "What do we give at the end of Ramadan?", "options": ["Sadaqat al-fitr", "Nothing", "A gift to ourselves", "Zakah on our house"], "answer": 0},
+      {"q": "What is tarawih?", "options": ["A special prayer on Ramadan nights", "The meal before dawn", "The end of the fast", "A kind of sadaqah"], "answer": 0},
+      {"q": "Why did Allah prescribe fasting?", "options": ["So that we become mindful of Allah (taqwa)", "To make us tired", "To lose weight", "For fun"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What is fasting? What else is lovely to do in Ramadan?", "🗣️ Say the niyyah for the fast and the dua for iftar.", "📝 Describe a day when you fasted.", "📖 With your muallim, find the ayahs in the Qur’an that mention Ramadan."]}
+  ]
+}
