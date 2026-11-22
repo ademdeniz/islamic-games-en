@@ -1,0 +1,44 @@
+{
+  "title": "The Almighty Creator",
+  "pages": "25",
+  "intro": "Allah created everything that exists.",
+  "learn": [
+    {"type": "text", "html": "<b>Allah created everything that exists.</b>"},
+    {"type": "cards", "items": [
+      {"icon": "🌌", "label": "The universe"},
+      {"icon": "🪐", "label": "The planets and the heavenly bodies"},
+      {"icon": "☀️", "label": "The sun"},
+      {"icon": "🌙", "label": "The moon"},
+      {"icon": "✨", "label": "The sky and the stars"},
+      {"icon": "⛰️", "label": "Mountains, rivers and hills"},
+      {"icon": "🌊", "label": "Seas and shores"},
+      {"icon": "🌧️", "label": "Rain and storms"},
+      {"icon": "🌳", "label": "Trees"},
+      {"icon": "🌷", "label": "Grass and flowers"},
+      {"icon": "🍎", "label": "Fruit and vegetables"},
+      {"icon": "🐘", "label": "Animals"},
+      {"icon": "👫", "label": "People – man and woman"}
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "Everything around us shows us how <b>great</b> and <b>powerful</b> Allah is. When we see something beautiful we say <b>Subhanallah</b> – Glory be to Allah!"}
+  ],
+  "practice": [
+    {"type": "sort", "title": "In the sky or on the earth?", "prompt": "Where did Allah put it?", "bins": ["☁️ In the sky", "🌍 On the earth"], "items": [
+      {"text": "☀️ The sun", "bin": 0}, {"text": "🌙 The moon", "bin": 0}, {"text": "✨ The stars", "bin": 0},
+      {"text": "🌳 Trees", "bin": 1}, {"text": "⛰️ Mountains", "bin": 1}, {"text": "🌊 Seas", "bin": 1}, {"text": "🌷 Flowers", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "Who created it?", "prompt": "Tap everything that Allah created, then tap Check.", "options": [
+      {"text": "☀️ The sun", "correct": true},
+      {"text": "🐘 Animals", "correct": true},
+      {"text": "👫 People", "correct": true},
+      {"text": "🌧️ Rain", "correct": true},
+      {"text": "🍎 Fruit", "correct": true},
+      {"text": "⛰️ Mountains", "correct": true}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who created the sun and the moon?", "options": ["Allah", "People", "Nobody", "The stars"], "answer": 0},
+      {"q": "Who created people?", "options": ["Allah", "The sea", "The trees", "Nobody"], "answer": 0},
+      {"q": "What do we say when we see something beautiful Allah created?", "options": ["Subhanallah", "Goodbye", "Hurry up", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Talk about it", "prompts": ["🖼️ Tell what you see in the picture that Allah created!", "🌳 Go outside and find three things Allah created."]}
+  ]
+}

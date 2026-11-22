@@ -1,0 +1,57 @@
+{
+  "title": "Let’s review what we learned",
+  "pages": "53–54",
+  "intro": "Iman, the attributes of Allah, the unseen, the books, the messengers and the Last Day – let’s repeat it all.",
+  "learn": [
+    {"type": "text", "html": "We have learned the <b>six pillars of iman</b>. Answer these questions with your muallim, then do the activities below."},
+    {"type": "list", "items": [
+      "What are the strict Islamic duties (fard)? What are the wajibs?",
+      "What does the first pillar of iman include?",
+      "What does belief in tawhid include?",
+      "What does belief in the ghayb – the unseen – include?"
+    ]},
+    {"type": "heading", "text": "Make a table of the attributes of Allah"},
+    {"type": "cards", "items": [
+      {"icon": "🔹", "label": "As-sifat adh-dhatiyyah – the essential attributes"},
+      {"icon": "🔸", "label": "As-sifat ath-thubutiyyah – the positive attributes"}
+    ]},
+    {"type": "heading", "text": "Write what you know about…"},
+    {"type": "list", "items": ["the Last Day", "the barzakh", "the Mizan", "the Sirat bridge", "the sixth pillar of iman"]},
+    {"type": "heading", "text": "Fill in the gaps"},
+    {"type": "list", "items": [
+      "Besides the main Islamic duties, there are other acts at the level of ________. Allah commanded them, but not as strictly as the fard.",
+      "The angel Jibril asked Muhammad (SAW): “Tell me about ________.” He answered: “That you worship Allah as if you ________ Him, for if you do not ________ Him, He surely ________ you.”",
+      "Knowledge of the ghayb belongs only to ________ – He alone holds the keys of all secrets. Only He knows this and the ________ world.",
+      "A believer knows what has ________ them, but does not know what ________ them."
+    ]},
+    {"type": "heading", "text": "In a few sentences, write the most important thing you learned"},
+    {"type": "text", "html": "<i>Salah is my…</i>"}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the sin and the person", "pairs": [
+      ["Kufr – disbelief in Allah", "Kafir"], ["Shirk – giving Allah partners", "Mushrik"], ["Nifaq – hypocrisy in faith", "Munafiq"]
+    ]},
+    {"type": "choose_all", "title": "True or false?", "prompt": "Tap every sentence that is TRUE, then tap Check.", "options": [
+      {"text": "Al-Asma’ al-Husna are attributes of Allah.", "correct": true},
+      {"text": "Jinn and shayatin are unseen beings.", "correct": true},
+      {"text": "Angels do not sin.", "correct": true},
+      {"text": "The scrolls and the great books are revelations from Allah.", "correct": true},
+      {"text": "The Qur’an was revealed to the last Prophet (SAW).", "correct": true},
+      {"text": "Miracles are ordinary events.", "correct": false, "why": "A mu‘jizah is a supernatural event – the work of Allah."},
+      {"text": "The Isra is the journey up to the heavens.", "correct": false, "why": "The Isra is the night journey from Makkah to Jerusalem; the Mi‘raj is the rising through the heavens."},
+      {"text": "The Mi‘raj is the journey from Makkah to Jerusalem.", "correct": false, "why": "That is the Isra. The Mi‘raj is the rising through the seven heavens."}
+    ]},
+    {"type": "memory", "title": "The qualities of the messengers", "pairs": [
+      ["Sidq", "They always told the truth"], ["Amanah", "They were trustworthy and honest"], ["Tabligh", "They passed on the revelation completely"], ["‘Ismah", "They were pure from sin"], ["Fatanah", "They were wise and sharp-minded"], ["‘Adalah", "They were completely fair"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who alone knows the ghayb (the unseen)?", "options": ["Allah", "The angels", "The jinn", "Fortune-tellers"], "answer": 0},
+      {"q": "What is the barzakh?", "options": ["Where souls stay from death until the resurrection", "The bridge over Jahannam", "The scales", "The Prophet’s pool"], "answer": 0},
+      {"q": "What is the Mizan?", "options": ["The scales on which deeds are weighed", "A bridge", "A river", "A book"], "answer": 0},
+      {"q": "What is the sixth pillar of iman?", "options": ["Belief in Allah’s decree, good and bad", "Belief in the angels", "Belief in the books", "Belief in the messengers"], "answer": 0},
+      {"q": "What is the greatest miracle of Muhammad (SAW)?", "options": ["The Qur’an", "The she-camel", "The staff", "The ship"], "answer": 0},
+      {"q": "What was made a duty on the Mi‘raj?", "options": ["Salah", "Fasting", "Hajj", "Zakah"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Write it in your notebook", "prompts": ["📝 Write what you know about the Last Day, the barzakh, the Mizan, the Sirat bridge and the sixth pillar of iman.", "📋 Make a table of the essential and the positive attributes of Allah.", "🕌 Finish the sentence in a few lines: “Salah is my…”"]}
+  ]
+}

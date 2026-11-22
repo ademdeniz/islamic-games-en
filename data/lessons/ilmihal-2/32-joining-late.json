@@ -1,0 +1,44 @@
+{
+  "title": "Joining the congregation late",
+  "pages": "32–33",
+  "intro": "If we come late to the jama‘ah, we still join – and make up the rak‘ahs we missed.",
+  "learn": [
+    {"type": "text", "html": "A prayer in jama‘ah is worth more than a prayer alone, so we try to pray in jama‘ah as often as we can. If we come <b>late</b>, it is important to know the rules for joining."},
+    {"type": "heading", "text": "When the imam has already started the fard"},
+    {"type": "list", "items": [
+      "leave out the sunnah prayers",
+      "stand properly in the row (saff)",
+      "join the jama‘ah and pray behind the imam",
+      "remember how many rak‘ahs you missed",
+      "do <b>not</b> give the salam with the imam",
+      "when the imam gives the salam to the right and starts turning to the left, <b>stand up</b> and make up the missed rak‘ahs"
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "If you join and manage to say <b>“Subhaana Rabbiyal-‘Azeem”</b> once in <b>ruku‘</b>, you have caught that rak‘ah and don’t need to make it up. If you join before the imam gives the salam, you get the reward of praying in jama‘ah."},
+    {"type": "heading", "text": "How to make up the missed rak‘ahs"},
+    {"type": "list", "items": [
+      "<b>Missed the 1st rak‘ah:</b> after the imam’s salam, stand up, pray the 1st rak‘ah, then the last sitting and salam.",
+      "<b>Missed the 1st and 2nd</b> of a 4-rak‘ah prayer: stand up, pray the 1st and 2nd rak‘ah, then the last sitting and salam. In <b>Maghrib</b>, sit for At-Tahiyyat after the first made-up rak‘ah, then stand for the second.",
+      "<b>Missed the 1st, 2nd and 3rd</b> of a 4-rak‘ah prayer: pray the 1st rak‘ah, sit for At-Tahiyyat, stand and pray the 2nd and 3rd, then the last sitting and salam.",
+      "<b>Missed all four:</b> pray four rak‘ahs as if praying alone, then the last sitting and salam."
+    ]},
+    {"type": "point", "title": "Important", "html": "When making up rak‘ahs, after every <b>two</b> rak‘ahs you must sit – whether you prayed them with the imam or alone."}
+  ],
+  "practice": [
+    {"type": "order", "title": "Coming late – what to do", "prompt": "Put the steps in order.", "items": ["Leave out the sunnah", "Stand properly in the row", "Join and pray behind the imam", "Remember how many rak‘ahs you missed", "Stay seated when the imam gives salam", "Stand up and make up the missed rak‘ahs"]},
+    {"type": "choose_all", "title": "Did you catch the rak‘ah?", "prompt": "Tap every case where you have caught the rak‘ah, then tap Check.", "options": [
+      {"text": "I joined while the imam was reciting Al-Fatiha", "correct": true},
+      {"text": "I said “Subhaana Rabbiyal-‘Azeem” once in ruku‘ with the imam", "correct": true},
+      {"text": "I joined when the imam was already in sajdah", "correct": false, "why": "You must catch the ruku‘ – a rak‘ah joined after ruku‘ has to be made up."},
+      {"text": "I arrived after the imam rose from ruku‘", "correct": false, "why": "The ruku‘ is already over, so that rak‘ah has to be made up."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Can we still join the jama‘ah if we come late?", "options": ["Yes", "No", "Only for Fajr", "Only on Friday"], "answer": 0},
+      {"q": "What do we do with the sunnah when the imam has started the fard?", "options": ["Leave it out", "Pray it first", "Pray it during the fard", "Pray it twice"], "answer": 0},
+      {"q": "Do we give the salam with the imam if we missed rak‘ahs?", "options": ["No – we stand up and make them up", "Yes", "Only to the right", "Only to the left"], "answer": 0},
+      {"q": "When have we caught the rak‘ah?", "options": ["If we say “Subhaana Rabbiyal-‘Azeem” once in ruku‘", "If we arrive in sajdah", "If we see the imam", "If we arrive after the salam"], "answer": 0},
+      {"q": "What must we do after every two rak‘ahs when making up?", "options": ["Sit", "Leave", "Recite the adhan", "Give salam"], "answer": 0},
+      {"q": "We missed all four rak‘ahs. What do we do?", "options": ["Pray four rak‘ahs as if alone, then sit and give salam", "Pray only one", "Go home", "Nothing"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["📖 Finish the story two ways – once where Ahmed must make up the 1st rak‘ah and once where he doesn’t: Ahmed was coming home from school and went into the masjid to pray Dhuhr. His efendi was already in the ruku‘ of the first rak‘ah. Ahmed…", "🕌 Act it out in class: one pupil is the imam, the others come late to different rak‘ahs and show how to join."]}
+  ]
+}
