@@ -1,0 +1,57 @@
+{
+  "title": "Getting married",
+  "pages": "98–99",
+  "intro": "Getting to know each other the Islamic way, engagement, the wedding, the mahr – and divorce.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: Help those among you who are single to marry… <small>(Qur’an, An-Nur 24:32)</small>"},
+    {"type": "text", "html": "One of the duties of Muslim men and women who are adult, sensible and healthy, and who also have the basic means to live, is to <b>get married</b>."},
+    {"type": "heading", "text": "Getting to know each other"},
+    {"type": "text", "html": "When a young man and a young woman become interested in each other with the aim of marriage, their duty is:"},
+    {"type": "list", "items": [
+      "to keep to the <b>Islamic way</b> of meeting and talking,",
+      "to get to know each other,",
+      "to be <b>honest</b> with each other,",
+      "to share their opinions and views,",
+      "to talk about the important things in life,",
+      "to get to know each other’s character."
+    ]},
+    {"type": "text", "html": "The aim of getting to know each other is: bringing their different views closer, agreeing on a shared view of life, planning their married life, and starting a family. When they agree, marriage follows with the consent of both and the <b>blessing (permission) of their parents</b>. Marriage comes after the engagement, and then the civil and the Islamic wedding."},
+    {"type": "heading", "text": "Engagement"},
+    {"type": "text", "html": "In the Shari‘ah, engagement is <b>recommended</b>, but not obligatory. Its purpose is to confirm the serious intention to marry, and to help the future bride and groom and their families get to know each other better. An engagement is usually sealed with a ring or another gift."},
+    {"type": "heading", "text": "The wedding"},
+    {"type": "text", "html": "With marriage, the young man and woman begin their own life together. This is celebrated with a <b>wedding</b> – the celebration of the bride moving from the home of her parents (or guardians) into her husband’s home. It is good to announce a marriage publicly, so that as many people as possible know about it."},
+    {"type": "text", "html": "In Bosnia and Herzegovina, the couple must first confirm their marriage at the state <b>registry office</b>, and then have the Islamic wedding (<b>nikah</b>) before the chief imam, or a person authorised for this, at the majlis or the mosque. The groom offers marriage, and the bride accepts it. In our community, the Imam can explain how a nikah is done here."},
+    {"type": "point", "title": "The mahr", "html": "At the nikah the <b>mahr</b> is also agreed – the marriage gift that the bride asks for on the wedding day. There are two kinds of mahr:<br>• the <b>prompt mahr</b> (mu‘ajjal) – given straight away at the nikah;<br>• the <b>deferred mahr</b> (mu’ajjal) – given later during the marriage, or if the marriage ends in divorce or the husband dies."},
+    {"type": "text", "html": "A marriage lasts only if the husband and wife both receive their rights and fulfil their duties."},
+    {"type": "heading", "text": "Divorce"},
+    {"type": "text", "html": "According to Islamic rules, divorce is <b>not desired</b>, but in justified cases it is <b>allowed</b>."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Of the things that are allowed, the most hateful to Allah is divorce.”</i> <small>(Abu Dawud)</small>"},
+    {"type": "text", "html": "If, after some time together, a husband and wife cannot live together and there is no hope that things will get better, they are allowed to separate. It is better for them to separate <b>in peace</b> than to make life bitter for each other and for the rest of the family."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The road to marriage", "prompt": "Put these steps in order.", "items": ["Getting to know each other the Islamic way", "Agreeing, with the parents’ blessing", "The engagement", "The civil wedding at the registry office", "The nikah before the imam", "The wedding celebration"]},
+    {"type": "choose_all", "title": "Getting to know each other", "prompt": "Tap what a young man and woman who are thinking of marriage should do, then tap Check.", "options": [
+      {"text": "🤝 Be honest with each other", "correct": true},
+      {"text": "💬 Talk about the important things in life", "correct": true},
+      {"text": "🕌 Keep to the Islamic way of meeting", "correct": true},
+      {"text": "👪 Ask for their parents’ blessing", "correct": true},
+      {"text": "🤫 Hide the marriage from everyone", "correct": false, "why": "It is good to announce a marriage publicly, so that many people know."},
+      {"text": "🎭 Pretend to be someone else", "correct": false, "why": "They should be honest and get to know each other’s true character."}
+    ]},
+    {"type": "memory", "title": "Match the words", "pairs": [
+      ["Engagement", "Recommended, confirms a serious intention"],
+      ["Nikah", "The Islamic wedding before the imam"],
+      ["Mahr", "The marriage gift the bride asks for"],
+      ["Prompt mahr", "Given straight away at the nikah"],
+      ["Deferred mahr", "Given later in the marriage"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Is engagement obligatory?", "options": ["No – it is recommended", "Yes, it is fard", "It is haram", "It is wajib"], "answer": 0},
+      {"q": "Whose blessing is needed for the marriage?", "options": ["The parents’", "The neighbours’", "Nobody’s", "The teacher’s"], "answer": 0},
+      {"q": "At the nikah, who offers marriage and who accepts?", "options": ["The groom offers, the bride accepts", "The imam offers, the parents accept", "The witnesses decide", "Nobody needs to accept"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say about divorce?", "options": ["Of allowed things, it is the most hateful to Allah", "It is a good thing", "It is forbidden in every case", "It is a Sunnah"], "answer": 0},
+      {"q": "What is better if a couple really cannot live together?", "options": ["To separate in peace", "To make life bitter for each other", "To shout every day", "To involve everyone in fights"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What duties do a young man and woman have when they get to know each other? Which steps come before marriage?", "💍 What is the mahr, and what kinds of mahr are there? Is divorce allowed in Islam, and in which case?", "🕌 Describe how an Islamic nikah is done. Notice everything that is agreed at it. If you have never been to a nikah, ask your muallim to help you attend one.", "👵 What special customs of engagement and weddings did Muslims in Bosnia and Herzegovina have, especially in earlier times? Talk with your parents and try to write down and describe each custom."]}
+  ]
+}

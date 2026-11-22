@@ -1,0 +1,66 @@
+{
+  "title": "The role of the family",
+  "pages": "93–94",
+  "intro": "Why the family is the foundation of society, and what makes a Muslim family strong.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says that one of His signs is that He created spouses for you from among yourselves, so that you may find peace with them, and He placed love and mercy between you. Truly, in that are signs for people who reflect. <small>(Qur’an, Ar-Rum 30:21)</small>"},
+    {"type": "text", "html": "When Allah created Hawwa together with Adam (AS), and their children were born, the <b>first family</b> in the dunya came into being. Since then the family has always had the most important place in every time and every society. Scholars have said that the family is the <b>foundation</b> on which the whole of society rests."},
+    {"type": "text", "html": "Islam sees the family as the <b>basic cell</b> from which the best people grow up. That is why Islam gives special attention to starting and building a family, and gives clear rules for keeping the family healthy."},
+    {"type": "text", "html": "One of the most important conditions for a healthy family is <b>choosing a spouse</b>. Islam recommends paying attention that the person has <b>faith</b>, and after faith also honesty, gentleness, love, mercy and other good qualities."},
+    {"type": "text", "html": "It is impossible to imagine a harmonious life without a family, and family life begins with <b>marriage</b>. All religions and all philosophies based on morals agree on this. Marriage is the base on which family life rests."},
+    {"type": "heading", "text": "The family – close and wide"},
+    {"type": "text", "html": "In Islam, the family in its <b>basic</b> meaning is only the parents and the children. In its <b>wider</b> meaning it also includes the other members: grandfather, grandmother, and after them aunts and uncles and their children. Islam wants to connect as many family members as possible so that the bonds between them are stronger – and that makes the whole society stronger."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "…relatives are closer to one another in the Book of Allah. Truly, Allah knows everything. <small>(Qur’an, Al-Anfal 8:75)</small>"},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Allah’s pleasure is in the pleasure of the parents, and Allah’s anger is in the anger of the parents.”</i> <small>(Tirmidhi)</small>"},
+    {"type": "heading", "text": "Protecting the family"},
+    {"type": "text", "html": "When they marry, a husband and wife must protect their family – this is one of the duties Allah gave them. Like many human values, the family faces challenges that can harm its harmony and even break it apart. Threats can come from outside, but the biggest danger comes from the husband and wife themselves, because of:"},
+    {"type": "list", "items": [
+      "disagreement between the husband and wife,",
+      "doing great and serious sins,",
+      "violence in the family,",
+      "not fulfilling the duties of marriage and family."
+    ]},
+    {"type": "text", "html": "Protecting the family is a duty of each person and of everyone together. Parents and their children each help, in their own way, to keep a healthy family atmosphere full of <b>harmony, understanding and cooperation</b>. Parents do it through love and respect for each other, and children through <b>care and obedience</b> towards their parents."},
+    {"type": "point", "title": "⭐ Remember", "html": "A Muslim family is marked by values that always lead to success and a happy family atmosphere."},
+    {"type": "heading", "text": "What a Muslim family is like"},
+    {"type": "cards", "items": [
+      {"icon": "☝️", "label": "Belief in Allah (SWT)"},
+      {"icon": "🤲", "label": "Obeying Allah and His Messenger (SAW)"},
+      {"icon": "🕌", "label": "Doing the Islamic duties"},
+      {"icon": "📖", "label": "Keeping the rules of the faith"},
+      {"icon": "🛡️", "label": "Guarding against sins"},
+      {"icon": "😊", "label": "Good behaviour"},
+      {"icon": "🛠️", "label": "Good work habits"},
+      {"icon": "🤝", "label": "Harmony and trust in each other"}
+    ]},
+    {"type": "text", "html": "A family that believes in Allah (SWT), does the Islamic duties, keeps away from everything Allah forbade, and where there is trust, sincerity, fairness and kind words, may still have difficulties – but it will solve them much more easily."}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Close or wide family?", "prompt": "Sort each person: the basic family or the wider family?", "bins": ["🏠 Basic family", "🌳 Wider family"], "items": [
+      {"text": "Mother", "bin": 0},
+      {"text": "Father", "bin": 0},
+      {"text": "Brother or sister", "bin": 0},
+      {"text": "Grandfather", "bin": 1},
+      {"text": "Grandmother", "bin": 1},
+      {"text": "Aunt", "bin": 1},
+      {"text": "Uncle’s children (cousins)", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "A strong Muslim family", "prompt": "Tap everything that makes a Muslim family strong, then tap Check.", "options": [
+      {"text": "☝️ Belief in Allah", "correct": true},
+      {"text": "🤝 Trust in each other", "correct": true},
+      {"text": "💬 Kind words", "correct": true},
+      {"text": "🙇 Children who care for and obey their parents", "correct": true},
+      {"text": "😡 Shouting and violence", "correct": false, "why": "Violence in the family is one of the biggest dangers that can break a family apart."},
+      {"text": "🙈 Ignoring family duties", "correct": false, "why": "Not fulfilling family duties harms the family."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who were the first family in the dunya?", "options": ["Adam (AS), Hawwa and their children", "Nuh (AS) and his people", "Ibrahim (AS) and his son", "Nobody knows"], "answer": 0},
+      {"q": "How does Islam see the family?", "options": ["As the basic cell of society", "As unimportant", "As only for adults", "As a club"], "answer": 0},
+      {"q": "What should we look for first when choosing a spouse?", "options": ["Faith", "Money", "Fame", "A big house"], "answer": 0},
+      {"q": "What did the Prophet (SAW) say Allah’s pleasure is in?", "options": ["The pleasure of the parents", "Having lots of friends", "Winning games", "Wealth"], "answer": 0},
+      {"q": "Where does the biggest danger to a family come from?", "options": ["From the husband and wife themselves", "From the weather", "From the neighbours’ cat", "From school"], "answer": 0},
+      {"q": "How do children help keep the family healthy?", "options": ["Through care and obedience to their parents", "By arguing", "By staying away", "By ignoring everyone"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 How does Islam see the family? What are the basic and the wider meaning of family?", "⚠️ What threatens a healthy family? Who is responsible for protecting it? What are the main features of a Muslim family?", "🌳 Task: on a big sheet of paper, draw your family tree. Let your parents, grandfather and grandmother help you – keep the tree and add new members to it.", "✍️ Describe your perfect family in ten sentences.", "🤔 Think: how can society protect the family, since it is the basic cell of society?"]}
+  ]
+}

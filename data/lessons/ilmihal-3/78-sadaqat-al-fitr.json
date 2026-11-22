@@ -1,0 +1,43 @@
+{
+  "title": "Sadaqat al-fitr",
+  "pages": "78–79",
+  "intro": "The special Eid charity that purifies our fast and feeds the poor.",
+  "learn": [
+    {"type": "point", "title": "Hadith", "html": "Ibn ‘Abbas (RA) said: <i>“The Messenger of Allah (SAW) prescribed sadaqat al-fitr to purify the fast from careless and indecent words, and to feed the poor.”</i> <small>(Abu Dawud)</small>"},
+    {"type": "text", "html": "In the days of Ramadan, Allah (SWT) prescribed fasting, which makes Muslims more mindful of Allah and brings them closer to their Lord. In those days Muslims are especially caring towards the weak, the poor, the sick and the tired members of their community."},
+    {"type": "text", "html": "<b>Sadaqat al-fitr</b> is a special act of worship, prescribed in the <b>second year after the Hijrah</b>, and given in the <b>last days of Ramadan</b>. It is the Eid charity, given so that our fast is cleaned of any shortcomings."},
+    {"type": "text", "html": "Sadaqat al-fitr is given for <b>every Muslim</b> – adult or child. An adult gives it for himself and for everyone he is responsible for providing for in his family. It is also good to give it for a baby who is not yet born."},
+    {"type": "heading", "text": "Who must give it?"},
+    {"type": "list", "items": [
+      "The person is a <b>Muslim</b>.",
+      "The person has <b>more food</b> than they and their family need on the night before Eid and on the day of Eid."
+    ]},
+    {"type": "text", "html": "Like zakah, sadaqat al-fitr is given to the <b>Baytul-mal</b> fund, which helps the groups named in the 60th ayah of Surah At-Tawbah <small>(Qur’an, At-Tawbah 9:60)</small>. Muslims in Bosnia and Herzegovina give their sadaqat al-fitr to the Baytul-mal and so make their Community stronger in their homeland. In our community, the Imam can explain how sadaqat al-fitr is collected here and how much it is."},
+    {"type": "heading", "text": "When is it given?"},
+    {"type": "list", "items": [
+      "In the <b>last days of Ramadan</b>, and at the latest <b>before the Eid prayer</b>.",
+      "Sadaqat al-fitr given after the Eid prayer counts only as ordinary sadaqah.",
+      "Whoever delays it on purpose is sinful, and it stays a debt that they must still give later."
+    ]},
+    {"type": "point", "title": "⭐ Remember", "html": "When Ramadan ends, our fast needs to be cleaned of the small mistakes that did not spoil it but lessened its value. The Prophet Muhammad (SAW) said: <i>“The fast of Ramadan stays held between the earth and the heavens until the believer gives sadaqat al-fitr.”</i> <small>(As-Suyuti)</small> Let’s use this blessing from Allah so that our fast is complete and goes to Allah (SWT) as pure worship."}
+  ],
+  "practice": [
+    {"type": "order", "title": "From Ramadan to Eid", "prompt": "Put these in the right order.", "items": ["We fast in Ramadan", "In the last days of Ramadan we give sadaqat al-fitr", "We pray the Eid prayer", "We celebrate Eid with family"]},
+    {"type": "choose_all", "title": "True about sadaqat al-fitr", "prompt": "Tap every true sentence, then tap Check.", "options": [
+      {"text": "It purifies the fast from careless words", "correct": true},
+      {"text": "It feeds the poor", "correct": true},
+      {"text": "It is given for children too", "correct": true},
+      {"text": "It is given before the Eid prayer", "correct": true},
+      {"text": "Only rich adults give it for themselves", "correct": false, "why": "It is given for every Muslim, adult or child – the adult gives it for the family they provide for."},
+      {"text": "It is best given a month after Eid", "correct": false, "why": "After the Eid prayer it counts only as ordinary sadaqah, and delaying it on purpose is a sin."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "When was sadaqat al-fitr prescribed?", "options": ["In the second year after the Hijrah", "Before the Hijrah", "In the tenth year after the Hijrah", "After the Prophet (SAW) passed away"], "answer": 0},
+      {"q": "What is the latest time to give sadaqat al-fitr?", "options": ["Before the Eid prayer", "After the Eid prayer", "At the end of the year", "On the first day of Ramadan"], "answer": 0},
+      {"q": "For whom is sadaqat al-fitr given?", "options": ["For every Muslim, adult and child", "Only for men", "Only for the imam", "Only for the poor"], "answer": 0},
+      {"q": "Into which fund is it given in Bosnia and Herzegovina?", "options": ["The Baytul-mal", "A school fund", "A sports club", "It is not collected"], "answer": 0},
+      {"q": "What happens if it is given after the Eid prayer?", "options": ["It counts as ordinary sadaqah", "It counts double", "It is not allowed at all", "Nothing changes"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions", "prompts": ["💬 What is sadaqat al-fitr, and who must give it?", "📅 When is sadaqat al-fitr given?", "🏛️ Who is responsible for collecting zakah and sadaqat al-fitr? What is the fund called into which sadaqat al-fitr is given?", "🍲 Look at the family eating together on Eid in your book. How does sadaqat al-fitr help poor families also have a happy Eid?"]}
+  ]
+}

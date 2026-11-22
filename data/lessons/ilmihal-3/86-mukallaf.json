@@ -1,0 +1,73 @@
+{
+  "title": "The duties of adults (mukallaf)",
+  "pages": "86–88",
+  "intro": "Af‘al al-mukallafin: the eight kinds of rulings that cover everything an adult Muslim does.",
+  "learn": [
+    {"type": "text", "html": "<b>Af‘al al-mukallafin</b> are the rules of the Shari‘ah for every Muslim man and woman who is <b>adult</b> and of <b>sound mind</b>. A person these duties apply to is called a <b>mukallaf</b>."},
+    {"type": "text", "html": "These rules cover the whole life of a person and of the community, so there is no action people do that is outside them. Af‘al al-mukallafin are divided into eight rulings:"},
+    {"type": "cards", "items": [
+      {"icon": "🟢", "label": "Fard"},
+      {"icon": "🟢", "label": "Wajib"},
+      {"icon": "⛔", "label": "Haram"},
+      {"icon": "⭐", "label": "Sunnah"},
+      {"icon": "✨", "label": "Mustahab"},
+      {"icon": "⚠️", "label": "Makruh"},
+      {"icon": "⚪", "label": "Mubah"},
+      {"icon": "💔", "label": "Mufsid"}
+    ]},
+    {"type": "heading", "text": "Fard, wajib and haram"},
+    {"type": "point", "title": "Fard", "html": "<b>Fard</b> are religious duties that Allah (SWT) <b>strictly commanded</b> to adult Muslims of sound mind. They are divided into:<br>• <b>Fard ‘ayn</b> – strict personal duties that every individual must do: the Kalimat ash-Shahadah, Salah, fasting, zakah and Hajj.<br>• <b>Fard kifayah</b> – strict duties of the community: if one group of Muslims does them, the others are freed from the duty. For example, the janazah prayer, or building things the community really needs – a mosque, a school, a hospital."},
+    {"type": "point", "title": "Wajib", "html": "<b>Wajib</b> are religious duties commanded by Allah (SWT), but not as strictly as fard. Examples are the duties Muslims do on the days of Eid: the Eid prayer, the Qurbani, saying the takbirs and giving sadaqat al-fitr."},
+    {"type": "point", "title": "Haram", "html": "<b>Haram</b> are things Allah (SWT) <b>strictly forbade</b>. Among them: drinking alcohol, eating pork and anything made from it, stealing, lying, zina (relations outside marriage), backbiting, gambling, drugs and so on."},
+    {"type": "text", "html": "A person who does not keep to the rules of fard, haram and wajib is a great sinner. But a person who <b>denies</b> a fard or a haram stops being a Muslim, and if they want to be a Muslim again they must say the <b>Kalimat ash-Shahadah</b> and make <b>tawbah</b> (repentance)."},
+    {"type": "heading", "text": "Sunnah, mustahab and makruh"},
+    {"type": "text", "html": "<b>Sunnah</b> is everything the Prophet Muhammad (SAW) said, did or recommended in any way. It is divided into:"},
+    {"type": "list", "items": [
+      "<b>Sunnah mu’akkadah</b> – things the Prophet (SAW) did regularly and did not leave out, except in special situations. For example: the adhan and iqamah, praying in jama‘ah, and the sunnah prayers of Fajr, Dhuhr, Maghrib and Isha. Whoever does them benefits in this world and is rewarded in the next; whoever does not do them deserves blame.",
+      "<b>Sunnah ghayr mu’akkadah</b> – things the Prophet (SAW) did but sometimes left out, like the sunnah of Asr and of Isha (before the fard), and fasting on Mondays and Thursdays. Whoever does them is rewarded; whoever does not is not sinful.",
+      "<b>Sunnah kifayah</b> – things the Prophet (SAW) recommended to the community, which one or more people can do on behalf of the others, for example staying in the mosque in i‘tikaf for worship in the last ten days of Ramadan."
+    ]},
+    {"type": "point", "title": "Mustahab", "html": "<b>Mustahab</b> are things that are good to do and that the Prophet (SAW) did from time to time. Examples: drying ourselves with a clean towel after wudu, praying nafl prayers, and so on."},
+    {"type": "point", "title": "Makruh", "html": "<b>Makruh</b> are things that are disliked or ugly to do, but not clearly forbidden. They are divided into:<br>• <b>Makruh tahrimi</b> – close to haram and against wajib, so they are forbidden to do. Their prohibition is not as strong as haram, but there is a punishment for them. For example: hoarding food in a time of shortage to sell it at a higher price, eating or drinking from gold or silver dishes, a man sleeping on silk bedding, spreading gossip (“he said, she said”), asking pointless questions.<br>• <b>Makruh tanzihi</b> – not nice to do and against the Sunnah, so we should avoid them. For example: talking during the adhan and iqamah, eating with the left hand, entering the mosque with the left foot."},
+    {"type": "heading", "text": "Other rulings: mubah and mufsid"},
+    {"type": "point", "title": "Mubah", "html": "<b>Mubah</b> are actions that are neither commanded nor forbidden – each person is free to choose, so they are allowed. If we do them, we are neither rewarded nor punished: for example, going for a walk or resting in our free time."},
+    {"type": "point", "title": "Mufsid", "html": "<b>Mufsid</b> are things that spoil (break) acts of worship or duties:<br>• of <b>wudu</b> – flowing blood, sleeping, etc.;<br>• of <b>Salah</b> – speaking or laughing during the prayer, etc.;<br>• of <b>fasting</b> – eating or drinking on purpose during the fast, etc.;<br>• of <b>Hajj</b> – missing the standing at Arafah, etc."},
+    {"type": "point", "title": "⭐ Remember", "html": "Whoever does fard, wajib, sunnah or mustahab will be rewarded. Whoever does haram will be punished. Whoever does makruh things is left without reward. Whoever does mubah has neither punishment nor reward. Whoever does a mufsid has done wrong. These duties apply only to Muslims who are <b>adult and of sound mind</b> – nothing is prescribed for a young child or for a non-Muslim."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the ruling and its meaning", "pairs": [
+      ["Fard", "Strictly commanded by Allah"],
+      ["Wajib", "Commanded, but less strictly than fard"],
+      ["Haram", "Strictly forbidden"],
+      ["Mustahab", "Good to do, the Prophet (SAW) did it sometimes"],
+      ["Mubah", "Neither commanded nor forbidden"],
+      ["Mufsid", "Spoils an act of worship"]
+    ]},
+    {"type": "sort", "title": "True or false?", "prompt": "Sort each sentence from your book: true or false?", "bins": ["✅ True", "❌ False"], "items": [
+      {"text": "Fard kifayah is a duty of the community.", "bin": 0},
+      {"text": "Mustahab are things the Prophet (SAW) did.", "bin": 0},
+      {"text": "Mufsid are things that are only disliked to do.", "bin": 1},
+      {"text": "Makruh tahrimi is close to halal.", "bin": 1},
+      {"text": "The fard of Isha is a sunnah mu’akkadah.", "bin": 1},
+      {"text": "Missing the sa‘y is the mufsid of Hajj.", "bin": 1}
+    ]},
+    {"type": "choose_all", "title": "Fard ‘ayn", "prompt": "Tap every fard ‘ayn – a duty every single Muslim must do – then tap Check.", "options": [
+      {"text": "🕌 Salah", "correct": true},
+      {"text": "🌙 Fasting in Ramadan", "correct": true},
+      {"text": "💰 Zakah (when you meet the conditions)", "correct": true},
+      {"text": "☝️ The Kalimat ash-Shahadah", "correct": true},
+      {"text": "⚰️ The janazah prayer", "correct": false, "why": "The janazah prayer is fard kifayah – if a group does it, the others are freed."},
+      {"text": "🐑 The Qurbani", "correct": false, "why": "The Qurbani is wajib, one of the duties of Eid."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who is a mukallaf?", "options": ["An adult Muslim of sound mind", "A small child", "Only the imam", "Anyone at all"], "answer": 0},
+      {"q": "Into how many rulings are af‘al al-mukallafin divided?", "options": ["Eight", "Three", "Five", "Twelve"], "answer": 0},
+      {"q": "Which is an example of wajib?", "options": ["The Eid prayer", "Going for a walk", "Eating with the left hand", "Lying"], "answer": 0},
+      {"q": "What happens to someone who does something mubah?", "options": ["No reward and no punishment", "A big reward", "A punishment", "Their Salah is broken"], "answer": 0},
+      {"q": "Which is makruh tanzihi?", "options": ["Talking during the adhan", "Stealing", "Praying Salah", "Giving zakah"], "answer": 0},
+      {"q": "What spoils the fast?", "options": ["Eating or drinking on purpose", "Sleeping", "Brushing your hair", "Reading the Qur’an"], "answer": 0},
+      {"q": "What must someone do who denied a fard and wants to be a Muslim again?", "options": ["Say the Kalimat ash-Shahadah and make tawbah", "Nothing", "Only fast one day", "Change their name"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What are af‘al al-mukallafin, and how are they divided?", "📋 What is fard, and how is it divided? What is wajib, and what is haram?", "⭐ What is sunnah, and how is it divided? What is mustahab? What is makruh, and how is it divided?", "📝 Define mubah and mufsid.", "✏️ Fill in: If a Muslim does something haram, they are considered a ____ and should make ____. Whoever denies a fard or says a haram is allowed must, to be a Muslim again, say ____ and make ____."]}
+  ]
+}

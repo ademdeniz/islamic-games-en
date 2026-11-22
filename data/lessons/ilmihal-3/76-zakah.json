@@ -1,0 +1,60 @@
+{
+  "title": "Zakah – Baytul-mal",
+  "pages": "76–77",
+  "intro": "The fourth pillar of Islam: who must give zakah, on what, how much, and to whom.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: Establish the prayer and give zakah. <small>(Qur’an, Al-Baqarah 2:43)</small>"},
+    {"type": "text", "html": "<b>Zakah</b> is giving a set part of one’s wealth once it reaches the value of the <b>nisab</b>. Zakah is the <b>fourth pillar of Islam</b> and a <b>fard</b> – a duty for every Muslim man and woman who meets the conditions for it. Believing that zakah is fard is part of a Muslim’s correct faith; a person who denies that zakah is obligatory is not considered a Muslim."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“Islam is built on five: bearing witness that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving zakah, performing Hajj, and fasting the month of Ramadan.”</i> <small>(Bukhari)</small>"},
+    {"type": "heading", "text": "When is zakah obligatory?"},
+    {"type": "list", "items": [
+      "<b>Freedom</b> – the person is free.",
+      "<b>Real ownership</b> of the wealth.",
+      "The wealth reaches the value of the <b>nisab</b> (the minimum amount).",
+      "That wealth has been owned for <b>one full year</b>."
+    ]},
+    {"type": "heading", "text": "Wealth on which zakah is given"},
+    {"type": "point", "title": "1. Gold, silver, money and savings", "html": "Gold – nisab <b>91.6 grams</b>, give <b>2.5%</b>. Silver – nisab <b>641.5 grams</b>, give <b>2.5%</b>. Money and savings – if they reach the nisab, give <b>2.5%</b>. The 2.5% is taken from the whole of that wealth. The value of the nisab in money follows the world price of gold; in Bosnia and Herzegovina it is set by the Council of Muftis."},
+    {"type": "point", "title": "2. Livestock", "html": "Cattle (cows) – nisab is <b>30 head</b>, and one two-year-old animal is given. Sheep – nisab is <b>40 head</b>, and one sheep is given."},
+    {"type": "point", "title": "3. Crops from the land", "html": "Zakah on crops is given on the day of the harvest. If the fields were watered <b>only by rain</b> – <b>10%</b>. If watering took work and extra costs – <b>5%</b>. If both – <b>7.5%</b>."},
+    {"type": "point", "title": "4. Trade goods", "html": "Trade goods are everything prepared for sale to make a profit. Zakah is given on them if they reach the nisab after all debts and costs are paid. On the day of the count, the trader takes stock of the shop, values the goods, adds the income of the past year minus costs, and if that reaches the nisab, gives <b>2.5%</b>."},
+    {"type": "heading", "text": "To whom is zakah given?"},
+    {"type": "text", "html": "The practice of the Prophet (SAW) was to collect zakah in <b>one fund – the Baytul-mal</b> – from which it was given to the groups of people named in the 60th ayah of Surah At-Tawbah <small>(Qur’an, At-Tawbah 9:60)</small>. The Islamic Community in Bosnia and Herzegovina follows this practice, so there zakah is given to the Baytul-mal fund of the Islamic Community, and then shared out to those who need it most. In our community, the Imam can explain how zakah is collected and given here."},
+    {"type": "point", "title": "⚠️ Remember", "html": "Muslims who believe zakah is obligatory but do not give the amount they owe commit a <b>great sin</b>."},
+    {"type": "heading", "text": "The wisdom of zakah"},
+    {"type": "list", "items": [
+      "It <b>cleans the soul</b> of stinginess and greed, and gets us used to spending in Allah’s way.",
+      "It <b>purifies and increases</b> wealth and makes it blessed (barakah).",
+      "It builds the common good and well-being of everyone.",
+      "It stops wealth from piling up in the hands of one group of people."
+    ]},
+    {"type": "point", "title": "🧮 Zakah calculator", "html": "The Islamic Community in Bosnia and Herzegovina offers a simple and exact zakah calculator on its website (islamskazajednica.ba, link: zekat.ba)."}
+  ],
+  "practice": [
+    {"type": "memory", "title": "Match the nisab and the amount", "pairs": [
+      ["Gold", "Nisab 91.6 g – give 2.5%"],
+      ["Silver", "Nisab 641.5 g – give 2.5%"],
+      ["Cattle", "Nisab 30 head – give one"],
+      ["Sheep", "Nisab 40 head – give one"],
+      ["Crops watered only by rain", "Give 10%"],
+      ["Crops watered with work and costs", "Give 5%"]
+    ]},
+    {"type": "choose_all", "title": "Conditions of zakah", "prompt": "Tap every condition that makes zakah obligatory, then tap Check.", "options": [
+      {"text": "🕊️ Being free", "correct": true},
+      {"text": "🔑 Really owning the wealth", "correct": true},
+      {"text": "⚖️ The wealth reaches the nisab", "correct": true},
+      {"text": "📆 Owning it for one full year", "correct": true},
+      {"text": "🎂 Being born in Ramadan", "correct": false, "why": "Your birthday has nothing to do with zakah."},
+      {"text": "🏠 Owning a house you live in", "correct": false, "why": "The house you live in and the car you use are not counted for zakah – they are your personal needs."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which pillar of Islam is zakah?", "options": ["The fourth", "The first", "The second", "The fifth"], "answer": 0},
+      {"q": "What is the nisab?", "options": ["The minimum amount of wealth on which zakah is due", "A kind of prayer", "A month", "A mosque"], "answer": 0},
+      {"q": "How much zakah is given on money that reaches the nisab?", "options": ["2.5%", "10%", "50%", "1%"], "answer": 0},
+      {"q": "Into which fund was zakah collected in the time of the Prophet (SAW)?", "options": ["The Baytul-mal", "A bank", "A school fund", "There was no fund"], "answer": 0},
+      {"q": "Which surah and ayah name the groups who receive zakah?", "options": ["At-Tawbah 9:60", "Al-Fatihah 1:1", "Al-Ikhlas 112:1", "Yasin 36:1"], "answer": 0},
+      {"q": "What does zakah do for the soul?", "options": ["Cleans it of stinginess and greed", "Makes it proud", "Nothing", "Makes it lazy"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What is zakah? Name the conditions that make zakah obligatory. What is the nisab?", "📋 On which kinds of wealth is zakah given, what is the nisab for each, and how much is given? What is the wisdom of zakah?", "🤔 In Bosnia and Herzegovina zakah is given to the Baytul-mal, as it was in the time of the Prophet (SAW). But a poor man with several children who is able to work appeared, and some of his neighbours started giving him their zakah directly. Is that right? Explain your opinion using the rules we learned.", "🧮 With a zakah calculator, work out the zakah on: $10,000 in a bank account; a house to live in and a car that is used; a weekend house rented out for $1,500 a year; winter food grown in the garden (potatoes, onions, beans) beyond personal needs. (In the book, the amounts are in KM, the money of Bosnia.)"]}
+  ]
+}

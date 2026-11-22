@@ -1,0 +1,41 @@
+{
+  "title": "Sahib al-‘udhr (a person with a lasting excuse)",
+  "pages": "92",
+  "intro": "How someone who cannot keep wudu for a whole prayer time still prays.",
+  "learn": [
+    {"type": "text", "html": "A <b>sahib al-‘udhr</b> is a person from whom urine, blood or another fluid keeps flowing, dripping or leaking, so that they <b>cannot keep their wudu for even one whole prayer time</b>. A person who cannot control passing wind has the same status."},
+    {"type": "heading", "text": "The rules for a sahib al-‘udhr"},
+    {"type": "list", "items": [
+      "For <b>every prayer time</b> they must make a <b>new wudu</b> to pray the fard.",
+      "During that prayer time, with the same wudu, they may also pray missed prayers, nafl prayers, or recite the Qur’an.",
+      "If they hope their condition will get better, they wait until close to the end of the prayer time; if not, they may pray at its beginning.",
+      "They keep this status as long as the same problem appears in every prayer time – even just once.",
+      "They stop being a sahib al-‘udhr when the problem stops and does not appear for one whole prayer time."
+    ]},
+    {"type": "point", "title": "When is their wudu broken?", "html": "The wudu of a sahib al-‘udhr is broken if <b>something else</b> happens that normally breaks wudu, or when <b>that prayer time ends</b>."},
+    {"type": "point", "title": "⭐ Remember", "html": "Islam is easy: Allah (SWT) does not ask anyone for more than they can do. Even a person with a lasting excuse can pray every Salah on time."}
+  ],
+  "practice": [
+    {"type": "choose_all", "title": "Who is a sahib al-‘udhr?", "prompt": "Tap everyone who has the status of sahib al-‘udhr, then tap Check.", "options": [
+      {"text": "Someone whose wound keeps leaking all through every prayer time", "correct": true},
+      {"text": "Someone who cannot control urine dripping", "correct": true},
+      {"text": "Someone who cannot control passing wind", "correct": true},
+      {"text": "A woman in istihadah", "correct": true},
+      {"text": "Someone who had a nosebleed once last week", "correct": false, "why": "The problem must come in every prayer time, so that wudu cannot be kept for a whole prayer time."},
+      {"text": "Someone who is too lazy to make wudu", "correct": false, "why": "Laziness is not an excuse – wudu is a condition of Salah."}
+    ]},
+    {"type": "sort", "title": "Is the wudu still valid?", "prompt": "For a sahib al-‘udhr – is the wudu still valid, or broken?", "bins": ["✅ Still valid", "❌ Broken"], "items": [
+      {"text": "The same fluid leaks again during the same prayer time", "bin": 0},
+      {"text": "They pray a missed prayer in the same prayer time", "bin": 0},
+      {"text": "The prayer time has ended", "bin": 1},
+      {"text": "They fall asleep", "bin": 1}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Who is a sahib al-‘udhr?", "options": ["Someone who cannot keep wudu for one whole prayer time", "Someone who is travelling", "Someone who is fasting", "A child"], "answer": 0},
+      {"q": "How often must a sahib al-‘udhr make wudu?", "options": ["For every prayer time", "Once a day", "Once a week", "Never"], "answer": 0},
+      {"q": "Can they pray more than one prayer with one wudu?", "options": ["Yes, within the same prayer time", "No, never", "Only on Fridays", "Only the fard"], "answer": 0},
+      {"q": "When does someone stop being a sahib al-‘udhr?", "options": ["When the problem does not appear for one whole prayer time", "After one day", "When they want to", "Never"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 Who is a sahib al-‘udhr? Which rules apply to them?", "🤔 Can a sahib al-‘udhr pray several prayers with one wudu?", "🏥 A Muslim is recovering from a serious operation. The wound has not healed yet and a fluid comes out that he cannot control. Describe in detail how he will pray his daily prayers, remembering that he hopes at every moment that the wound will heal completely and his excuse will end."]}
+  ]
+}

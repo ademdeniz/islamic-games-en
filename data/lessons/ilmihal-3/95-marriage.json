@@ -1,0 +1,83 @@
+{
+  "title": "Marriage in Islam",
+  "pages": "95–97",
+  "intro": "What marriage is in Islam, its aims, the duties of husband and wife, and who may not marry whom.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "Allah (SWT) says: Help those among you who are single to marry, and the righteous among those who serve you; if they are poor, Allah will make them rich from His bounty. Allah is All-Encompassing, All-Knowing. <small>(Qur’an, An-Nur 24:32)</small>"},
+    {"type": "text", "html": "People are social beings, born and raised in a family. After they grow up, it is their duty to start their own family, and that begins with <b>marriage (nikah)</b>. The rules of Islam call Muslim men and women to marry in the way based on the Qur’an and the Sunnah of the Prophet (SAW)."},
+    {"type": "point", "title": "Hadith", "html": "The Prophet (SAW) said: <i>“O young people! Whoever of you is able to take on the duties of marriage, let him marry, for marriage is the best way to lower the gaze…”</i> <small>(Bukhari)</small>"},
+    {"type": "text", "html": "The Messenger of Allah, Muhammad (SAW), was married, so marriage is also his <b>Sunnah</b>. A person who marries is rewarded by Allah (SWT) for obeying His command, and rewarded again for following the Sunnah."},
+    {"type": "heading", "text": "What is marriage?"},
+    {"type": "text", "html": "In the Shari‘ah, marriage is a <b>contract</b> between a man and a woman who meet the conditions for marriage. It is made by their own <b>free will</b>, in front of <b>two witnesses</b> (Muslims – two men, or one man and two women), and it gives them the right to live together as husband and wife."},
+    {"type": "text", "html": "In Bosnia and Herzegovina a marriage is registered at the civil registry office and also before the imam-registrar at the majlis of the Islamic Community. In our community, the Imam can explain how a nikah is done here."},
+    {"type": "heading", "text": "The ruling on marriage"},
+    {"type": "text", "html": "According to Islamic scholars, marriage can be fard, sunnah, makruh or haram, depending on the person:"},
+    {"type": "list", "items": [
+      "<b>Fard</b> – a strict duty for someone who can support a family and could not otherwise protect themselves from an immoral life.",
+      "<b>Sunnah</b> – for someone who meets the conditions for marriage and can protect themselves from an immoral life.",
+      "<b>Makruh</b> – for someone who is not sure they will be able to fulfil the duties of marriage.",
+      "<b>Haram</b> – for someone who knows they will not be able to fulfil the duties of marriage (because they lack the means, or the physical or mental ability)."
+    ]},
+    {"type": "heading", "text": "The aims of marriage"},
+    {"type": "list", "items": [
+      "obeying Allah’s command,",
+      "following the Sunnah of the Messenger of Allah (SAW),",
+      "bringing husband and wife close to each other,",
+      "continuing the family through children,",
+      "having lawful heirs,",
+      "keeping the husband and wife’s life clean and moral,",
+      "raising children in Islam,",
+      "providing for the family."
+    ]},
+    {"type": "heading", "text": "Duties in marriage"},
+    {"type": "point", "title": "The husband’s duties", "html": "To provide for his wife according to his means; to treat his wife kindly; to respect and protect her dignity; to give his wife her <b>mahr</b> (marriage gift) as soon as possible; to fulfil his duties as a husband; to care for the good upbringing and education of the children."},
+    {"type": "point", "title": "The wife’s duties", "html": "To protect her husband’s good name and dignity; to look after his property and not waste it; to do her work as a wife and mother with care; to fulfil her duties towards her husband; to care for the upbringing and education of the children."},
+    {"type": "point", "title": "Shared duties", "html": "From the first days of marriage, to build love, respect and understanding; to keep their marriage duties; all through their married life, to protect the privacy and warmth of the family; to give their children beautiful Islamic names; to take part together in raising and educating the children; to encourage each other in the Islamic duties; to call each other to good and keep each other from evil; and to share, as far as they can, the housework and the providing for the home."},
+    {"type": "heading", "text": "Who may not marry whom"},
+    {"type": "text", "html": "One condition for marriage is that there is no <b>impediment</b> (obstacle) to it. Impediments are <b>permanent</b> or <b>temporary</b>. The permanent ones are relationships by <b>blood</b>, by <b>milk</b> (nursing) and by <b>marriage</b>."},
+    {"type": "point", "title": "1. Relation by blood", "html": "People related by blood cannot marry each other. Allah (SWT) says: Forbidden to you (in marriage) are your mothers, your daughters, your sisters, your fathers’ sisters, your mothers’ sisters, your brothers’ daughters and your sisters’ daughters… <small>(Qur’an, An-Nisa’ 4:23)</small>"},
+    {"type": "point", "title": "2. Relation by milk", "html": "A woman who nursed someone else’s baby while it was still a baby (in its first two years) becomes the child’s <b>milk-mother</b>. Allah (SWT) says: …and your mothers who nursed you, and your sisters through nursing… <small>(Qur’an, An-Nisa’ 4:23)</small> This relation also reaches her other relatives: her own sons and daughters become the child’s milk-brothers and milk-sisters; all the other children she nursed become milk-brothers and milk-sisters too; her sisters become milk-aunts; and her mother becomes a milk-grandmother."},
+    {"type": "point", "title": "3. Relation by marriage", "html": "Some relatives by marriage (in-laws) are also permanently forbidden; they are named in the Qur’an: …the mothers of your wives, your stepdaughters in your care from wives you have been married to – but if the marriage was not completed, there is no sin on you – and the wives of your own sons… <small>(Qur’an, An-Nisa’ 4:23)</small>"},
+    {"type": "heading", "text": "Temporary impediments"},
+    {"type": "text", "html": "These are people one may not marry <b>because of a reason</b>; when that reason ends, marriage with that person is allowed:"},
+    {"type": "list", "items": [
+      "Being married to <b>two sisters at the same time</b> – if the wife dies or the marriage ends in divorce, a man may marry her sister.",
+      "A woman in her <b>‘iddah</b> – the waiting period in which a woman may not make a new marriage.",
+      "A woman who worships idols. Allah (SWT) says: Do not marry women who associate others with Allah until they believe… <small>(Qur’an, Al-Baqarah 2:221)</small>",
+      "A non-Muslim man – until he accepts Islam."
+    ]}
+  ],
+  "practice": [
+    {"type": "sort", "title": "Whose duty is it?", "prompt": "Sort each duty from your book.", "bins": ["👨 The husband", "👩 The wife", "🤝 Both together"], "items": [
+      {"text": "Giving the mahr", "bin": 0},
+      {"text": "Providing for the wife according to his means", "bin": 0},
+      {"text": "Looking after the husband’s property", "bin": 1},
+      {"text": "Protecting the husband’s good name", "bin": 1},
+      {"text": "Giving the children beautiful Islamic names", "bin": 2},
+      {"text": "Encouraging each other in the Islamic duties", "bin": 2}
+    ]},
+    {"type": "sort", "title": "Permanent or temporary?", "prompt": "Sort the impediments to marriage.", "bins": ["🔒 Permanent", "⏳ Temporary"], "items": [
+      {"text": "Relation by blood", "bin": 0},
+      {"text": "Relation by milk", "bin": 0},
+      {"text": "Relation by marriage (in-laws)", "bin": 0},
+      {"text": "A woman in her ‘iddah", "bin": 1},
+      {"text": "A non-Muslim man (until he accepts Islam)", "bin": 1},
+      {"text": "Two sisters at the same time", "bin": 1}
+    ]},
+    {"type": "memory", "title": "Match the words", "pairs": [
+      ["Nikah", "The marriage contract"],
+      ["Mahr", "The marriage gift to the wife"],
+      ["‘Iddah", "A woman’s waiting period"],
+      ["Milk-mother", "A woman who nursed a baby"],
+      ["Two witnesses", "Needed for a nikah"]
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "What is marriage in the Shari‘ah?", "options": ["A contract between a man and a woman, made by free will before two witnesses", "A party", "A secret promise without witnesses", "Something only for kings"], "answer": 0},
+      {"q": "Why is marriage also a Sunnah?", "options": ["Because the Prophet (SAW) was married", "Because it is easy", "Because everyone does it", "It is not"], "answer": 0},
+      {"q": "When is marriage haram for a person?", "options": ["When they know they cannot fulfil the duties of marriage", "When they are happy", "When it rains", "Never"], "answer": 0},
+      {"q": "Until what age does nursing make a milk relation?", "options": ["The first two years", "Ten years", "Any age", "One week"], "answer": 0},
+      {"q": "Which is a temporary impediment?", "options": ["A woman in her ‘iddah", "A sister", "A milk-mother", "A wife’s mother"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions and tasks", "prompts": ["💬 What is marriage? For whom is marriage fard, and for whom is it haram?", "🎯 What are the aims of marriage? Name the shared duties in marriage.", "🔒 What are the permanent and the temporary impediments to marriage? Explain the relation by milk – when does it begin and whom does it include?", "📖 Using the ayah of the Qur’an (An-Nisa’ 4:23), name the relatives with whom marriage is permanently forbidden.", "🤝 Choose one temporary impediment and, with your muallim, describe in detail how it can be removed."]}
+  ]
+}
