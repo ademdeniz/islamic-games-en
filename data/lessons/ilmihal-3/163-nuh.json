@@ -1,0 +1,55 @@
+{
+  "title": "Prophet Nuh (AS)",
+  "pages": "163–164",
+  "intro": "Nuh (AS) called his people to Allah for 950 years – and only those on the Ark were saved from the great flood.",
+  "learn": [
+    {"type": "point", "title": "📖 In the Qur’an", "html": "When Our command came and water gushed out over the earth, We said: “Load onto the Ark a pair of every kind of animal, and your family – except those against whom the word has already gone – and the believers.” But only a few believed with him. <small>(Qur’an, Hud 11:40, meaning)</small>"},
+    {"type": "text", "html": "Nuh (AS) is one of the most chosen messengers of Allah, sent to his own people. Allah (SWT) mentions him often in the Qur’an. He carried the mission of prophethood <b>after Idris (AS)</b>. In his time people had multiplied, so a new messenger was needed to call people to belief in Allah, to warn them, to command what is good and to turn them away from evil. By Allah’s will, that was Nuh (AS)."},
+    {"type": "text", "html": "People in his time lived for hundreds of years, and Nuh (AS) lived, as the Qur’an says, <b>“a thousand years less fifty”</b> among his people <small>(Al-‘Ankabut 29:14)</small>. Tradition says Nuh (AS) lived in the area of today’s <b>Syria, Jordan, Palestine and Iraq</b>."},
+    {"type": "text", "html": "His people slowly left the faith of their forefathers, who believed in One God, and just before he came, <b>idol worship and superstition</b> had spread among them. When Nuh (AS) became a messenger, his people were ruled by a disbelieving ruler who ordered them not to listen to Nuh, not to follow him and not to stop bowing to statues."},
+    {"type": "text", "html": "Most of his people – all but a few – ignored what Nuh (AS) said and kept on sinning. They even insulted and attacked Allah’s messenger. Hardships came one after another; they began to call him <b>mad</b> and did not answer his call."},
+    {"type": "heading", "text": "Building the Ark"},
+    {"type": "text", "html": "Allah tells us how Nuh (AS) turned to Him because his call was failing and his people kept rejecting his warnings. After calling them to belief in One God for a very long time, Nuh (AS) had only a few followers, so he made dua to Allah not to leave a single disbeliever on Earth. Allah revealed to him that, apart from those who already believed, <b>no one else</b> from his people would become a believer."},
+    {"type": "text", "html": "After Allah’s answer, and by His command, Nuh (AS) began building a <b>ship on dry land</b>. His people mocked him: <i>“Nuh, what are you making – and where is the water?”</i> He did not listen to them, and kept on building the ship. When he finished, the time came for Allah’s promise to be fulfilled."},
+    {"type": "heading", "text": "The great flood"},
+    {"type": "text", "html": "Then a <b>great flood</b> came. Only those who were <b>on the Ark</b> with Nuh (AS) were saved. There was no rescue for the disbelievers – among them was even Nuh’s own <b>son</b>, who did not follow his father’s guidance. When Nuh (AS) saw that his son would perish with the disbelievers, he asked Allah to save him, but Allah answered His messenger:"},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "“O Nuh, he is not of your family – his deeds are not righteous. So do not ask Me about what you have no knowledge of. I advise you not to be among the ignorant.” <small>(Qur’an, Hud 11:46, meaning)</small>"},
+    {"type": "text", "html": "The flood lasted for some time. When Allah’s decree was complete, the Lord of the worlds commanded the water to go down, and the Ark came to rest on <b>Mount Judi</b>."},
+    {"type": "point", "title": "📖 In the Qur’an", "html": "It was said: “O earth, swallow your water, and O sky, stop!” The water went down, the matter was decided, and the Ark settled on Mount Judi. And it was said: “Away with the wrongdoing people!” <small>(Qur’an, Hud 11:44, meaning)</small>"},
+    {"type": "text", "html": "So the fate of the people of Nuh (AS) was fulfilled: they were punished and vanished from this world as if they had never existed. For us, the followers of the Qur’an and of Muhammad (SAW), the story of the noble messenger Nuh (AS) and his people remains as a <b>lesson</b>."},
+    {"type": "point", "title": "⭐ Remember", "html": "In the time of Nuh (AS) there was a great flood, and only those who followed him – the believers – were saved with him."}
+  ],
+  "practice": [
+    {"type": "order", "title": "The story of Nuh (AS)", "prompt": "Put the events in order.", "items": [
+      "Nuh (AS) is sent after Idris (AS) to a people who worship idols",
+      "He calls his people to One God for a very long time",
+      "Most of them mock him and call him mad",
+      "Allah tells him no more of his people will believe",
+      "Nuh (AS) builds a ship on dry land while people laugh",
+      "The great flood comes and the believers are saved on the Ark",
+      "The water goes down and the Ark rests on Mount Judi"
+    ]},
+    {"type": "choose_all", "title": "Who was saved?", "prompt": "Tap who was on the Ark, then tap Check.", "options": [
+      {"text": "Nuh (AS)", "correct": true},
+      {"text": "The believers who followed him", "correct": true},
+      {"text": "A pair of every kind of animal", "correct": true},
+      {"text": "Nuh’s son who did not follow him", "correct": false, "why": "His son refused his father’s guidance and perished with the disbelievers."},
+      {"text": "The disbelieving ruler", "correct": false, "why": "There was no rescue for the disbelievers."}
+    ]},
+    {"type": "quiz", "title": "Quick quiz", "questions": [
+      {"q": "Which prophet came before Nuh (AS)?", "options": ["Idris (AS)", "Ibrahim (AS)", "Musa (AS)", "Hud (AS)"], "answer": 0},
+      {"q": "How long did Nuh (AS) live among his people, according to the Qur’an?", "options": ["A thousand years less fifty", "Sixty-three years", "Forty years", "A hundred years"], "answer": 0},
+      {"q": "What did his people say when he built the ship?", "options": ["“Where is the water?”", "“Can we help?”", "“What a beautiful ship!”", "Nothing"], "answer": 0},
+      {"q": "Where did the Ark come to rest?", "options": ["Mount Judi", "Mount Sinai", "Mount Uhud", "Mount Hira"], "answer": 0},
+      {"q": "Which member of his family was not saved?", "options": ["His son", "His grandfather", "His brother", "His teacher"], "answer": 0},
+      {"q": "How was the people of Nuh (AS) punished?", "options": ["By a great flood", "By an earthquake", "By a strong wind", "By a fire"], "answer": 0}
+    ]},
+    {"type": "reflect", "title": "Questions, tasks and talk", "prompts": [
+      "❓ Which messenger came before Nuh (AS), and why was Nuh sent?",
+      "❓ What command did Nuh (AS) receive, and why was he mocked?",
+      "❓ How were his people punished? Who from his family drowned?",
+      "🔎 Task: Find out where modern archaeological research places Mount Judi, where the Ark of Nuh (AS) came to rest. By estimates, how many years did Nuh (AS) live?",
+      "🗣️ Talk with your muallim: “Passengers on the Ark of rescue.” What could be our “ark” today?"
+    ]}
+  ]
+}
