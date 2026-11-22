@@ -1,0 +1,93 @@
+{
+  "title": "Let’s repeat what we learned",
+  "pages": "63",
+  "intro": "The pillars of Salah, the bathroom dua, the protecting surahs, ghusl, tayammum and the last sitting.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Let’s repeat! Say the missing words with your muallim:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The pillars of Salah are ____ parts we must do ______ Salah, so it is right and complete.",
+        "Name the six pillars: 1. ______ 2. ______ 3. ______ 4. ______ 5. ______ 6. ______.",
+        "We go into the bathroom with the ______ foot and say: Allaahumma innee ______.",
+        "We come out with the ______ foot and say: ______ – I ask Your forgiveness.",
+        "The Prophet (SAW) recommended reciting, morning and ______, Qul ______ and the two protecting surahs: ______ and ______.",
+        "Ghusl is a required religious ______ for adult Muslims in a state of ______. Its three fard are: ______, ______ and ______.",
+        "Tayammum is touching ______ for a symbolic ______.",
+        "In the last sitting we recite: ______, ______ and ______."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "quiz",
+      "title": "Fill in the gap",
+      "questions": [
+        {
+          "q": "How many pillars of Salah are there?",
+          "options": [
+            "Six",
+            "Twelve",
+            "Three",
+            "Four"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which foot do we enter the bathroom with?",
+          "options": [
+            "The left",
+            "The right",
+            "Both",
+            "It doesn’t matter"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which are the two protecting surahs?",
+          "options": [
+            "Al-Falaq and An-Nas",
+            "Al-Fatiha and Al-Ikhlas",
+            "Al-Kawthar and Al-‘Asr",
+            "Ya-Sin and Al-Mulk"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we recite in the last sitting?",
+          "options": [
+            "At-Tahiyyat, salawat and duas",
+            "The adhan",
+            "Al-Fatiha",
+            "Subhanaka"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "The six pillars of Salah",
+      "prompt": "Put them in order.",
+      "items": [
+        "Opening takbir",
+        "Standing",
+        "Recitation",
+        "Ruku‘",
+        "Sajdah",
+        "Last sitting"
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Say it",
+      "prompts": [
+        "🗣️ Recite Al-Falaq and An-Nas.",
+        "🗣️ Say At-Tahiyyat, the salawat and the duas."
+      ]
+    }
+  ]
+}

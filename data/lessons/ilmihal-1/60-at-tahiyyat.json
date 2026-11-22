@@ -1,0 +1,85 @@
+{
+  "title": "At-Tahiyyat",
+  "pages": "60",
+  "intro": "In every sitting of Salah we greet and thank Allah with At-Tahiyyat.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>At-Tahiyyat</b> shows our thanks and obedience to Allah. We say it in <b>every sitting</b> of Salah:"
+    },
+    {
+      "type": "phrase",
+      "label": "At-Tahiyyat",
+      "ar": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "At-tahiyyaatu lillaahi was-salawaatu wat-tayyibaatu. As-salaamu ‘alayka ayyuhan-nabiyyu wa rahmatullaahi wa barakaatuh. As-salaamu ‘alaynaa wa ‘alaa ‘ibaadillaahis-saaliheen. Ash-hadu an laa ilaaha illallaah, wa ash-hadu anna Muhammadan ‘abduhu wa rasooluh.",
+      "en": "Greetings, prayers and good words belong to Allah. Peace be upon you, O Prophet, and Allah’s mercy and blessings. Peace be upon us and on all of Allah’s good servants. I bear witness that there is no god but Allah, and I bear witness that Muhammad is Allah’s servant and Messenger."
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "At-Tahiyyat is the conversation between Allah and the Prophet Muhammad (SAW) on the <b>Mi‘raj</b>. Our sincere prayers are our own mi‘raj – our closeness to our Lord."
+    },
+    {
+      "type": "text",
+      "html": "Listen and repeat: <a href=\"../../../games/dove-ettehijjatu/\">At-Tahiyyatu, Salawat and Duas</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "At-Tahiyyat in order",
+      "prompt": "Put the parts in order.",
+      "items": [
+        "At-tahiyyaatu lillaahi…",
+        "As-salaamu ‘alayka ayyuhan-nabiyyu…",
+        "As-salaamu ‘alaynaa…",
+        "Ash-hadu an laa ilaaha illallaah",
+        "wa ash-hadu anna Muhammadan ‘abduhu wa rasooluh"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When do we say At-Tahiyyat?",
+          "options": [
+            "In every sitting of Salah",
+            "In ruku‘",
+            "When standing",
+            "Before wudu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does At-Tahiyyat show?",
+          "options": [
+            "Our thanks and obedience to Allah",
+            "That we are hungry",
+            "That we are tired",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "On which night was At-Tahiyyat said between Allah and the Prophet (SAW)?",
+          "options": [
+            "The Mi‘raj",
+            "The first night of Ramadan",
+            "Eid night",
+            "Any night"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Task",
+      "prompts": [
+        "🎵 Practise saying At-Tahiyyat correctly all together in the maktab!",
+        "💬 How can we be close to our Lord?"
+      ]
+    }
+  ]
+}

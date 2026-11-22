@@ -1,0 +1,159 @@
+{
+  "title": "Islamic manners",
+  "pages": "64",
+  "intro": "The right words for every moment – and good manners at the table.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Islamic manners include saying the right words in different situations:"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🤲",
+          "label": "Bismillah – in the name of Allah – when we start something"
+        },
+        {
+          "icon": "🌱",
+          "label": "InshaAllah – if Allah wills – when we hope for something"
+        },
+        {
+          "icon": "😍",
+          "label": "MashaAllah – what Allah wills – when we admire something"
+        },
+        {
+          "icon": "✨",
+          "label": "Subhanallah – glory be to Allah – when we are amazed"
+        },
+        {
+          "icon": "💚",
+          "label": "Alhamdulillah – praise be to Allah – in every situation"
+        },
+        {
+          "icon": "🤧",
+          "label": "Yarhamukallah – may Allah have mercy on you – when someone sneezes"
+        },
+        {
+          "icon": "😣",
+          "label": "Ya Allah – O Allah – when we are in pain or trouble"
+        },
+        {
+          "icon": "🙏",
+          "label": "Astaghfirullah – forgive me, O Allah – when we are sorry for a bad deed"
+        },
+        {
+          "icon": "🛡️",
+          "label": "Na‘udhu billah – we seek refuge in Allah – when we point out something bad"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Learn these words",
+      "html": "Learn them and use them every day!"
+    },
+    {
+      "type": "heading",
+      "text": "Islamic manners when eating and drinking"
+    },
+    {
+      "type": "list",
+      "items": [
+        "eat healthy, halal food",
+        "wash the hands before and after eating",
+        "say A‘udhu billah and Bismillah, and eat with the right hand",
+        "eat together with the family",
+        "don’t eat food that is too hot and don’t blow on it",
+        "after eating, thank Allah: Alhamdulillah",
+        "tidy up after the meal",
+        "brush the teeth after eating"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "memory",
+      "title": "Which word?",
+      "pairs": [
+        [
+          "Starting something",
+          "Bismillah"
+        ],
+        [
+          "Hoping for something",
+          "InshaAllah"
+        ],
+        [
+          "Admiring something",
+          "MashaAllah"
+        ],
+        [
+          "Someone sneezes",
+          "Yarhamukallah"
+        ],
+        [
+          "Sorry for a bad deed",
+          "Astaghfirullah"
+        ],
+        [
+          "In every situation",
+          "Alhamdulillah"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What do we say when we admire something?",
+          "options": [
+            "MashaAllah",
+            "Astaghfirullah",
+            "Bismillah",
+            "Ya Allah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say when someone sneezes?",
+          "options": [
+            "Yarhamukallah",
+            "InshaAllah",
+            "Subhanallah",
+            "Na‘udhu billah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say after eating?",
+          "options": [
+            "Alhamdulillah",
+            "Goodbye",
+            "InshaAllah",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Should we blow on hot food?",
+          "options": [
+            "No",
+            "Yes",
+            "Only soup",
+            "Only tea"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Use them",
+      "prompts": [
+        "🗣️ Use these words every day this week – count how many times you say Alhamdulillah!"
+      ]
+    }
+  ]
+}
