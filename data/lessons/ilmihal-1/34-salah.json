@@ -1,0 +1,125 @@
+{
+  "title": "Salah",
+  "pages": "34",
+  "intro": "Salah is the second pillar of Islam – given to us by Allah in the heavens.",
+  "learn": [
+    {
+      "type": "heading",
+      "text": "Why Salah is important"
+    },
+    {
+      "type": "text",
+      "html": "Salah is the second main duty of a Muslim – the second pillar of Islam. It was commanded right after the Shahadah, directly by Allah, <b>in the heavens</b> – unlike the other duties, which were commanded on earth. Because it is so important, Allah mentions Salah in more than <b>100 places</b> in the Qur’an, and it is the <b>first</b> thing we will be asked about on the Day of Judgement."
+    },
+    {
+      "type": "heading",
+      "text": "Praying Salah"
+    },
+    {
+      "type": "text",
+      "html": "Salah is the best way to show obedience and thanks to Allah. All of Allah’s messengers and their peoples prayed. Not only people on earth – the angels and jinn also show obedience to Allah through prayer."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "Muhammad (SAW) said: <i>“And know that your best deed is the prayer.”</i> <small>(Ahmad)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "What Salah gives us"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Allah cleans us from our sins and promises help and reward",
+        "in Salah we are closest to our Lord, so we ask Him for help",
+        "we learn to be thankful and on time",
+        "it is good for the body – exercise and cleanliness"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "What does Salah give us?",
+      "prompt": "Tap everything, then tap Check.",
+      "options": [
+        {
+          "text": "🧼 Allah cleans us from sins",
+          "correct": true
+        },
+        {
+          "text": "🤲 We are close to Allah",
+          "correct": true
+        },
+        {
+          "text": "⏰ We learn to be on time",
+          "correct": true
+        },
+        {
+          "text": "💪 Exercise for the body",
+          "correct": true
+        },
+        {
+          "text": "🎮 More time for games",
+          "correct": false,
+          "why": "Salah is worship – we stand before Allah."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "Which pillar of Islam is Salah?",
+          "options": [
+            "The second",
+            "The first",
+            "The fourth",
+            "The fifth"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where was Salah commanded?",
+          "options": [
+            "In the heavens",
+            "In a shop",
+            "At school",
+            "In the sea"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many times is Salah mentioned in the Qur’an?",
+          "options": [
+            "More than 100",
+            "Only once",
+            "Two times",
+            "Never"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did the Prophet (SAW) say is our best deed?",
+          "options": [
+            "The prayer",
+            "Sleeping",
+            "Playing",
+            "Eating"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 Which is the second pillar of Islam? When and where was Salah commanded?",
+        "💬 Why is Salah important? What does it give us?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "title": "The conditions of Salah",
+  "pages": "35",
+  "intro": "Twelve conditions: six before Salah and six during it.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "The <b>conditions of Salah</b> are what we must fulfil for our Salah to be right. There are <b>twelve</b>: six <b>before</b> Salah and six <b>during</b> Salah."
+    },
+    {
+      "type": "heading",
+      "text": "6 before Salah – getting ready"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🧼",
+          "label": "1. A clean body, clothes and place"
+        },
+        {
+          "icon": "💧",
+          "label": "2. Wudu – or ghusl if needed, or tayammum if there is no water"
+        },
+        {
+          "icon": "👕",
+          "label": "3. Being properly dressed"
+        },
+        {
+          "icon": "🕐",
+          "label": "4. Praying on time"
+        },
+        {
+          "icon": "🕋",
+          "label": "5. Facing the Qiblah"
+        },
+        {
+          "icon": "💭",
+          "label": "6. The niyyah – deciding to pray"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6 during Salah – the parts of Salah"
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🙌",
+          "label": "1. Iftitah takbir – the opening takbir"
+        },
+        {
+          "icon": "🧍",
+          "label": "2. Qiyam – standing"
+        },
+        {
+          "icon": "📖",
+          "label": "3. Qira’ah – reciting the Qur’an"
+        },
+        {
+          "icon": "🙇",
+          "label": "4. Ruku‘ – bowing"
+        },
+        {
+          "icon": "🛐",
+          "label": "5. Sajdah – face to the ground"
+        },
+        {
+          "icon": "🧎",
+          "label": "6. Qa‘dah akhirah – the last sitting"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "6 + 6 = 12. Without all twelve conditions, Salah is <b>not right</b>!"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Before or during Salah?",
+      "prompt": "Is it a condition before Salah or a part during Salah?",
+      "bins": [
+        "Before – getting ready",
+        "During – parts of Salah"
+      ],
+      "items": [
+        {
+          "text": "Wudu",
+          "bin": 0
+        },
+        {
+          "text": "Facing the Qiblah",
+          "bin": 0
+        },
+        {
+          "text": "The niyyah",
+          "bin": 0
+        },
+        {
+          "text": "Being on time",
+          "bin": 0
+        },
+        {
+          "text": "Ruku‘",
+          "bin": 1
+        },
+        {
+          "text": "Sajdah",
+          "bin": 1
+        },
+        {
+          "text": "Standing",
+          "bin": 1
+        },
+        {
+          "text": "The last sitting",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many conditions of Salah are there?",
+          "options": [
+            "12",
+            "5",
+            "6",
+            "33"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many are before Salah?",
+          "options": [
+            "6",
+            "12",
+            "3",
+            "2"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is qiyam?",
+          "options": [
+            "Standing in Salah",
+            "Bowing",
+            "Sitting",
+            "Reciting"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happens without all the conditions?",
+          "options": [
+            "Salah is not right",
+            "Nothing",
+            "It is better",
+            "It is shorter"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions to talk about",
+      "prompts": [
+        "💬 What are the conditions of Salah? How many are there?",
+        "🗣️ Name the six things we do to get ready, and the six parts of Salah."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "title": "The dua after eating with its meaning",
+  "pages": "50",
+  "intro": "After eating we thank Allah for the food and drink He gave us.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "O believers, eat of the good things We have provided for you, and be grateful to Allah, if it is Him you worship. <small>(Qur’an, Al-Baqarah 2:172)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Muslims thank Allah in every situation – and also after eating, for the provision He gave. It is lovely to recite this dua after eating:"
+    },
+    {
+      "type": "phrase",
+      "label": "The dua after eating",
+      "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ. كُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ. الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِينَ",
+      "tr": "Bismillaahir-Rahmaanir-Raheem. Kuloo washraboo wa laa tusrifoo, innahoo laa yuhibbul-musrifeen. Al-hamdu lillaahil-ladhee at‘amanaa wa saqaanaa wa ja‘alanaa minal-muslimeen.",
+      "en": "In the name of Allah, the Most Gracious, the Most Merciful. Eat and drink, but do not be excessive; He does not love those who are excessive. Praise be to Allah who gave us food and drink and made us Muslims."
+    },
+    {
+      "type": "text",
+      "html": "The Prophet (SAW) thanked Allah after eating and recommended that we make dua too. The dua does not have to be in Arabic – we can thank Allah in our own language as well."
+    },
+    {
+      "type": "text",
+      "html": "Listen and repeat: <a href=\"../../../games/dove-dova-poslije-jela/\">Dua after Eating with the recording</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The dua in order",
+      "prompt": "Put the parts of the dua in order.",
+      "items": [
+        "Bismillaahir-Rahmaanir-Raheem",
+        "Kuloo washraboo wa laa tusrifoo",
+        "innahoo laa yuhibbul-musrifeen",
+        "Al-hamdu lillaahil-ladhee at‘amanaa wa saqaanaa",
+        "wa ja‘alanaa minal-muslimeen"
+      ]
+    },
+    {
+      "type": "memory",
+      "title": "Match the words and meaning",
+      "pairs": [
+        [
+          "Kuloo washraboo",
+          "Eat and drink"
+        ],
+        [
+          "wa laa tusrifoo",
+          "but do not be excessive"
+        ],
+        [
+          "at‘amanaa wa saqaanaa",
+          "gave us food and drink"
+        ],
+        [
+          "wa ja‘alanaa minal-muslimeen",
+          "and made us Muslims"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "When do we recite this dua?",
+          "options": [
+            "After eating",
+            "Before sleeping",
+            "At the adhan",
+            "On Friday only"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Must the dua be in Arabic?",
+          "options": [
+            "No – we can thank Allah in our own language too",
+            "Yes, always",
+            "Only on Eid",
+            "We don’t need to thank Allah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does “wa ja‘alanaa minal-muslimeen” mean?",
+          "options": [
+            "And made us Muslims",
+            "Eat and drink",
+            "Do not be excessive",
+            "In the name of Allah"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Practise",
+      "prompts": [
+        "🗣️ Recite the dua after eating to your muallim.",
+        "🍽️ Say it at home after every meal this week."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "title": "Halal and haram",
+  "pages": "56",
+  "intro": "Halal is what Allah allowed; haram is what He strictly forbade.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Allah created everything on earth for people and made it serve them. Nature, plants and animals were created for people to benefit from."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“The halal is clear and the haram is clear.”</i> <small>(Muslim)</small>"
+    },
+    {
+      "type": "text",
+      "html": "Among Allah’s many blessings He set His limits, called <b>halal</b> and <b>haram</b>. <b>Halal</b> is everything Allah has allowed; <b>haram</b> is everything He has strictly forbidden. The rules of halal and haram are in the Qur’an and stay valid until the Day of Judgement."
+    },
+    {
+      "type": "text",
+      "html": "What Allah made halal is <b>much more</b> than what He made haram. Our Lord forbade everything that harms people – bad deeds, food and drink. By keeping to halal and avoiding haram, Muslims show obedience to Allah and will be rewarded. Doing haram is a sin with consequences in this world and the next."
+    },
+    {
+      "type": "point",
+      "title": "Why?",
+      "html": "The aim of what is commanded and forbidden is to protect our faith, our health and the life Allah gave us. Every halal brings many benefits in this world and the next, while haram harms the person who does it, their family, the jama‘ah and society. So every Muslim should point out haram and its harm."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Halal or haram?",
+      "prompt": "Which is it?",
+      "bins": [
+        "✅ Halal",
+        "❌ Haram"
+      ],
+      "items": [
+        {
+          "text": "Fruit and vegetables",
+          "bin": 0
+        },
+        {
+          "text": "Honest work",
+          "bin": 0
+        },
+        {
+          "text": "Food with a halal logo",
+          "bin": 0
+        },
+        {
+          "text": "Stealing",
+          "bin": 1
+        },
+        {
+          "text": "Alcohol",
+          "bin": 1
+        },
+        {
+          "text": "Lying",
+          "bin": 1
+        },
+        {
+          "text": "Pork",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is halal?",
+          "options": [
+            "Everything Allah has allowed",
+            "Everything that is expensive",
+            "Only food",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is haram?",
+          "options": [
+            "Everything Allah has strictly forbidden",
+            "Everything that is new",
+            "Only drinks",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which is more – halal or haram?",
+          "options": [
+            "Halal – much more",
+            "Haram",
+            "They are the same",
+            "There is no halal"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why did Allah forbid some things?",
+          "options": [
+            "Because they harm people",
+            "For no reason",
+            "To make life boring",
+            "Because they are cheap"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "🛒 When you go shopping, look for products with a halal logo.",
+        "📋 Make a list of halal and haram products and talk with your friends about it."
+      ]
+    }
+  ]
+}

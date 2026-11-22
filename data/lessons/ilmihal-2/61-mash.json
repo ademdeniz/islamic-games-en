@@ -1,0 +1,150 @@
+{
+  "title": "Wiping over socks and bandages (mash)",
+  "pages": "61",
+  "intro": "Allah made wudu easier: we can wipe over leather socks and bandages.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Mash</b> means wiping a part of the body, or something on it, with a wet hand. For example, in wudu we wipe part of the head; we can also wipe over <b>khuffs</b> (leather socks) and over a <b>bandage</b>."
+    },
+    {
+      "type": "text",
+      "html": "<b>Khuffs</b> are light leather socks or slippers. Wiping over them is an easing (rukhsah) in wudu – because of illness, cold weather, travel and so on."
+    },
+    {
+      "type": "heading",
+      "text": "How it works"
+    },
+    {
+      "type": "list",
+      "items": [
+        "After making wudu, the person puts on the khuffs.",
+        "When making wudu again, they don’t wash the feet – they wipe over the khuffs with a wet hand.",
+        "With the fingers of the right hand we wipe the right khuff from the toes toward the ankle, then with the left hand the left khuff the same way."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "How long?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "At home: <b>24 hours</b>",
+        "Travelling: <b>72 hours</b>"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Wiping over khuffs is not valid if they"
+    },
+    {
+      "type": "list",
+      "items": [
+        "are torn",
+        "are dirty",
+        "are too low and don’t cover the ankles",
+        "were put on before making wudu"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Wiping is broken by taking the khuffs off, by the time running out, and by everything that breaks wudu."
+    },
+    {
+      "type": "point",
+      "title": "Bandages",
+      "html": "Someone with an injury on a part washed in wudu, under a bandage, plaster cast or splint that must not be removed, wipes over the bandage or cast with a wet hand."
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Valid or not?",
+      "prompt": "Can we wipe over these khuffs?",
+      "bins": [
+        "✅ Valid",
+        "❌ Not valid"
+      ],
+      "items": [
+        {
+          "text": "Clean khuffs put on after wudu",
+          "bin": 0
+        },
+        {
+          "text": "Khuffs that cover the ankles",
+          "bin": 0
+        },
+        {
+          "text": "Torn khuffs",
+          "bin": 1
+        },
+        {
+          "text": "Dirty khuffs",
+          "bin": 1
+        },
+        {
+          "text": "Khuffs put on before wudu",
+          "bin": 1
+        },
+        {
+          "text": "Low khuffs below the ankles",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is mash?",
+          "options": [
+            "Wiping with a wet hand",
+            "Washing three times",
+            "A kind of dua",
+            "Sleeping"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How long can someone at home wipe over khuffs?",
+          "options": [
+            "24 hours",
+            "72 hours",
+            "One week",
+            "Forever"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How long can a traveller wipe over khuffs?",
+          "options": [
+            "72 hours",
+            "24 hours",
+            "One hour",
+            "No time"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which way do we wipe the khuff?",
+          "options": [
+            "From the toes toward the ankle",
+            "From the ankle to the toes",
+            "In circles",
+            "We don’t wipe"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "🩹 What should someone do who for health reasons must not wet a part of the skin for a while, but that part is not under a bandage?"
+      ]
+    }
+  ]
+}

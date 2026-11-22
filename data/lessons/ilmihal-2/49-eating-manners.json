@@ -1,0 +1,153 @@
+{
+  "title": "Manners when eating",
+  "pages": "49",
+  "intro": "The Prophet (SAW) taught us how to eat: Bismillah, the right hand, and what is in front of you.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Every people has a religion or culture that has left a mark on every part of life – also on eating. Islam has taught us manners for eating, too, through the practice of Muhammad (SAW)."
+    },
+    {
+      "type": "heading",
+      "text": "Before eating"
+    },
+    {
+      "type": "list",
+      "items": [
+        "make sure the food and drink are <b>halal</b>, with nothing haram or doubtful",
+        "always <b>wash the hands</b>",
+        "eat together with the family",
+        "let the host or the oldest family member start first",
+        "begin with <b>Bismillah</b>"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Sunnah manners while eating"
+    },
+    {
+      "type": "list",
+      "items": [
+        "eat with the <b>right hand</b>",
+        "eat from what is <b>in front of you</b>",
+        "be content with the food prepared",
+        "never find fault with food",
+        "do not eat food that is too hot",
+        "do not overeat",
+        "after eating, thank Allah: <b>Alhamdulillah</b>",
+        "wash the hands, mouth and teeth"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said to ‘Umar ibn Abi Salamah: <i>“Young man, mention Allah’s name, eat with your right hand, and eat from what is in front of you!”</i> <small>(Bukhari)</small>"
+    },
+    {
+      "type": "point",
+      "title": "⭐ Remember",
+      "html": "If we forget to say Bismillah at the start, when we remember we say: <b>Bismillaahi fee awwalihee wa aakhirihee</b> – in the name of Allah at its beginning and its end."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "A meal the Sunnah way",
+      "prompt": "Put it in order.",
+      "items": [
+        "Wash the hands",
+        "Say Bismillah",
+        "Eat with the right hand, from in front of you",
+        "Say Alhamdulillah",
+        "Wash the hands, mouth and teeth"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "Good manners at the table",
+      "prompt": "Tap every Sunnah manner, then tap Check.",
+      "options": [
+        {
+          "text": "Eating with the right hand",
+          "correct": true
+        },
+        {
+          "text": "Eating from in front of you",
+          "correct": true
+        },
+        {
+          "text": "Eating together with the family",
+          "correct": true
+        },
+        {
+          "text": "Being content with the food",
+          "correct": true
+        },
+        {
+          "text": "Saying the food is horrible",
+          "correct": false,
+          "why": "We never find fault with food."
+        },
+        {
+          "text": "Grabbing food from the other side of the table",
+          "correct": false,
+          "why": "We eat from what is in front of us."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What do we say before eating?",
+          "options": [
+            "Bismillah",
+            "Ameen",
+            "Goodbye",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which hand do we eat with?",
+          "options": [
+            "The right",
+            "The left",
+            "Both",
+            "It doesn’t matter"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What do we say if we forgot Bismillah?",
+          "options": [
+            "Bismillaahi fee awwalihee wa aakhirihee",
+            "Allaahu akbar",
+            "As-salaamu ‘alaykum",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who should start eating first?",
+          "options": [
+            "The host or the oldest family member",
+            "The youngest",
+            "Whoever is fastest",
+            "The guest’s pet"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Talk with your muallim",
+      "prompts": [
+        "🍴 In a restaurant the fork is on the left and the glass on your left side. How will you eat and drink the Sunnah way?",
+        "👵 Talk with your grandparents about the “sofra” – the old custom of eating together around a low table. Write the most interesting things in your notebook."
+      ]
+    }
+  ]
+}
