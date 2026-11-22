@@ -1,0 +1,220 @@
+{
+  "title": "Modesty and moderation",
+  "pages": "76–77",
+  "intro": "Being humble with everyone, and keeping to the middle way in everything we do.",
+  "learn": [
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah tells the Prophet to be gentle and kind to the believers who follow him. <small>(Qur’an, Ash-Shu‘ara 26:215)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "Modesty"
+    },
+    {
+      "type": "text",
+      "html": "<b>Modesty</b> (humility) means behaving politely – <b>without arrogance</b>, but also without putting yourself down. A believer is not proud and full of himself, but he is not miserable either: he is steady and well-liked by everyone, and by all kinds of people."
+    },
+    {
+      "type": "text",
+      "html": "Modesty is a quality of all the prophets and an ornament of Islamic scholars and great people. Allah asks us to be modest and recommends it to us."
+    },
+    {
+      "type": "point",
+      "title": "Hadith",
+      "html": "The Prophet (SAW) said: <i>“Giving sadaqah does not make your wealth less. Allah only increases the honour of a person who forgives others. And nobody humbles himself for Allah’s sake without Allah raising him up.”</i> <small>(Muslim)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "⭐ How the Prophet (SAW) was modest"
+    },
+    {
+      "type": "list",
+      "items": [
+        "when he walked, he looked ahead of him",
+        "he was the first to say salam – to children and to grown-ups",
+        "he shook hands with everyone",
+        "he sat and ate with poor Muslims",
+        "he talked with the poor and let them visit him",
+        "he liked to mend his own clothes and shoes"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Who gathers the firewood?",
+      "html": "Once, on a journey, a sheep was brought to the Prophet (SAW) and his companions. One companion said: “I will slaughter it!” Another said: “I will skin it!” A third said: “I will cook it!” The Prophet (SAW) said: <i>“And I will gather the firewood!”</i> He chose the hardest job for himself, so that everyone could sit and eat together – warmly and with love."
+    },
+    {
+      "type": "heading",
+      "text": "Moderation"
+    },
+    {
+      "type": "text",
+      "html": "As well as modesty, it is good for a Muslim to have <b>moderation</b>. Moderation is the <b>middle between two extremes</b> – overdoing things and neglecting them. Islam is the religion of the <b>middle way</b>. We see moderation in every part of the Prophet’s (SAW) life: in his worship, in his speech and in his everyday life. He practised it, encouraged it, and warned against every kind of overdoing and neglect."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Do not keep your hand tied shut (being stingy), and do not open it all the way (wasting everything), or you will end up blamed and with nothing. Your Lord gives plenty to whom He wills and gives less to whom He wills – He knows and sees His servants. <small>(Qur’an, Al-Isra 17:29–30)</small>"
+    },
+    {
+      "type": "text",
+      "html": "A Muslim does not give up the rights and the <b>permitted good things</b> of this world that belong to him. But while he works in this world, he does not forget his duties for the next world (the Akhirah). He does not break Allah’s rules, and he is <b>not wasteful</b>. This is the middle way Allah set for us."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "O believers, do not forbid yourselves the good things Allah has made lawful for you, and do not go beyond the limits – Allah does not love those who go too far. <small>(Qur’an, Al-Ma’idah 5:87)</small>"
+    },
+    {
+      "type": "heading",
+      "text": "✋ Remember!"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A Muslim’s moderation is based on the Qur’an and the hadith of the Prophet (SAW).",
+        "Moderation makes us happy and content in life.",
+        "Moderation makes us dear to our friends.",
+        "Allah will reward us for moderation in this world and the next."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "choose_all",
+      "title": "Like the Prophet (SAW)",
+      "prompt": "Which of these show modesty? Tap them, then tap Check.",
+      "options": [
+        {
+          "text": "Saying salam first to a younger child",
+          "correct": true
+        },
+        {
+          "text": "Sitting and eating with someone who is poor",
+          "correct": true
+        },
+        {
+          "text": "Taking the hardest job so others can rest",
+          "correct": true
+        },
+        {
+          "text": "Fixing your own things",
+          "correct": true
+        },
+        {
+          "text": "Showing off your new phone",
+          "correct": false,
+          "why": "Showing off is arrogance – the opposite of modesty."
+        },
+        {
+          "text": "Only talking to the popular kids",
+          "correct": false,
+          "why": "The Prophet (SAW) talked with everyone, rich and poor."
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Too little, too much or just right?",
+      "prompt": "Where does each one belong?",
+      "bins": [
+        "🔽 Too little",
+        "⚖️ The middle way",
+        "🔼 Too much"
+      ],
+      "items": [
+        {
+          "text": "Never sharing anything with anyone",
+          "bin": 0
+        },
+        {
+          "text": "Spending all your money on sweets in one day",
+          "bin": 2
+        },
+        {
+          "text": "Saving some and giving some sadaqah",
+          "bin": 1
+        },
+        {
+          "text": "Eating until you feel sick",
+          "bin": 2
+        },
+        {
+          "text": "Eating enough and stopping before you are stuffed",
+          "bin": 1
+        },
+        {
+          "text": "Not studying at all",
+          "bin": 0
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What is modesty?",
+          "options": [
+            "Behaving politely, without arrogance",
+            "Thinking you are better than others",
+            "Never talking to anyone",
+            "Wearing expensive clothes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is moderation?",
+          "options": [
+            "The middle between overdoing and neglecting",
+            "Doing as much as possible of everything",
+            "Doing nothing at all",
+            "Giving away everything you have"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "On the journey, which job did the Prophet (SAW) take?",
+          "options": [
+            "Gathering the firewood",
+            "Cooking the meat",
+            "Skinning the sheep",
+            "Resting"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Allah do for a person who humbles himself for Allah?",
+          "options": [
+            "Raises him up",
+            "Makes him poorer",
+            "Nothing",
+            "Makes him famous on the internet"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Islam is the religion of …",
+          "options": [
+            "the middle way",
+            "extremes",
+            "wasting",
+            "laziness"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 What does modesty mean? How did the Prophet (SAW) show his modesty?",
+        "💬 What is moderation? How did the Prophet (SAW) teach his companions moderation?",
+        "📋 Be honest with yourself, and you will learn to be honest with others. Answer in a table: What are your good qualities? What are your bad qualities? What do your friends at maktab think of you? How are you different from others? What is the best good deed you have done?"
+      ]
+    }
+  ]
+}

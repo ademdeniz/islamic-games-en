@@ -1,0 +1,172 @@
+{
+  "title": "Asr prayer",
+  "pages": "78–79",
+  "intro": "The third daily prayer: 4 sunnah and 4 fard – 8 rak‘ahs.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "<b>Asr</b> is the third daily prayer. Its time is in the middle of the time between Dhuhr (midday) and sunset. It has <b>8 rak‘ahs</b>: four sunnah and four fard. We pray the sunnah first, then the fard."
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the sunnah of Asr",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ سُنَّةِ الْعَصْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata sunnatil-‘asri, adaa’an mustaqbilal-qiblati. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the sunnah of Asr, on time, facing the Qiblah. Allah is the Greatest!"
+    },
+    {
+      "type": "heading",
+      "text": "The sunnah – 4 rak‘ahs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "2nd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "First sitting: At-Tahiyyat and the salawat",
+        "3rd rak‘ah: Subhanaka, Bismillah, Al-Fatiha and a surah",
+        "4th rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "Last sitting: At-Tahiyyat, salawat, duas and salam"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "💡 Look closely",
+      "html": "In the sunnah of Asr, the first sitting has At-Tahiyyat <b>and the salawat</b>, and the 3rd rak‘ah starts again with <b>Subhanaka</b>. In the Dhuhr sunnah it was different!"
+    },
+    {
+      "type": "phrase",
+      "label": "Niyyah for the fard of Asr",
+      "ar": "نَوَيْتُ أَنْ أُصَلِّيَ لِلَّهِ تَعَالَى صَلَاةَ فَرْضِ الْعَصْرِ أَدَاءً مُسْتَقْبِلَ الْقِبْلَةِ، اللَّهُ أَكْبَرُ",
+      "tr": "Nawaytu an usalliya lillaahi ta‘aalaa salaata fardil-‘asri, adaa’an mustaqbilal-qiblati. Allaahu akbar!",
+      "en": "I intend to pray, for Allah, the fard of Asr, on time, facing the Qiblah. Allah is the Greatest!"
+    },
+    {
+      "type": "heading",
+      "text": "The fard – 4 rak‘ahs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st rak‘ah: Subhanaka, A‘udhu, Bismillah, Al-Fatiha and a surah",
+        "2nd rak‘ah: Bismillah, Al-Fatiha and a surah",
+        "First sitting: At-Tahiyyat",
+        "3rd rak‘ah: Bismillah and Al-Fatiha",
+        "4th rak‘ah: Bismillah and Al-Fatiha",
+        "Last sitting: At-Tahiyyat, salawat, duas and salam"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "Practise: <a href=\"../../../games/sastavi-namaz/\">Build the Salah</a> – the Asr levels, and <a href=\"../../../games/dove-ettehijjatu/\">At-Tahiyyatu, Salawat and Duas</a>."
+    }
+  ],
+  "practice": [
+    {
+      "type": "order",
+      "title": "The sunnah of Asr in order",
+      "prompt": "Put the parts of the Asr sunnah in order.",
+      "items": [
+        "1st rak‘ah",
+        "2nd rak‘ah",
+        "First sitting: At-Tahiyyat and salawat",
+        "3rd rak‘ah: starting with Subhanaka",
+        "4th rak‘ah",
+        "Last sitting and salam"
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "In the 3rd rak‘ah of the Asr sunnah",
+      "prompt": "What do we recite standing? Tap them, then tap Check.",
+      "options": [
+        {
+          "text": "Subhanaka",
+          "correct": true
+        },
+        {
+          "text": "Bismillah",
+          "correct": true
+        },
+        {
+          "text": "Al-Fatiha",
+          "correct": true
+        },
+        {
+          "text": "A surah",
+          "correct": true
+        },
+        {
+          "text": "At-Tahiyyat",
+          "correct": false,
+          "why": "At-Tahiyyat is recited sitting, not standing."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "How many rak‘ahs does Asr have in total?",
+          "options": [
+            "8",
+            "10",
+            "4",
+            "13"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How is Asr divided?",
+          "options": [
+            "4 sunnah and 4 fard",
+            "4 sunnah, 4 fard and 2 sunnah",
+            "2 sunnah and 2 fard",
+            "3 fard and 2 sunnah"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When is the time of Asr?",
+          "options": [
+            "In the middle of the time between midday and sunset",
+            "At dawn",
+            "Just after sunset",
+            "When night has fully fallen"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "In the 3rd and 4th rak‘ah of the Asr fard we recite …",
+          "options": [
+            "Bismillah and Al-Fatiha",
+            "Bismillah, Al-Fatiha and a surah",
+            "Subhanaka only",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which words are in the niyyah for the fard of Asr?",
+          "options": [
+            "“fardil-‘asri”",
+            "“sunnatil-‘asri”",
+            "“fardidh-dhuhri”",
+            "“salaatal-witri”"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 How many rak‘ahs does Asr have, and how are they divided? What is the niyyah for the fard of Asr?",
+        "📋 In your maktab notebook, draw a table of what we recite in each rak‘ah of Asr. Colour the rak‘ahs where we recite the same thing with the same colour, and compare it with Dhuhr.",
+        "💬 Talk with your muallim: Salah is a blessing and a way of thanking Allah for the many blessings I have!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "title": "The middle way",
+  "pages": "93",
+  "intro": "Islam teaches balance: not going to extremes, and giving everything its right.",
+  "learn": [
+    {
+      "type": "text",
+      "html": "Every day in Salah we ask Allah to guide us to the <b>Straight Path</b> – the basic condition for a successful life in this world. Staying on the Straight Path means keeping to the <b>middle way</b>. In the Qur’an, Allah described Muslims as a people of the middle, of moderation and balance."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Allah tells us that He made the Muslims a just, balanced community, so that they would be witnesses over people, and the Messenger a witness over them. <small>(Qur’an, Al-Baqarah 2:143)</small>"
+    },
+    {
+      "type": "text",
+      "html": "The middle way means looking for the middle and the <b>balance</b> between two opposite extremes. It is the way of keeping balance so that neither side wins, and following what is most valuable, most just, best and most complete."
+    },
+    {
+      "type": "text",
+      "html": "Following the middle way and being balanced in practising the religion and in life is very important for the <b>unity, harmony and peace</b> of the community. The middle way puts nobody below others and gives everyone the right they deserve in the community."
+    },
+    {
+      "type": "text",
+      "html": "Islam teaches, raises and guides Muslims <b>not to go to extremes</b>, but to keep to the middle way – the way walked by those Allah is pleased with and to whom He gave His blessings."
+    },
+    {
+      "type": "heading",
+      "text": "Examples of the middle way"
+    },
+    {
+      "type": "point",
+      "title": "1. This world and the next",
+      "html": "Islam asks us to work and earn for this world and to provide for ourselves and our family, but it also asks us to strive for the eternal life to come."
+    },
+    {
+      "type": "point",
+      "title": "📖 In the Qur’an",
+      "html": "Seek, through what Allah has given you, the home of the Hereafter, but do not forget your share of this world, and do good to others as Allah has done good to you. <small>(Qur’an, Al-Qasas 28:77)</small>"
+    },
+    {
+      "type": "point",
+      "title": "2. Me and the community",
+      "html": "Islam calls us to hold firmly to the community and to be its most useful members. At the same time, it asks us to give time to our <b>family</b> and to our own <b>health</b>. So we need to find a balance between both duties."
+    },
+    {
+      "type": "cards",
+      "items": [
+        {
+          "icon": "🕌",
+          "label": "Worship – regularly, without overdoing it"
+        },
+        {
+          "icon": "💼",
+          "label": "Work and earn for yourself and your family"
+        },
+        {
+          "icon": "👨‍👩‍👧",
+          "label": "Time for family and your own health"
+        },
+        {
+          "icon": "🤝",
+          "label": "Be a useful member of the community"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "title": "💬 Talk with your muallim",
+      "html": "<i>I don’t overdo things, but I do my tasks and duties regularly.</i>"
+    }
+  ],
+  "practice": [
+    {
+      "type": "sort",
+      "title": "Extreme or the middle way?",
+      "prompt": "Is this the middle way or going to an extreme?",
+      "bins": [
+        "⚖️ Middle way",
+        "↔️ An extreme"
+      ],
+      "items": [
+        {
+          "text": "Praying all five prayers on time and also doing homework and playing",
+          "bin": 0
+        },
+        {
+          "text": "Working and earning, and also remembering the Hereafter",
+          "bin": 0
+        },
+        {
+          "text": "Helping in the community and also spending time with family",
+          "bin": 0
+        },
+        {
+          "text": "Thinking only about money and forgetting Salah",
+          "bin": 1
+        },
+        {
+          "text": "Praying only sometimes, when you feel like it",
+          "bin": 1
+        },
+        {
+          "text": "Staying in the masjid all day and never helping your family",
+          "bin": 1
+        }
+      ]
+    },
+    {
+      "type": "choose_all",
+      "title": "What does the middle way mean?",
+      "prompt": "Tap every true sentence, then tap Check.",
+      "options": [
+        {
+          "text": "Looking for balance between two extremes",
+          "correct": true
+        },
+        {
+          "text": "Giving everyone the right they deserve",
+          "correct": true
+        },
+        {
+          "text": "Not going to extremes",
+          "correct": true
+        },
+        {
+          "text": "Praying only now and then",
+          "correct": false,
+          "why": "The middle way is not praying sometimes – we pray all our prayers regularly."
+        },
+        {
+          "text": "Caring only about this world",
+          "correct": false,
+          "why": "Islam asks us to work for this world and also for the Hereafter."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Quick quiz",
+      "questions": [
+        {
+          "q": "What do we ask Allah for every day in Salah?",
+          "options": [
+            "To guide us to the Straight Path",
+            "To make us famous",
+            "To give us toys",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How did Allah describe the Muslims in Surah Al-Baqarah (2:143)?",
+          "options": [
+            "As a just, balanced community",
+            "As the richest people",
+            "As people who never work",
+            "As people who live alone"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Allah say in Surah Al-Qasas (28:77)?",
+          "options": [
+            "Seek the Hereafter, but don’t forget your share of this world",
+            "Forget this world completely",
+            "Think only about this world",
+            "Don’t work at all"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does the middle way bring to the community?",
+          "options": [
+            "Unity, harmony and peace",
+            "Quarrels",
+            "Loneliness",
+            "Laziness"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "title": "Questions and tasks",
+      "prompts": [
+        "💬 What is the middle way? What are some examples of balance?",
+        "🤝 Task 1: You have two friends. One comes to the masjid regularly but his family has little money. The other is from a rich family but rarely goes to the masjid. What advice would you give each of them?",
+        "✏️ Task 2: Write a short essay: “The middle way does not mean praying only sometimes!”",
+        "💬 Talk with your muallim: I don’t overdo things, but I do my tasks and duties regularly."
+      ]
+    }
+  ]
+}
